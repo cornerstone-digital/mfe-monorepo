@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "es6",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "removeComments": false,
+    "baseUrl": "./",
+    "checkJs": false,
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "module": "CommonJS",
+    "paths": {
+      "@web-core/*": ["@vfuk/web-core/*"],
+      "@web-cms-core/*": ["@vfuk/web-cms-core/*"],
+      "@web-shop-core/*": ["@vfuk/web-shop-core/*"],
+      "@lib-web-analytics/*": ["@vfuk/lib-web-analytics/*"],
+      "@basketMocks/*": ["./__mockapi__/responses/*"],
+      "@components/*": ["./app/client/components/*"],
+      "@constants": ["./app/client/constants"],
+      "@containers/*": ["./app/client/containers/*"],
+      "@cypress-root/*": ["./cypress/*"],
+      "@helpers/*": ["./app/client/helpers/*"],
+      "@hooks/*": ["./app/client/hooks/*"],
+      "@pages/*": ["./app/client/pages/*"],
+      "@server/*": ["./app/server/*"],
+      "@shared/*": ["./app/shared/*"],
+      "@store": ["./app/client/store"],
+      "@store/*": ["./app/client/store/*"],
+      "@utilities/*": ["./app/client/utilities/*"],
+      "@tools/*": ["./tools/*"]
+    },
+    "typeRoots": ["./shared/types", "./node_modules/@types", "../../node_modules/@types"]
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules", "cypress/**/*"]
+}

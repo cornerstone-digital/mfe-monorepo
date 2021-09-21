@@ -1,0 +1,101 @@
+{
+  "extends": [
+    "plugin:sonarjs/recommended",
+    "plugin:react/recommended",
+    "plugin:jsx-control-statements/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react-prefer-function-component/recommended",
+    "eslint:recommended"
+  ],
+  "env": {
+    "es6": true,
+    "jest": true,
+    "browser": true,
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "no-unused-expressions": 2,
+    "jsx-control-statements/jsx-use-if-tag": 0,
+    "semi": "off",
+    "@typescript-eslint/semi": 0,
+    "comma-dangle": 0,
+    "global-require": 0,
+    "trailing-comma": 0,
+    "jsx-quotes": ["error", "prefer-double"],
+    "react-prefer-function-component/react-prefer-function-component": 1,
+    "react/react-in-jsx-scope": 0,
+    "react/no-unescaped-entities": 2,
+    "@typescript-eslint/no-unused-vars": ["error"],
+    "react/prop-types": 0,
+    "jsx-control-statements/jsx-jcs-no-undef": 0,
+    "react/jsx-no-undef": [
+      "error",
+      {
+        "allowGlobals": true
+      }
+    ],
+    "sonarjs/cognitive-complexity": 0,
+    "sonarjs/no-duplicate-string": 0,
+    "max-depth": ["error", 3],
+    "max-len": [
+      "error",
+      {
+        "code": 140,
+        "ignoreTemplateLiterals": true,
+        "ignoreStrings": true,
+        "ignoreRegExpLiterals": false
+      }
+    ],
+    "@typescript-eslint/member-delimiter-style": [
+      "error",
+      {
+        "multiline": {
+          "delimiter": "none",
+          "requireLast": true
+        }
+      }
+    ]
+  },
+  "plugins": [
+    "react",
+    "jsx-control-statements",
+    "@typescript-eslint",
+    "sonarjs",
+    "prettier",
+    "react-prefer-function-component",
+    "better-styled-components"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true,
+      "jsx": true
+    }
+  },
+  "globals": {
+    "preval": true,
+    "snapshot": true,
+    "shallow": true,
+    "mount": true,
+    "Feature": true,
+    "Scenario": true,
+    "WEBPACK_ASSET_PREFIX": true,
+    "Application": true,
+    "NodeJS": true,
+    "OmitOptionals": true,
+    "qs": true,
+    "JSX": true,
+    "React": true,
+    "BasketV2": true,
+    "BasketPageContent": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
