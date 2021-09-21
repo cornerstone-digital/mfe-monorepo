@@ -1,0 +1,40 @@
+{
+  "basketId": "17a12ead-1e5c-447f-9f2d-6adb5e0b1be1",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2021-03-09T01:06:52.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": null,
+  "packages": [],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": null,
+    "oneOffDiscountPrice": null,
+    "monthlyPrice": null,
+    "monthlyDiscountPrice": null,
+    "totalOneoffSaving": null,
+    "totalMonthlySaving": null
+  },
+  "totalOneoffPriceSaving": null,
+  "totalMonthlyPriceSaving": null,
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "-785459562",
+  "lastModified": "2021-04-14T16:20:11.607Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

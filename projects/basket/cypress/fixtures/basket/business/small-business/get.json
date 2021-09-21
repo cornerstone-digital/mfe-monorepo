@@ -1,0 +1,628 @@
+{
+    "basketId": "23526725-0be2-41fb-9ff7-ac07f481fc37",
+    "affiliateId": null,
+    "source": "WCS",
+    "customerRequestedDate": "2021-09-07T11:44:42",
+    "metadata": {
+      "returnURL": null,
+      "basketStatus": "INCOMPLETE",
+      "salesOrderId": null,
+      "reason": null
+    },
+    "journey": {
+      "journeyType": "Acquisition",
+      "offerCode": null
+    },
+    "packages": [
+      {
+        "packageId": "84093306-158c-4635-b0f2-4cbeaa4be14e",
+        "accountCategory": "business",
+        "accountSubCategory": "smallBusiness",
+        "sequence": 1,
+        "packageType": "Acquisition",
+        "removable": true,
+        "dependentOn": [],
+        "voucherCode": null,
+        "bundle": {
+          "packageLineId": "e04d6db0-3934-4a11-bb51-d1f18ccde5d8",
+          "action": "ADD",
+          "skuId": "114090",
+          "name": "36month Band O Unlimited Max Business Plan with VGR Plus",
+          "description": "STR4 Unlimited Max Business Plan with VGR Plus and Device Support",
+          "displayName": "Business Unlimited Max",
+          "displayDescription": null,
+          "bundleClass": "HANDSET",
+          "productClass": null,
+          "serviceId": "110286",
+          "paymentType": "Postpaid",
+          "bundleType": "unlimitedMax81",
+          "commitmentPeriod": {
+            "uom": "Months",
+            "value": "36"
+          },
+          "displayOrder": null,
+          "showInSummary": false,
+          "allowances": [
+            {
+              "type": "UK MIN",
+              "value": "Unlimited",
+              "uom": "-",
+              "displayUom": "minutes",
+              "tilUom": "VOICE"
+            },
+            {
+              "type": "World Traveller",
+              "value": "Vodafone Global Roaming Plus",
+              "uom": null,
+              "displayUom": null,
+              "tilUom": null
+            },
+            {
+              "type": "UK TEXT",
+              "value": "Unlimited",
+              "uom": "-",
+              "displayUom": "texts",
+              "tilUom": "SMS"
+            },
+            {
+              "type": "UK DATA",
+              "value": "Unlimited",
+              "uom": "-",
+              "displayUom": "MB",
+              "tilUom": "DATA"
+            },
+            {
+              "type": "ORIGDATA",
+              "value": "Unlimited",
+              "uom": "-",
+              "displayUom": "MB",
+              "tilUom": "DATA"
+            }
+          ],
+          "merchandisingMedia": [
+            {
+              "id": "full_duration.merchandisingPromotions.merchandisingPromotion.description",
+              "value": "Save £2pm",
+              "type": "TEXT",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "full_duration.merchandisingPromotions.merchandisingPromotion.label",
+              "value": "Save £2pm",
+              "type": "TEXT",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.sticker",
+              "value": "/images/desktop/5g_badge_digital.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            }
+          ],
+          "attributes": null,
+          "benefits": [],
+          "priceDetails": {
+            "monthlyPrice": {
+              "gross": "68.70",
+              "net": "57.25",
+              "vat": "11.45"
+            },
+            "monthlyDiscountPrice": {
+              "gross": "66.30",
+              "net": "55.25",
+              "vat": "11.05"
+            },
+            "totalMonthlySavingsAmount": {
+              "uom": "£",
+              "net": 2,
+              "vat": 0.4,
+              "gross": 2.4
+            },
+            "merchandisingPromotions": {
+              "tag": "Band6.Q.2GBPDISCOUNTULTDEBU",
+              "label": "Save £2pm",
+              "description": "Save £2pm - Watch Plan",
+              "discountId": "114458",
+              "mpType": "full_duration",
+              "priceEstablishedLabel": null,
+              "priority": "1392",
+              "packageType": [
+                "Acquisition",
+                "Upgrade"
+              ],
+              "footNotes": [
+                ""
+              ],
+              "confirmRequired": false,
+              "offerGroup": null,
+              "belowTheLine": "false",
+              "qualifier": null,
+              "category": null
+            },
+            "listOfMerchandisingPromotion": [
+              {
+                "tag": "Band6.Q.2GBPDISCOUNTULTDEBU",
+                "label": "Save £2pm",
+                "description": "Save £2pm - Watch Plan",
+                "discountId": "114458",
+                "mpType": "full_duration",
+                "priceEstablishedLabel": null,
+                "priority": "1392",
+                "packageType": [
+                  "Acquisition",
+                  "Upgrade"
+                ],
+                "footNotes": [
+                  ""
+                ],
+                "confirmRequired": false,
+                "offerGroup": null,
+                "belowTheLine": "false",
+                "qualifier": null,
+                "category": null
+              }
+            ],
+            "removedPromotionFootNote": null
+          },
+          "isVodafoneGlobalRoaming": true,
+          "bundledServiceProducts": [],
+          "planCategory": "BUSINESS",
+          "portability": null,
+          "speed": "MAX_AVAILABLE",
+          "maxCapSpeed": null,
+          "avgDownloadSpeed": null,
+          "includedCalls": null,
+          "noPriceRise": null,
+          "wifiExpert": null,
+          "broadbandAntiVirus": null,
+          "isChanged": false
+        },
+        "hardwares": [
+          {
+            "packageLineId": "5b9eb68d-0acf-44b2-b195-173cd5e05c7e",
+            "action": "ADD",
+            "skuId": "210735",
+            "name": "Apple iPhone 12 Pro 128GB pacific blue",
+            "description": "iPhone 12 Pro is a beautiful leap forward with superfast 5G, A14 Bionic chip and a pro camera system for next-level low-light photography.",
+            "displayName": "Apple iPhone 12 Pro 128GB Pacific Blue",
+            "shortDisplayName": "Apple iPhone 12 Pro",
+            "displayDescription": null,
+            "deviceBriefDescription": [
+              {
+                "key": "tradeIn",
+                "value": "true",
+                "type": null,
+                "valueUOM": null
+              }
+            ],
+            "deviceColor": "Pacific Blue",
+            "memorySize": "128 GB",
+            "make": "apple",
+            "model": "iphone-12-pro",
+            "groupType": "DEVICE_PAYM",
+            "productClass": "eHandset",
+            "productSubClass": "HANDSET",
+            "displayOrder": null,
+            "showInSummary": false,
+            "merchandisingMedia": [
+              {
+                "id": "imageURLs.full.hero",
+                "value": "/images/desktop/Apple_iPhone_12_Pro_pacific_blue-full-product-front-600.png",
+                "type": "URL",
+                "footNotes": [
+                  ""
+                ]
+              },
+              {
+                "id": "imageURLs.full.left",
+                "value": "/images/desktop/Apple_iPhone_12_Pro_pacific_blue-full-product-left-600.png",
+                "type": "URL",
+                "footNotes": [
+                  ""
+                ]
+              },
+              {
+                "id": "imageURLs.thumbs.back",
+                "value": "/images/desktop/Apple_iPhone_12_Pro_pacific_blue-thumbs-back.png",
+                "type": "URL",
+                "footNotes": [
+                  ""
+                ]
+              },
+              {
+                "id": "imageURLs.full.right",
+                "value": "/images/desktop/Apple_iPhone_12_Pro_pacific_blue-full-product-right-600.png",
+                "type": "URL",
+                "footNotes": [
+                  ""
+                ]
+              },
+              {
+                "id": "imageURLs.full.side",
+                "value": "/images/desktop/Apple_iPhone_12_Pro_pacific_blue-full-product-side-600.png",
+                "type": "URL",
+                "footNotes": [
+                  ""
+                ]
+              },
+              {
+                "id": "imageURLs.thumbs.left",
+                "value": "/images/desktop/Apple_iPhone_12_Pro_pacific_blue-thumbs-left.png",
+                "type": "URL",
+                "footNotes": [
+                  ""
+                ]
+              },
+              {
+                "id": "imageURLs.full.front",
+                "value": "/images/desktop/Apple_iPhone_12_Pro_pacific_blue-full-product-front-600.png",
+                "type": "URL",
+                "footNotes": [
+                  ""
+                ]
+              },
+              {
+                "id": "imageURLs.full.back",
+                "value": "/images/desktop/Apple_iPhone_12_Pro_pacific_blue-full-product-back-600.png",
+                "type": "URL",
+                "footNotes": [
+                  ""
+                ]
+              },
+              {
+                "id": "imageURLs.thumbs.side",
+                "value": "/images/desktop/Apple_iPhone_12_Pro_pacific_blue-thumbs-side.png",
+                "type": "URL",
+                "footNotes": [
+                  ""
+                ]
+              },
+              {
+                "id": "imageURLs.thumbs.right",
+                "value": "/images/desktop/Apple_iPhone_12_Pro_pacific_blue-thumbs-right.png",
+                "type": "URL",
+                "footNotes": [
+                  ""
+                ]
+              },
+              {
+                "id": "imageURLs.grid",
+                "value": "/images/desktop/Apple_iPhone_12_Pro_pacific_blue-grid-product-front.png",
+                "type": "URL",
+                "footNotes": [
+                  ""
+                ]
+              },
+              {
+                "id": "imageURLs.thumbs.front",
+                "value": "/images/desktop/Apple_iPhone_12_Pro_pacific_blue-thumbs-front.png",
+                "type": "URL",
+                "footNotes": [
+                  ""
+                ]
+              },
+              {
+                "id": "imageURLs.sticker",
+                "value": "/images/small/5G_logo.png",
+                "type": "URL",
+                "footNotes": [
+                  ""
+                ]
+              }
+            ],
+            "attributes": [],
+            "contractOptions": null,
+            "priceDetails": {
+              "oneOffPrice": {
+                "gross": "29.99",
+                "net": "24.99",
+                "vat": "5"
+              },
+              "oneOffDiscountPrice": {
+                "gross": "29.99",
+                "net": "24.99",
+                "vat": "5"
+              },
+              "merchandisingPromotions": null,
+              "monthlyPrice": null,
+              "monthlyDiscountPrice": null,
+              "financingOptions": [],
+              "deviceFinancingId": null,
+              "devicePaymentPlan": null
+            },
+            "boxPrice": {
+              "gross": "949.20",
+              "net": "791.0",
+              "vat": "158.20"
+            },
+            "freeGift": false,
+            "devicePromotion": "112686",
+            "simType": "HYBRID",
+            "colourName": "Pacific Blue",
+            "colourHexcode": "#234455",
+            "capacity": "128 GB",
+            "isChanged": false,
+            "isCompatibleWithWatch": true
+          },
+          {
+            "packageLineId": "ddb3ad35-bb1a-46b5-8d97-9527c4f159e2",
+            "action": "ADD",
+            "skuId": "086532",
+            "name": "Blank White Triple Format SIM",
+            "description": null,
+            "displayName": "3-in-1 SIM",
+            "shortDisplayName": null,
+            "displayDescription": null,
+            "deviceBriefDescription": [],
+            "deviceColor": null,
+            "memorySize": null,
+            "make": null,
+            "model": null,
+            "groupType": null,
+            "productClass": "SIM Card",
+            "productSubClass": "Core",
+            "displayOrder": null,
+            "showInSummary": false,
+            "merchandisingMedia": [],
+            "attributes": [],
+            "contractOptions": null,
+            "priceDetails": {
+              "oneOffPrice": {
+                "gross": "0",
+                "net": "0",
+                "vat": "0"
+              },
+              "oneOffDiscountPrice": {
+                "gross": "0",
+                "net": "0",
+                "vat": "0"
+              },
+              "merchandisingPromotions": null,
+              "monthlyPrice": null,
+              "monthlyDiscountPrice": null,
+              "financingOptions": [],
+              "deviceFinancingId": null,
+              "devicePaymentPlan": null
+            },
+            "boxPrice": {
+              "gross": "0.0",
+              "net": "0.0",
+              "vat": "0.0"
+            },
+            "freeGift": false,
+            "devicePromotion": null,
+            "simType": "PHYSICAL",
+            "colourName": null,
+            "colourHexcode": null,
+            "capacity": null,
+            "isChanged": false,
+            "isCompatibleWithWatch": false
+          }
+        ],
+        "services": [
+          {
+            "packageLineId": "9a5ba6bb-fb0f-46ef-a5a9-6dc109613f73",
+            "action": "ADD",
+            "skuId": "109609",
+            "name": "Business Standard Insurance + RAPID",
+            "description": "Cover for your phone if it's lost, stolen, damaged or suffers a fault or breakdown.  We aim to get a replacement to you anywhere in the UK within 4 hours. <a href=\"http://www.vodafone.co.uk/cs/groups/public/documents/webcontent/vodafone-rapid-service-terms.pdf\">Terms apply [PDF: 121KB]</a>",
+            "displayName": "Business Standard Insurance with Rapid",
+            "displayDescription": null,
+            "specificationGroup": [],
+            "merchandisingMedia": [],
+            "attributes": [],
+            "priceDetails": {
+              "oneOffPrice": null,
+              "oneOffDiscountPrice": null,
+              "monthlyPrice": {
+                "gross": "10",
+                "net": "10",
+                "vat": "0"
+              },
+              "monthlyDiscountPrice": {
+                "gross": "10",
+                "net": "10",
+                "vat": "0"
+              },
+              "merchandisingPromotions": null
+            },
+            "freeGift": false,
+            "productClass": "Insurance",
+            "dataRollover": null,
+            "rootProductId": "109609",
+            "allowances": null,
+            "rewardPoints": null,
+            "planDuration": null,
+            "isChanged": false
+          }
+        ],
+        "discounts": [
+          {
+            "productLineId": "5824d2c9-98b0-4de4-8299-203831db87fa",
+            "action": "DISCOUNT",
+            "skuId": "114458",
+            "tag": "Band6.Q.2GBPDISCOUNTULTDEBU",
+            "label": "Save £2pm",
+            "tenure": "FULL",
+            "duration": "37 Months",
+            "confirmedRequired": "false",
+            "merchandisingMedia": [],
+            "discountValue": {
+              "type": "GBP",
+              "value": "2.0"
+            }
+          }
+        ],
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "29.99",
+            "net": "24.99",
+            "vat": "5"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "29.99",
+            "net": "24.99",
+            "vat": "5"
+          },
+          "monthlyPrice": {
+            "gross": "78.70",
+            "net": "67.25",
+            "vat": "11.45"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "76.30",
+            "net": "65.25",
+            "vat": "11.05"
+          },
+          "financingOptions": null
+        },
+        "installationAddress": null,
+        "appointmentWindow": null,
+        "servicePoint": {
+          "lineRefernece": {
+            "lineLocator": {
+              "exchangeCode": null,
+              "exchangeName": null,
+              "districtCode": null,
+              "l2SID": null,
+              "cableLinkID": null,
+              "distributionPoint": null
+            },
+            "lineSettings": {
+              "serviceCode": null,
+              "installationCode": null,
+              "terminationCode": null
+            },
+            "lineStatus": {
+              "statusCode": null,
+              "accessLineStatus": null,
+              "gnpStatus": null,
+              "lineOption": null,
+              "technology": null,
+              "lineType": null,
+              "tempStructure": false,
+              "standbyPowerRequired": false,
+              "narrowBandServicesAvailable": "null"
+            },
+            "availableServices": null,
+            "lineDirectory": null
+          },
+          "lineReference": {
+            "lineLocator": {
+              "exchangeCode": null,
+              "exchangeName": null,
+              "districtCode": null,
+              "l2SID": null,
+              "cableLinkID": null,
+              "distributionPoint": null
+            },
+            "lineSettings": {
+              "serviceCode": null,
+              "installationCode": null,
+              "terminationCode": null
+            },
+            "lineStatus": {
+              "statusCode": null,
+              "accessLineStatus": null,
+              "gnpStatus": null,
+              "lineOption": null,
+              "technology": null,
+              "lineType": null,
+              "tempStructure": false,
+              "standbyPowerRequired": false,
+              "narrowBandServicesAvailable": "null"
+            },
+            "availableServices": null,
+            "lineDirectory": null
+          },
+          "serviceReference": {
+            "serviceLines": []
+          }
+        },
+        "serviceStartDate": null,
+        "phoneNumber": null,
+        "primaryDeviceIdentifier": null,
+        "packageLinkIdentifier": null,
+        "linePackageType": null,
+        "lineTreatmentType": null,
+        "planType": "EHANDSET",
+        "combiPackageId": null,
+        "confirmRequired": false,
+        "deviceFinancingId": null,
+        "additionalDetails": {},
+        "tradeInOfferCode": null,
+        "tradeInCredit": null,
+        "packageOfferCode": null,
+        "isChanged": false
+      }
+    ],
+    "vetOutcome": null,
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "29.99",
+        "net": "24.99",
+        "vat": "5"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "29.99",
+        "net": "24.99",
+        "vat": "5"
+      },
+      "monthlyPrice": {
+        "gross": "78.70",
+        "net": "67.25",
+        "vat": "11.45"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "76.30",
+        "net": "65.25",
+        "vat": "11.05"
+      },
+      "totalOneoffSaving": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "totalMonthlySaving": {
+        "gross": "2.40",
+        "net": "2",
+        "vat": "0.40"
+      }
+    },
+    "totalOneoffPriceSaving": "0",
+    "totalMonthlyPriceSaving": "2.40",
+    "deliveryInfo": {
+      "skuId": "065427",
+      "displayName": "Week day 8am - 6pm",
+      "deliveryType": "Standard",
+      "stockStatus": "Back Ordered",
+      "availableFrom": "7-14",
+      "storeInfo": null,
+      "price": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      }
+    },
+    "voucherCode": null,
+    "voucherDescription": null,
+    "validated": true,
+    "hashvalue": "-1076010349",
+    "lastModified": "2021-09-07T10:47:22.378202",
+    "changeCode": null,
+    "combiPackageIds": [],
+    "voucherErrorMessage": null,
+    "activeBundles": [],
+    "splitDeliveryEligible": false,
+    "priceProposal": [],
+    "loanEligibilityStatus": null,
+    "isJourneyAddedToEmptyBasket": null,
+    "affiliateFlag": false,
+    "isChanged": false
+  }

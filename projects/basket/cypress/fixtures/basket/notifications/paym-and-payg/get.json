@@ -1,0 +1,913 @@
+{
+  "basketId": "b27620bd-2782-467d-a9bc-41b880d1f385",
+  "affiliateId": null,
+  "source": "ESHOP",
+  "customerRequestedDate": "2021-07-01T15:25:09",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [{
+    "packageId": "d6f6b055-a242-4b5b-bbe2-5310c0e4aca7",
+    "accountCategory": "consumer",
+    "accountSubCategory": null,
+    "sequence": 3,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "e5127932-5309-4bb0-9918-9f42f8d257f1",
+      "action": "ADD",
+      "skuId": "112939",
+      "name": "24m Unlimited Max Plan with 4 Benefits and Entertainment",
+      "description": "Unlimited Max Xtra Plan with 4 Benefits and Entertainment",
+      "displayName": "Unlimited Max + 4 Xtra benefits + Entertainment",
+      "displayDescription": null,
+      "bundleClass": "HANDSET",
+      "productClass": null,
+      "serviceId": "110286",
+      "paymentType": "Postpaid",
+      "bundleType": "unlimitedMaxEntertainment81",
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "24"
+      },
+      "displayOrder": 602,
+      "showInSummary": false,
+      "allowances": [{
+        "type": "UK MIN",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "minutes",
+        "tilUom": "VOICE"
+      }, {
+        "type": "World Traveller",
+        "value": "Vodafone Global Roaming Plus",
+        "uom": null,
+        "displayUom": null,
+        "tilUom": null
+      }, {
+        "type": "MMS",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "picture messages",
+        "tilUom": "MMS"
+      }, {
+        "type": "UK TEXT",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "texts",
+        "tilUom": "SMS"
+      }, {
+        "type": "ORIGDATA",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "MB",
+        "tilUom": "DATA"
+      }, {
+        "type": "UK DATA",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "MB",
+        "tilUom": "DATA"
+      }],
+      "merchandisingMedia": [{
+        "id": "entertainment.merchandisingPromotions.merchandisingPromotion.label",
+        "value": "Your choice of entertainment for 24 months",
+        "type": "TEXT",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.sticker",
+        "value": "/images/desktop/5g_badge_digital.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "entertainment.merchandisingPromotions.merchandisingPromotion.PromotionMedia",
+        "value": "/images/desktop/img_mef_ent_packs_v5_2020.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": null,
+      "benefits": [{
+        "skuId": "030030"
+      }, {
+        "skuId": "030010"
+      }, {
+        "skuId": "030060"
+      }],
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "44",
+          "net": "36.67",
+          "vat": "7.33"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "44",
+          "net": "36.67",
+          "vat": "7.33"
+        },
+        "totalMonthlySavingsAmount": null,
+        "merchandisingPromotions": null,
+        "listOfMerchandisingPromotion": [],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": true,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "includedCalls": null,
+      "noPriceRise": null,
+      "wifiExpert": null,
+      "broadbandAntiVirus": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+      "packageLineId": "f50567e2-3880-485b-b5bc-5a10cddba563",
+      "action": "ADD",
+      "skuId": "208159",
+      "name": "Apple iPhone 12 Pro Max 128GB pacific blue",
+      "description": "iPhone 12 Pro Max is a huge leap forward with Superfast 5G, A14 Bionic chip and a pro camera system for unbelievable low-light photography.",
+      "displayName": "Apple iPhone 12 Pro Max 128GB Pacific Blue",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": "apple",
+      "model": "iphone-12-pro-max",
+      "groupType": "DEVICE_PAYM",
+      "productClass": "eHandset",
+      "productSubClass": "HANDSET",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_pacific_blue-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_pacific_blue-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.sticker",
+        "value": "/images/small/5G_logo.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.back",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_pacific_blue-thumbs-back.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.left",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_pacific_blue-full-product-left-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.right",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_pacific_blue-thumbs-right.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.back",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_pacific_blue-full-product-back-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_pacific_blue-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.left",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_pacific_blue-thumbs-left.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.side",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_pacific_blue-full-product-side-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.right",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_pacific_blue-full-product-right-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.side",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_pacific_blue-thumbs-side.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_pacific_blue-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": {
+        "duration": {
+          "uom": "Months",
+          "value": "36"
+        },
+        "upFrontPrice": 29,
+        "customerType": "consumer"
+      },
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "1145",
+          "net": "954.17",
+          "vat": "190.83"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "1145",
+          "net": "954.17",
+          "vat": "190.83"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": {
+          "aprRepresentative": "0.0",
+          "duration": {
+            "uom": null,
+            "value": "36"
+          },
+          "interestRate": "0.0",
+          "description": "On a 36-month phone credit agreement",
+          "monthlyPrice": {
+            "uom": "£",
+            "gross": "31.00",
+            "net": "25.83",
+            "vat": "5.17"
+          },
+          "totalHandsetCredit": {
+            "uom": "£",
+            "gross": "1116.00",
+            "net": "930.00",
+            "vat": "186.00"
+          },
+          "totalHandsetPrice": {
+            "uom": "£",
+            "gross": "1145.00",
+            "net": "954.17",
+            "vat": "190.83"
+          },
+          "upFrontPrice": {
+            "uom": "£",
+            "gross": "29.00",
+            "net": "24.17",
+            "vat": "4.83"
+          },
+          "upFrontDiscountPrice": {
+            "uom": "£",
+            "gross": "29.00",
+            "net": "24.17",
+            "vat": "4.83"
+          },
+          "monthlyDiscountPrice": {
+            "uom": "£",
+            "gross": "31.00",
+            "net": "25.83",
+            "vat": "5.17"
+          }
+        }
+      },
+      "boxPrice": {
+        "gross": "1045.20",
+        "net": "871.0",
+        "vat": "174.20"
+      },
+      "freeGift": false,
+      "devicePromotion": "112686",
+      "simType": "HYBRID",
+      "isChanged": false,
+      "isCompatibleWithWatch": true
+    }, {
+      "packageLineId": "738b98a8-7b9e-40fe-9866-6f87aa3edb74",
+      "action": "ADD",
+      "skuId": "086532",
+      "name": "Blank White Triple Format SIM",
+      "description": null,
+      "displayName": "3-in-1 SIM",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": null,
+      "model": null,
+      "groupType": null,
+      "productClass": "SIM Card",
+      "productSubClass": "Core",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "0.0",
+        "net": "0.0",
+        "vat": "0.0"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }],
+    "services": [],
+    "discounts": [],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "29",
+        "net": "24.17",
+        "vat": "4.83"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "29",
+        "net": "24.17",
+        "vat": "4.83"
+      },
+      "monthlyPrice": {
+        "gross": "75",
+        "net": "62.50",
+        "vat": "12.50"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "75",
+        "net": "62.50",
+        "vat": "12.50"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "BINGO",
+    "combiPackageId": null,
+    "confirmRequired": false,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "tradeInOfferCode": null,
+    "tradeInCredit": null,
+    "isChanged": false
+  }, {
+    "packageId": "8be5a90e-28fb-4376-bdf3-dad4afa812be",
+    "accountCategory": "consumer",
+    "accountSubCategory": null,
+    "sequence": 1,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "4e47445e-5d7c-4e16-a61e-374d87c22656",
+      "action": "ADD",
+      "skuId": "111313",
+      "name": "PAYG Phone and SIM Package",
+      "description": "PAYG Phone and SIM Package",
+      "displayName": "PAYG Phone and SIM Package",
+      "displayDescription": null,
+      "bundleClass": "HANDSET",
+      "productClass": null,
+      "serviceId": "100000",
+      "paymentType": "Prepaid",
+      "bundleType": null,
+      "commitmentPeriod": {
+        "uom": "Years",
+        "value": "1"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": null,
+      "merchandisingMedia": [],
+      "attributes": null,
+      "benefits": [],
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "totalMonthlySavingsAmount": null,
+        "merchandisingPromotions": null,
+        "listOfMerchandisingPromotion": [],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": false,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "includedCalls": null,
+      "noPriceRise": null,
+      "wifiExpert": null,
+      "broadbandAntiVirus": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+      "packageLineId": "08dc6d8e-848f-4223-804e-0aee069f94c6",
+      "action": "ADD",
+      "skuId": "208140",
+      "name": "Apple iPhone 12 Pro Max 128GB silver PAYG (Like New)",
+      "description": "iPhone 12 Pro Max is a huge leap forward with Superfast 5G, A14 Bionic chip and a pro camera system for unbelievable low-light photography.",
+      "displayName": "Apple iPhone 12 Pro Max 128GB (Like New) Silver",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": "Silver",
+      "memorySize": "128 GB",
+      "make": "apple",
+      "model": "iphone-12-pro-max-like-new",
+      "groupType": null,
+      "productClass": "Handset",
+      "productSubClass": "HANDSET",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.thumbs.right",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_silver-thumbs-right.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_silver-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.left",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_silver-thumbs-left.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.sticker",
+        "value": "/images/small/5G_payg_logo.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.side",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_silver-thumbs-side.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_silver-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.back",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_silver-thumbs-back.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_silver-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.side",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_silver-full-product-side-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.left",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_silver-full-product-left-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.right",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_silver-full-product-right-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.back",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_silver-full-product-back-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/Apple_iPhone_12_Pro_Max_silver-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "900",
+          "net": "750",
+          "vat": "150"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "900",
+          "net": "750",
+          "vat": "150"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [{
+          "apr": "0.0",
+          "selected": false,
+          "deviceFinancingId": "SNLADSADLJ",
+          "financeProvider": "PayPal",
+          "financeTerm": "30",
+          "monthlyPrice": {
+            "gross": "30.00",
+            "net": "25.00",
+            "vat": "5.00"
+          },
+          "totalPriceWithInterest": {
+            "gross": "900.00",
+            "net": "750.00",
+            "vat": "150.00"
+          }
+        }],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "784.20",
+        "net": "653.50",
+        "vat": "130.70"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }, {
+      "packageLineId": "2b371437-cbe0-48ce-9f05-241df922c987",
+      "action": "ADD",
+      "skuId": "086532",
+      "name": "Blank White Triple Format SIM",
+      "description": null,
+      "displayName": "3-in-1 SIM",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": null,
+      "model": null,
+      "groupType": null,
+      "productClass": "SIM Card",
+      "productSubClass": "Core",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "0.0",
+        "net": "0.0",
+        "vat": "0.0"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }],
+    "services": [{
+      "packageLineId": "c8003c41-9fda-4f5c-ba7d-88583c522016",
+      "action": "ADD",
+      "skuId": "112027",
+      "name": "Big Value Bundle 40GBP",
+      "description": null,
+      "displayName": "£40 Big Value Bundle",
+      "displayDescription": null,
+      "specificationGroup": [],
+      "merchandisingMedia": [],
+      "attributes": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "40",
+          "net": "33.33",
+          "vat": "6.67"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "40",
+          "net": "33.33",
+          "vat": "6.67"
+        },
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "merchandisingPromotions": null
+      },
+      "freeGift": false,
+      "productClass": "Recurring Freedom Freebees",
+      "dataRollover": "true",
+      "rootProductId": "100000",
+      "allowances": [{
+        "type": "UK MIN",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": null,
+        "tilUom": null
+      }, {
+        "type": "UK DATA",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": null,
+        "tilUom": null
+      }, {
+        "type": "UK TEXT",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": null,
+        "tilUom": null
+      }],
+      "rewardPoints": null,
+      "planDuration": null,
+      "isChanged": false
+    }],
+    "discounts": [],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "940",
+        "net": "783.33",
+        "vat": "156.67"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "940",
+        "net": "783.33",
+        "vat": "156.67"
+      },
+      "monthlyPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "financingOptions": [{
+        "apr": "0.0",
+        "selected": false,
+        "deviceFinancingId": "SNLADSADLJ",
+        "financeProvider": "PayPal",
+        "financeTerm": "30",
+        "monthlyPrice": {
+          "gross": "30.00",
+          "net": "25.00",
+          "vat": "5.00"
+        },
+        "totalPriceWithInterest": {
+          "gross": "900.00",
+          "net": "750.00",
+          "vat": "150.00"
+        }
+      }]
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "HANDSET",
+    "combiPackageId": null,
+    "confirmRequired": false,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "tradeInOfferCode": null,
+    "tradeInCredit": null,
+    "isChanged": false
+  }],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "969",
+      "net": "807.50",
+      "vat": "161.50"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "969",
+      "net": "807.50",
+      "vat": "161.50"
+    },
+    "monthlyPrice": {
+      "gross": "75",
+      "net": "62.50",
+      "vat": "12.50"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "75",
+      "net": "62.50",
+      "vat": "12.50"
+    },
+    "totalOneoffSaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "totalMonthlySaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "1656983385",
+  "lastModified": "2021-07-01T15:50:25.629703",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

@@ -1,0 +1,538 @@
+{
+  "index": 0,
+  "showPackageHeaderUnderline": true,
+  "showBorder": true,
+  "thisPackage": [
+    {
+      "packageId": "cd0f2900-a377-4f80-b94c-00baf7d71dec",
+      "accountCategory": "consumer",
+      "accountSubCategory": null,
+      "sequence": 1,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": null,
+      "hardwares": [
+        {
+          "packageLineId": "19272c50-7ffe-4e02-893b-bfea343ee50f",
+          "action": "ADD",
+          "skuId": "200913",
+          "name": "XQISIT Wireless Fast Charger 10W black",
+          "description": "Charging made elegant: just place your Qi-compatible phone on the XQISIT Wireless Fast Charger with an output of up to 10W. The charging starts automatically, no need to plug in your phone. A 1 metre long Micro-USB charging cable is included and it's unobtrusive design allows it to fit in with any decorating style.",
+          "displayName": "XQISIT Wireless Charger 10W Black",
+          "shortDisplayName": null,
+          "displayDescription": null,
+          "deviceBriefDescription": [],
+          "deviceColor": "Black",
+          "memorySize": null,
+          "make": "xqisit",
+          "model": "wireless-charger-10w",
+          "groupType": null,
+          "productClass": "Accessories",
+          "productSubClass": null,
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/accessory_sku200913_black-full-product-back-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.right",
+              "value": "/images/desktop/accessory_sku200913_black-full-product-left-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/accessory_sku200913_black-grid-product-front.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/accessory_sku200913_black-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.right",
+              "value": "/images/desktop/accessory_sku200913_black-thumbs-left.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/accessory_sku200913_black-thumbs-back.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "accessory_discount.merchandisingPromotions.merchandisingPromotion.description",
+              "value": "Accessories_Discount save £10",
+              "type": "TEXT",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/accessory_sku200913_black-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/accessory_sku200913_black-full-product-side-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/accessory_sku200913_black-thumbs-side.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.left",
+              "value": "/images/desktop/accessory_sku200913_black-thumbs-right.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.left",
+              "value": "/images/desktop/accessory_sku200913_black-full-product-right-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "accessory_discount.merchandisingPromotions.merchandisingPromotion.label",
+              "value": "Accessories_Discount save £10",
+              "type": "TEXT",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/accessory_sku200913_black-thumbs-front.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            }
+          ],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "15",
+              "net": "12.50",
+              "vat": "2.50"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "5",
+              "net": "4.17",
+              "vat": "0.83"
+            },
+            "merchandisingPromotions": {
+              "tag": "Accessories_Discount",
+              "label": "Accessories_Discount save £10",
+              "description": "Accessories_Discount save £10",
+              "discountId": null,
+              "mpType": "accessory_discount",
+              "priceEstablishedLabel": null,
+              "priority": "1502",
+              "packageType": [
+                "Upgrade",
+                "SecondLine",
+                "Acquisition"
+              ],
+              "footNotes": [
+                ""
+              ],
+              "confirmRequired": false,
+              "offerGroup": null,
+              "belowTheLine": "false",
+              "qualifier": null,
+              "category": null
+            },
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": [],
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "10.72",
+            "net": "8.94",
+            "vat": "1.79"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "colourName": "Black",
+          "colourHexcode": "#000000",
+          "capacity": null,
+          "isCompatibleWithWatch": false,
+          "isChanged": false
+        },
+        {
+          "packageLineId": "159f64b7-6b36-4af0-bfd6-3d1c8eb089ac",
+          "action": "ADD",
+          "skuId": "093337",
+          "name": "Apple EarPods Lightning Connect",
+          "description": "Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear. Which makes them more comfortable for more people than any other earbud-style headphones.",
+          "displayName": "Apple EarPods Lightning White",
+          "shortDisplayName": null,
+          "displayDescription": null,
+          "deviceBriefDescription": [],
+          "deviceColor": "White",
+          "memorySize": null,
+          "make": "apple",
+          "model": "earpods-lightning",
+          "groupType": null,
+          "productClass": "Accessories",
+          "productSubClass": null,
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/accessory_sku093337_white-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/accessory_sku093337_white-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "accessory_discount.merchandisingPromotions.merchandisingPromotion.description",
+              "value": "Accessories_Discount save £10",
+              "type": "TEXT",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "accessory_discount.merchandisingPromotions.merchandisingPromotion.label",
+              "value": "Accessories_Discount save £10",
+              "type": "TEXT",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/accessory_sku093337_white-grid-product-front.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/accessory_sku093337_white-thumbs-front.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            }
+          ],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "19",
+              "net": "15.83",
+              "vat": "3.17"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "9",
+              "net": "7.50",
+              "vat": "1.50"
+            },
+            "merchandisingPromotions": {
+              "tag": "Accessories_Discount",
+              "label": "Accessories_Discount save £10",
+              "description": "Accessories_Discount save £10",
+              "discountId": null,
+              "mpType": "accessory_discount",
+              "priceEstablishedLabel": null,
+              "priority": "1502",
+              "packageType": [
+                "Upgrade",
+                "SecondLine",
+                "Acquisition"
+              ],
+              "footNotes": [
+                ""
+              ],
+              "confirmRequired": false,
+              "offerGroup": null,
+              "belowTheLine": "false",
+              "qualifier": null,
+              "category": null
+            },
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": [],
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "14.52",
+            "net": "12.10",
+            "vat": "2.42"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "colourName": "White",
+          "colourHexcode": "#FFFFFF",
+          "capacity": null,
+          "isCompatibleWithWatch": false,
+          "isChanged": false
+        },
+        {
+          "packageLineId": "fb599659-2cc4-43d4-ae3b-23bfa1f46d3b",
+          "action": "ADD",
+          "skuId": "208431",
+          "name": "InvisibleShield GlassElite plus iPhone SE 2020",
+          "description": "Safeguard your iPhone with the ZAGG InvisibleShield Glass+ screen protector; the most advanced impact, scratch and smudge protection available.",
+          "displayName": "InvisibleShield Glass Elite+ Clear",
+          "shortDisplayName": null,
+          "displayDescription": null,
+          "deviceBriefDescription": [],
+          "deviceColor": "Clear",
+          "memorySize": null,
+          "make": "invisibleshield",
+          "model": "glass-eliteplus",
+          "groupType": null,
+          "productClass": "Accessories",
+          "productSubClass": null,
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/accessory_sku208431_clear-thumbs-front.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/accessory_sku208431_clear-grid-product-front.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/accessory_sku208431_clear-full-product-back-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/accessory_sku208431_clear-thumbs-back.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/accessory_sku208431_clear-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/accessory_sku208431_clear-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            }
+          ],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "10",
+              "net": "8.33",
+              "vat": "1.67"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "10",
+              "net": "8.33",
+              "vat": "1.67"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": [],
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "9.02",
+            "net": "7.52",
+            "vat": "1.50"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "colourName": "Clear",
+          "colourHexcode": "#FFFFFF",
+          "capacity": null,
+          "isCompatibleWithWatch": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "44",
+          "net": "36.66",
+          "vat": "7.34"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "24",
+          "net": "20",
+          "vat": "4"
+        },
+        "monthlyPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "lineReference": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "serviceReference": {
+          "serviceLines": []
+        }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "Accessories",
+      "combiPackageId": null,
+      "confirmRequired": false,
+      "deviceFinancingId": null,
+      "additionalDetails": {},
+      "tradeInOfferCode": null,
+      "tradeInCredit": null,
+      "packageOfferCode": null,
+      "isChanged": false
+    }
+  ]
+}

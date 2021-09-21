@@ -1,0 +1,435 @@
+{
+    "basketId": "7e68c642-d8ab-445e-8338-c57db74229d1",
+    "affiliateId": null,
+    "source": "WCS",
+    "customerRequestedDate": "2021-07-15T12:23:52",
+    "metadata": {
+        "returnURL": null,
+        "basketStatus": "INCOMPLETE",
+        "salesOrderId": null,
+        "reason": null
+    },
+    "journey": {
+        "journeyType": "Acquisition",
+        "offerCode": null
+    },
+    "packages": [
+        {
+            "packageId": "73b5a869-7b6c-43df-9dc8-7194c084943a",
+            "accountCategory": "Consumer",
+            "accountSubCategory": null,
+            "sequence": 1,
+            "packageType": "Acquisition",
+            "removable": true,
+            "dependentOn": [],
+            "voucherCode": null,
+            "bundle": {
+                "packageLineId": "4879beeb-8343-4972-8c10-5bc68dc1d393",
+                "action": "ADD",
+                "skuId": "113902",
+                "name": "12 mth SIMO Unlmin 3GB Basics Plan",
+                "description": "CTR16B Vodafone Basics Plan with unlimited mins unlimited texts and 3GB of data",
+                "displayName": "12 mth SIMO Unlmin 3GB Basics Plan",
+                "displayDescription": null,
+                "bundleClass": "SIMO",
+                "productClass": null,
+                "serviceId": "110286",
+                "paymentType": "Postpaid",
+                "bundleType": "Basics Plan",
+                "commitmentPeriod": {
+                    "uom": "Months",
+                    "value": "12"
+                },
+                "displayOrder": null,
+                "showInSummary": false,
+                "allowances": [
+                    {
+                        "type": "UK DATA",
+                        "value": "3",
+                        "uom": "GB",
+                        "displayUom": "GB",
+                        "tilUom": "DATA"
+                    },
+                    {
+                        "type": "UK TEXT",
+                        "value": "Unlimited",
+                        "uom": "-",
+                        "displayUom": "texts",
+                        "tilUom": "SMS"
+                    },
+                    {
+                        "type": "ORIGDATA",
+                        "value": "3",
+                        "uom": "GB",
+                        "displayUom": "GB",
+                        "tilUom": "DATA"
+                    },
+                    {
+                        "type": "UK MIN",
+                        "value": "Unlimited",
+                        "uom": "-",
+                        "displayUom": "minutes",
+                        "tilUom": "VOICE"
+                    }
+                ],
+                "merchandisingMedia": [],
+                "attributes": null,
+                "benefits": [],
+                "priceDetails": {
+                    "monthlyPrice": {
+                        "gross": "10",
+                        "net": "8.33",
+                        "vat": "1.67"
+                    },
+                    "monthlyDiscountPrice": {
+                        "gross": "10",
+                        "net": "8.33",
+                        "vat": "1.67"
+                    },
+                    "totalMonthlySavingsAmount": null,
+                    "merchandisingPromotions": null,
+                    "listOfMerchandisingPromotion": [],
+                    "removedPromotionFootNote": null
+                },
+                "isVodafoneGlobalRoaming": false,
+                "bundledServiceProducts": [],
+                "planCategory": "CONSUMER",
+                "portability": null,
+                "speed": null,
+                "maxCapSpeed": null,
+                "avgDownloadSpeed": null,
+                "includedCalls": null,
+                "noPriceRise": null,
+                "wifiExpert": null,
+                "broadbandAntiVirus": null,
+                "isChanged": false
+            },
+            "hardwares": [
+                {
+                    "packageLineId": "8b4a7073-37f1-454b-b1a7-2b77ab82c697",
+                    "action": "ADD",
+                    "skuId": "086532",
+                    "name": "Blank White Triple Format SIM",
+                    "description": null,
+                    "displayName": "3-in-1 SIM",
+                    "displayDescription": null,
+                    "deviceBriefDescription": [],
+                    "deviceColor": null,
+                    "memorySize": null,
+                    "make": null,
+                    "model": null,
+                    "groupType": null,
+                    "productClass": "SIM Card",
+                    "productSubClass": "Core",
+                    "displayOrder": null,
+                    "showInSummary": false,
+                    "merchandisingMedia": [],
+                    "attributes": [],
+                    "contractOptions": null,
+                    "priceDetails": {
+                        "oneOffPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "oneOffDiscountPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "merchandisingPromotions": null,
+                        "monthlyPrice": null,
+                        "monthlyDiscountPrice": null,
+                        "financingOptions": [],
+                        "deviceFinancingId": null,
+                        "devicePaymentPlan": null
+                    },
+                    "boxPrice": {
+                        "gross": "0.0",
+                        "net": "0.0",
+                        "vat": "0.0"
+                    },
+                    "freeGift": false,
+                    "devicePromotion": null,
+                    "simType": "PHYSICAL",
+                    "isCompatibleWithWatch": false,
+                    "isChanged": false
+                }
+            ],
+            "services": [
+                {
+                    "packageLineId": "7e909004-5e4b-4c87-8be6-b6507820d1ed",
+                    "action": "ADD",
+                    "skuId": "108481",
+                    "name": "5GB additional data",
+                    "description": null,
+                    "displayName": "5GB additional data",
+                    "displayDescription": null,
+                    "specificationGroup": [],
+                    "merchandisingMedia": [],
+                    "attributes": [],
+                    "priceDetails": {
+                        "oneOffPrice": null,
+                        "oneOffDiscountPrice": null,
+                        "monthlyPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "monthlyDiscountPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "merchandisingPromotions": null
+                    },
+                    "freeGift": false,
+                    "productClass": "Bonus Data Bundle",
+                    "dataRollover": null,
+                    "rootProductId": "110286",
+                    "allowances": [
+                        {
+                            "type": "UK DATA",
+                            "value": "5",
+                            "uom": "GB",
+                            "displayUom": null,
+                            "tilUom": null
+                        }
+                    ],
+                    "rewardPoints": null,
+                    "planDuration": null,
+                    "isChanged": false
+                },
+                {
+                    "packageLineId": "464f84c3-c20a-41c6-857e-76d342c0444c",
+                    "action": "ADD",
+                    "skuId": "108478",
+                    "name": "2GB additional data",
+                    "description": null,
+                    "displayName": "2GB additional data",
+                    "displayDescription": null,
+                    "specificationGroup": [],
+                    "merchandisingMedia": [],
+                    "attributes": [],
+                    "priceDetails": {
+                        "oneOffPrice": null,
+                        "oneOffDiscountPrice": null,
+                        "monthlyPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "monthlyDiscountPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "merchandisingPromotions": null
+                    },
+                    "freeGift": false,
+                    "productClass": "Bonus Data Bundle",
+                    "dataRollover": null,
+                    "rootProductId": "110286",
+                    "allowances": [
+                        {
+                            "type": "UK DATA",
+                            "value": "2",
+                            "uom": "GB",
+                            "displayUom": null,
+                            "tilUom": null
+                        }
+                    ],
+                    "rewardPoints": null,
+                    "planDuration": null,
+                    "isChanged": false
+                },
+                {
+                    "packageLineId": "575e2fb4-8462-4977-af98-d89b3f23885d",
+                    "action": "ADD",
+                    "skuId": "109045",
+                    "name": "10GB additional data",
+                    "description": null,
+                    "displayName": "10GB additional data",
+                    "displayDescription": null,
+                    "specificationGroup": [],
+                    "merchandisingMedia": [],
+                    "attributes": [],
+                    "priceDetails": {
+                        "oneOffPrice": null,
+                        "oneOffDiscountPrice": null,
+                        "monthlyPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "monthlyDiscountPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "merchandisingPromotions": null
+                    },
+                    "freeGift": false,
+                    "productClass": "Bonus Data Bundle",
+                    "dataRollover": null,
+                    "rootProductId": "110286",
+                    "allowances": [
+                        {
+                            "type": "UK DATA",
+                            "value": "10",
+                            "uom": "GB",
+                            "displayUom": null,
+                            "tilUom": null
+                        }
+                    ],
+                    "rewardPoints": null,
+                    "planDuration": null,
+                    "isChanged": false
+                }
+            ],
+            "discounts": [],
+            "priceDetails": {
+                "oneOffPrice": null,
+                "oneOffDiscountPrice": null,
+                "monthlyPrice": {
+                    "gross": "10",
+                    "net": "8.33",
+                    "vat": "1.67"
+                },
+                "monthlyDiscountPrice": {
+                    "gross": "10",
+                    "net": "8.33",
+                    "vat": "1.67"
+                },
+                "financingOptions": null
+            },
+            "installationAddress": null,
+            "appointmentWindow": null,
+            "servicePoint": {
+                "lineRefernece": {
+                    "lineLocator": {
+                        "exchangeCode": null,
+                        "exchangeName": null,
+                        "districtCode": null,
+                        "l2SID": null,
+                        "cableLinkID": null,
+                        "distributionPoint": null
+                    },
+                    "lineSettings": {
+                        "serviceCode": null,
+                        "installationCode": null,
+                        "terminationCode": null
+                    },
+                    "lineStatus": {
+                        "statusCode": null,
+                        "accessLineStatus": null,
+                        "gnpStatus": null,
+                        "lineOption": null,
+                        "technology": null,
+                        "lineType": null,
+                        "tempStructure": false,
+                        "standbyPowerRequired": false,
+                        "narrowBandServicesAvailable": null
+                    },
+                    "availableServices": null,
+                    "lineDirectory": null
+                },
+                "lineReference": {
+                    "lineLocator": {
+                        "exchangeCode": null,
+                        "exchangeName": null,
+                        "districtCode": null,
+                        "l2SID": null,
+                        "cableLinkID": null,
+                        "distributionPoint": null
+                    },
+                    "lineSettings": {
+                        "serviceCode": null,
+                        "installationCode": null,
+                        "terminationCode": null
+                    },
+                    "lineStatus": {
+                        "statusCode": null,
+                        "accessLineStatus": null,
+                        "gnpStatus": null,
+                        "lineOption": null,
+                        "technology": null,
+                        "lineType": null,
+                        "tempStructure": false,
+                        "standbyPowerRequired": false,
+                        "narrowBandServicesAvailable": null
+                    },
+                    "availableServices": null,
+                    "lineDirectory": null
+                },
+                "serviceReference": {
+                    "serviceLines": []
+                }
+            },
+            "serviceStartDate": null,
+            "phoneNumber": null,
+            "primaryDeviceIdentifier": null,
+            "packageLinkIdentifier": null,
+            "linePackageType": null,
+            "lineTreatmentType": null,
+            "planType": "SIMO",
+            "combiPackageId": null,
+            "confirmRequired": false,
+            "deviceFinancingId": null,
+            "additionalDetails": {},
+            "tradeInOfferCode": null,
+            "tradeInCredit": null,
+            "isChanged": false
+        }
+    ],
+    "vetOutcome": null,
+    "priceDetails": {
+        "oneOffPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+        },
+        "monthlyPrice": {
+            "gross": "10",
+            "net": "8.33",
+            "vat": "1.67"
+        },
+        "monthlyDiscountPrice": {
+            "gross": "10",
+            "net": "8.33",
+            "vat": "1.67"
+        },
+        "totalOneoffSaving": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+        },
+        "totalMonthlySaving": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+        }
+    },
+    "totalOneoffPriceSaving": "0",
+    "totalMonthlyPriceSaving": "0",
+    "deliveryInfo": null,
+    "voucherCode": null,
+    "voucherDescription": null,
+    "validated": false,
+    "hashvalue": "-1346847864",
+    "lastModified": "2021-07-16T14:29:17.326064",
+    "changeCode": null,
+    "combiPackageIds": [],
+    "voucherErrorMessage": null,
+    "activeBundles": [],
+    "splitDeliveryEligible": false,
+    "priceProposal": [],
+    "loanEligibilityStatus": null,
+    "affiliateFlag": false,
+    "isChanged": false
+}

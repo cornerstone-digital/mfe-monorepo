@@ -1,0 +1,432 @@
+{
+  "basketId": "6c9917cd-1716-4bce-a0cf-9e744ef6d0ab",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T08:45:00.000+01:00",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "customer": null,
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "b6ec3230-4837-4066-adbb-a7b93dffe7b6",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "f9901210-1bc1-4cd4-9680-33a9d95976fe",
+        "action": "ADD",
+        "skuId": "111142",
+        "name": "18mth SIMO 20GB Plan",
+        "description": "CTR15 18m SIMO Plan comes with unlimited minutes unlimited texts and 20GB of data",
+        "displayName": "18mth Broadband",
+        "displayDescription": null,
+        "bundleClass": "CBB",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "Broadband",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "18"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK DATA",
+            "value": "20",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "20",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          }
+        ],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "20",
+            "net": "16.67",
+            "vat": "3.33"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "20",
+            "net": "16.67",
+            "vat": "3.33"
+          },
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": null,
+        "planCategory": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "8b1f59d9-2e6f-4a83-ab01-b1dcf5d17a1a",
+          "action": "ADD",
+          "skuId": "086532",
+          "name": "Blank White Triple Format SIM",
+          "description": null,
+          "displayName": "3-in-1 SIM",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "SIM Card",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": null,
+            "deviceFinancingId": null
+          },
+          "boxPrice": {
+            "gross": "0.0",
+            "net": "0.0",
+            "vat": "0.0"
+          },
+          "freeGift": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": null,
+          "net": null,
+          "vat": null
+        },
+        "oneOffDiscountPrice": {
+          "gross": null,
+          "net": null,
+          "vat": null
+        },
+        "monthlyPrice": {
+          "gross": "20",
+          "net": "16.67",
+          "vat": "3.33"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "20",
+          "net": "16.67",
+          "vat": "3.33"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": null,
+        "serviceReference": {
+          "serviceLines": null
+        }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "cbb",
+      "combiPackageId": null,
+      "deviceFinancingId": null,
+      "crossSellMessage": null,
+      "isChanged": false
+    },
+    {
+      "packageId": "b6ec3230-4837-4066-adbb-a7b93dffe7b6",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "f9901210-1bc1-4cd4-9680-33a9d95976fe",
+        "action": "ADD",
+        "skuId": "111142",
+        "name": "18mth SIMO 20GB Plan",
+        "description": "CTR15 18m SIMO Plan comes with unlimited minutes unlimited texts and 20GB of data",
+        "displayName": "18mth SIMO 20GB Plan",
+        "displayDescription": null,
+        "bundleClass": "SIMO",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "Red Extra",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "22"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK DATA",
+            "value": "20",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "20",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          }
+        ],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "20",
+            "net": "16.67",
+            "vat": "3.33"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "20",
+            "net": "16.67",
+            "vat": "3.33"
+          },
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": null,
+        "planCategory": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "8b1f59d9-2e6f-4a83-ab01-b1dcf5d17a1a",
+          "action": "ADD",
+          "skuId": "086532",
+          "name": "Blank White Triple Format SIM",
+          "description": null,
+          "displayName": "3-in-1 SIM",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "SIM Card",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": null,
+            "deviceFinancingId": null
+          },
+          "boxPrice": {
+            "gross": "0.0",
+            "net": "0.0",
+            "vat": "0.0"
+          },
+          "freeGift": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": null,
+          "net": null,
+          "vat": null
+        },
+        "oneOffDiscountPrice": {
+          "gross": null,
+          "net": null,
+          "vat": null
+        },
+        "monthlyPrice": {
+          "gross": "20",
+          "net": "16.67",
+          "vat": "3.33"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "20",
+          "net": "16.67",
+          "vat": "3.33"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": null,
+        "serviceReference": {
+          "serviceLines": null
+        }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "simo",
+      "combiPackageId": "null",
+      "deviceFinancingId": null,
+      "crossSellMessage": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "monthlyPrice": {
+      "gross": "20",
+      "net": "16.67",
+      "vat": "3.33"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "20",
+      "net": "16.67",
+      "vat": "3.33"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "-1860038064",
+  "lastModified": "2019-03-18T14:08:58.838Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [
+    {
+      "packageId": "b6ec3230-4837-4066-adbb-a7b93dffe7b6",
+      "promotionType": "CROSS_SELL",
+      "productDetail": {
+        "category": "FTR6",
+        "lineType": "REWARD_LINE"
+      },
+      "saving": {
+        "exact": {
+          "value": "2.4999999",
+          "uom": "£",
+          "message": "&pound;3 off any Superfast Broadband when bought with any Non-Unlimited 18 month SIMO"
+        }
+      },
+      "qualifyingLine": {
+        "bundleId": "111142",
+        "displayName": "18mth SIMO 20GB Plan",
+        "identifier": {
+          "key": "PackageId",
+          "value": "b6ec3230-4837-4066-adbb-a7b93dffe7b6"
+        }
+      }
+    }
+  ],
+  "affiliateFlag": false,
+  "isChanged": false
+}

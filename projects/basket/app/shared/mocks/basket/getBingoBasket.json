@@ -1,0 +1,434 @@
+{
+  "basketId": "f1417518-ac42-481f-afa2-a035d382856d",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T09:45:00.000+00:00",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "b99b72b0-4309-45bc-b785-eebf1a48d017",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "48cfadc4-30af-42e8-8a32-add35909cb3f",
+        "action": "ADD",
+        "skuId": "112684",
+        "name": "Bingo Test A Gold 24 month 5GB",
+        "description": "Bingo Test plan A, Gold tier 24 month 5GB data",
+        "displayName": "Bingo Test A Gold 24 month 5GB",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": null,
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "24"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK DATA",
+            "value": "5",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "5",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          }
+        ],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "18",
+            "net": "15",
+            "vat": "3"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "18",
+            "net": "15",
+            "vat": "3"
+          },
+          "totalSavingsAmount": null,
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "639b48d2-41e0-4be6-9e60-608cf15b7b99",
+          "action": "ADD",
+          "skuId": "204599",
+          "name": "Apple iPhone 11 Pro Max 64GB midnight green",
+          "description": "An all-new triple-camera, the fastest chip in a smartphone and a Super Retina XDR display. Upgrade to the best iPhone yet.",
+          "displayName": "Apple iPhone 11 Pro Max 64GB Midnight Green",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": "Midnight Green",
+          "memorySize": "64 GB",
+          "make": "apple",
+          "model": "iphone-11-pro-max",
+          "groupType": null,
+          "productClass": "Handset",
+          "productSubClass": "Handset",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.left",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-left.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.right",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-right.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.left",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-left-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.right",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-right-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-side-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-back-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Apple_iPhone_11_max_new_midnight_green-grid-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": null,
+          "contractOptions": {
+            "duration": {
+              "uom": "MONTH",
+              "value": "24"
+            },
+            "upFrontPrice": 150,
+            "customerType": "Consumer"
+          },
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "1320",
+              "net": "1100",
+              "vat": "220"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "1320",
+              "net": "1100",
+              "vat": "220"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": {
+              "aprRepresentative": "0.0",
+              "duration": {
+                "uom": "MONTH",
+                "value": "24"
+              },
+              "interestRate": "0.0",
+              "description": "On a 24-month phone credit agreement",
+              "monthlyPrice": {
+                "uom": "£",
+                "gross": "48.75",
+                "net": "40.63",
+                "vat": "8.12"
+              },
+              "totalHandsetCredit": {
+                "uom": "£",
+                "gross": "1170.00",
+                "net": "975.00",
+                "vat": "195.00"
+              },
+              "totalHandsetPrice": {
+                "uom": "£",
+                "gross": "1320.00",
+                "net": "1100.00",
+                "vat": "220.00"
+              },
+              "upFrontPrice": {
+                "uom": "£",
+                "gross": "150.00",
+                "net": "125.00",
+                "vat": "25.00"
+              }
+            }
+          },
+          "boxPrice": {
+            "gross": "1094.17",
+            "net": "911.81",
+            "vat": "182.36"
+          },
+          "freeGift": false,
+          "devicePromotion": "112686",
+          "simType": "PHYSICAL",
+          "isChanged": false,
+          "isCompatibleWithWatch": true
+        },
+        {
+          "packageLineId": "501c5153-efbc-4c63-affb-de5d43fad398",
+          "action": "ADD",
+          "skuId": "086532",
+          "name": "Blank White Triple Format SIM",
+          "description": null,
+          "displayName": "3-in-1 SIM",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "SIM Card",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "0.0",
+            "net": "0.0",
+            "vat": "0.0"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": null,
+          "isChanged": false,
+          "isCompatibleWithWatch": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "150",
+          "net": "125",
+          "vat": "25"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "150",
+          "net": "125",
+          "vat": "25"
+        },
+        "monthlyPrice": {
+          "gross": "66.75",
+          "net": "55.63",
+          "vat": "11.12"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "66.75",
+          "net": "55.63",
+          "vat": "11.12"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": null,
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "BINGO",
+      "combiPackageId": null,
+      "deviceFinancingId": null,
+      "additionalDetails": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "150",
+      "net": "125",
+      "vat": "25"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "150",
+      "net": "125",
+      "vat": "25"
+    },
+    "monthlyPrice": {
+      "gross": "66.75",
+      "net": "55.63",
+      "vat": "11.12"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "66.75",
+      "net": "55.63",
+      "vat": "11.12"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": true,
+  "hashvalue": "-1204177020",
+  "lastModified": null,
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "affiliateFlag": false,
+  "isChanged": false
+}

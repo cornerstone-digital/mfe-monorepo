@@ -1,0 +1,370 @@
+{
+  "basketId": "08943c06-3408-4053-b0a2-9a986a101c93",
+  "affiliateId": "11",
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T09:45:00.000+02:00",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Upgrade",
+    "offerCode": ""
+  },
+  "packages": [
+    {
+      "packageId": "81ee0302-0c11-4b64-9ecc-1a24208e5951",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Upgrade",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "1ee8af78-423e-41d3-b89f-448ca31f0dd4",
+        "action": "ADD",
+        "skuId": "110886",
+        "name": "24 month BandC UltdMin UltdSMS 500MB Vodafone Business Value",
+        "description": "Your Vodafone Business Value plan comes with unlimited minutes, unlimited texts and 500MB data",
+        "displayName": "500MB Vodafone Business Value",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": null,
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "24"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK DATA",
+            "value": "500",
+            "uom": "MB",
+            "displayUom": "MB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "500",
+            "uom": "MB",
+            "displayUom": "MB",
+            "tilUom": "DATA"
+          }
+        ],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "benefits": [],
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "44.40",
+            "net": "37",
+            "vat": "7.40"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "44.40",
+            "net": "37",
+            "vat": "7.40"
+          },
+          "totalMonthlySavingsAmount": null,
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": false,
+        "bundledServiceProducts": null,
+        "planCategory": "BUSINESS",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "includedCalls": null,
+        "noPriceRise": null,
+        "wifiExpert": null,
+        "broadbandAntiVirus": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "aceec9fd-6692-409f-8a11-a2beb6700fee",
+          "action": "ADD",
+          "skuId": "090379",
+          "name": "Samsung Galaxy S8+ orchid grey",
+          "description": "Boundary-breaking design, check. Infinity Display, check. Bixby, check. And even more screen? Check. Samsung S8+ has it all.",
+          "displayName": "Samsung Galaxy S8+ 64GB Orchid Grey",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": "Orchid Grey",
+          "memorySize": "64 GB",
+          "make": "samsung",
+          "model": "galaxy-s8-plus",
+          "groupType": "DEVICE_PAYM",
+          "productClass": "Handset",
+          "productSubClass": null,
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Samsung_Galaxy_s8_Plus_orchid_grey-thumbs-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.left",
+              "value": "/images/desktop/Samsung_Galaxy_s8_Plus_orchid_grey-thumbs-left.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.right",
+              "value": "/images/desktop/Samsung_Galaxy_s8_Plus_orchid_grey-thumbs-right.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Samsung_Galaxy_s8_Plus_orchid_grey-thumbs-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Samsung_Galaxy_s8_Plus_orchid_grey-thumbs-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Samsung_Galaxy_s8_Plus_orchid_grey-full-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Samsung_Galaxy_s8_Plus_orchid_grey-full-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.left",
+              "value": "/images/desktop/Samsung_Galaxy_s8_Plus_orchid_grey-full-product-left.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.right",
+              "value": "/images/desktop/Samsung_Galaxy_s8_Plus_orchid_grey-full-product-right.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Samsung_Galaxy_s8_Plus_orchid_grey-full-product-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Samsung_Galaxy_s8_Plus_orchid_grey-full-product-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Samsung_Galaxy_s8_Plus_orchid_grey-grid-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": null,
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "169",
+              "net": "140.83",
+              "vat": "28.17"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "169",
+              "net": "140.83",
+              "vat": "28.17"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "600.0",
+            "net": "500.0",
+            "vat": "100.0"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "isChanged": false,
+          "isCompatibleWithWatch": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "169",
+          "net": "140.83",
+          "vat": "28.17"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "169",
+          "net": "140.83",
+          "vat": "28.17"
+        },
+        "monthlyPrice": {
+          "gross": "44.40",
+          "net": "37",
+          "vat": "7.40"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "44.40",
+          "net": "37",
+          "vat": "7.40"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": null,
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "HANDSET",
+      "combiPackageId": null,
+      "confirmRequired": false,
+      "deviceFinancingId": null,
+      "additionalDetails": null,
+      "tradeInOfferCode": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "169",
+      "net": "140.83",
+      "vat": "28.17"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "169",
+      "net": "140.83",
+      "vat": "28.17"
+    },
+    "monthlyPrice": {
+      "gross": "44.40",
+      "net": "37",
+      "vat": "7.40"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "44.40",
+      "net": "37",
+      "vat": "7.40"
+    },
+    "totalOneoffSaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "totalMonthlySaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": true,
+  "hashvalue": "1171006606",
+  "lastModified": null,
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [
+    {
+      "packageLineId": "66c113ba-73c6-451c-8f58-b3c7059ec847",
+      "bundleId": "110082",
+      "identifier": {
+        "key": "msisdn",
+        "value": "447000000013"
+      },
+      "assetIntegrationId": "1-73ASQ30",
+      "activeDiscounts": [
+        {
+          "discountId": "111116",
+          "offerId": null,
+          "qualifier": null
+        },
+        {
+          "discountId": "107427",
+          "offerId": null,
+          "qualifier": null
+        }
+      ],
+      "bundlePrice": {
+        "bundleId": "110082",
+        "monthlyPrice": {
+          "gross": "51.79",
+          "net": "43.16",
+          "vat": "8.63"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "51.79",
+          "net": "43.16",
+          "vat": "8.63"
+        },
+        "merchandisingPromotions": null
+      },
+      "planStartDate": null,
+      "isActiveSubscription": true
+    }
+  ],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

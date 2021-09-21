@@ -1,0 +1,103 @@
+{
+  "bundle": {
+    "bundledServiceProducts": [{
+        "skuId": "100092",
+        "name": "Mobile broadband service",
+        "description": "Mobile broadband service",
+        "productClass": "Mobile Broadband Service",
+        "servicePointId": null,
+        "priceDetail": {
+          "oneOffPrice": null,
+          "oneOffDiscountPrice": null,
+          "monthlyPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "monthlyDiscountPrice": null,
+          "merchandisingPromotions": null
+        },
+        "miscellaneous": []
+      },
+      {
+        "skuId": "107551",
+        "name": "Fixed Line Service",
+        "description": "Fixed Line Service",
+        "productClass": "Fixed Line",
+        "servicePointId": "110567",
+        "priceDetail": {
+          "oneOffPrice": null,
+          "oneOffDiscountPrice": null,
+          "monthlyPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "monthlyDiscountPrice": null,
+          "merchandisingPromotions": null
+        },
+        "miscellaneous": [{
+          "name": "SERVICE POINT",
+          "value": "Gigafast Home Broadband and Voice"
+        }]
+      },
+      {
+        "skuId": "107552",
+        "name": "Fixed Broadband Service",
+        "description": "Fixed Broadband Service",
+        "productClass": "Fixed Broadband Service",
+        "servicePointId": "112766",
+        "priceDetail": {
+          "oneOffPrice": null,
+          "oneOffDiscountPrice": null,
+          "monthlyPrice": {
+            "gross": "38",
+            "net": "31.67",
+            "vat": "6.33"
+          },
+          "monthlyDiscountPrice": null,
+          "merchandisingPromotions": null
+        },
+        "miscellaneous": [{
+          "name": "SERVICE POINT",
+          "value": "Superfast 1 Full Fibre"
+        }]
+      }
+    ]
+  },
+  "services": [{
+    "packageLineId": "947618f7-7dcb-4303-8721-d263829e10c1",
+    "action": "ADD",
+    "skuId": "111997",
+    "name": "Super Wi-Fi product",
+    "description": null,
+    "displayName": "Super Wi-Fi product",
+    "displayDescription": null,
+    "specificationGroup": [],
+    "merchandisingMedia": [],
+    "attributes": [],
+    "priceDetails": {
+      "oneOffPrice": null,
+      "oneOffDiscountPrice": null,
+      "monthlyPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "merchandisingPromotions": null
+    },
+    "freeGift": false,
+    "productClass": "Super Wi-Fi",
+    "dataRollover": null,
+    "rootProductId": "107552",
+    "allowances": null,
+    "rewardPoints": null,
+    "planDuration": null,
+    "isChanged": false
+  }]
+}

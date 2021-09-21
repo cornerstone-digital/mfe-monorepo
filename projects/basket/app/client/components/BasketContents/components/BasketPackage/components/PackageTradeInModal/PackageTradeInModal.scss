@@ -1,0 +1,10 @@
+.break-spaces {
+  li {
+    white-space: break-spaces;
+    margin-bottom: $spacing-fixed-1;
+
+    @include md {
+      margin-bottom: $spacing-fixed-2;
+    }
+  }
+}

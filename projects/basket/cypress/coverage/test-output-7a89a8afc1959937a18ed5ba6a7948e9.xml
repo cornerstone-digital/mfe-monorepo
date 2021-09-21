@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-11-06T11:26:48" tests="0" file="cypress/integration/genericError.feature" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Generic Error" timestamp="2020-11-06T11:26:48" tests="1" failures="1" time="0">
+    <testcase name="Generic Error Show show the generic error when trying to create an invalid basket" time="0" classname="Show show the generic error when trying to create an invalid basket">
+      <failure message="Step implementation missing for: I have a basket with a wrong basketId" type="Error"><![CDATA[Error: Step implementation missing for: I have a basket with a wrong basketId
+    at Context.resolveAndRunStepDefinition (http://localhost:61498/__cypress/tests?p=cypress/integration/genericError.feature:27362:11)
+    at Context.eval (http://localhost:61498/__cypress/tests?p=cypress/integration/genericError.feature:26700:35)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

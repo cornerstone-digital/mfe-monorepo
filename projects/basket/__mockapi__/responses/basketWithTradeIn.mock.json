@@ -1,0 +1,995 @@
+{
+  "basketId": "28178ad6-7f3b-4a39-abf1-fc4d4043422b",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2021-08-18T08:18:11",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [{
+    "packageId": "0cbb2729-cfd0-484f-91ce-8c8e272ac75d",
+    "accountCategory": "Consumer",
+    "accountSubCategory": null,
+    "sequence": 2,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "d7a57040-4190-4287-946f-f5009da7f1de",
+      "action": "ADD",
+      "skuId": "112923",
+      "name": "24m 25GB Xtra Plan with 3 Benefits",
+      "description": "Xtra Plan with 3 Benefits unlimited mins unlimited texts and 25GB data",
+      "displayName": "25GB + 3 Xtra benefits",
+      "displayDescription": null,
+      "bundleClass": "HANDSET",
+      "productClass": null,
+      "serviceId": "110286",
+      "paymentType": "Postpaid",
+      "bundleType": "red",
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "24"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": [{
+        "type": "UK DATA",
+        "value": "25",
+        "uom": "GB",
+        "displayUom": "GB",
+        "tilUom": "DATA"
+      }, {
+        "type": "MMS",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "picture messages",
+        "tilUom": "MMS"
+      }, {
+        "type": "World Traveller",
+        "value": "Vodafone Global Roaming",
+        "uom": null,
+        "displayUom": null,
+        "tilUom": null
+      }, {
+        "type": "UK MIN",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "minutes",
+        "tilUom": "VOICE"
+      }, {
+        "type": "ORIGDATA",
+        "value": "25",
+        "uom": "GB",
+        "displayUom": "GB",
+        "tilUom": "DATA"
+      }, {
+        "type": "UK TEXT",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "texts",
+        "tilUom": "SMS"
+      }],
+      "merchandisingMedia": [{
+        "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+        "value": "3-month free trial of Secure Net (£1 p/m after)",
+        "type": "TEXT",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.sticker",
+        "value": "/images/desktop/5g_badge_digital.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": null,
+      "benefits": [{
+        "skuId": "030060"
+      }, {
+        "skuId": "030010"
+      }, {
+        "skuId": "030030"
+      }],
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "25",
+          "net": "20.83",
+          "vat": "4.17"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "25",
+          "net": "20.83",
+          "vat": "4.17"
+        },
+        "totalMonthlySavingsAmount": null,
+        "merchandisingPromotions": null,
+        "listOfMerchandisingPromotion": [],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": true,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "includedCalls": null,
+      "noPriceRise": null,
+      "wifiExpert": null,
+      "broadbandAntiVirus": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+      "packageLineId": "2e6558fd-6371-4be7-9698-adc1f6e4e667",
+      "action": "ADD",
+      "skuId": "086532",
+      "name": "Blank White Triple Format SIM",
+      "description": null,
+      "displayName": "3-in-1 SIM",
+      "shortDisplayName": null,
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": null,
+      "model": null,
+      "groupType": null,
+      "productClass": "SIM Card",
+      "productSubClass": "Core",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "0.0",
+        "net": "0.0",
+        "vat": "0.0"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "colourName": null,
+      "colourHexcode": null,
+      "capacity": null,
+      "isCompatibleWithWatch": false,
+      "isChanged": false
+    }, {
+      "packageLineId": "b9985e63-21c2-4263-96d9-0cac82d29281",
+      "action": "ADD",
+      "skuId": "213236",
+      "name": "Samsung S21 5G violet 128GB",
+      "description": "Samsung Galaxy S21 5G features next generation cameras to effortlessly capture epic, share-ready moments - no editing required",
+      "displayName": "Samsung Galaxy S21 5G 128GB Phantom Violet",
+      "shortDisplayName": "Samsung Galaxy S21 5G",
+      "displayDescription": null,
+      "deviceBriefDescription": [{
+        "key": "tradeIn",
+        "value": "true",
+        "type": null,
+        "valueUOM": null
+      }],
+      "deviceColor": "Phantom Violet",
+      "memorySize": "128 GB",
+      "make": "samsung",
+      "model": "galaxy-s21-5g",
+      "groupType": "DEVICE_PAYM",
+      "productClass": "eHandset",
+      "productSubClass": "HANDSET",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.right",
+        "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-full-product-right-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.side",
+        "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-full-product-side-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.left",
+        "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-full-product-left-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.side",
+        "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-thumbs-side.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.left",
+        "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-thumbs-left.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.back",
+        "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-full-product-back-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.back",
+        "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-thumbs-back.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.right",
+        "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-thumbs-right.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.sticker",
+        "value": "/images/small/5G_logo.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": {
+        "duration": {
+          "uom": "Months",
+          "value": "36"
+        },
+        "upFrontPrice": 29,
+        "customerType": "Consumer"
+      },
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "749",
+          "net": "624.17",
+          "vat": "124.83"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "749",
+          "net": "624.17",
+          "vat": "124.83"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": {
+          "aprRepresentative": "0.0",
+          "duration": {
+            "uom": null,
+            "value": "36"
+          },
+          "interestRate": "0.0",
+          "description": "On a 36-month phone credit agreement",
+          "monthlyPrice": {
+            "uom": "£",
+            "gross": "20.00",
+            "net": "16.67",
+            "vat": "3.33"
+          },
+          "totalHandsetCredit": {
+            "uom": "£",
+            "gross": "720.00",
+            "net": "600.00",
+            "vat": "120.00"
+          },
+          "totalHandsetPrice": {
+            "uom": "£",
+            "gross": "749.00",
+            "net": "624.17",
+            "vat": "124.83"
+          },
+          "upFrontPrice": {
+            "uom": "£",
+            "gross": "29.00",
+            "net": "24.17",
+            "vat": "4.83"
+          },
+          "upFrontDiscountPrice": {
+            "uom": "£",
+            "gross": "29.00",
+            "net": "24.17",
+            "vat": "4.83"
+          },
+          "monthlyDiscountPrice": {
+            "uom": "£",
+            "gross": "20.00",
+            "net": "16.67",
+            "vat": "3.33"
+          }
+        }
+      },
+      "boxPrice": {
+        "gross": "662.02",
+        "net": "551.68",
+        "vat": "110.34"
+      },
+      "freeGift": false,
+      "devicePromotion": "112686",
+      "simType": "HYBRID",
+      "colourName": "Phantom Violet",
+      "colourHexcode": "#9795B6",
+      "capacity": "128 GB",
+      "isCompatibleWithWatch": true,
+      "isChanged": false
+    }],
+    "services": [],
+    "discounts": [],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "29",
+        "net": "24.17",
+        "vat": "4.83"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "29",
+        "net": "24.17",
+        "vat": "4.83"
+      },
+      "monthlyPrice": {
+        "gross": "45",
+        "net": "37.50",
+        "vat": "7.50"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "45",
+        "net": "37.50",
+        "vat": "7.50"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "BINGO",
+    "combiPackageId": null,
+    "confirmRequired": false,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "tradeInOfferCode": null,
+    "tradeInCredit": {
+      "quoteId": "1111111111",
+      "deviceId": null,
+      "deviceName": "Apple iPhone XS 64GB",
+      "installedId": null,
+      "grade": {
+        "condition": "Working",
+        "level": "A"
+      },
+      "diagnostic": true,
+      "expiryDateTime": "2023-11-01T19:01:12",
+      "credit": {
+        "type": "BACS",
+        "upToPrice": null,
+        "guaranteedPrice": 251.99,
+        "monthlyCredit": null,
+        "creditProductId": 112850
+      }
+    },
+    "packageOfferCode": null,
+    "isChanged": false
+  }, {
+    "packageId": "a36072b0-6789-4665-95c3-2f20e00f69b9",
+    "accountCategory": "Consumer",
+    "accountSubCategory": null,
+    "sequence": 1,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "c92b8e5c-f376-47c5-9dba-816c19baa534",
+      "action": "ADD",
+      "skuId": "112928",
+      "name": "24m Unlimited Max Xtra Plan with 3 Benefits",
+      "description": "Unlimited Max Xtra Plan with 3 Benefits",
+      "displayName": "Unlimited Max + 3 Xtra benefits",
+      "displayDescription": null,
+      "bundleClass": "HANDSET",
+      "productClass": null,
+      "serviceId": "110286",
+      "paymentType": "Postpaid",
+      "bundleType": "unlimitedMax",
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "24"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": [{
+        "type": "UK DATA",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "MB",
+        "tilUom": "DATA"
+      }, {
+        "type": "UK MIN",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "minutes",
+        "tilUom": "VOICE"
+      }, {
+        "type": "World Traveller",
+        "value": "Vodafone Global Roaming",
+        "uom": null,
+        "displayUom": null,
+        "tilUom": null
+      }, {
+        "type": "ORIGDATA",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "MB",
+        "tilUom": "DATA"
+      }, {
+        "type": "MMS",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "picture messages",
+        "tilUom": "MMS"
+      }, {
+        "type": "UK TEXT",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "texts",
+        "tilUom": "SMS"
+      }],
+      "merchandisingMedia": [{
+        "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+        "value": "3-month free trial of Secure Net (£1 p/m after)",
+        "type": "TEXT",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.sticker",
+        "value": "/images/desktop/5g_badge_digital.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": null,
+      "benefits": [{
+        "skuId": "030010"
+      }, {
+        "skuId": "030060"
+      }, {
+        "skuId": "030030"
+      }],
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "35",
+          "net": "29.17",
+          "vat": "5.83"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "35",
+          "net": "29.17",
+          "vat": "5.83"
+        },
+        "totalMonthlySavingsAmount": null,
+        "merchandisingPromotions": null,
+        "listOfMerchandisingPromotion": [],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": true,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "includedCalls": null,
+      "noPriceRise": null,
+      "wifiExpert": null,
+      "broadbandAntiVirus": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+      "packageLineId": "4ec8f76a-bd0e-4c69-9505-a79e82047032",
+      "action": "ADD",
+      "skuId": "086532",
+      "name": "Blank White Triple Format SIM",
+      "description": null,
+      "displayName": "3-in-1 SIM",
+      "shortDisplayName": null,
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": null,
+      "model": null,
+      "groupType": null,
+      "productClass": "SIM Card",
+      "productSubClass": "Core",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "0.0",
+        "net": "0.0",
+        "vat": "0.0"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "colourName": null,
+      "colourHexcode": null,
+      "capacity": null,
+      "isCompatibleWithWatch": false,
+      "isChanged": false
+    }, {
+      "packageLineId": "bea4bd8b-585d-4cf4-b9d4-24e7a72e0782",
+      "action": "ADD",
+      "skuId": "212492",
+      "name": "Apple iPhone 12 64GB purple",
+      "description": "iPhone 12 pushes everything forward with superfast 5G, an A14 Bionic chip, new dual-camera system and Super Retina XDR display.",
+      "displayName": "Apple iPhone 12 64GB Purple",
+      "shortDisplayName": "Apple iPhone 12",
+      "displayDescription": null,
+      "deviceBriefDescription": [{
+        "key": "tradeIn",
+        "value": "true",
+        "type": null,
+        "valueUOM": null
+      }],
+      "deviceColor": "Purple",
+      "memorySize": "64 GB",
+      "make": "apple",
+      "model": "iphone-12",
+      "groupType": "DEVICE_PAYM",
+      "productClass": "eHandset",
+      "productSubClass": "HANDSET",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.full.right",
+        "value": "/images/desktop/Apple_iPhone_12_purple-full-product-right-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.right",
+        "value": "/images/desktop/Apple_iPhone_12_purple-thumbs-right.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.side",
+        "value": "/images/desktop/Apple_iPhone_12_purple-thumbs-side.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.back",
+        "value": "/images/desktop/Apple_iPhone_12_purple-thumbs-back.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.back",
+        "value": "/images/desktop/Apple_iPhone_12_purple-full-product-back-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/Apple_iPhone_12_purple-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.side",
+        "value": "/images/desktop/Apple_iPhone_12_purple-full-product-side-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/Apple_iPhone_12_purple-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.left",
+        "value": "/images/desktop/Apple_iPhone_12_purple-thumbs-left.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/Apple_iPhone_12_purple-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.sticker",
+        "value": "/images/small/5G_logo.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/Apple_iPhone_12_purple-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.left",
+        "value": "/images/desktop/Apple_iPhone_12_purple-full-product-left-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": {
+        "duration": {
+          "uom": "Months",
+          "value": "36"
+        },
+        "upFrontPrice": 19,
+        "customerType": "Consumer"
+      },
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "631",
+          "net": "525.83",
+          "vat": "105.17"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "631",
+          "net": "525.83",
+          "vat": "105.17"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": {
+          "aprRepresentative": "0.0",
+          "duration": {
+            "uom": null,
+            "value": "36"
+          },
+          "interestRate": "0.0",
+          "description": "On a 36-month phone credit agreement",
+          "monthlyPrice": {
+            "uom": "£",
+            "gross": "17.00",
+            "net": "14.17",
+            "vat": "2.83"
+          },
+          "totalHandsetCredit": {
+            "uom": "£",
+            "gross": "612.00",
+            "net": "510.00",
+            "vat": "102.00"
+          },
+          "totalHandsetPrice": {
+            "uom": "£",
+            "gross": "631.00",
+            "net": "525.83",
+            "vat": "105.17"
+          },
+          "upFrontPrice": {
+            "uom": "£",
+            "gross": "19.00",
+            "net": "15.83",
+            "vat": "3.17"
+          },
+          "upFrontDiscountPrice": {
+            "uom": "£",
+            "gross": "19.00",
+            "net": "15.83",
+            "vat": "3.17"
+          },
+          "monthlyDiscountPrice": {
+            "uom": "£",
+            "gross": "17.00",
+            "net": "14.17",
+            "vat": "2.83"
+          }
+        }
+      },
+      "boxPrice": {
+        "gross": "643.20",
+        "net": "536.0",
+        "vat": "107.20"
+      },
+      "freeGift": false,
+      "devicePromotion": "112686",
+      "simType": "HYBRID",
+      "colourName": "Purple",
+      "colourHexcode": "#CEC5FA",
+      "capacity": "64 GB",
+      "isCompatibleWithWatch": true,
+      "isChanged": false
+    }],
+    "services": [],
+    "discounts": [],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "19",
+        "net": "15.83",
+        "vat": "3.17"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "19",
+        "net": "15.83",
+        "vat": "3.17"
+      },
+      "monthlyPrice": {
+        "gross": "52",
+        "net": "43.34",
+        "vat": "8.66"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "52",
+        "net": "43.34",
+        "vat": "8.66"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "BINGO",
+    "combiPackageId": null,
+    "confirmRequired": false,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "tradeInOfferCode": null,
+    "tradeInCredit": {
+      "quoteId": "222222222",
+      "deviceId": null,
+      "deviceName": "Apple iPhone XS 64GB",
+      "installedId": null,
+      "grade": {
+        "condition": "Working",
+        "level": "A"
+      },
+      "diagnostic": true,
+      "expiryDateTime": "2023-11-01T19:01:12",
+      "credit": {
+        "type": "MONTHLY_BILL_CREDIT",
+        "upToPrice": null,
+        "guaranteedPrice": 249.84,
+        "monthlyCredit": {
+          "monthlyPrice": 10.41,
+          "tenure": 24
+        },
+        "creditProductId": 112849
+      }
+    },
+    "packageOfferCode": null,
+    "isChanged": false
+  }],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "48",
+      "net": "40",
+      "vat": "8"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "48",
+      "net": "40",
+      "vat": "8"
+    },
+    "monthlyPrice": {
+      "gross": "97",
+      "net": "80.84",
+      "vat": "16.16"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "97",
+      "net": "80.84",
+      "vat": "16.16"
+    },
+    "totalOneoffSaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "totalMonthlySaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "1478568279",
+  "lastModified": "2021-08-18T07:19:38.645302",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "isJourneyAddedToEmptyBasket": false,
+  "affiliateFlag": false,
+  "isChanged": false
+}

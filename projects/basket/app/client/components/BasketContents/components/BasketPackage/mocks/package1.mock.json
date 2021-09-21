@@ -1,0 +1,341 @@
+{
+  "index": 0,
+  "showPackageHeaderUnderline": true,
+  "showBorder": true,
+  "thisPackage": {
+    "packageId": "fee83b9d-d084-4ae3-a198-9ff630665159",
+    "accountCategory": "Consumer",
+    "sequence": 1,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": null,
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "ecc44220-186a-4aab-a6bc-f236d273b131",
+      "action": "ADD",
+      "skuId": "111079",
+      "name": "24mth Band E Unlmin 8GB Red Entertainment Plan with 500m to EU and VGRPlus",
+      "description": "Red Entertainment Plan comes with unlimited mins, unlimited texts, 8GB data, 500m to EU & VGRPlus",
+      "displayName": "8GB Red Entertainment plan",
+      "displayDescription": null,
+      "bundleClass": "HANDSET",
+      "productClass": null,
+      "serviceId": "110286",
+      "paymentType": "Postpaid",
+      "bundleType": "Red Entertainment",
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "24"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": [
+        {
+          "type": "UK DATA",
+          "value": "8",
+          "uom": "GB",
+          "displayUom": "GB",
+          "tilUom": "DATA"
+        },
+        {
+          "type": "UK MIN",
+          "value": "Unlimited",
+          "uom": "-",
+          "displayUom": "minutes",
+          "tilUom": "VOICE"
+        },
+        {
+          "type": "ORIGDATA",
+          "value": "8",
+          "uom": "GB",
+          "displayUom": "GB",
+          "tilUom": "DATA"
+        },
+        {
+          "type": "UK MIN",
+          "value": "500",
+          "uom": "-",
+          "displayUom": "minutes",
+          "tilUom": "INTLVOICE"
+        },
+        {
+          "type": "UK TEXT",
+          "value": "Unlimited",
+          "uom": "-",
+          "displayUom": "texts",
+          "tilUom": "SMS"
+        }
+      ],
+      "merchandisingMedia": [
+        {
+          "id": "entertainment.merchandisingPromotions.merchandisingPromotion.PromotionMedia",
+          "value": "/images/desktop/img_mef_ent_packs.png",
+          "type": "URL",
+          "footNotes": null
+        },
+        {
+          "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+          "value": "3-month free trial of Secure Net",
+          "type": "TEXT",
+          "footNotes": null
+        },
+        {
+          "id": "entertainment.merchandisingPromotions.merchandisingPromotion.label",
+          "value": "Your choice of entertainment for 24 months",
+          "type": "TEXT",
+          "footNotes": null
+        }
+      ],
+      "attributes": null,
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "51",
+          "net": "42.50",
+          "vat": "8.50"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "51",
+          "net": "42.50",
+          "vat": "8.50"
+        },
+        "merchandisingPromotions": null
+      },
+      "isVodafoneGlobalRoaming": true,
+      "bundledServiceProducts": [],
+      "planCategory": "consumer",
+      "isChanged": false
+    },
+    "hardwares": [
+      {
+        "packageLineId": "b8158d37-5e98-4550-833b-094d1b9a3d18",
+        "action": "ADD",
+        "skuId": "086532",
+        "name": "Blank White Triple Format SIM",
+        "description": null,
+        "displayName": "3-in-1 SIM",
+        "displayDescription": null,
+        "deviceBriefDescription": [],
+        "deviceColor": null,
+        "memorySize": null,
+        "make": null,
+        "model": null,
+        "groupType": null,
+        "productClass": "SIM Card",
+        "displayOrder": null,
+        "showInSummary": false,
+        "merchandisingMedia": [],
+        "attributes": [],
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "merchandisingPromotions": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "financingOptions": [],
+          "deviceFinancingId": null
+        },
+        "boxPrice": {
+          "gross": "0.0",
+          "net": "0.0",
+          "vat": "0.0"
+        },
+        "freeGift": false,
+        "isChanged": false
+      },
+      {
+        "packageLineId": "7bfe074b-bab4-4e90-9145-782afbb3fc41",
+        "action": "ADD",
+        "skuId": "090357",
+        "name": "Samsung Galaxy S8 orchid grey",
+        "description": "Boundary-breaking design, check. Infinity Display, check. Personal assistant in your pocket? Check. Samsung S8 has it all.",
+        "displayName": "Samsung Galaxy S8 64GB Orchid Grey",
+        "displayDescription": null,
+        "deviceBriefDescription": [],
+        "deviceColor": "Orchid Grey",
+        "memorySize": "64 GB",
+        "make": "samsung",
+        "model": "galaxy-s8",
+        "groupType": "DEVICE_PAYM",
+        "productClass": "Handset",
+        "displayOrder": null,
+        "showInSummary": false,
+        "merchandisingMedia": [
+          {
+            "id": "imageURLs.thumbs.back",
+            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-back.png",
+            "type": "URL",
+            "footNotes": null
+          },
+          {
+            "id": "imageURLs.grid",
+            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-grid-product-front.png",
+            "type": "URL",
+            "footNotes": null
+          },
+          {
+            "id": "imageURLs.thumbs.left",
+            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-left.png",
+            "type": "URL",
+            "footNotes": null
+          },
+          {
+            "id": "imageURLs.full.right",
+            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-right.png",
+            "type": "URL",
+            "footNotes": null
+          },
+          {
+            "id": "imageURLs.full.hero",
+            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-front.png",
+            "type": "URL",
+            "footNotes": null
+          },
+          {
+            "id": "imageURLs.thumbs.front",
+            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-front.png",
+            "type": "URL",
+            "footNotes": null
+          },
+          {
+            "id": "imageURLs.thumbs.side",
+            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-side.png",
+            "type": "URL",
+            "footNotes": null
+          },
+          {
+            "id": "imageURLs.full.left",
+            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-left.png",
+            "type": "URL",
+            "footNotes": null
+          },
+          {
+            "id": "imageURLs.full.back",
+            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-back.png",
+            "type": "URL",
+            "footNotes": null
+          },
+          {
+            "id": "imageURLs.full.front",
+            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-front.png",
+            "type": "URL",
+            "footNotes": null
+          },
+          {
+            "id": "imageURLs.full.side",
+            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-side.png",
+            "type": "URL",
+            "footNotes": null
+          },
+          {
+            "id": "imageURLs.thumbs.right",
+            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-right.png",
+            "type": "URL",
+            "footNotes": null
+          }
+        ],
+        "attributes": [],
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "9",
+            "net": "7.50",
+            "vat": "1.50"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "9",
+            "net": "7.50",
+            "vat": "1.50"
+          },
+          "merchandisingPromotions": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "financingOptions": [],
+          "deviceFinancingId": null
+        },
+        "boxPrice": {
+          "gross": "432.0",
+          "net": "360.0",
+          "vat": "72.0"
+        },
+        "freeGift": false,
+        "isChanged": false
+      }
+    ],
+    "services": [
+      {
+        "packageLineId": "17e76d94-44b7-4e00-935a-e2e0b283cdfa",
+        "action": "ADD",
+        "skuId": "110461",
+        "name": "Vodafone Insurance: Tier 1 Loss Theft and Damage",
+        "description": null,
+        "displayName": "Loss, theft, damage and breakdown cover",
+        "displayDescription": null,
+        "specificationGroup": [],
+        "merchandisingMedia": [],
+        "attributes": [],
+        "priceDetails": {
+          "oneOffPrice": null,
+          "oneOffDiscountPrice": null,
+          "monthlyPrice": {
+            "gross": "13.50",
+            "net": "13.50",
+            "vat": "0"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "13.50",
+            "net": "13.50",
+            "vat": "0"
+          },
+          "merchandisingPromotions": null
+        },
+        "freeGift": false,
+        "productClass": "Insurance",
+        "dataRollover": null,
+        "rootProductId": "110461",
+        "allowances": null,
+        "rewardPoints": null,
+        "planDuration": null,
+        "isChanged": false
+      }
+    ],
+    "discounts": null,
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "9",
+        "net": "7.50",
+        "vat": "1.50"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "9",
+        "net": "7.50",
+        "vat": "1.50"
+      },
+      "monthlyPrice": {
+        "gross": "51",
+        "net": "42.50",
+        "vat": "8.50"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "51",
+        "net": "42.50",
+        "vat": "8.50"
+      }
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": null,
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "HANDSET",
+    "isChanged": false
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "basketId": "5cef992c-b157-4db7-b199-4fd296dea9c3",
+  "affiliateId": "11",
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T09:45:00.000+02:00",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Upgrade",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "610e8706-5efc-4594-9c3a-23a921b943f7",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Upgrade",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "5265bd07-a77f-4f78-880f-15b201a6fbda",
+        "action": "ADD",
+        "skuId": "111195",
+        "name": "One Number Plan A",
+        "description": "One Number Plan A",
+        "displayName": "One Number Plan A",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "Red Extra",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "24"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          }
+        ],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "22",
+            "net": "18.33",
+            "vat": "3.67"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "22",
+            "net": "18.33",
+            "vat": "3.67"
+          },
+          "totalSavingsAmount": null,
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "7bfa4851-2e59-4a34-878f-b366b8f949e2",
+          "action": "ADD",
+          "skuId": "202040",
+          "name": "Apple Watch Series 3 38mm silver",
+          "description": null,
+          "displayName": "Apple Watch 3 38mm",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": "apple",
+          "model": "watch-3",
+          "groupType": null,
+          "productClass": "eHandset",
+          "productSubClass": "WATCH",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": null,
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "309.56",
+            "net": "257.97",
+            "vat": "51.59"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": null,
+          "isCompatibleWithWatch": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyPrice": {
+          "gross": "22",
+          "net": "18.33",
+          "vat": "3.67"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "22",
+          "net": "18.33",
+          "vat": "3.67"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": null,
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": "071111111",
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "EHANDSET",
+      "combiPackageId": null,
+      "deviceFinancingId": null,
+      "additionalDetails": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "monthlyPrice": {
+      "gross": "22",
+      "net": "18.33",
+      "vat": "3.67"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "22",
+      "net": "18.33",
+      "vat": "3.67"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "-649908012",
+  "lastModified": null,
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [
+    {
+      "packageLineId": "27dd88b9-18df-40fe-8bd8-096149229818",
+      "bundleId": "110082",
+      "identifier": {
+        "key": "msisdn",
+        "value": "447000000013"
+      },
+      "assetIntegrationId": "1-73ASQ30",
+      "activeDiscounts": [
+        {
+          "discountId": "111116",
+          "offerId": null,
+          "qualifier": null
+        },
+        {
+          "discountId": "107427",
+          "offerId": null,
+          "qualifier": null
+        }
+      ],
+      "bundlePrice": {
+        "bundleId": "110082",
+        "monthlyPrice": {
+          "gross": "51.79",
+          "net": "43.16",
+          "vat": "8.63"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "51.79",
+          "net": "43.16",
+          "vat": "8.63"
+        },
+        "merchandisingPromotions": null
+      },
+      "isActiveSubscription": true
+    },
+    {
+      "packageLineId": "db68fd3d-2acc-4a07-aeac-a4f09de5bbb0",
+      "bundleId": "110059",
+      "identifier": {
+        "key": "msisdn",
+        "value": "447000000025"
+      },
+      "assetIntegrationId": "1-45SGQP3",
+      "activeDiscounts": [],
+      "bundlePrice": {
+        "bundleId": "110059",
+        "monthlyPrice": {
+          "gross": "41.35",
+          "net": "34.46",
+          "vat": "6.89"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "41.35",
+          "net": "34.46",
+          "vat": "6.89"
+        },
+        "merchandisingPromotions": null
+      },
+      "isActiveSubscription": false
+    }
+  ],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "affiliateFlag": false,
+  "isChanged": false
+}

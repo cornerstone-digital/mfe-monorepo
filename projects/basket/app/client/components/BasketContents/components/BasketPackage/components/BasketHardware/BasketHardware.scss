@@ -1,0 +1,15 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.link {
+  color: $color-vodafone-grey;
+  margin: $spacing-fixed-0;
+  text-align: left;
+  min-height: 0;
+  border-top: 0;
+}
+
+.text {
+  position: relative;
+  top: -2px;
+  margin-left: $spacing-fixed-1 / 2;
+}

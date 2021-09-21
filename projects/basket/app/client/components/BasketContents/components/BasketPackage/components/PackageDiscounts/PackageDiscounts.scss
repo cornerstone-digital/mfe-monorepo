@@ -1,0 +1,52 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+.item-body {
+  padding-top: $spacing-fixed-1;
+}
+
+.container {
+  padding: $spacing-fixed-2;
+  border-top: 1px solid $color-pale-grey;
+}
+
+.withTradeIn {
+  padding-bottom: 0;
+
+  @include md {
+    padding-bottom: $spacing-fixed-2;
+  }
+}
+
+.no-gutters {
+  padding: 0;
+}
+
+.description {
+  display: none;
+  padding-right: $spacing-fixed-1;
+
+  @include md {
+    padding-bottom: $spacing-fixed-2;
+    display: flex;
+  }
+}
+
+.visible-only-mobile {
+  display: flex;
+
+  @include md {
+    display: none;
+  }
+}
+
+.icon-column-wrapper {
+  text-align: center;
+  padding: 0;
+}

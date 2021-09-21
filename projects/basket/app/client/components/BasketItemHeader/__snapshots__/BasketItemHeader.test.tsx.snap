@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BasketItemHeader /> data speed tests should render data speed link 1`] = `
+<DocumentFragment>
+  <div
+    stylename="item-header"
+  >
+    <div
+      class="item-title"
+    >
+      <h5
+        class="heading heading-6 inherit w-bold margin-0"
+      >
+        header title
+      </h5>
+      <button
+        class="speed-button"
+        data-selector="data-speed"
+      >
+        Speed: Maximum download of 10 Mbps
+      </button>
+    </div>
+    <button
+      data-selector="basket-header-action-header-title"
+      stylename="action-button"
+    >
+      <span
+        class="action-text"
+      >
+        Remove
+      </span>
+      <span
+        aria-hidden="true"
+        class="wrapper inherit size-2 2  "
+      >
+        test-file-stub
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<BasketItemHeader /> should render extra header 1`] = `
+<DocumentFragment>
+  <div
+    stylename="item-header"
+  >
+    <div
+      class="item-title"
+    >
+      <h5
+        class="heading heading-6 inherit w-bold margin-0"
+      >
+        header title
+      </h5>
+    </div>
+    <button
+      data-selector="basket-header-action-header-title"
+      stylename="action-button"
+    >
+      <span
+        class="action-text"
+      >
+        Remove
+      </span>
+      <span
+        aria-hidden="true"
+        class="wrapper inherit size-1 1  "
+      >
+        test-file-stub
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<BasketItemHeader /> should render package header with remove button 1`] = `
+<DocumentFragment>
+  <div
+    stylename="item-header"
+  >
+    <div
+      class="item-title"
+    >
+      <h5
+        class="heading heading-6 inherit w-bold margin-0"
+      >
+        header title
+      </h5>
+    </div>
+    <button
+      data-selector="basket-header-action-header-title"
+      stylename="action-button"
+    >
+      <span
+        class="action-text"
+      >
+        Remove
+      </span>
+      <span
+        aria-hidden="true"
+        class="wrapper inherit size-2 2  "
+      >
+        test-file-stub
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<BasketItemHeader /> should render removing with loading icon 1`] = `
+<DocumentFragment>
+  <div
+    stylename="item-header"
+  >
+    <div
+      class="item-title"
+    >
+      <h5
+        class="heading heading-6 inherit w-bold margin-0"
+      >
+        Removing header title
+      </h5>
+    </div>
+    <button
+      data-selector="basket-header-action-removing-header-title"
+      stylename="action-button is-disabled"
+    >
+      <span
+        class="action-text"
+      />
+      <div
+        class="wrapper wrapper-left "
+      >
+        <div
+          class="spinner-wrapper spinner-wrapper-left"
+        >
+          <div
+            class="spinner spinner-dark spinner-sm spinner "
+          >
+            <svg
+              viewBox="25 25 50 50"
+            >
+              <circle
+                cx="50"
+                cy="50"
+                r="20"
+              />
+            </svg>
+            <div
+              class="spinner spinner-dark spinner-sm spinner vfuk-LoadingSpinner__fallback_loader"
+            >
+              <div />
+              <div />
+              <div />
+              <div />
+            </div>
+          </div>
+        </div>
+      </div>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<BasketItemHeader /> should render retrieving with loading icon 1`] = `
+<DocumentFragment>
+  <div
+    stylename="item-header"
+  >
+    <div
+      class="item-title"
+    >
+      <h5
+        class="heading heading-6 inherit w-bold margin-0"
+      >
+        Retrieving header title
+      </h5>
+    </div>
+    <button
+      data-selector="basket-header-action-retrieving-header-title"
+      stylename="action-button is-disabled"
+    >
+      <span
+        class="action-text"
+      />
+      <div
+        class="wrapper wrapper-left "
+      >
+        <div
+          class="spinner-wrapper spinner-wrapper-left"
+        >
+          <div
+            class="spinner spinner-dark spinner-sm spinner "
+          >
+            <svg
+              viewBox="25 25 50 50"
+            >
+              <circle
+                cx="50"
+                cy="50"
+                r="20"
+              />
+            </svg>
+            <div
+              class="spinner spinner-dark spinner-sm spinner vfuk-LoadingSpinner__fallback_loader"
+            >
+              <div />
+              <div />
+              <div />
+              <div />
+            </div>
+          </div>
+        </div>
+      </div>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<BasketItemHeader /> should render with undo button 1`] = `
+<DocumentFragment>
+  <div
+    stylename="item-header"
+  >
+    <div
+      class="item-title"
+    >
+      <h5
+        class="heading heading-6 inherit w-bold margin-0"
+      >
+        You removed header title
+      </h5>
+    </div>
+    <button
+      data-selector="basket-header-action-you-removed-header-title"
+      stylename="action-button"
+    >
+      <span
+        class="action-text"
+      >
+        Undo
+      </span>
+      <span
+        aria-hidden="true"
+        class="wrapper inherit size-2 2  "
+      >
+        test-file-stub
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<BasketItemHeader /> should update correctly 1`] = `
+<DocumentFragment>
+  <div
+    stylename="item-header"
+  >
+    <div
+      class="item-title"
+    >
+      <h5
+        class="heading heading-6 inherit w-bold margin-0"
+      >
+        Removing header title
+      </h5>
+    </div>
+    <button
+      data-selector="basket-header-action-removing-header-title"
+      stylename="action-button is-disabled"
+    >
+      <span
+        class="action-text"
+      />
+      <div
+        class="wrapper wrapper-left "
+      >
+        <div
+          class="spinner-wrapper spinner-wrapper-left"
+        >
+          <div
+            class="spinner spinner-dark spinner-xs spinner "
+          >
+            <svg
+              viewBox="25 25 50 50"
+            >
+              <circle
+                cx="50"
+                cy="50"
+                r="20"
+              />
+            </svg>
+            <div
+              class="spinner spinner-dark spinner-xs spinner vfuk-LoadingSpinner__fallback_loader"
+            >
+              <div />
+              <div />
+              <div />
+              <div />
+            </div>
+          </div>
+        </div>
+      </div>
+    </button>
+  </div>
+</DocumentFragment>
+`;

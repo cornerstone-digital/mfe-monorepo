@@ -1,0 +1,421 @@
+{
+  "basketId": "64cdef57-3ef7-4801-9faf-dd730f3edeeb",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2020-10-09T10:56:28.000Z",
+  "metadata": { "returnURL": null, "basketStatus": "INCOMPLETE", "salesOrderId": null, "reason": null },
+  "journey": { "journeyType": "Acquisition", "offerCode": null },
+  "packages": [
+    {
+      "packageId": "1d5a9d2b-b6f8-4f68-b9a8-0149fa018fe8",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "9d5ae01a-c739-46cc-abff-1602f42fe0d3",
+        "action": "ADD",
+        "skuId": "112294",
+        "name": "24m Band G 2GB Red Plan",
+        "description": "CTR16 Red Plan with unlimited mins unlimited texts and 2GB data",
+        "displayName": "Red 2GB",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "red51",
+        "commitmentPeriod": { "uom": "Months", "value": "24" },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [
+          { "type": "UK DATA", "value": "2", "uom": "GB", "displayUom": "GB", "tilUom": "DATA" },
+          { "type": "MMS", "value": "Unlimited", "uom": "-", "displayUom": "picture messages", "tilUom": "MMS" },
+          { "type": "UK MIN", "value": "Unlimited", "uom": "-", "displayUom": "minutes", "tilUom": "VOICE" },
+          { "type": "World Traveller", "value": "Vodafone Global Roaming", "uom": null, "displayUom": null, "tilUom": null },
+          { "type": "ORIGDATA", "value": "2", "uom": "GB", "displayUom": "GB", "tilUom": "DATA" },
+          { "type": "UK TEXT", "value": "Unlimited", "uom": "-", "displayUom": "texts", "tilUom": "SMS" }
+        ],
+        "merchandisingMedia": [
+          {
+            "id": "conditional_full_discount.merchandisingPromotions.merchandisingPromotion.description",
+            "value": "£5 Trade In Promotional discount ",
+            "type": "TEXT",
+            "footNotes": [""]
+          },
+          {
+            "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+            "value": "3-month free trial of Secure Net",
+            "type": "TEXT",
+            "footNotes": [""]
+          },
+          {
+            "id": "limited_time.merchandisingPromotions.merchandisingPromotion.label",
+            "value": "First 6 months discount on us",
+            "type": "TEXT",
+            "footNotes": [""]
+          },
+          {
+            "id": "limited_time.merchandisingPromotions.merchandisingPromotion.description",
+            "value": "First 6 months discount on us",
+            "type": "TEXT",
+            "footNotes": [""]
+          },
+          {
+            "id": "conditional_full_discount.merchandisingPromotions.merchandisingPromotion.label",
+            "value": "£5 Trade In Promotional discount ",
+            "type": "TEXT",
+            "footNotes": [""]
+          }
+        ],
+        "attributes": null,
+        "benefits": [],
+        "priceDetails": {
+          "monthlyPrice": { "gross": "30", "net": "25", "vat": "5" },
+          "monthlyDiscountPrice": { "gross": "0", "net": "0", "vat": "0" },
+          "totalMonthlySavingsAmount": {
+            "uom": "£",
+            "net": 8.33,
+            "vat": 1.67,
+            "gross": 10.0
+          },
+          "merchandisingPromotions": {
+            "tag": "PAYM_LmtdTim_6MonthHalfPrice",
+            "label": "First 6 months discount on us",
+            "description": "First 6 months discount on us - Phone Plan*",
+            "discountId": "107475",
+            "mpType": "limited_time",
+            "priceEstablishedLabel": "then ",
+            "priority": "440",
+            "packageType": ["Acquisition", "SecondLine", "Upgrade"],
+            "footNotes": [""],
+            "confirmRequired": true,
+            "offerGroup": null,
+            "belowTheLine": "false",
+            "qualifier": null,
+            "category": null
+          },
+          "listOfMerchandisingPromotion": [
+            {
+              "tag": "PAYM_LmtdTim_6MonthHalfPrice",
+              "label": "First 6 months discount on us",
+              "description": "First 6 months discount on us - Phone Plan*",
+              "discountId": "107475",
+              "mpType": "limited_time",
+              "priceEstablishedLabel": "then ",
+              "priority": "440",
+              "packageType": ["Acquisition", "SecondLine", "Upgrade"],
+              "footNotes": [""],
+              "confirmRequired": true,
+              "offerGroup": null,
+              "belowTheLine": "false",
+              "qualifier": null,
+              "category": null
+            },
+            {
+              "tag": "Trade_In_PayM_5",
+              "label": "£5 Trade In Promotional discount ",
+              "description": "£5 Trade In Promotional discount - Phone Plan",
+              "discountId": "112022,112022",
+              "mpType": "conditional_full_discount",
+              "priceEstablishedLabel": "Was",
+              "priority": "421",
+              "packageType": ["Acquisition", "SecondLine", "Upgrade", "Acquisition", "Upgrade", "SecondLine"],
+              "footNotes": [""],
+              "confirmRequired": true,
+              "offerGroup": "trade-in",
+              "belowTheLine": "false",
+              "qualifier": null,
+              "category": null
+            }
+          ],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": [],
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "includedCalls": null,
+        "noPriceRise": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "62837131-22c3-4990-b861-e9531fa93b06",
+          "action": "ADD",
+          "skuId": "082942",
+          "name": "TEST ONLY - Apple iPhone 5c 8GB white",
+          "description": "All-glass design, advanced cameras, wireless charging and a smart A11 Bionic chip. Intelligence never looked better.",
+          "displayName": "eSIM  Mobile Handset Red",
+          "displayDescription": null,
+          "deviceBriefDescription": [],
+          "deviceColor": null,
+          "memorySize": null,
+          "make": "apple",
+          "model": "iphone-6s",
+          "groupType": "DEVICE_PAYM",
+          "productClass": "eHandset",
+          "productSubClass": "HANDSET",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Apple_iPhone_8_Gold_grid_product_front.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Apple_iPhone_8_Gold-full-product-front.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Apple_iPhone_8_Gold-full-product-back.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Apple_iPhone_8_Gold-thumbs-side.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Apple_iPhone_8_Gold-full-product-front.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Apple_iPhone_8_Gold-full-product-side.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Apple_iPhone_8_Gold-thumbs-back.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Apple_iPhone_8_Gold-thumbs-front.png",
+              "type": "URL",
+              "footNotes": [""]
+            }
+          ],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": { "gross": "49", "net": "40.83", "vat": "8.17" },
+            "oneOffDiscountPrice": { "gross": "49", "net": "40.83", "vat": "8.17" },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": [],
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": { "gross": "426.0", "net": "355.0", "vat": "71.0" },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "ESIMONLY",
+          "isCompatibleWithWatch": false,
+          "isChanged": false
+        },
+        {
+          "packageLineId": "a22df1d9-4dda-408c-80b3-eec7aeee800d",
+          "action": "ADD",
+          "skuId": "201893",
+          "name": "VFUK eSIM",
+          "description": null,
+          "displayName": "eSIM",
+          "displayDescription": null,
+          "deviceBriefDescription": [],
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "SIM Card",
+          "productSubClass": null,
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": null,
+            "oneOffDiscountPrice": null,
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": [],
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": { "gross": null, "net": null, "vat": null },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "isCompatibleWithWatch": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [
+        {
+          "productLineId": "69160a2e-7d90-43b9-b330-0046414a67b4",
+          "action": "DISCOUNT",
+          "skuId": "107475",
+          "tag": "Trade_In_PayM_5",
+          "label": "£5 Trade In Promotional discount ",
+          "tenure": "FULL",
+          "duration": "27 Months",
+          "confirmedRequired": "true",
+          "merchandisingMedia": [],
+          "discountValue": { "type": "Percentage", "value": "100.0" }
+        },
+        {
+          "productLineId": "814694ab-916f-4792-bdd9-9989b2c91763",
+          "action": "DISCOUNT",
+          "skuId": "112022",
+          "tag": "Trade_In_PayM_5",
+          "label": "£5 Trade In Promotional discount ",
+          "tenure": "FULL",
+          "duration": "27 Months",
+          "confirmedRequired": "true",
+          "merchandisingMedia": [],
+          "discountValue": { "type": "GBP", "value": "4.1667" }
+        },
+        {
+          "productLineId": "935b947e-d9d1-4eec-bc78-c4891eced4c4",
+          "action": "DISCOUNT",
+          "skuId": "112022",
+          "tag": "Trade_In_PayM_5",
+          "label": "£5 Trade In Promotional discount ",
+          "tenure": "FULL",
+          "duration": "27 Months",
+          "confirmedRequired": "true",
+          "merchandisingMedia": [],
+          "discountValue": { "type": "GBP", "value": "4.1667" }
+        }
+      ],
+      "priceDetails": {
+        "oneOffPrice": { "gross": "49", "net": "40.83", "vat": "8.17" },
+        "oneOffDiscountPrice": { "gross": "49", "net": "40.83", "vat": "8.17" },
+        "monthlyPrice": { "gross": "30", "net": "25", "vat": "5" },
+        "monthlyDiscountPrice": { "gross": "0", "net": "0", "vat": "0" },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": { "serviceCode": null, "installationCode": null, "terminationCode": null },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": null
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "lineReference": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": { "serviceCode": null, "installationCode": null, "terminationCode": null },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": null
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "serviceReference": { "serviceLines": [] }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "HANDSET",
+      "combiPackageId": null,
+      "confirmRequired": true,
+      "deviceFinancingId": null,
+      "additionalDetails": {},
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": { "gross": "49", "net": "40.83", "vat": "8.17" },
+    "oneOffDiscountPrice": { "gross": "49", "net": "40.83", "vat": "8.17" },
+    "monthlyPrice": { "gross": "30", "net": "25", "vat": "5" },
+    "monthlyDiscountPrice": { "gross": "0", "net": "0", "vat": "0" },
+    "totalMonthlySaving": {
+      "gross": "2.39",
+      "net": "1.99",
+      "vat": "0.40"
+    },
+    "totalOneoffSaving": {
+      "gross": "2.39",
+      "net": "1.99",
+      "vat": "0.40"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "30",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "218186893",
+  "lastModified": "2020-10-09T10:56:29.648Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

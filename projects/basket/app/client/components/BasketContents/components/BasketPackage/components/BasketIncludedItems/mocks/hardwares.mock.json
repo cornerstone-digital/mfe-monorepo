@@ -1,0 +1,170 @@
+[
+  {
+    "packageLineId": "ff2dd87c-8c40-417e-9b49-345e4b80cc04",
+    "action": "ADD",
+    "skuId": "206680",
+    "name": "Vodafone Wi-Fi Hub",
+    "description": null,
+    "displayName": "Vodafone Wi-Fi Hub",
+    "displayDescription": null,
+    "deviceBriefDescription": [
+      {
+        "key": "latestRouter",
+        "value": "true",
+        "type": null,
+        "valueUOM": null
+      },
+      {
+        "key": "deliveryConsideration",
+        "value": "Alpha",
+        "type": null,
+        "valueUOM": null
+      }
+    ],
+    "deviceColor": null,
+    "memorySize": null,
+    "make": null,
+    "model": null,
+    "groupType": null,
+    "productClass": "Fixed broadband equipment 2019",
+    "productSubClass": null,
+    "displayOrder": 1,
+    "showInSummary": false,
+    "merchandisingMedia": [
+      {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/small/IMG_Router_VOX3_Broadband.jpg",
+        "type": "URL",
+        "footNotes": []
+      }
+    ],
+    "attributes": null,
+    "contractOptions": null,
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "merchandisingPromotions": null,
+      "monthlyPrice": {
+        "gross": null,
+        "net": null,
+        "vat": null
+      },
+      "monthlyDiscountPrice": {
+        "gross": null,
+        "net": null,
+        "vat": null
+      },
+      "financingOptions": [],
+      "deviceFinancingId": null,
+      "devicePaymentPlan": null
+    },
+    "boxPrice": {
+      "gross": "0.0",
+      "net": "0.0",
+      "vat": "0.0"
+    },
+    "freeGift": false,
+    "devicePromotion": null,
+    "simType": "PHYSICAL",
+    "isChanged": false,
+    "isCompatibleWithWatch": false
+  },
+  {
+    "packageLineId": "057e6056-1fa1-4dd8-8f9c-2b86aaba0fc7",
+    "action": "ADD",
+    "skuId": "201438",
+    "name": "Apple TV 32GB",
+    "description": null,
+    "displayName": "Apple 4K TV",
+    "displayDescription": null,
+    "deviceBriefDescription": [
+      {
+        "key": "deliveryConsideration",
+        "value": "Beta",
+        "type": null,
+        "valueUOM": null
+      }
+    ],
+    "deviceColor": null,
+    "memorySize": null,
+    "make": null,
+    "model": null,
+    "groupType": null,
+    "productClass": "Accessories",
+    "productSubClass": null,
+    "displayOrder": 4,
+    "showInSummary": false,
+    "merchandisingMedia": [
+      {
+        "id": "imageURLs.thumbs.front",
+        "value": "https://assets.vodafone.co.uk/cs/groups/public/documents/webcontent/vfcon106314.png",
+        "type": "URL",
+        "footNotes": []
+      }
+    ],
+    "attributes": null,
+    "contractOptions": null,
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "999",
+        "net": "832.50",
+        "vat": "166.50"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "999",
+        "net": "832.50",
+        "vat": "166.50"
+      },
+      "merchandisingPromotions": null,
+      "monthlyPrice": {
+        "gross": null,
+        "net": null,
+        "vat": null
+      },
+      "monthlyDiscountPrice": {
+        "gross": null,
+        "net": null,
+        "vat": null
+      },
+      "financingOptions": [
+        {
+          "apr": "0.0",
+          "selected": false,
+          "deviceFinancingId": "SNLADSADLJ",
+          "financeProvider": "PayPal",
+          "financeTerm": "30",
+          "monthlyPrice": {
+            "gross": "33.30",
+            "net": "27.75",
+            "vat": "5.55"
+          },
+          "totalPriceWithInterest": {
+            "gross": "999",
+            "net": "832.50",
+            "vat": "166.50"
+          }
+        }
+      ],
+      "deviceFinancingId": null,
+      "devicePaymentPlan": null
+    },
+    "boxPrice": {
+      "gross": "156.0",
+      "net": "130.0",
+      "vat": "26.0"
+    },
+    "freeGift": false,
+    "devicePromotion": null,
+    "simType": "PHYSICAL",
+    "isChanged": false,
+    "isCompatibleWithWatch": false
+  }
+]

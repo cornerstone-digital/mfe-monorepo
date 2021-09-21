@@ -1,0 +1,432 @@
+{
+  "basketId": "7f1880c1-363b-4834-b6dc-03267caef97b",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2019-08-10T09:34:25.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "SecondLine",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "90525b0d-0a0e-4c39-a71b-5eed660c84ab",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "SecondLine",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "0a196f2d-1f6c-4912-a9ed-d9c1edae03c5",
+        "action": "ADD",
+        "skuId": "111938",
+        "name": "18mth SIMO Unlimited Lite Plan",
+        "description": "CTR15B SIM only Unlimited Lite Plan with Speed Tier 1",
+        "displayName": "Unlimited Lite",
+        "displayDescription": "Good for browsing, catching up on social media and streaming music.",
+        "bundleClass": "SIMO",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "unlimited48",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "18"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK DATA",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "MB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "MB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          }
+        ],
+        "merchandisingMedia": [
+          {
+            "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+            "value": "3-month free trial of Secure Net",
+            "type": "TEXT",
+            "footNotes": []
+          }
+        ],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "23",
+            "net": "19.17",
+            "vat": "3.83"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "23",
+            "net": "19.17",
+            "vat": "3.83"
+          },
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "267fa644-f37e-42d9-9a75-4a745f7d8d37",
+          "action": "ADD",
+          "skuId": "086532",
+          "name": "Blank White Triple Format SIM",
+          "description": null,
+          "displayName": "3-in-1 SIM",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "SIM Card",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "0.0",
+            "net": "0.0",
+            "vat": "0.0"
+          },
+          "freeGift": false,
+          "isChanged": false
+        }
+      ],
+      "services": [
+            {
+               "packageLineId":"e3ece02d-763c-406e-8ac5-5ad81edcad4b",
+               "action":"ADD",
+               "skuId":"108532",
+               "name":"Vodafone International Saver 100",
+               "description":"Opt in and enjoy preferential rates to call landlines and mobiles abroad from the UK. We'll add the cost to your bill every month, and you can opt out at any time.",
+               "displayName":"Vodafone International Saver 100",
+               "displayDescription":null,
+               "specificationGroup":[
+
+               ],
+               "merchandisingMedia":[
+                  {
+                     "id":"imageURLs.full.hero",
+                     "value":"https://www.vodafone.co.uk/broadband/120x120-mobile300-icon.png",
+                     "type":"URL",
+                     "footNotes":[
+                        ""
+                     ]
+                  }
+               ],
+               "attributes":[
+
+               ],
+               "priceDetails":{
+                  "oneOffPrice":null,
+                  "oneOffDiscountPrice":null,
+                  "monthlyPrice":{
+                     "gross":"3",
+                     "net":"2.50",
+                     "vat":"0.50"
+                  },
+                  "monthlyDiscountPrice":{
+                     "gross":"3",
+                     "net":"2.50",
+                     "vat":"0.50"
+                  },
+                  "merchandisingPromotions":null
+               },
+               "freeGift":false,
+               "productClass":"International Call Add On",
+               "dataRollover":null,
+               "rootProductId":"110286",
+               "allowances":[
+                  {
+                     "type":"UK MIN",
+                     "value":"100",
+                     "uom":"minutes",
+                     "displayUom":null,
+                     "tilUom":null
+                  }
+               ],
+               "rewardPoints":null,
+               "planDuration":null,
+               "isChanged":false
+            }
+         ],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": null,
+          "net": null,
+          "vat": null
+        },
+        "oneOffDiscountPrice": {
+          "gross": null,
+          "net": null,
+          "vat": null
+        },
+        "monthlyPrice": {
+          "gross": "23",
+          "net": "19.17",
+          "vat": "3.83"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "23",
+          "net": "19.17",
+          "vat": "3.83"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "lineReference": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "serviceReference": {
+          "serviceLines": []
+        }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "SIMO",
+      "combiPackageId": null,
+      "deviceFinancingId": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "monthlyPrice": {
+      "gross": "23.0",
+      "net": "19.17",
+      "vat": "3.83"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "23.0",
+      "net": "19.17",
+      "vat": "3.83"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "2061569825",
+  "lastModified": "2019-08-10T09:36:07.167Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [
+    {
+      "packageLineId": "242c32b3-50b0-4d2f-9f20-0981d1165e1c",
+      "bundleId": "111149",
+      "identifier": {
+        "key": "bbServiceId",
+        "value": "VFC1843258"
+      },
+      "activeDiscounts": [],
+      "bundlePrice": {
+        "bundleId": "111149",
+        "monthlyPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "26",
+          "net": "21.67",
+          "vat": "4.33"
+        },
+        "merchandisingPromotions": {
+          "tag": "OFF100018",
+          "label": "Vodafone Together £3 discount",
+          "description": "Save £3 a month on Home Broadband when combined with an 18-month SIM Only plan",
+          "discountId": "111116",
+          "mpType": "multi_package_discount",
+          "priceEstablishedLabel": null,
+          "priority": "1016",
+          "packageType": [
+            "Acquisition",
+            "Upgrade",
+            "SecondLine"
+          ],
+          "footNotes": [
+            "£3 off Superfast Broadband when bought with an 18 Month SIMO"
+          ],
+          "confirmRequired": false,
+          "offerGroup": "Combined Combi Offers",
+          "belowTheLine": "false",
+          "qualifier": {
+            "bundleId": "111938",
+            "identifier": {
+              "key": "PackageId",
+              "value": "90525b0d-0a0e-4c39-a71b-5eed660c84ab"
+            }
+          },
+          "category": "Distinct"
+        }
+      }
+    }
+  ],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "affiliateFlag": false,
+  "isChanged": false
+}

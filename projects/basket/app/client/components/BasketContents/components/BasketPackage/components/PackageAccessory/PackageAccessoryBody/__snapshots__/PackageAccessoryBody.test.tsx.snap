@@ -1,0 +1,497 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PackageAccessoryBody should render for basic scenario 1`] = `
+<DocumentFragment>
+  <ul>
+    <li
+      class="vfuk-ListGroup__list vfuk-ListGroup__line"
+    >
+      <div
+        class="sc-bdfBQB Gridstyle__GridContainer-sc-11onwkc-0 juDKGU bRCyJL no-gutters"
+        data-name="container-fluid"
+      >
+        <div
+          class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt"
+          data-name="row"
+        >
+          <div
+            class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 bVSFOy cRslqE header"
+            data-name="col-12 col-md-12 col-lg-12"
+          >
+            <div
+              stylename="item-header"
+            >
+              <div
+                class="item-title"
+              >
+                <h5
+                  class="heading heading-6 inherit w-bold margin-0"
+                >
+                  XQISIT Wireless Charger 10W Black
+                </h5>
+              </div>
+              <button
+                data-selector="basket-header-action-xqisit-wireless-charger-10w-black"
+                stylename="action-button"
+              >
+                <span
+                  class="action-text"
+                >
+                  Remove
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="wrapper inherit size-1 1  "
+                >
+                  test-file-stub
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-hidden="false"
+          class="item-body-wrap"
+        >
+          <div
+            class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt item-body"
+            data-name="row"
+          >
+            <div
+              class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 heDFIj cRslqE icon-column-wrapper"
+              data-name="col-4 col-md-2 col-lg-2"
+            >
+              <picture
+                class="product-image vfuk-image__picture "
+              >
+                <source
+                  media="(min-width: screenDesktop)"
+                  srcset="http://mock-localhost/images/desktop/accessory_sku200913_black-grid-product-front.png"
+                />
+                <source
+                  media="(min-width: screenTablet)"
+                />
+                <source
+                  media="(min-width: 0)"
+                  srcset="http://mock-localhost/images/desktop/accessory_sku200913_black-grid-product-front.png"
+                />
+                <img
+                  alt="XQISIT Wireless Charger 10W Black"
+                  height="auto"
+                  src="http://mock-localhost/images/desktop/accessory_sku200913_black-grid-product-front.png"
+                  width="auto"
+                />
+              </picture>
+            </div>
+            <div
+              class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 fVIZqk cRslqE justify-left desc-column-large"
+              data-name="col-12 col-md-5 col-lg-4"
+            />
+            <div
+              class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 ebiDZn cRslqE"
+              data-name="col-8 col-md-5 col-lg-6"
+            >
+              <div
+                class="sc-bdfBQB Gridstyle__GridContainer-sc-11onwkc-0 juDKGU bRCyJL no-gutters"
+                data-name="container-fluid"
+              >
+                <div
+                  class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt"
+                  data-name="row"
+                >
+                  <div
+                    class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 dOTIbJ cRslqE column"
+                    data-name="col-6"
+                  >
+                    <div
+                      class="basket-item-totals"
+                      data-selector="cost-upfront"
+                    >
+                      <p
+                        class=""
+                      >
+                        <span
+                          class="prefix inherit"
+                        >
+                          Upfront
+                        </span>
+                        <span
+                          class="main inherit"
+                        >
+                          £15
+                        </span>
+                        <span
+                          class="suffix inherit"
+                        />
+                        <span
+                          class="suffix2 grey"
+                        />
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 dOTIbJ cRslqE column"
+                    data-name="col-6"
+                  >
+                    <div
+                      class="basket-item-totals"
+                      data-selector="cost-monthly"
+                    >
+                      <p
+                        class=""
+                      >
+                        <span
+                          class="prefix inherit"
+                        >
+                          Monthly
+                        </span>
+                        <span
+                          class="main inherit"
+                        >
+                          £0
+                        </span>
+                        <span
+                          class="suffix inherit"
+                        />
+                        <span
+                          class="suffix2 grey"
+                        />
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      class="vfuk-ListGroup__list vfuk-ListGroup__line"
+    >
+      <div
+        class="sc-bdfBQB Gridstyle__GridContainer-sc-11onwkc-0 juDKGU bRCyJL no-gutters"
+        data-name="container-fluid"
+      >
+        <div
+          class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt"
+          data-name="row"
+        >
+          <div
+            class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 bVSFOy cRslqE header"
+            data-name="col-12 col-md-12 col-lg-12"
+          >
+            <div
+              stylename="item-header"
+            >
+              <div
+                class="item-title"
+              >
+                <h5
+                  class="heading heading-6 inherit w-bold margin-0"
+                >
+                  Apple EarPods Lightning White
+                </h5>
+              </div>
+              <button
+                data-selector="basket-header-action-apple-earpods-lightning-white"
+                stylename="action-button"
+              >
+                <span
+                  class="action-text"
+                >
+                  Remove
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="wrapper inherit size-1 1  "
+                >
+                  test-file-stub
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-hidden="false"
+          class="item-body-wrap"
+        >
+          <div
+            class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt item-body"
+            data-name="row"
+          >
+            <div
+              class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 heDFIj cRslqE icon-column-wrapper"
+              data-name="col-4 col-md-2 col-lg-2"
+            >
+              <picture
+                class="product-image vfuk-image__picture "
+              >
+                <source
+                  media="(min-width: screenDesktop)"
+                  srcset="http://mock-localhost/images/desktop/accessory_sku093337_white-grid-product-front.png"
+                />
+                <source
+                  media="(min-width: screenTablet)"
+                />
+                <source
+                  media="(min-width: 0)"
+                  srcset="http://mock-localhost/images/desktop/accessory_sku093337_white-grid-product-front.png"
+                />
+                <img
+                  alt="Apple EarPods Lightning White"
+                  height="auto"
+                  src="http://mock-localhost/images/desktop/accessory_sku093337_white-grid-product-front.png"
+                  width="auto"
+                />
+              </picture>
+            </div>
+            <div
+              class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 fVIZqk cRslqE justify-left desc-column-large"
+              data-name="col-12 col-md-5 col-lg-4"
+            />
+            <div
+              class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 ebiDZn cRslqE"
+              data-name="col-8 col-md-5 col-lg-6"
+            >
+              <div
+                class="sc-bdfBQB Gridstyle__GridContainer-sc-11onwkc-0 juDKGU bRCyJL no-gutters"
+                data-name="container-fluid"
+              >
+                <div
+                  class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt"
+                  data-name="row"
+                >
+                  <div
+                    class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 dOTIbJ cRslqE column"
+                    data-name="col-6"
+                  >
+                    <div
+                      class="basket-item-totals"
+                      data-selector="cost-upfront"
+                    >
+                      <p
+                        class=""
+                      >
+                        <span
+                          class="prefix inherit"
+                        >
+                          Upfront
+                        </span>
+                        <span
+                          class="main inherit"
+                        >
+                          £19
+                        </span>
+                        <span
+                          class="suffix inherit"
+                        />
+                        <span
+                          class="suffix2 grey"
+                        />
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 dOTIbJ cRslqE column"
+                    data-name="col-6"
+                  >
+                    <div
+                      class="basket-item-totals"
+                      data-selector="cost-monthly"
+                    >
+                      <p
+                        class=""
+                      >
+                        <span
+                          class="prefix inherit"
+                        >
+                          Monthly
+                        </span>
+                        <span
+                          class="main inherit"
+                        >
+                          £0
+                        </span>
+                        <span
+                          class="suffix inherit"
+                        />
+                        <span
+                          class="suffix2 grey"
+                        />
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      class="vfuk-ListGroup__list vfuk-ListGroup__line"
+    >
+      <div
+        class="sc-bdfBQB Gridstyle__GridContainer-sc-11onwkc-0 juDKGU bRCyJL no-gutters"
+        data-name="container-fluid"
+      >
+        <div
+          class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt"
+          data-name="row"
+        >
+          <div
+            class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 bVSFOy cRslqE header"
+            data-name="col-12 col-md-12 col-lg-12"
+          >
+            <div
+              stylename="item-header"
+            >
+              <div
+                class="item-title"
+              >
+                <h5
+                  class="heading heading-6 inherit w-bold margin-0"
+                >
+                  InvisibleShield Glass Elite+ Clear
+                </h5>
+              </div>
+              <button
+                data-selector="basket-header-action-invisibleshield-glass-elite-clear"
+                stylename="action-button"
+              >
+                <span
+                  class="action-text"
+                >
+                  Remove
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="wrapper inherit size-1 1  "
+                >
+                  test-file-stub
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-hidden="false"
+          class="item-body-wrap"
+        >
+          <div
+            class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt item-body"
+            data-name="row"
+          >
+            <div
+              class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 heDFIj cRslqE icon-column-wrapper"
+              data-name="col-4 col-md-2 col-lg-2"
+            >
+              <picture
+                class="product-image vfuk-image__picture "
+              >
+                <source
+                  media="(min-width: screenDesktop)"
+                  srcset="http://mock-localhost/images/desktop/accessory_sku208431_clear-grid-product-front.png"
+                />
+                <source
+                  media="(min-width: screenTablet)"
+                />
+                <source
+                  media="(min-width: 0)"
+                  srcset="http://mock-localhost/images/desktop/accessory_sku208431_clear-grid-product-front.png"
+                />
+                <img
+                  alt="InvisibleShield Glass Elite+ Clear"
+                  height="auto"
+                  src="http://mock-localhost/images/desktop/accessory_sku208431_clear-grid-product-front.png"
+                  width="auto"
+                />
+              </picture>
+            </div>
+            <div
+              class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 fVIZqk cRslqE justify-left desc-column-large"
+              data-name="col-12 col-md-5 col-lg-4"
+            />
+            <div
+              class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 ebiDZn cRslqE"
+              data-name="col-8 col-md-5 col-lg-6"
+            >
+              <div
+                class="sc-bdfBQB Gridstyle__GridContainer-sc-11onwkc-0 juDKGU bRCyJL no-gutters"
+                data-name="container-fluid"
+              >
+                <div
+                  class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt"
+                  data-name="row"
+                >
+                  <div
+                    class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 dOTIbJ cRslqE column"
+                    data-name="col-6"
+                  >
+                    <div
+                      class="basket-item-totals"
+                      data-selector="cost-upfront"
+                    >
+                      <p
+                        class=""
+                      >
+                        <span
+                          class="prefix inherit"
+                        >
+                          Upfront
+                        </span>
+                        <span
+                          class="main inherit"
+                        >
+                          £10
+                        </span>
+                        <span
+                          class="suffix inherit"
+                        />
+                        <span
+                          class="suffix2 grey"
+                        />
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 dOTIbJ cRslqE column"
+                    data-name="col-6"
+                  >
+                    <div
+                      class="basket-item-totals"
+                      data-selector="cost-monthly"
+                    >
+                      <p
+                        class=""
+                      >
+                        <span
+                          class="prefix inherit"
+                        >
+                          Monthly
+                        </span>
+                        <span
+                          class="main inherit"
+                        >
+                          £0
+                        </span>
+                        <span
+                          class="suffix inherit"
+                        />
+                        <span
+                          class="suffix2 grey"
+                        />
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

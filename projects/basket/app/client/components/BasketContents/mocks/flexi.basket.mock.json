@@ -1,0 +1,561 @@
+{
+	"basketId": "528e305d-63ae-4c28-a753-291f724ca99c",
+	"affiliateId": null,
+	"source": "WCS",
+	"customerRequestedDate": "2020-12-28T11:45:32.000Z",
+	"metadata": {
+		"returnURL": null,
+		"basketStatus": "INCOMPLETE",
+		"salesOrderId": null,
+		"reason": null
+	},
+	"journey": {
+		"journeyType": "Upgrade",
+		"offerCode": null
+	},
+	"packages": [{
+		"packageId": "2cfecf7f-6899-4890-a462-091f6d718796",
+		"accountCategory": "business",
+		"sequence": 1,
+		"packageType": "Upgrade",
+		"removable": true,
+		"dependentOn": [],
+		"voucherCode": null,
+		"bundle": {
+			"packageLineId": "82f3649d-d343-4f3f-a0a4-7207aa575ac1",
+			"action": "ADD",
+			"skuId": "113724",
+			"name": "24mth Band D Unlimited Max Plan with 100m to EU Entertainment and VGR Plus",
+			"description": "CTR 16B Unlimited Max Plan with 100m to EU Entertainment and VGR Plus",
+			"displayName": "Unlimited Max with Entertainment",
+			"displayDescription": null,
+			"bundleClass": "HANDSET",
+			"productClass": null,
+			"serviceId": "110286",
+			"paymentType": "Postpaid",
+			"bundleType": "unlimitedMaxEntertainment81",
+			"commitmentPeriod": {
+				"uom": "Months",
+				"value": "24"
+			},
+			"displayOrder": null,
+			"showInSummary": false,
+			"allowances": [{
+				"type": "UK DATA",
+				"value": "Unlimited",
+				"uom": "-",
+				"displayUom": "MB",
+				"tilUom": "DATA"
+			}, {
+				"type": "UK MIN",
+				"value": "Unlimited",
+				"uom": "-",
+				"displayUom": "minutes",
+				"tilUom": "VOICE"
+			}, {
+				"type": "UK TEXT",
+				"value": "Unlimited",
+				"uom": "-",
+				"displayUom": "texts",
+				"tilUom": "SMS"
+			}, {
+				"type": "MMS",
+				"value": "Unlimited",
+				"uom": "-",
+				"displayUom": "picture messages",
+				"tilUom": "MMS"
+			}, {
+				"type": "UK MIN",
+				"value": "Unlimited",
+				"uom": "-",
+				"displayUom": "minutes",
+				"tilUom": "VOICE"
+			}, {
+				"type": "UK TEXT",
+				"value": "Unlimited",
+				"uom": "-",
+				"displayUom": "texts",
+				"tilUom": "SMS"
+			}, {
+				"type": "MMS",
+				"value": "Unlimited",
+				"uom": "-",
+				"displayUom": "picture messages",
+				"tilUom": "MMS"
+			}, {
+				"type": "UK MIN",
+				"value": "100",
+				"uom": "-",
+				"displayUom": "minutes",
+				"tilUom": "INTLVOICEEU"
+			}, {
+				"type": "ORIGDATA",
+				"value": "Unlimited",
+				"uom": "-",
+				"displayUom": "MB",
+				"tilUom": "DATA"
+			}, {
+				"type": "Inclusive EU minutes",
+				"value": "100 international minutes to EU",
+				"uom": null,
+				"displayUom": null,
+				"tilUom": null
+			}, {
+				"type": "World Traveller",
+				"value": "Vodafone Global Roaming Plus",
+				"uom": null,
+				"displayUom": null,
+				"tilUom": null
+			}],
+			"merchandisingMedia": [{
+				"id": "imageURLs.sticker",
+				"value": "/images/desktop/5g_badge_digital.png",
+				"type": "URL",
+				"footNotes": []
+			}, {
+				"id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+				"value": "3-month free trial of Secure Net",
+				"type": "TEXT",
+				"footNotes": []
+			}, {
+				"id": "entertainment.merchandisingPromotions.merchandisingPromotion.PromotionMedia",
+				"value": "/images/desktop/img_mef_ent_packs_v5_2020.png",
+				"type": "URL",
+				"footNotes": []
+			}, {
+				"id": "entertainment.merchandisingPromotions.merchandisingPromotion.label",
+				"value": "Your choice of entertainment for 24 months",
+				"type": "TEXT",
+				"footNotes": []
+			}],
+			"attributes": null,
+			"benefits": [],
+			"priceDetails": {
+				"monthlyPrice": {
+					"gross": "70",
+					"net": "58.33",
+					"vat": "11.67"
+				},
+				"monthlyDiscountPrice": {
+					"gross": "70",
+					"net": "58.33",
+					"vat": "11.67"
+				},
+				"totalMonthlySavingsAmount": null,
+				"merchandisingPromotions": null,
+				"listOfMerchandisingPromotion": [],
+				"removedPromotionFootNote": null
+			},
+			"isVodafoneGlobalRoaming": true,
+			"bundledServiceProducts": null,
+			"planCategory": "CONSUMER",
+			"portability": null,
+			"speed": null,
+			"maxCapSpeed": null,
+			"avgDownloadSpeed": null,
+			"includedCalls": null,
+			"noPriceRise": null,
+			"isChanged": false
+		},
+		"hardwares": [{
+			"packageLineId": "50a36a86-c14d-42f6-8851-83511120c947",
+			"action": "ADD",
+			"skuId": "207433",
+			"name": "Samsung Galaxy S20 Plus 128GB grey",
+			"description": "Galaxy S20+ 5G takes pro-level shots in an instant. Experience beautiful moments in edge-to-edge clarity, and harness 5G power.",
+			"displayName": "Samsung Galaxy S20+ 5G 128GB Cosmic Grey",
+			"displayDescription": null,
+			"deviceBriefDescription": null,
+			"deviceColor": null,
+			"memorySize": null,
+			"make": "samsung",
+			"model": "galaxy-s20-plus-5g",
+			"groupType": "DEVICE_PAYM",
+			"productClass": "eHandset",
+			"productSubClass": "HANDSET",
+			"displayOrder": null,
+			"showInSummary": false,
+			"merchandisingMedia": [{
+				"id": "imageURLs.thumbs.front",
+				"value": "/images/desktop/Samsung_Galaxy_S20_Plus_5G_cosmic_grey-thumbs-front.png",
+				"type": "URL",
+				"footNotes": []
+			}, {
+				"id": "imageURLs.thumbs.left",
+				"value": "/images/desktop/Samsung_Galaxy_S20_Plus_5G_cosmic_grey-thumbs-left.png",
+				"type": "URL",
+				"footNotes": []
+			}, {
+				"id": "imageURLs.thumbs.right",
+				"value": "/images/desktop/Samsung_Galaxy_S20_Plus_5G_cosmic_grey-thumbs-right.png",
+				"type": "URL",
+				"footNotes": []
+			}, {
+				"id": "imageURLs.thumbs.side",
+				"value": "/images/desktop/Samsung_Galaxy_S20_Plus_5G_cosmic_grey-thumbs-side.png",
+				"type": "URL",
+				"footNotes": []
+			}, {
+				"id": "imageURLs.thumbs.back",
+				"value": "/images/desktop/Samsung_Galaxy_S20_Plus_5G_cosmic_grey-thumbs-back.png",
+				"type": "URL",
+				"footNotes": []
+			}, {
+				"id": "imageURLs.full.hero",
+				"value": "/images/desktop/Samsung_Galaxy_S20_Plus_5G_cosmic_grey-full-product-front-600.png",
+				"type": "URL",
+				"footNotes": []
+			}, {
+				"id": "imageURLs.full.front",
+				"value": "/images/desktop/Samsung_Galaxy_S20_Plus_5G_cosmic_grey-full-product-front-600.png",
+				"type": "URL",
+				"footNotes": []
+			}, {
+				"id": "imageURLs.full.left",
+				"value": "/images/desktop/Samsung_Galaxy_S20_Plus_5G_cosmic_grey-full-product-left-600.png",
+				"type": "URL",
+				"footNotes": []
+			}, {
+				"id": "imageURLs.full.right",
+				"value": "/images/desktop/Samsung_Galaxy_S20_Plus_5G_cosmic_grey-full-product-right-600.png",
+				"type": "URL",
+				"footNotes": []
+			}, {
+				"id": "imageURLs.full.side",
+				"value": "/images/desktop/Samsung_Galaxy_S20_Plus_5G_cosmic_grey-full-product-side-600.png",
+				"type": "URL",
+				"footNotes": []
+			}, {
+				"id": "imageURLs.full.back",
+				"value": "/images/desktop/Samsung_Galaxy_S20_Plus_5G_cosmic_grey-full-product-back-600.png",
+				"type": "URL",
+				"footNotes": []
+			}, {
+				"id": "imageURLs.grid",
+				"value": "/images/desktop/Samsung_Galaxy_S20_Plus_5G_cosmic_grey-grid-product-front.png",
+				"type": "URL",
+				"footNotes": []
+			}, {
+				"id": "imageURLs.sticker",
+				"value": "/images/small/5G_logo.png",
+				"type": "URL",
+				"footNotes": []
+			}],
+			"attributes": [],
+			"contractOptions": null,
+			"priceDetails": {
+				"oneOffPrice": {
+					"gross": "29",
+					"net": "24.17",
+					"vat": "4.83"
+				},
+				"oneOffDiscountPrice": {
+					"gross": "29",
+					"net": "24.17",
+					"vat": "4.83"
+				},
+				"merchandisingPromotions": null,
+				"monthlyPrice": {
+					"gross": null,
+					"net": null,
+					"vat": null
+				},
+				"monthlyDiscountPrice": {
+					"gross": null,
+					"net": null,
+					"vat": null
+				},
+				"financingOptions": null,
+				"deviceFinancingId": null,
+				"devicePaymentPlan": null
+			},
+			"boxPrice": {
+				"gross": "680.82",
+				"net": "567.35",
+				"vat": "113.47"
+			},
+			"freeGift": false,
+			"devicePromotion": null,
+			"simType": "HYBRID",
+			"isCompatibleWithWatch": true,
+			"isChanged": false
+		}],
+		"services": [{
+			"packageLineId": "ab267a69-242c-4bd9-8632-a3f7a839d3c6",
+			"action": "ADD",
+			"skuId": "111015",
+			"name": "Device Support",
+			"description": "You'll get 100GB of cloud storage, backed-up with bank-level encryption, access to technical support on the phone or Live Chat, and health checks to optimise your device.",
+			"displayName": "Device support",
+			"displayDescription": null,
+			"specificationGroup": [],
+			"merchandisingMedia": [],
+			"attributes": [],
+			"priceDetails": {
+				"oneOffPrice": null,
+				"oneOffDiscountPrice": null,
+				"monthlyPrice": {
+					"gross": "2.40",
+					"net": "2",
+					"vat": "0.40"
+				},
+				"monthlyDiscountPrice": {
+					"gross": "2.40",
+					"net": "2",
+					"vat": "0.40"
+				},
+				"merchandisingPromotions": null
+			},
+			"freeGift": false,
+			"productClass": "Vodafone Device Support",
+			"dataRollover": null,
+			"rootProductId": "110286",
+			"allowances": [],
+			"rewardPoints": null,
+			"planDuration": null,
+			"isChanged": false
+		}, {
+			"packageLineId": "f3af485f-5bb1-434a-9c82-736843440778",
+			"action": "ADD",
+			"skuId": "110177",
+			"name": "Fee for Flexi-Upgrade",
+			"description": "This charge is based on the handset value and the remaining time left on your contract. It's calculated like this: <p style=\"font-family:Courier; color:grey; font-size: 14px;\">Handset value &#247; contract length (months) x remaining contract</p>",
+			"displayName": "Early upgrade charge",
+			"displayDescription": null,
+			"specificationGroup": [],
+			"merchandisingMedia": [],
+			"attributes": [],
+			"priceDetails": {
+				"oneOffPrice": {
+					"gross": "102.70",
+					"net": "85.58",
+					"vat": "17.12"
+				},
+				"oneOffDiscountPrice": {
+					"gross": "102.70",
+					"net": "85.58",
+					"vat": "17.12"
+				},
+				"monthlyPrice": null,
+				"monthlyDiscountPrice": null,
+				"merchandisingPromotions": null
+			},
+			"freeGift": false,
+			"productClass": "Fee",
+			"dataRollover": null,
+			"rootProductId": "110286",
+			"allowances": [],
+			"rewardPoints": null,
+			"planDuration": null,
+			"isChanged": false
+		}, {
+			"packageLineId": "a0f478fb-ac8a-4dec-8502-62c273b505e6",
+			"action": "ADD",
+			"skuId": "109606",
+			"name": "Business Damage Insurance",
+			"description": "If your phone is damaged or breaks down we'll repair or replace it.",
+			"displayName": "Business Damage Insurance",
+			"displayDescription": null,
+			"specificationGroup": [],
+			"merchandisingMedia": [],
+			"attributes": [],
+			"priceDetails": {
+				"oneOffPrice": null,
+				"oneOffDiscountPrice": null,
+				"monthlyPrice": {
+					"gross": "5",
+					"net": "5",
+					"vat": "0"
+				},
+				"monthlyDiscountPrice": {
+					"gross": "5",
+					"net": "5",
+					"vat": "0"
+				},
+				"merchandisingPromotions": null
+			},
+			"freeGift": false,
+			"productClass": "Insurance",
+			"dataRollover": null,
+			"rootProductId": "109606",
+			"allowances": [],
+			"rewardPoints": null,
+			"planDuration": null,
+			"isChanged": false
+		}],
+		"discounts": [],
+		"priceDetails": {
+			"oneOffPrice": {
+				"gross": "29",
+				"net": "24.17",
+				"vat": "4.83"
+			},
+			"oneOffDiscountPrice": {
+				"gross": "29",
+				"net": "24.17",
+				"vat": "4.83"
+			},
+			"monthlyPrice": {
+				"gross": "77.40",
+				"net": "65.33",
+				"vat": "12.07"
+			},
+			"monthlyDiscountPrice": {
+				"gross": "77.40",
+				"net": "65.33",
+				"vat": "12.07"
+			},
+			"financingOptions": null
+		},
+		"installationAddress": null,
+		"appointmentWindow": null,
+		"servicePoint": {
+			"lineRefernece": {
+				"lineLocator": {
+					"exchangeCode": null,
+					"exchangeName": null,
+					"districtCode": null,
+					"l2SID": null,
+					"cableLinkID": null,
+					"distributionPoint": null
+				},
+				"lineSettings": {
+					"serviceCode": null,
+					"installationCode": null,
+					"terminationCode": null
+				},
+				"lineStatus": {
+					"statusCode": null,
+					"accessLineStatus": null,
+					"gnpStatus": null,
+					"lineOption": null,
+					"technology": null,
+					"lineType": null,
+					"tempStructure": false,
+					"standbyPowerRequired": false,
+					"narrowBandServicesAvailable": "null"
+				},
+				"availableServices": null,
+				"lineDirectory": null
+			},
+			"lineReference": {
+				"lineLocator": {
+					"exchangeCode": null,
+					"exchangeName": null,
+					"districtCode": null,
+					"l2SID": null,
+					"cableLinkID": null,
+					"distributionPoint": null
+				},
+				"lineSettings": {
+					"serviceCode": null,
+					"installationCode": null,
+					"terminationCode": null
+				},
+				"lineStatus": {
+					"statusCode": null,
+					"accessLineStatus": null,
+					"gnpStatus": null,
+					"lineOption": null,
+					"technology": null,
+					"lineType": null,
+					"tempStructure": false,
+					"standbyPowerRequired": false,
+					"narrowBandServicesAvailable": "null"
+				},
+				"availableServices": null,
+				"lineDirectory": null
+			},
+			"serviceReference": {
+				"serviceLines": []
+			}
+		},
+		"serviceStartDate": null,
+		"phoneNumber": null,
+		"primaryDeviceIdentifier": null,
+		"packageLinkIdentifier": null,
+		"linePackageType": null,
+		"lineTreatmentType": null,
+		"planType": "EHANDSET",
+		"combiPackageId": null,
+		"confirmRequired": false,
+		"deviceFinancingId": null,
+		"additionalDetails": {},
+		"isChanged": false
+	}],
+	"vetOutcome": null,
+	"priceDetails": {
+		"oneOffPrice": {
+			"gross": "131.70",
+			"net": "109.75",
+			"vat": "21.95"
+		},
+		"oneOffDiscountPrice": {
+			"gross": "131.70",
+			"net": "109.75",
+			"vat": "21.95"
+		},
+		"monthlyPrice": {
+			"gross": "77.40",
+			"net": "65.33",
+			"vat": "12.07"
+		},
+		"monthlyDiscountPrice": {
+			"gross": "77.40",
+			"net": "65.33",
+			"vat": "12.07"
+		},
+		"totalOneoffSaving": {
+			"gross": "0",
+			"net": "0",
+			"vat": "0"
+		},
+		"totalMonthlySaving": {
+			"gross": "0",
+			"net": "0",
+			"vat": "0"
+		}
+	},
+	"totalOneoffPriceSaving": "0",
+	"totalMonthlyPriceSaving": "0",
+	"deliveryInfo": null,
+	"voucherCode": null,
+	"voucherDescription": null,
+	"validated": false,
+	"hashvalue": "-1453337910",
+	"lastModified": "2020-12-28T12:44:53.796Z",
+	"changeCode": null,
+	"combiPackageIds": [],
+	"voucherErrorMessage": null,
+	"activeBundles": [{
+		"packageLineId": "17d0a427-38e7-4319-b420-460e78cd68e0",
+		"bundleId": "112294",
+		"identifier": {
+			"key": "msisdn",
+			"value": "447876009496"
+		},
+		"assetIntegrationId": "1-8L4NP0W",
+		"activeDiscounts": [],
+		"bundlePrice": {
+			"bundleId": "112294",
+			"monthlyPrice": {
+				"gross": "30",
+				"net": "25",
+				"vat": "5"
+			},
+			"monthlyDiscountPrice": {
+				"gross": "30",
+				"net": "25",
+				"vat": "5"
+			},
+			"merchandisingPromotions": null
+		},
+		"planStartDate": null,
+		"isActiveSubscription": true
+	}],
+	"splitDeliveryEligible": false,
+	"priceProposal": [],
+	"loanEligibilityStatus": null,
+	"affiliateFlag": false,
+	"isChanged": false
+}

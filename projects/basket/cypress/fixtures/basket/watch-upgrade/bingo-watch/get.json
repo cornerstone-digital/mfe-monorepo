@@ -1,0 +1,518 @@
+{
+  "basketId": "64cdef57-3ef7-4801-9faf-dd730f3edeeb",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2020-12-08T11:45:22.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Upgrade",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "13c86423-3839-41d2-b9dd-7bfac9e87e56",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Upgrade",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "62461af4-1332-4909-902e-1d1f68f871e9",
+        "action": "ADD",
+        "skuId": "112861",
+        "name": "30-day OneNumber for Watch",
+        "description": "OneNumber for Watch 30-day",
+        "displayName": "30-day OneNumber for Watch",
+        "displayDescription": null,
+        "bundleClass": "WATCH",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": null,
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "1"
+        },
+        "displayOrder": 28,
+        "showInSummary": false,
+        "allowances": [],
+        "merchandisingMedia": [
+          {
+            "id": "full_duration.merchandisingPromotions.merchandisingPromotion.label",
+            "value": "Save £4 a month",
+            "type": "TEXT",
+            "footNotes": []
+          },
+          {
+            "id": "full_duration.merchandisingPromotions.merchandisingPromotion.description",
+            "value": "Save £4 a month",
+            "type": "TEXT",
+            "footNotes": []
+          }
+        ],
+        "attributes": null,
+        "benefits": [],
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "8",
+            "net": "6.67",
+            "vat": "1.33"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "4",
+            "net": "3.33",
+            "vat": "0.67"
+          },
+          "totalMonthlySavingsAmount": {
+            "uom": "£",
+            "net": 3.33,
+            "vat": 0.67,
+            "gross": 4
+          },
+          "merchandisingPromotions": {
+            "tag": "PayM_FulDur_Gbp4_MntlySv",
+            "label": "Save £4 a month",
+            "description": "Save £4 a month - Airtime Plan",
+            "discountId": "107389",
+            "mpType": "full_duration",
+            "priceEstablishedLabel": "Was",
+            "priority": "340",
+            "packageType": ["Acquisition", "SecondLine", "Upgrade"],
+            "footNotes": [],
+            "confirmRequired": false,
+            "offerGroup": null,
+            "belowTheLine": "false",
+            "qualifier": null,
+            "category": null
+          },
+          "listOfMerchandisingPromotion": [
+            {
+              "tag": "PayM_FulDur_Gbp4_MntlySv",
+              "label": "Save £4 a month",
+              "description": "Save £4 a month - Airtime Plan",
+              "discountId": "107389",
+              "mpType": "full_duration",
+              "priceEstablishedLabel": "Was",
+              "priority": "340",
+              "packageType": ["Acquisition", "SecondLine", "Upgrade"],
+              "footNotes": [],
+              "confirmRequired": false,
+              "offerGroup": null,
+              "belowTheLine": "false",
+              "qualifier": null,
+              "category": null
+            }
+          ],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": false,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "includedCalls": null,
+        "noPriceRise": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "04509d06-517e-4899-a52c-97b705c3c55a",
+          "action": "ADD",
+          "skuId": "202244",
+          "name": "Bingo Dummy Watch 3",
+          "description": "Apple Watch SE combines the largest Apple Watch display and most essential features, for a lot less than you expected.",
+          "displayName": "Apple Watch SE (GPS+4G) Cellular 40mm Aluminium Gold",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": "apple",
+          "model": "watch-se-40mm",
+          "groupType": null,
+          "productClass": "eHandset",
+          "productSubClass": "WATCH",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Apple_WatchSE_40_gold-thumbs-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.left",
+              "value": "/images/desktop/Apple_WatchSE_40_gold-thumbs-left.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.right",
+              "value": "/images/desktop/Apple_WatchSE_40_gold-thumbs-right.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Apple_WatchSE_40_gold-thumbs-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Apple_WatchSE_40_gold-thumbs-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Apple_WatchSE_40_gold-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Apple_WatchSE_40_gold-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.left",
+              "value": "/images/desktop/Apple_WatchSE_40_gold-full-product-left-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.right",
+              "value": "/images/desktop/Apple_WatchSE_40_gold-full-product-right-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Apple_WatchSE_40_gold-full-product-side-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Apple_WatchSE_40_gold-full-product-back-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Apple_WatchSE_40_gold-grid-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": [],
+          "contractOptions": {
+            "duration": {
+              "uom": "Months",
+              "value": "12"
+            },
+            "upFrontPrice": 2.4,
+            "customerType": "Consumer"
+          },
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "40",
+              "net": "33.33",
+              "vat": "6.67"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "40",
+              "net": "33.33",
+              "vat": "6.67"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": {
+              "aprRepresentative": "0.0",
+              "duration": {
+                "uom": null,
+                "value": "12"
+              },
+              "interestRate": "0.0",
+              "description": "On a 12-month phone credit agreement",
+              "monthlyPrice": {
+                "uom": "£",
+                "gross": "3.13",
+                "net": "2.61",
+                "vat": "0.52"
+              },
+              "totalHandsetCredit": {
+                "uom": "£",
+                "gross": "37.60",
+                "net": "31.33",
+                "vat": "6.27"
+              },
+              "totalHandsetPrice": {
+                "uom": "£",
+                "gross": "40.00",
+                "net": "33.33",
+                "vat": "6.67"
+              },
+              "upFrontPrice": {
+                "uom": "£",
+                "gross": "2.40",
+                "net": "2.00",
+                "vat": "0.40"
+              }
+            }
+          },
+          "boxPrice": {
+            "gross": "3598.80",
+            "net": "2999.0",
+            "vat": "599.80"
+          },
+          "freeGift": false,
+          "devicePromotion": "112863",
+          "simType": "ESIMONLY",
+          "isCompatibleWithWatch": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [
+        {
+          "productLineId": "1efca6a1-9254-4e44-becd-f969ecedea8c",
+          "action": "DISCOUNT",
+          "skuId": "107389",
+          "tag": "PayM_FulDur_Gbp4_MntlySv",
+          "label": "Save £4 a month",
+          "tenure": "FULL",
+          "duration": "27 Months",
+          "confirmedRequired": "false",
+          "merchandisingMedia": [],
+          "discountValue": {
+            "type": "GBP",
+            "value": "3.3333333"
+          }
+        }
+      ],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "2.40",
+          "net": "2",
+          "vat": "0.40"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "2.40",
+          "net": "2",
+          "vat": "0.40"
+        },
+        "monthlyPrice": {
+          "gross": "11.13",
+          "net": "9.28",
+          "vat": "1.85"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "7.13",
+          "net": "5.94",
+          "vat": "1.19"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "lineReference": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "serviceReference": {
+          "serviceLines": []
+        }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": "447000000025",
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "BINGO",
+      "combiPackageId": null,
+      "confirmRequired": false,
+      "deviceFinancingId": null,
+      "additionalDetails": {},
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "2.40",
+      "net": "2",
+      "vat": "0.40"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "2.40",
+      "net": "2",
+      "vat": "0.40"
+    },
+    "monthlyPrice": {
+      "gross": "11.13",
+      "net": "9.28",
+      "vat": "1.85"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "7.13",
+      "net": "5.94",
+      "vat": "1.19"
+    },
+    "totalOneoffSaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "totalMonthlySaving": {
+      "gross": "4",
+      "net": "3.33",
+      "vat": "0.67"
+    }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "4",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "1110162435",
+  "lastModified": "2020-12-08T11:45:37.471Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [
+    {
+      "packageLineId": "82a3f8ca-fc1f-433f-b046-d763ad4e3729",
+      "bundleId": "111280",
+      "identifier": {
+        "key": "msisdn",
+        "value": "447000000026"
+      },
+      "assetIntegrationId": "1-45SHC2I",
+      "activeDiscounts": [],
+      "bundlePrice": {
+        "bundleId": "111280",
+        "monthlyPrice": {
+          "gross": "27",
+          "net": "22.50",
+          "vat": "4.50"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "27",
+          "net": "22.50",
+          "vat": "4.50"
+        },
+        "merchandisingPromotions": null
+      },
+      "planStartDate": "2018-12-05",
+      "isActiveSubscription": true
+    },
+    {
+      "packageLineId": "db68fd3d-2acc-4a07-aeac-a4f09de5bbb0",
+      "bundleId": "110059",
+      "identifier": {
+        "key": "msisdn",
+        "value": "447000000025"
+      },
+      "assetIntegrationId": "1-45SGQP3",
+      "activeDiscounts": [],
+      "bundlePrice": {
+        "bundleId": "110059",
+        "monthlyPrice": {
+          "gross": "41.35",
+          "net": "34.46",
+          "vat": "6.89"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "41.35",
+          "net": "34.46",
+          "vat": "6.89"
+        },
+        "merchandisingPromotions": null
+      },
+      "planStartDate": "2018-12-05",
+      "isActiveSubscription": false
+    }
+  ],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

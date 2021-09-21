@@ -1,0 +1,13 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.package-header {
+  padding: $spacing-fixed-1 $spacing-fixed-2;
+}
+
+.package-header-underline {
+  border-bottom: 1px solid $color-pale-grey;
+}
+
+.package-header-overline {
+  border-top: 1px solid $color-pale-grey;
+}

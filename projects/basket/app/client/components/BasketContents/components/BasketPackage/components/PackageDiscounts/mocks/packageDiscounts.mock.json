@@ -1,0 +1,203 @@
+{
+  "modelPackage": [{
+      "packageId": "3040c54f-a820-48f6-ba1b-49a7f5f28029",
+      "accountCategory": "consumer",
+      "sequence": 3,
+      "packageType": "Acquisition",
+      "bundle": {
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "totalMonthlySavingsAmount": {
+              "uom": "£",
+              "net": 8.33,
+              "vat": 1.67,
+              "gross": 10.00
+          }
+        }
+      },
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "115",
+          "net": "95.84",
+          "vat": "19.16"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "115",
+          "net": "95.84",
+          "vat": "19.16"
+        },
+        "monthlyPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "financingOptions": null
+      },
+      "planType": "HANDSET",
+      "combiPackageId": null
+    },
+    {
+      "packageId": "42fae4af-f038-43ae-83be-299bca0bafc7",
+      "accountCategory": "Consumer",
+      "sequence": 2,
+      "packageType": "upgrade",
+      "bundle": {
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "25",
+            "net": "20.83",
+            "vat": "4.17"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "22",
+            "net": "18.33",
+            "vat": "3.67"
+          },
+          "totalMonthlySavingsAmount": {
+              "uom": "£",
+              "net": 8.33,
+              "vat": 1.67,
+              "gross": 10.00
+          },
+          "listOfMerchandisingPromotion": [{
+            "tag": "SIMO_24Months_HalfPrice",
+            "label": "6 months half price - introductory offer ",
+            "description": "6 months half price - introductory offer - SIM Only Plan*",
+            "discountId": "109989",
+            "mpType": "limited_time",
+            "priceEstablishedLabel": "Was",
+            "priority": "367",
+            "packageType": ["Acquisition", "Upgrade", "SecondLine"],
+            "footNotes": ["DEFAULTEND3103"],
+            "confirmRequired": false,
+            "offerGroup": null,
+            "belowTheLine": "false",
+            "qualifier": null,
+            "category": null
+          }]
+        }
+      },
+      "discounts": [{
+        "productLineId": "47f6f318-144e-4222-9e65-b4397be059c5",
+        "action": "DISCOUNT",
+        "skuId": "111116",
+        "tag": "OFF100019",
+        "label": "Vodafone Together £3 discount",
+        "tenure": "FULL",
+        "duration": null,
+        "confirmedRequired": "false",
+        "merchandisingMedia": [],
+        "discountValue": {
+          "type": "GBP",
+          "value": "2.5"
+        }
+      }],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyPrice": {
+          "gross": "25",
+          "net": "20.83",
+          "vat": "4.17"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "22",
+          "net": "18.33",
+          "vat": "3.67"
+        },
+        "financingOptions": null
+      },
+      "planType": "BroadBand:FTTC",
+      "combiPackageId": "b56c0118-81ed-4fce-9cde-d5903ec5c204"
+    },
+    {
+      "packageId": "09c68e02-d554-4b73-8e01-5f6d315b77f8",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Acquisition",
+      "bundle": {
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "48",
+            "net": "40",
+            "vat": "8"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "39",
+            "net": "32.50",
+            "vat": "6.50"
+          },
+          "totalMonthlySavingsAmount": {
+              "uom": "£",
+              "net": 8.33,
+              "vat": 1.67,
+              "gross": 10.00
+          }
+        }
+      },
+      "discounts": [{
+        "productLineId": "bfb8b850-45a6-442b-bdfd-04cfb455f390",
+        "action": "DISCOUNT",
+        "skuId": "107395",
+        "tag": "PayM_CndSh_2XData_iPhone",
+        "label": "Double Data - 48GB for 24GB",
+        "tenure": "FULL",
+        "duration": "27 Months",
+        "confirmedRequired": "false",
+        "merchandisingMedia": [],
+        "discountValue": {
+          "type": "GBP",
+          "value": "7.5"
+        }
+      }],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "19",
+          "net": "15.83",
+          "vat": "3.17"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "19",
+          "net": "15.83",
+          "vat": "3.17"
+        },
+        "monthlyPrice": {
+          "gross": "48",
+          "net": "40",
+          "vat": "8"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "39",
+          "net": "32.50",
+          "vat": "6.50"
+        },
+        "financingOptions": null
+      },
+      "planType": "HANDSET",
+      "combiPackageId": "b56c0118-81ed-4fce-9cde-d5903ec5c204"
+    }
+  ]
+}

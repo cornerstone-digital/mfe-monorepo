@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PackageAccessoryHeader should render for basic scenario 1`] = `
+<DocumentFragment>
+  <div
+    class="package-header"
+  >
+    <h5
+      class="heading heading-6 inherit w-bold margin-0"
+    >
+      Accessories
+    </h5>
+  </div>
+</DocumentFragment>
+`;

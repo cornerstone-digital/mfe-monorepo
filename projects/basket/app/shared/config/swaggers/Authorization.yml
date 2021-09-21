@@ -1,0 +1,2207 @@
+swagger: "2.0"
+info:
+  description: "This API is responsible for Authorization operations."
+  version: "10.6.3"
+  title: "dal-authorization-svc"
+  contact: {}
+host: "localhost"
+basePath: "/authorization"
+tags:
+  - name: "2FA"
+  - name: "Access Token"
+  - name: "Account Context"
+  - name: "Authorization Token"
+  - name: "DX-IDM"
+  - name: "Journey"
+  - name: "Login"
+  - name: "Test Agent Login"
+    description: "Agent Auth Token Controller"
+  - name: "UpfrontLogin"
+    description: "Upfront Login Controller"
+paths:
+  /2fa/action/sendOtp:
+    post:
+      tags:
+        - "2FA"
+      summary: "Generate One Time Password for the subscription via SMS"
+      operationId: "generateOTPForSubscriptionUsingPOST"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "Authorization"
+          in: "header"
+          description: "JWT token created with HS256 signature algorithm"
+          required: false
+          type: "string"
+        - in: "body"
+          name: "registeredNumberId"
+          description: "Selected phone number by the customer to send OTP"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /2fa/registeredNumbers:
+    get:
+      tags:
+        - "2FA"
+      summary: "Get masked mobile numbers for 2FA"
+      operationId: "getRegisteredNumbersUsingGET"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "Authorization"
+          in: "header"
+          description: "JWT created with HS256 signature algorithm"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/MobileNumber"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /accessToken:
+    get:
+      tags:
+        - "Access Token"
+      summary: "Provide Access Token for the channel"
+      operationId: "getAccessTokenUsingGET"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "AccountId"
+          in: "header"
+          description: "Selected Account Id"
+          required: false
+          type: "string"
+        - name: "AccountIdHash"
+          in: "header"
+          description: "Account Id's Hash"
+          required: false
+          type: "string"
+        - name: "Authorization"
+          in: "header"
+          description: "JWT created with HS256 signature algorithm"
+          required: true
+          type: "string"
+        - name: "SubscriptionId"
+          in: "header"
+          description: "Selected Subscription Id"
+          required: false
+          type: "string"
+        - name: "SubscriptionIdHash"
+          in: "header"
+          description: "Subscription Id's Hash"
+          required: false
+          type: "string"
+        - name: "X-Channel-Id"
+          in: "header"
+          description: "Channel Id"
+          required: false
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/AccessTokenResponse"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /accounts:
+    get:
+      tags:
+        - "Account Context"
+      summary: "Provide the account Ids for the customer's contactId"
+      operationId: "getAccountDetailsUsingGET"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "Authorization"
+          in: "header"
+          description: "JWT created with HS256 signature algorithm"
+          required: true
+          type: "string"
+        - name: "SubscriptionId"
+          in: "header"
+          description: "Selected Subscription Id"
+          required: false
+          type: "string"
+        - name: "SubscriptionIdHash"
+          in: "header"
+          description: "Subscription Id's Hash"
+          required: false
+          type: "string"
+        - name: "X-Channel-Id"
+          in: "header"
+          description: "Channel Id"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/ContactAccounts"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /accounts/{accountId}/subscriptions:
+    get:
+      tags:
+        - "Account Context"
+      summary: "Provide the subscription Ids for the selected customer's accountId"
+      operationId: "getSubscriptionDetailsUsingGET"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "AccountIdHash"
+          in: "header"
+          description: "Account Id's Hash"
+          required: true
+          type: "string"
+        - name: "Authorization"
+          in: "header"
+          description: "JWT created with HS256 signature algorithm"
+          required: true
+          type: "string"
+        - name: "X-Channel-Id"
+          in: "header"
+          description: "Channel Id"
+          required: true
+          type: "string"
+        - name: "accountId"
+          in: "path"
+          description: "Selected Account Id"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/AccountSubscriptions"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /action/registerDevice:
+    post:
+      tags:
+        - "UpfrontLogin"
+      summary: "UpfrontLogin - RegisterDevice"
+      description: "This api is used for registering the device against the customer's user details when the non-VF SIM customer tries to access myVodafoneApp."
+      operationId: "registerDeviceUsingPOST"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "Authorization"
+          in: "header"
+          description: "Access Token for logged-in user with a minimum assurance level of 3 - Encoded JWT token created with HS256 signature algorithm"
+          required: true
+          type: "string"
+        - in: "body"
+          name: "deviceId"
+          description: "Device id of the customer for which registration needs to be done."
+          required: true
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "OK"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /action/reset-password:
+    post:
+      tags:
+        - "Login"
+      summary: "Change temporary password"
+      description: "Change temporary password"
+      operationId: "changeTempPasswordUsingPOST_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "Authorization"
+          in: "header"
+          description: "Authorization Token/Access Token - Encoded JWT token created with HS256 signature algorithm"
+          required: true
+          type: "string"
+        - name: "X-Channel-Id"
+          in: "header"
+          description: "Channel Id"
+          required: true
+          type: "string"
+        - in: "body"
+          name: "changePass"
+          description: "changePass"
+          required: true
+          schema:
+            $ref: "#/definitions/ChangeTempPassword"
+        - name: "encryptedMethod"
+          in: "query"
+          description: "Encryption method used by the client"
+          required: false
+          type: "string"
+          allowEmptyValue: false
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/AuthorizationTokenResponse"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /agentAuthToken:
+    get:
+      tags:
+        - "Test Agent Login"
+      summary: "Test Agent Login"
+      description: "This api is used for MVA test agent to create the L1 Auth token."
+      operationId: "getAgentAuthTokenUsingGET"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "AgentId"
+          in: "header"
+          description: "Agent id of the MVA test agent "
+          required: true
+          type: "string"
+        - name: "MsisdnToken"
+          in: "header"
+          description: "msisdnToken (HanSolo) - Encoded MSISDN created with MSP key"
+          required: true
+          type: "string"
+        - name: "X-Channel-Id"
+          in: "header"
+          description: "Channel Id"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/AgentAuthTokenResponse"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /authorizationToken:
+    get:
+      tags:
+        - "Authorization Token"
+      summary: "Provide Authorization Token for the channel"
+      operationId: "getAuthorizationTokenUsingGET"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "authorization"
+          in: "query"
+          required: false
+          type: "string"
+        - name: "channelId"
+          in: "query"
+          required: false
+          type: "string"
+        - name: "datagram"
+          in: "query"
+          required: false
+          type: "string"
+        - name: "deviceId"
+          in: "query"
+          required: false
+          type: "string"
+        - name: "encryptedMethod"
+          in: "query"
+          required: false
+          type: "string"
+        - name: "msisdnToken"
+          in: "query"
+          required: false
+          type: "string"
+        - name: "otp"
+          in: "query"
+          required: false
+          type: "string"
+        - name: "password"
+          in: "query"
+          required: false
+          type: "string"
+        - name: "pin"
+          in: "query"
+          required: false
+          type: "string"
+        - name: "registeredNumberId"
+          in: "query"
+          required: false
+          type: "string"
+        - name: "userName"
+          in: "query"
+          required: false
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/AuthorizationTokenResponse"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /internal/v1/2fa/registeredNumbers:
+    get:
+      tags:
+        - "DX-IDM"
+      summary: "Get masked mobile numbers for 2FA"
+      operationId: "getRegisteredNumbersUsingGET_1"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "contactId"
+          in: "header"
+          description: "ContactId of the customer"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/MobileNumber"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /internal/v1/action/2fa/sendOtp:
+    post:
+      tags:
+        - "DX-IDM"
+      summary: "generateOTPForSubscription"
+      operationId: "generateOTPForSubscriptionUsingPOST_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "registeredNumberId"
+          description: "Selected phone number by the customer to send OTP"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /internal/v1/action/2fa/verifyOtp:
+    post:
+      tags:
+        - "DX-IDM"
+      summary: "Verify customer's OTP for the selected mobile number"
+      operationId: "verifyOTPUsingPOST"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "multiFactorAuthenticationRequest"
+          description: "multiFactorAuthenticationRequest"
+          required: true
+          schema:
+            $ref: "#/definitions/MultiFactorAuthenticationRequest"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /internal/v1/action/authenticate:
+    post:
+      tags:
+        - "DX-IDM"
+      summary: "Authenticate the user"
+      operationId: "authenticateUserUsingPOST"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "authenticateRequest"
+          description: "authenticateRequest"
+          required: true
+          schema:
+            $ref: "#/definitions/AuthIdentityRequest"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/Contact"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /internal/v1/action/authenticate/datagram:
+    post:
+      tags:
+        - "DX-IDM"
+      summary: "Authenticate the user with datagram"
+      operationId: "authenticateUserWithDatagramUsingPOST"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "datagram"
+          description: "datagram"
+          required: true
+          schema:
+            $ref: "#/definitions/AuthIdentityDatagramRequest"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/Contact"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /internal/v1/contacts/{subjectId}/accounts/{accountId}/subscriptions/{subscriptionId}/claims:
+    get:
+      tags:
+        - "DX-IDM"
+      summary: "Fetches the claims for the given account, contact and subscription details"
+      operationId: "getClaimsUsingGET"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "accountId"
+          in: "path"
+          description: "The ID for the users selected account"
+          required: false
+          type: "string"
+        - name: "accountIdHash"
+          in: "header"
+          description: "Hashed value of selected account"
+          required: false
+          type: "string"
+        - name: "accountIdHash"
+          in: "header"
+          description: "accountIdHash"
+          required: true
+          type: "string"
+        - name: "subjectId"
+          in: "path"
+          description: "The subjectId for the user"
+          required: false
+          type: "string"
+        - name: "subscriptionId"
+          in: "path"
+          description: "The ID for the users selected subscription"
+          required: false
+          type: "string"
+        - name: "subscriptionIdHash"
+          in: "header"
+          description: "Hashed value of selected subscription"
+          required: false
+          type: "string"
+        - name: "subscriptionIdHash"
+          in: "header"
+          description: "subscriptionIdHash"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/AuthContext"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /internal/v1/grants:
+    get:
+      tags:
+        - "DX-IDM"
+      summary: "Fetches the grant details for a specified subject"
+      operationId: "getPersistedGrantDetailsForSubjectIdUsingGET"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "includeSoftDelete"
+          description: "includeSoftDelete"
+          required: false
+          schema:
+            type: "boolean"
+        - in: "body"
+          name: "subjectId"
+          description: "subjectId"
+          required: false
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/PersistedGrantDetails"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+    post:
+      tags:
+        - "DX-IDM"
+      summary: "Creates new persisted grant"
+      operationId: "createPersistedGrantDetailsByClientIdUsingPOST"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "grantDetails"
+          description: "Grant details from IDM"
+          required: true
+          schema:
+            $ref: "#/definitions/PersistedGrantDetails"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/PersistedGrantDetails"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+    delete:
+      tags:
+        - "DX-IDM"
+      summary: "Deletes persisted grant details for a specified key"
+      operationId: "deletePersistedGrantDetailsForSubjectIdAndClientIdAndTypeUsingDELETE"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "clientId"
+          in: "query"
+          description: "Relying parties or digital channels"
+          required: false
+          type: "string"
+        - name: "subjectId"
+          in: "query"
+          description: "subjectId"
+          required: false
+          type: "string"
+        - name: "type"
+          in: "query"
+          description: "type"
+          required: false
+          type: "string"
+      responses:
+        204:
+          description: "No Content"
+          schema:
+            $ref: "#/definitions/PersistedGrantDetails"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /internal/v1/grants/{key}:
+    get:
+      tags:
+        - "DX-IDM"
+      summary: "Fetches the grant details with the specified key"
+      operationId: "getPersistedGrantDetailsWithKeyUsingGET"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "includeSoftDelete"
+          description: "includeSoftDelete"
+          required: false
+          schema:
+            type: "boolean"
+        - name: "key"
+          in: "path"
+          description: "key from identity server"
+          required: false
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/PersistedGrantDetails"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+    delete:
+      tags:
+        - "DX-IDM"
+      summary: "Deletes persisted grant details for a specified key"
+      operationId: "deletePersistedGrantDetailsByKeyUsingDELETE"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "key"
+          in: "path"
+          description: "key"
+          required: true
+          type: "string"
+      responses:
+        204:
+          description: "No Content"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /internal/v1/reset-password:
+    post:
+      tags:
+        - "DX-IDM"
+      summary: "Resets user password"
+      operationId: "changeTempPasswordUsingPOST"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "changePass"
+          description: "changePass"
+          required: true
+          schema:
+            $ref: "#/definitions/ChangeTempPassword"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /internal/v1/sessions:
+    post:
+      tags:
+        - "DX-IDM"
+      summary: "create a new session"
+      operationId: "createSessionUsingPOST"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "session"
+          description: "session"
+          required: true
+          schema:
+            $ref: "#/definitions/Session"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/Session"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /internal/v1/sessions/{sid}:
+    get:
+      tags:
+        - "DX-IDM"
+      summary: "Get the active session"
+      operationId: "getSessionUsingGET"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "sid"
+          in: "path"
+          description: "sid"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/Session"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+    put:
+      tags:
+        - "DX-IDM"
+      summary: "update session details"
+      operationId: "updateSessionUsingPUT"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "session"
+          description: "session"
+          required: true
+          schema:
+            $ref: "#/definitions/Session"
+        - name: "sid"
+          in: "path"
+          description: "sid"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/Session"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+    delete:
+      tags:
+        - "DX-IDM"
+      summary: "delete currently active session"
+      operationId: "deleteSessionUsingDELETE"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "sid"
+          in: "path"
+          description: "sid"
+          required: true
+          type: "string"
+      responses:
+        204:
+          description: "No Content"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /internal/v1/sessions/{sid}/accounts:
+    get:
+      tags:
+        - "DX-IDM"
+      summary: "getAccounts"
+      operationId: "getAccountsUsingGET"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "sid"
+          in: "path"
+          description: "sid"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/ContactAccounts"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /internal/v1/sessions/{sid}/accounts/{accountId}/subscriptions:
+    get:
+      tags:
+        - "DX-IDM"
+      summary: "getSubscriptions"
+      operationId: "getSubscriptionsUsingGET"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "AccountIdHash"
+          in: "header"
+          description: "Account Id's Hash"
+          required: true
+          type: "string"
+        - name: "accountId"
+          in: "path"
+          description: "Account Id"
+          required: true
+          type: "string"
+        - name: "sid"
+          in: "path"
+          description: "Session Id"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/AccountSubscriptions"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /journey:
+    post:
+      tags:
+        - "Journey"
+      summary: "createJourney"
+      operationId: "createJourneyUsingPOST"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "Authorization"
+          in: "header"
+          description: "JWT created with HS256 signature algorithm"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/JourneyResponse"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ValidationFailedResponse"
+        401:
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        403:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not Found"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        405:
+          description: "Method not allowed"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        406:
+          description: "Not Acceptable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        503:
+          description: "Service Unavailable"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+definitions:
+  AccessTokenResponse:
+    type: "object"
+    properties:
+      accessToken:
+        type: "string"
+    title: "AccessTokenResponse"
+  AccountClaim:
+    type: "object"
+    properties:
+      category:
+        type: "string"
+        description: "category of Account."
+      id:
+        type: "string"
+        description: "Account Id of Account."
+      number_of_subscriptions:
+        type: "string"
+        description: "NumberOfSubscriptions of Account."
+      parent_account_id:
+        type: "string"
+        description: "ParentAccountId of Account."
+      roles:
+        type: "string"
+        description: "Role of Account."
+      status:
+        type: "string"
+        description: "Status of Account."
+      sub_category:
+        type: "string"
+        description: "SubCategory of Account."
+      type:
+        type: "string"
+        description: "Account type of Account."
+    title: "AccountClaim"
+  AccountDetails:
+    type: "object"
+    properties:
+      accountRole:
+        type: "string"
+      id:
+        type: "string"
+      idHash:
+        type: "string"
+      name:
+        type: "string"
+      role:
+        type: "string"
+      status:
+        type: "string"
+      type:
+        type: "string"
+      vfBlackAccount:
+        type: "boolean"
+    title: "AccountDetails"
+  AccountSubscriptions:
+    type: "object"
+    properties:
+      numberOfSubscriptions:
+        type: "string"
+      subscriptionDetails:
+        type: "array"
+        items:
+          $ref: "#/definitions/SubscriptionDetails"
+    title: "AccountSubscriptions"
+  AgentAuthTokenResponse:
+    type: "object"
+    properties:
+      authorizationToken:
+        type: "string"
+      subscriptionId:
+        type: "string"
+      subscriptionIdHash:
+        type: "string"
+    title: "AgentAuthTokenResponse"
+  AuthContext:
+    type: "object"
+    properties:
+      account:
+        description: "Account of the user."
+        $ref: "#/definitions/AccountClaim"
+      accountName:
+        type: "string"
+        description: "Id of contact authenticated"
+      agentId:
+        type: "string"
+        description: "Agent id for MVA test agent"
+      assuranceLevel:
+        type: "string"
+        description: "assuranceLevel of Authentication."
+      channelId:
+        type: "string"
+        description: "DigitalChannels that authenticated"
+      contactId:
+        type: "string"
+        description: "Id of contact authenticated"
+      givenName:
+        type: "string"
+        description: "Given Name of the user"
+      numberOfAccounts:
+        type: "string"
+        description: "List of accounts authenticated."
+      phoneNumber:
+        type: "string"
+        description: "PhoneNumber of the user."
+      platformSessionId:
+        type: "string"
+        description: "username of the contact authenticated"
+      subscription:
+        description: "Subscription of the user."
+        $ref: "#/definitions/SubscriptionClaim"
+      userName:
+        type: "string"
+        description: "username of the contact authenticated"
+    title: "AuthContext"
+  AuthIdentityDatagramRequest:
+    type: "object"
+    properties:
+      datagram:
+        type: "string"
+        description: "The datagram"
+    title: "AuthIdentityDatagramRequest"
+  AuthIdentityRequest:
+    type: "object"
+    properties:
+      password:
+        type: "string"
+        description: "password encrypted using the keystore (which shall be provided). Encrypted password shall be preappended with randomly generated IV of128 bits"
+      pin:
+        type: "string"
+        description: "pin encrypted using the keystore (which shall be provided). Encrypted pin shall be preappended with randomly generated IV of128 bits"
+      username:
+        type: "string"
+        description: "The user's username"
+    title: "AuthIdentityRequest"
+  AuthorizationTokenResponse:
+    type: "object"
+    properties:
+      accountId:
+        type: "string"
+      accountIdHash:
+        type: "string"
+      authorizationToken:
+        type: "string"
+      subscriptionId:
+        type: "string"
+      subscriptionIdHash:
+        type: "string"
+    title: "AuthorizationTokenResponse"
+  ChangeTempPassword:
+    type: "object"
+    properties:
+      permanentPassword:
+        type: "string"
+      temperoryPassword:
+        type: "string"
+      temporaryPassword:
+        type: "string"
+      userName:
+        type: "string"
+    title: "ChangeTempPassword"
+  Contact:
+    type: "object"
+    required:
+      - "subjectId"
+      - "subjectIdHash"
+    properties:
+      accountId:
+        type: "string"
+        description: "The accountId for the user."
+      accountIdHash:
+        type: "string"
+        description: "accountId hash"
+      forcePasswordReset:
+        type: "boolean"
+        description: "Flag to indicate temporary password reset"
+      onlineSessionToken:
+        type: "string"
+        description: "User session token stored in VF identity and access management system. This token enables user to switch across channels (from app to web, web to IVR so on) without requiring to authenticate again"
+      subjectId:
+        type: "string"
+        description: "The subjectId for the user"
+      subjectIdHash:
+        type: "string"
+        description: "hash of the subject id."
+      subscriptionId:
+        type: "string"
+        description: "The subscriptionId for the user."
+      subscriptionIdHash:
+        type: "string"
+        description: "subscriptionIdHash"
+      userStatus:
+        type: "string"
+        description: "Migration status of the customer."
+        enum:
+          - "NOT_MIGRATED"
+          - "MIGRATED"
+          - "PENDING_MIGRATION"
+      username:
+        type: "string"
+        description: "username"
+    title: "Contact"
+  ContactAccounts:
+    type: "object"
+    properties:
+      accountDetails:
+        type: "array"
+        items:
+          $ref: "#/definitions/AccountDetails"
+      numberOfAccounts:
+        type: "string"
+    title: "ContactAccounts"
+  ErrorResponse:
+    type: "object"
+    properties:
+      errorCode:
+        type: "string"
+      errorMessage:
+        type: "string"
+      referenceId:
+        type: "string"
+    title: "ErrorResponse"
+  JourneyResponse:
+    type: "object"
+    properties:
+      journeyId:
+        type: "string"
+    title: "JourneyResponse"
+  MobileNumber:
+    type: "object"
+    properties:
+      id:
+        type: "string"
+      maskedMobileId:
+        type: "string"
+    title: "MobileNumber"
+  MultiFactorAuthenticationRequest:
+    type: "object"
+    properties:
+      otp:
+        type: "string"
+        description: "OneTimePassword received to customer's selected mobile number"
+      registeredNumberId:
+        type: "string"
+        description: "RegisteredNumberId is the unique id created against each customer's mobile number"
+    title: "MultiFactorAuthenticationRequest"
+  PersistedGrantDetails:
+    type: "object"
+    properties:
+      ClientId:
+        type: "string"
+        description: "Relying parties or digital channels"
+      CreationTime:
+        type: "string"
+        format: "date-time"
+      Data:
+        type: "string"
+      Expiration:
+        type: "string"
+        format: "date-time"
+      Key:
+        type: "string"
+      SoftDeletedTime:
+        type: "string"
+        format: "date-time"
+      SubjectId:
+        type: "string"
+        description: "contactId"
+      Type:
+        type: "string"
+      accountId:
+        type: "string"
+      accountIdHash:
+        type: "string"
+      levelOfAssurance:
+        type: "string"
+      onlineSessionToken:
+        type: "string"
+      platformSessionId:
+        type: "string"
+      sid:
+        type: "string"
+        description: "sid"
+      subscriptionId:
+        type: "string"
+      subscriptionIdHash:
+        type: "string"
+      userStatus:
+        type: "string"
+      username:
+        type: "string"
+    title: "PersistedGrantDetails"
+  ResponseEntity:
+    type: "object"
+    properties:
+      body:
+        type: "object"
+      statusCode:
+        type: "string"
+        enum:
+          - "100 CONTINUE"
+          - "101 SWITCHING_PROTOCOLS"
+          - "102 PROCESSING"
+          - "103 CHECKPOINT"
+          - "200 OK"
+          - "201 CREATED"
+          - "202 ACCEPTED"
+          - "203 NON_AUTHORITATIVE_INFORMATION"
+          - "204 NO_CONTENT"
+          - "205 RESET_CONTENT"
+          - "206 PARTIAL_CONTENT"
+          - "207 MULTI_STATUS"
+          - "208 ALREADY_REPORTED"
+          - "226 IM_USED"
+          - "300 MULTIPLE_CHOICES"
+          - "301 MOVED_PERMANENTLY"
+          - "302 FOUND"
+          - "302 MOVED_TEMPORARILY"
+          - "303 SEE_OTHER"
+          - "304 NOT_MODIFIED"
+          - "305 USE_PROXY"
+          - "307 TEMPORARY_REDIRECT"
+          - "308 PERMANENT_REDIRECT"
+          - "400 BAD_REQUEST"
+          - "401 UNAUTHORIZED"
+          - "402 PAYMENT_REQUIRED"
+          - "403 FORBIDDEN"
+          - "404 NOT_FOUND"
+          - "405 METHOD_NOT_ALLOWED"
+          - "406 NOT_ACCEPTABLE"
+          - "407 PROXY_AUTHENTICATION_REQUIRED"
+          - "408 REQUEST_TIMEOUT"
+          - "409 CONFLICT"
+          - "410 GONE"
+          - "411 LENGTH_REQUIRED"
+          - "412 PRECONDITION_FAILED"
+          - "413 PAYLOAD_TOO_LARGE"
+          - "413 REQUEST_ENTITY_TOO_LARGE"
+          - "414 URI_TOO_LONG"
+          - "414 REQUEST_URI_TOO_LONG"
+          - "415 UNSUPPORTED_MEDIA_TYPE"
+          - "416 REQUESTED_RANGE_NOT_SATISFIABLE"
+          - "417 EXPECTATION_FAILED"
+          - "418 I_AM_A_TEAPOT"
+          - "419 INSUFFICIENT_SPACE_ON_RESOURCE"
+          - "420 METHOD_FAILURE"
+          - "421 DESTINATION_LOCKED"
+          - "422 UNPROCESSABLE_ENTITY"
+          - "423 LOCKED"
+          - "424 FAILED_DEPENDENCY"
+          - "426 UPGRADE_REQUIRED"
+          - "428 PRECONDITION_REQUIRED"
+          - "429 TOO_MANY_REQUESTS"
+          - "431 REQUEST_HEADER_FIELDS_TOO_LARGE"
+          - "451 UNAVAILABLE_FOR_LEGAL_REASONS"
+          - "500 INTERNAL_SERVER_ERROR"
+          - "501 NOT_IMPLEMENTED"
+          - "502 BAD_GATEWAY"
+          - "503 SERVICE_UNAVAILABLE"
+          - "504 GATEWAY_TIMEOUT"
+          - "505 HTTP_VERSION_NOT_SUPPORTED"
+          - "506 VARIANT_ALSO_NEGOTIATES"
+          - "507 INSUFFICIENT_STORAGE"
+          - "508 LOOP_DETECTED"
+          - "509 BANDWIDTH_LIMIT_EXCEEDED"
+          - "510 NOT_EXTENDED"
+          - "511 NETWORK_AUTHENTICATION_REQUIRED"
+      statusCodeValue:
+        type: "integer"
+        format: "int32"
+    title: "ResponseEntity"
+  Session:
+    type: "object"
+    properties:
+      accountId:
+        type: "string"
+        description: "The ID for the users selected account"
+      accountIdHash:
+        type: "string"
+        description: "Hashed value of selected account"
+      contextChangeInProgress:
+        type: "boolean"
+        description: "Flag for context change in progress"
+      creationTime:
+        type: "string"
+        format: "date-time"
+        description: "Time the session was created"
+      expiration:
+        type: "string"
+        format: "date-time"
+        description: "expiry time of the session"
+      lastRequestedClientId:
+        type: "string"
+        description: "the clientId which last requested authorization "
+      levelOfAssurance:
+        type: "string"
+        description: "the Level of assurance that a user is authenticated to"
+      onlineSessionToken:
+        type: "string"
+        description: "the online session token"
+      platformSessionId:
+        type: "string"
+        description: "the platform session id"
+      sid:
+        type: "string"
+        description: "session Id"
+      subjectId:
+        type: "string"
+        description: "The subjectId for the user"
+      subscriptionId:
+        type: "string"
+        description: "The ID for the users selected subscription"
+      subscriptionIdHash:
+        type: "string"
+        description: "Hashed value of selected subscription"
+      userStatus:
+        type: "string"
+        description: "the migration status of the user"
+      username:
+        type: "string"
+        description: "the username"
+    title: "Session"
+  SubscriptionClaim:
+    type: "object"
+    properties:
+      billing_account_id:
+        type: "string"
+        description: "Subscription's billingAccountId."
+      billing_profile_id:
+        type: "string"
+        description: "Subscription's billingProfileId."
+      id:
+        type: "string"
+        description: "Subscription Id."
+      payment_type:
+        type: "string"
+        description: "Subscription paymentType."
+      roles:
+        type: "string"
+        description: "Subscription role."
+      status:
+        type: "string"
+        description: "Subscription status."
+      type:
+        type: "string"
+        description: "Subscription type."
+    title: "SubscriptionClaim"
+  SubscriptionDetails:
+    type: "object"
+    properties:
+      accountName:
+        type: "string"
+      name:
+        type: "string"
+      oneNumberPrimary:
+        type: "string"
+      paymentType:
+        type: "string"
+      phoneNumber:
+        type: "string"
+      redPlusLeader:
+        type: "boolean"
+      redPlusSharer:
+        type: "boolean"
+      status:
+        type: "string"
+      subscriptionId:
+        type: "string"
+      subscriptionIdHash:
+        type: "string"
+      subscriptionRole:
+        type: "string"
+      type:
+        type: "string"
+    title: "SubscriptionDetails"
+  ValidationFailedResponse:
+    type: "object"
+    properties:
+      errorCode:
+        type: "string"
+      errorMessage:
+        type: "string"
+      referenceId:
+        type: "string"
+      validationMessages:
+        type: "array"
+        items:
+          $ref: "#/definitions/ValidationMessage"
+    title: "ValidationFailedResponse"
+  ValidationMessage:
+    type: "object"
+    properties:
+      parameter:
+        type: "string"
+      reason:
+        type: "string"
+    title: "ValidationMessage"

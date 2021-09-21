@@ -1,0 +1,266 @@
+{
+  "basketId": "093925c9-aa40-4f3d-8fa2-8c402fe5251c",
+  "affiliateId": "11",
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T09:45:00.000+02:00",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "16428565-0ae0-4a40-9193-84ad60261522",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "516e7f5d-55c7-4bcd-8b97-90ddf2fa32b6",
+        "action": "ADD",
+        "skuId": "112861",
+        "name": "30-day OneNumber for Watch",
+        "description": "OneNumber for Watch 30-day",
+        "displayName": "30-day OneNumber for Watch",
+        "displayDescription": null,
+        "bundleClass": "WATCH",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": null,
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "1"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "benefits": [],
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "8",
+            "net": "6.67",
+            "vat": "1.33"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "8",
+            "net": "6.67",
+            "vat": "1.33"
+          },
+          "totalMonthlySavingsAmount": null,
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": false,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "includedCalls": null,
+        "noPriceRise": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "63ff30a7-ccc6-4295-bb64-154df463ae3c",
+          "action": "ADD",
+          "skuId": "202232",
+          "name": "Bingo Dummy Watch 1",
+          "description": null,
+          "displayName": "Bingo Dummy Watch 1",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": "dummy watch",
+          "model": "Bingo-Dummy-Watch-1",
+          "groupType": null,
+          "productClass": "eHandset",
+          "productSubClass": "WATCH",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": null,
+          "contractOptions": {
+            "duration": {
+              "uom": "MONTH",
+              "value": "3"
+            },
+            "upFrontPrice": 30,
+            "customerType": "Consumer"
+          },
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "40",
+              "net": "33.33",
+              "vat": "6.67"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "40",
+              "net": "33.33",
+              "vat": "6.67"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": {
+              "aprRepresentative": "0.0",
+              "duration": {
+                "uom": "MONTH",
+                "value": "3"
+              },
+              "interestRate": "0.0",
+              "description": "On a 3-month phone credit agreement",
+              "monthlyPrice": {
+                "uom": "£",
+                "gross": "3.33",
+                "net": "2.78",
+                "vat": "0.55"
+              },
+              "totalHandsetCredit": {
+                "uom": "£",
+                "gross": "10.00",
+                "net": "8.33",
+                "vat": "1.67"
+              },
+              "totalHandsetPrice": {
+                "uom": "£",
+                "gross": "40.00",
+                "net": "33.33",
+                "vat": "6.67"
+              },
+              "upFrontPrice": {
+                "uom": "£",
+                "gross": "30.00",
+                "net": "25.00",
+                "vat": "5.00"
+              }
+            }
+          },
+          "boxPrice": {
+            "gross": "811.81",
+            "net": "974.17",
+            "vat": "162.36"
+          },
+          "freeGift": false,
+          "devicePromotion": "112863",
+          "simType": "ESIMONLY",
+          "isCompatibleWithWatch": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "30",
+          "net": "25",
+          "vat": "5"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "30",
+          "net": "25",
+          "vat": "5"
+        },
+        "monthlyPrice": {
+          "gross": "11.33",
+          "net": "9.45",
+          "vat": "1.88"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "11.33",
+          "net": "9.45",
+          "vat": "1.88"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": null,
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "BINGO",
+      "combiPackageId": null,
+      "confirmRequired": false,
+      "deviceFinancingId": null,
+      "additionalDetails": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "30",
+      "net": "25",
+      "vat": "5"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "30",
+      "net": "25",
+      "vat": "5"
+    },
+    "monthlyPrice": {
+      "gross": "11.33",
+      "net": "9.45",
+      "vat": "1.88"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "11.33",
+      "net": "9.45",
+      "vat": "1.88"
+    },
+    "totalOneoffSaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "totalMonthlySaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": true,
+  "hashvalue": "1723862026",
+  "lastModified": null,
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

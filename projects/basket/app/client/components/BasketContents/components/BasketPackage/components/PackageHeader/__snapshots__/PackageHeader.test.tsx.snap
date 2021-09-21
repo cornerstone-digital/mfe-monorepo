@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PackageHeader should render with default values 1`] = `
+<DocumentFragment>
+  <div
+    stylename="package-header"
+  >
+    <div
+      stylename="item-header"
+    >
+      <div
+        class="item-title"
+      >
+        <h5
+          class="heading heading-6 inherit w-bold margin-0"
+        >
+          test-title
+        </h5>
+      </div>
+      <button
+        data-selector="basket-header-action-testtitle"
+        stylename="action-button"
+      >
+        <span
+          class="action-text"
+        >
+          Remove
+        </span>
+        <span
+          aria-hidden="true"
+          class="wrapper inherit size-2 2  "
+        >
+          test-file-stub
+        </span>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

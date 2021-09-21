@@ -1,0 +1,195 @@
+[{
+    "packageLineId": "85e7b46b-3357-4675-b9de-09c91438faf6",
+    "action": "ADD",
+    "skuId": "205501",
+    "name": "Apple iPhone SE 2020 64GB black",
+    "description": "A small iPhone with huge performance - the iPhone SE is the most powerful 4.7-inch iPhone ever.",
+    "displayName": "Apple iPhone SE 64GB Black",
+    "displayDescription": null,
+    "deviceBriefDescription": [],
+    "deviceColor": "Black",
+    "memorySize": "64 GB",
+    "make": "apple",
+    "model": "iphone-se-2020",
+    "groupType": "DEVICE_PAYM",
+    "productClass": "Handset",
+    "displayOrder": null,
+    "showInSummary": false,
+    "merchandisingMedia": [{
+        "id": "imageURLs.full.side",
+        "value": "/images/desktop/Apple_iPhone_SE_black-full-product-side-600.png",
+        "type": "URL",
+        "footNotes": [
+          ""
+        ]
+      },
+      {
+        "id": "imageURLs.full.left",
+        "value": "/images/desktop/Apple_iPhone_SE_black-full-product-left-600.png",
+        "type": "URL",
+        "footNotes": [
+          ""
+        ]
+      },
+      {
+        "id": "imageURLs.full.back",
+        "value": "/images/desktop/Apple_iPhone_SE_v1_black-full-product-back-600.png",
+        "type": "URL",
+        "footNotes": [
+          ""
+        ]
+      },
+      {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/Apple_iPhone_SE_black-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [
+          ""
+        ]
+      },
+      {
+        "id": "imageURLs.thumbs.side",
+        "value": "/images/desktop/Apple_iPhone_SE_black-thumbs-side.png",
+        "type": "URL",
+        "footNotes": [
+          ""
+        ]
+      },
+      {
+        "id": "imageURLs.thumbs.right",
+        "value": "/images/desktop/Apple_iPhone_SE_black-thumbs-right.png",
+        "type": "URL",
+        "footNotes": [
+          ""
+        ]
+      },
+      {
+        "id": "imageURLs.thumbs.left",
+        "value": "/images/desktop/Apple_iPhone_SE_black-thumbs-left.png",
+        "type": "URL",
+        "footNotes": [
+          ""
+        ]
+      },
+      {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/Apple_iPhone_SE_black-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [
+          ""
+        ]
+      },
+      {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/Apple_iPhone_SE_black-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [
+          ""
+        ]
+      },
+      {
+        "id": "imageURLs.thumbs.back",
+        "value": "/images/desktop/Apple_iPhone_SE_v1_black-thumbs-back.png",
+        "type": "URL",
+        "footNotes": [
+          ""
+        ]
+      },
+      {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/Apple_iPhone_SE_black-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [
+          ""
+        ]
+      },
+      {
+        "id": "imageURLs.full.right",
+        "value": "/images/desktop/Apple_iPhone_SE_black-full-product-right-600.png",
+        "type": "URL",
+        "footNotes": [
+          ""
+        ]
+      }
+    ],
+    "attributes": [],
+    "contractOptions": null,
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "19",
+        "net": "15.83",
+        "vat": "3.17"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "19",
+        "net": "15.83",
+        "vat": "3.17"
+      },
+      "merchandisingPromotions": null,
+      "monthlyPrice": null,
+      "monthlyDiscountPrice": null,
+      "financingOptions": [],
+      "deviceFinancingId": null,
+      "devicePaymentPlan": null
+    },
+    "boxPrice": {
+      "gross": "398.33",
+      "net": "331.94",
+      "vat": "66.39"
+    },
+    "freeGift": false,
+    "devicePromotion": null,
+    "simType": "PHYSICAL",
+    "isChanged": false,
+    "isCompatibleWithWatch": true
+  },
+  {
+    "packageLineId": "61ea2dcb-8c37-4431-98fa-341393818fda",
+    "action": "ADD",
+    "skuId": "086532",
+    "name": "Blank White Triple Format SIM",
+    "description": null,
+    "displayName": "3-in-1 SIM",
+    "displayDescription": null,
+    "deviceBriefDescription": [],
+    "deviceColor": null,
+    "memorySize": null,
+    "make": null,
+    "model": null,
+    "groupType": null,
+    "productClass": "SIM Card",
+    "displayOrder": null,
+    "showInSummary": false,
+    "merchandisingMedia": [],
+    "attributes": [],
+    "contractOptions": null,
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "merchandisingPromotions": null,
+      "monthlyPrice": null,
+      "monthlyDiscountPrice": null,
+      "financingOptions": [],
+      "deviceFinancingId": null,
+      "devicePaymentPlan": null
+    },
+    "boxPrice": {
+      "gross": "0.0",
+      "net": "0.0",
+      "vat": "0.0"
+    },
+    "freeGift": false,
+    "devicePromotion": null,
+    "simType": "PHYSICAL",
+    "isChanged": false,
+    "isCompatibleWithWatch": false
+  }
+]

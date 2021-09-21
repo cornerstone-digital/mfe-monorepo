@@ -1,0 +1,371 @@
+{
+  "basketId": "52d1be7c-bdd2-4c6c-94f8-c4afcf4effe7",
+  "affiliateId": null,
+  "source": "YOUTH",
+  "customerRequestedDate": "2021-02-09T10:37:37.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Upgrade",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "c4dce51e-a256-4e1f-8146-f01e9050c4a5",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": null,
+      "hardwares": [
+        {
+          "packageLineId": "9f8cceb3-decb-42a8-bc88-c1abd3991c51",
+          "action": "ADD",
+          "skuId": "213243",
+          "name": "Samsung Galaxy S21 5G Phantom Violet 128GB PAYG",
+          "description": "Samsung Galaxy S21 5G features next generation cameras to effortlessly capture epic, share-ready moments - no editing required",
+          "displayName": "Samsung Galaxy S21 5G 128GB Phantom Violet",
+          "displayDescription": null,
+          "deviceBriefDescription": [],
+          "deviceColor": "Phantom Violet",
+          "memorySize": "128 GB",
+          "make": "samsung",
+          "model": "galaxy-s21-5g",
+          "groupType": null,
+          "productClass": "Handset",
+          "productSubClass": "HANDSET",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.full.right",
+              "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-full-product-right-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.left",
+              "value": "/images/desktop//images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-thumbs-left.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.sticker",
+              "value": "/images/small/5G_logo.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-full-product-back-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-thumbs-back.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-full-product-side-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-grid-product-front.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.left",
+              "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-full-product-left-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.right",
+              "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-thumbs-right.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-thumbs-side.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Samsung_Galaxy_S21_5G_phantom_violet-thumbs-front.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            }
+          ],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "930",
+              "net": "775",
+              "vat": "155"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "930",
+              "net": "775",
+              "vat": "155"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": [
+              {
+                "apr": "0.0",
+                "selected": false,
+                "deviceFinancingId": "SNLADSADLJ",
+                "financeProvider": "PayPal",
+                "financeTerm": "30",
+                "monthlyPrice": {
+                  "gross": "31.00",
+                  "net": "25.83",
+                  "vat": "5.17"
+                },
+                "totalPriceWithInterest": {
+                  "gross": "930.00",
+                  "net": "775.00",
+                  "vat": "155.00"
+                }
+              }
+            ],
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "1500.0",
+            "net": "1200.0",
+            "vat": "300.0"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "isCompatibleWithWatch": true,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "940",
+          "net": "783.33",
+          "vat": "156.67"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "940",
+          "net": "783.33",
+          "vat": "156.67"
+        },
+        "monthlyPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "financingOptions": [
+          {
+            "apr": "0.0",
+            "selected": false,
+            "deviceFinancingId": "SNLADSADLJ",
+            "financeProvider": "PayPal",
+            "financeTerm": "30",
+            "monthlyPrice": {
+              "gross": "31.00",
+              "net": "25.83",
+              "vat": "5.17"
+            },
+            "totalPriceWithInterest": {
+              "gross": "930.00",
+              "net": "775.00",
+              "vat": "155.00"
+            }
+          }
+        ]
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "lineReference": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "serviceReference": {
+          "serviceLines": []
+        }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "HANDSET",
+      "combiPackageId": null,
+      "confirmRequired": false,
+      "deviceFinancingId": null,
+      "additionalDetails": {},
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "940",
+      "net": "783.33",
+      "vat": "156.67"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "940",
+      "net": "783.33",
+      "vat": "156.67"
+    },
+    "monthlyPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "totalOneoffSaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "totalMonthlySaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": true,
+  "hashvalue": "-2040646594",
+  "lastModified": "2021-02-09T10:43:55.166Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

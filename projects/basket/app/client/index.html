@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <?srv- utag ?srv>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p>Sorry, this page needs javascript enabled!</p>
+    </noscript>
+    <script>
+      window.___ = {
+        BUILD_TIME: '<%= htmlWebpackPlugin.options.buildTime %>',
+        BRANCH_HASH: '<%= htmlWebpackPlugin.options.versions.branchHash %>',
+        BRANCH_NAME: '<%= htmlWebpackPlugin.options.versions.branchName %>',
+        LAST_TAG: '<%= htmlWebpackPlugin.options.versions.lastTag %>',
+        APP_VERSION: 'v<%= htmlWebpackPlugin.options.versions.packageVersion %>',
+      }
+      window.VFUK = <?srv- vfuk ?srv>
+      window.dalmatianPrefix = '<?srv- dalmatianPrefix ?srv>'
+    </script>
+  </body>
+</html>

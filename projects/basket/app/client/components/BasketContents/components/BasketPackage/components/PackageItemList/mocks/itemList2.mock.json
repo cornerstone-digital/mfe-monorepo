@@ -1,0 +1,217 @@
+{
+  "modelPackage": {
+    "packageId": "684b793c-88b6-4b3f-a4ab-863e26e37f75",
+    "accountCategory": "Consumer",
+    "sequence": 2,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": "",
+    "bundle": {
+      "packageLineId": "94ffbac8-1703-4226-94a8-d5447f296ca7",
+      "action": "ADD",
+      "skuId": "110546",
+      "name": "Gigafast 100 with Voice -18 months contract Unlimited Broadband",
+      "description": "",
+      "displayName": "Vodafone Gigafast Broadband 100",
+      "displayDescription": "Unlimited Home Broadband service - 100Mbps speed for 18 months.",
+      "bundleClass": "HANDSET",
+      "productClass": "",
+      "serviceId": "107551",
+      "paymentType": "Postpaid",
+      "bundleType": "",
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "18"
+      },
+      "displayOrder": "",
+      "showInSummary": false,
+      "allowances": "",
+      "merchandisingMedia": [],
+      "attributes": "",
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "28",
+          "net": "23.33",
+          "vat": "4.67"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "28",
+          "net": "23.33",
+          "vat": "4.67"
+        },
+        "merchandisingPromotions": ""
+      },
+      "isVodafoneGlobalRoaming": false,
+      "bundledServiceProducts": [
+        {
+          "skuId": "107552",
+          "name": "Fixed Broadband Service",
+          "description": "Fixed Broadband Service",
+          "productClass": "Fixed Broadband Service",
+          "servicePointId": "110560",
+          "priceDetail": {
+            "oneOffPrice": "",
+            "oneOffDiscountPrice": "",
+            "monthlyPrice": "",
+            "monthlyDiscountPrice": "",
+            "merchandisingPromotions": ""
+          },
+          "miscellaneous": [
+            {
+              "name": "SERVICE POINT",
+              "value": "Gigafast 100 Broadband"
+            }
+          ]
+        },
+        {
+          "skuId": "107551",
+          "name": "Fixed Line Service",
+          "description": "Fixed Line Service",
+          "productClass": "Fixed Line",
+          "servicePointId": "110567",
+          "priceDetail": {
+            "oneOffPrice": "",
+            "oneOffDiscountPrice": "",
+            "monthlyPrice": "",
+            "monthlyDiscountPrice": "",
+            "merchandisingPromotions": ""
+          },
+          "miscellaneous": [
+            {
+              "name": "SERVICE POINT",
+              "value": "Gigafast Home Broadband and Voice"
+            }
+          ]
+        }
+      ],
+      "planCategory": "CONSUMER",
+      "isChanged": false
+    },
+    "hardwares": [
+      {
+        "packageLineId": "06b180fe-cc4c-4d2b-b4a5-e283ddcbced7",
+        "action": "ADD",
+        "skuId": "200692",
+        "name": "Vodafone VOX 3.0 Uk",
+        "description": "",
+        "displayName": "Vodafone Broadband Router",
+        "displayDescription": "",
+        "deviceBriefDescription": [],
+        "deviceColor": "",
+        "memorySize": "",
+        "make": "",
+        "model": "",
+        "groupType": "",
+        "productClass": "Fixed Broadband Equipment",
+        "displayOrder": "",
+        "showInSummary": false,
+        "merchandisingMedia": [
+          {
+            "id": "imageURLs.thumbs.front",
+            "value": "/assets/images/desktop/IMG_170x170_VOIX_30_Router.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          }
+        ],
+        "attributes": [],
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "merchandisingPromotions": "",
+          "monthlyPrice": "",
+          "monthlyDiscountPrice": "",
+          "financingOptions": [],
+          "deviceFinancingId": ""
+        },
+        "boxPrice": {
+          "gross": "69.72",
+          "net": "58.10",
+          "vat": "11.62"
+        },
+        "freeGift": false,
+        "isChanged": false
+      }
+    ],
+    "services": [
+      {
+        "packageLineId": "6572d967-0aae-4cad-a032-e65860ec988b",
+        "action": "ADD",
+        "skuId": "110565",
+        "name": "Standard Installation Fee",
+        "description": "",
+        "displayName": "Standard Installation Fee",
+        "displayDescription": "",
+        "specificationGroup": [],
+        "merchandisingMedia": [],
+        "attributes": [],
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "monthlyPrice": "",
+          "monthlyDiscountPrice": "",
+          "merchandisingPromotions": ""
+        },
+        "freeGift": false,
+        "productClass": "Installation Fee",
+        "dataRollover": "",
+        "rootProductId": "",
+        "allowances": "",
+        "rewardPoints": "",
+        "planDuration": "",
+        "isChanged": false
+      }
+    ],
+    "discounts": [],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "monthlyPrice": {
+        "gross": "28",
+        "net": "23.33",
+        "vat": "4.67"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "28",
+        "net": "23.33",
+        "vat": "4.67"
+      },
+      "financingOptions": []
+    },
+    "installationAddress": "",
+    "appointmentWindow": "",
+    "servicePoint": "",
+    "serviceStartDate": "",
+    "phoneNumber": "",
+    "linePackageType": "",
+    "lineTreatmentType": "",
+    "planType": "BroadBand:FTTH",
+    "isChanged": false
+  }
+}

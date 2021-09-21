@@ -1,0 +1,10 @@
+{
+  "errorCode": "LOAN_INVALID_UPFRONT_COST",
+  "errorMessage": "DevicePaymentPlan can not be generated as the upfront cost is above the allowed threshold : 500.0",
+  "referenceId": "55e28f5a-b254-4671-aa51-7ca228c1459d",
+  "validationDetails": null,
+  "__cacheMeta": {
+    "date": "06/01/2020 11:12:42",
+    "status": 400
+  }
+}

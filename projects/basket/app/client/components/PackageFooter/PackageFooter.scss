@@ -1,0 +1,13 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+$footerMinHeight: 50px;
+
+.wrapper {
+  background: $color-almost-white;
+  border-top: 1px solid $color-pale-grey;
+  display: flex;
+  justify-content: center;
+  min-height: $footerMinHeight;
+  align-items: center;
+  font-size: $base-font-size;
+  padding: $spacing-fixed-1 $spacing-fixed-2;
+}

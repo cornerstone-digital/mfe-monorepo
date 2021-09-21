@@ -1,0 +1,1148 @@
+{
+  "basketId": "34162435-fdb9-4d6e-ae14-bf7db022bdd3",
+  "affiliateId": "11",
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T09:45:00",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [{
+    "packageId": "40e11c8a-3a49-4246-869f-b58c28a488a4",
+    "accountCategory": "consumer",
+    "accountSubCategory": null,
+    "sequence": 2,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "a5172927-2cc5-4a48-8126-cb64f695c5a8",
+      "action": "ADD",
+      "skuId": "111313",
+      "name": "PAYG Phone and SIM Package",
+      "description": "PAYG Phone and SIM Package",
+      "displayName": "PAYG Phone and SIM Package",
+      "displayDescription": null,
+      "bundleClass": "HANDSET",
+      "productClass": null,
+      "serviceId": "100000",
+      "paymentType": "Prepaid",
+      "bundleType": null,
+      "commitmentPeriod": {
+        "uom": "Years",
+        "value": "1"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": null,
+      "merchandisingMedia": [],
+      "attributes": null,
+      "benefits": [],
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "totalMonthlySavingsAmount": null,
+        "merchandisingPromotions": null,
+        "listOfMerchandisingPromotion": [],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": false,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "includedCalls": null,
+      "noPriceRise": null,
+      "wifiExpert": null,
+      "broadbandAntiVirus": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+      "packageLineId": "8ddf74e8-f705-4ba1-8c27-eb9ea43b6267",
+      "action": "ADD",
+      "skuId": "205507",
+      "name": "Apple iPhone SE 2020 64GB black PAYG",
+      "description": "A small iPhone with huge performance - the iPhone SE is the most powerful 4.7-inch iPhone ever.",
+      "displayName": "Apple iPhone SE 64GB Black",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": "Black",
+      "memorySize": "64 GB",
+      "make": "apple",
+      "model": "iphone-se",
+      "groupType": null,
+      "productClass": "Handset",
+      "productSubClass": "HANDSET",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.full.back",
+        "value": "/images/desktop/VOXI_Apple_iPhone_SE_black-full-product-back-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/VOXI_Apple_iPhone_SE_black-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.back",
+        "value": "/images/desktop/VOXI_Apple_iPhone_SE_black-thumbs-back.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.left",
+        "value": "/images/desktop/VOXI_Apple_iPhone_SE_black-thumbs-left.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/VOXI_Apple_iPhone_SE_black-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/VOXI_Apple_iPhone_SE_black-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/VOXI_Apple_iPhone_SE_black-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.left",
+        "value": "/images/desktop/VOXI_Apple_iPhone_SE_black-full-product-left-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "419",
+          "net": "349.17",
+          "vat": "69.83"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "419",
+          "net": "349.17",
+          "vat": "69.83"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [{
+          "apr": "0.0",
+          "selected": false,
+          "deviceFinancingId": "SNLADSADLJ",
+          "financeProvider": "PayPal",
+          "financeTerm": "30",
+          "monthlyPrice": {
+            "gross": "13.97",
+            "net": "11.64",
+            "vat": "2.33"
+          },
+          "totalPriceWithInterest": {
+            "gross": "419.00",
+            "net": "349.17",
+            "vat": "69.83"
+          }
+        }],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "398.33",
+        "net": "331.94",
+        "vat": "66.39"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }, {
+      "packageLineId": "3baea0a1-493b-4a64-9b73-765704b4e724",
+      "action": "ADD",
+      "skuId": "202453",
+      "name": "Apple AirPods Pro",
+      "description": "Active Noise Cancellation for immersive sound. Transparency mode for hearing what's happening around you. A customisable fit for all-day comfort. Magic like you've never heard.",
+      "displayName": "Apple Airpods Pro White",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": "apple",
+      "model": "airpods-pro",
+      "groupType": null,
+      "productClass": "Accessories",
+      "productSubClass": null,
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "accessory_discount.merchandisingPromotions.merchandisingPromotion.description",
+        "value": "Accessories_Discount save £10",
+        "type": "TEXT",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/accessory_sku202453_white-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "accessory_discount.merchandisingPromotions.merchandisingPromotion.label",
+        "value": "Accessories_Discount save 10 pct",
+        "type": "TEXT",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/accessory_sku202453_white-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/accessory_sku202453_white-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/accessory_sku202453_white-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "249",
+          "net": "207.50",
+          "vat": "41.50"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "211.65",
+          "net": "176.38",
+          "vat": "35.27"
+        },
+        "merchandisingPromotions": {
+          "tag": "Accessories_Discount_1",
+          "label": "Accessories Discount save 10 pct",
+          "description": "Accessories_Discount save £10",
+          "discountId": null,
+          "mpType": "accessory_discount",
+          "priceEstablishedLabel": null,
+          "priority": "6034",
+          "packageType": ["Upgrade", "SecondLine", "Acquisition"],
+          "footNotes": [""],
+          "confirmRequired": false,
+          "offerGroup": null,
+          "belowTheLine": "false",
+          "qualifier": null,
+          "category": null
+        },
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [{
+          "apr": "0.0",
+          "selected": false,
+          "deviceFinancingId": "SNLADSADLJ",
+          "financeProvider": "PayPal",
+          "financeTerm": "30",
+          "monthlyPrice": {
+            "gross": "7.06",
+            "net": "5.88",
+            "vat": "1.18"
+          },
+          "totalPriceWithInterest": {
+            "gross": "211.65",
+            "net": "176.38",
+            "vat": "35.27"
+          }
+        }],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "190.45",
+        "net": "158.71",
+        "vat": "31.74"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }, {
+      "packageLineId": "0a6909f9-a66a-44e4-b6ce-6faf98aa7e87",
+      "action": "ADD",
+      "skuId": "208431",
+      "name": "InvisibleShield GlassElite plus iPhone SE 2020",
+      "description": "Safeguard your iPhone with the ZAGG InvisibleShield Glass+ screen protector; the most advanced impact, scratch and smudge protection available.",
+      "displayName": "InvisibleShield Glass Elite+ Clear",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": "invisibleshield",
+      "model": "glass-eliteplus",
+      "groupType": null,
+      "productClass": "Accessories",
+      "productSubClass": null,
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/accessory_sku208431_clear-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/accessory_sku208431_clear-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/accessory_sku208431_clear-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/accessory_sku208431_clear-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.back",
+        "value": "/images/desktop/accessory_sku208431_clear-thumbs-back.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.back",
+        "value": "/images/desktop/accessory_sku208431_clear-full-product-back-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "20",
+          "net": "16.67",
+          "vat": "3.33"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "20",
+          "net": "16.67",
+          "vat": "3.33"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [{
+          "apr": "0.0",
+          "selected": false,
+          "deviceFinancingId": "SNLADSADLJ",
+          "financeProvider": "PayPal",
+          "financeTerm": "30",
+          "monthlyPrice": {
+            "gross": "0.67",
+            "net": "0.56",
+            "vat": "0.11"
+          },
+          "totalPriceWithInterest": {
+            "gross": "20.00",
+            "net": "16.67",
+            "vat": "3.33"
+          }
+        }],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "9.02",
+        "net": "7.52",
+        "vat": "1.50"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }, {
+      "packageLineId": "bbab7279-5ddc-44e5-a3f5-0e27d5042d38",
+      "action": "ADD",
+      "skuId": "086532",
+      "name": "Blank White Triple Format SIM",
+      "description": null,
+      "displayName": "3-in-1 SIM",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": null,
+      "model": null,
+      "groupType": null,
+      "productClass": "SIM Card",
+      "productSubClass": "Core",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "0.0",
+        "net": "0.0",
+        "vat": "0.0"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }, {
+      "packageLineId": "0aa530e9-2fc5-4abe-bcaa-1a59efb36b20",
+      "action": "ADD",
+      "skuId": "200913",
+      "name": "XQISIT Wireless Fast Charger 10W black",
+      "description": "Charging made elegant: just place your Qi-compatible phone on the XQISIT Wireless Fast Charger with an output of up to 10W. The charging starts automatically, no need to plug in your phone. A 1 metre long Micro-USB charging cable is included and it's unobtrusive design allows it to fit in with any decorating style.",
+      "displayName": "XQISIT Wireless Charger 10W Black",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": "xqisit",
+      "model": "wireless-charger-10w",
+      "groupType": null,
+      "productClass": "Accessories",
+      "productSubClass": null,
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.full.right",
+        "value": "/images/desktop/accessory_sku200913_black-full-product-left-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.left",
+        "value": "/images/desktop/accessory_sku200913_black-thumbs-right.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.back",
+        "value": "/images/desktop/accessory_sku200913_black-thumbs-back.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.side",
+        "value": "/images/desktop/accessory_sku200913_black-thumbs-side.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/accessory_sku200913_black-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.back",
+        "value": "/images/desktop/accessory_sku200913_black-full-product-back-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/accessory_sku200913_black-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.right",
+        "value": "/images/desktop/accessory_sku200913_black-thumbs-left.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.side",
+        "value": "/images/desktop/accessory_sku200913_black-full-product-side-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/accessory_sku200913_black-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.left",
+        "value": "/images/desktop/accessory_sku200913_black-full-product-right-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/accessory_sku200913_black-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "15",
+          "net": "12.50",
+          "vat": "2.50"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "5",
+          "net": "4.17",
+          "vat": "0.83"
+        },
+        "merchandisingPromotions": {
+          "tag": "Accessories_Discount",
+          "label": "Accessories Discount save £10",
+          "description": "Accessories_Discount save £10",
+          "discountId": null,
+          "mpType": "accessory_discount",
+          "priceEstablishedLabel": null,
+          "priority": "1502",
+          "packageType": ["Upgrade", "SecondLine", "Acquisition"],
+          "footNotes": [""],
+          "confirmRequired": false,
+          "offerGroup": null,
+          "belowTheLine": "false",
+          "qualifier": null,
+          "category": null
+        },
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [{
+          "apr": "0.0",
+          "selected": false,
+          "deviceFinancingId": "SNLADSADLJ",
+          "financeProvider": "PayPal",
+          "financeTerm": "30",
+          "monthlyPrice": {
+            "gross": "0.17",
+            "net": "0.14",
+            "vat": "0.03"
+          },
+          "totalPriceWithInterest": {
+            "gross": "5.00",
+            "net": "4.17",
+            "vat": "0.83"
+          }
+        }],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "10.72",
+        "net": "8.94",
+        "vat": "1.79"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }],
+    "services": [{
+      "packageLineId": "b62e4c66-2d0f-4052-87f4-cd1da439ca4d",
+      "action": "ADD",
+      "skuId": "112027",
+      "name": "Big Value Bundle 40GBP",
+      "description": null,
+      "displayName": "£40 Big Value Bundle",
+      "displayDescription": null,
+      "specificationGroup": [],
+      "merchandisingMedia": [],
+      "attributes": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "40",
+          "net": "33.33",
+          "vat": "6.67"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "40",
+          "net": "33.33",
+          "vat": "6.67"
+        },
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "merchandisingPromotions": null
+      },
+      "freeGift": false,
+      "productClass": "Recurring Freedom Freebees",
+      "dataRollover": "true",
+      "rootProductId": "100000",
+      "allowances": [{
+        "type": "UK TEXT",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": null,
+        "tilUom": null
+      }, {
+        "type": "UK DATA",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": null,
+        "tilUom": null
+      }, {
+        "type": "UK MIN",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": null,
+        "tilUom": null
+      }],
+      "rewardPoints": null,
+      "planDuration": null,
+      "isChanged": false
+    }],
+    "discounts": [],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "743",
+        "net": "619.17",
+        "vat": "123.83"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "695.65",
+        "net": "579.72",
+        "vat": "115.93"
+      },
+      "monthlyPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "financingOptions": [{
+        "apr": "0.0",
+        "selected": false,
+        "deviceFinancingId": "SNLADSADLJ",
+        "financeProvider": "PayPal",
+        "financeTerm": "30",
+        "monthlyPrice": {
+          "gross": "21.86",
+          "net": "18.22",
+          "vat": "3.64"
+        },
+        "totalPriceWithInterest": {
+          "gross": "655.65",
+          "net": "546.38",
+          "vat": "109.27"
+        }
+      }]
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "HANDSET",
+    "combiPackageId": null,
+    "confirmRequired": false,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "tradeInOfferCode": null,
+    "tradeInCredit": null,
+    "isChanged": false
+  }, {
+    "packageId": "69b4ed1e-e085-4ffa-8030-c0e9ff39c716",
+    "accountCategory": "Consumer",
+    "accountSubCategory": null,
+    "sequence": 1,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "5d75750a-d10a-4abe-9ede-6435a91dcd24",
+      "action": "ADD",
+      "skuId": "114279",
+      "name": "24mth Band 1 Tablet Red Plan 25GB",
+      "description": "CTR17 tablet plan comes with 25GB of data",
+      "displayName": "Red 25GB",
+      "displayDescription": null,
+      "bundleClass": "DATA_DEVICE",
+      "productClass": null,
+      "serviceId": "100092",
+      "paymentType": "Postpaid",
+      "bundleType": "red51",
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "24"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": [{
+        "type": "UK DATA",
+        "value": "25",
+        "uom": "GB",
+        "displayUom": "GB",
+        "tilUom": "DATA"
+      }, {
+        "type": "World Traveller",
+        "value": "Vodafone Global Roaming",
+        "uom": null,
+        "displayUom": null,
+        "tilUom": null
+      }, {
+        "type": "ORIGDATA",
+        "value": "25",
+        "uom": "GB",
+        "displayUom": "GB",
+        "tilUom": "DATA"
+      }],
+      "merchandisingMedia": [{
+        "id": "imageURLs.sticker",
+        "value": "/images/desktop/5g_badge_digital.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": null,
+      "benefits": [],
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "58",
+          "net": "48.33",
+          "vat": "9.67"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "58",
+          "net": "48.33",
+          "vat": "9.67"
+        },
+        "totalMonthlySavingsAmount": null,
+        "merchandisingPromotions": null,
+        "listOfMerchandisingPromotion": [],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": true,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "includedCalls": null,
+      "noPriceRise": null,
+      "wifiExpert": null,
+      "broadbandAntiVirus": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+      "packageLineId": "153fd245-a126-49c0-a0f7-55ce58110043",
+      "action": "ADD",
+      "skuId": "210994",
+      "name": "iPad Pro 11 (2021) 128GB space grey",
+      "description": "iPad Pro 11-inch combines the mind-blowing Apple M1 chip and 5G connectivity to produce a super-portable but powerful device.",
+      "displayName": "Apple iPad Pro 11 (2021) 128GB Space Grey",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": "apple",
+      "model": "ipad-pro-11-2021",
+      "groupType": null,
+      "productClass": "DATA_DEVICE",
+      "productSubClass": null,
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.full.back",
+        "value": "/images/desktop/Apple_iPad_Pro_11_2021_space_grey-full-product-back-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/Apple_iPad_Pro_11_2021_space_grey-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/Apple_iPad_Pro_11_2021_space_grey-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/Apple_iPad_Pro_11_2021_space_grey-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.side",
+        "value": "/images/desktop/Apple_iPad_Pro_11_2021_space_grey-full-product-side-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.side",
+        "value": "/images/desktop/Apple_iPad_Pro_11_2021_space_grey-thumbs-side.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.left",
+        "value": "/images/desktop/Apple_iPad_Pro_11_2021_space_grey-thumbs-left.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.sticker",
+        "value": "/images/small/5G_logo.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.right",
+        "value": "/images/desktop/Apple_iPad_Pro_11_2021_space_grey-thumbs-right.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.left",
+        "value": "/images/desktop/Apple_iPad_Pro_11_2021_space_grey-full-product-left-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.right",
+        "value": "/images/desktop/Apple_iPad_Pro_11_2021_space_grey-full-product-right-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.back",
+        "value": "/images/desktop/Apple_iPad_Pro_11_2021_space_grey-thumbs-back.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/Apple_iPad_Pro_11_2021_space_grey-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "811.20",
+        "net": "676.0",
+        "vat": "135.20"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }, {
+      "packageLineId": "06cb3b8c-6785-46bb-9812-123925cc0f69",
+      "action": "ADD",
+      "skuId": "086532",
+      "name": "Blank White Triple Format SIM",
+      "description": null,
+      "displayName": "3-in-1 SIM",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": null,
+      "model": null,
+      "groupType": null,
+      "productClass": "SIM Card",
+      "productSubClass": "Core",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "0.0",
+        "net": "0.0",
+        "vat": "0.0"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }],
+    "services": [],
+    "discounts": [],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "29",
+        "net": "24.17",
+        "vat": "4.83"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "29",
+        "net": "24.17",
+        "vat": "4.83"
+      },
+      "monthlyPrice": {
+        "gross": "58",
+        "net": "48.33",
+        "vat": "9.67"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "58",
+        "net": "48.33",
+        "vat": "9.67"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "DATA_DEVICE",
+    "combiPackageId": null,
+    "confirmRequired": false,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "tradeInOfferCode": null,
+    "tradeInCredit": null,
+    "isChanged": false
+  }],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "772",
+      "net": "643.34",
+      "vat": "128.66"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "724.65",
+      "net": "603.89",
+      "vat": "120.76"
+    },
+    "monthlyPrice": {
+      "gross": "58",
+      "net": "48.33",
+      "vat": "9.67"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "58",
+      "net": "48.33",
+      "vat": "9.67"
+    },
+    "totalOneoffSaving": {
+      "gross": "47.35",
+      "net": "39.46",
+      "vat": "7.89"
+    },
+    "totalMonthlySaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    }
+  },
+  "totalOneoffPriceSaving": "47.35",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "535326426",
+  "lastModified": "2021-06-18T16:16:13.372164",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

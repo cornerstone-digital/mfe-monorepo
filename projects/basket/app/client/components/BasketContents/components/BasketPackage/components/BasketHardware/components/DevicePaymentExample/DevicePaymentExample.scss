@@ -1,0 +1,29 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.breakdown-table {
+  margin-bottom: $spacing-fixed-2;
+  border: 1px solid $color-vodafone-grey;
+
+  tr:nth-child(odd) {
+    background-color: $color-almost-white;
+  }
+
+  th,
+  td {
+    padding: $spacing-fixed-1;
+  }
+
+  th {
+    background-color: $color-vodafone-grey;
+    color: $color-vodafone-white;
+    font-size: 18px;
+  }
+
+  td {
+    width: 50%;
+  }
+
+  td:first-child {
+    font-weight: $base-font-weight-bold;
+  }
+}

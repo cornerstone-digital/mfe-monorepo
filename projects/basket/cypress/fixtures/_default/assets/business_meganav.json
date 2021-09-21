@@ -1,0 +1,390 @@
+[
+  {
+    "business_meganav": {
+      "rightNav": {
+        "Top_RightMegaNav_FindAStore": {
+          "mainTitleUrl": "https://www.vodafone.co.uk/help-and-information/store-locator",
+          "mainTitle": "Find a store",
+          "icon": "IconLocation",
+          "name": "Top_RightMegaNav_FindAStore",
+          "id": 1523362517444,
+          "friendlyName": "Top_RightMegaNav_FindAStore",
+          "parents": []
+        },
+        "Top_RightMegaNav_CoverageChecker": {
+          "mainTitleUrl": "https://www.vodafone.co.uk/network/status-checker",
+          "mainTitle": "Network Status Checker",
+          "icon": "NetworkIcon",
+          "name": "Top_RightMegaNav_CoverageChecker",
+          "id": 1523362517996,
+          "friendlyName": "Top_RightMegaNav_CoverageChecker",
+          "parents": []
+        }
+      },
+      "leftNav": {
+        "Top_LeftMegaNav_Personal": {
+          "mainTitleUrl": "https://www.vodafone.co.uk/",
+          "mainTitle": "Personal",
+          "icon": "Members",
+          "name": "Top_LeftMegaNav_Personal",
+          "id": 1523362513983,
+          "friendlyName": "Top_LeftMegaNav_Personal",
+          "parents": []
+        },
+        "Top_LeftMegaNav_Business": {
+          "mainTitleUrl": "https://www.vodafone.co.uk/business",
+          "mainTitle": "Business",
+          "icon": "Careers",
+          "name": "Top_LeftMegaNav_Business",
+          "id": 1523362514624,
+          "friendlyName": "Top_LeftMegaNav_Business",
+          "parents": []
+        }
+      },
+      "megaNav": {
+        "business_meganav_Shop": {
+          "tabItems": {
+            "business_meganav_Shop_SIM_only": {
+              "freeFormTitleLinkText": "Explore SIM Only & Plans",
+              "subLinks": [
+                "SIM only for phones|https://www.vodafone.co.uk/business/business-sim-only?commitmentPeriod=24 Months",
+                "Data only SIM|https://www.vodafone.co.uk/business/data-only-sim",
+                "Unlimited plans|https://www.vodafone.co.uk/business/business-mobile-plans/unlimited-data-plans",
+                "Business mobile plans|https://www.vodafone.co.uk/business/business-mobile-plans",
+                "Add-ons for your plan|https://www.vodafone.co.uk/business/business-mobile-plans/mobile-plan-features"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/business-sim-only?commitmentPeriod=24 Months",
+              "mainTitle": "SIM Only & Plans",
+              "icon": "SIM",
+              "name": "business_meganav_Shop_SIM_only",
+              "id": 1523362508297,
+              "friendlyName": "business_meganav_Shop_SIM_only",
+              "parents": []
+            },
+            "business_meganav_Shop_Phones": {
+              "freeFormTitleLinkText": "Explore Mobile Phones",
+              "subLinks": [
+                "Pay monthly phones|https://www.vodafone.co.uk/business/business-mobile-phones/pay-monthly-contracts",
+                "iPhone|https://www.vodafone.co.uk/business/business-mobile-phones/apple",
+                "Samsung phones|https://www.vodafone.co.uk/business/business-mobile-phones/samsung",
+                "5G phones|https://www.vodafone.co.uk/business/business-mobile-phones/5g",
+                "Business mobile phones|https://www.vodafone.co.uk/business/business-mobile-phones"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/business-mobile-phones",
+              "mainTitle": "Mobile Phones",
+              "icon": "Mobile",
+              "name": "business_meganav_Shop_Phones",
+              "id": 1523362508614,
+              "friendlyName": "business_meganav_Shop_Phones",
+              "parents": []
+            },
+            "business_meganav_Shop_broadband": {
+              "subLinks": [
+                "Superfast Broadband|https://www.vodafone.co.uk/business/business-connectivity/broadband-and-phone",
+                "Complete Connectivity|https://www.vodafone.co.uk/business/business-connectivity/complete-connectivity",
+                "Mobile Wifi & Dongles|https://www.vodafone.co.uk/business/mobile-broadband/dongles-and-mobile-wifi",
+                "GigaCube 5G router|https://www.vodafone.co.uk/business/5g-wireless-router",
+                "Mobile Broadband|https://www.vodafone.co.uk/business/business-connectivity/business-mobile-broadband"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/business-connectivity/broadband-and-phone",
+              "mainTitle": "Business Broadband",
+              "icon": "MobileBroadband",
+              "name": "business_meganav_Shop_broadband",
+              "id": 1523371261656,
+              "friendlyName": "business_meganav_Shop_broadband",
+              "parents": []
+            },
+            "business_meganav_Shop_mobile_broadband": {
+              "freeFormTitleLinkText": "Explore Tablets & Smartwatches",
+              "subLinks": [
+                "iPads & Tablets|https://www.vodafone.co.uk/business/mobile-broadband/tablets",
+                "Apple Watch|https://www.vodafone.co.uk/business/business-mobile-phones/apple/apple-watch",
+                "Samsung Watch|https://www.vodafone.co.uk/business/business-mobile-phones/samsung/samsung-galaxy-watch",
+                "5G Tablets|https://www.vodafone.co.uk/business/business-tablets/5g-tablets",
+                "Smart watches|https://www.vodafone.co.uk/business/smart-watches-and-wearables/"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/mobile-broadband/tablets",
+              "mainTitle": "Tablets & Smartwatches",
+              "icon": "Tablet",
+              "name": "business_meganav_Shop_mobile_broadband",
+              "id": 1523362508398,
+              "friendlyName": "business_meganav_Shop_mobile_broadband",
+              "parents": []
+            },
+            "business_meganav_Shop_Deals": {
+              "freeFormTitleLinkText": "Explore Business Deals",
+              "subLinks": [
+                "Deals for existing customers|https://www.vodafone.co.uk/business/deals/existing-customer-deals",
+                "Explore business deals|https://www.vodafone.co.uk/business/deals"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/deals",
+              "mainTitle": "Business Deals",
+              "icon": "Deals",
+              "name": "business_meganav_Shop_Deals",
+              "id": 1523362508835,
+              "friendlyName": "business_meganav_Shop_Deals",
+              "parents": []
+            }
+          },
+          "mainTitle": "Shop",
+          "icon": "PriceTag",
+          "name": "business_meganav_Shop",
+          "id": 1523362507761,
+          "friendlyName": "business_meganav_Shop",
+          "parents": []
+        },
+        "business_meganav_business_solutions": {
+          "tabItems": {
+            "business_meganav_WhyVodafone_5G": {
+              "freeFormTitleLinkText": "Explore 5G for Business",
+              "subLinks": [
+                "5G News & insights|https://www.vodafone.co.uk/business/5g-for-business/5g-news-and-insights",
+                "5G Innovation hubs|https://www.vodafone.co.uk/business/vodafone-innovation-hubs",
+                "5G Resources & FAQs|https://www.vodafone.co.uk/business/5g-for-business/5g-news-and-insights#resources",
+                "5G Phones & devices|https://www.vodafone.co.uk/business/business-mobile-phones/5g",
+                "Explore 5G customer stories|https://www.vodafone.co.uk/business/5g-for-business/5g-customer-stories"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/5g-for-business",
+              "mainTitle": "5G for Business",
+              "icon": "FiveGNoFill",
+              "name": "business_meganav_WhyVodafone_5G",
+              "id": 1523380997437,
+              "friendlyName": "business_meganav_WhyVodafone_5G",
+              "parents": []
+            },
+            "business_meganav_business_solutions_communication_tools": {
+              "freeFormTitleLinkText": "Explore Communication tools",
+              "subLinks": [
+                "Mobile solutions|https://www.vodafone.co.uk/business/business-mobile-plans",
+                "One Net Anywhere|https://www.vodafone.co.uk/business/unified-communications/vodafone-one-net-anywhere",
+                "One Net Business|https://www.vodafone.co.uk/business/unified-communications/vodafone-one-net-business",
+                "Video conference solutions|https://www.vodafone.co.uk/business/unified-communications/video-conference",
+                "Contact Centre solutions|https://www.vodafone.co.uk/business/unified-communications/contact-centre-solutions",
+                "Unified Communications|https://www.vodafone.co.uk/business/unified-communications"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/unified-communications",
+              "mainTitle": "Communication tools",
+              "icon": "UnifiedCommunication",
+              "name": "business_meganav_business_solutions_communication_tools",
+              "id": 1523362690241,
+              "friendlyName": "business_meganav_business_solutions_communication_tools",
+              "parents": []
+            },
+            "business_meganav_business_solutions_connectivity": {
+              "freeFormTitleLinkText": "Explore Connectivity",
+              "subLinks": [
+                "Voice connectivity systems|https://www.vodafone.co.uk/business/business-connectivity/voice-connectivity",
+                "Data connectivity solutions|https://www.vodafone.co.uk/business/business-connectivity/data-connectivity",
+                "Business Network with SDN|https://www.vodafone.co.uk/business/sdn",
+                "Dedicated Internet Access|https://www.vodafone.co.uk/business/business-connectivity/data-connectivity/dedicated-internet-access",
+                "Explore connectivity|https://www.vodafone.co.uk/business/business-connectivity"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/business-connectivity",
+              "mainTitle": "Business Connectivity",
+              "icon": "Connectivity",
+              "name": "business_meganav_business_solutions_connectivity",
+              "id": 1523362702359,
+              "friendlyName": "business_meganav_business_solutions_connectivity",
+              "parents": []
+            },
+            "business_meganav_business_solutions_Internet_of_Things": {
+              "freeFormTitleLinkText": "Explore IoT",
+              "subLinks": [
+                "What is IoT?|https://www.vodafone.co.uk/business/iot/what-is-iot",
+                "Bespoke IoT solutions|https://www.vodafone.co.uk/business/iot/iot-industries",
+                "IoT Smart Hub|https://www.vodafone.co.uk/business/iot/smart-security/smart-hub",
+                "Smart Vision surveillance|https://www.vodafone.co.uk/business/iot/smart-vision",
+                "Heat Detection Camera|https://www.vodafone.co.uk/business/iot/smart-vision/heat-detection-camera",
+                "Explore IoT|https://www.vodafone.co.uk/business/iot"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/iot",
+              "mainTitle": "Internet of Things (IoT)",
+              "icon": "CommunityOrFoundation",
+              "name": "business_meganav_business_solutions_Internet_of_Things",
+              "id": 1523362710590,
+              "friendlyName": "business_meganav_business_solutions_Internet_of_Things",
+              "parents": []
+            },
+            "business_meganav_business_solutions_cloud_and_security": {
+              "freeFormTitleLinkText": "Explore Cloud & Security",
+              "subLinks": [
+                "Business applications|https://www.vodafone.co.uk/business/business-apps",
+                "Distributed Edge Computing|https://www.vodafone.co.uk/business/cloud-and-security/distributed-edge-computing",
+                "Microsoft 365|https://www.vodafone.co.uk/business/business-apps/office-365-business",
+                "Cloud Backup|https://www.vodafone.co.uk/business/business-apps/cloud-backup",
+                "Cyber Security solutions|https://www.vodafone.co.uk/business/cloud-and-hosting/cyber-security-solutions",
+                "Vodafone Business Security Enhanced|https://www.vodafone.co.uk/business/cloud-and-hosting/cyber-security-solutions/security-enhanced",
+                "Explore Cloud & Security|https://www.vodafone.co.uk/business/cloud-and-security"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/cloud-and-security",
+              "mainTitle": "Cloud & Security",
+              "icon": "Storage",
+              "name": "business_meganav_business_solutions_cloud_and_security",
+              "id": 1523362712202,
+              "friendlyName": "business_meganav_business_solutions_cloud_and_security",
+              "parents": []
+            }
+          },
+          "mainTitle": "Business solutions ",
+          "icon": "Business",
+          "name": "business_meganav_business_solutions",
+          "id": 1523362535818,
+          "friendlyName": "business_meganav_business_solutions",
+          "parents": []
+        },
+        "business_meganav_WhyVodafone": {
+          "tabItems": {
+            "business_meganav_WhyVodafone_Business_Advice": {
+              "freeFormTitleLinkText": "Explore Business Advice",
+              "subLinks": [
+                "Better ways of working|https://www.vodafone.co.uk/business/why-vodafone/expert-advice/better-ways-of-working",
+                "Latest tech from Innovation Hubs|https://www.vodafone.co.uk/business/vodafone-innovation-hubs",
+                "Small business advice & insights|https://www.vodafone.co.uk/business/sme-business",
+                "Advice for large businesses|https://www.vodafone.co.uk/business/why-vodafone/expert-advice",
+                "Vodafone Global Enterprise|https://www.vodafone.co.uk/business/why-vodafone/expert-advice/vodafone-global-enterprise"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/why-vodafone",
+              "mainTitle": "Vodafone Business Advice",
+              "icon": "ChartLine",
+              "name": "business_meganav_WhyVodafone_Business_Advice",
+              "id": 1595435846136,
+              "friendlyName": "business_meganav_WhyVodafone_Business_Advice",
+              "parents": []
+            },
+            "business_meganav_WhyVodafone_Work_Expertise": {
+              "freeFormTitleLinkText": "Explore Our Work & Expertise",
+              "subLinks": [
+                "Our work near you|https://www.vodafone.co.uk/business/regional-network-solutions",
+                "Our industry expertise|https://www.vodafone.co.uk/business/why-vodafone/expert-advice/our-industry-expertise",
+                "Public Sector|https://publicsector.vodafone.co.uk",
+                "Business insights|https://www.vodafone.co.uk/business/insights"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/insights",
+              "mainTitle": "Our Work & Expertise",
+              "icon": "PricePromise",
+              "name": "business_meganav_WhyVodafone_Work_Expertise",
+              "id": 1595438567770,
+              "friendlyName": "business_meganav_WhyVodafone_Work_Expertise",
+              "parents": []
+            },
+            "business_meganav_WhyVodafone_Case_Studies": {
+              "freeFormTitleLinkText": "Explore Business Case Studies",
+              "subLinks": [
+                "Case studies for small businesses|https://www.vodafone.co.uk/business/why-vodafone/case-studies?cat=1508864462235",
+                "Case studies for large businesses|https://www.vodafone.co.uk/business/why-vodafone/case-studies?cat=1508864462412",
+                "Case studies for Public Sector organisations|https://publicsector.vodafone.co.uk/case-studies"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/why-vodafone/case-studies",
+              "mainTitle": "Business Case Studies",
+              "icon": "Careers",
+              "name": "business_meganav_WhyVodafone_Case_Studies",
+              "id": 1523371287512,
+              "friendlyName": "business_meganav_WhyVodafone_Case_Studies",
+              "parents": []
+            },
+            "business_meganav_WhyVodafone_Partners": {
+              "freeFormTitleLinkText": "Explore Indirect Partnerships",
+              "subLinks": [
+                "Becoming a Partner|https://www.vodafone.co.uk/business/vodafone-partners/becoming-a-vodafone-partner",
+                "Buying from an Indirect Partner|https://www.vodafone.co.uk/business/vodafone-partners/buying-from-an-indirect-partner",
+                "Business Partners Portfolio|https://www.vodafone.co.uk/business/vodafone-partners/business-partners-portfolio",
+                "Connectivity Solutions|https://www.vodafone.co.uk/business/vodafone-partners/connectivity-solutions-campaign",
+                "Find your nearest Partner|https://www.vodafone.co.uk/business/vodafone-partners/find-your-nearest-partner"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/vodafone-partners",
+              "mainTitle": "Indirect Partnerships",
+              "icon": "Deals",
+              "name": "business_meganav_WhyVodafone_Partners",
+              "id": 1523362517702,
+              "friendlyName": "business_meganav_WhyVodafone_Partners",
+              "parents": []
+            }
+          },
+          "mainTitle": "Why work with Vodafone",
+          "icon": "Help",
+          "name": "business_meganav_WhyVodafone",
+          "id": 1523362507869,
+          "friendlyName": "business_meganav_WhyVodafone",
+          "parents": []
+        },
+        "business_meganav_Help": {
+          "tabItems": {
+            "business_meganav_Help_Business_Support": {
+              "freeFormTitleLinkText": "Explore Business Support",
+              "subLinks": [
+                "In store business adviser|https://www.vodafone.co.uk/business/why-vodafone/expert-advice/visit-store-for-business-support",
+                "Find a store|https://www.vodafone.co.uk/find-a-store/index.htm?filter=bizadvisor&business=true",
+                "Vodafone Community|https://forum.vodafone.co.uk/",
+                "Check our network status|https://www.vodafone.co.uk/network/status-checker",
+                "Coronavirus help and support|https://www.vodafone.co.uk/business/coronavirus-help-and-support",
+                "One to One Small Business Support|https://www.vodafone.co.uk/business/sme-business/small-business-advice/personal-advice"
+              ],
+              "mainTitleUrl": "https://support.vodafone.co.uk/?usertype=Business",
+              "mainTitle": "Business Support",
+              "icon": "CharityGiving",
+              "name": "business_meganav_Help_Business_Support",
+              "id": 1523362530439,
+              "friendlyName": "business_meganav_Help_Business_Support",
+              "parents": []
+            },
+            "business_meganav_Help_Device_Help": {
+              "freeFormTitleLinkText": "Explore Device Help",
+              "subLinks": [
+                "Spend Manager|https://www.vodafone.co.uk/business/business-mobile-plans/mobile-plan-features/enterprise-spend-manager",
+                "Business roaming|https://www.vodafone.co.uk/business/business-mobile-plans/business-roaming",
+                "Lost or stolen device|https://support.vodafone.co.uk/Account-bill-and-top-up/Lost-or-stolen/38948747/My-device-has-been-lost-or-stolen-what-should-I-do.htm",
+                "Vodafone Rapid|https://www.vodafone.co.uk/business/business-mobile-plans/mobile-plan-features/vodafone-rapid",
+                "Annual price changes|https://www.vodafone.co.uk/business/price-changes",
+                "Change content restrictions|https://support.vodafone.co.uk/Account-billing/My-account/Managing-your-account/1464010302/How-do-I-change-my-age-restricted-content-settings.htm"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/business-mobile-plans/mobile-plan-features/vodafone-device-support",
+              "mainTitle": "Device Help",
+              "icon": "Multiscreen",
+              "name": "business_meganav_Help_Device_Help",
+              "id": 1523371288037,
+              "friendlyName": "business_meganav_Help_Device_Help",
+              "parents": []
+            },
+            "business_meganav_Help_Support": {
+              "freeFormTitleLinkText": "Explore Getting Started",
+              "subLinks": [
+                "Activate your SIM|https://support.vodafone.co.uk/Mobile-plans-Pay-as-you-go-SIM/SIM-card/",
+                "Broadband set up|https://www.vodafone.co.uk/business/business-connectivity/business-broadband/setting-up-your-broadband",
+                "Manage your business applications|https://www.vodafone.co.uk/business/getting-started/business-marketplace",
+                "Install Visual Voicemail|https://www.vodafone.co.uk/mobile/visual-voicemail"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/getting-started",
+              "mainTitle": "Getting Started",
+              "icon": "BulletList",
+              "name": "business_meganav_Help_Getting_Started",
+              "id": 1523362531623,
+              "friendlyName": "business_meganav_Help_Support",
+              "parents": []
+            },
+            "business_meganav_Help_Contact_Us": {
+              "freeFormTitleLinkText": "Contact Us",
+              "subLinks": [],
+              "mainTitleUrl": "https://www.vodafone.co.uk/business/contact-us",
+              "mainTitle": "Contact Us",
+              "icon": "Consultant",
+              "name": "business_meganav_Help_Contact_Us",
+              "id": 1595435866264,
+              "friendlyName": "business_meganav_Help_Contact_Us",
+              "parents": []
+            }
+          },
+          "mainTitle": "Help",
+          "icon": "ErrorCircle",
+          "name": "business_meganav_Help",
+          "id": 1523362507939,
+          "friendlyName": "business_meganav_Help",
+          "parents": []
+        }
+      },
+      "name": "business_meganav",
+      "id": 1523362507302,
+      "friendlyName": "business_meganav",
+      "parents": []
+    }
+  }
+]

@@ -1,0 +1,12 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.main {
+  display: block;
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: normal;
+
+  @include md {
+    font-size: 32px;
+  }
+}

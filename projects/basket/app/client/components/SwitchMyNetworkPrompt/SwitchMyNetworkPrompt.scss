@@ -1,0 +1,49 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  @include md {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.header-with-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: $spacing-fixed-1;
+  padding-right: $spacing-fixed-1;
+
+  @include md {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    width: 80%;
+
+    @include md {
+      width: 100%;
+    }
+  }
+
+  svg {
+    margin-right: $spacing-fixed-1;
+    margin-bottom: 0;
+  }
+}
+
+.no-gutters {
+  padding: 0;
+}
+
+.vertical-gutters {
+  padding: $spacing-fixed-1 0;
+  height: 48px;
+
+  @include md {
+    height: 32px;
+  }
+}

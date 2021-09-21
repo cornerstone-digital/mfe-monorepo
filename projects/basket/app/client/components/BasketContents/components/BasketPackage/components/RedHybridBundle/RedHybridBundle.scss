@@ -1,0 +1,65 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.benefits {
+  padding-top: $spacing-fixed-1 !important;
+  padding-left: $spacing-fixed-3 !important;
+}
+
+.cpu-column {
+  margin-left: 6px;
+  padding: 0 !important;
+}
+
+.grid {
+  margin-left: -10px;
+  padding: 0 !important;
+}
+
+.no-gutters {
+  padding: 0 !important;
+}
+
+.price-container {
+  max-width: 200px;
+  padding-left: 14px !important;
+  margin-left: -2px;
+
+  @include md {
+    padding: 0 !important;
+    margin-left: -16px;
+    margin-top: 0;
+  }
+
+  @include lg {
+    margin-left: 0;
+  }
+
+  @include xl {
+    margin-left: -12px;
+  }
+
+  &-sim {
+    padding-left: 6px !important;
+    margin-left: 0;
+
+    @include md {
+      padding: 0 !important;
+      margin-left: -18px;
+      margin-top: -2px;
+    }
+
+    @include lg {
+      margin-left: -8px;
+      margin-top: -2px;
+    }
+
+    @include xl {
+      margin-left: -16px;
+      margin-top: -6px;
+    }
+  }
+
+  span:last-child {
+    font-weight: bold !important;
+  }
+}

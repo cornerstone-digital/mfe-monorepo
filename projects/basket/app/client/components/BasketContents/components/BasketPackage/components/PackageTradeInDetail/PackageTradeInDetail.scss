@@ -1,0 +1,9 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.subTitle {
+  color: $color-vodafone-red;
+
+  > strong {
+    display: block;
+  }
+}

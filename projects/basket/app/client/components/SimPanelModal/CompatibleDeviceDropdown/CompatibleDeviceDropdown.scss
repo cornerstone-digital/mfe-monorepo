@@ -1,0 +1,12 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.device-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list-header {
+  font-weight: bold;
+  padding-bottom: $spacing-fixed-1;
+}

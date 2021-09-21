@@ -1,0 +1,830 @@
+{
+  "basketId": "64cdef57-3ef7-4801-9faf-dd730f3edeeb",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2020-09-29T04:36:35.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "8cd55711-4569-4162-be98-95b25b263fda",
+      "accountCategory": "Consumer",
+      "sequence": 2,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "fdedc9f9-0cb6-425a-92c5-891e2d0716d1",
+        "action": "ADD",
+        "skuId": "111281",
+        "name": "24-month OneNumber Plan B",
+        "description": "24-month OneNumber Plan B to connect secondary device to a main plan",
+        "displayName": "OneNumber - B",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": null,
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "24"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": null,
+        "merchandisingMedia": [],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "29",
+            "net": "24.17",
+            "vat": "4.83"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "29",
+            "net": "24.17",
+            "vat": "4.83"
+          },
+          "totalSavingsAmount": null,
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": false,
+        "bundledServiceProducts": [],
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "cec0e956-ea67-48e0-bc08-e0e42f6a04e7",
+          "action": "ADD",
+          "skuId": "202088",
+          "name": "Musk 12",
+          "description": "Apple Watch Series 6 watches over you with an app to measure blood oxygen, heart health notifications and other advanced health features.",
+          "displayName": "Apple Watch Series 6 (GPS+4G) Cellular 44mm Aluminium Space Grey+Nike Band",
+          "displayDescription": null,
+          "deviceBriefDescription": [],
+          "deviceColor": null,
+          "memorySize": null,
+          "make": "apple",
+          "model": "nike-series6-44mm",
+          "groupType": null,
+          "productClass": "eHandset",
+          "productSubClass": "WATCH",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.full.left",
+              "value": "/images/desktop/Apple_Watch6_44_nike-full-product-left-600.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Apple_Watch6_44_nike-grid-product-front.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Apple_Watch6_44_nike-thumbs-side.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Apple_Watch6_44_nike-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.full.right",
+              "value": "/images/desktop/Apple_Watch6_44_nike-full-product-right-600.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Apple_Watch6_44_nike-full-product-side-600.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Apple_Watch6_44_nike-thumbs-front.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.thumbs.left",
+              "value": "/images/desktop/Apple_Watch6_44_nike-thumbs-left.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.thumbs.right",
+              "value": "/images/desktop/Apple_Watch6_44_nike-thumbs-right.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Apple_Watch6_44_nike-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": [""]
+            }
+          ],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": [],
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "1500.0",
+            "net": "1000.0",
+            "vat": "500.0"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "ESIMONLY",
+          "isCompatibleWithWatch": false,
+          "isChanged": false
+        }
+      ],
+      "services": [
+        {
+          "packageLineId": "95254803-cff7-43b7-b583-cb78fae2faeb",
+          "action": "ADD",
+          "skuId": "111373",
+          "name": "Vodafone Insurance: Tier 3 Damage",
+          "description": null,
+          "displayName": "Damage and breakdown cover",
+          "displayDescription": null,
+          "specificationGroup": [],
+          "merchandisingMedia": [],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": null,
+            "oneOffDiscountPrice": null,
+            "monthlyPrice": {
+              "gross": "3",
+              "net": "3",
+              "vat": "0"
+            },
+            "monthlyDiscountPrice": {
+              "gross": "3",
+              "net": "3",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null
+          },
+          "freeGift": false,
+          "productClass": "Insurance",
+          "dataRollover": null,
+          "rootProductId": "111373",
+          "allowances": null,
+          "rewardPoints": null,
+          "planDuration": null,
+          "isChanged": false
+        }
+      ],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyPrice": {
+          "gross": "32",
+          "net": "27.17",
+          "vat": "4.83"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "32",
+          "net": "27.17",
+          "vat": "4.83"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "lineReference": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "serviceReference": {
+          "serviceLines": []
+        }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": "d1e808ac-bd77-466c-9a22-2e479c27f24c",
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "EHANDSET",
+      "combiPackageId": null,
+      "confirmRequired": false,
+      "deviceFinancingId": null,
+      "additionalDetails": {},
+      "isChanged": false
+    },
+    {
+      "packageId": "d1e808ac-bd77-466c-9a22-2e479c27f24c",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "8e554cf7-dbc7-49c5-95e8-a51e9d4a31bc",
+        "action": "ADD",
+        "skuId": "112236",
+        "name": "24m Band O 24GB Red Plan",
+        "description": "CTR16 Red Plan with unlimited mins unlimited texts and 24GB data",
+        "displayName": "Red 24GB",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "red51",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "24"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK DATA",
+            "value": "24",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "24",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          }
+        ],
+        "merchandisingMedia": [
+          {
+            "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+            "value": "3-month free trial of Secure Net",
+            "type": "TEXT",
+            "footNotes": [""]
+          }
+        ],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "67",
+            "net": "55.83",
+            "vat": "11.17"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "67",
+            "net": "55.83",
+            "vat": "11.17"
+          },
+          "totalSavingsAmount": null,
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": [],
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "89cdc782-bae3-4dd7-af1b-013a81e24fd6",
+          "action": "ADD",
+          "skuId": "086532",
+          "name": "Blank White Triple Format SIM",
+          "description": null,
+          "displayName": "3-in-1 SIM",
+          "displayDescription": null,
+          "deviceBriefDescription": [],
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "SIM Card",
+          "productSubClass": "Core",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": [],
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "0.0",
+            "net": "0.0",
+            "vat": "0.0"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "isCompatibleWithWatch": false,
+          "isChanged": false
+        },
+        {
+          "packageLineId": "73370a7b-ccac-4823-88cb-3d90c0530778",
+          "action": "ADD",
+          "skuId": "204599",
+          "name": "Apple iPhone 11 Pro Max 64GB midnight green",
+          "description": "An all-new triple-camera, the fastest chip in a smartphone and a Super Retina XDR display. Upgrade to the best iPhone yet.",
+          "displayName": "Apple iPhone 11 Pro Max 64GB Midnight Green",
+          "displayDescription": null,
+          "deviceBriefDescription": [],
+          "deviceColor": "Midnight Green",
+          "memorySize": "64 GB",
+          "make": "apple",
+          "model": "iphone-11-pro-max",
+          "groupType": "DEVICE_PAYM",
+          "productClass": "Handset",
+          "productSubClass": "HANDSET",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.right",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-right.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.thumbs.left",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-left.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-back-600.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.full.right",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-right-600.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-side.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Apple_iPhone_11_max_new_midnight_green-grid-product-front.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-back.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.full.left",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-left-600.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-side-600.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-front.png",
+              "type": "URL",
+              "footNotes": [""]
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": [""]
+            }
+          ],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "29",
+              "net": "24.17",
+              "vat": "4.83"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "29",
+              "net": "24.17",
+              "vat": "4.83"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": [],
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "974.17",
+            "net": "811.81",
+            "vat": "162.36"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "isCompatibleWithWatch": true,
+          "isChanged": false
+        }
+      ],
+      "services": [
+        {
+          "packageLineId": "2d9383a6-e37d-4813-a844-64e7811320fb",
+          "action": "ADD",
+          "skuId": "110471",
+          "name": "Vodafone Insurance + AppleCare Services: Tier 1 Damage",
+          "description": null,
+          "displayName": "Damage and breakdown cover plus AppleCare Services",
+          "displayDescription": null,
+          "specificationGroup": [],
+          "merchandisingMedia": [],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": null,
+            "oneOffDiscountPrice": null,
+            "monthlyPrice": {
+              "gross": "10",
+              "net": "10",
+              "vat": "0"
+            },
+            "monthlyDiscountPrice": {
+              "gross": "10",
+              "net": "10",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null
+          },
+          "freeGift": false,
+          "productClass": "Insurance",
+          "dataRollover": null,
+          "rootProductId": "110471",
+          "allowances": null,
+          "rewardPoints": null,
+          "planDuration": null,
+          "isChanged": false
+        },
+        {
+          "packageLineId": "d679c2c1-380d-43c2-93ce-eca8d3f70779",
+          "action": "ADD",
+          "skuId": "104006",
+          "name": "Extra - 100 international texts abroad from the UK",
+          "description": "We'll add the cost to your bill every month, and you can opt out at any time.",
+          "displayName": "100 International Texts",
+          "displayDescription": null,
+          "specificationGroup": [],
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.full.hero",
+              "value": "https://www.vodafone.co.uk/broadband/120x120-mobile300-icon.png",
+              "type": "URL",
+              "footNotes": [""]
+            }
+          ],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": null,
+            "oneOffDiscountPrice": null,
+            "monthlyPrice": {
+              "gross": "5",
+              "net": "4.17",
+              "vat": "0.83"
+            },
+            "monthlyDiscountPrice": {
+              "gross": "5",
+              "net": "4.17",
+              "vat": "0.83"
+            },
+            "merchandisingPromotions": null
+          },
+          "freeGift": false,
+          "productClass": "International Messaging Add On",
+          "dataRollover": null,
+          "rootProductId": "110286",
+          "allowances": [
+            {
+              "type": "UK TEXT",
+              "value": "100",
+              "uom": "-",
+              "displayUom": null,
+              "tilUom": null
+            }
+          ],
+          "rewardPoints": null,
+          "planDuration": null,
+          "isChanged": false
+        }
+      ],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "monthlyPrice": {
+          "gross": "82",
+          "net": "70",
+          "vat": "12"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "82",
+          "net": "70",
+          "vat": "12"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "lineReference": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "serviceReference": {
+          "serviceLines": []
+        }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "HANDSET",
+      "combiPackageId": null,
+      "confirmRequired": false,
+      "deviceFinancingId": null,
+      "additionalDetails": {},
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    },
+    "monthlyPrice": {
+      "gross": "114",
+      "net": "97.17",
+      "vat": "16.83"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "114",
+      "net": "97.17",
+      "vat": "16.83"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "-625366629",
+  "lastModified": "2020-09-29T16:37:14.970Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

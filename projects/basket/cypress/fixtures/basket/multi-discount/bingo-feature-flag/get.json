@@ -1,0 +1,555 @@
+{
+  "basketId": "64cdef57-3ef7-4801-9faf-dd730f3edeeb",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2020-08-13T02:31:14.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "SecondLine",
+    "offerCode": "W_HH_HANDSET_01"
+  },
+  "packages": [
+    {
+      "packageId": "5e63a023-a229-4b21-9e34-43916ebe3661",
+      "accountCategory": "consumer",
+      "sequence": 1,
+      "packageType": "SecondLine",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "c23e63dd-ff7d-4db3-b28f-c58ad07aa3e2",
+        "action": "ADD",
+        "skuId": "112318",
+        "name": "24m Band E 2GB Red Plan",
+        "description": "CTR16 Red Plan with unlimited mins unlimited texts and 2GB data",
+        "displayName": "Red 2GB",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "red51",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "24"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK DATA",
+            "value": "2",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "2",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          }
+        ],
+        "merchandisingMedia": [
+          {
+            "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+            "value": "3-month free trial of Secure Net",
+            "type": "TEXT",
+            "footNotes": []
+          },
+          {
+            "id": "conditional_full_discount.merchandisingPromotions.merchandisingPromotion.label",
+            "value": "15% discount just for you",
+            "type": "TEXT",
+            "footNotes": []
+          },
+          {
+            "id": "conditional_full_discount.merchandisingPromotions.merchandisingPromotion.description",
+            "value": "ILS Offer",
+            "type": "TEXT",
+            "footNotes": []
+          }
+        ],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "38",
+            "net": "31.67",
+            "vat": "6.33"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "32.30",
+            "net": "26.92",
+            "vat": "5.38"
+          },
+          "totalMonthlySavingsAmount": {
+            "uom": "£",
+            "net": 8.33,
+            "vat": 1.67,
+            "gross": 10.0
+          },
+          "merchandisingPromotions": {
+            "tag": "W_HH_HANDSET_01",
+            "label": "15% discount just for you",
+            "description": "ILS Offer - Airtime Plan",
+            "discountId": "110135",
+            "mpType": "conditional_full_discount",
+            "priceEstablishedLabel": "Usually",
+            "priority": "315",
+            "packageType": ["SecondLine"],
+            "footNotes": [],
+            "confirmRequired": false,
+            "offerGroup": null,
+            "belowTheLine": "true",
+            "qualifier": null,
+            "category": null
+          },
+          "listOfMerchandisingPromotion": [
+            {
+              "tag": "W_HH_HANDSET_01",
+              "label": "15% discount just for you",
+              "description": "ILS Offer - Airtime Plan",
+              "discountId": "110135",
+              "mpType": "conditional_full_discount",
+              "priceEstablishedLabel": "Usually",
+              "priority": "315",
+              "packageType": ["SecondLine"],
+              "footNotes": [],
+              "confirmRequired": false,
+              "offerGroup": null,
+              "belowTheLine": "true",
+              "qualifier": null,
+              "category": null
+            }
+          ],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "9d52613f-3090-496e-a3d0-bac3fd8294bd",
+          "action": "ADD",
+          "skuId": "205501",
+          "name": "Apple iPhone SE 2020 64GB black",
+          "description": "A small iPhone with huge performance - the iPhone SE is the most powerful 4.7-inch iPhone ever.",
+          "displayName": "Apple iPhone SE 64GB Black",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": "Black",
+          "memorySize": "64 GB",
+          "make": "apple",
+          "model": "iphone-se-2020",
+          "groupType": "DEVICE_PAYM",
+          "productClass": "Handset",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Apple_iPhone_SE_black-thumbs-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.left",
+              "value": "/images/desktop/Apple_iPhone_SE_black-thumbs-left.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.right",
+              "value": "/images/desktop/Apple_iPhone_SE_black-thumbs-right.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Apple_iPhone_SE_black-thumbs-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Apple_iPhone_SE_black-thumbs-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Apple_iPhone_SE_black-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Apple_iPhone_SE_black-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.left",
+              "value": "/images/desktop/Apple_iPhone_SE_black-full-product-left-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.right",
+              "value": "/images/desktop/Apple_iPhone_SE_black-full-product-right-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Apple_iPhone_SE_black-full-product-side-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Apple_iPhone_SE_black-full-product-back-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Apple_iPhone_SE_black-grid-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "29",
+              "net": "24.17",
+              "vat": "4.83"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "29",
+              "net": "24.17",
+              "vat": "4.83"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "398.33",
+            "net": "331.94",
+            "vat": "66.39"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "isChanged": false,
+          "isCompatibleWithWatch": true
+        },
+        {
+          "packageLineId": "335c7efd-24b8-4e2d-bbe3-7fd2852ddb19",
+          "action": "ADD",
+          "skuId": "086532",
+          "name": "Blank White Triple Format SIM",
+          "description": null,
+          "displayName": "3-in-1 SIM",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "SIM Card",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": {}
+          },
+          "boxPrice": {
+            "gross": "0.0",
+            "net": "0.0",
+            "vat": "0.0"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "isChanged": false,
+          "isCompatibleWithWatch": false
+        }
+      ],
+      "services": [],
+      "discounts": [
+        {
+          "productLineId": "d2e32b72-2f1e-475e-948c-07813fa76bdd",
+          "action": "DISCOUNT",
+          "skuId": "110135",
+          "tag": "W_HH_HANDSET_01",
+          "label": "15% discount just for you",
+          "tenure": "FULL",
+          "duration": "27 Months",
+          "confirmedRequired": "false",
+          "merchandisingMedia": [],
+          "discountValue": {
+            "type": "Percentage",
+            "value": "15.0"
+          }
+        }
+      ],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "monthlyPrice": {
+          "gross": "38",
+          "net": "31.67",
+          "vat": "6.33"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "32.30",
+          "net": "26.92",
+          "vat": "5.38"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "lineReference": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "serviceReference": {
+          "serviceLines": []
+        }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "HANDSET",
+      "combiPackageId": null,
+      "deviceFinancingId": null,
+      "additionalDetails": {},
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    },
+    "monthlyPrice": {
+      "gross": "38",
+      "net": "31.67",
+      "vat": "6.33"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "32.30",
+      "net": "26.92",
+      "vat": "5.38"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "136.80",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "-398722723",
+  "lastModified": "2020-08-13T14:36:50.236Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [
+    {
+      "packageLineId": "47318ede-0bab-4118-a1bd-12e85ac3aceb",
+      "bundleId": "110082",
+      "identifier": {
+        "key": "msisdn",
+        "value": "447000000003"
+      },
+      "assetIntegrationId": "1-6TJLLN81",
+      "activeDiscounts": [],
+      "bundlePrice": {
+        "bundleId": "110082",
+        "monthlyPrice": {
+          "gross": "54.40",
+          "net": "45.33",
+          "vat": "9.07"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "54.40",
+          "net": "45.33",
+          "vat": "9.07"
+        },
+        "merchandisingPromotions": null
+      },
+      "isActiveSubscription": true
+    }
+  ],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "affiliateFlag": false,
+  "isChanged": false
+}

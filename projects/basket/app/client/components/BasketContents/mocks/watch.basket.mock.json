@@ -1,0 +1,314 @@
+{
+  "basketId": "7ad8a4ae-075f-45a1-8df6-237fc6b19ac3",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2019-09-02T09:40:26.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "SecondLine",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "31608567-37be-4e80-be90-90383fd86acd",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "SecondLine",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "c5ff562e-dd28-4ba8-a1d6-349bcf6c4d64",
+        "action": "ADD",
+        "skuId": "111281",
+        "name": "24-month OneNumber Plan B",
+        "description": "24-month OneNumber Plan B to connect secondary device to a main plan",
+        "displayName": "OneNumber - B",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": null,
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "24"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "29",
+            "net": "24.17",
+            "vat": "4.83"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "29",
+            "net": "24.17",
+            "vat": "4.83"
+          },
+          "merchandisingPromotions": {},
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": false,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "d68ad965-fa7e-4bd2-b1c4-a94bfaf739f8",
+          "action": "ADD",
+          "skuId": "202046",
+          "name": "Apple Watch Series 4 44mm space grey",
+          "description": null,
+          "displayName": "Apple Watch 4 44mm",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": "apple",
+          "model": "series4-44mm",
+          "groupType": null,
+          "productClass": "eHandset",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "29",
+              "net": "24.17",
+              "vat": "4.83"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "29",
+              "net": "24.17",
+              "vat": "4.83"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "484.48",
+            "net": "403.74",
+            "vat": "80.75"
+          },
+          "freeGift": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "monthlyPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "lineReference": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "serviceReference": {
+          "serviceLines": []
+        }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": "07123456789",
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "EHANDSET",
+      "combiPackageId": null,
+      "deviceFinancingId": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    },
+    "monthlyPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "-241469551",
+  "lastModified": "2019-09-02T10:54:32.320Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [
+    {
+      "packageLineId": "7013774b-a647-4599-bd7f-66e5e681e3dd",
+      "bundleId": "110082",
+      "identifier": {
+        "key": "msisdn",
+        "value": "447000000000"
+      },
+      "assetIntegrationId": "1-470I9UF",
+      "activeDiscounts": [],
+      "bundlePrice": {
+        "bundleId": "110082",
+        "monthlyPrice": {
+          "gross": "53.08",
+          "net": "44.23",
+          "vat": "8.85"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "53.08",
+          "net": "44.23",
+          "vat": "8.85"
+        },
+        "merchandisingPromotions": {
+          "tag": "30030",
+          "label": "£3.50pm off Smartwatch Connectivity Plan",
+          "description": "£3.50pm off Smartwatch Connectivity Plan - Airtime Plan",
+          "discountId": "113119",
+          "mpType": "multi_package_discount",
+          "priceEstablishedLabel": null,
+          "priority": "1399",
+          "packageType": [
+            "Acquisition",
+            "SecondLine",
+            "Upgrade"
+          ],
+          "footNotes": [
+            ""
+          ],
+          "confirmRequired": false,
+          "offerGroup": null,
+          "belowTheLine": "false",
+          "qualifier": {
+            "bundleId": "111281",
+            "identifier": {
+              "key": "PackageId",
+              "value": "7ad8a4ae-075f-45a1-8df6-237fc6b19ac3"
+            }
+          },
+          "category": null
+        }
+      }
+    }
+  ],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "affiliateFlag": false,
+  "isChanged": false
+}

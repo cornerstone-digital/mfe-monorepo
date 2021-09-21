@@ -1,0 +1,285 @@
+{
+  "basketId": "64cdef57-3ef7-4801-9faf-dd730f3edeeb",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2020-11-09T10:54:47.000Z",
+  "metadata": { "returnURL": null, "basketStatus": "INCOMPLETE", "salesOrderId": null, "reason": null },
+  "journey": { "journeyType": "Upgrade", "offerCode": null },
+  "packages": [
+    {
+      "packageId": "9c42c031-3b04-4a35-9d27-ef131f59de6d",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Upgrade",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "469f0b31-b921-42c2-bc5a-cbf4a75192d8",
+        "action": "ADD",
+        "skuId": "112168",
+        "name": "24m SIM Only Unlimited Max Plan",
+        "description": "CTR16 SIM only Unlimited Max Plan with VGR Plus",
+        "displayName": "Unlimited Max",
+        "displayDescription": "Best for super-fast downloads and UHD streaming, plus everything Unlimited can do.",
+        "bundleClass": "SIMO",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "unlimitedMax81",
+        "commitmentPeriod": { "uom": "Months", "value": "24" },
+        "displayOrder": 202,
+        "showInSummary": false,
+        "allowances": [
+          { "type": "MMS", "value": "Unlimited", "uom": "-", "displayUom": "picture messages", "tilUom": "MMS" },
+          { "type": "UK TEXT", "value": "Unlimited", "uom": "-", "displayUom": "texts", "tilUom": "SMS" },
+          { "type": "ORIGDATA", "value": "Unlimited", "uom": "-", "displayUom": "MB", "tilUom": "DATA" },
+          { "type": "UK MIN", "value": "Unlimited", "uom": "-", "displayUom": "minutes", "tilUom": "VOICE" },
+          { "type": "UK DATA", "value": "Unlimited", "uom": "-", "displayUom": "MB", "tilUom": "DATA" },
+          { "type": "World Traveller", "value": "Vodafone Global Roaming Plus", "uom": null, "displayUom": null, "tilUom": null }
+        ],
+        "merchandisingMedia": [
+          {
+            "id": "limited_time.merchandisingPromotions.merchandisingPromotion.label",
+            "value": "6 months half price - introductory offer ",
+            "type": "TEXT",
+            "footNotes": ["SIMO246M"]
+          },
+          { "id": "imageURLs.sticker", "value": "/images/desktop/5g_badge_digital.png", "type": "URL", "footNotes": [""] },
+          {
+            "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+            "value": "3-month free trial of Secure Net",
+            "type": "TEXT",
+            "footNotes": [""]
+          },
+          {
+            "id": "limited_time.merchandisingPromotions.merchandisingPromotion.description",
+            "value": "6 months half price - introductory offer ",
+            "type": "TEXT",
+            "footNotes": ["SIMO246M"]
+          },
+          { "id": "imageURLs.thumbs.front", "value": "/images/small/great_for_icons_max.png", "type": "URL", "footNotes": [""] }
+        ],
+        "attributes": null,
+        "benefits": [],
+        "priceDetails": {
+          "monthlyPrice": { "gross": "30", "net": "25", "vat": "5" },
+          "monthlyDiscountPrice": { "gross": "15", "net": "12.50", "vat": "2.50" },
+          "totalMonthlySavingsAmount": { "uom": "£", "net": 12.5, "vat": 2.5, "gross": 15 },
+          "merchandisingPromotions": {
+            "tag": "SIMO_24Months_HalfPrice",
+            "label": "6 months half price - introductory offer ",
+            "description": "6 months half price - introductory offer - SIM Only Plan*",
+            "discountId": "109989",
+            "mpType": "limited_time",
+            "priceEstablishedLabel": "Was",
+            "priority": "367",
+            "packageType": ["Acquisition", "Upgrade", "SecondLine"],
+            "footNotes": ["SIMO246M"],
+            "confirmRequired": false,
+            "offerGroup": null,
+            "belowTheLine": "false",
+            "qualifier": null,
+            "category": null
+          },
+          "listOfMerchandisingPromotion": [
+            {
+              "tag": "SIMO_24Months_HalfPrice",
+              "label": "6 months half price - introductory offer ",
+              "description": "6 months half price - introductory offer - SIM Only Plan*",
+              "discountId": "109989",
+              "mpType": "limited_time",
+              "priceEstablishedLabel": "Was",
+              "priority": "367",
+              "packageType": ["Acquisition", "Upgrade", "SecondLine"],
+              "footNotes": ["SIMO246M"],
+              "confirmRequired": false,
+              "offerGroup": null,
+              "belowTheLine": "false",
+              "qualifier": null,
+              "category": null
+            }
+          ],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": [],
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": "MAX_AVAILABLE",
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "includedCalls": null,
+        "noPriceRise": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "fd1f6a79-3abe-43b0-8e19-4fe0eb218e32",
+          "action": "ADD",
+          "skuId": "086532",
+          "name": "Blank White Triple Format SIM",
+          "description": null,
+          "displayName": "3-in-1 SIM",
+          "displayDescription": null,
+          "deviceBriefDescription": [],
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "SIM Card",
+          "productSubClass": "Core",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": { "gross": "0", "net": "0", "vat": "0" },
+            "oneOffDiscountPrice": { "gross": "0", "net": "0", "vat": "0" },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": [],
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": { "gross": "0.0", "net": "0.0", "vat": "0.0" },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "isCompatibleWithWatch": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [
+        {
+          "productLineId": "ef0d869d-254c-4dde-9fe7-7a91d9441b86",
+          "action": "DISCOUNT",
+          "skuId": "109989",
+          "tag": "SIMO_24Months_HalfPrice",
+          "label": "6 months half price - introductory offer ",
+          "tenure": "PARTIAL",
+          "duration": "6 Months",
+          "confirmedRequired": "false",
+          "merchandisingMedia": [],
+          "discountValue": { "type": "Percentage", "value": "50.0" }
+        }
+      ],
+      "priceDetails": {
+        "oneOffPrice": null,
+        "oneOffDiscountPrice": null,
+        "monthlyPrice": { "gross": "30", "net": "25", "vat": "5" },
+        "monthlyDiscountPrice": { "gross": "15", "net": "12.50", "vat": "2.50" },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": { "serviceCode": null, "installationCode": null, "terminationCode": null },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "lineReference": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": { "serviceCode": null, "installationCode": null, "terminationCode": null },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "serviceReference": { "serviceLines": [] }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "SIMO",
+      "combiPackageId": null,
+      "confirmRequired": false,
+      "deviceFinancingId": null,
+      "additionalDetails": {},
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": { "gross": "0", "net": "0", "vat": "0" },
+    "oneOffDiscountPrice": { "gross": "0", "net": "0", "vat": "0" },
+    "monthlyPrice": { "gross": "30", "net": "25", "vat": "5" },
+    "monthlyDiscountPrice": { "gross": "15", "net": "12.50", "vat": "2.50" }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "15",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "-1398482242",
+  "lastModified": "2020-11-09T10:54:52.012Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [
+    {
+      "packageId": "9c42c031-3b04-4a35-9d27-ef131f59de6d",
+      "promotionType": "CROSS_SELL",
+      "productDetail": { "category": "FTR6", "lineType": "REWARD_LINE" },
+      "saving": {
+        "minimum": null,
+        "maximum": null,
+        "exact": { "value": 2.5, "uom": "£", "message": "You'll save £3 a month on Home Broadband when combined with an SIM Only plan" }
+      },
+      "qualifyingLine": {
+        "bundleId": "112168",
+        "displayName": "Unlimited Max",
+        "identifier": { "key": "PackageId", "value": "9c42c031-3b04-4a35-9d27-ef131f59de6d" }
+      }
+    }
+  ],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

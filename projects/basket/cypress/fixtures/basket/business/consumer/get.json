@@ -1,0 +1,350 @@
+{
+    "basketId": "0f5afb32-6f50-4ac3-9ba6-03ad92c0686d",
+    "affiliateId": null,
+    "affiliateFlag": false,
+    "source": "TOBI",
+    "customerRequestedDate": "2017-10-01T07:45:00.000Z",
+    "metadata": {
+        "returnURL": null,
+        "basketStatus": "INCOMPLETE",
+        "salesOrderId": null,
+        "reason": null
+    },
+    "customer": null,
+    "journey": null,
+    "packages": [
+        {
+            "packageId": "7419a099-0b6e-43d8-b20e-e85bb351f935",
+            "accountCategory": "Consumer",
+            "sequence": 1,
+            "packageType": "Acquisition",
+            "removable": true,
+            "dependentOn": null,
+            "voucherCode": null,
+            "bundle": {
+                "packageLineId": "24205aa4-dcb8-47d0-b266-87ced82c03db",
+                "action": "ADD",
+                "skuId": "111166",
+                "name": "24mth Band G Unlmins 4GB Red Extra Plan",
+                "description": "CTR14b Red Extra Plan comes with unlimited mins, unlimited texts and 4GB of UK data",
+                "displayName": "4GB Red Extra plan",
+                "displayDescription": null,
+                "bundleClass": "HANDSET",
+                "productClass": null,
+                "serviceId": "110286",
+                "paymentType": "Postpaid",
+                "bundleType": "Red Extra",
+                "commitmentPeriod": {
+                    "uom": "Months",
+                    "value": "24"
+                },
+                "displayOrder": null,
+                "showInSummary": false,
+                "allowances": [
+                    {
+                        "type": "UK TEXT",
+                        "value": "Unlimited",
+                        "uom": "-",
+                        "displayUom": "texts",
+                        "tilUom": "SMS"
+                    },
+                    {
+                        "type": "ORIGDATA",
+                        "value": "4",
+                        "uom": "GB",
+                        "displayUom": "GB",
+                        "tilUom": "DATA"
+                    },
+                    {
+                        "type": "World Traveller",
+                        "value": "Vodafone Global Roaming",
+                        "uom": null,
+                        "displayUom": null,
+                        "tilUom": null
+                    },
+                    {
+                        "type": "UK DATA",
+                        "value": "4",
+                        "uom": "GB",
+                        "displayUom": "GB",
+                        "tilUom": "DATA"
+                    },
+                    {
+                        "type": "UK MIN",
+                        "value": "Unlimited",
+                        "uom": "-",
+                        "displayUom": "minutes",
+                        "tilUom": "VOICE"
+                    }
+                ],
+                "merchandisingMedia": [
+                    {
+                        "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+                        "value": "3-month free trial of Secure Net",
+                        "type": "TEXT",
+                        "footNotes": null
+                    }
+                ],
+                "attributes": null,
+                "priceDetails": {
+                    "monthlyPrice": {
+                        "gross": "36",
+                        "net": "30",
+                        "vat": "6"
+                    },
+                    "monthlyDiscountPrice": {
+                        "gross": "36",
+                        "net": "30",
+                        "vat": "6"
+                    },
+                    "merchandisingPromotions": null
+                },
+                "isVodafoneGlobalRoaming": true,
+                "bundledServiceProducts": [],
+                "planCategory": null,
+                "isChanged": false
+            },
+            "hardwares": [
+                {
+                    "packageLineId": "8998a375-246d-4cc1-bc2c-d9d781031b1e",
+                    "action": "ADD",
+                    "skuId": "086532",
+                    "name": "Blank White Triple Format SIM",
+                    "description": null,
+                    "displayName": "3-in-1 SIM",
+                    "displayDescription": null,
+                    "deviceBriefDescription": [],
+                    "deviceColor": null,
+                    "memorySize": null,
+                    "make": null,
+                    "model": null,
+                    "groupType": null,
+                    "productClass": "SIM Card",
+                    "displayOrder": null,
+                    "showInSummary": false,
+                    "merchandisingMedia": [],
+                    "attributes": [],
+                    "priceDetails": {
+                        "oneOffPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "oneOffDiscountPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "merchandisingPromotions": null,
+                        "monthlyPrice": null,
+                        "monthlyDiscountPrice": null,
+                        "financingOptions": [],
+                        "deviceFinancingId": null
+                    },
+                    "boxPrice": {
+                        "gross": "0.0",
+                        "net": "0.0",
+                        "vat": "0.0"
+                    },
+                    "freeGift": false,
+                    "isChanged": false
+                },
+                {
+                    "packageLineId": "4641ae89-b6f0-4f7a-b1c8-4ea61e8f13ea",
+                    "action": "ADD",
+                    "skuId": "090357",
+                    "name": "Samsung Galaxy S8 orchid grey",
+                    "description": "Boundary-breaking design, check. Infinity Display, check. Personal assistant in your pocket? Check. Samsung S8 has it all.",
+                    "displayName": "Samsung Galaxy S8 64GB Orchid Grey",
+                    "displayDescription": null,
+                    "deviceBriefDescription": [],
+                    "deviceColor": "Orchid Grey",
+                    "memorySize": "64 GB",
+                    "make": "samsung",
+                    "model": "galaxy-s8",
+                    "groupType": "DEVICE_PAYM",
+                    "productClass": "Handset",
+                    "displayOrder": null,
+                    "showInSummary": false,
+                    "merchandisingMedia": [
+                        {
+                            "id": "imageURLs.full.front",
+                            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-front.png",
+                            "type": "URL",
+                            "footNotes": null
+                        },
+                        {
+                            "id": "imageURLs.full.side",
+                            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-side.png",
+                            "type": "URL",
+                            "footNotes": null
+                        },
+                        {
+                            "id": "imageURLs.full.left",
+                            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-left.png",
+                            "type": "URL",
+                            "footNotes": null
+                        },
+                        {
+                            "id": "imageURLs.thumbs.side",
+                            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-side.png",
+                            "type": "URL",
+                            "footNotes": null
+                        },
+                        {
+                            "id": "imageURLs.thumbs.left",
+                            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-left.png",
+                            "type": "URL",
+                            "footNotes": null
+                        },
+                        {
+                            "id": "imageURLs.thumbs.back",
+                            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-back.png",
+                            "type": "URL",
+                            "footNotes": null
+                        },
+                        {
+                            "id": "imageURLs.full.hero",
+                            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-front.png",
+                            "type": "URL",
+                            "footNotes": null
+                        },
+                        {
+                            "id": "imageURLs.full.back",
+                            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-back.png",
+                            "type": "URL",
+                            "footNotes": null
+                        },
+                        {
+                            "id": "imageURLs.thumbs.right",
+                            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-right.png",
+                            "type": "URL",
+                            "footNotes": null
+                        },
+                        {
+                            "id": "imageURLs.grid",
+                            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-grid-product-front.png",
+                            "type": "URL",
+                            "footNotes": null
+                        },
+                        {
+                            "id": "imageURLs.thumbs.front",
+                            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-front.png",
+                            "type": "URL",
+                            "footNotes": null
+                        },
+                        {
+                            "id": "imageURLs.full.right",
+                            "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-right.png",
+                            "type": "URL",
+                            "footNotes": null
+                        }
+                    ],
+                    "attributes": [],
+                    "priceDetails": {
+                        "oneOffPrice": {
+                            "gross": "9",
+                            "net": "7.50",
+                            "vat": "1.50"
+                        },
+                        "oneOffDiscountPrice": {
+                            "gross": "9",
+                            "net": "7.50",
+                            "vat": "1.50"
+                        },
+                        "merchandisingPromotions": null,
+                        "monthlyPrice": null,
+                        "monthlyDiscountPrice": null,
+                        "financingOptions": [],
+                        "deviceFinancingId": null
+                    },
+                    "boxPrice": {
+                        "gross": "432.0",
+                        "net": "360.0",
+                        "vat": "72.0"
+                    },
+                    "freeGift": false,
+                    "isChanged": false
+                }
+            ],
+            "services": [],
+            "discounts": null,
+            "priceDetails": {
+                "oneOffPrice": {
+                    "gross": "9",
+                    "net": "7.50",
+                    "vat": "1.50"
+                },
+                "oneOffDiscountPrice": {
+                    "gross": "9",
+                    "net": "7.50",
+                    "vat": "1.50"
+                },
+                "monthlyPrice": {
+                    "gross": "36",
+                    "net": "30",
+                    "vat": "6"
+                },
+                "monthlyDiscountPrice": {
+                    "gross": "36",
+                    "net": "30",
+                    "vat": "6"
+                }
+            },
+            "installationAddress": null,
+            "appointmentWindow": null,
+            "servicePoint": null,
+            "serviceStartDate": null,
+            "phoneNumber": null,
+            "linePackageType": null,
+            "lineTreatmentType": null,
+            "planType": "HANDSET",
+            "isChanged": false
+        }
+    ],
+    "vetOutcome": null,
+    "priceDetails": {
+        "oneOffPrice": {
+            "gross": "12.99",
+            "net": "10.83",
+            "vat": "2.16"
+        },
+        "oneOffDiscountPrice": {
+            "gross": "12.99",
+            "net": "10.83",
+            "vat": "2.16"
+        },
+        "monthlyPrice": {
+            "gross": "36",
+            "net": "30",
+            "vat": "6"
+        },
+        "monthlyDiscountPrice": {
+            "gross": "36",
+            "net": "30",
+            "vat": "6"
+        }
+    },
+    "totalOneoffPriceSaving": "0.0",
+    "totalMonthlyPriceSaving": "0",
+    "deliveryInfo": {
+        "skuId": "065428",
+        "displayName": "Week day 8am - noon",
+        "deliveryType": "Premium",
+        "stockStatus": "In Stock",
+        "availableFrom": "12/11/2018",
+        "storeInfo": null,
+        "price": {
+            "gross": "3.99",
+            "net": "3.33",
+            "vat": "0.66"
+        }
+    },
+    "voucherCode": null,
+    "voucherDescription": null,
+    "validated": true,
+    "hashvalue": "-141397775",
+    "changeCode": null,
+    "voucherErrorMessage": null,
+    "isChanged": false
+}

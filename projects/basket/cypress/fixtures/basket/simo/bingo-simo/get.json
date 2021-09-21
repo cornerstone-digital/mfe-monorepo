@@ -1,0 +1,364 @@
+{
+  "basketId": "a4d2316c-a377-4d73-adda-641c03196298",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2021-06-30T14:19:39",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "a3e99fa1-978b-45d6-8d1f-785028242885",
+      "accountCategory": "Consumer",
+      "accountSubCategory": null,
+      "sequence": 1,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "d64a291e-3b75-4778-ac7f-80d406fa7af3",
+        "action": "ADD",
+        "skuId": "113242",
+        "name": "24m SIM Only Unlimited Max Plan with Entertainment",
+        "description": "CTR17 SIM only Unlimited Max Plan with Entertainment",
+        "displayName": "Unlimited Max with Entertainment",
+        "displayDescription": null,
+        "bundleClass": "SIMO",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "unlimitedMaxEntertainment51",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "24"
+        },
+        "displayOrder": 202,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK DATA",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "MB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "MB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          }
+        ],
+        "merchandisingMedia": [
+          {
+            "id": "entertainment.merchandisingPromotions.merchandisingPromotion.label",
+            "value": "Your choice of entertainment for 24 months",
+            "type": "TEXT",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.sticker",
+            "value": "/images/desktop/5g_badge_digital.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "entertainment.merchandisingPromotions.merchandisingPromotion.PromotionMedia",
+            "value": "/images/desktop/img_mef_ent_packs_v5_2020.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          }
+        ],
+        "attributes": null,
+        "benefits": [],
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "37",
+            "net": "30.83",
+            "vat": "6.17"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "37",
+            "net": "30.83",
+            "vat": "6.17"
+          },
+          "totalMonthlySavingsAmount": null,
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": [],
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "includedCalls": null,
+        "noPriceRise": null,
+        "wifiExpert": null,
+        "broadbandAntiVirus": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "497dcf03-dd21-48ee-9a98-8c4085e2fd9d",
+          "action": "ADD",
+          "skuId": "086532",
+          "name": "Blank White Triple Format SIM",
+          "description": null,
+          "displayName": "3-in-1 SIM",
+          "displayDescription": null,
+          "deviceBriefDescription": [],
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "SIM Card",
+          "productSubClass": "Core",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": [],
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "0.0",
+            "net": "0.0",
+            "vat": "0.0"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "isCompatibleWithWatch": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": null,
+        "oneOffDiscountPrice": null,
+        "monthlyPrice": {
+          "gross": "37",
+          "net": "30.83",
+          "vat": "6.17"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "37",
+          "net": "30.83",
+          "vat": "6.17"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "lineReference": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "serviceReference": {
+          "serviceLines": []
+        }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "SIMO",
+      "combiPackageId": null,
+      "confirmRequired": false,
+      "deviceFinancingId": null,
+      "additionalDetails": {},
+      "tradeInOfferCode": null,
+      "tradeInCredit": null,
+      "packageOfferCode": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "monthlyPrice": {
+      "gross": "37",
+      "net": "30.83",
+      "vat": "6.17"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "37",
+      "net": "30.83",
+      "vat": "6.17"
+    },
+    "totalOneoffSaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "totalMonthlySaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "-1980678420",
+  "lastModified": "2021-07-09T06:25:31.995517",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [
+    {
+      "packageId": "a3e99fa1-978b-45d6-8d1f-785028242885",
+      "promotionType": "CROSS_SELL",
+      "productDetail": {
+        "category": "FTR6",
+        "lineType": "REWARD_LINE"
+      },
+      "saving": {
+        "minimum": null,
+        "maximum": null,
+        "exact": {
+          "value": 2.5,
+          "uom": "£",
+          "message": "You'll save £3 a month on Pro Broadband when combined with a SIM Only plan"
+        }
+      },
+      "qualifyingLine": {
+        "bundleId": "113242",
+        "displayName": "Unlimited Max with Entertainment",
+        "identifier": {
+          "key": "PackageId",
+          "value": "a3e99fa1-978b-45d6-8d1f-785028242885"
+        }
+      }
+    }
+  ],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

@@ -1,0 +1,84 @@
+{
+  "packageLineId": "ec6eab8d-d8df-486b-81f5-6405f8a1a887",
+  "action": "ADD",
+  "skuId": "202040",
+  "name": "Apple Watch Series 3 38mm silver",
+  "description": "The Apple Watch Series 3 connects you to your friends and health, by bringing health and social notifications to your wrist.",
+  "displayName": "Apple Watch Series 3 38mm Silver",
+  "displayDescription": null,
+  "deviceBriefDescription": [],
+  "deviceColor": null,
+  "memorySize": null,
+  "make": "apple",
+  "model": "series3-38mm",
+  "groupType": null,
+  "productClass": "eHandset",
+  "productSubClass": "watch",
+  "displayOrder": null,
+  "showInSummary": false,
+  "merchandisingMedia": [
+    {
+      "id": "imageURLs.thumbs.right",
+      "value": "/images/desktop/Apple_Watch_Series_3_38mm_silver-thumbs-right.png",
+      "type": "URL",
+      "footNotes": [""]
+    },
+    {
+      "id": "imageURLs.grid",
+      "value": "/images/desktop/Apple_Watch_Series_3_38mm_silver-grid-product-front.png",
+      "type": "URL",
+      "footNotes": [""]
+    },
+    {
+      "id": "imageURLs.full.hero",
+      "value": "/images/desktop/Apple_Watch_Series_3_38mm_silver-full-product-front-600.png",
+      "type": "URL",
+      "footNotes": [""]
+    },
+    {
+      "id": "imageURLs.full.right",
+      "value": "/images/desktop/Apple_Watch_Series_3_38mm_silver-full-product-right-600.png",
+      "type": "URL",
+      "footNotes": [""]
+    },
+    {
+      "id": "imageURLs.full.front",
+      "value": "/images/desktop/Apple_Watch_Series_3_38mm_silver-full-product-front-600.png",
+      "type": "URL",
+      "footNotes": [""]
+    },
+    {
+      "id": "imageURLs.thumbs.front",
+      "value": "/images/desktop/Apple_Watch_Series_3_38mm_silver-thumbs-front.png",
+      "type": "URL",
+      "footNotes": [""]
+    }
+  ],
+  "attributes": [],
+  "contractOptions": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "merchandisingPromotions": null,
+    "monthlyPrice": null,
+    "monthlyDiscountPrice": null,
+    "financingOptions": [],
+    "deviceFinancingId": null,
+    "devicePaymentPlan": null
+  },
+  "boxPrice": {
+    "gross": "273.85",
+    "net": "228.21",
+    "vat": "45.64"
+  },
+  "freeGift": false,
+  "isChanged": false
+}

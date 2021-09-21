@@ -1,0 +1,117 @@
+{
+  "packageLineId": "7bfe074b-bab4-4e90-9145-782afbb3fc41",
+  "action": "ADD",
+  "skuId": "090357",
+  "name": "Samsung Galaxy S8 orchid grey",
+  "description": "Boundary-breaking design, check. Infinity Display, check. Personal assistant in your pocket? Check. Samsung S8 has it all.",
+  "displayName": "Samsung Galaxy S8 64GB Orchid Grey",
+  "shortDisplayName": "Samsung Galaxy S8",
+  "displayDescription": null,
+  "deviceBriefDescription": [],
+  "deviceColor": "Orchid Grey",
+  "memorySize": "64 GB",
+  "make": "samsung",
+  "model": "galaxy-s8",
+  "groupType": "DEVICE_PAYM",
+  "productClass": "Handset",
+  "displayOrder": null,
+  "showInSummary": false,
+  "merchandisingMedia": [{
+      "id": "imageURLs.thumbs.back",
+      "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-back.png",
+      "type": "URL",
+      "footNotes": null
+    },
+    {
+      "id": "imageURLs.grid",
+      "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-grid-product-front.png",
+      "type": "URL",
+      "footNotes": null
+    },
+    {
+      "id": "imageURLs.thumbs.left",
+      "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-left.png",
+      "type": "URL",
+      "footNotes": null
+    },
+    {
+      "id": "imageURLs.full.right",
+      "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-right.png",
+      "type": "URL",
+      "footNotes": null
+    },
+    {
+      "id": "imageURLs.full.hero",
+      "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-front.png",
+      "type": "URL",
+      "footNotes": null
+    },
+    {
+      "id": "imageURLs.thumbs.front",
+      "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-front.png",
+      "type": "URL",
+      "footNotes": null
+    },
+    {
+      "id": "imageURLs.thumbs.side",
+      "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-side.png",
+      "type": "URL",
+      "footNotes": null
+    },
+    {
+      "id": "imageURLs.full.left",
+      "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-left.png",
+      "type": "URL",
+      "footNotes": null
+    },
+    {
+      "id": "imageURLs.full.back",
+      "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-back.png",
+      "type": "URL",
+      "footNotes": null
+    },
+    {
+      "id": "imageURLs.full.front",
+      "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-front.png",
+      "type": "URL",
+      "footNotes": null
+    },
+    {
+      "id": "imageURLs.full.side",
+      "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-side.png",
+      "type": "URL",
+      "footNotes": null
+    },
+    {
+      "id": "imageURLs.thumbs.right",
+      "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-right.png",
+      "type": "URL",
+      "footNotes": null
+    }
+  ],
+  "attributes": [],
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "9",
+      "net": "7.50",
+      "vat": "1.50"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "9",
+      "net": "7.50",
+      "vat": "1.50"
+    },
+    "merchandisingPromotions": null,
+    "monthlyPrice": null,
+    "monthlyDiscountPrice": null,
+    "financingOptions": [],
+    "deviceFinancingId": null
+  },
+  "boxPrice": {
+    "gross": "432.0",
+    "net": "360.0",
+    "vat": "72.0"
+  },
+  "freeGift": false,
+  "isChanged": false
+}

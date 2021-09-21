@@ -1,0 +1,412 @@
+[
+  {
+    "consumer_meganav": {
+      "rightNav": {
+        "Top_RightMegaNav_FindAStore": {
+          "mainTitleUrl": "https://www.vodafone.co.uk/help-and-information/store-locator",
+          "mainTitle": "Find a store",
+          "icon": "IconLocation",
+          "name": "Top_RightMegaNav_FindAStore",
+          "id": 1523362517444,
+          "friendlyName": "Top_RightMegaNav_FindAStore",
+          "parents": []
+        },
+        "Top_RightMegaNav_CoverageChecker": {
+          "mainTitleUrl": "https://www.vodafone.co.uk/network/status-checker",
+          "mainTitle": "Network Status Checker",
+          "icon": "NetworkIcon",
+          "name": "Top_RightMegaNav_CoverageChecker",
+          "id": 1523362517996,
+          "friendlyName": "Top_RightMegaNav_CoverageChecker",
+          "parents": []
+        }
+      },
+      "leftNav": {
+        "Top_LeftMegaNav_Personal": {
+          "mainTitleUrl": "https://www.vodafone.co.uk/",
+          "mainTitle": "Personal",
+          "icon": "Members",
+          "name": "Top_LeftMegaNav_Personal",
+          "id": 1523362513983,
+          "friendlyName": "Top_LeftMegaNav_Personal",
+          "parents": []
+        },
+        "Top_LeftMegaNav_Business": {
+          "mainTitleUrl": "https://www.vodafone.co.uk/business",
+          "mainTitle": "Business",
+          "icon": "Careers",
+          "name": "Top_LeftMegaNav_Business",
+          "id": 1523362514624,
+          "friendlyName": "Top_LeftMegaNav_Business",
+          "parents": []
+        }
+      },
+      "megaNav": {
+        "consumer_meganav_Shop": {
+          "freeFormTitleLinkText": "Explore the shop",
+          "tabItems": {
+            "consumer_meganav_Shop_Mobile": {
+              "freeFormTitleLinkText": "Explore phones & tablets",
+              "subLinks": [
+                "Pay monthly phones|https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts",
+                "Pay as you go phones|https://www.vodafone.co.uk/mobile/phones/pay-as-you-go",
+                "Apple iPhone|https://www.vodafone.co.uk/mobile/brands/apple",
+                "Samsung Galaxy|https://www.vodafone.co.uk/mobile/brands/samsung",
+                "iPad & tablets|https://www.vodafone.co.uk/mobile/ipads-and-tablets"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/mobile",
+              "mainTitle": "Phones & tablets",
+              "icon": "Multiscreen",
+              "name": "consumer_meganav_Shop_Mobile",
+              "id": 1523360871654,
+              "friendlyName": "consumer_meganav_Shop_Mobile",
+              "parents": []
+            },
+            "consumer_meganav_Shop_SIM_only": {
+              "freeFormTitleLinkText": "Explore SIM-only",
+              "subLinks": [
+                "Pay monthly SIM|https://www.vodafone.co.uk/mobile/best-sim-only-deals",
+                "Pay as you go SIM|https://www.vodafone.co.uk/mobile/best-sim-only-deals/pay-as-you-go-sim",
+                "Data-only SIM|https://www.vodafone.co.uk/data-only-sim",
+                "Unlimited plans|https://www.vodafone.co.uk/unlimited-data-plans/",
+                "Top up|https://www.vodafone.co.uk/my-vodafone-account/pay-as-you-go-top-up"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/mobile/best-sim-only-deals",
+              "mainTitle": "SIM-only",
+              "icon": "SIM",
+              "name": "consumer_meganav_Shop_SIM_only",
+              "id": 1523360875972,
+              "friendlyName": "consumer_meganav_Shop_SIM_only",
+              "parents": []
+            },
+            "consumer_meganav_Shop_Broadband": {
+              "freeFormTitleLinkText": "Explore Broadband",
+              "subLinks": [
+                "Superfast broadband|https://www.vodafone.co.uk/broadband/deals/superfast",
+                "Gigafast broadband|https://www.vodafone.co.uk/web-shop/broadband/deals/gigafast",
+                "Mobile Wi-Fi|https://www.vodafone.co.uk/mobile-broadband-deals",
+                "Broadband Guarantee|https://www.vodafone.co.uk/broadband/speed-guarantee",
+                "Broadband hub & app|https://www.vodafone.co.uk/broadband/wi-fi-hub-and-broadband-app"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/broadband/deals/superfast",
+              "mainTitle": "Broadband",
+              "icon": "MobileBroadband",
+              "name": "consumer_meganav_Shop_Broadband",
+              "id": 1523360877384,
+              "friendlyName": "consumer_meganav_Shop_Broadband",
+              "parents": []
+            },
+            "consumer_meganav_Shop_Deals_and_Offers": {
+              "freeFormTitleLinkText": "Explore deals & offers",
+              "subLinks": [
+                "VeryMe rewards|https://www.vodafone.co.uk/my-vodafone-account/vodafone-apps/Vodafone_VeryMe_Rewards",
+                "Broadband + mobile|https://www.vodafone.co.uk/broadband-sim-only-deals/",
+                "Existing customers|https://www.vodafone.co.uk/mobile/existing-customers",
+                "Trade-in to save|https://www.vodafone.co.uk/mobile/vodafone-trade-in",
+                "Outlet & nearly new|https://www.vodafone.co.uk/mobile/deals-and-offers/nearly-new"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/mobile/deals-and-offers",
+              "mainTitle": "Deals & offers",
+              "icon": "PricePromise",
+              "name": "consumer_meganav_Shop_Deals_and_Offers",
+              "id": 1523360880361,
+              "friendlyName": "consumer_meganav_Shop_Deals_and_Offers",
+              "parents": []
+            },
+            "consumer_meganav_Shop_Smart-tech": {
+              "freeFormTitleLinkText": "Explore smart tech",
+              "subLinks": [
+                "Apple watch|https://www.vodafone.co.uk/mobile/brands/apple/apple-watch",
+                "Samsung watch|https://www.vodafone.co.uk/mobile/brands/samsung/samsung-galaxy-watch",
+                "V by Vodafone devices|https://eshop.v.vodafone.com/uk",
+                "OneNumber calling|https://www.vodafone.co.uk/mobile/OneNumber",
+                "Alexa calling|https://www.vodafone.co.uk/mobile/OneNumber/Amazon"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/mobile/smart-watches-and-wearables",
+              "mainTitle": "Smart tech",
+              "icon": "SmartPlug",
+              "name": "consumer_meganav_Shop_Smart-tech",
+              "id": 1523371221431,
+              "friendlyName": "consumer_meganav_Shop_Smart-tech",
+              "parents": []
+            }
+          },
+          "mainTitleUrl": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts",
+          "mainTitle": "Shop",
+          "icon": "PriceTag",
+          "name": "consumer_meganav_Shop",
+          "id": 1523360872261,
+          "friendlyName": "consumer_meganav_Shop",
+          "parents": []
+        },
+        "consumer_meganav_WhyVodafone": {
+          "tabItems": {
+            "consumer_meganav_WhyVodafone_Our_Best_Network": {
+              "freeFormTitleLinkText": "Explore our network",
+              "subLinks": [
+                "Roaming|https://www.vodafone.co.uk/mobile/global-roaming",
+                "Mobile + broadband|https://www.vodafone.co.uk/broadband-sim-only-deals",
+                "Check coverage|https://www.vodafone.co.uk/network/status-checker",
+                "Switch to us|https://www.vodafone.co.uk/mobile/switch-to-vodafone-campaign-1"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/network",
+              "mainTitle": "Our best network",
+              "icon": "network-signal",
+              "name": "consumer_meganav_WhyVodafone_Our_Best_Network",
+              "id": 1523372856719,
+              "friendlyName": "consumer_meganav_WhyVodafone_Our_Best_Network",
+              "parents": []
+            },
+            "consumer_meganav_WhyVodafone_5G_Network": {
+              "freeFormTitleLinkText": "About 5G",
+              "subLinks": [
+                "Why Vodafone 5G?|https://www.vodafone.co.uk/network/5g/why-vodafone",
+                "5G coverage|https://www.vodafone.co.uk/network/status-checker",
+                "5G phones & devices|https://www.vodafone.co.uk/mobile/5g-phones",
+                "5G innovation|https://www.vodafone.co.uk/network/5g/technology",
+                "5G broadband|https://www.vodafone.co.uk/gigacube/"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/network/5g",
+              "mainTitle": "5G",
+              "icon": "FiveGNoFill",
+              "name": "consumer_meganav_WhyVodafone_5G_Network",
+              "id": 1523371233223,
+              "friendlyName": "consumer_meganav_WhyVodafone_5G_Network",
+              "parents": []
+            },
+            "consumer_meganav_WhyVodafone_Entertainment": {
+              "freeFormTitleLinkText": "Explore entertainment",
+              "subLinks": [
+                "Prime Video|https://www.vodafone.co.uk/mobile/music-tv-and-sport/prime-video",
+                "Spotify Premium|https://www.vodafone.co.uk/mobile/music-tv-and-sport/spotify",
+                "Sky Sports Mobile TV|https://www.vodafone.co.uk/mobile/music-tv-and-sport/sky-sports-mobile-tv",
+                "Now TV|https://www.vodafone.co.uk/mobile/music-tv-and-sport/now-tv",
+                "Apple TV 4K|https://www.vodafone.co.uk/broadband/deals/superfast"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/mobile/music-tv-and-sport",
+              "mainTitle": "Entertainment",
+              "icon": "Entertainment",
+              "name": "consumer_meganav_WhyVodafone_Entertainment",
+              "id": 1523371233857,
+              "friendlyName": "consumer_meganav_WhyVodafone_Entertainment",
+              "parents": []
+            },
+            "consumer_meganav_WhyVodafone_More_to_love": {
+              "freeFormTitleLinkText": "All the good stuff",
+              "subLinks": [
+                "VeryMe rewards|https://www.vodafone.co.uk/my-vodafone-account/vodafone-apps/Vodafone_VeryMe_Rewards",
+                "Pay as you go rewards|https://rewards.vodafone.co.uk",
+                "Global roaming|https://www.vodafone.co.uk/mobile/global-roaming",
+                "Unlimited plans|https://www.vodafone.co.uk/unlimited-data-plans/",
+                "MyVodafone app|https://www.vodafone.co.uk/my-vodafone-account/vodafone-apps/my-vodafone-app"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/good-stuff",
+              "mainTitle": "More to love",
+              "icon": "HealthyLiving",
+              "name": "consumer_meganav_WhyVodafone_More_to_love",
+              "id": 1523371234115,
+              "friendlyName": "consumer_meganav_WhyVodafone_More_to_love",
+              "parents": []
+            },
+            "consumer_meganav_WhyVodafone_Outstanding_service": {
+              "freeFormTitleLinkText": "Great support",
+              "subLinks": [
+                "Over 400 stores|https://www.vodafone.co.uk/help-and-information/store-locator",
+                "Free warranty|https://support.vodafone.co.uk/Account-bill-and-top-up/Repairs-Warranty-and-Insurance/Warranty-and-insurance/38948878/When-I-buy-a-device-from-Vodafone-how-long-does-the-warranty-last-and-what-does-it-cover.htm",
+                "Insurance plans|https://www.vodafone.co.uk/mobile/vodafone-insurance",
+                "14-day returns|https://www.vodafone.co.uk/my-vodafone-account/orders/returns",
+                "Easy trade-in|https://www.vodafone.co.uk/mobile/vodafone-trade-in"
+              ],
+              "mainTitleUrl": "https://support.vodafone.co.uk",
+              "mainTitle": "Outstanding service",
+              "icon": "PricePromise",
+              "name": "consumer_meganav_WhyVodafone_Outstanding_service",
+              "id": 1523371234855,
+              "friendlyName": "consumer_meganav_WhyVodafone_Outstanding_service",
+              "parents": []
+            }
+          },
+          "mainTitle": "Why Vodafone",
+          "icon": "Help",
+          "name": "consumer_meganav_WhyVodafone",
+          "id": 1523371233024,
+          "friendlyName": "consumer_meganav_WhyVodafone",
+          "parents": []
+        },
+        "consumer_meganav_Help": {
+          "freeFormTitleLinkText": "Explore help",
+          "tabItems": {
+            "consumer_meganav_Help_Costs_and_charges": {
+              "freeFormTitleLinkText": "Explore costs & charges",
+              "subLinks": [
+                "Travelling abroad|https://www.vodafone.co.uk/explore/costs/travelling-abroad/",
+                "Calling abroad|https://www.vodafone.co.uk/explore/costs/calling-abroad-from-the-uk/",
+                "UK call charges|https://www.vodafone.co.uk/help-and-information/costs-and-charges/call-and-text-charges",
+                "Data charges|https://www.vodafone.co.uk/help-and-information/costs-and-charges/data-charges",
+                "Manage data usage|https://www.vodafone.co.uk/help-and-information/managing-your-data-usage"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/help-and-information/costs-and-charges",
+              "mainTitle": "Costs & charges",
+              "icon": "Saving",
+              "name": "consumer_meganav_Help_Costs_and_charges",
+              "id": 1523360881796,
+              "friendlyName": "consumer_meganav_Help_Costs_and_charges",
+              "parents": []
+            },
+            "consumer_meganav_Help_Information": {
+              "freeFormTitleLinkText": "Useful information",
+              "subLinks": [
+                "Getting started|https://www.vodafone.co.uk/getting-started",
+                "Costs & charges|https://www.vodafone.co.uk/help-and-information/costs-and-charges",
+                "Switch to Vodafone|https://www.vodafone.co.uk/mobile/switch-to-vodafone-campaign-1",
+                "Digital parenting|https://www.vodafone.co.uk/mobile/digital-parenting",
+                "Accessibility|https://www.vodafone.co.uk/help-and-information/accessibility"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/help-and-information",
+              "mainTitle": "Information",
+              "icon": "InfoIcon",
+              "name": "consumer_meganav_Help_Information",
+              "id": 1523372858136,
+              "friendlyName": "consumer_meganav_Help_Information",
+              "parents": []
+            },
+            "consumer_meganav_Help_Support": {
+              "freeFormTitleLinkText": "Get support",
+              "subLinks": [
+                "Tech team|https://www.vodafone.co.uk/help-and-information/tech-team",
+                "Vodafone community|https://forum.vodafone.co.uk",
+                "Unlocking your phone|https://www.vodafone.co.uk/help-and-information/unlocking-your-phone",
+                "Chat assistant|https://www.vodafone.co.uk/contact-us",
+                "Device help|https://deviceguides.vodafone.co.uk/"
+              ],
+              "mainTitleUrl": "https://support.vodafone.co.uk",
+              "mainTitle": "Support",
+              "icon": "Help",
+              "name": "consumer_meganav_Help_Support",
+              "id": 1523360882079,
+              "friendlyName": "consumer_meganav_Help_Support",
+              "parents": []
+            },
+            "consumer_meganav_Help_Broadband": {
+              "freeFormTitleLinkText": "Broadband help",
+              "subLinks": [
+                "Broadband support|https://www.vodafone.co.uk/help-and-information/broadband-support",
+                "Broadband Guarantee|https://www.vodafone.co.uk/broadband/speed-guarantee",
+                "Home moves|https://www.vodafone.co.uk/my-vodafone-account/home-moves",
+                "Landline information|https://www.vodafone.co.uk/broadband/homephone"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/help-and-information/broadband-support",
+              "mainTitle": "Broadband",
+              "icon": "MobileBroadband",
+              "name": "consumer_meganav_Help_Broadband",
+              "id": 1523371196838,
+              "friendlyName": "consumer_meganav_Help_Broadband",
+              "parents": []
+            },
+            "consumer_meganav_Help_Customercare": {
+              "freeFormTitleLinkText": "Great support",
+              "subLinks": [
+                "Delivery|https://www.vodafone.co.uk/my-vodafone-account/orders/delivery",
+                "Returns|https://www.vodafone.co.uk/my-vodafone-account/orders/returns",
+                "Lost or stolen|https://www.vodafone.co.uk/myvodafone/faces/lostandstolen",
+                "Life events|https://support.vodafone.co.uk/Account-bill-and-top-up/Life-events",
+                "Repairs|https://support.vodafone.co.uk/Account-bill-and-top-up/Repairs-Warranty-and-Insurance/Repairs/"
+              ],
+              "mainTitleUrl": "https://support.vodafone.co.uk",
+              "mainTitle": "Customer care",
+              "icon": "InStockIcon",
+              "name": "consumer_meganav_Help_Customercare",
+              "id": 1523371197339,
+              "friendlyName": "consumer_meganav_Help_Customercare",
+              "parents": []
+            }
+          },
+          "mainTitleUrl": "https://support.vodafone.co.uk?mmx=personal|help",
+          "mainTitle": "Help",
+          "icon": "ErrorCircle",
+          "name": "consumer_meganav_Help",
+          "id": 1523360873814,
+          "friendlyName": "consumer_meganav_Help",
+          "parents": []
+        },
+        "consumer_meganav_MyVodafone": {
+          "freeFormTitleLinkText": "Explore myVodafone",
+          "tabItems": {
+            "consumer_meganav_MyVodafone_Billing_payments": {
+              "freeFormTitleLinkText": "Explore billing & payments",
+              "subLinks": [
+                "Recent bills|https://www.vodafone.co.uk/myvodafone/faces/usagePayments",
+                "Usage|https://www.vodafone.co.uk/myvodafone/faces/currentUsage",
+                "Make a payment|https://www.vodafone.co.uk/myvodafone/faces/usagePayments",
+                "Manage direct debit|https://www.vodafone.co.uk/myvodafone/faces/usagePayments/manageBillingProfile",
+                "Top up|https://www.vodafone.co.uk/my-vodafone-account/pay-as-you-go-top-up"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/my-vodafone-account/billing-and-payments",
+              "mainTitle": "Billing & payments",
+              "icon": "BillOrReport",
+              "name": "consumer_meganav_MyVodafone_Billing_payments",
+              "id": 1523360876248,
+              "friendlyName": "consumer_meganav_MyVodafone_Billing_payments",
+              "parents": []
+            },
+            "consumer_meganav_MyVodafone_My_products": {
+              "freeFormTitleLinkText": "Explore My Products",
+              "subLinks": [
+                "Customer upgrades|https://www.vodafone.co.uk/my-vodafone-account/upgrades",
+                "Existing customer offers|https://www.vodafone.co.uk/mobile/existing-customers"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/myvodafone/faces/home",
+              "mainTitle": "My Products",
+              "icon": "Profile",
+              "name": "consumer_meganav_MyVodafone_My_products",
+              "id": 1523360880243,
+              "friendlyName": "consumer_meganav_MyVodafone_My_products",
+              "parents": []
+            },
+            "consumer_meganav_MyVodafone_Settings": {
+              "freeFormTitleLinkText": "Explore settings",
+              "subLinks": [
+                "Account settings|https://www.vodafone.co.uk/myvodafone/faces/manageAccount",
+                "Personal details|https://www.vodafone.co.uk/myvodafone/faces/manageAccount",
+                "Password & security|https://www.vodafone.co.uk/myvodafone/faces/manageLogin",
+                "My account controls|https://www.vodafone.co.uk/my-vodafone/my-account-controls/"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/myvodafone/faces/manageAccount",
+              "mainTitle": "Settings",
+              "icon": "Settings",
+              "name": "consumer_meganav_MyVodafone_Settings",
+              "id": 1523360880477,
+              "friendlyName": "consumer_meganav_MyVodafone_Settings",
+              "parents": []
+            },
+            "consumer_meganav_MyVodafone_apps": {
+              "freeFormTitleLinkText": "Explore Vodafone apps",
+              "subLinks": [
+                "My Vodafone|https://www.vodafone.co.uk/my-vodafone-account/vodafone-apps/my-vodafone-app",
+                "VeryMe Rewards|https://www.vodafone.co.uk/my-vodafone-account/vodafone-apps/Vodafone-VeryMe-Rewards"
+              ],
+              "mainTitleUrl": "https://www.vodafone.co.uk/my-vodafone-account/vodafone-apps",
+              "mainTitle": "Vodafone apps",
+              "icon": "Apps",
+              "name": "consumer_meganav_MyVodafone_apps",
+              "id": 1523360880662,
+              "friendlyName": "consumer_meganav_MyVodafone_apps",
+              "parents": []
+            }
+          },
+          "mainTitleUrl": "https://www.vodafone.co.uk/my-vodafone?mmx=personal|myvodafone",
+          "mainTitle": "My Vodafone",
+          "icon": "MyVodafoneApp",
+          "name": "consumer_meganav_MyVodafone",
+          "id": 1523360873751,
+          "friendlyName": "consumer_meganav_MyVodafone",
+          "parents": []
+        }
+      },
+      "name": "consumer_meganav",
+      "id": 1523360872903,
+      "friendlyName": "consumer_meganav",
+      "parents": []
+    }
+  }
+]

@@ -1,0 +1,54 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.form {
+  background-color: $color-almost-white;
+}
+
+@include md {
+  input {
+    display: fixed;
+  }
+}
+
+.validation-button {
+  display: flex;
+  align-items: center;
+  padding-bottom: $spacing-fixed-1;
+}
+
+.form-buttons {
+  @include lg {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+.form-buttons button {
+  @include lg {
+    margin-right: $spacing-level-2;
+  }
+}
+
+.form-buttons button:last-child {
+  @include lg {
+    margin-right: 0;
+  }
+}
+
+.input {
+  margin: 0 0 $spacing-fixed-2;
+  width: 100%;
+
+  @include md {
+    margin: 0 $spacing-fixed-2 0 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.button {
+  min-width: 160px;
+}

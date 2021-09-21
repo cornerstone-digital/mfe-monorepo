@@ -1,0 +1,466 @@
+{
+  "vf_MetaDescription": "Basket",
+  "vf_enableGetinTouch": "False",
+  "vf_Modules": {
+    "notifications": {
+      "content": {
+        "MAX_LOAN_LIMIT_REACHED": {
+          "acceptCTA": "Pay-off a device plan",
+          "bodyText": "To buy another device, you'll need to pay-off one of your existing Device Plans. Or you can buy any other items by removing the Phone Plan or Watch Plan from your basket and continuing to checkout.",
+          "name": "MAX_LOAN_LIMIT_REACHED",
+          "header": "Looks like you've reached your limits of 10 Device Plans",
+          "id": 1523382374470,
+          "friendlyName": "MAX_LOAN_LIMIT_REACHED",
+          "parents": []
+        },
+        "BSKT_INVALID_INPUT_001": {
+          "bodyText": "Unfortunately you have already submitted your basket, so you must proceed back to the checkout.",
+          "name": "BSKT_INVALID_INPUT_001",
+          "header": "Something went wrong.",
+          "id": 1494519821049,
+          "friendlyName": "BSKT_INVALID_INPUT_001",
+          "parents": []
+        },
+        "BSKT_INVALID_INPUT_047": {
+          "bodyText": "It looks like the plan you tried adding to your basket is incompatible or not valid. Please try again. If the problem persists, please contact customer support. We are sorry for any inconvenience.",
+          "name": "BSKT_INVALID_INPUT_047",
+          "header": "This plan could not be added to your basket.",
+          "id": 1494514287774,
+          "friendlyName": "BSKT_INVALID_INPUT_047",
+          "parents": []
+        },
+        "basket_airtime_plan": {
+          "acceptCTA": "See Airtime plans",
+          "bodyText": "In order to purchase a phone, you'll need to choose an Airtime plan.",
+          "name": "basket_airtime_plan",
+          "header": "It looks like you haven't added an Airtime plan.",
+          "id": 1523377419324,
+          "friendlyName": "basket_airtime_plan",
+          "parents": []
+        },
+        "AIRTIME_DEVICE_MISSMATCH": {
+          "acceptCTA": "See Airtime plans",
+          "bodyText": "You'll need to choose a different Airtime plan to continue.",
+          "name": "AIRTIME_DEVICE_MISSMATCH",
+          "header": "Your phone and your Airtime plan don't match.",
+          "id": 1523377419432,
+          "friendlyName": "AIRTIME_DEVICE_MISSMATCH",
+          "parents": []
+        },
+        "LOAN_INVALID_UPFRONT_COST": {
+          "acceptCTA": "Change my upfront cost",
+          "bodyText": "You must choose an upfront cost between £XXX_XXX and £XXX_XXX",
+          "name": "LOAN_INVALID_UPFRONT_COST",
+          "header": "Something isn't right with your upfront payment amount.",
+          "id": 1523377419850,
+          "friendlyName": "LOAN_INVALID_UPFRONT_COST",
+          "parents": []
+        },
+        "LOAN_INVALID_DURATION": {
+          "acceptCTA": "Change my plan length",
+          "bodyText": "You must choose a plan length between 3 and 36 months.",
+          "name": "LOAN_INVALID_DURATION",
+          "header": "Something isn't right with the length of your Phone plan.",
+          "id": 1523377420047,
+          "friendlyName": "LOAN_INVALID_DURATION",
+          "parents": []
+        },
+        "basket_airtime_plan_length": {
+          "acceptCTA": "See Airtime plans",
+          "bodyText": "As your Phone plan is more than 12 months, you must add a 24-month Airtime plan.",
+          "name": "basket_airtime_plan_length",
+          "header": "Something isn't right with your Airtime plan length.",
+          "id": 1523377420156,
+          "friendlyName": "basket_airtime_plan_length",
+          "parents": []
+        },
+        "basket_limited_company_partnership": {
+          "acceptCTA": "Contact us",
+          "bodyText": "Please chat with us online or call us for free from any UK landline or mobile on 0808 800 800.",
+          "declineCTA": "Continue as a sole trader",
+          "name": "basket_limited_company_partnership",
+          "header": "Are you buying for a Limited Company or a Partnership?",
+          "id": 1523377420277,
+          "friendlyName": "basket_limited_company_partnership",
+          "parents": []
+        }
+      },
+      "name": "notifications",
+      "id": 1494519821380,
+      "friendlyName": "notifications",
+      "parents": []
+    },
+    "messages": {
+      "content": {
+        "MAX_AVAILABLE": {
+          "bodyText": "Speed: fastest available",
+          "name": "MAX_AVAILABLE",
+          "id": 1523382342503,
+          "friendlyName": "MAX_AVAILABLE",
+          "parents": []
+        },
+        "MAX_2_MBPS": {
+          "bodyText": "Speed: Maximum download of 2 Mbps",
+          "name": "MAX_2_MBPS",
+          "id": 1523382342559,
+          "friendlyName": "MAX_2_MBPS",
+          "parents": []
+        },
+        "MAX_10_MBPS": {
+          "bodyText": "Speed: Maximum download of 10 Mbps",
+          "name": "MAX_10_MBPS",
+          "id": 1523382342615,
+          "friendlyName": "MAX_10_MBPS",
+          "parents": []
+        },
+        "package_footer": {
+          "bodyText": "*Includes time-limited discounts. The price you pay will increase during your contract.",
+          "name": "package_footer",
+          "id": 1523382342854,
+          "friendlyName": "package_footer",
+          "parents": []
+        },
+        "rpi": {
+          "bodyText": "Each April your plan price will increase by an amount equal to the RPI rate published in March of the year. We'll publish this rate on our website.",
+          "name": "rpi",
+          "id": 1494514040779,
+          "friendlyName": "rpi",
+          "parents": []
+        },
+        "flexi_upgrade_fee": {
+          "bodyText": "This fee is based on your current phone’s value and the remaining time left on your contract. If the phone you have ordered is not yet in stock, the final fee will be calculated on the day your new phone is dispatched.",
+          "name": "flexi_upgrade_fee",
+          "id": 1523382172998,
+          "friendlyName": "flexi_upgrade_fee",
+          "parents": []
+        },
+        "basket_label_modal_header": {
+          "bodyText": "Interest-free Financing",
+          "name": "basket_label_modal_header",
+          "id": 1523376113697,
+          "friendlyName": "basket_label_modal_header",
+          "parents": []
+        },
+        "basket_label_your_device_plan": {
+          "bodyText": "Your device plan",
+          "name": "basket_label_your_device_plan",
+          "id": 1523376100574,
+          "friendlyName": "basket_label_your_device_plan",
+          "parents": []
+        },
+        "basket_label_your_airtime_plan": {
+          "bodyText": "Your Airtime plan",
+          "name": "basket_label_your_airtime_plan",
+          "id": 1523376100768,
+          "friendlyName": "basket_label_your_airtime_plan",
+          "parents": []
+        },
+        "basket_label_total_package_cost": {
+          "bodyText": "Total package cost (excl. add-ons)",
+          "name": "basket_label_total_package_cost",
+          "id": 1523376101086,
+          "friendlyName": "basket_label_total_package_cost",
+          "parents": []
+        },
+        "basket_label_total_phone_cost": {
+          "bodyText": "Total phone cost",
+          "name": "basket_label_total_phone_cost",
+          "id": 1523376095000,
+          "friendlyName": "basket_label_total_phone_cost",
+          "parents": []
+        },
+        "basket_label_total_monthly_cost": {
+          "bodyText": "Total monthly cost",
+          "name": "basket_label_total_monthly_cost",
+          "id": 1523376098705,
+          "friendlyName": "basket_label_total_monthly_cost",
+          "parents": []
+        },
+        "basket_label_interest_rate": {
+          "bodyText": "Interest rate (fixed)",
+          "name": "basket_label_interest_rate",
+          "id": 1523376096297,
+          "friendlyName": "basket_label_interest_rate",
+          "parents": []
+        },
+        "basket_label_plan_type": {
+          "bodyText": "Plan type",
+          "name": "basket_label_plan_type",
+          "id": 1523376098251,
+          "friendlyName": "basket_label_plan_type",
+          "parents": []
+        },
+        "basket_label_monthly_cost": {
+          "bodyText": "Monthly cost",
+          "name": "basket_label_monthly_cost",
+          "id": 1523376098130,
+          "friendlyName": "basket_label_monthly_cost",
+          "parents": []
+        },
+        "basket_label_creditor": {
+          "bodyText": "Creditor",
+          "name": "basket_label_creditor",
+          "id": 1523376097875,
+          "friendlyName": "basket_label_creditor",
+          "parents": []
+        },
+        "basket_label_length_of_contract": {
+          "bodyText": "Length of contract",
+          "name": "basket_label_length_of_contract",
+          "id": 1523376097643,
+          "friendlyName": "basket_label_length_of_contract",
+          "parents": []
+        },
+        "basket_label_total_credit_amount": {
+          "bodyText": "Total credit amount",
+          "name": "basket_label_total_credit_amount",
+          "id": 1523376097357,
+          "friendlyName": "basket_label_total_credit_amount",
+          "parents": []
+        },
+        "basket_label_upfront_cost": {
+          "bodyText": "Upfront cost",
+          "name": "basket_label_upfront_cost",
+          "id": 1523376095240,
+          "friendlyName": "basket_label_upfront_cost",
+          "parents": []
+        },
+        "basket_label_modal_footer": {
+          "bodyText": "Authorised and regulated by the Financial Conduct Authority\r\n(Authorisation number 712210).",
+          "name": "basket_label_modal_footer",
+          "id": 1523376114139,
+          "friendlyName": "basket_label_modal_footer",
+          "parents": []
+        }
+      },
+      "name": "messages",
+      "id": 1494514040736,
+      "friendlyName": "messages",
+      "parents": []
+    },
+    "basket_router_delivery_information": {
+      "subTitle": "Your router will be delivered within 4 working days.",
+      "mainTitle": "Delivery Date",
+      "name": "basket_router_delivery_information",
+      "id": 1523375677866,
+      "friendlyName": "basket_router_delivery_information",
+      "parents": []
+    },
+    "basket_esim": {
+      "content": {
+        "basket_keep_current_sim": {
+          "acceptCTA": "Keep my current SIM",
+          "name": "basket_keep_current_sim",
+          "id": 1523377492883,
+          "friendlyName": "basket_keep_current_sim",
+          "parents": []
+        },
+        "basket_esim_get_sim": {
+          "acceptCTA": "Get an eSIM",
+          "bodyText": "After the order has been dispatched, an email with next steps and how to setup your eSIM will be sent to you.",
+          "name": "basket_esim_get_sim",
+          "header": "Information about your eSIM",
+          "id": 1523377493037,
+          "friendlyName": "basket_esim_get_sim",
+          "parents": []
+        },
+        "basket_sim_card": {
+          "acceptCTA": "SIM card",
+          "bodyText": "A sim card will be sent with your order",
+          "name": "basket_sim_card",
+          "id": 1523377493922,
+          "friendlyName": "basket_sim_card",
+          "parents": []
+        },
+        "basket_esim_info": {
+          "acceptCTA": "eSIM",
+          "bodyText": "After the order has been dispatched, an email with next steps and how to setup your eSIM will be sent to you.",
+          "name": "basket_esim_info",
+          "header": "Information about your eSIM",
+          "id": 1523377494436,
+          "friendlyName": "basket_esim_info",
+          "parents": []
+        },
+        "basket_esim_info_compatible": {
+          "featureLoading": "See list of popular compatible eSIM device",
+          "acceptCTA": "eSIM",
+          "bodyText": "Please make sure that the device you are using is eSIM compatible. After the order has been placed, an email with next steps and how to connect your eSIM will be sent to you.\r\n",
+          "name": "basket_esim_info_compatible",
+          "header": "Is your device eSIM compatible",
+          "id": 1523377817471,
+          "friendlyName": "basket_esim_info_compatible",
+          "parents": []
+        },
+        "basket_esim_get_sim_compatible": {
+          "featureLoading": "See list of popular compatible eSIM device",
+          "acceptCTA": "Get an eSIM",
+          "bodyText": "Make sure your device is eSIM compatible. After the order has been placed, an email with next steps on how to swap your SIM to eSIM will be send to you.\r\n",
+          "name": "basket_esim_get_sim_compatible",
+          "header": "Is your device eSIM compatible",
+          "id": 1523377817731,
+          "friendlyName": "basket_esim_get_sim_compatible",
+          "parents": []
+        }
+      },
+      "name": "basket_esim",
+      "header": "Choose your SIM",
+      "id": 1523377491748,
+      "friendlyName": "basket_esim",
+      "parents": []
+    },
+    "basket_esim_modal": {
+      "img": [],
+      "moduleSubType": "Modal",
+      "additionalComponents": [],
+      "id": 1523377726881,
+      "friendlyName": "basket_esim_modal",
+      "heading": "What is an eSIM?",
+      "name": "basket_esim_modal",
+      "mainCopy": "<div>\r\n    <p style=\"margin-bottom: 8px color: #ff0000 font-size: 20px\">\r\n        <strong>What you need to know</strong>\r\n    </p>\r\n    <p>eSIM stands for embedded sim.This means that an eSIM device has a SIM card in it that can't be removed. Hybrid devices or dual SIM devices can have once eSIM and one physical SIM.</p>\r\n    <p style=\"margin-bottom: 8px color: #ff0000 font-size: 20px\">\r\n        <strong>How does an eSIM work?</strong>\r\n    </p>\r\n    <p>\r\n        Instead of putting a physical SIM in your device like usual, you will need to download one. After selecting an eSIM you will be sent an email with instructions on how to set it up. The process of downloading and setting up an eSIM\r\n        will vary depending on the device you have, make sure to read the instructions carefully.\r\n    </p>\r\n    <p style=\"margin-bottom: 8px color: #ff0000 font-size: 20px\">\r\n        <strong>Why get an eSIM?</strong>\r\n    </p>\r\n    <p>You may want to get an eSIM if you have multiple lines with us and want to use them on one device or you may want to switch your existing physical SIM to an eSIM if you want to get a local SIM while travelling.</p>\r\n    <p style=\"margin-bottom: 8px color: #ff0000 font-size: 20px\">\r\n        <strong>Existing Vodafone customer?</strong>\r\n    </p>\r\n    <p style=\"margin-bottom: 0\"><strong>What if I already have a physical SIM?</strong></p>\r\n    <p>You will need to perform a SIM swap from your current SIM to an eSIM.</p>\r\n    <p><strong>For more information</strong>, check out our <a href=\"https://support.vodafone.co.uk/Getting-started-and-upgrading/Activate-a-new-SIM/\">SIM swap help pages</a></p>\r\n</div>",
+      "parents": []
+    },
+    "basket_pac_stac_content": {
+      "img": [],
+      "moduleSubType": "message",
+      "additionalComponents": [],
+      "id": 1523378616075,
+      "friendlyName": "basket_pac_stac_content",
+      "heading": "Joining us from another network?",
+      "name": "basket_pac_stac_content",
+      "mainCopy": "Bring your <strong>current number</strong> to Vodafone <strong>with a PAC code,</strong> or get a <strong>new number</strong> with a <strong>STAC code</strong>.\r\n<br />\r\n<span style=\"font-size:14px\">\r\n  <strong>Switching is quick, simple</strong> and can be done <strong>now </strong>or <strong>after your purchase</strong>.\r\n</span>",
+      "parents": []
+    },
+    "hbb_portfolio_refresh": {
+      "content": {
+        "hbb_portfolio_refersh_1year_apple_tv": {
+          "bodyText": "1 year Apple TV + Subscription",
+          "name": "hbb_portfolio_refersh_1year_apple_tv",
+          "id": 1523378603648,
+          "friendlyName": "hbb_portfolio_refersh_1year_apple_tv",
+          "parents": []
+        },
+        "hbb_portfolio_refersh_intelligent_wifi": {
+          "bodyText": "Intelligent WiFi - automatically adjusts to give you the best signal",
+          "name": "hbb_portfolio_refersh_intelligent_wifi",
+          "id": 1523378602851,
+          "friendlyName": "hbb_portfolio_refersh_intelligent_wifi",
+          "parents": []
+        },
+        "hbb_portfolio_refersh_no_price_rise": {
+          "bodyText": "No price rises in contract",
+          "name": "hbb_portfolio_refersh_no_price_rise",
+          "id": 1523378602787,
+          "friendlyName": "hbb_portfolio_refersh_no_price_rise",
+          "parents": []
+        }
+      },
+      "name": "hbb_portfolio_refresh",
+      "id": 1523378604079,
+      "friendlyName": "hbb_portfolio_refresh",
+      "parents": []
+    },
+    "lionheart_modal": {
+      "primaryImg": {
+        "Polygon-background-white": {
+          "smallImage_bloblink_": "/en/assets/images/small/Polygon-background-white.jpg",
+          "mediumImage_bloblink_": "/en/assets/images/medium/Polygon-background-white.jpg",
+          "desktopImage_bloblink_": "/en/assets/images/desktop/Polygon-background-white.jpg",
+          "name": "backgroundImage",
+          "id": 1480076165358,
+          "friendlyName": "Polygon-background-white",
+          "parents": {
+            "Image_P:1480076234475": {
+              "name": "Image Media",
+              "id": 1480076234475,
+              "parents": []
+            }
+          }
+        }
+      },
+      "headerText": "Build your Vodafone Together deal and start saving today",
+      "buttonValue": "Add Home Broadband",
+      "linkText": "Continue to Basket",
+      "content": [],
+      "name": "Lionheart Modal",
+      "id": 1523378818844,
+      "friendlyName": "lionheart_modal",
+      "parents": []
+    },
+    "lionheart_basket_banner": {
+      "primaryImg": {
+        "Polygon-background-white": {
+          "smallImage_bloblink_": "/en/assets/images/small/Polygon-background-white.jpg",
+          "mediumImage_bloblink_": "/en/assets/images/medium/Polygon-background-white.jpg",
+          "desktopImage_bloblink_": "/en/assets/images/desktop/Polygon-background-white.jpg",
+          "name": "backgroundImage",
+          "id": 1480076165358,
+          "friendlyName": "Polygon-background-white",
+          "parents": {
+            "Image_P:1480076234475": {
+              "name": "Image Media",
+              "id": 1480076234475,
+              "parents": []
+            }
+          }
+        }
+      },
+      "headerText": "Build your Vodafone Together deal",
+      "buttonValue": "Add Home Broadband",
+      "content": [],
+      "name": "Lionheart Basket Banner",
+      "id": 1523378822930,
+      "friendlyName": "lionheart_basket_banner",
+      "htmlBlock": "You will save £3 a month on Home Broadband when combined \r\nwith a 18-month SIM Only plan\r\n",
+      "parents": []
+    },
+    "popular_esim_devices": {
+      "title": "Is my device compatible?",
+      "content": {
+        "apple_list": {
+          "subLinks": ["iPhone 11", "iPhone 11 Pro", "iPhone 11 Pro Max", "iPhone XR", "iPhone XS", "iPhone XS Max"],
+          "mainTitle": "Apple",
+          "name": "apple_list",
+          "id": 1523382201940,
+          "friendlyName": "apple_list",
+          "parents": []
+        },
+        "samsung_list": {
+          "subLinks": [
+            "Samsung Galaxy S20+ 4G",
+            "Samsung Galaxy S20+ 5G",
+            "Samsung Galaxy S20 4G",
+            "Samsung Galaxy S20 5G",
+            "Samsung Galaxy S20 Ultra 5G"
+          ],
+          "mainTitle": "Samsung",
+          "name": "samsung_list",
+          "id": 1523382502879,
+          "friendlyName": "samsung_list",
+          "parents": []
+        },
+        "google_list": {
+          "subLinks": ["Google Pixel 4 4G", "Google Pixel 3a"],
+          "mainTitle": "Google",
+          "name": "google_list",
+          "id": 1523382503210,
+          "friendlyName": "google_list",
+          "parents": []
+        }
+      },
+      "name": "popular_esim_devices",
+      "header": "Popular eSIM devices",
+      "id": 1523382201579,
+      "friendlyName": "popular_esim_devices",
+      "parents": []
+    }
+  },
+  "vf_PageTitle": "Basket Summary",
+  "id": 1494519820186,
+  "friendlyName": "basket",
+  "isBreadcrumbDisplayable": "No",
+  "vf_TealiumPageName": "wcs:shop:basket",
+  "vf_Robots": ["Index", "Follow"],
+  "name": "WebShop-Basket",
+  "category": "",
+  "parents": []
+}

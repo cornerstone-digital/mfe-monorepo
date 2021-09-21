@@ -1,0 +1,252 @@
+{
+  "basketId": "ca81f9a6-e7e0-427c-95a5-2bfd0eb9f668",
+  "affiliateId": "11",
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T07:45:00.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "0338dd12-ef37-435e-8883-71a944ad690e",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "f93d641c-abce-46f7-8de3-908cb21f03d0",
+        "action": "ADD",
+        "skuId": "111227",
+        "name": "12mth SIMO Unlmins 45GB Red Entertainment Plan",
+        "description": "CTR14b SIM only Red Entertainment Plan with unlimited mins, unlimited texts and 45GB of data",
+        "displayName": "45GB Red Entertainment plan - 12 months",
+        "displayDescription": null,
+        "bundleClass": "SIMO",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "Red Entertainment",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "12"
+        },
+        "displayOrder": 8,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "UK MIN",
+            "value": "500",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "INTLVOICE"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming Plus",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "Inclusive EU minutes",
+            "value": "500 international minutes to EU",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "45",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "UK DATA",
+            "value": "45",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          }
+        ],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "42",
+            "net": "35",
+            "vat": "7"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "42",
+            "net": "35",
+            "vat": "7"
+          },
+          "totalSavingsAmount": null,
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": [],
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "1a0fd0dd-475a-48a4-885d-f42d83777314",
+          "action": null,
+          "skuId": "201893",
+          "name": "VFUK eSIM",
+          "description": null,
+          "displayName": "eSIM",
+          "displayDescription": null,
+          "deviceBriefDescription": [],
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "SIM Card",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": null,
+            "oneOffDiscountPrice": null,
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": [],
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": null,
+            "net": null,
+            "vat": null
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": null,
+          "isCompatibleWithWatch": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": null,
+        "oneOffDiscountPrice": null,
+        "monthlyPrice": {
+          "gross": "42",
+          "net": "35",
+          "vat": "7"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "42",
+          "net": "35",
+          "vat": "7"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": null,
+          "lineSettings": null,
+          "lineStatus": null,
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "lineReference": {
+          "lineLocator": null,
+          "lineSettings": null,
+          "lineStatus": null,
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "serviceReference": {
+          "serviceLines": []
+        }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "SIMO",
+      "combiPackageId": null,
+      "deviceFinancingId": null,
+      "additionalDetails": {},
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "monthlyPrice": {
+      "gross": "42",
+      "net": "35",
+      "vat": "7"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "42",
+      "net": "35",
+      "vat": "7"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": true,
+  "hashvalue": "-1864471356",
+  "lastModified": "2020-07-27T15:22:43.006Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "affiliateFlag": false,
+  "isChanged": false
+}

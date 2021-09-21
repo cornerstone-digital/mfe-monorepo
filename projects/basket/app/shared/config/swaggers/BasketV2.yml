@@ -1,0 +1,2835 @@
+swagger: "2.0"
+info:
+  description: "Documentation Basket API v2.0"
+  version: "2.0"
+  title: "Basket API"
+host: "localhost"
+basePath: "/basket"
+tags:
+  - name: "Basket"
+    description: "Basket Operations"
+  - name: "Package"
+    description: "Package Operations"
+  - name: "Voucher"
+    description: "Voucher Operations"
+paths:
+  /v2/basket:
+    post:
+      tags:
+        - "Basket"
+      summary: "Creates a basket based on the input payload."
+      description: "Creates a basket based on the input payload."
+      operationId: "createBasketUsingPOST_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "createBasketRequest"
+          description: "Request Body for creating the Basket being requested. Ttl field is deprecating and will no longer be used."
+          required: true
+          schema:
+            $ref: "#/definitions/CreateBasketRequest"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/Basket"
+        201:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/Basket"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/nightly-job:
+    delete:
+      tags:
+        - "Basket"
+      summary: "Basket Nightly Job to delete the Old Baskets"
+      operationId: "nightlyJobUsingDELETE_1"
+      produces:
+        - "*/*"
+      responses:
+        200:
+          description: "OK"
+      deprecated: false
+  /v2/basket/package/{packageId}:
+    patch:
+      tags:
+        - "Package"
+      summary: "Patch an existing package"
+      description: "Patch an existing package"
+      operationId: "patchPackageUsingPATCH"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "packageId"
+          in: "path"
+          description: "Unique Id of the Package being requested"
+          required: true
+          type: "string"
+        - in: "body"
+          name: "patchPackage"
+          description: "Request Body for updating the package being requested"
+          required: true
+          schema:
+            $ref: "#/definitions/PatchPackage"
+      responses:
+        200:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/ModelPackage"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/{basketId}:
+    get:
+      tags:
+        - "Basket"
+      summary: "Get the basket details for the given basket Id"
+      description: "Get the basket details for the given basket Id"
+      operationId: "readBasketUsingGET_1"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "force"
+          in: "query"
+          description: "Optional Pram to Force Read Basket from DB"
+          required: false
+          type: "string"
+          allowEmptyValue: false
+      responses:
+        200:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/Basket"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+    put:
+      tags:
+        - "Basket"
+      summary: "Updates the basket services"
+      description: "Updates the basket services"
+      operationId: "updateBasketUsingPUT_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - in: "body"
+          name: "updateBasket"
+          description: "Request Body for updating the Basket being requested"
+          required: true
+          schema:
+            $ref: "#/definitions/UpdateBasketRequest"
+      responses:
+        200:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/Basket"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+    delete:
+      tags:
+        - "Basket"
+      summary: "Deletes the basket along with all of its content"
+      description: "Deletes the basket along with all of its content"
+      operationId: "deleteBasketUsingDELETE_1"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "force"
+          in: "query"
+          description: "Optional Pram to Force Delete Submitted Basket from DB"
+          required: false
+          type: "string"
+          allowEmptyValue: false
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/DeleteBasketResponse"
+        204:
+          description: "No Content"
+          schema:
+            $ref: "#/definitions/DeleteBasketResponse"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/{basketId}/broadbandPackage/{packageId}/appointment:
+    put:
+      tags:
+        - "Package"
+      summary: "Update an existing Appointment information in Broadband Package"
+      description: "Update an existing Broadband package"
+      operationId: "updateBroadbandPackageUsingPUT_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "appointmentWindow"
+          description: "Request Body for updating the package being requested"
+          required: true
+          schema:
+            $ref: "#/definitions/AppointmentWindow"
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the BasketPersistenceEntity being requested"
+          required: true
+          type: "string"
+        - name: "packageId"
+          in: "path"
+          description: "Unique Id of the Package being requested"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        204:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/{basketId}/broadbandPackage/{packageId}/premiseAndServicePoint:
+    put:
+      tags:
+        - "Package"
+      summary: "Update an existing PremiseAndServicePoint in Broadband Package"
+      description: "Update an existing Broadband package"
+      operationId: "updatePremiseAndServicePointUsingPUT_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "packageId"
+          in: "path"
+          description: "Unique Id of the Package being requested"
+          required: true
+          type: "string"
+        - in: "body"
+          name: "premiseAndServicePoint"
+          description: "Request Body for updating the package being requested"
+          required: true
+          schema:
+            $ref: "#/definitions/PremiseAndServicePoint"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        204:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/{basketId}/broadbandPackage/{packageId}/serviceStartDate:
+    put:
+      tags:
+        - "Package"
+      summary: "Update an existing Service Start Date information in Broadband Package"
+      description: "Update an existing Broadband package"
+      operationId: "updateServiceStartDateUsingPUT_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "packageId"
+          in: "path"
+          description: "Unique Id of the Package being requested"
+          required: true
+          type: "string"
+        - in: "body"
+          name: "serviceStartDateRequest"
+          description: "Request Body for updating the package being requested"
+          required: true
+          schema:
+            $ref: "#/definitions/ServiceStartDateRequest"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        204:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/{basketId}/combiPackage/{combiPackageId}:
+    delete:
+      tags:
+        - "Package"
+      summary: "Deletes an existing combi package"
+      description: "Deletes an existing Combi packages"
+      operationId: "deleteCombiPackageUsingDELETE_1"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "combiPackageId"
+          in: "path"
+          description: "Unique Id of the Package being requested"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        204:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/{basketId}/empty:
+    post:
+      tags:
+        - "Basket"
+      summary: "Deletes the Basket content"
+      description: "Deletes the Basket content"
+      operationId: "emptyBasketUsingPOST_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/EmptyBasketResponse"
+        204:
+          description: "No Content"
+          schema:
+            $ref: "#/definitions/EmptyBasketResponse"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/{basketId}/journey:
+    put:
+      tags:
+        - "Basket"
+      summary: "Update an existing Journey with new journey details"
+      description: "Update an existing Journey with new journey details"
+      operationId: "updateJourneyUsingPUT_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - in: "body"
+          name: "journey"
+          description: "Request Body for updating the Journey being requested"
+          required: true
+          schema:
+            $ref: "#/definitions/Journey"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        204:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/{basketId}/package:
+    post:
+      tags:
+        - "Package"
+      summary: "Create a new package"
+      description: "Create a new package"
+      operationId: "addPackageUsingPOST_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "addPackage"
+          description: "Request Body of the Package to be added being requested"
+          required: true
+          schema:
+            $ref: "#/definitions/AddPackage"
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/CreatePackageResponse"
+        201:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/CreatePackageResponse"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/{basketId}/package/{packageId}:
+    get:
+      tags:
+        - "Package"
+      summary: "Get the package details for the given basket Id and package Id"
+      description: "Get the package details for the given basket Id and package Id"
+      operationId: "readMiniPackageUsingGET_1"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "packageId"
+          in: "path"
+          description: "Unique Id of the Pacakge being requested"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/MiniPackage"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+    put:
+      tags:
+        - "Package"
+      summary: "Update an existing package"
+      description: "Update an existing package"
+      operationId: "updatePackageUsingPUT_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "packageId"
+          in: "path"
+          description: "Unique Id of the Package being requested"
+          required: true
+          type: "string"
+        - in: "body"
+          name: "updatePackage"
+          description: "Request Body for updating the package being requested"
+          required: true
+          schema:
+            $ref: "#/definitions/UpdatePackage"
+      responses:
+        200:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/ModelPackage"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+    delete:
+      tags:
+        - "Package"
+      summary: "Deletes an existing package"
+      description: "Deletes an existing package"
+      operationId: "deletePackageUsingDELETE_1"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "packageId"
+          in: "path"
+          description: "Unique Id of the Package being requested"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        204:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/{basketId}/package/{packageId}/bundle/portability:
+    put:
+      tags:
+        - "Package"
+      summary: "Update an existing bundle with portability info"
+      description: "Update an existing bundle with portability info"
+      operationId: "updateBundlePortabilityUsingPUT_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "packageId"
+          in: "path"
+          description: "Unique Id of the Package being requested"
+          required: true
+          type: "string"
+        - in: "body"
+          name: "portability"
+          description: "Request Body for updating the portability info"
+          required: true
+          schema:
+            $ref: "#/definitions/Portability"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        204:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+    delete:
+      tags:
+        - "Package"
+      summary: "Delete portability from an existing bundle"
+      description: "Delete portability from an existing bundle"
+      operationId: "deleteBundlePortabilityUsingDELETE_1"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "packageId"
+          in: "path"
+          description: "Unique Id of the Package being requested"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        204:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/{basketId}/package/{packageId}/deviceFinancingOption:
+    put:
+      tags:
+        - "Package"
+      summary: "Update an existing Package with Financing Option"
+      description: "Update an existing package with device financing option"
+      operationId: "updateFinancingOptionUsingPUT_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "packageId"
+          in: "path"
+          description: "Unique Id of the Package being requested"
+          required: true
+          type: "string"
+        - in: "body"
+          name: "updateFinancingOptionRequest"
+          description: "Request Body for updating the package being requested"
+          required: true
+          schema:
+            $ref: "#/definitions/UpdateFinancingOptionRequest"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/Basket"
+        204:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/Basket"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/{basketId}/package/{packageId}/hardware/{hardwareId}:
+    put:
+      tags:
+        - "Package"
+      summary: "Update an existing hardware in Package"
+      description: "Update an existing hardware 1. A PAYG device with another payG device 2. A payg Device to Select Device Financing option 3.A PayG device to Deselect the Device financing option . "
+      operationId: "updateHardwareUsingPUT_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "hardwareId"
+          in: "path"
+          description: "Unique Id of the Hardware being requested"
+          required: true
+          type: "string"
+        - name: "packageId"
+          in: "path"
+          description: "Unique Id of the Package being requested"
+          required: true
+          type: "string"
+        - in: "body"
+          name: "updateHardwareRequest"
+          description: "Request Body for updating hardare or  the DeviceFinancing Option etc"
+          required: true
+          schema:
+            $ref: "#/definitions/AddDevice"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        204:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/{basketId}/package/{packageId}/primaryDeviceIdentifier:
+    put:
+      tags:
+        - "Package"
+      summary: "Update an existing Package with devicePrimaryIdentifier when hardware productClass is eHandset"
+      description: "Update an existing package with devicePrimaryIdentifier when hardware productClass is eHandset"
+      operationId: "updatePrimaryDeviceIdentifierUsingPUT"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "packageId"
+          in: "path"
+          description: "Unique Id of the Package being requested"
+          required: true
+          type: "string"
+        - in: "body"
+          name: "updatePrimaryDeviceIdentifierRequest"
+          description: "Request Body for updating the package being requested"
+          required: true
+          schema:
+            $ref: "#/definitions/PrimaryDeviceIdentifierRequest"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        204:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/ResponseEntity"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: true
+  /v2/basket/{basketId}/package/{packageId}/product:
+    post:
+      tags:
+        - "Package"
+      summary: "Adding a extra/Accessory to an existing package"
+      description: "Adding a extra/Accessory to an existing package"
+      operationId: "addExtrasUsingPOST_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "addProductRequest"
+          description: "Request Body for Add Extras being requested"
+          required: true
+          schema:
+            $ref: "#/definitions/AddProductRequest"
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "packageId"
+          in: "path"
+          description: "Unique Id of the Package being requested"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/CreatePackageResponse"
+        201:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/CreatePackageResponse"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        409:
+          description: "Conflict"
+          schema:
+            $ref: "#/definitions/CompatiblityResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/{basketId}/package/{packageId}/product/{productLineId}:
+    delete:
+      tags:
+        - "Package"
+      summary: "Deletes an existing package extra and accessories"
+      description: "Deletes an existing package extra and accessories"
+      operationId: "removeExtrasFromPackageUsingDELETE_1"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "packageId"
+          in: "path"
+          description: "Unique Package Id being requested"
+          required: true
+          type: "string"
+        - name: "productLineId"
+          in: "path"
+          description: "ProductLine Id of extras to be removed being requested"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/CreatePackageResponse"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        409:
+          description: "Conflict"
+          schema:
+            $ref: "#/definitions/CompatiblityResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/{basketId}/package/{packageId}/productLine/{productLineId}:
+    delete:
+      tags:
+        - "Package"
+      summary: "Deletes an existing package extra and accessories"
+      description: "This API is deprecating. Please use /{basketId}/package/{packageId}/product/{productLineId}"
+      operationId: "removeExtrasUsingDELETE_1"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "packageId"
+          in: "path"
+          description: "Unique Package Id being requested"
+          required: true
+          type: "string"
+        - name: "productLineId"
+          in: "path"
+          description: "ProductLine Id of extras to be removed being requested"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "OK"
+          schema:
+            $ref: "#/definitions/CreatePackageResponse"
+        201:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/CreatePackageResponse"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        409:
+          description: "Conflict"
+          schema:
+            $ref: "#/definitions/CompatiblityResponse"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: true
+  /v2/basket/{basketId}/validate:
+    post:
+      tags:
+        - "Basket"
+      summary: "Validate the basket contents"
+      description: "Validate the basket contents"
+      operationId: "validateBasketUsingPOST_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/CompatiblityResponse"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+  /v2/basket/{basketId}/voucher/{voucherCode}:
+    put:
+      tags:
+        - "Voucher"
+      summary: "Apply Voucher to the Basket Service"
+      description: "Apply Voucher to the Basket Service"
+      operationId: "applyVoucherUsingPUT_1"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "voucherCode"
+          in: "path"
+          description: "Voucher code to be applied being requested"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/Basket"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        409:
+          description: "Conflict"
+          schema:
+            $ref: "#/definitions/Basket"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+    delete:
+      tags:
+        - "Voucher"
+      summary: "Remove Voucher to the Basket Service"
+      description: "Remove Voucher to the Basket Service"
+      operationId: "removeVoucherUsingDELETE_1"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "basketId"
+          in: "path"
+          description: "Unique Id of the Basket being requested"
+          required: true
+          type: "string"
+        - name: "voucherCode"
+          in: "path"
+          description: "Voucher code to be removed being requested"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "Success"
+          schema:
+            $ref: "#/definitions/Basket"
+        400:
+          description: "Bad Request"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal Server Error"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+      deprecated: false
+definitions:
+  AccessLine:
+    type: "object"
+    properties:
+      channelId:
+        type: "string"
+      id:
+        type: "string"
+    title: "AccessLine"
+  ActiveBundle:
+    type: "object"
+    properties:
+      activeDiscounts:
+        type: "array"
+        items:
+          $ref: "#/definitions/ActiveDiscount"
+      assetIntegrationId:
+        type: "string"
+      bundleId:
+        type: "string"
+      bundlePrice:
+        $ref: "#/definitions/ActiveBundlePrice"
+      identifier:
+        $ref: "#/definitions/Tuple"
+      isActiveSubscription:
+        type: "boolean"
+      packageLineId:
+        type: "string"
+    title: "ActiveBundle"
+  ActiveBundlePrice:
+    type: "object"
+    properties:
+      bundleId:
+        type: "string"
+      merchandisingPromotions:
+        $ref: "#/definitions/MerchandisingPromotion"
+      monthlyDiscountPrice:
+        $ref: "#/definitions/Price"
+      monthlyPrice:
+        $ref: "#/definitions/Price"
+    title: "ActiveBundlePrice"
+  ActiveDiscount:
+    type: "object"
+    properties:
+      discountId:
+        type: "string"
+      offerId:
+        type: "string"
+      qualifier:
+        $ref: "#/definitions/Tuple"
+    title: "ActiveDiscount"
+  AddActiveBundle:
+    type: "object"
+    properties:
+      activeDiscounts:
+        type: "array"
+        items:
+          $ref: "#/definitions/AddActiveDiscount"
+      assetIntegrationId:
+        type: "string"
+      bundleId:
+        type: "string"
+      identifier:
+        $ref: "#/definitions/Tuple"
+    title: "AddActiveBundle"
+  AddActiveDiscount:
+    type: "object"
+    properties:
+      discountId:
+        type: "string"
+    title: "AddActiveDiscount"
+  AddDevice:
+    type: "object"
+    properties:
+      action:
+        type: "string"
+      attributes:
+        type: "array"
+        items:
+          $ref: "#/definitions/Attribute"
+      contractOptions:
+        $ref: "#/definitions/ContractOptions"
+      skuId:
+        type: "string"
+    title: "AddDevice"
+  AddPackage:
+    type: "object"
+    properties:
+      accountCategory:
+        type: "string"
+      additionalDetails:
+        type: "object"
+        additionalProperties:
+          type: "string"
+      appointmentWindow:
+        $ref: "#/definitions/AppointmentWindow"
+      bundle:
+        $ref: "#/definitions/AddProduct"
+      confirmRequired:
+        type: "boolean"
+      deviceFinancingId:
+        type: "string"
+      hardwares:
+        type: "array"
+        items:
+          $ref: "#/definitions/AddDevice"
+      installationAddress:
+        $ref: "#/definitions/InstallationAddress"
+      linePackageType:
+        type: "string"
+      lineTreatmentType:
+        type: "string"
+      packageLinkIdentifier:
+        type: "string"
+      packageType:
+        type: "string"
+      phoneNumber:
+        type: "string"
+      primaryDeviceIdentifier:
+        type: "string"
+      servicePoint:
+        $ref: "#/definitions/ServicePoint"
+      serviceStartDate:
+        type: "string"
+      services:
+        type: "array"
+        items:
+          $ref: "#/definitions/AddProduct"
+    title: "AddPackage"
+  AddProduct:
+    type: "object"
+    properties:
+      action:
+        type: "string"
+      attributes:
+        type: "array"
+        items:
+          $ref: "#/definitions/Attribute"
+      skuId:
+        type: "string"
+    title: "AddProduct"
+  AddProductRequest:
+    type: "object"
+    properties:
+      products:
+        type: "array"
+        items:
+          $ref: "#/definitions/Product"
+    title: "AddProductRequest"
+  Allowance:
+    type: "object"
+    properties:
+      displayUom:
+        type: "string"
+      tilUom:
+        type: "string"
+      type:
+        type: "string"
+      uom:
+        type: "string"
+      value:
+        type: "string"
+    title: "Allowance"
+  AppointmentWindow:
+    type: "object"
+    properties:
+      endTime:
+        type: "string"
+      identificationId:
+        type: "string"
+      operationalPreferenceCode:
+        type: "string"
+      siteNotes:
+        type: "array"
+        items:
+          $ref: "#/definitions/SiteNote"
+      startDateTime:
+        type: "string"
+      startTime:
+        type: "string"
+      timeSlot:
+        type: "string"
+    title: "AppointmentWindow"
+  Attribute:
+    type: "object"
+    properties:
+      name:
+        type: "string"
+      value:
+        type: "string"
+    title: "Attribute"
+  AvailableServices:
+    type: "object"
+    properties:
+      service:
+        type: "array"
+        items:
+          type: "string"
+    title: "AvailableServices"
+  Basket:
+    type: "object"
+    properties:
+      activeBundles:
+        type: "array"
+        items:
+          $ref: "#/definitions/ActiveBundle"
+      affiliateFlag:
+        type: "boolean"
+      affiliateId:
+        type: "string"
+      basketId:
+        type: "string"
+      changeCode:
+        type: "string"
+      combiPackageIds:
+        type: "array"
+        items:
+          type: "string"
+      customerRequestedDate:
+        type: "string"
+      deliveryInfo:
+        $ref: "#/definitions/DeliveryInfo"
+      hashvalue:
+        type: "string"
+      isChanged:
+        type: "boolean"
+      journey:
+        $ref: "#/definitions/Journey"
+      lastModified:
+        type: "string"
+        example: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"
+      metadata:
+        $ref: "#/definitions/Metadata"
+      packages:
+        type: "array"
+        items:
+          $ref: "#/definitions/ModelPackage"
+      priceDetails:
+        $ref: "#/definitions/PriceDetails"
+      priceProposal:
+        type: "array"
+        items:
+          $ref: "#/definitions/PriceProposal"
+      source:
+        type: "string"
+      splitDeliveryEligible:
+        type: "boolean"
+      totalMonthlyPriceSaving:
+        type: "string"
+      totalOneoffPriceSaving:
+        type: "string"
+      validated:
+        type: "boolean"
+      vetOutcome:
+        $ref: "#/definitions/VetOutcome"
+      voucherCode:
+        type: "string"
+      voucherDescription:
+        type: "string"
+      voucherErrorMessage:
+        type: "string"
+    title: "Basket"
+  Bundle:
+    type: "object"
+    properties:
+      action:
+        type: "string"
+      allowances:
+        type: "array"
+        items:
+          $ref: "#/definitions/Allowance"
+      attributes:
+        type: "array"
+        items:
+          $ref: "#/definitions/Attribute"
+      bundleClass:
+        type: "string"
+      bundleType:
+        type: "string"
+      bundledServiceProducts:
+        type: "array"
+        items:
+          $ref: "#/definitions/BundledServiceProduct"
+      commitmentPeriod:
+        $ref: "#/definitions/CommitmentPeriod"
+      description:
+        type: "string"
+      displayDescription:
+        type: "string"
+      displayName:
+        type: "string"
+      displayOrder:
+        type: "integer"
+        format: "int32"
+      isChanged:
+        type: "boolean"
+      isVodafoneGlobalRoaming:
+        type: "boolean"
+      merchandisingMedia:
+        type: "array"
+        items:
+          $ref: "#/definitions/MediaLink"
+      name:
+        type: "string"
+      packageLineId:
+        type: "string"
+      paymentType:
+        type: "string"
+      planCategory:
+        type: "string"
+      portability:
+        $ref: "#/definitions/Portability"
+      priceDetails:
+        $ref: "#/definitions/BundlePrice"
+      productClass:
+        type: "string"
+      serviceId:
+        type: "string"
+      showInSummary:
+        type: "boolean"
+      skuId:
+        type: "string"
+    title: "Bundle"
+  BundlePrice:
+    type: "object"
+    properties:
+      listOfMerchandisingPromotion:
+        type: "array"
+        items:
+          $ref: "#/definitions/MerchandisingPromotion"
+      merchandisingPromotions:
+        $ref: "#/definitions/MerchandisingPromotion"
+      monthlyDiscountPrice:
+        $ref: "#/definitions/Price"
+      monthlyPrice:
+        $ref: "#/definitions/Price"
+      removedPromotionFootNote:
+        type: "string"
+      totalSavingsAmount:
+        $ref: "#/definitions/DecimalPrice"
+    title: "BundlePrice"
+  BundledServiceProduct:
+    type: "object"
+    properties:
+      description:
+        type: "string"
+      miscellaneous:
+        type: "array"
+        items:
+          $ref: "#/definitions/Attribute"
+      name:
+        type: "string"
+      priceDetail:
+        $ref: "#/definitions/ServicePrice"
+      productClass:
+        type: "string"
+      servicePointId:
+        type: "string"
+      skuId:
+        type: "string"
+    title: "BundledServiceProduct"
+  CardinalityIncompatibility:
+    type: "object"
+    properties:
+      groupCardinality:
+        type: "string"
+      productIds:
+        type: "array"
+        items:
+          type: "string"
+      relationCardinality:
+        type: "string"
+    title: "CardinalityIncompatibility"
+  CommitmentPeriod:
+    type: "object"
+    properties:
+      uom:
+        type: "string"
+      value:
+        type: "string"
+    title: "CommitmentPeriod"
+  CompatibilityPackage:
+    type: "object"
+    properties:
+      incompatibleProducts:
+        type: "array"
+        items:
+          $ref: "#/definitions/IncompatibleChildProduct"
+    title: "CompatibilityPackage"
+  CompatiblityResponse:
+    type: "object"
+    properties:
+      packages:
+        type: "array"
+        items:
+          $ref: "#/definitions/CompatibilityPackage"
+      valid:
+        type: "boolean"
+    title: "CompatiblityResponse"
+  ContractOptions:
+    type: "object"
+    properties:
+      customerType:
+        type: "string"
+      duration:
+        $ref: "#/definitions/Duration"
+      upFrontPrice:
+        type: "number"
+        format: "double"
+    title: "ContractOptions"
+  CreateBasketRequest:
+    type: "object"
+    properties:
+      activeBundles:
+        type: "array"
+        items:
+          $ref: "#/definitions/AddActiveBundle"
+      affiliateFlag:
+        type: "boolean"
+      affiliateId:
+        type: "string"
+      customerRequestedDate:
+        type: "string"
+      journey:
+        $ref: "#/definitions/Journey"
+      packages:
+        type: "array"
+        items:
+          $ref: "#/definitions/AddPackage"
+      returnURL:
+        type: "string"
+      source:
+        type: "string"
+    title: "CreateBasketRequest"
+  CreatePackageResponse:
+    type: "object"
+    properties:
+      accountCategory:
+        type: "string"
+      bundle:
+        $ref: "#/definitions/Bundle"
+      combiPackageId:
+        type: "string"
+      dependentOn:
+        type: "array"
+        items:
+          type: "string"
+      discounts:
+        type: "array"
+        items:
+          $ref: "#/definitions/Discount"
+      hardwares:
+        type: "array"
+        items:
+          $ref: "#/definitions/Hardware"
+      isChanged:
+        type: "boolean"
+      packageId:
+        type: "string"
+      packageType:
+        type: "string"
+      priceDetails:
+        $ref: "#/definitions/PackagePriceDetails"
+      removable:
+        type: "boolean"
+      sequence:
+        type: "integer"
+        format: "int32"
+      services:
+        type: "array"
+        items:
+          $ref: "#/definitions/Service"
+      voucherCode:
+        type: "string"
+    title: "CreatePackageResponse"
+  DecimalPrice:
+    type: "object"
+    properties:
+      gross:
+        type: "number"
+        example: 12
+        description: "The GROSS component of price (price including VAT)"
+      net:
+        type: "number"
+        example: 10
+        description: "The NET component of price"
+      uom:
+        type: "string"
+        example: "£"
+        description: "The unit of measure. Applies to net, vat & gross values"
+      vat:
+        type: "number"
+        example: 2
+        description: "The VAT component of price"
+    title: "DecimalPrice"
+  DeleteBasketResponse:
+    type: "object"
+    properties:
+      basketId:
+        type: "string"
+    title: "DeleteBasketResponse"
+  DeliveryInfo:
+    type: "object"
+    properties:
+      availableFrom:
+        type: "string"
+      deliveryType:
+        type: "string"
+      displayName:
+        type: "string"
+      price:
+        $ref: "#/definitions/Price"
+      skuId:
+        type: "string"
+      stockStatus:
+        type: "string"
+      storeInfo:
+        $ref: "#/definitions/StoreInfo"
+    title: "DeliveryInfo"
+  DeviceBriefDescription:
+    type: "object"
+    properties:
+      key:
+        type: "string"
+      type:
+        type: "string"
+      value:
+        type: "string"
+      valueUOM:
+        type: "string"
+    title: "DeviceBriefDescription"
+  DeviceFinancingOption:
+    type: "object"
+    properties:
+      apr:
+        type: "string"
+      deviceFinancingId:
+        type: "string"
+      financeProvider:
+        type: "string"
+      financeTerm:
+        type: "string"
+      monthlyPrice:
+        $ref: "#/definitions/Price"
+      selected:
+        type: "boolean"
+      totalPriceWithInterest:
+        $ref: "#/definitions/Price"
+    title: "DeviceFinancingOption"
+  DevicePaymentPlan:
+    type: "object"
+    properties:
+      aprRepresentative:
+        type: "string"
+      description:
+        type: "string"
+      duration:
+        $ref: "#/definitions/Duration"
+      interestRate:
+        type: "string"
+      monthlyPrice:
+        $ref: "#/definitions/DevicePrice"
+      totalHandsetCredit:
+        $ref: "#/definitions/DevicePrice"
+      totalHandsetPrice:
+        $ref: "#/definitions/DevicePrice"
+      upFrontPrice:
+        $ref: "#/definitions/DevicePrice"
+    title: "DevicePaymentPlan"
+  DevicePrice:
+    type: "object"
+    properties:
+      gross:
+        type: "string"
+      net:
+        type: "string"
+      uom:
+        type: "string"
+      vat:
+        type: "string"
+    title: "DevicePrice"
+  Discount:
+    type: "object"
+    properties:
+      action:
+        type: "string"
+      confirmedRequired:
+        type: "string"
+      discountValue:
+        $ref: "#/definitions/DiscountValue"
+      duration:
+        type: "string"
+      label:
+        type: "string"
+      merchandisingMedia:
+        type: "array"
+        items:
+          $ref: "#/definitions/MediaLink"
+      productLineId:
+        type: "string"
+      skuId:
+        type: "string"
+      tag:
+        type: "string"
+      tenure:
+        type: "string"
+    title: "Discount"
+  DiscountValue:
+    type: "object"
+    properties:
+      type:
+        type: "string"
+      value:
+        type: "string"
+    title: "DiscountValue"
+  Duration:
+    type: "object"
+    properties:
+      uom:
+        type: "string"
+      value:
+        type: "string"
+    title: "Duration"
+  EmptyBasketResponse:
+    type: "object"
+    properties:
+      basketId:
+        type: "string"
+    title: "EmptyBasketResponse"
+  ErrorResponse:
+    type: "object"
+    properties:
+      errorCode:
+        type: "string"
+      errorMessage:
+        type: "string"
+      referenceId:
+        type: "string"
+      validationDetails:
+        type: "array"
+        items:
+          $ref: "#/definitions/ValidationDetail"
+    title: "ErrorResponse"
+  ExcludesIncompatibility:
+    type: "object"
+    properties:
+      productIds:
+        type: "array"
+        items:
+          type: "string"
+    title: "ExcludesIncompatibility"
+  Hardware:
+    type: "object"
+    properties:
+      action:
+        type: "string"
+      attributes:
+        type: "array"
+        items:
+          $ref: "#/definitions/Attribute"
+      boxPrice:
+        $ref: "#/definitions/Price"
+      contractOptions:
+        $ref: "#/definitions/ContractOptions"
+      description:
+        type: "string"
+      deviceBriefDescription:
+        type: "array"
+        items:
+          $ref: "#/definitions/DeviceBriefDescription"
+      deviceColor:
+        type: "string"
+      devicePromotion:
+        type: "string"
+      displayDescription:
+        type: "string"
+      displayName:
+        type: "string"
+      displayOrder:
+        type: "integer"
+        format: "int32"
+      freeGift:
+        type: "boolean"
+      groupType:
+        type: "string"
+      isChanged:
+        type: "boolean"
+      isCompatibleWithWatch:
+        type: "boolean"
+      make:
+        type: "string"
+      memorySize:
+        type: "string"
+      merchandisingMedia:
+        type: "array"
+        items:
+          $ref: "#/definitions/MediaLink"
+      model:
+        type: "string"
+      name:
+        type: "string"
+      packageLineId:
+        type: "string"
+      priceDetails:
+        $ref: "#/definitions/HardwarePrice"
+      productClass:
+        type: "string"
+      showInSummary:
+        type: "boolean"
+      simType:
+        type: "string"
+        enum:
+          - "ESIMONLY"
+          - "HYBRID"
+          - "PHYSICAL"
+      skuId:
+        type: "string"
+    title: "Hardware"
+  HardwarePrice:
+    type: "object"
+    properties:
+      deviceFinancingId:
+        type: "string"
+      devicePaymentPlan:
+        $ref: "#/definitions/DevicePaymentPlan"
+      financingOptions:
+        type: "array"
+        items:
+          $ref: "#/definitions/DeviceFinancingOption"
+      merchandisingPromotions:
+        $ref: "#/definitions/MerchandisingPromotion"
+      monthlyDiscountPrice:
+        $ref: "#/definitions/Price"
+      monthlyPrice:
+        $ref: "#/definitions/Price"
+      oneOffDiscountPrice:
+        $ref: "#/definitions/Price"
+      oneOffPrice:
+        $ref: "#/definitions/Price"
+    title: "HardwarePrice"
+  Identification:
+    type: "object"
+    properties:
+      contextId:
+        type: "string"
+      id:
+        type: "string"
+    title: "Identification"
+  IncompatibleChildProduct:
+    type: "object"
+    properties:
+      cardinalityIncompatibility:
+        $ref: "#/definitions/CardinalityIncompatibility"
+      excludesIncompatibility:
+        $ref: "#/definitions/ExcludesIncompatibility"
+      productId:
+        type: "string"
+      requiresIncompatibility:
+        $ref: "#/definitions/RequiresIncompatibility"
+      unavailable:
+        type: "boolean"
+    title: "IncompatibleChildProduct"
+  InstallationAddress:
+    type: "object"
+    properties:
+      citySubDivisionName:
+        type: "string"
+      country:
+        type: "string"
+      county:
+        type: "string"
+      flatNumber:
+        type: "string"
+      houseName:
+        type: "string"
+      houseNumber:
+        type: "string"
+      identification:
+        $ref: "#/definitions/Identification"
+      locality:
+        type: "string"
+      moveTypeCode:
+        type: "string"
+      postCode:
+        type: "string"
+      streetName:
+        type: "string"
+      town:
+        type: "string"
+    title: "InstallationAddress"
+  ItemReference:
+    type: "object"
+    properties:
+      classificationCode:
+        type: "string"
+      identificationId:
+        type: "string"
+      name:
+        type: "string"
+    title: "ItemReference"
+  Journey:
+    type: "object"
+    properties:
+      journeyType:
+        type: "string"
+      offerCode:
+        type: "string"
+    title: "Journey"
+  LineDirectory:
+    type: "object"
+    properties:
+      directoryCode:
+        type: "string"
+      featureCode:
+        type: "string"
+      locationCode:
+        type: "string"
+    title: "LineDirectory"
+  LineLocator:
+    type: "object"
+    properties:
+      cableLinkID:
+        type: "string"
+      distributionPoint:
+        type: "string"
+      districtCode:
+        type: "string"
+      exchangeCode:
+        type: "string"
+      exchangeName:
+        type: "string"
+      l2SID:
+        type: "string"
+    title: "LineLocator"
+  LineReference:
+    type: "object"
+    properties:
+      availableServices:
+        $ref: "#/definitions/AvailableServices"
+      lineDirectory:
+        type: "array"
+        items:
+          $ref: "#/definitions/LineDirectory"
+      lineLocator:
+        $ref: "#/definitions/LineLocator"
+      lineSettings:
+        $ref: "#/definitions/LineSettings"
+      lineStatus:
+        $ref: "#/definitions/LineStatus"
+    title: "LineReference"
+  LineSettings:
+    type: "object"
+    properties:
+      installationCode:
+        type: "string"
+      serviceCode:
+        type: "string"
+      terminationCode:
+        type: "string"
+    title: "LineSettings"
+  LineSpeeds:
+    type: "object"
+    properties:
+      avgDownSpeed:
+        type: "string"
+      bandwidthMeasure:
+        type: "string"
+      maxDownSpeed:
+        type: "string"
+      maxUpSpeed:
+        type: "string"
+      minDownSpeed:
+        type: "string"
+      minGuaranteedDownSpeed:
+        type: "string"
+      minUpSpeed:
+        type: "string"
+    title: "LineSpeeds"
+  LineStatus:
+    type: "object"
+    properties:
+      accessLineStatus:
+        type: "string"
+      gnpStatus:
+        type: "string"
+      lineOption:
+        type: "string"
+      lineType:
+        type: "string"
+      narrowBandServicesAvailable:
+        type: "string"
+      standbyPowerRequired:
+        type: "boolean"
+      statusCode:
+        type: "string"
+      technology:
+        type: "string"
+      tempStructure:
+        type: "boolean"
+    title: "LineStatus"
+  LineTreatment:
+    type: "object"
+    properties:
+      appointmentNeeded:
+        type: "boolean"
+      connectionCharge:
+        type: "string"
+      earliestAvailableDate:
+        type: "string"
+      identification:
+        type: "string"
+      preOrder:
+        type: "boolean"
+      registerOfInterest:
+        type: "boolean"
+    title: "LineTreatment"
+  MediaLink:
+    type: "object"
+    properties:
+      footNotes:
+        type: "array"
+        items:
+          type: "string"
+      id:
+        type: "string"
+      type:
+        type: "string"
+      value:
+        type: "string"
+    title: "MediaLink"
+  MerchandisingPromotion:
+    type: "object"
+    properties:
+      belowTheLine:
+        type: "string"
+      category:
+        type: "string"
+      confirmRequired:
+        type: "boolean"
+      description:
+        type: "string"
+      discountId:
+        type: "string"
+      footNotes:
+        type: "array"
+        items:
+          type: "string"
+      label:
+        type: "string"
+      mpType:
+        type: "string"
+      offerGroup:
+        type: "string"
+      packageType:
+        type: "array"
+        items:
+          type: "string"
+      priceEstablishedLabel:
+        type: "string"
+      priority:
+        type: "string"
+      qualifier:
+        $ref: "#/definitions/Qualifier"
+      tag:
+        type: "string"
+    title: "MerchandisingPromotion"
+  Metadata:
+    type: "object"
+    properties:
+      basketStatus:
+        type: "string"
+      reason:
+        type: "string"
+      returnURL:
+        type: "string"
+      salesOrderId:
+        type: "string"
+    title: "Metadata"
+  MiniBundle:
+    type: "object"
+    properties:
+      commitmentPeriod:
+        $ref: "#/definitions/CommitmentPeriod"
+      packageLineId:
+        type: "string"
+      priceDetails:
+        $ref: "#/definitions/PriceDetails"
+      skuId:
+        type: "string"
+    title: "MiniBundle"
+  MiniHardware:
+    type: "object"
+    properties:
+      contractOptions:
+        $ref: "#/definitions/ContractOptions"
+      packageLineId:
+        type: "string"
+      priceDetails:
+        $ref: "#/definitions/PriceDetails"
+      skuId:
+        type: "string"
+    title: "MiniHardware"
+  MiniPackage:
+    type: "object"
+    properties:
+      accessories:
+        type: "array"
+        items:
+          $ref: "#/definitions/MiniHardware"
+      basketId:
+        type: "string"
+      bundle:
+        $ref: "#/definitions/MiniBundle"
+      hardware:
+        $ref: "#/definitions/MiniHardware"
+      insurance:
+        $ref: "#/definitions/MiniService"
+      packageId:
+        type: "string"
+      passes:
+        type: "array"
+        items:
+          $ref: "#/definitions/MiniService"
+      priceDetails:
+        $ref: "#/definitions/PriceDetails"
+    title: "MiniPackage"
+  MiniService:
+    type: "object"
+    properties:
+      packageLineId:
+        type: "string"
+      skuId:
+        type: "string"
+    title: "MiniService"
+  MiscReference:
+    type: "object"
+    properties:
+      anfp:
+        type: "string"
+      customerAgreedDate:
+        type: "string"
+      installationType:
+        type: "string"
+      lineLength:
+        type: "string"
+      readyForServiceDate:
+        type: "string"
+      serviceProviderName:
+        type: "string"
+    title: "MiscReference"
+  ModelPackage:
+    type: "object"
+    properties:
+      accountCategory:
+        type: "string"
+      additionalDetails:
+        type: "object"
+        additionalProperties:
+          type: "string"
+      appointmentWindow:
+        $ref: "#/definitions/AppointmentWindow"
+      bundle:
+        $ref: "#/definitions/Bundle"
+      combiPackageId:
+        type: "string"
+      dependentOn:
+        type: "array"
+        items:
+          type: "string"
+      deviceFinancingId:
+        type: "string"
+      discounts:
+        type: "array"
+        items:
+          $ref: "#/definitions/Discount"
+      hardwares:
+        type: "array"
+        items:
+          $ref: "#/definitions/Hardware"
+      installationAddress:
+        $ref: "#/definitions/InstallationAddress"
+      isChanged:
+        type: "boolean"
+      linePackageType:
+        type: "string"
+      lineTreatmentType:
+        type: "string"
+      packageId:
+        type: "string"
+      packageLinkIdentifier:
+        type: "string"
+      packageType:
+        type: "string"
+      phoneNumber:
+        type: "string"
+      planType:
+        type: "string"
+      priceDetails:
+        $ref: "#/definitions/PackagePriceDetails"
+      primaryDeviceIdentifier:
+        type: "string"
+      removable:
+        type: "boolean"
+      sequence:
+        type: "integer"
+        format: "int32"
+      servicePoint:
+        $ref: "#/definitions/ServicePoint"
+      serviceStartDate:
+        type: "string"
+      services:
+        type: "array"
+        items:
+          $ref: "#/definitions/Service"
+      voucherCode:
+        type: "string"
+    title: "ModelPackage"
+  PackagePriceDetails:
+    type: "object"
+    properties:
+      financingOptions:
+        type: "array"
+        items:
+          $ref: "#/definitions/DeviceFinancingOption"
+      monthlyDiscountPrice:
+        $ref: "#/definitions/Price"
+      monthlyPrice:
+        $ref: "#/definitions/Price"
+      oneOffDiscountPrice:
+        $ref: "#/definitions/Price"
+      oneOffPrice:
+        $ref: "#/definitions/Price"
+    title: "PackagePriceDetails"
+  PatchPackage:
+    type: "object"
+    properties:
+      packageLinkIdentifier:
+        type: "string"
+      primaryDeviceIdentifier:
+        type: "string"
+      simPatchType:
+        type: "string"
+        enum:
+          - "ESIM"
+          - "PHYSICAL"
+    title: "PatchPackage"
+  PendingOrder:
+    type: "object"
+    properties:
+      completionDate:
+        type: "string"
+      thirdPartyFlag:
+        type: "string"
+      typeCode:
+        type: "string"
+    title: "PendingOrder"
+  Portability:
+    type: "object"
+    properties:
+      code:
+        type: "string"
+      codeType:
+        type: "string"
+        enum:
+          - "PAC"
+          - "STAC"
+      donorNetworkOperator:
+        type: "string"
+      donorServiceProvider:
+        type: "string"
+      expiryDate:
+        type: "string"
+        format: "date-time"
+      msisdn:
+        type: "string"
+      reason:
+        type: "string"
+      reasonCode:
+        type: "string"
+      status:
+        type: "string"
+        enum:
+          - "VALID"
+          - "INVALID"
+      validPortDate:
+        type: "string"
+        format: "date-time"
+    title: "Portability"
+  PremiseAndServicePoint:
+    type: "object"
+    properties:
+      installationAddress:
+        $ref: "#/definitions/InstallationAddress"
+      linePackageType:
+        type: "string"
+      lineTreatmentType:
+        type: "string"
+      phoneNumber:
+        type: "string"
+      servicePoint:
+        $ref: "#/definitions/ServicePoint"
+    title: "PremiseAndServicePoint"
+  Price:
+    type: "object"
+    properties:
+      gross:
+        type: "string"
+      net:
+        type: "string"
+      vat:
+        type: "string"
+    title: "Price"
+  PriceDetails:
+    type: "object"
+    properties:
+      monthlyDiscountPrice:
+        $ref: "#/definitions/Price"
+      monthlyPrice:
+        $ref: "#/definitions/Price"
+      oneOffDiscountPrice:
+        $ref: "#/definitions/Price"
+      oneOffPrice:
+        $ref: "#/definitions/Price"
+    title: "PriceDetails"
+  PriceProposal:
+    type: "object"
+    properties:
+      packageId:
+        type: "string"
+      productDetail:
+        $ref: "#/definitions/PriceProposalProductDetail"
+      promotionType:
+        type: "string"
+        enum:
+          - "CROSS_SELL"
+      qualifyingLine:
+        $ref: "#/definitions/ProposalQualifier"
+      saving:
+        $ref: "#/definitions/PriceProposalSaving"
+    title: "PriceProposal"
+  PriceProposalProductDetail:
+    type: "object"
+    properties:
+      category:
+        type: "string"
+        enum:
+          - "SIMO_24"
+          - "SIMO_18"
+          - "FTR6"
+          - "WATCH"
+      lineType:
+        type: "string"
+        enum:
+          - "QUALIFYING_LINE"
+          - "REWARD_LINE"
+    title: "PriceProposalProductDetail"
+  PriceProposalSaving:
+    type: "object"
+    properties:
+      exact:
+        $ref: "#/definitions/ProposalSavingValue"
+      maximum:
+        $ref: "#/definitions/ProposalSavingValue"
+      minimum:
+        $ref: "#/definitions/ProposalSavingValue"
+    title: "PriceProposalSaving"
+  PrimaryDeviceIdentifierRequest:
+    type: "object"
+    properties:
+      primaryDeviceIdentifier:
+        type: "string"
+    title: "PrimaryDeviceIdentifierRequest"
+  Product:
+    type: "object"
+    properties:
+      action:
+        type: "string"
+      deviceFinancingId:
+        type: "string"
+      productType:
+        type: "string"
+      skuId:
+        type: "string"
+    title: "Product"
+  ProposalQualifier:
+    type: "object"
+    properties:
+      bundleId:
+        type: "string"
+      displayName:
+        type: "string"
+      identifier:
+        $ref: "#/definitions/Tuple"
+    title: "ProposalQualifier"
+  ProposalSavingValue:
+    type: "object"
+    properties:
+      message:
+        type: "string"
+      uom:
+        type: "string"
+      value:
+        type: "number"
+        format: "double"
+    title: "ProposalSavingValue"
+  Qualifier:
+    type: "object"
+    properties:
+      bundleId:
+        type: "string"
+      identifier:
+        $ref: "#/definitions/Tuple"
+    title: "Qualifier"
+  RequiresIncompatibility:
+    type: "object"
+    properties:
+      productClasses:
+        type: "array"
+        items:
+          type: "string"
+      productIds:
+        type: "array"
+        items:
+          type: "string"
+      productLines:
+        type: "array"
+        items:
+          type: "string"
+    title: "RequiresIncompatibility"
+  ResponseEntity:
+    type: "object"
+    properties:
+      body:
+        type: "object"
+      statusCode:
+        type: "string"
+        enum:
+          - "100 CONTINUE"
+          - "101 SWITCHING_PROTOCOLS"
+          - "102 PROCESSING"
+          - "103 CHECKPOINT"
+          - "200 OK"
+          - "201 CREATED"
+          - "202 ACCEPTED"
+          - "203 NON_AUTHORITATIVE_INFORMATION"
+          - "204 NO_CONTENT"
+          - "205 RESET_CONTENT"
+          - "206 PARTIAL_CONTENT"
+          - "207 MULTI_STATUS"
+          - "208 ALREADY_REPORTED"
+          - "226 IM_USED"
+          - "300 MULTIPLE_CHOICES"
+          - "301 MOVED_PERMANENTLY"
+          - "302 FOUND"
+          - "302 MOVED_TEMPORARILY"
+          - "303 SEE_OTHER"
+          - "304 NOT_MODIFIED"
+          - "305 USE_PROXY"
+          - "307 TEMPORARY_REDIRECT"
+          - "308 PERMANENT_REDIRECT"
+          - "400 BAD_REQUEST"
+          - "401 UNAUTHORIZED"
+          - "402 PAYMENT_REQUIRED"
+          - "403 FORBIDDEN"
+          - "404 NOT_FOUND"
+          - "405 METHOD_NOT_ALLOWED"
+          - "406 NOT_ACCEPTABLE"
+          - "407 PROXY_AUTHENTICATION_REQUIRED"
+          - "408 REQUEST_TIMEOUT"
+          - "409 CONFLICT"
+          - "410 GONE"
+          - "411 LENGTH_REQUIRED"
+          - "412 PRECONDITION_FAILED"
+          - "413 PAYLOAD_TOO_LARGE"
+          - "413 REQUEST_ENTITY_TOO_LARGE"
+          - "414 URI_TOO_LONG"
+          - "414 REQUEST_URI_TOO_LONG"
+          - "415 UNSUPPORTED_MEDIA_TYPE"
+          - "416 REQUESTED_RANGE_NOT_SATISFIABLE"
+          - "417 EXPECTATION_FAILED"
+          - "418 I_AM_A_TEAPOT"
+          - "419 INSUFFICIENT_SPACE_ON_RESOURCE"
+          - "420 METHOD_FAILURE"
+          - "421 DESTINATION_LOCKED"
+          - "422 UNPROCESSABLE_ENTITY"
+          - "423 LOCKED"
+          - "424 FAILED_DEPENDENCY"
+          - "425 TOO_EARLY"
+          - "426 UPGRADE_REQUIRED"
+          - "428 PRECONDITION_REQUIRED"
+          - "429 TOO_MANY_REQUESTS"
+          - "431 REQUEST_HEADER_FIELDS_TOO_LARGE"
+          - "451 UNAVAILABLE_FOR_LEGAL_REASONS"
+          - "500 INTERNAL_SERVER_ERROR"
+          - "501 NOT_IMPLEMENTED"
+          - "502 BAD_GATEWAY"
+          - "503 SERVICE_UNAVAILABLE"
+          - "504 GATEWAY_TIMEOUT"
+          - "505 HTTP_VERSION_NOT_SUPPORTED"
+          - "506 VARIANT_ALSO_NEGOTIATES"
+          - "507 INSUFFICIENT_STORAGE"
+          - "508 LOOP_DETECTED"
+          - "509 BANDWIDTH_LIMIT_EXCEEDED"
+          - "510 NOT_EXTENDED"
+          - "511 NETWORK_AUTHENTICATION_REQUIRED"
+      statusCodeValue:
+        type: "integer"
+        format: "int32"
+    title: "ResponseEntity"
+  Service:
+    type: "object"
+    properties:
+      action:
+        type: "string"
+      allowances:
+        type: "array"
+        items:
+          $ref: "#/definitions/Allowance"
+      attributes:
+        type: "array"
+        items:
+          $ref: "#/definitions/Attribute"
+      dataRollover:
+        type: "string"
+      description:
+        type: "string"
+      displayDescription:
+        type: "string"
+      displayName:
+        type: "string"
+      freeGift:
+        type: "boolean"
+      isChanged:
+        type: "boolean"
+      merchandisingMedia:
+        type: "array"
+        items:
+          $ref: "#/definitions/MediaLink"
+      name:
+        type: "string"
+      packageLineId:
+        type: "string"
+      planDuration:
+        $ref: "#/definitions/CommitmentPeriod"
+      priceDetails:
+        $ref: "#/definitions/ServicePrice"
+      productClass:
+        type: "string"
+      rewardPoints:
+        type: "string"
+      rootProductId:
+        type: "string"
+      skuId:
+        type: "string"
+      specificationGroup:
+        type: "array"
+        items:
+          $ref: "#/definitions/Specifications"
+    title: "Service"
+  ServiceLine:
+    type: "object"
+    properties:
+      itemReference:
+        $ref: "#/definitions/ItemReference"
+      lineSpeeds:
+        $ref: "#/definitions/LineSpeeds"
+      miscRefernce:
+        $ref: "#/definitions/MiscReference"
+      serviceLineTreatments:
+        type: "array"
+        items:
+          $ref: "#/definitions/ServiceLineTreatment"
+    title: "ServiceLine"
+  ServiceLineTreatment:
+    type: "object"
+    properties:
+      accessLine:
+        $ref: "#/definitions/AccessLine"
+      canNumberBeRetained:
+        type: "boolean"
+      lineInfo:
+        type: "string"
+      parentIdentification:
+        type: "string"
+      pendingOrders:
+        type: "array"
+        items:
+          $ref: "#/definitions/PendingOrder"
+      portInFlag:
+        type: "string"
+      serviceAction:
+        type: "string"
+      serviceType:
+        type: "string"
+      simValue:
+        type: "string"
+      vicCode:
+        type: "string"
+    title: "ServiceLineTreatment"
+  ServiceLines:
+    type: "object"
+    properties:
+      classificationCode:
+        type: "string"
+      lineTreatments:
+        type: "array"
+        items:
+          $ref: "#/definitions/LineTreatment"
+      networkType:
+        type: "string"
+      serviceLines:
+        type: "array"
+        items:
+          $ref: "#/definitions/ServiceLine"
+    title: "ServiceLines"
+  ServicePoint:
+    type: "object"
+    properties:
+      lineReference:
+        $ref: "#/definitions/LineReference"
+      lineRefernece:
+        $ref: "#/definitions/LineReference"
+      serviceReference:
+        $ref: "#/definitions/ServiceReference"
+    title: "ServicePoint"
+  ServicePrice:
+    type: "object"
+    properties:
+      merchandisingPromotions:
+        $ref: "#/definitions/MerchandisingPromotion"
+      monthlyDiscountPrice:
+        $ref: "#/definitions/Price"
+      monthlyPrice:
+        $ref: "#/definitions/Price"
+      oneOffDiscountPrice:
+        $ref: "#/definitions/Price"
+      oneOffPrice:
+        $ref: "#/definitions/Price"
+    title: "ServicePrice"
+  ServiceReference:
+    type: "object"
+    properties:
+      serviceLines:
+        type: "array"
+        items:
+          $ref: "#/definitions/ServiceLines"
+    title: "ServiceReference"
+  ServiceStartDateRequest:
+    type: "object"
+    properties:
+      serviceStartDate:
+        type: "string"
+    title: "ServiceStartDateRequest"
+  SiteNote:
+    type: "object"
+    properties:
+      notes:
+        type: "string"
+      typeCode:
+        type: "string"
+    title: "SiteNote"
+  Specifications:
+    type: "object"
+    properties:
+      comparable:
+        type: "string"
+      description:
+        type: "string"
+      footNote:
+        type: "string"
+      iskey:
+        type: "string"
+      name:
+        type: "string"
+      specPriority:
+        type: "string"
+      value:
+        type: "string"
+      valueType:
+        type: "string"
+      valueUOM:
+        type: "string"
+    title: "Specifications"
+  StoreInfo:
+    type: "object"
+    properties:
+      stockStatus:
+        type: "string"
+      storeAlias:
+        type: "string"
+      storeId:
+        type: "string"
+      storeName:
+        type: "string"
+    title: "StoreInfo"
+  Tuple:
+    type: "object"
+    properties:
+      key:
+        type: "string"
+      value:
+        type: "string"
+    title: "Tuple"
+  UpdateBasketRequest:
+    type: "object"
+    properties:
+      affiliateFlag:
+        type: "boolean"
+      customerRequestedDate:
+        type: "string"
+      deliveryInfo:
+        $ref: "#/definitions/DeliveryInfo"
+      metadata:
+        $ref: "#/definitions/Metadata"
+      removeVoucherCode:
+        type: "boolean"
+      vetOutcome:
+        $ref: "#/definitions/VetOutcome"
+      voucherCode:
+        type: "string"
+    title: "UpdateBasketRequest"
+  UpdateBundle:
+    type: "object"
+    properties:
+      action:
+        type: "string"
+      productLineId:
+        type: "string"
+      skuId:
+        type: "string"
+    title: "UpdateBundle"
+  UpdateDevice:
+    type: "object"
+    properties:
+      action:
+        type: "string"
+      contractOptions:
+        $ref: "#/definitions/ContractOptions"
+      deviceFinancingId:
+        type: "string"
+      productLineId:
+        type: "string"
+      skuId:
+        type: "string"
+    title: "UpdateDevice"
+  UpdateFinancingOptionRequest:
+    type: "object"
+    properties:
+      deviceFinancingId:
+        type: "string"
+    title: "UpdateFinancingOptionRequest"
+  UpdatePackage:
+    type: "object"
+    properties:
+      accountCategory:
+        type: "string"
+      bundle:
+        $ref: "#/definitions/UpdateBundle"
+      confirmRequired:
+        type: "boolean"
+      hardwares:
+        type: "array"
+        items:
+          $ref: "#/definitions/UpdateDevice"
+      packageType:
+        type: "string"
+      services:
+        type: "array"
+        items:
+          $ref: "#/definitions/UpdateService"
+    title: "UpdatePackage"
+  UpdateService:
+    type: "object"
+    properties:
+      action:
+        type: "string"
+      productLineId:
+        type: "string"
+      skuId:
+        type: "string"
+    title: "UpdateService"
+  ValidationDetail:
+    type: "object"
+    properties:
+      errorCode:
+        type: "string"
+      errorMessage:
+        type: "string"
+    title: "ValidationDetail"
+  VetOutcome:
+    type: "object"
+    properties:
+      availableNumberOfConnections:
+        type: "string"
+      availableRecurringChargeLimit:
+        type: "string"
+      creditVetId:
+        type: "string"
+      outcomeCode:
+        type: "string"
+    title: "VetOutcome"

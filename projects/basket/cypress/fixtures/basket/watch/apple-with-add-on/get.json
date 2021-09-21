@@ -1,0 +1,373 @@
+{
+  "basketId": "64cdef57-3ef7-4801-9faf-dd730f3edeeb",
+  "affiliateId": null,
+  "source": "ESHOP",
+  "customerRequestedDate": "2020-09-30T11:08:21.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "SecondLine",
+    "offerCode": "W_HH_IPAD_01"
+  },
+  "packages": [
+    {
+      "packageId": "5c8ca286-0bef-4c0e-bb22-90c34bc02bfa",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "SecondLine",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "64472548-e0ad-4131-8059-3347a777d90b",
+        "action": "ADD",
+        "skuId": "111280",
+        "name": "24-month OneNumber Plan C",
+        "description": "24-month OneNumber Plan C to connect secondary device to a main plan",
+        "displayName": "OneNumber - C",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": null,
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "24"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "27",
+            "net": "22.50",
+            "vat": "4.50"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "27",
+            "net": "22.50",
+            "vat": "4.50"
+          },
+          "totalSavingsAmount": null,
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": false,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "a31dea2b-ba97-43cf-a305-6b2018ad81a6",
+          "action": "ADD",
+          "skuId": "202058",
+          "name": "Apple Watch Series 5 40mm gold",
+          "description": "The Series 5 has a display that's always on. So you can stay focused when you're hiking, running, swimming, or in a meeting.",
+          "displayName": "Apple Watch Series 5 40mm Gold",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": "apple",
+          "model": "series5-40mm",
+          "groupType": null,
+          "productClass": "eHandset",
+          "productSubClass": "WATCH",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Apple_Watch_Series_5_40mm_pink-thumbs-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Apple_Watch_Series_5_40mm_pink-thumbs-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Apple_Watch_Series_5_40mm_pink-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Apple_Watch_Series_5_40mm_pink-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Apple_Watch_Series_5_40mm_pink-full-product-back-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Apple_Watch_Series_5_40mm_pink-grid-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "29",
+              "net": "24.17",
+              "vat": "4.83"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "29",
+              "net": "24.17",
+              "vat": "4.83"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "457.02",
+            "net": "380.85",
+            "vat": "76.17"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "isChanged": false,
+          "isCompatibleWithWatch": false
+        }
+      ],
+      "services": [
+        {
+          "packageLineId": "5a4b71cd-f305-410e-b317-ba2feeca306d",
+          "action": "ADD",
+          "skuId": "111373",
+          "name": "Vodafone Insurance: Tier 3 Damage",
+          "description": null,
+          "displayName": "Damage and breakdown cover",
+          "displayDescription": null,
+          "specificationGroup": [],
+          "merchandisingMedia": [],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": null,
+            "oneOffDiscountPrice": null,
+            "monthlyPrice": {
+              "gross": "3",
+              "net": "3",
+              "vat": "0"
+            },
+            "monthlyDiscountPrice": {
+              "gross": "3",
+              "net": "3",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null
+          },
+          "freeGift": false,
+          "productClass": "Insurance",
+          "dataRollover": null,
+          "rootProductId": "111373",
+          "allowances": [],
+          "rewardPoints": null,
+          "planDuration": null,
+          "isChanged": false
+        }
+      ],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "monthlyPrice": {
+          "gross": "30",
+          "net": "25.50",
+          "vat": "4.50"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "30",
+          "net": "25.50",
+          "vat": "4.50"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "lineReference": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "serviceReference": {
+          "serviceLines": []
+        }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": "447000000000",
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "EHANDSET",
+      "combiPackageId": null,
+      "confirmRequired": false,
+      "deviceFinancingId": null,
+      "additionalDetails": {},
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    },
+    "monthlyPrice": {
+      "gross": "30",
+      "net": "25.50",
+      "vat": "4.50"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "30",
+      "net": "25.50",
+      "vat": "4.50"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "-553677027",
+  "lastModified": "2020-09-30T12:32:04.404Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [
+    {
+      "packageLineId": "d5b0e01e-8b2a-4b67-9c53-cacf7323229b",
+      "bundleId": "110082",
+      "identifier": {
+        "key": "msisdn",
+        "value": "447000000003"
+      },
+      "assetIntegrationId": "1-470I9UF",
+      "activeDiscounts": [],
+      "bundlePrice": {
+        "bundleId": "110082",
+        "monthlyPrice": {
+          "gross": "54.40",
+          "net": "45.33",
+          "vat": "9.07"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "54.40",
+          "net": "45.33",
+          "vat": "9.07"
+        },
+        "merchandisingPromotions": null
+      },
+      "isActiveSubscription": true
+    }
+  ],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

@@ -1,0 +1,149 @@
+[{
+  "packageLineId": "dc73655f-2e26-418c-9a33-b8135ca387de",
+  "action": "ADD",
+  "skuId": "086532",
+  "name": "Blank White Triple Format SIM",
+  "description": null,
+  "displayName": "3-in-1 SIM",
+  "displayDescription": null,
+  "deviceBriefDescription": [],
+  "deviceColor": null,
+  "memorySize": null,
+  "make": null,
+  "model": null,
+  "groupType": null,
+  "productClass": "SIM Card",
+  "productSubClass": "Core",
+  "displayOrder": null,
+  "showInSummary": false,
+  "merchandisingMedia": [],
+  "attributes": [],
+  "contractOptions": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "merchandisingPromotions": null,
+    "monthlyPrice": null,
+    "monthlyDiscountPrice": null,
+    "financingOptions": [],
+    "deviceFinancingId": null,
+    "devicePaymentPlan": null
+  },
+  "boxPrice": {
+    "gross": "0.0",
+    "net": "0.0",
+    "vat": "0.0"
+  },
+  "freeGift": false,
+  "devicePromotion": null,
+  "simType": "PHYSICAL",
+  "isCompatibleWithWatch": false,
+  "isChanged": false
+}, {
+  "packageLineId": "833524df-e948-419a-a072-b001f7cae88b",
+  "action": "ADD",
+  "skuId": "205124",
+  "name": "Apple iPhone 11 64GB black",
+  "description": "All-new powerful dual-camera system, Night mode, stunning video quality and all-day battery life - experience iPhone at 11.",
+  "displayName": "Apple iPhone 11 64GB Black",
+  "displayDescription": null,
+  "deviceBriefDescription": [],
+  "deviceColor": null,
+  "memorySize": null,
+  "make": "apple",
+  "model": "iphone-11",
+  "groupType": "DEVICE_PAYM",
+  "productClass": "eHandset",
+  "productSubClass": "HANDSET",
+  "displayOrder": null,
+  "showInSummary": false,
+  "merchandisingMedia": [{
+    "id": "imageURLs.full.left",
+    "value": "/images/desktop/Apple_iPhone_11_black-full-product-left-600.png",
+    "type": "URL",
+    "footNotes": [""]
+  }, {
+    "id": "imageURLs.thumbs.right",
+    "value": "/images/desktop/Apple_iPhone_11_black-thumbs-right.png",
+    "type": "URL",
+    "footNotes": [""]
+  }, {
+    "id": "imageURLs.thumbs.back",
+    "value": "/images/desktop/Apple_iPhone_11_black-thumbs-back.png",
+    "type": "URL",
+    "footNotes": [""]
+  }, {
+    "id": "imageURLs.thumbs.front",
+    "value": "/images/desktop/Apple_iPhone_11_black-thumbs-front.png",
+    "type": "URL",
+    "footNotes": [""]
+  }, {
+    "id": "imageURLs.full.right",
+    "value": "/images/desktop/Apple_iPhone_11_black-full-product-right-600.png",
+    "type": "URL",
+    "footNotes": [""]
+  }, {
+    "id": "imageURLs.thumbs.left",
+    "value": "/images/desktop/Apple_iPhone_11_black-thumbs-left.png",
+    "type": "URL",
+    "footNotes": [""]
+  }, {
+    "id": "imageURLs.full.hero",
+    "value": "/images/desktop/Apple_iPhone_11_black-full-product-front-600.png",
+    "type": "URL",
+    "footNotes": [""]
+  }, {
+    "id": "imageURLs.grid",
+    "value": "/images/desktop/Apple_iPhone_11_new_black-grid-product-front.png",
+    "type": "URL",
+    "footNotes": [""]
+  }, {
+    "id": "imageURLs.full.front",
+    "value": "/images/desktop/Apple_iPhone_11_black-full-product-front-600.png",
+    "type": "URL",
+    "footNotes": [""]
+  }, {
+    "id": "imageURLs.full.back",
+    "value": "/images/desktop/Apple_iPhone_11_black-full-product-back-600.png",
+    "type": "URL",
+    "footNotes": [""]
+  }],
+  "attributes": [],
+  "contractOptions": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "49",
+      "net": "40.83",
+      "vat": "8.17"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "49",
+      "net": "40.83",
+      "vat": "8.17"
+    },
+    "merchandisingPromotions": null,
+    "monthlyPrice": null,
+    "monthlyDiscountPrice": null,
+    "financingOptions": [],
+    "deviceFinancingId": null,
+    "devicePaymentPlan": null
+  },
+  "boxPrice": {
+    "gross": "693.42",
+    "net": "577.85",
+    "vat": "115.57"
+  },
+  "freeGift": false,
+  "devicePromotion": null,
+  "simType": "HYBRID",
+  "isCompatibleWithWatch": true,
+  "isChanged": false
+}]

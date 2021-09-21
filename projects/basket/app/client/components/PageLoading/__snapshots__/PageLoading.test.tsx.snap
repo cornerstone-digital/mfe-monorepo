@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageLoading /> should render properly 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="wrapper wrapper-left "
+    >
+      <div
+        class="spinner-wrapper spinner-wrapper-left"
+      >
+        <div
+          class="spinner spinner-brand spinner-lg spinner "
+        >
+          <svg
+            viewBox="25 25 50 50"
+          >
+            <circle
+              cx="50"
+              cy="50"
+              r="20"
+            />
+          </svg>
+          <div
+            class="spinner spinner-brand spinner-lg spinner vfuk-LoadingSpinner__fallback_loader"
+          >
+            <div />
+            <div />
+            <div />
+            <div />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

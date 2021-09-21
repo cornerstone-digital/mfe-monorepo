@@ -1,0 +1,428 @@
+{
+  "modelPackage": {
+    "packageId": "9b84ab59-6eea-408f-8d93-a64ff4f6199f",
+    "accountCategory": "Consumer",
+    "sequence": 1,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "0ca21112-e355-46ae-b1ce-540df9cd746e",
+      "action": "ADD",
+      "skuId": "112346",
+      "name": "24m Band C 24GB Red Plan",
+      "description": "CTR16 Red Plan with unlimited mins unlimited texts and 24GB data",
+      "displayName": "Red 24GB",
+      "displayDescription": null,
+      "bundleClass": "HANDSET",
+      "productClass": null,
+      "serviceId": "110286",
+      "paymentType": "Postpaid",
+      "bundleType": "red51",
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "24"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": [
+        {
+          "type": "MMS",
+          "value": "Unlimited",
+          "uom": "-",
+          "displayUom": "picture messages",
+          "tilUom": "MMS"
+        },
+        {
+          "type": "UK MIN",
+          "value": "Unlimited",
+          "uom": "-",
+          "displayUom": "minutes",
+          "tilUom": "VOICE"
+        },
+        {
+          "type": "UK DATA",
+          "value": "24",
+          "uom": "GB",
+          "displayUom": "GB",
+          "tilUom": "DATA"
+        },
+        {
+          "type": "World Traveller",
+          "value": "Vodafone Global Roaming",
+          "uom": null,
+          "displayUom": null,
+          "tilUom": null
+        },
+        {
+          "type": "ORIGDATA",
+          "value": "24",
+          "uom": "GB",
+          "displayUom": "GB",
+          "tilUom": "DATA"
+        },
+        {
+          "type": "UK TEXT",
+          "value": "Unlimited",
+          "uom": "-",
+          "displayUom": "texts",
+          "tilUom": "SMS"
+        }
+      ],
+      "merchandisingMedia": [
+        {
+          "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+          "value": "3-month free trial of Secure Net",
+          "type": "TEXT",
+          "footNotes": [
+            ""
+          ]
+        },
+        {
+          "id": "imageURLs.sticker",
+          "value": "/images/desktop/5g_badge_digital.png",
+          "type": "URL",
+          "footNotes": [
+            ""
+          ]
+        }
+      ],
+      "attributes": null,
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "55",
+          "net": "45.83",
+          "vat": "9.17"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "55",
+          "net": "45.83",
+          "vat": "9.17"
+        },
+        "totalMonthlySavingsAmount": null,
+        "merchandisingPromotions": null,
+        "listOfMerchandisingPromotion": [],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": true,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "includedCalls": null,
+      "noPriceRise": null,
+      "isChanged": false
+    },
+    "hardwares": [
+      {
+        "packageLineId": "01fb4216-e6a8-49df-9f41-20ac4d4ea53d",
+        "action": "ADD",
+        "skuId": "211383",
+        "name": "Samsung Galaxy S20 FE 5G cloud navy",
+        "description": "With the Samsung Galaxy S20 FE 5G you can have it all, for less than you'd expect, including a camera with S20 pro-grade features.",
+        "displayName": "Samsung Galaxy S20 FE 5G 128GB Cloud Navy",
+        "displayDescription": null,
+        "deviceBriefDescription": [],
+        "deviceColor": "Cloud Navy",
+        "memorySize": "128 GB",
+        "make": "samsung",
+        "model": "galaxy-s20-fe-5g",
+        "groupType": "DEVICE_PAYM",
+        "productClass": "Handset",
+        "productSubClass": "HANDSET",
+        "displayOrder": null,
+        "showInSummary": false,
+        "merchandisingMedia": [
+          {
+            "id": "imageURLs.thumbs.right",
+            "value": "/images/desktop/Samsung_Galaxy_S20_FE_cloud_navy-thumbs-right.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.sticker",
+            "value": "/images/small/5G_logo.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.full.back",
+            "value": "/images/desktop/Samsung_Galaxy_S20_FE_cloud_navy-full-product-back-600.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.full.left",
+            "value": "/images/desktop/Samsung_Galaxy_S20_FE_cloud_navy-full-product-left-600.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.full.hero",
+            "value": "/images/desktop/Samsung_Galaxy_S20_FE_cloud_navy-full-product-front-600.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.full.side",
+            "value": "/images/desktop/Samsung_Galaxy_S20_FE_cloud_navy-full-product-side-600.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.thumbs.back",
+            "value": "/images/desktop/Samsung_Galaxy_S20_FE_cloud_navy-thumbs-back.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.grid",
+            "value": "/images/desktop/Samsung_Galaxy_S20_FE_cloud_navy-grid-product-front.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.full.front",
+            "value": "/images/desktop/Samsung_Galaxy_S20_FE_cloud_navy-full-product-front-600.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.thumbs.side",
+            "value": "/images/desktop/Samsung_Galaxy_S20_FE_cloud_navy-thumbs-side.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.thumbs.left",
+            "value": "/images/desktop/Samsung_Galaxy_S20_FE_cloud_navy-thumbs-left.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.full.right",
+            "value": "/images/desktop/Samsung_Galaxy_S20_FE_cloud_navy-full-product-right-600.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.thumbs.front",
+            "value": "/images/desktop/Samsung_Galaxy_S20_FE_cloud_navy-thumbs-front.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          }
+        ],
+        "attributes": [],
+        "contractOptions": null,
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "29",
+            "net": "24.17",
+            "vat": "4.83"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "29",
+            "net": "24.17",
+            "vat": "4.83"
+          },
+          "merchandisingPromotions": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "financingOptions": [],
+          "deviceFinancingId": null,
+          "devicePaymentPlan": null
+        },
+        "boxPrice": {
+          "gross": "650.53",
+          "net": "542.11",
+          "vat": "108.42"
+        },
+        "freeGift": false,
+        "devicePromotion": null,
+        "simType": "HYBRID",
+        "isChanged": false,
+        "isCompatibleWithWatch": false
+      },
+      {
+        "packageLineId": "63f81267-fa34-4f19-92c0-d46a1b4e0b85",
+        "action": "ADD",
+        "skuId": "086532",
+        "name": "Blank White Triple Format SIM",
+        "description": null,
+        "displayName": "3-in-1 SIM",
+        "displayDescription": null,
+        "deviceBriefDescription": [],
+        "deviceColor": null,
+        "memorySize": null,
+        "make": null,
+        "model": null,
+        "groupType": null,
+        "productClass": "SIM Card",
+        "productSubClass": "Core",
+        "displayOrder": null,
+        "showInSummary": false,
+        "merchandisingMedia": [],
+        "attributes": [],
+        "contractOptions": null,
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "merchandisingPromotions": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "financingOptions": [],
+          "deviceFinancingId": null,
+          "devicePaymentPlan": null
+        },
+        "boxPrice": {
+          "gross": "0.0",
+          "net": "0.0",
+          "vat": "0.0"
+        },
+        "freeGift": false,
+        "devicePromotion": null,
+        "simType": "HYBRID",
+        "isChanged": false,
+        "isCompatibleWithWatch": false
+      }
+    ],
+    "services": [],
+    "discounts": [],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "29",
+        "net": "24.17",
+        "vat": "4.83"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "29",
+        "net": "24.17",
+        "vat": "4.83"
+      },
+      "monthlyPrice": {
+        "gross": "55",
+        "net": "45.83",
+        "vat": "9.17"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "55",
+        "net": "45.83",
+        "vat": "9.17"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "BINGO",
+    "combiPackageId": null,
+    "confirmRequired": false,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "isChanged": false
+  },
+  "packageId": "fee83b9d-d084-4ae3-a198-9ff630665159"
+}

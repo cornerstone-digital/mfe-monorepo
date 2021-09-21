@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getFinancialBreakdown should correctly format data with gross prices with 14.99 airtime price 1`] = `
+Object {
+  "airtimeCosts": Object {
+    "monthlyCost": "£14.99",
+  },
+  "deviceCosts": Object {
+    "aprRepresentative": "0%",
+    "creditor": "Vodafone Ltd.",
+    "duration": "7",
+    "interestRate": "0%",
+    "monthlyPrice": "£166.71",
+    "totalHandsetCredit": "£1167",
+    "totalHandsetPrice": "£1320",
+    "upFrontPrice": "£153",
+  },
+  "total": Object {
+    "duration": "7",
+    "monthlyTotal": "£181.70",
+    "upfrontCost": "£153",
+  },
+}
+`;
+
+exports[`getFinancialBreakdown should correctly format data with gross prices with undefined airtime price 1`] = `
+Object {
+  "airtimeCosts": Object {
+    "monthlyCost": "£0",
+  },
+  "deviceCosts": Object {
+    "aprRepresentative": "0%",
+    "creditor": "Vodafone Ltd.",
+    "duration": "7",
+    "interestRate": "0%",
+    "monthlyPrice": "£166.71",
+    "totalHandsetCredit": "£1167",
+    "totalHandsetPrice": "£1320",
+    "upFrontPrice": "£153",
+  },
+  "total": Object {
+    "duration": "7",
+    "monthlyTotal": "£166.71",
+    "upfrontCost": "£153",
+  },
+}
+`;
+
+exports[`getFinancialBreakdown should correctly format data with net prices with 14.99 airtime price 1`] = `
+Object {
+  "airtimeCosts": Object {
+    "monthlyCost": "£14.99",
+  },
+  "deviceCosts": Object {
+    "aprRepresentative": "0%",
+    "creditor": "Vodafone Ltd.",
+    "duration": "7",
+    "interestRate": "0%",
+    "monthlyPrice": "£138.93",
+    "totalHandsetCredit": "£972.50",
+    "totalHandsetPrice": "£1100",
+    "upFrontPrice": "£127.50",
+  },
+  "total": Object {
+    "duration": "7",
+    "monthlyTotal": "£153.92",
+    "upfrontCost": "£127.50",
+  },
+}
+`;
+
+exports[`getFinancialBreakdown should correctly format data with net prices with undefined airtime price 1`] = `
+Object {
+  "airtimeCosts": Object {
+    "monthlyCost": "£0",
+  },
+  "deviceCosts": Object {
+    "aprRepresentative": "0%",
+    "creditor": "Vodafone Ltd.",
+    "duration": "7",
+    "interestRate": "0%",
+    "monthlyPrice": "£138.93",
+    "totalHandsetCredit": "£972.50",
+    "totalHandsetPrice": "£1100",
+    "upFrontPrice": "£127.50",
+  },
+  "total": Object {
+    "duration": "7",
+    "monthlyTotal": "£138.93",
+    "upfrontCost": "£127.50",
+  },
+}
+`;

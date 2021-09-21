@@ -1,0 +1,1 @@
+export { getQueryMap } from './getQueryMap'

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SwitchMyNetworkModal /> should render without exploding 1`] = `
+<Modal
+  isOpen={true}
+  onCloseCb={[MockFunction]}
+  size={2}
+  srName="Switch My Network"
+>
+  <Heading
+    appearance="inherit"
+    focusable={false}
+    level={3}
+    size={3}
+    theme={null}
+  >
+    Switch My Network
+  </Heading>
+  <div
+    className="wrapper"
+  >
+    <Paragraph
+      theme={null}
+    >
+      You can bring your current mobile number with you when you switch to Vodafone, or get a new number. This can be done now, or after you've finished your purchase.
+    </Paragraph>
+    <Paragraph
+      theme={null}
+    >
+      Enter a PAC or STAC code and choose a date to get started.
+    </Paragraph>
+    <PacStacExplained />
+    <SwitchMyNetworkForm
+      basket={
+        Object {
+          "basketId": "mock-basket-id",
+        }
+      }
+      onExit={[MockFunction]}
+      onRemove={[Function]}
+      onSave={[Function]}
+      packageId="package-id"
+      portability={Object {}}
+      reviewMode={false}
+    />
+    <FindOutMore />
+  </div>
+</Modal>
+`;

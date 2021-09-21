@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.303" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-11-06T11:35:21" tests="0" file="cypress/integration/genericError.feature" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Generic Error" timestamp="2020-11-06T11:35:21" tests="1" failures="0" time="3.303">
+    <testcase name="Generic Error Show show the generic error when trying to create an invalid basket" time="3.303" classname="Show show the generic error when trying to create an invalid basket">
+    </testcase>
+  </testsuite>
+</testsuites>

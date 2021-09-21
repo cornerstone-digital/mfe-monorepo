@@ -1,0 +1,1052 @@
+{
+    "basketId": "08c44f66-1ef1-4ccd-9b20-0ebe3e8459c1",
+    "affiliateId": null,
+    "source": "WCS",
+    "customerRequestedDate": "2021-08-11T07:42:21",
+    "metadata": {
+        "returnURL": null,
+        "basketStatus": "INCOMPLETE",
+        "salesOrderId": null,
+        "reason": null
+    },
+    "journey": {
+        "journeyType": "Acquisition",
+        "offerCode": null
+    },
+    "packages": [
+        {
+            "packageId": "33c2fb46-1440-4453-90cd-ff0c7ee67ea0",
+            "accountCategory": "Consumer",
+            "accountSubCategory": null,
+            "sequence": 1,
+            "packageType": "Acquisition",
+            "removable": true,
+            "dependentOn": [],
+            "voucherCode": null,
+            "bundle": {
+                "packageLineId": "1b8b6214-1c7f-426c-b646-3b5d6117370e",
+                "action": "ADD",
+                "skuId": "114414",
+                "name": "Pro Superfast 2 Xtra with Alexa Built-In",
+                "description": "24m Pro SF2 Xtra Broadband package with Alexa Built-In, price freeze, anytime calls, Apple TV 4K",
+                "displayName": "Pro Superfast 2 Xtra with Alexa Built-In",
+                "displayDescription": "Superfast 2",
+                "bundleClass": "BroadBand:FTTC",
+                "productClass": null,
+                "serviceId": "100092",
+                "paymentType": "Postpaid",
+                "bundleType": "Red Extra+",
+                "commitmentPeriod": {
+                    "uom": "Months",
+                    "value": "24"
+                },
+                "displayOrder": null,
+                "showInSummary": false,
+                "allowances": null,
+                "merchandisingMedia": [],
+                "attributes": null,
+                "benefits": [],
+                "priceDetails": {
+                    "monthlyPrice": {
+                        "gross": "46",
+                        "net": "38.33",
+                        "vat": "7.67"
+                    },
+                    "monthlyDiscountPrice": {
+                        "gross": "46",
+                        "net": "38.33",
+                        "vat": "7.67"
+                    },
+                    "totalMonthlySavingsAmount": null,
+                    "merchandisingPromotions": null,
+                    "listOfMerchandisingPromotion": [],
+                    "removedPromotionFootNote": null
+                },
+                "isVodafoneGlobalRoaming": false,
+                "bundledServiceProducts": [
+                    {
+                        "skuId": "107552",
+                        "name": "Fixed Broadband Service",
+                        "description": "Fixed Broadband Service",
+                        "productClass": "Fixed Broadband Service",
+                        "servicePointId": "107578",
+                        "priceDetail": {
+                            "oneOffPrice": null,
+                            "oneOffDiscountPrice": null,
+                            "monthlyPrice": null,
+                            "monthlyDiscountPrice": null,
+                            "merchandisingPromotions": null
+                        },
+                        "miscellaneous": [
+                            {
+                                "name": "SERVICE POINT",
+                                "value": "Unlimited Fibre 76"
+                            }
+                        ]
+                    },
+                    {
+                        "skuId": "100092",
+                        "name": "Mobile broadband service",
+                        "description": "Mobile broadband service",
+                        "productClass": "Mobile Broadband Service",
+                        "servicePointId": null,
+                        "priceDetail": {
+                            "oneOffPrice": null,
+                            "oneOffDiscountPrice": null,
+                            "monthlyPrice": null,
+                            "monthlyDiscountPrice": null,
+                            "merchandisingPromotions": null
+                        },
+                        "miscellaneous": []
+                    },
+                    {
+                        "skuId": "107551",
+                        "name": "Fixed Line Service",
+                        "description": "Fixed Line Service",
+                        "productClass": "Fixed Line",
+                        "servicePointId": "107554",
+                        "priceDetail": {
+                            "oneOffPrice": null,
+                            "oneOffDiscountPrice": null,
+                            "monthlyPrice": null,
+                            "monthlyDiscountPrice": null,
+                            "merchandisingPromotions": null
+                        },
+                        "miscellaneous": [
+                            {
+                                "name": "SERVICE POINT",
+                                "value": "Land Line"
+                            }
+                        ]
+                    }
+                ],
+                "planCategory": "CONSUMER",
+                "portability": null,
+                "speed": null,
+                "maxCapSpeed": null,
+                "avgDownloadSpeed": "Average download speed: 63Mbps",
+                "includedCalls": "Unlimited Anytime calls to UK landlines & mobiles",
+                "noPriceRise": "No price rises while in contract",
+                "wifiExpert": "Dedicated WiFi Xperts",
+                "broadbandAntiVirus": "12 Months Free Norton 360 Premium",
+                "isChanged": false
+            },
+            "hardwares": [
+                {
+                    "packageLineId": "11fc2bc5-ad03-48b5-ba42-6b0d1774632a",
+                    "action": "ADD",
+                    "skuId": "209128",
+                    "name": "Vodafone 4G Dongle",
+                    "description": "Stay connected on the go with the K5161 4G data dongle. Plug it into your laptop USB port to get online using our 4G network.",
+                    "displayName": "Vodafone 4G Dongle",
+                    "displayDescription": null,
+                    "deviceBriefDescription": [
+                        {
+                            "key": "USP1",
+                            "value": "4G Ready",
+                            "type": null,
+                            "valueUOM": null
+                        },
+                        {
+                            "key": "USP3",
+                            "value": "Premium Design",
+                            "type": null,
+                            "valueUOM": null
+                        },
+                        {
+                            "key": "USP2",
+                            "value": "Seamless Performance",
+                            "type": null,
+                            "valueUOM": null
+                        },
+                        {
+                            "key": "USP4",
+                            "value": "Ultra Power Saving Mode",
+                            "type": null,
+                            "valueUOM": null
+                        }
+                    ],
+                    "deviceColor": "White",
+                    "memorySize": null,
+                    "make": "vodafone",
+                    "model": "k5161-dongle",
+                    "groupType": null,
+                    "productClass": "DATA_DEVICE",
+                    "productSubClass": null,
+                    "displayOrder": 3,
+                    "showInSummary": false,
+                    "merchandisingMedia": [
+                        {
+                            "id": "imageURLs.full.side",
+                            "value": "/images/desktop/Vodafone_K5160Name-full-product-side-600.png",
+                            "type": "URL",
+                            "footNotes": [
+                                ""
+                            ]
+                        },
+                        {
+                            "id": "imageURLs.full.hero",
+                            "value": "/images/desktop/Vodafone_K5160Name-full-product-front-600.png",
+                            "type": "URL",
+                            "footNotes": [
+                                ""
+                            ]
+                        },
+                        {
+                            "id": "imageURLs.grid",
+                            "value": "/images/desktop/Vodafone_K5160Name-grid-product-front.png",
+                            "type": "URL",
+                            "footNotes": [
+                                ""
+                            ]
+                        },
+                        {
+                            "id": "imageURLs.thumbs.side",
+                            "value": "/images/desktop/Vodafone_K5160Name-thumbs-side.png",
+                            "type": "URL",
+                            "footNotes": [
+                                ""
+                            ]
+                        },
+                        {
+                            "id": "imageURLs.full.back",
+                            "value": "/images/desktop/Vodafone_K5160Name-full-product-back-600.png",
+                            "type": "URL",
+                            "footNotes": [
+                                ""
+                            ]
+                        },
+                        {
+                            "id": "imageURLs.full.right",
+                            "value": "/images/desktop/Vodafone_K5160Name-full-product-right-600.png",
+                            "type": "URL",
+                            "footNotes": [
+                                ""
+                            ]
+                        },
+                        {
+                            "id": "imageURLs.thumbs.left",
+                            "value": "/images/desktop/Vodafone_K5160Name-thumbs-left.png",
+                            "type": "URL",
+                            "footNotes": [
+                                ""
+                            ]
+                        },
+                        {
+                            "id": "imageURLs.full.front",
+                            "value": "/images/desktop/Vodafone_K5160Name-full-product-front-600.png",
+                            "type": "URL",
+                            "footNotes": [
+                                ""
+                            ]
+                        },
+                        {
+                            "id": "imageURLs.thumbs.front",
+                            "value": "/images/desktop/Vodafone_K5160Name-thumbs-front.png",
+                            "type": "URL",
+                            "footNotes": [
+                                ""
+                            ]
+                        },
+                        {
+                            "id": "imageURLs.thumbs.right",
+                            "value": "/images/desktop/Vodafone_K5160Name-thumbs-right.png",
+                            "type": "URL",
+                            "footNotes": [
+                                ""
+                            ]
+                        },
+                        {
+                            "id": "imageURLs.full.left",
+                            "value": "/images/desktop/Vodafone_K5160Name-full-product-left-600.png",
+                            "type": "URL",
+                            "footNotes": [
+                                ""
+                            ]
+                        },
+                        {
+                            "id": "imageURLs.thumbs.back",
+                            "value": "/images/desktop/Vodafone_K5160Name-thumbs-back.png",
+                            "type": "URL",
+                            "footNotes": [
+                                ""
+                            ]
+                        }
+                    ],
+                    "attributes": [],
+                    "contractOptions": null,
+                    "priceDetails": {
+                        "oneOffPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "oneOffDiscountPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "merchandisingPromotions": null,
+                        "monthlyPrice": null,
+                        "monthlyDiscountPrice": null,
+                        "financingOptions": [],
+                        "deviceFinancingId": null,
+                        "devicePaymentPlan": null
+                    },
+                    "boxPrice": {
+                        "gross": "21.66",
+                        "net": "18.05",
+                        "vat": "3.61"
+                    },
+                    "freeGift": false,
+                    "devicePromotion": null,
+                    "simType": "PHYSICAL",
+                    "colourName": "White",
+                    "colourHexcode": "#fefefe",
+                    "capacity": null,
+                    "isCompatibleWithWatch": false,
+                    "isChanged": false
+                },
+                {
+                    "packageLineId": "316ed1d7-6952-475d-a581-af315dfa4279",
+                    "action": "ADD",
+                    "skuId": "211073",
+                    "name": "Super WiFi Plus with Alexa Built-In",
+                    "description": null,
+                    "displayName": "Super WiFi Plus With Alexa Built-In",
+                    "displayDescription": null,
+                    "deviceBriefDescription": [
+                        {
+                            "key": "deliveryConsideration",
+                            "value": "Beta",
+                            "type": null,
+                            "valueUOM": null
+                        }
+                    ],
+                    "deviceColor": null,
+                    "memorySize": null,
+                    "make": null,
+                    "model": null,
+                    "groupType": null,
+                    "productClass": "Extender Product",
+                    "productSubClass": "Root",
+                    "displayOrder": 2,
+                    "showInSummary": false,
+                    "merchandisingMedia": [
+                        {
+                            "id": "imageURLs.thumbs.front",
+                            "value": "/images/desktop/Genie_160x100.png",
+                            "type": "URL",
+                            "footNotes": [
+                                ""
+                            ]
+                        }
+                    ],
+                    "attributes": [],
+                    "contractOptions": null,
+                    "priceDetails": {
+                        "oneOffPrice": null,
+                        "oneOffDiscountPrice": null,
+                        "merchandisingPromotions": null,
+                        "monthlyPrice": null,
+                        "monthlyDiscountPrice": null,
+                        "financingOptions": [],
+                        "deviceFinancingId": null,
+                        "devicePaymentPlan": null
+                    },
+                    "boxPrice": {
+                        "gross": null,
+                        "net": null,
+                        "vat": null
+                    },
+                    "freeGift": false,
+                    "devicePromotion": null,
+                    "simType": "PHYSICAL",
+                    "colourName": null,
+                    "colourHexcode": null,
+                    "capacity": null,
+                    "isCompatibleWithWatch": false,
+                    "isChanged": false
+                },
+                {
+                    "packageLineId": "60c382a3-de65-4d39-ae0d-d9d091d1dd68",
+                    "action": "ADD",
+                    "skuId": "201438",
+                    "name": "Apple TV 32GB",
+                    "description": null,
+                    "displayName": "Apple 4K TV on us",
+                    "displayDescription": null,
+                    "deviceBriefDescription": [
+                        {
+                            "key": "deliveryConsideration",
+                            "value": "Beta",
+                            "type": null,
+                            "valueUOM": null
+                        }
+                    ],
+                    "deviceColor": null,
+                    "memorySize": null,
+                    "make": null,
+                    "model": null,
+                    "groupType": null,
+                    "productClass": "Accessories",
+                    "productSubClass": null,
+                    "displayOrder": 4,
+                    "showInSummary": false,
+                    "merchandisingMedia": [
+                        {
+                            "id": "imageURLs.thumbs.front",
+                            "value": "/images/desktop/Apple_TV.png",
+                            "type": "URL",
+                            "footNotes": [
+                                ""
+                            ]
+                        }
+                    ],
+                    "attributes": [],
+                    "contractOptions": null,
+                    "priceDetails": {
+                        "oneOffPrice": {
+                            "gross": "999",
+                            "net": "832.50",
+                            "vat": "166.50"
+                        },
+                        "oneOffDiscountPrice": {
+                            "gross": "999",
+                            "net": "832.50",
+                            "vat": "166.50"
+                        },
+                        "merchandisingPromotions": null,
+                        "monthlyPrice": null,
+                        "monthlyDiscountPrice": null,
+                        "financingOptions": [
+                            {
+                                "apr": "0.0",
+                                "selected": false,
+                                "deviceFinancingId": "SNLADSADLJ",
+                                "financeProvider": "PayPal",
+                                "financeTerm": "30",
+                                "monthlyPrice": {
+                                    "gross": "33.30",
+                                    "net": "27.75",
+                                    "vat": "5.55"
+                                },
+                                "totalPriceWithInterest": {
+                                    "gross": "999.00",
+                                    "net": "832.50",
+                                    "vat": "166.50"
+                                }
+                            }
+                        ],
+                        "deviceFinancingId": null,
+                        "devicePaymentPlan": null
+                    },
+                    "boxPrice": {
+                        "gross": "156.0",
+                        "net": "130.0",
+                        "vat": "26.0"
+                    },
+                    "freeGift": false,
+                    "devicePromotion": null,
+                    "simType": "PHYSICAL",
+                    "colourName": null,
+                    "colourHexcode": null,
+                    "capacity": null,
+                    "isCompatibleWithWatch": false,
+                    "isChanged": false
+                },
+                {
+                    "packageLineId": "098df73d-f2e6-415a-bb48-54ec669d2ad2",
+                    "action": "ADD",
+                    "skuId": "086532",
+                    "name": "Blank White Triple Format SIM",
+                    "description": null,
+                    "displayName": "3-in-1 SIM",
+                    "displayDescription": null,
+                    "deviceBriefDescription": [],
+                    "deviceColor": null,
+                    "memorySize": null,
+                    "make": null,
+                    "model": null,
+                    "groupType": null,
+                    "productClass": "SIM Card",
+                    "productSubClass": "Core",
+                    "displayOrder": null,
+                    "showInSummary": false,
+                    "merchandisingMedia": [],
+                    "attributes": [],
+                    "contractOptions": null,
+                    "priceDetails": {
+                        "oneOffPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "oneOffDiscountPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "merchandisingPromotions": null,
+                        "monthlyPrice": null,
+                        "monthlyDiscountPrice": null,
+                        "financingOptions": [],
+                        "deviceFinancingId": null,
+                        "devicePaymentPlan": null
+                    },
+                    "boxPrice": {
+                        "gross": "0.0",
+                        "net": "0.0",
+                        "vat": "0.0"
+                    },
+                    "freeGift": false,
+                    "devicePromotion": null,
+                    "simType": "PHYSICAL",
+                    "colourName": null,
+                    "colourHexcode": null,
+                    "capacity": null,
+                    "isCompatibleWithWatch": false,
+                    "isChanged": false
+                },
+                {
+                    "packageLineId": "c87b80de-2bdb-45fc-a396-f2b182792db9",
+                    "action": "ADD",
+                    "skuId": "206680",
+                    "name": "Vodafone Wi-Fi Hub",
+                    "description": null,
+                    "displayName": "Vodafone WiFi Hub",
+                    "displayDescription": null,
+                    "deviceBriefDescription": [
+                        {
+                            "key": "latestRouter",
+                            "value": "true",
+                            "type": null,
+                            "valueUOM": null
+                        },
+                        {
+                            "key": "deliveryConsideration",
+                            "value": "Alpha",
+                            "type": null,
+                            "valueUOM": null
+                        }
+                    ],
+                    "deviceColor": null,
+                    "memorySize": null,
+                    "make": null,
+                    "model": null,
+                    "groupType": null,
+                    "productClass": "Fixed broadband equipment 2019",
+                    "productSubClass": null,
+                    "displayOrder": 1,
+                    "showInSummary": false,
+                    "merchandisingMedia": [
+                        {
+                            "id": "imageURLs.thumbs.front",
+                            "value": "/images/desktop/WiFi_Hub.png",
+                            "type": "URL",
+                            "footNotes": [
+                                ""
+                            ]
+                        }
+                    ],
+                    "attributes": [],
+                    "contractOptions": null,
+                    "priceDetails": {
+                        "oneOffPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "oneOffDiscountPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "merchandisingPromotions": null,
+                        "monthlyPrice": null,
+                        "monthlyDiscountPrice": null,
+                        "financingOptions": [],
+                        "deviceFinancingId": null,
+                        "devicePaymentPlan": null
+                    },
+                    "boxPrice": {
+                        "gross": "0.0",
+                        "net": "0.0",
+                        "vat": "0.0"
+                    },
+                    "freeGift": false,
+                    "devicePromotion": null,
+                    "simType": "PHYSICAL",
+                    "colourName": null,
+                    "colourHexcode": null,
+                    "capacity": null,
+                    "isCompatibleWithWatch": false,
+                    "isChanged": false
+                }
+            ],
+            "services": [
+                {
+                    "packageLineId": "dde319dd-0e31-4d8b-8efa-7c759df2f5c3",
+                    "action": "ADD",
+                    "skuId": "112785",
+                    "name": "Broadband Back up 50GB data bundle",
+                    "description": null,
+                    "displayName": "Always Connected 50GB data bundle",
+                    "displayDescription": null,
+                    "specificationGroup": [],
+                    "merchandisingMedia": [],
+                    "attributes": [],
+                    "priceDetails": {
+                        "oneOffPrice": null,
+                        "oneOffDiscountPrice": null,
+                        "monthlyPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "monthlyDiscountPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "merchandisingPromotions": null
+                    },
+                    "freeGift": false,
+                    "productClass": "Always Connected Bundle",
+                    "dataRollover": null,
+                    "rootProductId": "107552",
+                    "allowances": [
+                        {
+                            "type": "UK DATA",
+                            "value": "50",
+                            "uom": "GB",
+                            "displayUom": null,
+                            "tilUom": null
+                        }
+                    ],
+                    "rewardPoints": null,
+                    "planDuration": {
+                        "uom": "Months",
+                        "value": "39"
+                    },
+                    "isChanged": false
+                },
+                {
+                    "packageLineId": "45ff34f1-6dd6-41e2-9682-599fc5000686",
+                    "action": "ADD",
+                    "skuId": "111997",
+                    "name": "Super Wi-Fi product",
+                    "description": null,
+                    "displayName": "Super Wi-Fi product",
+                    "displayDescription": null,
+                    "specificationGroup": [],
+                    "merchandisingMedia": [],
+                    "attributes": [],
+                    "priceDetails": {
+                        "oneOffPrice": null,
+                        "oneOffDiscountPrice": null,
+                        "monthlyPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "monthlyDiscountPrice": {
+                            "gross": "0",
+                            "net": "0",
+                            "vat": "0"
+                        },
+                        "merchandisingPromotions": null
+                    },
+                    "freeGift": false,
+                    "productClass": "Super Wi-Fi",
+                    "dataRollover": null,
+                    "rootProductId": "107552",
+                    "allowances": null,
+                    "rewardPoints": null,
+                    "planDuration": null,
+                    "isChanged": false
+                }
+            ],
+            "discounts": [],
+            "priceDetails": {
+                "oneOffPrice": {
+                    "gross": "999",
+                    "net": "832.50",
+                    "vat": "166.50"
+                },
+                "oneOffDiscountPrice": {
+                    "gross": "999",
+                    "net": "832.50",
+                    "vat": "166.50"
+                },
+                "monthlyPrice": {
+                    "gross": "46",
+                    "net": "38.33",
+                    "vat": "7.67"
+                },
+                "monthlyDiscountPrice": {
+                    "gross": "46",
+                    "net": "38.33",
+                    "vat": "7.67"
+                },
+                "financingOptions": [
+                    {
+                        "apr": "0.0",
+                        "selected": false,
+                        "deviceFinancingId": "SNLADSADLJ",
+                        "financeProvider": "PayPal",
+                        "financeTerm": "30",
+                        "monthlyPrice": {
+                            "gross": "33.30",
+                            "net": "27.75",
+                            "vat": "5.55"
+                        },
+                        "totalPriceWithInterest": {
+                            "gross": "999.00",
+                            "net": "832.50",
+                            "vat": "166.50"
+                        }
+                    }
+                ]
+            },
+            "installationAddress": {
+                "identification": {
+                    "id": "A90000458367",
+                    "contextId": "Gold"
+                },
+                "postCode": "PE6 0AX",
+                "houseName": "",
+                "houseNumber": "69",
+                "flatNumber": "",
+                "streetName": "Harrington Square",
+                "town": "Peterborough",
+                "county": "Cambridgeshire",
+                "country": "United Kingdom",
+                "locality": "",
+                "citySubDivisionName": "EM",
+                "moveTypeCode": null
+            },
+            "appointmentWindow": null,
+            "servicePoint": {
+                "lineRefernece": {
+                    "lineLocator": {
+                        "exchangeCode": "PETR3",
+                        "exchangeName": "Peterborough 3",
+                        "districtCode": null,
+                        "l2SID": null,
+                        "cableLinkID": null,
+                        "distributionPoint": null
+                    },
+                    "lineSettings": {
+                        "serviceCode": null,
+                        "installationCode": null,
+                        "terminationCode": null
+                    },
+                    "lineStatus": {
+                        "statusCode": null,
+                        "accessLineStatus": null,
+                        "gnpStatus": null,
+                        "lineOption": null,
+                        "technology": null,
+                        "lineType": null,
+                        "tempStructure": false,
+                        "standbyPowerRequired": false,
+                        "narrowBandServicesAvailable": "null"
+                    },
+                    "availableServices": null,
+                    "lineDirectory": [
+                        {
+                            "featureCode": "MAINLINE_DIRECTORY",
+                            "directoryCode": "DIRECTORY_ENQUIRIES_ONLY",
+                            "locationCode": "INDIVIDUAL"
+                        }
+                    ]
+                },
+                "lineReference": {
+                    "lineLocator": {
+                        "exchangeCode": "PETR3",
+                        "exchangeName": "Peterborough 3",
+                        "districtCode": null,
+                        "l2SID": null,
+                        "cableLinkID": null,
+                        "distributionPoint": null
+                    },
+                    "lineSettings": {
+                        "serviceCode": null,
+                        "installationCode": null,
+                        "terminationCode": null
+                    },
+                    "lineStatus": {
+                        "statusCode": null,
+                        "accessLineStatus": null,
+                        "gnpStatus": null,
+                        "lineOption": null,
+                        "technology": null,
+                        "lineType": null,
+                        "tempStructure": false,
+                        "standbyPowerRequired": false,
+                        "narrowBandServicesAvailable": "null"
+                    },
+                    "availableServices": null,
+                    "lineDirectory": [
+                        {
+                            "featureCode": "MAINLINE_DIRECTORY",
+                            "directoryCode": "DIRECTORY_ENQUIRIES_ONLY",
+                            "locationCode": "INDIVIDUAL"
+                        }
+                    ]
+                },
+                "serviceReference": {
+                    "serviceLines": [
+                        {
+                            "classificationCode": "Line and Fibre with Speed 76",
+                            "networkType": "Onnet",
+                            "lineTreatments": [
+                                {
+                                    "identification": "NEW",
+                                    "earliestAvailableDate": "2021-08-24T00:00:00",
+                                    "appointmentNeeded": true,
+                                    "connectionCharge": "Line",
+                                    "preOrder": false,
+                                    "registerOfInterest": false
+                                }
+                            ],
+                            "serviceLines": [
+                                {
+                                    "itemReference": {
+                                        "identificationId": "PC00041",
+                                        "name": "Single Play FTTC",
+                                        "classificationCode": "Fibre with Speed 76"
+                                    },
+                                    "lineSpeeds": {
+                                        "maxDownSpeed": "55200.00",
+                                        "minDownSpeed": "20200.00",
+                                        "avgDownSpeed": null,
+                                        "minGuaranteedDownSpeed": "33300.00",
+                                        "maxUpSpeed": "13200.00",
+                                        "minUpSpeed": "7500.00",
+                                        "bandwidthMeasure": null,
+                                        "lastObservedDate": null
+                                    },
+                                    "miscRefernce": {
+                                        "serviceProviderName": null,
+                                        "lineLength": null,
+                                        "customerAgreedDate": null,
+                                        "readyForServiceDate": null,
+                                        "anfp": "Extra Short from cabinet",
+                                        "installationType": null
+                                    },
+                                    "serviceLineTreatments": [
+                                        {
+                                            "parentIdentification": "NEW",
+                                            "serviceType": "FTTC",
+                                            "serviceAction": "Provide",
+                                            "simValue": "SIM2",
+                                            "lineInfo": "No Line Plant",
+                                            "canNumberBeRetained": false,
+                                            "portInFlag": null,
+                                            "vicCode": null,
+                                            "pendingOrders": null,
+                                            "accessLine": {
+                                                "id": null,
+                                                "channelId": null,
+                                                "partialTelephoneNumber": null,
+                                                "orderClassification": null,
+                                                "migrationEligibility": false
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "itemReference": {
+                                        "identificationId": null,
+                                        "name": null,
+                                        "classificationCode": "Line"
+                                    },
+                                    "lineSpeeds": {
+                                        "maxDownSpeed": null,
+                                        "minDownSpeed": null,
+                                        "avgDownSpeed": null,
+                                        "minGuaranteedDownSpeed": null,
+                                        "maxUpSpeed": null,
+                                        "minUpSpeed": null,
+                                        "bandwidthMeasure": null,
+                                        "lastObservedDate": null
+                                    },
+                                    "miscRefernce": {
+                                        "serviceProviderName": null,
+                                        "lineLength": null,
+                                        "customerAgreedDate": null,
+                                        "readyForServiceDate": null,
+                                        "anfp": null,
+                                        "installationType": null
+                                    },
+                                    "serviceLineTreatments": null
+                                }
+                            ]
+                        },
+                        {
+                            "classificationCode": "Line and Fibre with Speed 38",
+                            "networkType": "Onnet",
+                            "lineTreatments": [
+                                {
+                                    "identification": "NEW",
+                                    "earliestAvailableDate": "2021-08-24T00:00:00",
+                                    "appointmentNeeded": true,
+                                    "connectionCharge": "Line",
+                                    "preOrder": false,
+                                    "registerOfInterest": false
+                                }
+                            ],
+                            "serviceLines": [
+                                {
+                                    "itemReference": {
+                                        "identificationId": "PC00041",
+                                        "name": "Single Play FTTC",
+                                        "classificationCode": "Fibre with Speed 38"
+                                    },
+                                    "lineSpeeds": {
+                                        "maxDownSpeed": "38000.00",
+                                        "minDownSpeed": "20200.00",
+                                        "avgDownSpeed": null,
+                                        "minGuaranteedDownSpeed": "33300.00",
+                                        "maxUpSpeed": "10000.00",
+                                        "minUpSpeed": "7500.00",
+                                        "bandwidthMeasure": null,
+                                        "lastObservedDate": null
+                                    },
+                                    "miscRefernce": {
+                                        "serviceProviderName": null,
+                                        "lineLength": null,
+                                        "customerAgreedDate": null,
+                                        "readyForServiceDate": null,
+                                        "anfp": "Extra Short from cabinet",
+                                        "installationType": null
+                                    },
+                                    "serviceLineTreatments": [
+                                        {
+                                            "parentIdentification": "NEW",
+                                            "serviceType": "FTTC",
+                                            "serviceAction": "Provide",
+                                            "simValue": "SIM2",
+                                            "lineInfo": "No Line Plant",
+                                            "canNumberBeRetained": false,
+                                            "portInFlag": null,
+                                            "vicCode": null,
+                                            "pendingOrders": null,
+                                            "accessLine": {
+                                                "id": null,
+                                                "channelId": null,
+                                                "partialTelephoneNumber": null,
+                                                "orderClassification": null,
+                                                "migrationEligibility": false
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "itemReference": {
+                                        "identificationId": null,
+                                        "name": null,
+                                        "classificationCode": "Line"
+                                    },
+                                    "lineSpeeds": {
+                                        "maxDownSpeed": null,
+                                        "minDownSpeed": null,
+                                        "avgDownSpeed": null,
+                                        "minGuaranteedDownSpeed": null,
+                                        "maxUpSpeed": null,
+                                        "minUpSpeed": null,
+                                        "bandwidthMeasure": null,
+                                        "lastObservedDate": null
+                                    },
+                                    "miscRefernce": {
+                                        "serviceProviderName": null,
+                                        "lineLength": null,
+                                        "customerAgreedDate": null,
+                                        "readyForServiceDate": null,
+                                        "anfp": null,
+                                        "installationType": null
+                                    },
+                                    "serviceLineTreatments": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "serviceStartDate": null,
+            "phoneNumber": null,
+            "primaryDeviceIdentifier": null,
+            "packageLinkIdentifier": null,
+            "linePackageType": "Line and Fibre with Speed 76",
+            "lineTreatmentType": "NEW",
+            "planType": "BroadBand:FTTC",
+            "combiPackageId": null,
+            "confirmRequired": false,
+            "deviceFinancingId": null,
+            "additionalDetails": {
+                "minGuaranteedDownSpeed": "33300.0",
+                "minUpSpeed": "7500.0",
+                "maxDownSpeed": "55200.0",
+                "minDownSpeed": "20200.0",
+                "maxUpSpeed": "13200.0"
+            },
+            "tradeInOfferCode": null,
+            "tradeInCredit": null,
+            "packageOfferCode": null,
+            "isChanged": false
+        }
+    ],
+    "vetOutcome": null,
+    "priceDetails": {
+        "oneOffPrice": {
+            "gross": "999",
+            "net": "832.50",
+            "vat": "166.50"
+        },
+        "oneOffDiscountPrice": {
+            "gross": "999",
+            "net": "832.50",
+            "vat": "166.50"
+        },
+        "monthlyPrice": {
+            "gross": "46",
+            "net": "38.33",
+            "vat": "7.67"
+        },
+        "monthlyDiscountPrice": {
+            "gross": "46",
+            "net": "38.33",
+            "vat": "7.67"
+        },
+        "totalOneoffSaving": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+        },
+        "totalMonthlySaving": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+        }
+    },
+    "totalOneoffPriceSaving": "0",
+    "totalMonthlyPriceSaving": "0",
+    "deliveryInfo": null,
+    "voucherCode": null,
+    "voucherDescription": null,
+    "validated": false,
+    "hashvalue": "875210102",
+    "lastModified": "2021-08-11T07:46:18.477736",
+    "changeCode": null,
+    "combiPackageIds": [],
+    "voucherErrorMessage": null,
+    "activeBundles": [],
+    "splitDeliveryEligible": false,
+    "priceProposal": [],
+    "loanEligibilityStatus": null,
+    "journeyAddedToEmptyBasket": false,
+    "affiliateFlag": false,
+    "isChanged": false
+}

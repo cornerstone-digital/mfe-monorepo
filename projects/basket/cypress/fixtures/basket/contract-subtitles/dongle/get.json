@@ -1,0 +1,458 @@
+{
+  "basketId": "64cdef57-3ef7-4801-9faf-dd730f3edeeb",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2020-09-15T10:41:29.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "9635ecde-2ff1-448a-9072-148c0bd37bf6",
+      "accountCategory": "Consumer",
+      "sequence": 2,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "9662d13f-dfb1-4c7f-bcb4-c97f7fb8a391",
+        "action": "ADD",
+        "skuId": "112448",
+        "name": "12m Dongle Mobile WiFi Plan 6GB",
+        "description": "CTR16 12m data plan comes with 6GB of data",
+        "displayName": "6GB Dongle or Mobile Wi-Fi Plan - 12 months",
+        "displayDescription": null,
+        "bundleClass": "DATA_DEVICE",
+        "productClass": null,
+        "serviceId": "100092",
+        "paymentType": "Postpaid",
+        "bundleType": "red51",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "12"
+        },
+        "displayOrder": 807,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "6",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "UK DATA",
+            "value": "6",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          }
+        ],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "17",
+            "net": "14.17",
+            "vat": "2.83"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "17",
+            "net": "14.17",
+            "vat": "2.83"
+          },
+          "totalSavingsAmount": null,
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": [],
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "35ac1739-72b3-4732-8f3f-4bcef7e39e7e",
+          "action": "ADD",
+          "skuId": "086532",
+          "name": "Blank White Triple Format SIM",
+          "description": null,
+          "displayName": "3-in-1 SIM",
+          "displayDescription": null,
+          "deviceBriefDescription": [],
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "SIM Card",
+          "productSubClass": "Core",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": [],
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "0.0",
+            "net": "0.0",
+            "vat": "0.0"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "isChanged": false,
+          "isCompatibleWithWatch": false
+        },
+        {
+          "packageLineId": "25b4928c-6288-4ebd-9e64-b9f099c30272",
+          "action": "ADD",
+          "skuId": "209128",
+          "name": "Vodafone K5161H white",
+          "description": "Stay connected on the go with the K5161 4G data dongle. Plug it into your laptop USB port to get online using our 4G network.",
+          "displayName": "Vodafone K5161 Dongle",
+          "displayDescription": null,
+          "deviceBriefDescription": [
+            {
+              "key": "USP3",
+              "value": "Premium Design",
+              "type": null,
+              "valueUOM": null
+            },
+            {
+              "key": "USP4",
+              "value": "Ultra Power Saving Mode",
+              "type": null,
+              "valueUOM": null
+            },
+            {
+              "key": "USP2",
+              "value": "Seamless Performance",
+              "type": null,
+              "valueUOM": null
+            },
+            {
+              "key": "USP1",
+              "value": "4G Ready",
+              "type": null,
+              "valueUOM": null
+            }
+          ],
+          "deviceColor": null,
+          "memorySize": null,
+          "make": "vodafone",
+          "model": "k5161-dongle",
+          "groupType": null,
+          "productClass": "DATA_DEVICE",
+          "productSubClass": null,
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Vodafone_K5160Name-grid-product-front.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.right",
+              "value": "/images/desktop/Vodafone_K5160Name-thumbs-right.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Vodafone_K5160Name-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Vodafone_K5160Name-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.left",
+              "value": "/images/desktop/Vodafone_K5160Name-full-product-left-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Vodafone_K5160Name-thumbs-front.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Vodafone_K5160Name-thumbs-side.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.right",
+              "value": "/images/desktop/Vodafone_K5160Name-full-product-right-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Vodafone_K5160Name-full-product-side-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Vodafone_K5160Name-thumbs-back.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.thumbs.left",
+              "value": "/images/desktop/Vodafone_K5160Name-thumbs-left.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Vodafone_K5160Name-full-product-back-600.png",
+              "type": "URL",
+              "footNotes": [
+                ""
+              ]
+            }
+          ],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": [],
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "21.66",
+            "net": "18.05",
+            "vat": "3.61"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "isChanged": false,
+          "isCompatibleWithWatch": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyPrice": {
+          "gross": "17",
+          "net": "14.17",
+          "vat": "2.83"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "17",
+          "net": "14.17",
+          "vat": "2.83"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "lineReference": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "serviceReference": {
+          "serviceLines": []
+        }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "DATA_DEVICE",
+      "combiPackageId": null,
+      "deviceFinancingId": null,
+      "additionalDetails": {},
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "monthlyPrice": {
+      "gross": "17",
+      "net": "14.17",
+      "vat": "2.83"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "17",
+      "net": "14.17",
+      "vat": "2.83"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "-1751904108",
+  "lastModified": "2020-09-16T15:41:37.905Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "affiliateFlag": false,
+  "isChanged": false
+}

@@ -1,0 +1,40 @@
+{
+  "packageId": "fee83b9d-d084-4ae3-a198-9ff630665159",
+  "service": {
+    "packageLineId": "17e76d94-44b7-4e00-935a-e2e0b283cdfa",
+    "action": "ADD",
+    "skuId": "110461",
+    "name": "Vodafone Insurance: Tier 1 Loss Theft and Damage",
+    "description": null,
+    "displayName": "Loss, theft, damage and breakdown cover",
+    "displayDescription": null,
+    "specificationGroup": [],
+    "merchandisingMedia": [],
+    "attributes": [],
+    "priceDetails": {
+      "oneOffPrice": null,
+      "oneOffDiscountPrice": null,
+      "monthlyPrice": {
+        "gross": "13.50",
+        "net": "13.50",
+        "vat": "0"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "13.50",
+        "net": "13.50",
+        "vat": "0"
+      },
+      "merchandisingPromotions": null
+    },
+    "freeGift": false,
+    "productClass": "Insurance",
+    "dataRollover": null,
+    "rootProductId": "110461",
+    "allowances": null,
+    "rewardPoints": null,
+    "planDuration": null,
+    "isChanged": false
+  },
+  "planType": "HANDSET",
+  "paymentType": "Postpaid"
+}

@@ -1,0 +1,9 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.discount {
+  color: $color-vodafone-red;
+
+  &-upgrade {
+    color: $color-turquoise;
+  }
+}

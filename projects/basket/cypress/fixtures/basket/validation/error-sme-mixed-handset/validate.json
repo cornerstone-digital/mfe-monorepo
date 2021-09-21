@@ -1,0 +1,10 @@
+{
+  "errorCode": "SUBCATEGORY_LOAN_NONLOAN_MIX_HANDSET",
+  "errorMessage": "Error from backend to be ignored",
+  "referenceId": "55e28f5a-b254-4671-aa51-7ca228c1459d",
+  "validationDetails": null,
+  "__cacheMeta": {
+    "date": "06/01/2020 11:12:42",
+    "status": 400
+  }
+}

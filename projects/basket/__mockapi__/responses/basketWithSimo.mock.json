@@ -1,0 +1,369 @@
+{
+	"basketId": "8d78b144-163c-45bf-8a4d-dd80841940db",
+	"affiliateId": null,
+	"source": "WCS",
+	"customerRequestedDate": "2020-04-08T01:30:58.000Z",
+	"metadata": {
+		"returnURL": null,
+		"basketStatus": "INCOMPLETE",
+		"salesOrderId": null,
+		"reason": null
+	},
+	"journey": {
+		"journeyType": "Acquisition",
+		"offerCode": null
+	},
+	"packages": [{
+		"packageId": "3023bbbd-5552-4c6f-8283-0a5b267a3d3c",
+		"accountCategory": "Consumer",
+		"sequence": 1,
+		"packageType": "Acquisition",
+		"removable": true,
+		"dependentOn": [],
+		"voucherCode": null,
+		"bundle": {
+			"packageLineId": "4ca97b45-f34b-43e0-8e4f-74f05ce05c6f",
+			"action": "ADD",
+			"skuId": "112168",
+			"name": "24m SIM Only Unlimited Max Plan",
+			"description": "CTR16 SIM only Unlimited Max Plan with VGR Plus",
+			"displayName": "Unlimited Max",
+			"displayDescription": "Best for super-fast downloads and UHD streaming, plus everything Unlimited can do.",
+			"bundleClass": "SIMO",
+			"productClass": null,
+			"serviceId": "110286",
+			"paymentType": "Postpaid",
+			"bundleType": "unlimitedMax77",
+			"commitmentPeriod": {
+				"uom": "Months",
+				"value": "24"
+			},
+			"displayOrder": 206,
+			"showInSummary": false,
+			"allowances": [{
+				"type": "World Traveller",
+				"value": "Vodafone Global Roaming Plus",
+				"uom": null,
+				"displayUom": null,
+				"tilUom": null
+			}, {
+				"type": "UK MIN",
+				"value": "Unlimited",
+				"uom": "-",
+				"displayUom": "minutes",
+				"tilUom": "VOICE"
+			}, {
+				"type": "MMS",
+				"value": "Unlimited",
+				"uom": "-",
+				"displayUom": "picture messages",
+				"tilUom": "MMS"
+			}, {
+				"type": "UK TEXT",
+				"value": "Unlimited",
+				"uom": "-",
+				"displayUom": "texts",
+				"tilUom": "SMS"
+			}, {
+				"type": "UK DATA",
+				"value": "Unlimited",
+				"uom": "-",
+				"displayUom": "MB",
+				"tilUom": "DATA"
+			}, {
+				"type": "ORIGDATA",
+				"value": "Unlimited",
+				"uom": "-",
+				"displayUom": "MB",
+				"tilUom": "DATA"
+			}],
+			"merchandisingMedia": [{
+				"id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+				"value": "3-month free trial of Secure Net",
+				"type": "TEXT",
+				"footNotes": [""]
+			}, {
+				"id": "limited_time.merchandisingPromotions.merchandisingPromotion.description",
+				"value": "Simo Limited time discount for 6 months ",
+				"type": "TEXT",
+				"footNotes": [""]
+			}, {
+				"id": "limited_time.merchandisingPromotions.merchandisingPromotion.label",
+				"value": "Simo Limited time discount for 6 months ",
+				"type": "TEXT",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.thumbs.front",
+				"value": "/images/small/great_for_icons_max.png",
+				"type": "URL",
+				"footNotes": [""]
+			}],
+			"attributes": null,
+			"priceDetails": {
+				"monthlyPrice": {
+					"gross": "30",
+					"net": "25",
+					"vat": "5"
+				},
+				"monthlyDiscountPrice": {
+					"gross": "15",
+					"net": "12.50",
+					"vat": "2.50"
+				},
+				"merchandisingPromotions": {
+					"tag": "Limited_time_SIMO_Discount",
+					"label": "Simo Limited time discount for 6 months ",
+					"description": "Simo Limited time discount for 6 months ",
+					"discountId": "109989",
+					"mpType": "limited_time",
+					"priceEstablishedLabel": "Was",
+					"priority": "1800",
+					"packageType": ["Acquisition", "Upgrade", "SecondLine"],
+					"footNotes": [""],
+					"confirmRequired": false,
+					"offerGroup": null,
+					"belowTheLine": "false",
+					"qualifier": null,
+					"category": null
+				},
+				"listOfMerchandisingPromotion": [{
+					"tag": "Limited_time_SIMO_Discount",
+					"label": "Simo Limited time discount for 6 months ",
+					"description": "Simo Limited time discount for 6 months ",
+					"discountId": "109989",
+					"mpType": "limited_time",
+					"priceEstablishedLabel": "Was",
+					"priority": "1800",
+					"packageType": ["Acquisition", "Upgrade", "SecondLine"],
+					"footNotes": [""],
+					"confirmRequired": false,
+					"offerGroup": null,
+					"belowTheLine": "false",
+					"qualifier": null,
+					"category": null
+				}],
+				"removedPromotionFootNote": null
+			},
+			"isVodafoneGlobalRoaming": true,
+			"bundledServiceProducts": [],
+			"planCategory": "CONSUMER",
+			"portability": null,
+			"isChanged": false
+		},
+		"hardwares": [{
+			"packageLineId": "17468206-7bda-480d-bfec-248fe4f3fa90",
+			"action": "ADD",
+			"skuId": "086532",
+			"name": "Blank White Triple Format SIM",
+			"description": null,
+			"displayName": "3-in-1 SIM",
+			"displayDescription": null,
+			"deviceBriefDescription": [],
+			"deviceColor": null,
+			"memorySize": null,
+			"make": null,
+			"model": null,
+			"groupType": null,
+			"productClass": "SIM Card",
+			"displayOrder": null,
+			"showInSummary": false,
+			"merchandisingMedia": [],
+			"attributes": [],
+			"contractOptions": null,
+			"priceDetails": {
+				"oneOffPrice": {
+					"gross": "0",
+					"net": "0",
+					"vat": "0"
+				},
+				"oneOffDiscountPrice": {
+					"gross": "0",
+					"net": "0",
+					"vat": "0"
+				},
+				"merchandisingPromotions": null,
+				"monthlyPrice": null,
+				"monthlyDiscountPrice": null,
+				"financingOptions": [],
+				"deviceFinancingId": null,
+				"devicePaymentPlan": null
+			},
+			"boxPrice": {
+				"gross": "0.0",
+				"net": "0.0",
+				"vat": "0.0"
+			},
+			"freeGift": false,
+			"isCompatibleWithWatch": false,
+			"isChanged": false
+		}],
+		"services": [],
+		"discounts": [{
+			"productLineId": "bdb3edc5-7ea0-4fb5-a059-093d598af4d9",
+			"action": "DISCOUNT",
+			"skuId": "109989",
+			"tag": "Limited_time_SIMO_Discount",
+			"label": "Simo Limited time discount for 6 months ",
+			"tenure": "PARTIAL",
+			"duration": "6 Months",
+			"confirmedRequired": "false",
+			"merchandisingMedia": [],
+			"discountValue": {
+				"type": "Percentage",
+				"value": "50.0"
+			}
+		}],
+		"priceDetails": {
+			"oneOffPrice": null,
+			"oneOffDiscountPrice": null,
+			"monthlyPrice": {
+				"gross": "30",
+				"net": "25",
+				"vat": "5"
+			},
+			"monthlyDiscountPrice": {
+				"gross": "15",
+				"net": "12.50",
+				"vat": "2.50"
+			},
+			"financingOptions": null
+		},
+		"installationAddress": null,
+		"appointmentWindow": null,
+		"servicePoint": {
+			"lineRefernece": {
+				"lineLocator": {
+					"exchangeCode": null,
+					"exchangeName": null,
+					"districtCode": null,
+					"l2SID": null,
+					"cableLinkID": null,
+					"distributionPoint": null
+				},
+				"lineSettings": {
+					"serviceCode": null,
+					"installationCode": null,
+					"terminationCode": null
+				},
+				"lineStatus": {
+					"statusCode": null,
+					"accessLineStatus": null,
+					"gnpStatus": null,
+					"lineOption": null,
+					"technology": null,
+					"lineType": null,
+					"tempStructure": false,
+					"standbyPowerRequired": false,
+					"narrowBandServicesAvailable": "null"
+				},
+				"availableServices": null,
+				"lineDirectory": null
+			},
+			"lineReference": {
+				"lineLocator": {
+					"exchangeCode": null,
+					"exchangeName": null,
+					"districtCode": null,
+					"l2SID": null,
+					"cableLinkID": null,
+					"distributionPoint": null
+				},
+				"lineSettings": {
+					"serviceCode": null,
+					"installationCode": null,
+					"terminationCode": null
+				},
+				"lineStatus": {
+					"statusCode": null,
+					"accessLineStatus": null,
+					"gnpStatus": null,
+					"lineOption": null,
+					"technology": null,
+					"lineType": null,
+					"tempStructure": false,
+					"standbyPowerRequired": false,
+					"narrowBandServicesAvailable": "null"
+				},
+				"availableServices": null,
+				"lineDirectory": null
+			},
+			"serviceReference": {
+				"serviceLines": []
+			}
+		},
+		"serviceStartDate": null,
+		"phoneNumber": null,
+		"primaryDeviceIdentifier": null,
+		"packageLinkIdentifier": null,
+		"linePackageType": null,
+		"lineTreatmentType": null,
+		"planType": "SIMO",
+		"combiPackageId": null,
+		"deviceFinancingId": null,
+		"additionalDetails": {},
+		"isChanged": false
+	}],
+	"vetOutcome": null,
+	"priceDetails": {
+		"oneOffPrice": {
+			"gross": "0",
+			"net": "0",
+			"vat": "0"
+		},
+		"oneOffDiscountPrice": {
+			"gross": "0",
+			"net": "0",
+			"vat": "0"
+		},
+		"monthlyPrice": {
+			"gross": "30",
+			"net": "25",
+			"vat": "5"
+		},
+		"monthlyDiscountPrice": {
+			"gross": "15",
+			"net": "12.50",
+			"vat": "2.50"
+		}
+	},
+	"totalOneoffPriceSaving": "0.0",
+	"totalMonthlyPriceSaving": "90",
+	"deliveryInfo": null,
+	"voucherCode": null,
+	"voucherDescription": null,
+	"validated": false,
+	"hashvalue": "1509725786",
+	"lastModified": "2020-04-08T13:40:57.251Z",
+	"changeCode": null,
+	"combiPackageIds": [],
+	"voucherErrorMessage": null,
+	"activeBundles": [],
+	"splitDeliveryEligible": false,
+	"priceProposal": [{
+		"packageId": "3023bbbd-5552-4c6f-8283-0a5b267a3d3c",
+		"promotionType": "CROSS_SELL",
+		"productDetail": {
+			"category": "FTR6",
+			"lineType": "REWARD_LINE"
+		},
+		"saving": {
+			"minimum": null,
+			"maximum": null,
+			"exact": {
+				"value": 1.6666666,
+				"uom": "£",
+				"message": "£2 off Superfast Broadband where customer already has Vodafone Together £1 and is eligible for £3 off"
+			}
+		},
+		"qualifyingLine": {
+			"bundleId": "112168",
+			"displayName": "Unlimited Max",
+			"identifier": {
+				"key": "PackageId",
+				"value": "3023bbbd-5552-4c6f-8283-0a5b267a3d3c"
+			}
+		}
+	}],
+	"affiliateFlag": false,
+	"isChanged": false
+}

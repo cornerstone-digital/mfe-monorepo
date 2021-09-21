@@ -1,0 +1,239 @@
+{
+  "basketId": "05d6f0eb-e8c1-48ba-97cf-76ee68cb5299",
+  "affiliateId": "11",
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T09:45:00.000+02:00",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": ""
+  },
+  "packages": [
+    {
+      "packageId": "db39d33f-94a0-4442-8b49-9dc1014046de",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "390b23ad-e0f9-42b6-98c5-c27b1a26ab47",
+        "action": "ADD",
+        "skuId": "111214",
+        "name": "12mth SIMO 500Mins 500MB Essentials Plan",
+        "description": "CTR14b SIM only Essentials Plan with 500 mins, unlimited texts and 500MB of data",
+        "displayName": "500MB Essentials plan - 12 months",
+        "displayDescription": null,
+        "bundleClass": "SIMO",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "Essentials Plan",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "12"
+        },
+        "displayOrder": 1,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK MIN",
+            "value": "500",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK DATA",
+            "value": "500",
+            "uom": "MB",
+            "displayUom": "MB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "500",
+            "uom": "MB",
+            "displayUom": "MB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          }
+        ],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "11",
+            "net": "9.17",
+            "vat": "1.83"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "11",
+            "net": "9.17",
+            "vat": "1.83"
+          },
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": {
+          "code": "239797XAE",
+          "codeType": "STAC",
+          "donorNetworkOperator": "EE",
+          "donorServiceProvider": "XAE",
+          "expiryDate": "2022-05-13T00:00:00.000+0000",
+          "msisdn": "07867293309",
+          "status": "VALID",
+          "validPortDate": "2022-05-13T00:00:00.000+0000"
+        },
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "751e722a-7074-4850-af5b-e7ac6b1d5040",
+          "action": "ADD",
+          "skuId": "086532",
+          "name": "Blank White Triple Format SIM",
+          "description": null,
+          "displayName": "3-in-1 SIM",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "SIM Card",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "0.0",
+            "net": "0.0",
+            "vat": "0.0"
+          },
+          "freeGift": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": null,
+          "net": null,
+          "vat": null
+        },
+        "oneOffDiscountPrice": {
+          "gross": null,
+          "net": null,
+          "vat": null
+        },
+        "monthlyPrice": {
+          "gross": "11",
+          "net": "9.17",
+          "vat": "1.83"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "11",
+          "net": "9.17",
+          "vat": "1.83"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": null,
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "SIMO",
+      "combiPackageId": null,
+      "deviceFinancingId": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "monthlyPrice": {
+      "gross": "11",
+      "net": "9.17",
+      "vat": "1.83"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "11",
+      "net": "9.17",
+      "vat": "1.83"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": true,
+  "hashvalue": "-910798815",
+  "lastModified": null,
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "affiliateFlag": false,
+  "isChanged": false
+}

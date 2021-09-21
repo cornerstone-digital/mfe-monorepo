@@ -1,0 +1,10 @@
+{
+  "errorCode": "AIRTIME_DEVICE_MISMATCH",
+  "errorMessage": "The device and airtime plan you have selected are not compatible with each other.",
+  "referenceId": "e753f854-a155-4fda-b41a-e819551123d6",
+  "validationDetails": null,
+  "__cacheMeta": {
+    "date": "06/01/2020 11:12:42",
+    "status": 400
+  }
+}

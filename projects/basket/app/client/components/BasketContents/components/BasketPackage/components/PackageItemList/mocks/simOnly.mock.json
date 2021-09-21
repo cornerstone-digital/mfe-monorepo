@@ -1,0 +1,384 @@
+{
+  "modelPackage": {
+    "packageId": "c53e7141-089f-4a5e-a5da-ca0e74c7b83f",
+    "accountCategory": "Consumer",
+    "sequence": 1,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "31034f5a-1bb7-4b2f-aaa4-9a3bee588c45",
+      "action": "ADD",
+      "skuId": "112167",
+      "name": "24m SIM Only Unlimited Max Plan with 100m to EU Entertainment and VGR Plus",
+      "description": "CTR16 SIM only Unlimited Max Plan with 100m to EU Entertainment and VGR Plus",
+      "displayName": "Unlimited Max with Entertainment",
+      "displayDescription": "Best for super-fast downloads and UHD streaming, plus everything Unlimited can do.",
+      "bundleClass": "SIMO",
+      "productClass": null,
+      "serviceId": "110286",
+      "paymentType": "Postpaid",
+      "bundleType": "unlimitedMaxEntertainment81",
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "24"
+      },
+      "displayOrder": 201,
+      "showInSummary": false,
+      "allowances": [
+        {
+          "type": "UK MIN",
+          "value": "Unlimited",
+          "uom": "-",
+          "displayUom": "minutes",
+          "tilUom": "VOICE"
+        },
+        {
+          "type": "ORIGDATA",
+          "value": "Unlimited",
+          "uom": "-",
+          "displayUom": "MB",
+          "tilUom": "DATA"
+        },
+        {
+          "type": "Inclusive EU minutes",
+          "value": "100 international minutes to EU",
+          "uom": null,
+          "displayUom": null,
+          "tilUom": null
+        },
+        {
+          "type": "UK TEXT",
+          "value": "Unlimited",
+          "uom": "-",
+          "displayUom": "texts",
+          "tilUom": "SMS"
+        },
+        {
+          "type": "UK DATA",
+          "value": "Unlimited",
+          "uom": "-",
+          "displayUom": "MB",
+          "tilUom": "DATA"
+        },
+        {
+          "type": "MMS",
+          "value": "Unlimited",
+          "uom": "-",
+          "displayUom": "picture messages",
+          "tilUom": "MMS"
+        },
+        {
+          "type": "World Traveller",
+          "value": "Vodafone Global Roaming Plus",
+          "uom": null,
+          "displayUom": null,
+          "tilUom": null
+        },
+        {
+          "type": "UK MIN",
+          "value": "100",
+          "uom": "-",
+          "displayUom": "minutes",
+          "tilUom": "INTLVOICEEU"
+        }
+      ],
+      "merchandisingMedia": [
+        {
+          "id": "full_duration.merchandisingPromotions.merchandisingPromotion.label",
+          "value": "Min ATL £1",
+          "type": "TEXT",
+          "footNotes": [
+            ""
+          ]
+        },
+        {
+          "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+          "value": "3-month free trial of Secure Net",
+          "type": "TEXT",
+          "footNotes": [
+            ""
+          ]
+        },
+        {
+          "id": "full_duration.merchandisingPromotions.merchandisingPromotion.description",
+          "value": "Min ATL £1",
+          "type": "TEXT",
+          "footNotes": [
+            ""
+          ]
+        },
+        {
+          "id": "entertainment.merchandisingPromotions.merchandisingPromotion.PromotionMedia",
+          "value": "/images/desktop/img_mef_ent_packs_v5_2020.png",
+          "type": "URL",
+          "footNotes": [
+            ""
+          ]
+        },
+        {
+          "id": "imageURLs.thumbs.front",
+          "value": "/images/small/great_for_icons_max.png",
+          "type": "URL",
+          "footNotes": [
+            ""
+          ]
+        },
+        {
+          "id": "imageURLs.sticker",
+          "value": "/images/desktop/5g_badge_digital.png",
+          "type": "URL",
+          "footNotes": [
+            ""
+          ]
+        },
+        {
+          "id": "entertainment.merchandisingPromotions.merchandisingPromotion.label",
+          "value": "Your choice of entertainment for 24 months",
+          "type": "TEXT",
+          "footNotes": [
+            ""
+          ]
+        }
+      ],
+      "attributes": null,
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "37",
+          "net": "30.83",
+          "vat": "6.17"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "36",
+          "net": "30",
+          "vat": "6"
+        },
+        "totalMonthlySavingsAmount": {
+          "uom": "£",
+          "net": 0.83,
+          "vat": 0.17,
+          "gross": 1
+        },
+        "merchandisingPromotions": {
+          "tag": "ATL1_Min_full_duration_MD_OFF",
+          "label": "Min ATL £1",
+          "description": "Min ATL £1 - SIM Only Plan",
+          "discountId": "107384",
+          "mpType": "full_duration",
+          "priceEstablishedLabel": "Usually",
+          "priority": "6001",
+          "packageType": [
+            "Acquisition",
+            "Upgrade",
+            "SecondLine"
+          ],
+          "footNotes": [
+            ""
+          ],
+          "confirmRequired": false,
+          "offerGroup": null,
+          "belowTheLine": "false",
+          "qualifier": null,
+          "category": null
+        },
+        "listOfMerchandisingPromotion": [
+          {
+            "tag": "ATL1_Min_full_duration_MD_OFF",
+            "label": "Min ATL £1",
+            "description": "Min ATL £1 - SIM Only Plan",
+            "discountId": "107384",
+            "mpType": "full_duration",
+            "priceEstablishedLabel": "Usually",
+            "priority": "6001",
+            "packageType": [
+              "Acquisition",
+              "Upgrade",
+              "SecondLine"
+            ],
+            "footNotes": [
+              ""
+            ],
+            "confirmRequired": false,
+            "offerGroup": null,
+            "belowTheLine": "false",
+            "qualifier": null,
+            "category": null
+          }
+        ],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": true,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "includedCalls": null,
+      "noPriceRise": null,
+      "isChanged": false
+    },
+    "hardwares": [
+      {
+        "packageLineId": "b11ebee9-2a23-45d9-85ba-63057e6ae92a",
+        "action": "ADD",
+        "skuId": "086532",
+        "name": "Blank White Triple Format SIM",
+        "description": null,
+        "displayName": "3-in-1 SIM",
+        "displayDescription": null,
+        "deviceBriefDescription": [],
+        "deviceColor": null,
+        "memorySize": null,
+        "make": null,
+        "model": null,
+        "groupType": null,
+        "productClass": "SIM Card",
+        "productSubClass": "Core",
+        "displayOrder": null,
+        "showInSummary": false,
+        "merchandisingMedia": [],
+        "attributes": [],
+        "contractOptions": null,
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "merchandisingPromotions": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "financingOptions": [],
+          "deviceFinancingId": null,
+          "devicePaymentPlan": null
+        },
+        "boxPrice": {
+          "gross": "0.0",
+          "net": "0.0",
+          "vat": "0.0"
+        },
+        "freeGift": false,
+        "devicePromotion": null,
+        "simType": "PHYSICAL",
+        "isCompatibleWithWatch": false,
+        "isChanged": false
+      }
+    ],
+    "services": [],
+    "discounts": [
+      {
+        "productLineId": "b89ca56e-77ce-47e8-81b5-5438ea3920d6",
+        "action": "DISCOUNT",
+        "skuId": "107384",
+        "tag": "ATL1_Min_full_duration_MD_OFF",
+        "label": "Min ATL £1",
+        "tenure": "FULL",
+        "duration": "27 Months",
+        "confirmedRequired": "false",
+        "merchandisingMedia": [],
+        "discountValue": {
+          "type": "GBP",
+          "value": "0.8333333"
+        }
+      }
+    ],
+    "priceDetails": {
+      "oneOffPrice": null,
+      "oneOffDiscountPrice": null,
+      "monthlyPrice": {
+        "gross": "37",
+        "net": "30.83",
+        "vat": "6.17"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "36",
+        "net": "30",
+        "vat": "6"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "SIMO",
+    "combiPackageId": null,
+    "confirmRequired": false,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "isChanged": false
+  },
+  "packageId": "c53e7141-089f-4a5e-a5da-ca0e74c7b83f"
+}

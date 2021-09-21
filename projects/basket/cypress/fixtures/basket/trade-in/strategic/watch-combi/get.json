@@ -1,0 +1,980 @@
+{
+  "basketId": "ca11ba97-13bb-4443-b011-1c4a5bc21149",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2021-07-28T09:24:04",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [{
+    "packageId": "6dcbb54f-6893-421f-ae22-e45f19c69783",
+    "accountCategory": "Consumer",
+    "accountSubCategory": null,
+    "sequence": 2,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "76fcf86d-c101-48b5-97eb-9d1cfa029fb3",
+      "action": "ADD",
+      "skuId": "111990",
+      "name": "OneNumber Connectivity Plan",
+      "description": "OneNumber Smartwatch Connectivity Plan 30-day rolling",
+      "displayName": "OneNumber Connectivity Plan",
+      "displayDescription": "OneNumber Smartwatch Connectivity Plan 30-day rolling",
+      "bundleClass": "WATCH",
+      "productClass": null,
+      "serviceId": "110286",
+      "paymentType": "Postpaid",
+      "bundleType": null,
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "1"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": null,
+      "merchandisingMedia": [{
+        "id": "multi_package_discount.merchandisingPromotions.merchandisingPromotion.description",
+        "value": "£3.50pm Off Smartwatch Connectivity Plan",
+        "type": "TEXT",
+        "footNotes": [""]
+      }, {
+        "id": "multi_package_discount.merchandisingPromotions.merchandisingPromotion.label",
+        "value": "£3.50pm Off Smartwatch Connectivity Plan",
+        "type": "TEXT",
+        "footNotes": [""]
+      }],
+      "attributes": null,
+      "benefits": [],
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "7",
+          "net": "5.83",
+          "vat": "1.17"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "3.50",
+          "net": "2.92",
+          "vat": "0.58"
+        },
+        "totalMonthlySavingsAmount": {
+          "uom": "£",
+          "net": 2.92,
+          "vat": 0.58,
+          "gross": 3.5
+        },
+        "merchandisingPromotions": {
+          "tag": "30030",
+          "label": "£3.50pm Off Smartwatch Connectivity Plan",
+          "description": "£3.50pm Off Smartwatch Connectivity Plan - Airtime Plan",
+          "discountId": "113119",
+          "mpType": "multi_package_discount",
+          "priceEstablishedLabel": null,
+          "priority": "1399",
+          "packageType": ["Acquisition", "SecondLine", "Upgrade"],
+          "footNotes": [""],
+          "confirmRequired": false,
+          "offerGroup": null,
+          "belowTheLine": "false",
+          "qualifier": {
+            "bundleId": "114584",
+            "identifier": {
+              "key": "PackageId",
+              "value": "ce7ce830-ba69-46a4-9974-c71dda771c0a"
+            }
+          },
+          "category": null
+        },
+        "listOfMerchandisingPromotion": [{
+          "tag": "30030",
+          "label": "£3.50pm Off Smartwatch Connectivity Plan",
+          "description": "£3.50pm Off Smartwatch Connectivity Plan - Airtime Plan",
+          "discountId": "113119",
+          "mpType": "multi_package_discount",
+          "priceEstablishedLabel": null,
+          "priority": "1399",
+          "packageType": ["Acquisition", "SecondLine", "Upgrade"],
+          "footNotes": [""],
+          "confirmRequired": false,
+          "offerGroup": null,
+          "belowTheLine": "false",
+          "qualifier": {
+            "bundleId": "114584",
+            "identifier": {
+              "key": "PackageId",
+              "value": "ce7ce830-ba69-46a4-9974-c71dda771c0a"
+            }
+          },
+          "category": null
+        }],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": false,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "includedCalls": null,
+      "noPriceRise": null,
+      "wifiExpert": null,
+      "broadbandAntiVirus": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+      "packageLineId": "17030df1-8a50-499e-9aee-f6ca690ed9b5",
+      "action": "ADD",
+      "skuId": "214708",
+      "name": "Samsung Galaxy Watch4 Classic 46mm black",
+      "description": "Engineered to suit both workouts and nights out, combine timeless design and precision build with the Galaxy Watch4 Classic.",
+      "displayName": "Samsung Galaxy Watch4 Classic 46mm Black",
+      "shortDisplayName": "Samsung Galaxy Watch4 Classic 46mm",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": "Black",
+      "memorySize": null,
+      "make": "samsung",
+      "model": "watch-galaxy-watch4-classic-46mm",
+      "groupType": null,
+      "productClass": "eHandset",
+      "productSubClass": "WATCH",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.thumbs.back",
+        "value": "/images/desktop/Samsung_Galaxy_Watch4_Classic_46mm_black-thumbs-back.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/Samsung_Galaxy_Watch4_Classic_46mm_black-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/Samsung_Galaxy_Watch4_Classic_46mm_black-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.left",
+        "value": "/images/desktop/Samsung_Galaxy_Watch4_Classic_46mm_black-thumbs-left.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.side",
+        "value": "/images/desktop/Samsung_Galaxy_Watch4_Classic_46mm_black-full-product-side-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.right",
+        "value": "/images/desktop/Samsung_Galaxy_Watch4_Classic_46mm_black-full-product-right-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/Samsung_Galaxy_Watch4_Classic_46mm_black-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.side",
+        "value": "/images/desktop/Samsung_Galaxy_Watch4_Classic_46mm_black-thumbs-side.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.left",
+        "value": "/images/desktop/Samsung_Galaxy_Watch4_Classic_46mm_black-full-product-left-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.back",
+        "value": "/images/desktop/Samsung_Galaxy_Watch4_Classic_46mm_black-full-product-back-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/Samsung_Galaxy_Watch4_Classic_46mm_black-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.right",
+        "value": "/images/desktop/Samsung_Galaxy_Watch4_Classic_46mm_black-thumbs-right.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": {
+        "duration": {
+          "uom": "Months",
+          "value": "36"
+        },
+        "upFrontPrice": 0,
+        "customerType": "Consumer"
+      },
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "396",
+          "net": "330",
+          "vat": "66"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "396",
+          "net": "330",
+          "vat": "66"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": {
+          "aprRepresentative": "0.0",
+          "duration": {
+            "uom": null,
+            "value": "36"
+          },
+          "interestRate": "0.0",
+          "description": "On a 36-month phone credit agreement",
+          "monthlyPrice": {
+            "uom": "£",
+            "gross": "11.00",
+            "net": "9.17",
+            "vat": "1.83"
+          },
+          "totalHandsetCredit": {
+            "uom": "£",
+            "gross": "396.00",
+            "net": "330.00",
+            "vat": "66.00"
+          },
+          "totalHandsetPrice": {
+            "uom": "£",
+            "gross": "396.00",
+            "net": "330.00",
+            "vat": "66.00"
+          },
+          "upFrontPrice": {
+            "uom": "£",
+            "gross": "0.00",
+            "net": "0.00",
+            "vat": "0.00"
+          },
+          "upFrontDiscountPrice": {
+            "uom": "£",
+            "gross": "0.00",
+            "net": "0.00",
+            "vat": "0.00"
+          },
+          "monthlyDiscountPrice": {
+            "uom": "£",
+            "gross": "11.00",
+            "net": "9.17",
+            "vat": "1.83"
+          }
+        }
+      },
+      "boxPrice": {
+        "gross": "366.53",
+        "net": "305.44",
+        "vat": "61.09"
+      },
+      "freeGift": false,
+      "devicePromotion": "112863",
+      "simType": "ESIMONLY",
+      "colourName": "Black",
+      "colourHexcode": "#1D1D1D",
+      "capacity": null,
+      "isCompatibleWithWatch": false,
+      "isChanged": false
+    }],
+    "services": [],
+    "discounts": [{
+      "productLineId": "8f68cd1b-90de-4ca3-9bfd-8cce8122b97c",
+      "action": "DISCOUNT",
+      "skuId": "113119",
+      "tag": "30030",
+      "label": "£3.50pm Off Smartwatch Connectivity Plan",
+      "tenure": "FULL",
+      "duration": null,
+      "confirmedRequired": "false",
+      "merchandisingMedia": [],
+      "discountValue": {
+        "type": "Percentage",
+        "value": "50.0"
+      }
+    }],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "monthlyPrice": {
+        "gross": "18",
+        "net": "15",
+        "vat": "3"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "14.50",
+        "net": "12.09",
+        "vat": "2.41"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": "ce7ce830-ba69-46a4-9974-c71dda771c0a",
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "BINGO",
+    "combiPackageId": null,
+    "confirmRequired": false,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "tradeInOfferCode": null,
+    "tradeInCredit": null,
+    "packageOfferCode": null,
+    "isChanged": false
+  }, {
+    "packageId": "ce7ce830-ba69-46a4-9974-c71dda771c0a",
+    "accountCategory": "Consumer",
+    "accountSubCategory": null,
+    "sequence": 1,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "6517e18b-7c96-4b7c-b28c-042d49fa81ee",
+      "action": "ADD",
+      "skuId": "114584",
+      "name": "24m 25GB Xtra Plan with 3 Benefits z",
+      "description": "Xtra Plan with 3 Benefits unlimited mins unlimited texts and 25GB data",
+      "displayName": "25GB + 3 Xtra benefits",
+      "displayDescription": null,
+      "bundleClass": "HANDSET",
+      "productClass": null,
+      "serviceId": "110286",
+      "paymentType": "Postpaid",
+      "bundleType": "red",
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "24"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": [{
+        "type": "World Traveller",
+        "value": "Vodafone Global Roaming",
+        "uom": null,
+        "displayUom": null,
+        "tilUom": null
+      }, {
+        "type": "UK TEXT",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "texts",
+        "tilUom": "SMS"
+      }, {
+        "type": "MMS",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "picture messages",
+        "tilUom": "MMS"
+      }, {
+        "type": "UK MIN",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "minutes",
+        "tilUom": "VOICE"
+      }, {
+        "type": "ORIGDATA",
+        "value": "25",
+        "uom": "GB",
+        "displayUom": "GB",
+        "tilUom": "DATA"
+      }, {
+        "type": "UK DATA",
+        "value": "25",
+        "uom": "GB",
+        "displayUom": "GB",
+        "tilUom": "DATA"
+      }],
+      "merchandisingMedia": [{
+        "id": "conditional_full_discount.merchandisingPromotions.merchandisingPromotion.label",
+        "value": "Trade-in Guarantee: Save £21pm",
+        "type": "TEXT",
+        "footNotes": [""]
+      }, {
+        "id": "conditional_full_discount.merchandisingPromotions.merchandisingPromotion.description",
+        "value": "Trade-in Guarantee: Save £21pm",
+        "type": "TEXT",
+        "footNotes": [""]
+      }],
+      "attributes": null,
+      "benefits": [{
+        "skuId": "030060"
+      }, {
+        "skuId": "030010"
+      }, {
+        "skuId": "030030"
+      }],
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "21",
+          "net": "17.50",
+          "vat": "3.50"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "totalMonthlySavingsAmount": {
+          "uom": "£",
+          "net": 17.5,
+          "vat": 3.5,
+          "gross": 21
+        },
+        "merchandisingPromotions": {
+          "tag": "TradeIn.Tier4_Samsung",
+          "label": "Trade-in Guarantee: Save £21pm",
+          "description": "Trade-in Guarantee: Save £21pm - Airtime Plan",
+          "discountId": "112034",
+          "mpType": "conditional_full_discount",
+          "priceEstablishedLabel": null,
+          "priority": "306",
+          "packageType": ["Acquisition", "SecondLine", "Upgrade"],
+          "footNotes": [""],
+          "confirmRequired": true,
+          "offerGroup": "trade-in",
+          "belowTheLine": "false",
+          "qualifier": null,
+          "category": null
+        },
+        "listOfMerchandisingPromotion": [{
+          "tag": "TradeIn.Tier4_Samsung",
+          "label": "Trade-in Guarantee: Save £21pm",
+          "description": "Trade-in Guarantee: Save £21pm - Airtime Plan",
+          "discountId": "112034",
+          "mpType": "conditional_full_discount",
+          "priceEstablishedLabel": null,
+          "priority": "306",
+          "packageType": ["Acquisition", "SecondLine", "Upgrade"],
+          "footNotes": [""],
+          "confirmRequired": true,
+          "offerGroup": "trade-in",
+          "belowTheLine": "false",
+          "qualifier": null,
+          "category": null
+        }],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": true,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "includedCalls": null,
+      "noPriceRise": null,
+      "wifiExpert": null,
+      "broadbandAntiVirus": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+      "packageLineId": "056acfac-f956-4d59-9454-de63d7720c40",
+      "action": "ADD",
+      "skuId": "214668",
+      "name": "Samsung Galaxy Z Flip 3 cream 128GB 5G",
+      "description": "Bold, daring, and attention-grabbing, make a statement with a 6.7\" folding glass display that fits into your back pocket.",
+      "displayName": "Samsung Galaxy Z Flip3 128GB Cream",
+      "shortDisplayName": "Samsung Galaxy Z Flip3",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": "Cream",
+      "memorySize": "128 GB",
+      "make": "samsung",
+      "model": "galaxy-z-flip3",
+      "groupType": "DEVICE_PAYM",
+      "productClass": "Handset",
+      "productSubClass": "HANDSET",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.thumbs.side",
+        "value": "/images/desktop/Samsung_Galaxy_Z_Flip3_cream-thumbs-side.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.right",
+        "value": "/images/desktop/Samsung_Galaxy_Z_Flip3_cream-thumbs-right.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.right",
+        "value": "/images/desktop/Samsung_Galaxy_Z_Flip3_cream-full-product-right-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/Samsung_Galaxy_Z_Flip3_cream-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.left",
+        "value": "/images/desktop/Samsung_Galaxy_Z_Flip3_cream-full-product-left-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/Samsung_Galaxy_Z_Flip3_cream-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.side",
+        "value": "/images/desktop/Samsung_Galaxy_Z_Flip3_cream-full-product-side-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.back",
+        "value": "/images/desktop/Samsung_Galaxy_Z_Flip3_cream-thumbs-back.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/Samsung_Galaxy_Z_Flip3_cream-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/Samsung_Galaxy_Z_Flip3_cream-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.left",
+        "value": "/images/desktop/Samsung_Galaxy_Z_Flip3_cream-thumbs-left.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.back",
+        "value": "/images/desktop/Samsung_Galaxy_Z_Flip3_cream-full-product-back-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.sticker",
+        "value": "/images/small/5G_logo.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": {
+        "duration": {
+          "uom": "Months",
+          "value": "36"
+        },
+        "upFrontPrice": 29,
+        "customerType": "Consumer"
+      },
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "857",
+          "net": "714.17",
+          "vat": "142.83"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "857",
+          "net": "714.17",
+          "vat": "142.83"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": {
+          "aprRepresentative": "0.0",
+          "duration": {
+            "uom": null,
+            "value": "36"
+          },
+          "interestRate": "0.0",
+          "description": "On a 36-month phone credit agreement",
+          "monthlyPrice": {
+            "uom": "£",
+            "gross": "23.00",
+            "net": "19.17",
+            "vat": "3.83"
+          },
+          "totalHandsetCredit": {
+            "uom": "£",
+            "gross": "828.00",
+            "net": "690.00",
+            "vat": "138.00"
+          },
+          "totalHandsetPrice": {
+            "uom": "£",
+            "gross": "857.00",
+            "net": "714.17",
+            "vat": "142.83"
+          },
+          "upFrontPrice": {
+            "uom": "£",
+            "gross": "29.00",
+            "net": "24.17",
+            "vat": "4.83"
+          },
+          "upFrontDiscountPrice": {
+            "uom": "£",
+            "gross": "29.00",
+            "net": "24.17",
+            "vat": "4.83"
+          },
+          "monthlyDiscountPrice": {
+            "uom": "£",
+            "gross": "23.00",
+            "net": "19.17",
+            "vat": "3.83"
+          }
+        }
+      },
+      "boxPrice": {
+        "gross": "857.0",
+        "net": "714.17",
+        "vat": "142.83"
+      },
+      "freeGift": false,
+      "devicePromotion": "112686",
+      "simType": "PHYSICAL",
+      "colourName": "Cream",
+      "colourHexcode": "#E4DEBE",
+      "capacity": "128 GB",
+      "isCompatibleWithWatch": true,
+      "isChanged": false
+    }, {
+      "packageLineId": "79f88c44-193e-4149-b8d9-399e7995ea9b",
+      "action": "ADD",
+      "skuId": "086532",
+      "name": "Blank White Triple Format SIM",
+      "description": null,
+      "displayName": "3-in-1 SIM",
+      "shortDisplayName": null,
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": null,
+      "model": null,
+      "groupType": null,
+      "productClass": "SIM Card",
+      "productSubClass": "Core",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "0.0",
+        "net": "0.0",
+        "vat": "0.0"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "colourName": null,
+      "colourHexcode": null,
+      "capacity": null,
+      "isCompatibleWithWatch": false,
+      "isChanged": false
+    }],
+    "services": [],
+    "discounts": [{
+      "productLineId": "ac9c39b0-342e-4ff6-9489-eb80f33502b8",
+      "action": "DISCOUNT",
+      "skuId": "112034",
+      "tag": "TradeIn.Tier4_Samsung",
+      "label": "Trade-in Guarantee: Save £21pm",
+      "tenure": "FULL",
+      "duration": "24 Months",
+      "confirmedRequired": "true",
+      "merchandisingMedia": [],
+      "discountValue": {
+        "type": "GBP",
+        "value": "17.5"
+      }
+    }],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "29",
+        "net": "24.17",
+        "vat": "4.83"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "29",
+        "net": "24.17",
+        "vat": "4.83"
+      },
+      "monthlyPrice": {
+        "gross": "44",
+        "net": "36.67",
+        "vat": "7.33"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "23",
+        "net": "19.17",
+        "vat": "3.83"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "BINGO",
+    "combiPackageId": null,
+    "confirmRequired": true,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "tradeInOfferCode": "TradeIn.Tier4_Samsung",
+    "tradeInCredit": null,
+    "packageOfferCode": null,
+    "isChanged": false
+  }],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    },
+    "monthlyPrice": {
+      "gross": "62",
+      "net": "51.67",
+      "vat": "10.33"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "37.50",
+      "net": "31.26",
+      "vat": "6.24"
+    },
+    "totalOneoffSaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "totalMonthlySaving": {
+      "gross": "24.50",
+      "net": "20.42",
+      "vat": "4.08"
+    }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "24.50",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "1659027100",
+  "lastModified": "2021-08-20T09:27:16.371878",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [{
+    "packageId": "ce7ce830-ba69-46a4-9974-c71dda771c0a",
+    "promotionType": "CROSS_SELL",
+    "productDetail": {
+      "category": "FTR6",
+      "lineType": "REWARD_LINE"
+    },
+    "saving": {
+      "minimum": null,
+      "maximum": null,
+      "exact": {
+        "value": 2.5,
+        "uom": "£",
+        "message": "You'll save £3 a month on Pro Broadband when combined with a SIM only plan"
+      }
+    },
+    "qualifyingLine": {
+      "bundleId": "114584",
+      "displayName": "25GB + 3 Xtra benefits",
+      "identifier": {
+        "key": "PackageId",
+        "value": "ce7ce830-ba69-46a4-9974-c71dda771c0a"
+      }
+    }
+  }],
+  "loanEligibilityStatus": null,
+  "isJourneyAddedToEmptyBasket": false,
+  "affiliateFlag": false,
+  "isChanged": false
+}

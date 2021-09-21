@@ -1,0 +1,143 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.basket {
+  display: block;
+  width: 100%;
+  font-size: $base-font-size;
+
+  @include md {
+    font-size: $base-font-size-deskop;
+  }
+}
+
+.buttons {
+  text-align: center;
+}
+
+.package-header {
+  display: flex;
+  border-bottom: 1px solid $color-pale-grey;
+  padding: $spacing-fixed-1 $spacing-fixed-2;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.package-title > * {
+  display: inline !important;
+}
+
+.package-remove {
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.package-body {
+  max-height: 1200px;
+  transition: max-height 500ms ease-in-out 500ms, opacity 500ms;
+  overflow-y: hidden;
+  opacity: 1;
+}
+
+.package-body-closed {
+  max-height: 0;
+  opacity: 0;
+}
+
+.entertainment-section {
+  & b {
+    display: inline-block;
+  }
+
+  & ul {
+    padding-left: 0;
+  }
+}
+
+.entertainment-sub {
+  @include md {
+    margin: 0 auto;
+  }
+
+  div {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.entertainment-sub-title {
+  margin-bottom: 4px;
+}
+
+.entertainment-sub-logos span {
+  display: inline-block;
+  font-weight: bold;
+  padding: 0 4px;
+
+  @include md {
+    padding: 0 $spacing-fixed-1;
+  }
+}
+
+.remove-package-text {
+  display: none;
+
+  @include md {
+    display: inline-block;
+  }
+}
+
+.btns-wrapper {
+  text-align: center;
+}
+
+.wrapper-open {
+  animation: fadeOutIn 1s;
+}
+
+.wrapper-closed {
+  animation: duplicatefadeOutIn 1s;
+}
+
+@keyframes fadeOutIn {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+// need duplicate else the animation doesn't run due to a css modules bug
+@keyframes duplicatefadeOutIn {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.loader {
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 300px;
+}
+
+.grid {
+  padding-bottom: $spacing-fixed-8;
+}

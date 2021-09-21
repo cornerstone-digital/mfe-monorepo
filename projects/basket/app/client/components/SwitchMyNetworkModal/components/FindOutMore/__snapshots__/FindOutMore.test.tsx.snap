@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FindOutMore /> should render 1`] = `
+<BlockContainer
+  appearance="light1"
+  borderAppearance="none"
+  collapse={
+    Object {
+      "collapsable": true,
+      "collapsed": true,
+      "icon": Object {
+        "appearance": "dark",
+        "justify": "left",
+      },
+    }
+  }
+  guttering="md"
+  heading={
+    Object {
+      "fontWeight": "bold",
+      "size": 6,
+      "text": "Find out more",
+    }
+  }
+  marginVertical={2}
+  theme={null}
+>
+  <List
+    hideDecorators={false}
+    items={
+      Array [
+        Object {
+          "content": <React.Fragment>
+            Request a PAC or STAC code from your current network, free of charge
+            <Paragraph
+              marginTop={2}
+              theme={null}
+            >
+              Just send a free text to 65075 from the mobile you want to switch
+            </Paragraph>
+            <Paragraph
+              theme={null}
+            >
+              For 
+              <strong>
+                PAC
+              </strong>
+              : Text PAC to 65075
+              <br />
+              For 
+              <strong>
+                STAC
+              </strong>
+              : Text STAC to 75075
+            </Paragraph>
+            <Paragraph
+              theme={null}
+            >
+              Or visit your current network's website to get the code you need.
+            </Paragraph>
+          </React.Fragment>,
+          "id": "1",
+        },
+        Object {
+          "content": <React.Fragment>
+            <strong>
+              Once you have your PAC or STAC code, share it with us here.
+            </strong>
+             Choose which day you want to move your number to Vodafone.
+            <Paragraph
+              marginTop={2}
+              theme={null}
+            >
+              PAC and STAC codes last 30 days, so share yours with us as soon as possible.
+            </Paragraph>
+          </React.Fragment>,
+          "id": "2",
+        },
+        Object {
+          "content": <React.Fragment>
+            <strong>
+              PAC
+            </strong>
+            : Your current contract will be cancelled and your number transferred to Vodafone on your chosen day.
+            <Paragraph
+              marginTop={2}
+              theme={null}
+            >
+              <strong>
+                STAC
+              </strong>
+              : Your current contract will be cancelled on your chosen day. The temporary number we gave you will become your new number with Vodafone.
+            </Paragraph>
+          </React.Fragment>,
+          "id": "3",
+        },
+      ]
+    }
+    theme={null}
+    type="ordered"
+  />
+</BlockContainer>
+`;

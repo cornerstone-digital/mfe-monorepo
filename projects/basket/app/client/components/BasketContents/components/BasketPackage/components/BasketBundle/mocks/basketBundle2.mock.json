@@ -1,0 +1,295 @@
+{
+  "basketId": "e5be8241-7b99-4c48-b2b4-d98a2eaec88a",
+  "affiliateId": null,
+  "affiliateFlag": false,
+  "source": "WCS",
+  "customerRequestedDate": "2018-11-22T13:11:00.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "customer": null,
+  "journey": null,
+  "packages": [{
+    "packageId": "684b793c-88b6-4b3f-a4ab-863e26e37f75",
+    "accountCategory": "Consumer",
+    "sequence": 2,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "94ffbac8-1703-4226-94a8-d5447f296ca7",
+      "action": "ADD",
+      "skuId": "110546",
+      "name": "Gigafast 100 with Voice -18 months contract Unlimited Broadband",
+      "description": null,
+      "displayName": "Vodafone Gigafast Broadband 100",
+      "displayDescription": "Vodafone Gigafast Broadband 100",
+      "bundleClass": "HANDSET",
+      "productClass": null,
+      "serviceId": "107551",
+      "paymentType": "Postpaid",
+      "bundleType": null,
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "18"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": null,
+      "merchandisingMedia": [],
+      "attributes": null,
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "28",
+          "net": "23.33",
+          "vat": "4.67"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "28",
+          "net": "23.33",
+          "vat": "4.67"
+        },
+        "merchandisingPromotions": null
+      },
+      "isVodafoneGlobalRoaming": false,
+      "bundledServiceProducts": [{
+        "skuId": "107552",
+        "name": "Fixed Broadband Service",
+        "description": "Fixed Broadband Service",
+        "productClass": "Fixed Broadband Service",
+        "servicePointId": "110560",
+        "priceDetail": {
+          "oneOffPrice": null,
+          "oneOffDiscountPrice": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "merchandisingPromotions": null
+        },
+        "miscellaneous": [{
+          "name": "SERVICE POINT",
+          "value": "Gigafast 100 Broadband"
+        }]
+      }, {
+        "skuId": "107551",
+        "name": "Fixed Line Service",
+        "description": "Fixed Line Service",
+        "productClass": "Fixed Line",
+        "servicePointId": "110567",
+        "priceDetail": {
+          "oneOffPrice": null,
+          "oneOffDiscountPrice": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "merchandisingPromotions": null
+        },
+        "miscellaneous": [{
+          "name": "SERVICE POINT",
+          "value": "Gigafast Home Broadband and Voice"
+        }]
+      }],
+      "planCategory": "CONSUMER",
+      "isChanged": false
+    },
+    "hardwares": [{
+      "packageLineId": "06b180fe-cc4c-4d2b-b4a5-e283ddcbced7",
+      "action": "ADD",
+      "skuId": "200692",
+      "name": "Vodafone VOX 3.0 Uk",
+      "description": null,
+      "displayName": "Vodafone Broadband Router",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": null,
+      "model": null,
+      "groupType": null,
+      "productClass": "Fixed Broadband Equipment",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.thumbs.front",
+        "value": "/assets/images/desktop/IMG_170x170_VOIX_30_Router.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null
+      },
+      "boxPrice": {
+        "gross": "69.72",
+        "net": "58.10",
+        "vat": "11.62"
+      },
+      "freeGift": false,
+      "isChanged": false
+    }],
+    "services": [{
+      "packageLineId": "6572d967-0aae-4cad-a032-e65860ec988b",
+      "action": "ADD",
+      "skuId": "110565",
+      "name": "Standard Installation Fee",
+      "description": null,
+      "displayName": "Standard Installation Fee",
+      "displayDescription": null,
+      "specificationGroup": [],
+      "merchandisingMedia": [],
+      "attributes": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "merchandisingPromotions": null
+      },
+      "freeGift": false,
+      "productClass": "Installation Fee",
+      "dataRollover": null,
+      "rootProductId": null,
+      "allowances": null,
+      "rewardPoints": null,
+      "planDuration": null,
+      "isChanged": false
+    }, {
+      "packageLineId": "6572d967-0aae-4cad-a032-e65860ec988b",
+      "action": "ADD",
+      "skuId": "110565",
+      "name": "Standard",
+      "description": null,
+      "displayName": "Standard",
+      "displayDescription": "Standard",
+      "specificationGroup": [],
+      "merchandisingMedia": [],
+      "attributes": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "merchandisingPromotions": null
+      },
+      "freeGift": false,
+      "productClass": "Installation Fee",
+      "dataRollover": null,
+      "rootProductId": null,
+      "allowances": null,
+      "rewardPoints": null,
+      "planDuration": null,
+      "isChanged": false
+    }],
+    "discounts": [],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "monthlyPrice": {
+        "gross": "28",
+        "net": "23.33",
+        "vat": "4.67"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "28",
+        "net": "23.33",
+        "vat": "4.67"
+      },
+      "financingOptions": []
+    },
+    "installationAddress": {
+      "citySubDivisionName": null,
+      "country": "United Kingdom",
+      "county": null,
+      "flatNumber": null,
+      "houseName": null,
+      "houseNumber": "89",
+      "locality": null,
+      "moveTypeCode": "",
+      "postCode": "YO30 5TB",
+      "streetName": "EASTHOLME DRIVE",
+      "town": "York"
+    },
+    "appointmentWindow": null,
+    "servicePoint": null,
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "BroadBand:FTTH",
+    "isChanged": false
+  }],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "monthlyPrice": {
+      "gross": "28",
+      "net": "23.33",
+      "vat": "4.67"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "84",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "1003091324",
+  "changeCode": null,
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "isChanged": false
+}

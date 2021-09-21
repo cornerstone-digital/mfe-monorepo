@@ -1,0 +1,469 @@
+{
+  "basketId": "76aa4d1a-7f23-4818-be94-1774dd0b2115",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T09:45:00.000+00:00",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Upgrade",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "2847a25a-a367-4f7a-897b-4a8b7db7eb1c",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Upgrade",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "e6a0fb1f-50ae-49cc-ad2d-50ded4dc193b",
+        "action": "ADD",
+        "skuId": "112901",
+        "name": "12m 6GB Xtra A Airtime Plan",
+        "description": "Xtra A Airtime Plan with unlimited mins unlimited texts and 6GB data",
+        "displayName": "12m 6GB Gold Airtime Plan",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "red51",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "12"
+        },
+        "displayOrder": 49,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK DATA",
+            "value": "6",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "6",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          }
+        ],
+        "merchandisingMedia": [
+          {
+            "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+            "value": "3-month free trial of Secure Net",
+            "type": "TEXT",
+            "footNotes": []
+          }
+        ],
+        "attributes": null,
+        "benefits": [
+          {
+            "skuId": "030010"
+          },
+          {
+            "skuId": "030060"
+          },
+          {
+            "skuId": "030030"
+          },
+          {
+            "skuId": "030040"
+          }
+        ],
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "23",
+            "net": "19.17",
+            "vat": "3.83"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "23",
+            "net": "19.17",
+            "vat": "3.83"
+          },
+          "totalMonthlySavingsAmount": null,
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "includedCalls": null,
+        "noPriceRise": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "2e3ea01d-fec1-46a2-962c-d2d836be74c3",
+          "action": "ADD",
+          "skuId": "209111",
+          "name": "New Bingo 1",
+          "description": "All-glass design, advanced cameras, wireless charging and a smart A11 Bionic chip. Intelligence never looked better.",
+          "displayName": "Apple iPhone 8 128GB Gold BINGO",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": "Gold",
+          "memorySize": "128 GB",
+          "make": "apple",
+          "model": "iphone-8",
+          "groupType": "DEVICE_PAYM",
+          "productClass": "Handset",
+          "productSubClass": "HANDSET",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Apple_iPhone_8_Gold-thumbs-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Apple_iPhone_8_Gold-thumbs-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Apple_iPhone_8_Gold-thumbs-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Apple_iPhone_8_Gold-full-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Apple_iPhone_8_Gold-full-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Apple_iPhone_8_Gold-full-product-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Apple_iPhone_8_Gold-full-product-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Apple_iPhone_8_Gold_grid_product_front.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": null,
+          "contractOptions": {
+            "duration": {
+              "uom": "MONTH",
+              "value": "24"
+            },
+            "upFrontPrice": 20,
+            "customerType": "Consumer"
+          },
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "40",
+              "net": "33.33",
+              "vat": "6.67"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "40",
+              "net": "33.33",
+              "vat": "6.67"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": {
+              "aprRepresentative": "0.0",
+              "duration": {
+                "uom": "MONTH",
+                "value": "24"
+              },
+              "interestRate": "0.0",
+              "description": "On a 24-month phone credit agreement",
+              "monthlyPrice": {
+                "uom": "£",
+                "gross": "0.83",
+                "net": "0.69",
+                "vat": "0.14"
+              },
+              "totalHandsetCredit": {
+                "uom": "£",
+                "gross": "20.00",
+                "net": "16.67",
+                "vat": "3.33"
+              },
+              "totalHandsetPrice": {
+                "uom": "£",
+                "gross": "40.00",
+                "net": "33.33",
+                "vat": "6.67"
+              },
+              "upFrontPrice": {
+                "uom": "£",
+                "gross": "20.00",
+                "net": "16.67",
+                "vat": "3.33"
+              }
+            }
+          },
+          "boxPrice": {
+            "gross": "3598.80",
+            "net": "2999.0",
+            "vat": "599.80"
+          },
+          "freeGift": false,
+          "devicePromotion": "112686",
+          "simType": "PHYSICAL",
+          "isChanged": false,
+          "isCompatibleWithWatch": true
+        }
+      ],
+      "services": [
+        {
+          "packageLineId": "96c54f99-8587-476e-952c-fdba411598d5",
+          "action": "ADD",
+          "skuId": "110177",
+          "name": "Fee for Flexi-Upgrade",
+          "description": "This charge is based on the handset value and the remaining time left on your contract. It's calculated like this: <p style=\"font-family:Courier; color:grey; font-size: 14px;\">Handset value &#247; contract length (months) x remaining contract</p>",
+          "displayName": "Early upgrade charge",
+          "displayDescription": null,
+          "specificationGroup": [],
+          "merchandisingMedia": [],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0.00",
+              "net": "0.00",
+              "vat": "0.00"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0.00",
+              "net": "0.00",
+              "vat": "0.00"
+            },
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "merchandisingPromotions": null
+          },
+          "freeGift": false,
+          "productClass": "Fee",
+          "dataRollover": null,
+          "rootProductId": "110286",
+          "allowances": [],
+          "rewardPoints": null,
+          "planDuration": null,
+          "isChanged": false
+        }
+      ],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "20",
+          "net": "16.67",
+          "vat": "3.33"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "20",
+          "net": "16.67",
+          "vat": "3.33"
+        },
+        "monthlyPrice": {
+          "gross": "23.83",
+          "net": "19.86",
+          "vat": "3.97"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "23.83",
+          "net": "19.86",
+          "vat": "3.97"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": null,
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "BINGO",
+      "combiPackageId": null,
+      "confirmRequired": false,
+      "deviceFinancingId": null,
+      "additionalDetails": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "20",
+      "net": "16.67",
+      "vat": "3.33"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "20",
+      "net": "16.67",
+      "vat": "3.33"
+    },
+    "monthlyPrice": {
+      "gross": "23.83",
+      "net": "19.86",
+      "vat": "3.97"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "23.83",
+      "net": "19.86",
+      "vat": "3.97"
+    },
+    "totalOneoffSaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "totalMonthlySaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": true,
+  "hashvalue": "1812232155",
+  "lastModified": null,
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [
+    {
+      "packageLineId": "fa584ffe-ea9c-4839-9a02-dbc10a2ada9f",
+      "bundleId": "112281",
+      "identifier": {
+        "key": "msisdn",
+        "value": "447876006827"
+      },
+      "assetIntegrationId": "1-5H887SM",
+      "activeDiscounts": [],
+      "bundlePrice": {
+        "bundleId": "112281",
+        "monthlyPrice": {
+          "gross": "30",
+          "net": "25",
+          "vat": "5"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "30",
+          "net": "25",
+          "vat": "5"
+        },
+        "merchandisingPromotions": null
+      },
+      "planStartDate": null,
+      "isActiveSubscription": true
+    }
+  ],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

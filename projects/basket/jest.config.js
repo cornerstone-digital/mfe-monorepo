@@ -1,0 +1,32 @@
+module.exports = {
+  testURL: 'http://www.vodafone.co.uk/basket',
+  snapshotSerializers: ['../../node_modules/enzyme-to-json/serializer'],
+  moduleNameMapper: {
+    '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|html)$': '<rootDir>config/jest/jest.filemock.js',
+    '\\.(css|scss)$': 'identity-obj-proxy',
+  },
+  setupFilesAfterEnv: ['./config/jest/jest.setup.js', 'jest-canvas-mock'],
+  modulePaths: ['<rootDir>/app'],
+  modulePathIgnorePatterns: ['<rootDir>/lib', '<rootDir>/cypress'],
+  collectCoverageFrom: [
+    'app/**/*.(ts|tsx)',
+    'app/**/*.(d|types|test|style).(ts|tsx)',
+    '!app/server/**/*.(ts|tsx)',
+    '!app/**/logger/**',
+    '!app/**/index.(ts|tsx)',
+    '!app/**/global.ts',
+    '!app/pages/BasketPage/BasketPage.tsx',
+    '!app/pages/FeatureFlags/**',
+    '!app/service-worker.ts',
+    '!app/routes.ts',
+  ],
+  coverageDirectory: '.testresults/jest-coverage',
+  transform: {
+    '^.+\\.(js|ts|jsx|tsx)?$': 'babel-jest',
+  },
+  transformIgnorePatterns: ['/node_modules/(?!@vfuk/(components|web-core|web-shop-core|web-cms-core)).+\\.js$'],
+  verbose: true,
+  testResultsProcessor: 'jest-junit',
+  maxWorkers: '50%',
+  // testEnvironment: 'jsdom',
+}

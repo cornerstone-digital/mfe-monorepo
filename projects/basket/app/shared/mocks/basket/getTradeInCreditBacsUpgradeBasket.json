@@ -1,0 +1,581 @@
+{
+  "basketId": "bca857c7-342b-46e2-860d-335bc6c2aaaa",
+  "affiliateId": "11",
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T09:45:00.000+02:00",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Upgrade",
+    "offerCode": "null"
+  },
+  "packages": [
+    {
+      "packageId": "d96493ab-30bd-4590-bc8b-e48889b205e9",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Upgrade",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "9c5f1d67-2d3c-4b14-b3d9-09fc41beee16",
+        "action": "ADD",
+        "skuId": "112930",
+        "name": "24m 2GB Xtra A Airtime Plan",
+        "description": "Xtra A Airtime Plan with unlimited mins unlimited texts and 2GB data",
+        "displayName": "2GB Xtra Plan",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "red51",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "24"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "UK DATA",
+            "value": "2",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "2",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          }
+        ],
+        "merchandisingMedia": [
+          {
+            "id": "imageURLs.sticker",
+            "value": "/images/desktop/5g_badge_digital.png",
+            "type": "URL",
+            "footNotes": []
+          },
+          {
+            "id": "conditional_full_discount.merchandisingPromotions.merchandisingPromotion.label",
+            "value": "Trade-in Guarantee: Save £3pm",
+            "type": "TEXT",
+            "footNotes": []
+          },
+          {
+            "id": "conditional_full_discount.merchandisingPromotions.merchandisingPromotion.description",
+            "value": "Trade-in Guarantee: Save £3pm",
+            "type": "TEXT",
+            "footNotes": []
+          }
+        ],
+        "attributes": null,
+        "benefits": [
+          {
+            "skuId": "030010"
+          },
+          {
+            "skuId": "030060"
+          },
+          {
+            "skuId": "030030"
+          },
+          {
+            "skuId": "030050"
+          }
+        ],
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "18",
+            "net": "15",
+            "vat": "3"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "15",
+            "net": "12.50",
+            "vat": "2.50"
+          },
+          "totalMonthlySavingsAmount": {
+            "uom": "£",
+            "net": 2.5,
+            "vat": 0.5,
+            "gross": 3
+          },
+          "merchandisingPromotions": {
+            "tag": "TradeIn.Tier1",
+            "label": "Trade-in Guarantee: Save £3pm",
+            "description": "Trade-in Guarantee: Save £3pm - Airtime Plan",
+            "discountId": "112023",
+            "mpType": "conditional_full_discount",
+            "priceEstablishedLabel": null,
+            "priority": "586",
+            "packageType": [
+              "Acquisition",
+              "SecondLine",
+              "Upgrade"
+            ],
+            "footNotes": [],
+            "confirmRequired": true,
+            "offerGroup": "trade-in",
+            "belowTheLine": "false",
+            "qualifier": null,
+            "category": null
+          },
+          "listOfMerchandisingPromotion": [
+            {
+              "tag": "TradeIn.Tier1",
+              "label": "Trade-in Guarantee: Save £3pm",
+              "description": "Trade-in Guarantee: Save £3pm - Airtime Plan",
+              "discountId": "112023",
+              "mpType": "conditional_full_discount",
+              "priceEstablishedLabel": null,
+              "priority": "586",
+              "packageType": [
+                "Acquisition",
+                "SecondLine",
+                "Upgrade"
+              ],
+              "footNotes": [],
+              "confirmRequired": true,
+              "offerGroup": "trade-in",
+              "belowTheLine": "false",
+              "qualifier": null,
+              "category": null
+            }
+          ],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "includedCalls": null,
+        "noPriceRise": null,
+        "wifiExpert": null,
+        "broadbandAntiVirus": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "f21a8a3a-a283-47aa-af70-630c1f85ab8b",
+          "action": "ADD",
+          "skuId": "207666",
+          "name": "Apple iPhone 12 64GB blue",
+          "description": "iPhone 12 pushes everything forward with superfast 5G, an A14 Bionic chip, new dual-camera system and Super Retina XDR display.",
+          "displayName": "Apple iPhone 12 64GB Blue",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": "apple",
+          "model": "iphone-12",
+          "groupType": null,
+          "productClass": "eHandset",
+          "productSubClass": "HANDSET",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Apple_iPhone_12_blue-thumbs-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.left",
+              "value": "/images/desktop/Apple_iPhone_12_blue-thumbs-left.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.right",
+              "value": "/images/desktop/Apple_iPhone_12_blue-thumbs-right.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Apple_iPhone_12_blue-thumbs-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Apple_iPhone_12_blue-thumbs-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Apple_iPhone_12_blue-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Apple_iPhone_12_blue-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.left",
+              "value": "/images/desktop/Apple_iPhone_12_blue-full-product-left-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.right",
+              "value": "/images/desktop/Apple_iPhone_12_blue-full-product-right-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Apple_iPhone_12_blue-full-product-side-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Apple_iPhone_12_blue-full-product-back-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Apple_iPhone_12_blue-grid-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.sticker",
+              "value": "/images/small/5G_logo.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": null,
+          "contractOptions": {
+            "duration": {
+              "uom": "MONTH",
+              "value": "24"
+            },
+            "upFrontPrice": 150,
+            "customerType": "Consumer"
+          },
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "821",
+              "net": "684.17",
+              "vat": "136.83"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "821",
+              "net": "684.17",
+              "vat": "136.83"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": {
+              "aprRepresentative": "0.0",
+              "duration": {
+                "uom": "MONTH",
+                "value": "24"
+              },
+              "interestRate": "0.0",
+              "description": "On a 24-month phone credit agreement",
+              "monthlyPrice": {
+                "uom": "£",
+                "gross": "27.96",
+                "net": "23.30",
+                "vat": "4.66"
+              },
+              "totalHandsetCredit": {
+                "uom": "£",
+                "gross": "671.00",
+                "net": "559.17",
+                "vat": "111.83"
+              },
+              "totalHandsetPrice": {
+                "uom": "£",
+                "gross": "821.00",
+                "net": "684.17",
+                "vat": "136.83"
+              },
+              "upFrontPrice": {
+                "uom": "£",
+                "gross": "150.00",
+                "net": "125.00",
+                "vat": "25.00"
+              }
+            }
+          },
+          "boxPrice": {
+            "gross": "760.80",
+            "net": "634.0",
+            "vat": "126.80"
+          },
+          "freeGift": false,
+          "devicePromotion": "112686",
+          "simType": "HYBRID",
+          "isChanged": false,
+          "isCompatibleWithWatch": true
+        },
+        {
+          "packageLineId": "8d6cb9dd-44f4-40b9-8aae-39557477b3a6",
+          "action": "ADD",
+          "skuId": "086532",
+          "name": "Blank White Triple Format SIM",
+          "description": null,
+          "displayName": "3-in-1 SIM",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "SIM Card",
+          "productSubClass": "Core",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "0.0",
+            "net": "0.0",
+            "vat": "0.0"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": null,
+          "isChanged": false,
+          "isCompatibleWithWatch": false
+        }
+      ],
+      "services": [],
+      "discounts": [
+        {
+          "productLineId": "beca088c-139e-4c6c-809d-ae1e7abe89f1",
+          "action": "DISCOUNT",
+          "skuId": "112023",
+          "tag": "TradeIn.Tier1",
+          "label": "Trade-in Guarantee: Save £3pm",
+          "tenure": "FULL",
+          "duration": "27 Months",
+          "confirmedRequired": "true",
+          "merchandisingMedia": [],
+          "discountValue": {
+            "type": "GBP",
+            "value": "2.5"
+          }
+        }
+      ],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "150",
+          "net": "125",
+          "vat": "25"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "150",
+          "net": "125",
+          "vat": "25"
+        },
+        "monthlyPrice": {
+          "gross": "45.96",
+          "net": "38.30",
+          "vat": "7.66"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "42.96",
+          "net": "35.80",
+          "vat": "7.16"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": null,
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "BINGO",
+      "combiPackageId": null,
+      "confirmRequired": false,
+      "deviceFinancingId": null,
+      "additionalDetails": null,
+      "tradeInOfferCode": "TradeIn.Tier1",
+      "tradeInCredit": {
+        "quoteId": "15670678-b46d-4cef-8d3a-2ce5b2516c63",
+        "deviceId": "16096626-c46d-4caa-8dxx-2ce5b2516455",
+        "deviceName": "Apple iPhone11pro 256Gb black",
+        "installedId": null,
+        "grade": {
+          "condition": "working",
+          "level": "A"
+        },
+        "diagnostic": true,
+        "expiryDateTime": "2021-05-19T11:15:58Z",
+        "credit": {
+          "type": "BACS",
+          "upToPrice": 400,
+          "guaranteedPrice": 380,
+          "monthlyCredit": null,
+          "creditProductId": 94568
+        }
+      },
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "150",
+      "net": "125",
+      "vat": "25"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "150",
+      "net": "125",
+      "vat": "25"
+    },
+    "monthlyPrice": {
+      "gross": "45.96",
+      "net": "38.30",
+      "vat": "7.66"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "42.96",
+      "net": "35.80",
+      "vat": "7.16"
+    },
+    "totalOneoffSaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "totalMonthlySaving": {
+      "gross": "3",
+      "net": "2.50",
+      "vat": "0.50"
+    }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "3",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": true,
+  "hashvalue": "-2085453669",
+  "lastModified": null,
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

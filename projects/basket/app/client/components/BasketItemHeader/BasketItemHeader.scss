@@ -1,0 +1,64 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.item-header {
+  transition: all 0.3s ease-in;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &.brand {
+    color: $color-vodafone-red;
+  }
+
+  &.blue {
+    color: $color-turquoise;
+  }
+
+  &.is-hidden {
+    opacity: 0;
+  }
+}
+
+.action-button {
+  display: flex;
+  align-items: center;
+
+  &.is-disabled {
+    cursor: default;
+    outline: none;
+  }
+}
+
+.action-text {
+  display: none;
+
+  @include md {
+    margin-bottom: -5px;
+    margin-right: $spacing-fixed-1;
+    display: inline-block;
+  }
+}
+
+.item-title a {
+  font-weight: normal;
+  font-size: $base-font-size;
+  margin-left: $spacing-fixed-1;
+
+  @include md {
+    font-size: $base-font-size-deskop;
+  }
+}
+
+.total-cost {
+  margin-top: 0;
+}
+
+.sub-title {
+  color: $color-vodafone-red;
+  font-weight: bold;
+
+  &.is-upgraded {
+    color: $color-turquoise;
+  }
+}

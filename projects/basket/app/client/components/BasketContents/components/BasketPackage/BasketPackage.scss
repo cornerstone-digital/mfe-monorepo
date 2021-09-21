@@ -1,0 +1,35 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.package-header {
+  padding: $spacing-fixed-1 $spacing-fixed-2;
+}
+
+.package-header-underline {
+  border-bottom: 1px solid $color-pale-grey;
+}
+
+.package-header-overline {
+  border-top: 1px solid $color-pale-grey;
+}
+
+.package-body {
+  max-height: 10000px; // Required for transition
+  transition: max-height 500ms ease-in-out 500ms, opacity 500ms;
+  overflow-y: hidden;
+  opacity: 1;
+
+  > ul {
+    padding-inline-start: 0;
+    margin-bottom: 0 !important;
+  }
+}
+
+.package-body-closed {
+  max-height: 0;
+  opacity: 0;
+}
+
+.container {
+  padding: $spacing-fixed-2;
+  border-top: 1px solid $color-pale-grey;
+}

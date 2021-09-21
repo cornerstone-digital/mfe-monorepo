@@ -1,0 +1,33 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.voucher {
+  color: $color-vodafone-red;
+  width: fit-content;
+  display: inline-block;
+  padding-right: $spacing-fixed-1;
+  margin-bottom: 0;
+}
+
+.remove-voucher {
+  color: $color-mine-shaft;
+  text-decoration: underline;
+}
+
+.applied-voucher {
+  border-top: 1px solid $color-pale-grey;
+}
+
+.submit-container {
+  padding-left: $spacing-fixed-2;
+  padding-right: $spacing-fixed-2;
+}
+
+.text-container {
+  align-items: flex-end;
+  padding-left: $spacing-fixed-2;
+  padding-right: $spacing-fixed-2;
+
+  @include md {
+    padding-right: 0;
+  }
+}

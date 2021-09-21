@@ -1,0 +1,1587 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transformers should transform data as expected 1`] = `
+Object {
+  "additionalInfo": Object {
+    "content": Object {
+      "heading": "Consumer Price Index (CPI) changes",
+      "text": "Monthly price shown plus all out of bundle charges will increase by the Consumer Price Index rate published in January of that year + an additional 3.9%. If you have a Device Plan, this will not affect your monthly Device Plan: vodafone.co.uk/pricechanges",
+    },
+  },
+  "communityLink": Object {
+    "text": "Ask our community",
+    "url": "https://forum.vodafone.co.uk/",
+  },
+  "copyrightText": "",
+  "legalLinks": Array [
+    Object {
+      "text": "Terms & conditions",
+      "url": "https://www.vodafone.co.uk/terms-and-conditions/",
+    },
+    Object {
+      "text": "Site map",
+      "url": "https://www.vodafone.co.uk/business/sitemap",
+    },
+    Object {
+      "text": "Privacy policy",
+      "url": "https://www.vodafone.co.uk/privacy",
+    },
+    Object {
+      "text": "Cookie policy",
+      "url": "https://www.vodafone.co.uk/privacy#cookie-policy",
+    },
+  ],
+  "linkGroups": Array [
+    Object {
+      "headingText": "Buying online",
+      "links": Array [
+        Object {
+          "text": "Business SIM only plans",
+          "url": "https://www.vodafone.co.uk/business/business-sim-only",
+        },
+        Object {
+          "text": "Business Pay monthly plans",
+          "url": "https://www.vodafone.co.uk/business/business-mobile-phones/pay-monthly-contracts",
+        },
+        Object {
+          "text": "Business mobile plan features",
+          "url": "https://www.vodafone.co.uk/business/business-mobile-plans/mobile-plan-features",
+        },
+        Object {
+          "text": "Business mobile phones",
+          "url": "https://www.vodafone.co.uk/business/business-mobile-phones",
+        },
+        Object {
+          "text": "iPhone",
+          "url": "https://www.vodafone.co.uk/business/business-mobile-phones/apple",
+        },
+        Object {
+          "text": "Samsung phones",
+          "url": "https://www.vodafone.co.uk/business/business-mobile-phones/samsung",
+        },
+        Object {
+          "text": "Huawei phones",
+          "url": "https://www.vodafone.co.uk/business/business-mobile-phones/huawei",
+        },
+        Object {
+          "text": "Google Pixel",
+          "url": "https://www.vodafone.co.uk/business/business-mobile-phones/google",
+        },
+        Object {
+          "text": "Business Broadband",
+          "url": "https://www.vodafone.co.uk/business/business-connectivity/broadband-and-phone",
+        },
+        Object {
+          "text": "Business tablets and dongles",
+          "url": "https://www.vodafone.co.uk/business/mobile-broadband/tablets",
+        },
+        Object {
+          "text": "One Net Anywhere",
+          "url": "https://www.vodafone.co.uk/business/unified-communications/vodafone-one-net-anywhere",
+        },
+      ],
+    },
+    Object {
+      "headingText": "Business Solutions",
+      "links": Array [
+        Object {
+          "text": "Unified Communications ",
+          "url": "https://www.vodafone.co.uk/business/unified-communications",
+        },
+        Object {
+          "text": "Voice connectivity",
+          "url": "https://www.vodafone.co.uk/business/business-connectivity/voice-connectivity",
+        },
+        Object {
+          "text": "Landline for business",
+          "url": "https://www.vodafone.co.uk/business/business-connectivity/voice-connectivity/phone-landlines",
+        },
+        Object {
+          "text": "Mobile Device Management",
+          "url": "https://www.vodafone.co.uk/business/business-mobile-phones/mobile-device-management",
+        },
+        Object {
+          "text": "IoT",
+          "url": "https://www.vodafone.co.uk/business/iot",
+        },
+        Object {
+          "text": "Cloud",
+          "url": "https://www.vodafone.co.uk/business/cloud-and-hosting",
+        },
+        Object {
+          "text": "Office 365",
+          "url": "https://www.vodafone.co.uk/business/cloud-and-hosting/microsoft-office-365",
+        },
+        Object {
+          "text": "5G for business",
+          "url": "https://www.vodafone.co.uk/business/why-vodafone/5g-for-business",
+        },
+        Object {
+          "text": "Trusted partners",
+          "url": "https://www.vodafone.co.uk/business/why-vodafone/trusted-partners",
+        },
+        Object {
+          "text": "Dedicated Internet Access",
+          "url": "https://www.vodafone.co.uk/business/business-connectivity/data-connectivity/dedicated-internet-access",
+        },
+      ],
+    },
+    Object {
+      "headingText": "Help & Information",
+      "links": Array [
+        Object {
+          "text": "Why Vodafone",
+          "url": "https://www.vodafone.co.uk/business/why-vodafone",
+        },
+        Object {
+          "text": "Contact us",
+          "url": "https://www.vodafone.co.uk/business/contact-us",
+        },
+        Object {
+          "text": "Find a store",
+          "url": "https://www.vodafone.co.uk/help-and-information/store-locator",
+        },
+        Object {
+          "text": "FAQ",
+          "url": "https://support.vodafone.co.uk/",
+        },
+        Object {
+          "text": "Forums",
+          "url": "https://forum.vodafone.co.uk",
+        },
+        Object {
+          "text": "Track your order",
+          "url": "https://www.vodafone.co.uk/shop/existing-customers/track-my-order/index.htm",
+        },
+        Object {
+          "text": "Delivery & returns",
+          "url": "https://www.vodafone.co.uk/terms-and-conditions/Business/buying-with-vodafone/buying-online/returns-policies/index.htm",
+        },
+        Object {
+          "text": "Roaming",
+          "url": "https://www.vodafone.co.uk/business/business-mobile-plans/business-roaming",
+        },
+        Object {
+          "text": "Accessibility",
+          "url": "https://www.vodafone.co.uk/help-and-information/accessibility",
+        },
+        Object {
+          "text": "How to complain",
+          "url": "https://www.vodafone.co.uk/help-and-information/complaints",
+        },
+      ],
+    },
+    Object {
+      "headingText": "Vodafone UK",
+      "links": Array [
+        Object {
+          "text": "About us",
+          "url": "https://www.vodafone.co.uk/help-and-information/about-us",
+        },
+        Object {
+          "text": "For investors",
+          "url": "https://investors.vodafone.com/investor-relations",
+        },
+        Object {
+          "text": "For the media",
+          "url": "https://mediacentre.vodafone.co.uk/",
+        },
+        Object {
+          "text": "Sustainable business",
+          "url": "https://www.vodafone.co.uk/mobile/sustainable-business",
+        },
+        Object {
+          "text": "Why choose us?",
+          "url": "https://www.vodafone.co.uk/explore/benefits/",
+        },
+        Object {
+          "text": "Digital Parenting",
+          "url": "https://www.vodafone.co.uk/mobile/digital-parenting",
+        },
+        Object {
+          "text": "Modern Slavery Statement",
+          "url": "https://www.vodafone.com/sites/default/files/2021-05/modern-slavery-statement-2020-21.pdf",
+        },
+        Object {
+          "text": "Careers",
+          "url": "https://careers.vodafone.co.uk/",
+        },
+      ],
+    },
+  ],
+  "social": Array [
+    Object {
+      "name": "social-facebook",
+      "srText": "Facebook",
+      "url": "https://www.facebook.com/vodafoneUK",
+    },
+    Object {
+      "name": "social-twitter",
+      "srText": "Twitter",
+      "url": "https://twitter.com/vodafoneuk",
+    },
+  ],
+}
+`;
+
+exports[`transformers should transform data as expected 2`] = `
+Object {
+  "additionalInfo": Object {
+    "content": Object {
+      "heading": "Consumer Price Index (CPI) changes",
+      "text": "Monthly price shown plus all out of bundle charges will increase by the Consumer Price Index rate published in January of that year + an additional 3.9%. If you have a Device Plan, this will not affect your monthly Device Plan: vodafone.co.uk/pricechanges",
+    },
+  },
+  "communityLink": Object {
+    "text": "Ask our community",
+    "url": "https://forum.vodafone.co.uk/",
+  },
+  "copyrightText": "Vodafone Limited is authorised and regulated by the Financial Conduct Authority for consumer credit lending and insurance distribution activity (Financial Services Register No. 712210)",
+  "legalLinks": Array [
+    Object {
+      "text": "Terms & conditions",
+      "url": "https://www.vodafone.co.uk/terms-and-conditions/",
+    },
+    Object {
+      "text": "Site map",
+      "url": "https://www.vodafone.co.uk/about-this-site/sitemap/",
+    },
+    Object {
+      "text": "Privacy policy",
+      "url": "https://www.vodafone.co.uk/privacy",
+    },
+    Object {
+      "text": "Cookie policy",
+      "url": "https://www.vodafone.co.uk/privacy#cookie-policy",
+    },
+  ],
+  "linkGroups": Array [
+    Object {
+      "headingText": "Buying online",
+      "links": Array [
+        Object {
+          "text": "Pay monthly deals",
+          "url": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts",
+        },
+        Object {
+          "text": "Pay as you go deals",
+          "url": "https://www.vodafone.co.uk/mobile/phones/pay-as-you-go",
+        },
+        Object {
+          "text": "SIM only deals",
+          "url": "https://www.vodafone.co.uk/mobile/best-sim-only-deals",
+        },
+        Object {
+          "text": "iPad and tablets",
+          "url": "https://www.vodafone.co.uk/mobile/ipads-and-tablets",
+        },
+        Object {
+          "text": "Mobile Broadband",
+          "url": "https://www.vodafone.co.uk/mobile-broadband-deals",
+        },
+        Object {
+          "text": "Home Broadband",
+          "url": "https://www.vodafone.co.uk/broadband",
+        },
+        Object {
+          "text": "VOXI",
+          "url": "https://www.voxi.co.uk",
+        },
+        Object {
+          "text": "Vodafone Smart Tech",
+          "url": "https://www.vodafone.co.uk/mobile/smart-tech",
+        },
+        Object {
+          "text": "Vodafone recommends",
+          "url": "https://www.vodafone.co.uk/mobile/best-for",
+        },
+        Object {
+          "text": "Deals and offers",
+          "url": "https://www.vodafone.co.uk/mobile/deals-and-offers",
+        },
+        Object {
+          "text": "Annual Upgrade Promise",
+          "url": "https://www.vodafone.co.uk/mobile/upgrade-promise",
+        },
+        Object {
+          "text": "Unbeatable Broadband",
+          "url": "https://www.vodafone.co.uk/broadband/pro",
+        },
+      ],
+    },
+    Object {
+      "headingText": "Latest phones",
+      "links": Array [
+        Object {
+          "text": "iPhone 12 Pro Max",
+          "url": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/apple/iphone-12-pro-max",
+        },
+        Object {
+          "text": "iPhone 12 mini",
+          "url": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/apple/iphone-12-mini",
+        },
+        Object {
+          "text": "iPhone 12",
+          "url": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/apple/iphone-12",
+        },
+        Object {
+          "text": "iPhone 12 Pro",
+          "url": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/apple/iphone-12-pro",
+        },
+        Object {
+          "text": "iPhone SE",
+          "url": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/apple/iphone-se-2020",
+        },
+        Object {
+          "text": "Galaxy S21 Ultra 5G",
+          "url": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/samsung/galaxy-s21-ultra-5g",
+        },
+        Object {
+          "text": "Galaxy S21 5G",
+          "url": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/samsung/galaxy-s21-5g",
+        },
+        Object {
+          "text": "Galaxy S21+ 5G",
+          "url": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/samsung/galaxy-s21-plus-5g",
+        },
+        Object {
+          "text": "Google Pixel 5 5G",
+          "url": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/google/pixel-5-5g",
+        },
+        Object {
+          "text": "New phones",
+          "url": "https://www.vodafone.co.uk/mobile/coming-soon/recently-released",
+        },
+        Object {
+          "text": "5G phones",
+          "url": "https://www.vodafone.co.uk/mobile/5g-phones",
+        },
+      ],
+    },
+    Object {
+      "headingText": "Help & Support",
+      "links": Array [
+        Object {
+          "text": "All help topics",
+          "url": "https://support.vodafone.co.uk/",
+        },
+        Object {
+          "text": "Help with your device",
+          "url": "https://deviceguides.vodafone.co.uk/",
+        },
+        Object {
+          "text": "Lost or stolen devices",
+          "url": "https://www.vodafone.co.uk/myvodafone/faces/lostandstolen",
+        },
+        Object {
+          "text": "Help with my account",
+          "url": "https://www.vodafone.co.uk/help-and-information/accessibility/i-need-help-managing-my-account",
+        },
+        Object {
+          "text": "Find a store",
+          "url": "https://www.vodafone.co.uk/help-and-information/store-locator",
+        },
+        Object {
+          "text": "Contact us",
+          "url": "https://www.vodafone.co.uk/contact-us",
+        },
+        Object {
+          "text": "Complaints code",
+          "url": "https://www.vodafone.co.uk/help-and-information/complaints/code-of-practice",
+        },
+        Object {
+          "text": "Return a product",
+          "url": "https://www.vodafone.co.uk/my-vodafone-account/orders/returns",
+        },
+        Object {
+          "text": "TOBi",
+          "url": "https://www.vodafone.co.uk/help-and-information/introducing-tobi",
+        },
+        Object {
+          "text": "Charge Checker – UK",
+          "url": "https://www.vodafone.co.uk/help-and-information/costs-and-charges/charge-checker-uk",
+        },
+      ],
+    },
+    Object {
+      "headingText": "Vodafone UK",
+      "links": Array [
+        Object {
+          "text": "About us",
+          "url": "/about-us",
+        },
+        Object {
+          "text": "For investors",
+          "url": "https://investors.vodafone.com/",
+        },
+        Object {
+          "text": "News Centre",
+          "url": "https://newscentre.vodafone.co.uk",
+        },
+        Object {
+          "text": "Why choose us?",
+          "url": "https://www.vodafone.co.uk/explore/benefits/",
+        },
+        Object {
+          "text": "Modern Slavery Statement",
+          "url": "https://www.vodafone.com/sites/default/files/2021-05/modern-slavery-statement-2020-21.pdf",
+        },
+        Object {
+          "text": "Accessibility",
+          "url": "https://www.vodafone.co.uk/help-and-information/accessibility",
+        },
+        Object {
+          "text": "Careers",
+          "url": "https://careers.vodafone.co.uk/",
+        },
+        Object {
+          "text": "User research",
+          "url": "https://www.vodafone.co.uk/user-research",
+        },
+      ],
+    },
+  ],
+  "social": Array [
+    Object {
+      "name": "social-facebook",
+      "srText": "Facebook",
+      "url": "https://www.facebook.com/vodafoneUK",
+    },
+    Object {
+      "name": "social-twitter",
+      "srText": "Twitter",
+      "url": "https://twitter.com/vodafoneuk",
+    },
+  ],
+}
+`;
+
+exports[`transformers should transform data as expected 3`] = `
+Object {
+  "mainLinks": Array [
+    Object {
+      "icon": "price-tag",
+      "links": Array [
+        Object {
+          "icon": "sim",
+          "links": Array [
+            Object {
+              "title": "SIM only for phones",
+              "url": "https://www.vodafone.co.uk/business/business-sim-only?commitmentPeriod=24 Months",
+            },
+            Object {
+              "title": "Data only SIM",
+              "url": "https://www.vodafone.co.uk/business/data-only-sim",
+            },
+            Object {
+              "title": "Unlimited plans",
+              "url": "https://www.vodafone.co.uk/business/business-mobile-plans/unlimited-data-plans",
+            },
+            Object {
+              "title": "Business mobile plans",
+              "url": "https://www.vodafone.co.uk/business/business-mobile-plans",
+            },
+            Object {
+              "title": "Add-ons for your plan",
+              "url": "https://www.vodafone.co.uk/business/business-mobile-plans/mobile-plan-features",
+            },
+          ],
+          "longTitle": "Explore SIM Only & Plans",
+          "title": "SIM Only & Plans",
+          "url": "https://www.vodafone.co.uk/business/business-sim-only?commitmentPeriod=24 Months",
+        },
+        Object {
+          "icon": "mobile",
+          "links": Array [
+            Object {
+              "title": "Pay monthly phones",
+              "url": "https://www.vodafone.co.uk/business/business-mobile-phones/pay-monthly-contracts",
+            },
+            Object {
+              "title": "iPhone",
+              "url": "https://www.vodafone.co.uk/business/business-mobile-phones/apple",
+            },
+            Object {
+              "title": "Samsung phones",
+              "url": "https://www.vodafone.co.uk/business/business-mobile-phones/samsung",
+            },
+            Object {
+              "title": "5G phones",
+              "url": "https://www.vodafone.co.uk/business/business-mobile-phones/5g",
+            },
+            Object {
+              "title": "Business mobile phones",
+              "url": "https://www.vodafone.co.uk/business/business-mobile-phones",
+            },
+          ],
+          "longTitle": "Explore Mobile Phones",
+          "title": "Mobile Phones",
+          "url": "https://www.vodafone.co.uk/business/business-mobile-phones",
+        },
+        Object {
+          "icon": "mobile-broadband",
+          "links": Array [
+            Object {
+              "title": "Superfast Broadband",
+              "url": "https://www.vodafone.co.uk/business/business-connectivity/broadband-and-phone",
+            },
+            Object {
+              "title": "Complete Connectivity",
+              "url": "https://www.vodafone.co.uk/business/business-connectivity/complete-connectivity",
+            },
+            Object {
+              "title": "Mobile Wifi & Dongles",
+              "url": "https://www.vodafone.co.uk/business/mobile-broadband/dongles-and-mobile-wifi",
+            },
+            Object {
+              "title": "GigaCube 5G router",
+              "url": "https://www.vodafone.co.uk/business/5g-wireless-router",
+            },
+            Object {
+              "title": "Mobile Broadband",
+              "url": "https://www.vodafone.co.uk/business/business-connectivity/business-mobile-broadband",
+            },
+          ],
+          "title": "Business Broadband",
+          "url": "https://www.vodafone.co.uk/business/business-connectivity/broadband-and-phone",
+        },
+        Object {
+          "icon": "tablet",
+          "links": Array [
+            Object {
+              "title": "iPads & Tablets",
+              "url": "https://www.vodafone.co.uk/business/mobile-broadband/tablets",
+            },
+            Object {
+              "title": "Apple Watch",
+              "url": "https://www.vodafone.co.uk/business/business-mobile-phones/apple/apple-watch",
+            },
+            Object {
+              "title": "Samsung Watch",
+              "url": "https://www.vodafone.co.uk/business/business-mobile-phones/samsung/samsung-galaxy-watch",
+            },
+            Object {
+              "title": "5G Tablets",
+              "url": "https://www.vodafone.co.uk/business/business-tablets/5g-tablets",
+            },
+            Object {
+              "title": "Smart watches",
+              "url": "https://www.vodafone.co.uk/business/smart-watches-and-wearables/",
+            },
+          ],
+          "longTitle": "Explore Tablets & Smartwatches",
+          "title": "Tablets & Smartwatches",
+          "url": "https://www.vodafone.co.uk/business/mobile-broadband/tablets",
+        },
+        Object {
+          "icon": "deals",
+          "links": Array [
+            Object {
+              "title": "Deals for existing customers",
+              "url": "https://www.vodafone.co.uk/business/deals/existing-customer-deals",
+            },
+            Object {
+              "title": "Explore business deals",
+              "url": "https://www.vodafone.co.uk/business/deals",
+            },
+          ],
+          "longTitle": "Explore Business Deals",
+          "title": "Business Deals",
+          "url": "https://www.vodafone.co.uk/business/deals",
+        },
+      ],
+      "title": "Shop",
+    },
+    Object {
+      "icon": "business",
+      "links": Array [
+        Object {
+          "icon": "5G-nofill",
+          "links": Array [
+            Object {
+              "title": "5G News & insights",
+              "url": "https://www.vodafone.co.uk/business/5g-for-business/5g-news-and-insights",
+            },
+            Object {
+              "title": "5G Innovation hubs",
+              "url": "https://www.vodafone.co.uk/business/vodafone-innovation-hubs",
+            },
+            Object {
+              "title": "5G Resources & FAQs",
+              "url": "https://www.vodafone.co.uk/business/5g-for-business/5g-news-and-insights#resources",
+            },
+            Object {
+              "title": "5G Phones & devices",
+              "url": "https://www.vodafone.co.uk/business/business-mobile-phones/5g",
+            },
+            Object {
+              "title": "Explore 5G customer stories",
+              "url": "https://www.vodafone.co.uk/business/5g-for-business/5g-customer-stories",
+            },
+          ],
+          "longTitle": "Explore 5G for Business",
+          "title": "5G for Business",
+          "url": "https://www.vodafone.co.uk/business/5g-for-business",
+        },
+        Object {
+          "icon": "unified-communication",
+          "links": Array [
+            Object {
+              "title": "Mobile solutions",
+              "url": "https://www.vodafone.co.uk/business/business-mobile-plans",
+            },
+            Object {
+              "title": "One Net Anywhere",
+              "url": "https://www.vodafone.co.uk/business/unified-communications/vodafone-one-net-anywhere",
+            },
+            Object {
+              "title": "One Net Business",
+              "url": "https://www.vodafone.co.uk/business/unified-communications/vodafone-one-net-business",
+            },
+            Object {
+              "title": "Video conference solutions",
+              "url": "https://www.vodafone.co.uk/business/unified-communications/video-conference",
+            },
+            Object {
+              "title": "Contact Centre solutions",
+              "url": "https://www.vodafone.co.uk/business/unified-communications/contact-centre-solutions",
+            },
+            Object {
+              "title": "Unified Communications",
+              "url": "https://www.vodafone.co.uk/business/unified-communications",
+            },
+          ],
+          "longTitle": "Explore Communication tools",
+          "title": "Communication tools",
+          "url": "https://www.vodafone.co.uk/business/unified-communications",
+        },
+        Object {
+          "icon": "connectivity",
+          "links": Array [
+            Object {
+              "title": "Voice connectivity systems",
+              "url": "https://www.vodafone.co.uk/business/business-connectivity/voice-connectivity",
+            },
+            Object {
+              "title": "Data connectivity solutions",
+              "url": "https://www.vodafone.co.uk/business/business-connectivity/data-connectivity",
+            },
+            Object {
+              "title": "Business Network with SDN",
+              "url": "https://www.vodafone.co.uk/business/sdn",
+            },
+            Object {
+              "title": "Dedicated Internet Access",
+              "url": "https://www.vodafone.co.uk/business/business-connectivity/data-connectivity/dedicated-internet-access",
+            },
+            Object {
+              "title": "Explore connectivity",
+              "url": "https://www.vodafone.co.uk/business/business-connectivity",
+            },
+          ],
+          "longTitle": "Explore Connectivity",
+          "title": "Business Connectivity",
+          "url": "https://www.vodafone.co.uk/business/business-connectivity",
+        },
+        Object {
+          "icon": "community-or-foundation",
+          "links": Array [
+            Object {
+              "title": "What is IoT?",
+              "url": "https://www.vodafone.co.uk/business/iot/what-is-iot",
+            },
+            Object {
+              "title": "Bespoke IoT solutions",
+              "url": "https://www.vodafone.co.uk/business/iot/iot-industries",
+            },
+            Object {
+              "title": "IoT Smart Hub",
+              "url": "https://www.vodafone.co.uk/business/iot/smart-security/smart-hub",
+            },
+            Object {
+              "title": "Smart Vision surveillance",
+              "url": "https://www.vodafone.co.uk/business/iot/smart-vision",
+            },
+            Object {
+              "title": "Heat Detection Camera",
+              "url": "https://www.vodafone.co.uk/business/iot/smart-vision/heat-detection-camera",
+            },
+            Object {
+              "title": "Explore IoT",
+              "url": "https://www.vodafone.co.uk/business/iot",
+            },
+          ],
+          "longTitle": "Explore IoT",
+          "title": "Internet of Things (IoT)",
+          "url": "https://www.vodafone.co.uk/business/iot",
+        },
+        Object {
+          "icon": "storage",
+          "links": Array [
+            Object {
+              "title": "Business applications",
+              "url": "https://www.vodafone.co.uk/business/business-apps",
+            },
+            Object {
+              "title": "Distributed Edge Computing",
+              "url": "https://www.vodafone.co.uk/business/cloud-and-security/distributed-edge-computing",
+            },
+            Object {
+              "title": "Microsoft 365",
+              "url": "https://www.vodafone.co.uk/business/business-apps/office-365-business",
+            },
+            Object {
+              "title": "Cloud Backup",
+              "url": "https://www.vodafone.co.uk/business/business-apps/cloud-backup",
+            },
+            Object {
+              "title": "Cyber Security solutions",
+              "url": "https://www.vodafone.co.uk/business/cloud-and-hosting/cyber-security-solutions",
+            },
+            Object {
+              "title": "Vodafone Business Security Enhanced",
+              "url": "https://www.vodafone.co.uk/business/cloud-and-hosting/cyber-security-solutions/security-enhanced",
+            },
+            Object {
+              "title": "Explore Cloud & Security",
+              "url": "https://www.vodafone.co.uk/business/cloud-and-security",
+            },
+          ],
+          "longTitle": "Explore Cloud & Security",
+          "title": "Cloud & Security",
+          "url": "https://www.vodafone.co.uk/business/cloud-and-security",
+        },
+      ],
+      "title": "Business solutions ",
+    },
+    Object {
+      "icon": "help-circle",
+      "links": Array [
+        Object {
+          "icon": "chart-line",
+          "links": Array [
+            Object {
+              "title": "Better ways of working",
+              "url": "https://www.vodafone.co.uk/business/why-vodafone/expert-advice/better-ways-of-working",
+            },
+            Object {
+              "title": "Latest tech from Innovation Hubs",
+              "url": "https://www.vodafone.co.uk/business/vodafone-innovation-hubs",
+            },
+            Object {
+              "title": "Small business advice & insights",
+              "url": "https://www.vodafone.co.uk/business/sme-business",
+            },
+            Object {
+              "title": "Advice for large businesses",
+              "url": "https://www.vodafone.co.uk/business/why-vodafone/expert-advice",
+            },
+            Object {
+              "title": "Vodafone Global Enterprise",
+              "url": "https://www.vodafone.co.uk/business/why-vodafone/expert-advice/vodafone-global-enterprise",
+            },
+          ],
+          "longTitle": "Explore Business Advice",
+          "title": "Vodafone Business Advice",
+          "url": "https://www.vodafone.co.uk/business/why-vodafone",
+        },
+        Object {
+          "icon": "price-promise",
+          "links": Array [
+            Object {
+              "title": "Our work near you",
+              "url": "https://www.vodafone.co.uk/business/regional-network-solutions",
+            },
+            Object {
+              "title": "Our industry expertise",
+              "url": "https://www.vodafone.co.uk/business/why-vodafone/expert-advice/our-industry-expertise",
+            },
+            Object {
+              "title": "Public Sector",
+              "url": "https://publicsector.vodafone.co.uk",
+            },
+            Object {
+              "title": "Business insights",
+              "url": "https://www.vodafone.co.uk/business/insights",
+            },
+          ],
+          "longTitle": "Explore Our Work & Expertise",
+          "title": "Our Work & Expertise",
+          "url": "https://www.vodafone.co.uk/business/insights",
+        },
+        Object {
+          "icon": "careers",
+          "links": Array [
+            Object {
+              "title": "Case studies for small businesses",
+              "url": "https://www.vodafone.co.uk/business/why-vodafone/case-studies?cat=1508864462235",
+            },
+            Object {
+              "title": "Case studies for large businesses",
+              "url": "https://www.vodafone.co.uk/business/why-vodafone/case-studies?cat=1508864462412",
+            },
+            Object {
+              "title": "Case studies for Public Sector organisations",
+              "url": "https://publicsector.vodafone.co.uk/case-studies",
+            },
+          ],
+          "longTitle": "Explore Business Case Studies",
+          "title": "Business Case Studies",
+          "url": "https://www.vodafone.co.uk/business/why-vodafone/case-studies",
+        },
+        Object {
+          "icon": "deals",
+          "links": Array [
+            Object {
+              "title": "Becoming a Partner",
+              "url": "https://www.vodafone.co.uk/business/vodafone-partners/becoming-a-vodafone-partner",
+            },
+            Object {
+              "title": "Buying from an Indirect Partner",
+              "url": "https://www.vodafone.co.uk/business/vodafone-partners/buying-from-an-indirect-partner",
+            },
+            Object {
+              "title": "Business Partners Portfolio",
+              "url": "https://www.vodafone.co.uk/business/vodafone-partners/business-partners-portfolio",
+            },
+            Object {
+              "title": "Connectivity Solutions",
+              "url": "https://www.vodafone.co.uk/business/vodafone-partners/connectivity-solutions-campaign",
+            },
+            Object {
+              "title": "Find your nearest Partner",
+              "url": "https://www.vodafone.co.uk/business/vodafone-partners/find-your-nearest-partner",
+            },
+          ],
+          "longTitle": "Explore Indirect Partnerships",
+          "title": "Indirect Partnerships",
+          "url": "https://www.vodafone.co.uk/business/vodafone-partners",
+        },
+      ],
+      "title": "Why work with Vodafone",
+    },
+    Object {
+      "icon": "error-circle",
+      "links": Array [
+        Object {
+          "icon": "charity-giving",
+          "links": Array [
+            Object {
+              "title": "In store business adviser",
+              "url": "https://www.vodafone.co.uk/business/why-vodafone/expert-advice/visit-store-for-business-support",
+            },
+            Object {
+              "title": "Find a store",
+              "url": "https://www.vodafone.co.uk/find-a-store/index.htm?filter=bizadvisor&business=true",
+            },
+            Object {
+              "title": "Vodafone Community",
+              "url": "https://forum.vodafone.co.uk/",
+            },
+            Object {
+              "title": "Check our network status",
+              "url": "https://www.vodafone.co.uk/network/status-checker",
+            },
+            Object {
+              "title": "Coronavirus help and support",
+              "url": "https://www.vodafone.co.uk/business/coronavirus-help-and-support",
+            },
+            Object {
+              "title": "One to One Small Business Support",
+              "url": "https://www.vodafone.co.uk/business/sme-business/small-business-advice/personal-advice",
+            },
+          ],
+          "longTitle": "Explore Business Support",
+          "title": "Business Support",
+          "url": "https://support.vodafone.co.uk/?usertype=Business",
+        },
+        Object {
+          "icon": "multiscreen",
+          "links": Array [
+            Object {
+              "title": "Spend Manager",
+              "url": "https://www.vodafone.co.uk/business/business-mobile-plans/mobile-plan-features/enterprise-spend-manager",
+            },
+            Object {
+              "title": "Business roaming",
+              "url": "https://www.vodafone.co.uk/business/business-mobile-plans/business-roaming",
+            },
+            Object {
+              "title": "Lost or stolen device",
+              "url": "https://support.vodafone.co.uk/Account-bill-and-top-up/Lost-or-stolen/38948747/My-device-has-been-lost-or-stolen-what-should-I-do.htm",
+            },
+            Object {
+              "title": "Vodafone Rapid",
+              "url": "https://www.vodafone.co.uk/business/business-mobile-plans/mobile-plan-features/vodafone-rapid",
+            },
+            Object {
+              "title": "Annual price changes",
+              "url": "https://www.vodafone.co.uk/business/price-changes",
+            },
+            Object {
+              "title": "Change content restrictions",
+              "url": "https://support.vodafone.co.uk/Account-billing/My-account/Managing-your-account/1464010302/How-do-I-change-my-age-restricted-content-settings.htm",
+            },
+          ],
+          "longTitle": "Explore Device Help",
+          "title": "Device Help",
+          "url": "https://www.vodafone.co.uk/business/business-mobile-plans/mobile-plan-features/vodafone-device-support",
+        },
+        Object {
+          "icon": "bullet-list",
+          "links": Array [
+            Object {
+              "title": "Activate your SIM",
+              "url": "https://support.vodafone.co.uk/Mobile-plans-Pay-as-you-go-SIM/SIM-card/",
+            },
+            Object {
+              "title": "Broadband set up",
+              "url": "https://www.vodafone.co.uk/business/business-connectivity/business-broadband/setting-up-your-broadband",
+            },
+            Object {
+              "title": "Manage your business applications",
+              "url": "https://www.vodafone.co.uk/business/getting-started/business-marketplace",
+            },
+            Object {
+              "title": "Install Visual Voicemail",
+              "url": "https://www.vodafone.co.uk/mobile/visual-voicemail",
+            },
+          ],
+          "longTitle": "Explore Getting Started",
+          "title": "Getting Started",
+          "url": "https://www.vodafone.co.uk/business/getting-started",
+        },
+        Object {
+          "icon": "contact-us",
+          "links": Array [],
+          "longTitle": "Contact Us",
+          "title": "Contact Us",
+          "url": "https://www.vodafone.co.uk/business/contact-us",
+        },
+      ],
+      "title": "Help",
+    },
+  ],
+  "onLinkClick": [MockFunction],
+  "topBar": Object {
+    "leftLinks": Array [
+      Object {
+        "icon": "members",
+        "title": "Personal",
+        "url": "https://www.vodafone.co.uk/",
+      },
+      Object {
+        "icon": "careers",
+        "title": "Business",
+        "url": "https://www.vodafone.co.uk/business",
+      },
+    ],
+    "rightLinks": Array [
+      Object {
+        "icon": "location",
+        "title": "Find a store",
+        "url": "https://www.vodafone.co.uk/help-and-information/store-locator",
+      },
+      Object {
+        "icon": "network-signal",
+        "title": "Network Status Checker",
+        "url": "https://www.vodafone.co.uk/network/status-checker",
+      },
+    ],
+  },
+  "user": Object {
+    "links": Array [
+      Object {
+        "icon": "admin",
+        "title": "Login to My Vodafone",
+        "url": "/myvodafone/faces/home",
+      },
+      Object {
+        "icon": "upgrade",
+        "title": "Upgrade",
+        "url": "/upgrade-and-offers",
+      },
+      Object {
+        "icon": "price-tag",
+        "title": "Existing customer deals",
+        "url": "/myvodafone/faces/offers",
+      },
+    ],
+    "name": "",
+  },
+}
+`;
+
+exports[`transformers should transform data as expected 4`] = `
+Object {
+  "mainLinks": Array [
+    Object {
+      "icon": "price-tag",
+      "links": Array [
+        Object {
+          "icon": "multiscreen",
+          "links": Array [
+            Object {
+              "title": "Pay monthly phones",
+              "url": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts",
+            },
+            Object {
+              "title": "Pay as you go phones",
+              "url": "https://www.vodafone.co.uk/mobile/phones/pay-as-you-go",
+            },
+            Object {
+              "title": "Apple iPhone",
+              "url": "https://www.vodafone.co.uk/mobile/brands/apple",
+            },
+            Object {
+              "title": "Samsung Galaxy",
+              "url": "https://www.vodafone.co.uk/mobile/brands/samsung",
+            },
+            Object {
+              "title": "iPad & tablets",
+              "url": "https://www.vodafone.co.uk/mobile/ipads-and-tablets",
+            },
+          ],
+          "longTitle": "Explore phones & tablets",
+          "title": "Phones & tablets",
+          "url": "https://www.vodafone.co.uk/mobile",
+        },
+        Object {
+          "icon": "sim",
+          "links": Array [
+            Object {
+              "title": "Pay monthly SIM",
+              "url": "https://www.vodafone.co.uk/mobile/best-sim-only-deals",
+            },
+            Object {
+              "title": "Pay as you go SIM",
+              "url": "https://www.vodafone.co.uk/mobile/best-sim-only-deals/pay-as-you-go-sim",
+            },
+            Object {
+              "title": "Data-only SIM",
+              "url": "https://www.vodafone.co.uk/data-only-sim",
+            },
+            Object {
+              "title": "Unlimited plans",
+              "url": "https://www.vodafone.co.uk/unlimited-data-plans/",
+            },
+            Object {
+              "title": "Top up",
+              "url": "https://www.vodafone.co.uk/my-vodafone-account/pay-as-you-go-top-up",
+            },
+          ],
+          "longTitle": "Explore SIM-only",
+          "title": "SIM-only",
+          "url": "https://www.vodafone.co.uk/mobile/best-sim-only-deals",
+        },
+        Object {
+          "icon": "mobile-broadband",
+          "links": Array [
+            Object {
+              "title": "Superfast broadband",
+              "url": "https://www.vodafone.co.uk/broadband/deals/superfast",
+            },
+            Object {
+              "title": "Gigafast broadband",
+              "url": "https://www.vodafone.co.uk/web-shop/broadband/deals/gigafast",
+            },
+            Object {
+              "title": "Mobile Wi-Fi",
+              "url": "https://www.vodafone.co.uk/mobile-broadband-deals",
+            },
+            Object {
+              "title": "Broadband Guarantee",
+              "url": "https://www.vodafone.co.uk/broadband/speed-guarantee",
+            },
+            Object {
+              "title": "Broadband hub & app",
+              "url": "https://www.vodafone.co.uk/broadband/wi-fi-hub-and-broadband-app",
+            },
+          ],
+          "longTitle": "Explore Broadband",
+          "title": "Broadband",
+          "url": "https://www.vodafone.co.uk/broadband/deals/superfast",
+        },
+        Object {
+          "icon": "price-promise",
+          "links": Array [
+            Object {
+              "title": "VeryMe rewards",
+              "url": "https://www.vodafone.co.uk/my-vodafone-account/vodafone-apps/Vodafone_VeryMe_Rewards",
+            },
+            Object {
+              "title": "Broadband + mobile",
+              "url": "https://www.vodafone.co.uk/broadband-sim-only-deals/",
+            },
+            Object {
+              "title": "Existing customers",
+              "url": "https://www.vodafone.co.uk/mobile/existing-customers",
+            },
+            Object {
+              "title": "Trade-in to save",
+              "url": "https://www.vodafone.co.uk/mobile/vodafone-trade-in",
+            },
+            Object {
+              "title": "Outlet & nearly new",
+              "url": "https://www.vodafone.co.uk/mobile/deals-and-offers/nearly-new",
+            },
+          ],
+          "longTitle": "Explore deals & offers",
+          "title": "Deals & offers",
+          "url": "https://www.vodafone.co.uk/mobile/deals-and-offers",
+        },
+        Object {
+          "icon": "smart-plug",
+          "links": Array [
+            Object {
+              "title": "Apple watch",
+              "url": "https://www.vodafone.co.uk/mobile/brands/apple/apple-watch",
+            },
+            Object {
+              "title": "Samsung watch",
+              "url": "https://www.vodafone.co.uk/mobile/brands/samsung/samsung-galaxy-watch",
+            },
+            Object {
+              "title": "V by Vodafone devices",
+              "url": "https://eshop.v.vodafone.com/uk",
+            },
+            Object {
+              "title": "OneNumber calling",
+              "url": "https://www.vodafone.co.uk/mobile/OneNumber",
+            },
+            Object {
+              "title": "Alexa calling",
+              "url": "https://www.vodafone.co.uk/mobile/OneNumber/Amazon",
+            },
+          ],
+          "longTitle": "Explore smart tech",
+          "title": "Smart tech",
+          "url": "https://www.vodafone.co.uk/mobile/smart-watches-and-wearables",
+        },
+      ],
+      "title": "Shop",
+    },
+    Object {
+      "icon": "help-circle",
+      "links": Array [
+        Object {
+          "icon": "network-signal",
+          "links": Array [
+            Object {
+              "title": "Roaming",
+              "url": "https://www.vodafone.co.uk/mobile/global-roaming",
+            },
+            Object {
+              "title": "Mobile + broadband",
+              "url": "https://www.vodafone.co.uk/broadband-sim-only-deals",
+            },
+            Object {
+              "title": "Check coverage",
+              "url": "https://www.vodafone.co.uk/network/status-checker",
+            },
+            Object {
+              "title": "Switch to us",
+              "url": "https://www.vodafone.co.uk/mobile/switch-to-vodafone-campaign-1",
+            },
+          ],
+          "longTitle": "Explore our network",
+          "title": "Our best network",
+          "url": "https://www.vodafone.co.uk/network",
+        },
+        Object {
+          "icon": "5G-nofill",
+          "links": Array [
+            Object {
+              "title": "Why Vodafone 5G?",
+              "url": "https://www.vodafone.co.uk/network/5g/why-vodafone",
+            },
+            Object {
+              "title": "5G coverage",
+              "url": "https://www.vodafone.co.uk/network/status-checker",
+            },
+            Object {
+              "title": "5G phones & devices",
+              "url": "https://www.vodafone.co.uk/mobile/5g-phones",
+            },
+            Object {
+              "title": "5G innovation",
+              "url": "https://www.vodafone.co.uk/network/5g/technology",
+            },
+            Object {
+              "title": "5G broadband",
+              "url": "https://www.vodafone.co.uk/gigacube/",
+            },
+          ],
+          "longTitle": "About 5G",
+          "title": "5G",
+          "url": "https://www.vodafone.co.uk/network/5g",
+        },
+        Object {
+          "icon": "entertainment",
+          "links": Array [
+            Object {
+              "title": "Prime Video",
+              "url": "https://www.vodafone.co.uk/mobile/music-tv-and-sport/prime-video",
+            },
+            Object {
+              "title": "Spotify Premium",
+              "url": "https://www.vodafone.co.uk/mobile/music-tv-and-sport/spotify",
+            },
+            Object {
+              "title": "Sky Sports Mobile TV",
+              "url": "https://www.vodafone.co.uk/mobile/music-tv-and-sport/sky-sports-mobile-tv",
+            },
+            Object {
+              "title": "Now TV",
+              "url": "https://www.vodafone.co.uk/mobile/music-tv-and-sport/now-tv",
+            },
+            Object {
+              "title": "Apple TV 4K",
+              "url": "https://www.vodafone.co.uk/broadband/deals/superfast",
+            },
+          ],
+          "longTitle": "Explore entertainment",
+          "title": "Entertainment",
+          "url": "https://www.vodafone.co.uk/mobile/music-tv-and-sport",
+        },
+        Object {
+          "icon": "healthy-living",
+          "links": Array [
+            Object {
+              "title": "VeryMe rewards",
+              "url": "https://www.vodafone.co.uk/my-vodafone-account/vodafone-apps/Vodafone_VeryMe_Rewards",
+            },
+            Object {
+              "title": "Pay as you go rewards",
+              "url": "https://rewards.vodafone.co.uk",
+            },
+            Object {
+              "title": "Global roaming",
+              "url": "https://www.vodafone.co.uk/mobile/global-roaming",
+            },
+            Object {
+              "title": "Unlimited plans",
+              "url": "https://www.vodafone.co.uk/unlimited-data-plans/",
+            },
+            Object {
+              "title": "MyVodafone app",
+              "url": "https://www.vodafone.co.uk/my-vodafone-account/vodafone-apps/my-vodafone-app",
+            },
+          ],
+          "longTitle": "All the good stuff",
+          "title": "More to love",
+          "url": "https://www.vodafone.co.uk/good-stuff",
+        },
+        Object {
+          "icon": "price-promise",
+          "links": Array [
+            Object {
+              "title": "Over 400 stores",
+              "url": "https://www.vodafone.co.uk/help-and-information/store-locator",
+            },
+            Object {
+              "title": "Free warranty",
+              "url": "https://support.vodafone.co.uk/Account-bill-and-top-up/Repairs-Warranty-and-Insurance/Warranty-and-insurance/38948878/When-I-buy-a-device-from-Vodafone-how-long-does-the-warranty-last-and-what-does-it-cover.htm",
+            },
+            Object {
+              "title": "Insurance plans",
+              "url": "https://www.vodafone.co.uk/mobile/vodafone-insurance",
+            },
+            Object {
+              "title": "14-day returns",
+              "url": "https://www.vodafone.co.uk/my-vodafone-account/orders/returns",
+            },
+            Object {
+              "title": "Easy trade-in",
+              "url": "https://www.vodafone.co.uk/mobile/vodafone-trade-in",
+            },
+          ],
+          "longTitle": "Great support",
+          "title": "Outstanding service",
+          "url": "https://support.vodafone.co.uk",
+        },
+      ],
+      "title": "Why Vodafone",
+    },
+    Object {
+      "icon": "error-circle",
+      "links": Array [
+        Object {
+          "icon": "saving",
+          "links": Array [
+            Object {
+              "title": "Travelling abroad",
+              "url": "https://www.vodafone.co.uk/explore/costs/travelling-abroad/",
+            },
+            Object {
+              "title": "Calling abroad",
+              "url": "https://www.vodafone.co.uk/explore/costs/calling-abroad-from-the-uk/",
+            },
+            Object {
+              "title": "UK call charges",
+              "url": "https://www.vodafone.co.uk/help-and-information/costs-and-charges/call-and-text-charges",
+            },
+            Object {
+              "title": "Data charges",
+              "url": "https://www.vodafone.co.uk/help-and-information/costs-and-charges/data-charges",
+            },
+            Object {
+              "title": "Manage data usage",
+              "url": "https://www.vodafone.co.uk/help-and-information/managing-your-data-usage",
+            },
+          ],
+          "longTitle": "Explore costs & charges",
+          "title": "Costs & charges",
+          "url": "https://www.vodafone.co.uk/help-and-information/costs-and-charges",
+        },
+        Object {
+          "icon": "info-circle",
+          "links": Array [
+            Object {
+              "title": "Getting started",
+              "url": "https://www.vodafone.co.uk/getting-started",
+            },
+            Object {
+              "title": "Costs & charges",
+              "url": "https://www.vodafone.co.uk/help-and-information/costs-and-charges",
+            },
+            Object {
+              "title": "Switch to Vodafone",
+              "url": "https://www.vodafone.co.uk/mobile/switch-to-vodafone-campaign-1",
+            },
+            Object {
+              "title": "Digital parenting",
+              "url": "https://www.vodafone.co.uk/mobile/digital-parenting",
+            },
+            Object {
+              "title": "Accessibility",
+              "url": "https://www.vodafone.co.uk/help-and-information/accessibility",
+            },
+          ],
+          "longTitle": "Useful information",
+          "title": "Information",
+          "url": "https://www.vodafone.co.uk/help-and-information",
+        },
+        Object {
+          "icon": "help-circle",
+          "links": Array [
+            Object {
+              "title": "Tech team",
+              "url": "https://www.vodafone.co.uk/help-and-information/tech-team",
+            },
+            Object {
+              "title": "Vodafone community",
+              "url": "https://forum.vodafone.co.uk",
+            },
+            Object {
+              "title": "Unlocking your phone",
+              "url": "https://www.vodafone.co.uk/help-and-information/unlocking-your-phone",
+            },
+            Object {
+              "title": "Chat assistant",
+              "url": "https://www.vodafone.co.uk/contact-us",
+            },
+            Object {
+              "title": "Device help",
+              "url": "https://deviceguides.vodafone.co.uk/",
+            },
+          ],
+          "longTitle": "Get support",
+          "title": "Support",
+          "url": "https://support.vodafone.co.uk",
+        },
+        Object {
+          "icon": "mobile-broadband",
+          "links": Array [
+            Object {
+              "title": "Broadband support",
+              "url": "https://www.vodafone.co.uk/help-and-information/broadband-support",
+            },
+            Object {
+              "title": "Broadband Guarantee",
+              "url": "https://www.vodafone.co.uk/broadband/speed-guarantee",
+            },
+            Object {
+              "title": "Home moves",
+              "url": "https://www.vodafone.co.uk/my-vodafone-account/home-moves",
+            },
+            Object {
+              "title": "Landline information",
+              "url": "https://www.vodafone.co.uk/broadband/homephone",
+            },
+          ],
+          "longTitle": "Broadband help",
+          "title": "Broadband",
+          "url": "https://www.vodafone.co.uk/help-and-information/broadband-support",
+        },
+        Object {
+          "icon": "solution-finder",
+          "links": Array [
+            Object {
+              "title": "Delivery",
+              "url": "https://www.vodafone.co.uk/my-vodafone-account/orders/delivery",
+            },
+            Object {
+              "title": "Returns",
+              "url": "https://www.vodafone.co.uk/my-vodafone-account/orders/returns",
+            },
+            Object {
+              "title": "Lost or stolen",
+              "url": "https://www.vodafone.co.uk/myvodafone/faces/lostandstolen",
+            },
+            Object {
+              "title": "Life events",
+              "url": "https://support.vodafone.co.uk/Account-bill-and-top-up/Life-events",
+            },
+            Object {
+              "title": "Repairs",
+              "url": "https://support.vodafone.co.uk/Account-bill-and-top-up/Repairs-Warranty-and-Insurance/Repairs/",
+            },
+          ],
+          "longTitle": "Great support",
+          "title": "Customer care",
+          "url": "https://support.vodafone.co.uk",
+        },
+      ],
+      "title": "Help",
+    },
+    Object {
+      "icon": "admin",
+      "links": Array [
+        Object {
+          "icon": "bill-or-report",
+          "links": Array [
+            Object {
+              "title": "Recent bills",
+              "url": "https://www.vodafone.co.uk/myvodafone/faces/usagePayments",
+            },
+            Object {
+              "title": "Usage",
+              "url": "https://www.vodafone.co.uk/myvodafone/faces/currentUsage",
+            },
+            Object {
+              "title": "Make a payment",
+              "url": "https://www.vodafone.co.uk/myvodafone/faces/usagePayments",
+            },
+            Object {
+              "title": "Manage direct debit",
+              "url": "https://www.vodafone.co.uk/myvodafone/faces/usagePayments/manageBillingProfile",
+            },
+            Object {
+              "title": "Top up",
+              "url": "https://www.vodafone.co.uk/my-vodafone-account/pay-as-you-go-top-up",
+            },
+          ],
+          "longTitle": "Explore billing & payments",
+          "title": "Billing & payments",
+          "url": "https://www.vodafone.co.uk/my-vodafone-account/billing-and-payments",
+        },
+        Object {
+          "icon": "profile",
+          "links": Array [
+            Object {
+              "title": "Customer upgrades",
+              "url": "https://www.vodafone.co.uk/my-vodafone-account/upgrades",
+            },
+            Object {
+              "title": "Existing customer offers",
+              "url": "https://www.vodafone.co.uk/mobile/existing-customers",
+            },
+          ],
+          "longTitle": "Explore My Products",
+          "title": "My Products",
+          "url": "https://www.vodafone.co.uk/myvodafone/faces/home",
+        },
+        Object {
+          "icon": "settings",
+          "links": Array [
+            Object {
+              "title": "Account settings",
+              "url": "https://www.vodafone.co.uk/myvodafone/faces/manageAccount",
+            },
+            Object {
+              "title": "Personal details",
+              "url": "https://www.vodafone.co.uk/myvodafone/faces/manageAccount",
+            },
+            Object {
+              "title": "Password & security",
+              "url": "https://www.vodafone.co.uk/myvodafone/faces/manageLogin",
+            },
+            Object {
+              "title": "My account controls",
+              "url": "https://www.vodafone.co.uk/my-vodafone/my-account-controls/",
+            },
+          ],
+          "longTitle": "Explore settings",
+          "title": "Settings",
+          "url": "https://www.vodafone.co.uk/myvodafone/faces/manageAccount",
+        },
+        Object {
+          "icon": "apps",
+          "links": Array [
+            Object {
+              "title": "My Vodafone",
+              "url": "https://www.vodafone.co.uk/my-vodafone-account/vodafone-apps/my-vodafone-app",
+            },
+            Object {
+              "title": "VeryMe Rewards",
+              "url": "https://www.vodafone.co.uk/my-vodafone-account/vodafone-apps/Vodafone-VeryMe-Rewards",
+            },
+          ],
+          "longTitle": "Explore Vodafone apps",
+          "title": "Vodafone apps",
+          "url": "https://www.vodafone.co.uk/my-vodafone-account/vodafone-apps",
+        },
+      ],
+      "title": "My Vodafone",
+    },
+  ],
+  "onLinkClick": [MockFunction],
+  "topBar": Object {
+    "leftLinks": Array [
+      Object {
+        "icon": "members",
+        "title": "Personal",
+        "url": "https://www.vodafone.co.uk/",
+      },
+      Object {
+        "icon": "careers",
+        "title": "Business",
+        "url": "https://www.vodafone.co.uk/business",
+      },
+    ],
+    "rightLinks": Array [
+      Object {
+        "icon": "location",
+        "title": "Find a store",
+        "url": "https://www.vodafone.co.uk/help-and-information/store-locator",
+      },
+      Object {
+        "icon": "network-signal",
+        "title": "Network Status Checker",
+        "url": "https://www.vodafone.co.uk/network/status-checker",
+      },
+    ],
+  },
+  "user": Object {
+    "links": Array [
+      Object {
+        "icon": "admin",
+        "title": "Login to My Vodafone",
+        "url": "/myvodafone/faces/home",
+      },
+      Object {
+        "icon": "upgrade",
+        "title": "Upgrade",
+        "url": "/upgrade-and-offers",
+      },
+      Object {
+        "icon": "price-tag",
+        "title": "Existing customer deals",
+        "url": "/myvodafone/faces/offers",
+      },
+    ],
+    "name": "",
+  },
+}
+`;

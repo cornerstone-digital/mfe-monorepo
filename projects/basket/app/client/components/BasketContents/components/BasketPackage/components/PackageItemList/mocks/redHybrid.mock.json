@@ -1,0 +1,335 @@
+{
+  "combiProps": [{
+      "removePackageInfo": {}
+    },
+    {
+      "removePackageInfo": {}
+    }
+  ],
+  "modelPackage": {
+    "packageId": "8492ab77-5880-45a8-a70a-0203a23dcfd9",
+    "accountCategory": "Consumer",
+    "accountSubCategory": null,
+    "sequence": 1,
+    "packageType": "SecondLine",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "eb30f41d-e944-433d-8b2c-f4b35cdd1bc3",
+      "action": "ADD",
+      "skuId": "114557",
+      "name": "Hybrid SIM online",
+      "description": "OUT",
+      "displayName": "Hybrid SIM online",
+      "displayDescription": null,
+      "bundleClass": "SIMO",
+      "productClass": null,
+      "serviceId": "114552",
+      "paymentType": "Prepaid",
+      "bundleType": null,
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "0"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": [],
+      "merchandisingMedia": [],
+      "attributes": null,
+      "benefits": [],
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "totalMonthlySavingsAmount": null,
+        "merchandisingPromotions": null,
+        "listOfMerchandisingPromotion": [],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": false,
+      "bundledServiceProducts": null,
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "includedCalls": null,
+      "noPriceRise": null,
+      "wifiExpert": null,
+      "broadbandAntiVirus": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+      "packageLineId": "adf2281b-32cb-4d48-9941-d0e94a21c47c",
+      "action": "ADD",
+      "skuId": "086532",
+      "name": "Blank White Triple Format SIM",
+      "description": null,
+      "displayName": "3-in-1 SIM",
+      "shortDisplayName": null,
+      "displayDescription": null,
+      "deviceBriefDescription": null,
+      "deviceColor": null,
+      "memorySize": null,
+      "make": null,
+      "model": null,
+      "groupType": null,
+      "productClass": "SIM Card",
+      "productSubClass": "Core",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": null,
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "0.0",
+        "net": "0.0",
+        "vat": "0.0"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType1": "HYBRID",
+      "simType": "PHYSICAL",
+      "colourName": null,
+      "colourHexcode": null,
+      "capacity": null,
+      "deviceSize": null,
+      "isCompatibleWithWatch": false,
+      "isChanged": false
+    }],
+    "services": [{
+        "packageLineId": "1adec832-7bae-4d5a-8e83-3ccdc856f504",
+        "action": "ADD",
+        "skuId": "114553",
+        "name": "Upfront Payment Fee",
+        "description": null,
+        "displayName": "Upfront Payment Fee",
+        "displayDescription": null,
+        "specificationGroup": [],
+        "merchandisingMedia": [],
+        "attributes": [],
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "merchandisingPromotions": null
+        },
+        "freeGift": false,
+        "productClass": "Upfront Payment Fee",
+        "dataRollover": null,
+        "rootProductId": "114552",
+        "allowances": [],
+        "rewardPoints": null,
+        "planDuration": null,
+        "isChanged": false
+      },
+      {
+        "packageLineId": "1a8edb72-f203-4544-af64-37f5dd41f4ad",
+        "action": "ADD",
+        "skuId": "114501",
+        "name": "Hybrid 5GB Plan",
+        "description": null,
+        "displayName": "Hybrid 5GB Plan",
+        "displayDescription": null,
+        "specificationGroup": [],
+        "merchandisingMedia": [],
+        "attributes": [],
+        "priceDetails": {
+          "oneOffPrice": null,
+          "oneOffDiscountPrice": null,
+          "monthlyPrice": {
+            "gross": "10",
+            "net": "8.33",
+            "vat": "1.67"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "10",
+            "net": "8.33",
+            "vat": "1.67"
+          },
+          "merchandisingPromotions": null
+        },
+        "freeGift": false,
+        "productClass": "Hybrid Bundles",
+        "dataRollover": null,
+        "rootProductId": "114552",
+        "allowances": [{
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": null,
+            "tilUom": null
+          },
+          {
+            "type": "UK DATA",
+            "value": "5",
+            "uom": "GB",
+            "displayUom": null,
+            "tilUom": null
+          },
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": null,
+            "tilUom": null
+          }
+        ],
+        "rewardPoints": null,
+        "planDuration": null,
+        "isChanged": false
+      }
+    ],
+    "discounts": [],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "monthlyPrice": {
+        "gross": "10",
+        "net": "8.33",
+        "vat": "1.67"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "10",
+        "net": "8.33",
+        "vat": "1.67"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": null
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": null
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "RED_HYBRID_ONLINE",
+    "combiPackageId": null,
+    "confirmRequired": false,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "tradeInOfferCode": null,
+    "tradeInCredit": null,
+    "packageOfferCode": null,
+    "isChanged": false
+  },
+  "removePackageInfo": {
+    "link_name": "basket summary:remove package",
+    "product_event": "removal",
+    "package_number": 1,
+    "contract type": "Prepaid"
+  },
+  "changePackageLink": "/smart-watches-and-wearables?&packageId=760a103a-7b64-45a5-b2d0-405a0055a381",
+  "headingAppearance": "inherit",
+  "packageId": "760a103a-7b64-45a5-b2d0-405a0055a381",
+  "isRemoved": false,
+  "borderDetails": {
+    "borderAppearance": "none",
+    "borderShadow": true
+  }
+}

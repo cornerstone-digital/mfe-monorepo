@@ -1,0 +1,57 @@
+export interface BasketConstTypes {
+  SIM_TYPE_ESIMONLY: BasketV2.Hardware['simType']
+  SIM_TYPE_HYBRID: BasketV2.Hardware['simType']
+  SIM_TYPE_PHYSICAL: BasketV2.Hardware['simType']
+
+  PRODUCT_SUB_CLASS_WATCH: BasketV2.Hardware['productSubClass']
+  PRODUCT_SUB_CLASS_HANDSET: BasketV2.Hardware['productSubClass']
+  PRODUCT_SUB_CLASS_CORE: BasketV2.Hardware['productSubClass']
+
+  PRODUCT_CLASS_HANDSET: BasketV2.Hardware['productClass']
+  PRODUCT_CLASS_EHANDSET: BasketV2.Hardware['productClass']
+  PRODUCT_CLASS_SIM_CARD: BasketV2.Hardware['productClass']
+  PRODUCT_CLASS_DATA_DEVICE: BasketV2.Hardware['productClass']
+  PRODUCT_CLASS_ACCESSORY: BasketV2.Hardware['productClass']
+  PRODUCT_CLASS_DISCOUNT: BasketV2.Hardware['productClass']
+
+  SERVICE_PRODUCT_CLASS_INSURANCE: BasketV2.Service['productClass']
+  SERVICE_PRODUCT_CLASS_SUPER_WIFI: BasketV2.Service['productClass']
+  SERVICE_PRODUCT_CLASS_FIXED_LINE: BasketV2.Service['productClass']
+  SERVICE_PRODUCT_CLASS_BONUS_DATA: BasketV2.Service['productClass']
+  SERVICE_PRODUCT_CLASS_FIXED_BROADBAND_SERVICE: BasketV2.Service['productClass']
+  SERVICE_PRODUCT_CLASS_HYBRID_BUNDLES: BasketV2.Service['productClass']
+
+  PLAN_TYPE_SIMO: 'SIMO'
+  PLAN_TYPE_WATCH_SIMO: 'WATCH_SIMO'
+  PLAN_TYPE_DATA_SIMO: 'DATA_SIMO'
+  PLAN_TYPE_HANDSET: 'HANDSET'
+  PLAN_TYPE_BINGO: 'BINGO'
+  PLAN_TYPE_BROADBAND_FTTH: 'BROADBAND:FTTH'
+  PLAN_TYPE_BROADBAND_FTTP: 'BROADBAND:FTTP'
+  PLAN_TYPE_BROADBAND_FTTC: 'BROADBAND:FTTC'
+  PLAN_TYPE_DATA_DEVICE: 'DATA_DEVICE'
+  PLAN_TYPE_ACCESSORY: 'ACCESSORIES'
+
+  PLAN_TYPE_RED_HYBRID: 'RED_HYBRID_ONLINE'
+
+  MP_TYPE_LIMITED_TIME: 'limited_time'
+
+  BUNDLE_DISPLAY_NAME_ESIM: BasketV2.Bundle['bundleClass']
+  BUNDLE_TYPE_BASIC: BasketV2.Bundle['bundleClass']
+  BUNDLE_TYPE_BASICS_PLAN: BasketV2.Bundle['bundleClass']
+  BUNDLE_PAYMENT_TYPE_PRE: BasketV2.Bundle['bundleClass']
+  BUNDLE_CLASS_DATA_DEVICE: BasketV2.Bundle['bundleClass']
+  BUNDLE_CLASS_DATA_SIMO: BasketV2.Bundle['bundleClass']
+  BUNDLE_CLASS_SIMO: BasketV2.Bundle['bundleClass']
+  BUNDLE_CLASS_WATCH_SIMO: BasketV2.Bundle['bundleClass']
+
+  ACCOUNT_CATEGORY_BUSINESS: 'BUSINESS'
+  ACCOUNT_CATEGORY_CONSUMER: 'CONSUMER'
+
+  ACCOUNT_TYPE_SMALLBUSINESS: 'SMALL-BUSINESS'
+
+  PAYMENT_POSTPAID: 'POSTPAID'
+  UPGRADE_ORDER: 'UPGRADE'
+
+  MAKE_VODAFONE: 'VODAFONE'
+}

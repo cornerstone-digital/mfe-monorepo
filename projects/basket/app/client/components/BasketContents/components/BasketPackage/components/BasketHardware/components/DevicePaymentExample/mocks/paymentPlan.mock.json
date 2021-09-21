@@ -1,0 +1,33 @@
+{
+  "aprRepresentative": "0.0",
+  "duration": {
+    "uom": "MONTH",
+    "value": "7"
+  },
+  "interestRate": "0.0",
+  "description": "On a 7-month phone credit agreement",
+  "monthlyPrice": {
+    "uom": "£",
+    "gross": "166.71",
+    "net": "138.93",
+    "vat": "27.78"
+  },
+  "totalHandsetCredit": {
+    "uom": "£",
+    "gross": "1167.00",
+    "net": "972.50",
+    "vat": "194.50"
+  },
+  "totalHandsetPrice": {
+    "uom": "£",
+    "gross": "1320.00",
+    "net": "1100.00",
+    "vat": "220.00"
+  },
+  "upFrontPrice": {
+    "uom": "£",
+    "gross": "153.00",
+    "net": "127.50",
+    "vat": "25.50"
+  }
+}

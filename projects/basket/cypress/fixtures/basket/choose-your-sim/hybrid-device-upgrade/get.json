@@ -1,0 +1,413 @@
+{
+  "basketId": "64cdef57-3ef7-4801-9faf-dd730f3edeeb",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2020-07-22T16:45:16.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Upgrade",
+    "offerCode": null
+  },
+  "packages": [{
+    "packageId": "44b27fc0-f000-4bfd-9779-593ac99fc86d",
+    "accountCategory": "Consumer",
+    "sequence": 2,
+    "packageType": "Upgrade",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "91e9e60a-9fa8-4aa5-8814-de88550c3ac1",
+      "action": "ADD",
+      "skuId": "111212",
+      "name": "24mth Band X Unlmins 16GB Red Extra Plan",
+      "description": "CTR14b Red Extra Plan comes with unlimited mins, unlimited texts and 16GB of UK data",
+      "displayName": "16GB Red Extra plan",
+      "displayDescription": null,
+      "bundleClass": "SIMO",
+      "productClass": null,
+      "serviceId": "110286",
+      "paymentType": "Postpaid",
+      "bundleType": "Red Extra",
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "24"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": [{
+          "type": "ORIGDATA",
+          "value": "16",
+          "uom": "GB",
+          "displayUom": "GB",
+          "tilUom": "DATA"
+        },
+        {
+          "type": "UK TEXT",
+          "value": "Unlimited",
+          "uom": "-",
+          "displayUom": "texts",
+          "tilUom": "SMS"
+        },
+        {
+          "type": "World Traveller",
+          "value": "Vodafone Global Roaming",
+          "uom": null,
+          "displayUom": null,
+          "tilUom": null
+        },
+        {
+          "type": "UK DATA",
+          "value": "16",
+          "uom": "GB",
+          "displayUom": "GB",
+          "tilUom": "DATA"
+        },
+        {
+          "type": "UK MIN",
+          "value": "Unlimited",
+          "uom": "-",
+          "displayUom": "minutes",
+          "tilUom": "VOICE"
+        }
+      ],
+      "merchandisingMedia": [],
+      "attributes": null,
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "76",
+          "net": "63.33",
+          "vat": "12.67"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "76",
+          "net": "63.33",
+          "vat": "12.67"
+        },
+        "totalSavingsAmount": null,
+        "merchandisingPromotions": null,
+        "listOfMerchandisingPromotion": [],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": true,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+        "packageLineId": "0985ce11-d6bc-4141-886a-a3cefa5843dd",
+        "action": "ADD",
+        "skuId": "086532",
+        "name": "Blank White Triple Format SIM",
+        "description": null,
+        "displayName": "3-in-1 SIM",
+        "displayDescription": null,
+        "deviceBriefDescription": [],
+        "deviceColor": null,
+        "memorySize": null,
+        "make": null,
+        "model": null,
+        "groupType": null,
+        "productClass": "SIM Card",
+        "displayOrder": null,
+        "showInSummary": false,
+        "merchandisingMedia": [],
+        "attributes": [],
+        "contractOptions": null,
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "merchandisingPromotions": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "financingOptions": [],
+          "deviceFinancingId": null,
+          "devicePaymentPlan": null
+        },
+        "boxPrice": {
+          "gross": "0.0",
+          "net": "0.0",
+          "vat": "0.0"
+        },
+        "freeGift": false,
+        "devicePromotion": null,
+        "simType": null,
+        "isCompatibleWithWatch": false,
+        "isChanged": false
+      },
+      {
+        "packageLineId": "5340da7b-f920-412d-bd77-8f683b59586f",
+        "action": "ADD",
+        "skuId": "888888",
+        "name": "Samsung Galaxy A40 black",
+        "description": "The Samsung Galaxy A40 captures your world with an Ultra Wide camera and reveals every detail on a vibrant Infinity-U display.",
+        "displayName": "Samsung Galaxy A40 64GB Black",
+        "displayDescription": null,
+        "deviceBriefDescription": [],
+        "deviceColor": "Black",
+        "memorySize": "64 GB",
+        "make": "samsung",
+        "model": "galaxy-a40",
+        "groupType": null,
+        "productClass": "Handset",
+        "displayOrder": null,
+        "showInSummary": false,
+        "merchandisingMedia": [{
+            "id": "imageURLs.full.right",
+            "value": "/images/desktop/Samsung_Galaxy_A40_black-full-product-right-600.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.thumbs.left",
+            "value": "/images/desktop/Samsung_Galaxy_A40_black-thumbs-left.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.thumbs.right",
+            "value": "/images/desktop/Samsung_Galaxy_A40_black-thumbs-right.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.full.front",
+            "value": "/images/desktop/Samsung_Galaxy_A40_black-full-product-front-600.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.full.back",
+            "value": "/images/desktop/Samsung_Galaxy_A40_black-full-product-back-600.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.thumbs.front",
+            "value": "/images/desktop/Samsung_Galaxy_A40_black-thumbs-front.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.full.left",
+            "value": "/images/desktop/Samsung_Galaxy_A40_black-full-product-left-600.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.full.side",
+            "value": "/images/desktop/Samsung_Galaxy_A40_black-full-product-side-600.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.full.hero",
+            "value": "/images/desktop/Samsung_Galaxy_A40_black-full-product-front-600.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.thumbs.back",
+            "value": "/images/desktop/Samsung_Galaxy_A40_black-thumbs-back.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.thumbs.side",
+            "value": "/images/desktop/Samsung_Galaxy_A40_black-thumbs-side.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.grid",
+            "value": "/images/desktop/Samsung_Galaxy_A40_black-grid-product-front.png",
+            "type": "URL",
+            "footNotes": [""]
+          }
+        ],
+        "attributes": [],
+        "contractOptions": null,
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "399",
+            "net": "332.50",
+            "vat": "66.50"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "399",
+            "net": "332.50",
+            "vat": "66.50"
+          },
+          "merchandisingPromotions": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "financingOptions": [],
+          "deviceFinancingId": null,
+          "devicePaymentPlan": null
+        },
+        "boxPrice": {
+          "gross": "194.52",
+          "net": "162.10",
+          "vat": "32.42"
+        },
+        "freeGift": false,
+        "devicePromotion": "112686",
+        "simType": "HYBRID",
+        "isCompatibleWithWatch": true,
+        "isChanged": false
+      }
+    ],
+    "services": [],
+    "discounts": [],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "399",
+        "net": "332.50",
+        "vat": "66.50"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "399",
+        "net": "332.50",
+        "vat": "66.50"
+      },
+      "monthlyPrice": {
+        "gross": "76",
+        "net": "63.33",
+        "vat": "12.67"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "76",
+        "net": "63.33",
+        "vat": "12.67"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "HANDSET",
+    "combiPackageId": null,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "isChanged": false
+  }],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "798",
+      "net": "665",
+      "vat": "133"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "798",
+      "net": "665",
+      "vat": "133"
+    },
+    "monthlyPrice": {
+      "gross": "152",
+      "net": "126.66",
+      "vat": "25.34"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "152",
+      "net": "126.66",
+      "vat": "25.34"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "2003743188",
+  "lastModified": "2020-07-22T16:50:10.136Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "affiliateFlag": false,
+  "isChanged": false
+}

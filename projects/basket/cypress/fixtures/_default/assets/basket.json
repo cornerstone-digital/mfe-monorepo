@@ -1,0 +1,888 @@
+[{
+  "basket": {
+    "vf_MetaDescription": "Basket",
+    "vf_enableGetinTouch": "False",
+    "vf_Modules": {
+      "basket_tradeIn": {
+        "unique_code_label": "Unique code",
+        "header_2": "Your quote details",
+        "name": "basket_tradeIn",
+        "header_1": "What's next?",
+        "textContent": [
+          "At checkout you’ll be asked how you’d like to return your eligible phone. You can either post it to us in a pre-paid envelope or drop it off in any of our stores.",
+          "Once our warehouse has received your phone, we’ll transfer your phone’s price in the way you’ve chosen.",
+          "If you chose a monthly saving, this will be applied straight away. If you chose bank transfer, the money will be with you in 5 to 10 working days. And if you chose trade-in credit, this will be added to your account automatically within 5 working days.",
+          "Use it to pay for anything billed to that account; early upgrade fees, Add-ons or broadband.",
+          "Plus, your trade-in is backed-up by our price guarantee, meaning we won’t be beaten by any other mobile network’s standard trade-in offer or we’ll give you the difference back."
+        ],
+        "id": 1595435276395,
+        "device_label": "Your trade-in device",
+        "title": "Your guaranteed trade-in",
+        "friendlyName": "basket_tradeIn",
+        "expiry_date_label": "Expiry date",
+        "parents": []
+      },
+      "notifications": {
+        "footNoteContent": [],
+        "content": {
+          "BSKT_INVALID_INPUT_042": {
+            "type": "info",
+            "bodyText": "Please reduce the quantity in your Basket to continue. For larger orders, please call us on 08080 408 408.\r\n",
+            "name": "BSKT_INVALID_INPUT_042",
+            "header": "You can buy up to 5 business items online. ",
+            "id": 1595441567736,
+            "friendlyName": "BSKT_INVALID_INPUT_042",
+            "parents": []
+          },
+          "MAX_SB_PLANS_EXCEEDED": {
+            "type": "info",
+            "bodyText": "You'll need to remove any additional Plans to continue. You can use the Remove Package buttons to do this.\r\n",
+            "name": "MAX_SB_PLANS_EXCEEDED",
+            "header": "You can only purchase 2x Plans at a time.",
+            "id": 1595439417974,
+            "friendlyName": "MAX_SB_PLANS_EXCEEDED",
+            "parents": []
+          },
+          "DEMO_ERROR_MESSAGE": {
+            "ctaURL": "www.vodafone.co.uk",
+            "featureNotAvailable": "xyz.com",
+            "type": "info",
+            "acceptCTA": "Home",
+            "bodyText": "<p>Demo copy&nbsp;</p>\r\n",
+            "declineCTA": "Forward",
+            "name": "DEMO_ERROR_MESSAGE",
+            "header": "You can only purchase 100x Plans at a time.",
+            "id": 1595439614233,
+            "friendlyName": "DEMO_ERROR_MESSAGE",
+            "parents": []
+          },
+          "SUBCATEGORY_SMALLBUSINESS_INELIGIBLE_HANDSET": {
+            "type": "info",
+            "bodyText": "You’re logged in as a sole trader but have added a package only available to limited companies and partnerships. Please remove it to continue.",
+            "name": "SUBCATEGORY_SMALLBUSINESS_INELIGIBLE_HANDSET",
+            "header": "You need to remove some items from your basket.",
+            "id": 1595439417393,
+            "friendlyName": "SUBCATEGORY_SMALLBUSINESS_INELIGIBLE_HANDSET",
+            "parents": []
+          },
+          "SUBCATEGORY_SOLETRADER_INELIGIBLE_LOAN_WATCH": {
+            "type": "info",
+            "bodyText": "You’re logged in as a limited company or partnership, but have added a Vodafone EVO for Sole Traders package. Please remove it to continue.",
+            "name": "SUBCATEGORY_SOLETRADER_INELIGIBLE_LOAN_WATCH",
+            "header": "You need to remove some items from your basket.",
+            "id": 1595439417127,
+            "friendlyName": "SUBCATEGORY_SOLETRADER_INELIGIBLE_LOAN_WATCH",
+            "parents": []
+          },
+          "SUBCATEGORY_SOLETRADER_INELIGIBLE_LOAN_PHONE": {
+            "type": "info",
+            "bodyText": "You’re logged in as a limited company or partnership, but have added a Vodafone EVO for Sole Traders package. Please remove it to continue.",
+            "name": "SUBCATEGORY_SOLETRADER_INELIGIBLE_LOAN_PHONE",
+            "header": "You need to remove some items from your basket.",
+            "id": 1595439416335,
+            "friendlyName": "SUBCATEGORY_SOLETRADER_INELIGIBLE_LOAN_PHONE",
+            "parents": []
+          },
+          "SUBCATEGORY_LOAN_NON_LOAN_MIX_WATCH": {
+            "type": "info",
+            "bodyText": "You have packages for sole traders and packages for limited companies and partnerships in your basket – you can’t buy both. Please remove any that aren’t for your type of business. ",
+            "name": "SUBCATEGORY_LOAN_NON_LOAN_MIX_WATCH",
+            "header": "You need to remove some items from your basket.",
+            "id": 1595439415714,
+            "friendlyName": "SUBCATEGORY_LOAN_NON_LOAN_MIX_WATCH",
+            "parents": []
+          },
+          "SUBCATEGORY_LOAN_NONLOAN_MIX_HANDSET": {
+            "type": "info",
+            "bodyText": "You have packages for sole traders and packages for limited companies and partnerships in your basket – you can’t buy both. Please remove any that aren’t for your type of business.",
+            "name": "SUBCATEGORY_LOAN_NONLOAN_MIX_HANDSET",
+            "header": "You need to remove some items from your basket.",
+            "id": 1595439415243,
+            "friendlyName": "SUBCATEGORY_LOAN_NONLOAN_MIX_HANDSET",
+            "parents": []
+          },
+          "LOAN_DECLINE_CHECKOUT_WATCH_HANDSET": {
+            "type": "info",
+            "bodyText": "Amend your order to create an agreement that's more suitable. If you've changed your mind, remove the smartwatch from your order and continue with just the phone.",
+            "name": "LOAN_DECLINE_CHECKOUT_WATCH_HANDSET",
+            "header": "You've declined the Watch Plan agreement",
+            "id": 1595435796555,
+            "friendlyName": "LOAN_DECLINE_CHECKOUT_WATCH_HANDSET",
+            "parents": []
+          },
+          "LOAN_DECLINE_CHECKOUT_HANDSET_WATCH": {
+            "type": "info",
+            "bodyText": "Amend your order to create an agreement that's more suitable. Note: you can't buy a smartwatch without a compatible phone, so you won't be able to continue if you remove the phone from your order.",
+            "name": "LOAN_DECLINE_CHECKOUT_HANDSET_WATCH",
+            "header": "You've declined the Phone Plan agreement",
+            "id": 1595435793848,
+            "friendlyName": "LOAN_DECLINE_CHECKOUT_HANDSET_WATCH",
+            "parents": []
+          },
+          "LOAN_DECLINE_CHECKOUT_WATCH_ONLY": {
+            "type": "info",
+            "bodyText": "Still want to buy the device? Amend your order to create an agreement which is more suitable.",
+            "name": "LOAN_DECLINE_CHECKOUT_WATCH_ONLY",
+            "header": "You've declined the agreement",
+            "id": 1595435791344,
+            "friendlyName": "LOAN_DECLINE_CHECKOUT_WATCH_ONLY",
+            "parents": []
+          },
+          "LOAN_DECLINE_CHECKOUT_HANDSET_ONLY": {
+            "type": "info",
+            "bodyText": "Still want to buy the device? Amend your order to create an agreement which is more suitable.",
+            "name": "LOAN_DECLINE_CHECKOUT_HANDSET_ONLY",
+            "header": "You've declined the agreement",
+            "id": 1595435787302,
+            "friendlyName": "LOAN_DECLINE_CHECKOUT_HANDSET_ONLY",
+            "parents": []
+          },
+          "Err_Vou_004": {
+            "type": "info",
+            "bodyText": "The promotional code you entered has expired.  Please try again with a valid code or contact customer support.",
+            "name": "Err_Vou_004",
+            "header": "Uh-oh, something went wrong.",
+            "id": 1595432870002,
+            "friendlyName": "Err_Vou_004",
+            "parents": []
+          },
+          "Err_Vou_003": {
+            "type": "info",
+            "bodyText": "The promotional code you entered isn’t valid for this package, or a better discount has already been applied. ",
+            "name": "Err_Vou_003",
+            "header": "Uh-oh, something went wrong.",
+            "id": 1595430425431,
+            "friendlyName": "Err_Vou_003",
+            "parents": []
+          },
+          "Err_Vou_002": {
+            "type": "info",
+            "bodyText": "The promotional code you entered has already been redeemed, or is currently being applied to another basket you’ve created. Please check and try again or contact customer support.",
+            "name": "Err_Vou_002",
+            "header": "Uh-oh, something went wrong.",
+            "id": 1595430425050,
+            "friendlyName": "Err_Vou_002",
+            "parents": []
+          },
+          "BSKT_INVALID_INPUT_037": {
+            "type": "info",
+            "bodyText": "You'll need to remove the Pay as You Go or Pay Monthly package to continue. You can use the Remove Package buttons to do this.",
+            "name": "BSKT_INVALID_INPUT_037",
+            "header": "You cannot have Pay as You Go and Pay Monthly packages in the same Basket.",
+            "id": 1595438904151,
+            "friendlyName": "BSKT_INVALID_INPUT_037",
+            "parents": []
+          },
+          "Err_Vou_001": {
+            "type": "info",
+            "bodyText": "The promotional code you entered isn’t valid. Please try again or contact customer support.",
+            "name": "Err_Vou_001",
+            "header": "Uh-oh, something went wrong.",
+            "id": 1595430424656,
+            "friendlyName": "Err_Vou_001",
+            "parents": []
+          },
+          "BSKT_INVALID_INPUT_068": {
+            "type": "info",
+            "bodyText": "You can only apply one promotional code at a time, and this must be a code that hasn’t already been redeemed. Please try again or contact customer support.",
+            "name": "BSKT_INVALID_INPUT_068",
+            "header": "Uh-oh, something went wrong.",
+            "id": 1595430424259,
+            "friendlyName": "BSKT_INVALID_INPUT_068",
+            "parents": []
+          },
+          "BASKET_LOAN_CAP": {
+            "type": "info",
+            "bodyText": "You'll need to remove any additional Phone Plans or Watch Plans to continue. You can use the Remove Package buttons to do this.",
+            "name": "BASKET_LOAN_CAP",
+            "header": "You can only purchase one Phone Plan and one Watch Plan at a time.",
+            "id": 1595424152976,
+            "friendlyName": "BASKET_LOAN_CAP",
+            "parents": []
+          },
+          "BASKET_WATCH_CAP": {
+            "type": "info",
+            "bodyText": "You'll need to remove any additional Watch Plans to continue. You can use the Remove Package buttons to do this.",
+            "name": "BASKET_WATCH_CAP",
+            "header": "You can only purchase one Watch Plan at a time.",
+            "id": 1595424152902,
+            "friendlyName": "BASKET_WATCH_CAP",
+            "parents": []
+          },
+          "BASKET_PHONE_CAP": {
+            "type": "info",
+            "bodyText": "You'll need to remove any additional Phone Plans to continue. You can use the Remove Package buttons to do this.",
+            "name": "BASKET_PHONE_CAP",
+            "header": "You can only purchase one Phone Plan at a time.",
+            "id": 1595424152735,
+            "friendlyName": "BASKET_PHONE_CAP",
+            "parents": []
+          },
+          "MAXIMUM_LENDING_LIMIT": {
+            "type": "info",
+            "acceptCTA": "Pay-off a Device Plan",
+            "bodyText": "You've reached your maximum spending limit allowed on your account.",
+            "name": "MAXIMUM_LENDING_LIMIT",
+            "header": "Looks like you've reached your maximum spending limit",
+            "id": 1595422524467,
+            "friendlyName": "MAXIMUM_LENDING_LIMIT",
+            "parents": []
+          },
+          "REPAYMENT_ISSUES": {
+            "type": "info",
+            "acceptCTA": "Log into my account",
+            "bodyText": "In order to buy another device Plan, you'll need to pay-off your existing Device Plan.",
+            "name": "REPAYMENT_ISSUES",
+            "header": "Looks like you're in debt collections",
+            "id": 1595422523670,
+            "friendlyName": "REPAYMENT_ISSUES",
+            "parents": []
+          },
+          "MAXIMUM_CTNS_WITH_CONCURRENT_LOANS": {
+            "type": "info",
+            "acceptCTA": "Pay-off a Device Plan",
+            "bodyText": "You already have two phone numbers in use with two Device Plans. You'll need to pay off a Device Plan on one of these phone numbers before you take out another.",
+            "name": "MAXIMUM_CTNS_WITH_CONCURRENT_LOANS",
+            "header": "Looks like you've reached a Device Plan limit",
+            "id": 1595422522063,
+            "friendlyName": "MAXIMUM_CTNS_WITH_CONCURRENT_LOANS",
+            "parents": []
+          },
+          "MAXIMUM_LOANS_FOR_CTN": {
+            "type": "info",
+            "acceptCTA": "Pay-off a Device Plan",
+            "bodyText": "You already have two phone numbers in use with two Device Plans. You'll need to pay off a Device Plan on one of these phone numbers before you take out another.",
+            "name": "MAXIMUM_LOANS_FOR_CTN",
+            "header": "Looks like you've reached a Device Plan limit",
+            "id": 1595422520247,
+            "friendlyName": "MAXIMUM_LOANS_FOR_CTN",
+            "parents": []
+          },
+          "MAXIMUM_ALLOWED_LOANS": {
+            "type": "info",
+            "acceptCTA": "Pay-off a Device Plan",
+            "bodyText": "In order to buy another device, you'll need to pay-off one of your Device Plan.",
+            "name": "MAXIMUM_ALLOWED_LOANS",
+            "header": "Looks like you've reached your limit of 10 Device Plans",
+            "id": 1595422519970,
+            "friendlyName": "MAXIMUM_ALLOWED_LOANS",
+            "parents": []
+          },
+          "MAX_LOAN_LIMIT_REACHED": {
+            "ctaURL": "/webcenter/portal/myvodafone/usagepayments/deviceplan",
+            "type": "info",
+            "acceptCTA": "Pay-off a device plan",
+            "bodyText": "To buy another device, you'll need to pay-off one of your existing Device Plans. Or you can buy any other items by removing the Phone Plan or Watch Plan from your basket and continuing to checkout.",
+            "name": "MAX_LOAN_LIMIT_REACHED",
+            "header": "Looks like you've reached your limits of 10 Device Plans",
+            "id": 1523382374470,
+            "friendlyName": "MAX_LOAN_LIMIT_REACHED",
+            "parents": []
+          },
+          "BSKT_INVALID_INPUT_001": {
+            "bodyText": "Unfortunately you have already submitted your basket, so you must proceed back to the checkout.",
+            "name": "BSKT_INVALID_INPUT_001",
+            "header": "Something went wrong.",
+            "id": 1494519821049,
+            "friendlyName": "BSKT_INVALID_INPUT_001",
+            "parents": []
+          },
+          "BSKT_INVALID_INPUT_047": {
+            "bodyText": "It looks like the plan you tried adding to your basket is incompatible or not valid. Please try again. If the problem persists, please contact customer support. We are sorry for any inconvenience.",
+            "name": "BSKT_INVALID_INPUT_047",
+            "header": "This plan could not be added to your basket.",
+            "id": 1494514287774,
+            "friendlyName": "BSKT_INVALID_INPUT_047",
+            "parents": []
+          },
+          "basket_airtime_plan": {
+            "acceptCTA": "See Airtime plans",
+            "bodyText": "In order to purchase a phone, you'll need to choose an Airtime Plan.",
+            "name": "basket_airtime_plan",
+            "header": "It looks like you haven't added an Airtime Plan.",
+            "id": 1523377419324,
+            "friendlyName": "basket_airtime_plan",
+            "parents": []
+          },
+          "AIRTIME_DEVICE_MISMATCH": {
+            "acceptCTA": "See Airtime plans",
+            "bodyText": "You'll need to choose a different Airtime plan to continue.",
+            "name": "AIRTIME_DEVICE_MISMATCH",
+            "header": "Your phone and your Airtime plan don't match.",
+            "id": 1523377419432,
+            "friendlyName": "AIRTIME_DEVICE_MISMATCH",
+            "parents": []
+          },
+          "LOAN_INVALID_UPFRONT_COST": {
+            "acceptCTA": "Change my upfront cost",
+            "bodyText": "You need to change your upfront cost.",
+            "name": "LOAN_INVALID_UPFRONT_COST",
+            "header": "Something isn't right with your upfront payment amount.",
+            "id": 1523377419850,
+            "friendlyName": "LOAN_INVALID_UPFRONT_COST",
+            "parents": []
+          },
+          "LOAN_INVALID_DURATION": {
+            "acceptCTA": "Change my plan length",
+            "bodyText": "You must choose a plan length between 3 and 36 months.",
+            "name": "LOAN_INVALID_DURATION",
+            "header": "Something isn't right with the length of your Phone plan.",
+            "id": 1523377420047,
+            "friendlyName": "LOAN_INVALID_DURATION",
+            "parents": []
+          },
+          "basket_airtime_plan_length": {
+            "acceptCTA": "See Airtime plans",
+            "bodyText": "As your Phone plan is more than 12 months, you must add a 24-month Airtime plan.",
+            "name": "basket_airtime_plan_length",
+            "header": "Something isn't right with your Airtime plan length.",
+            "id": 1523377420156,
+            "friendlyName": "basket_airtime_plan_length",
+            "parents": []
+          },
+          "TRADEIN_QUOTE_EXP": {
+            "type": "info",
+            "acceptCTA": "Get new code",
+            "bodyText": "To trade in this phone, you'll need to complete our Trade-in Tool checks again to get a new code.\r\n",
+            "name": "TRADEIN_QUOTE_EXP",
+            "header": "Your trade-in code has expired",
+            "id": 1595435138907,
+            "friendlyName": "TRADEIN_QUOTE_EXP",
+            "parents": []
+          },
+          "basket_limited_company_partnership": {
+            "acceptCTA": "Contact us",
+            "bodyText": "Please chat with us online or call us for free from any UK landline or mobile on 0808 800 800.",
+            "declineCTA": "Continue as a sole trader",
+            "name": "basket_limited_company_partnership",
+            "header": "Are you buying for a Limited Company or a Partnership?",
+            "id": 1523377420277,
+            "friendlyName": "basket_limited_company_partnership",
+            "parents": []
+          }
+        },
+        "name": "notifications",
+        "id": 1494519821380,
+        "friendlyName": "notifications",
+        "parents": []
+      },
+      "messages": {
+        "footNoteContent": [],
+        "content": {
+          "30041": {
+            "bodyText": "6x Unlimited Data Booster",
+            "name": "30041",
+            "id": 1595423258515,
+            "friendlyName": "30041",
+            "parents": []
+          },
+          "freedom_benefits": {
+            "subLinks": ["With unlimited calls and texts", "30-day subscription", "VeryMe Rewards"],
+            "mainTitle": "Freedom Benefits",
+            "name": "freedom_benefits",
+            "id": 1595442075679,
+            "friendlyName": "freedom_benefits",
+            "parents": []
+          },
+          "ROAMING_AIRTIME_BENEFIT": {
+            "bodyText": "Inclusive roaming in {param} destinations\r\n",
+            "name": "ROAMING_AIRTIME_BENEFIT",
+            "id": 1595440471436,
+            "friendlyName": "ROAMING_AIRTIME_BENEFIT",
+            "parents": []
+          },
+          "030010": {
+            "bodyText": "Device Care",
+            "name": "030010",
+            "id": 1595423258782,
+            "friendlyName": "030010",
+            "parents": []
+          },
+          "030040": {
+            "bodyText": "3x Unlimited Data Booster",
+            "name": "030040",
+            "id": 1595423258316,
+            "friendlyName": "030040",
+            "parents": []
+          },
+          "030030": {
+            "bodyText": "£3.50pm off Smartwatch Connectivity Plan",
+            "name": "030030",
+            "id": 1595424809766,
+            "friendlyName": "030030",
+            "parents": []
+          },
+          "030030_Business": {
+            "bodyText": "£3.50pm off Smartwatch Connectivity Plan †",
+            "name": "030030_Business",
+            "id": 1595434664325,
+            "friendlyName": "030030_Business",
+            "parents": []
+          },
+          "030050": {
+            "bodyText": "6x Unlimited Data Booster",
+            "name": "030050",
+            "id": 1595424809283,
+            "friendlyName": "030050",
+            "parents": []
+          },
+          "connectivity_plan": {
+            "bodyText": "Connectivity Plan shares data, texts & minutes with your Airtime Plan.",
+            "name": "connectivity_plan",
+            "id": 1595422493310,
+            "friendlyName": "connectivity_plan",
+            "parents": []
+          },
+          "number_associated_watch": {
+            "bodyText": "Number associated with the watch:",
+            "name": "number_associated_watch",
+            "id": 1595422494119,
+            "friendlyName": "number_associated_watch",
+            "parents": []
+          },
+          "chosen_connect": {
+            "bodyText": "You've chosen to connect this smart watch to this mobile number.",
+            "name": "chosen_connect",
+            "id": 1595422494167,
+            "friendlyName": "chosen_connect",
+            "parents": []
+          },
+          "MAX_AVAILABLE": {
+            "bodyText": "Speed: fastest available",
+            "name": "MAX_AVAILABLE",
+            "id": 1523382342503,
+            "friendlyName": "MAX_AVAILABLE",
+            "parents": []
+          },
+          "MAX_2_MBPS": {
+            "bodyText": "Speed: Maximum download of 2 Mbps",
+            "name": "MAX_2_MBPS",
+            "id": 1523382342559,
+            "friendlyName": "MAX_2_MBPS",
+            "parents": []
+          },
+          "MAX_10_MBPS": {
+            "bodyText": "Speed: Maximum download of 10 Mbps",
+            "name": "MAX_10_MBPS",
+            "id": 1523382342615,
+            "friendlyName": "MAX_10_MBPS",
+            "parents": []
+          },
+          "package_footer": {
+            "bodyText": "*Includes time-limited discounts. The price you pay will increase during your contract.",
+            "name": "package_footer",
+            "id": 1523382342854,
+            "friendlyName": "package_footer",
+            "parents": []
+          },
+          "RPI_withoutVAT": {
+            "bodyText": "Monthly price shown plus all out of bundle charges will increase by the Consumer Price Index rate published in January of that year + an additional 3.9%.  If you have a Device Plan, this will not affect your monthly Device Price. Terms apply. See vodafone.co.uk/pricechanges for details.",
+            "name": "RPI_withoutVAT",
+            "id": 1595436589240,
+            "friendlyName": "RPI_withoutVAT",
+            "parents": []
+          },
+          "rpi": {
+            "bodyText": "† Prices shown include VAT unless otherwise stated, the VAT rate payable is 20% where standard VAT rate applies. Monthly price shown plus all out of bundle charges will increase by the Consumer Price Index rate published in January of that year + an additional 3.9%. If you have a Device Plan, this will not affect your monthly Device Plan. Adjusted amount from your April bill. Terms apply. See vodafone.co.uk/pricechanges for details.",
+            "name": "rpi",
+            "id": 1494514040779,
+            "friendlyName": "rpi",
+            "parents": []
+          },
+          "SMALL_BUSINESS_BASKET_FOOTER": {
+            "bodyText": "† Prices shown include VAT unless otherwise stated, the VAT rate payable is 20% where standard VAT rate applies. Other terms apply, see vodafone.co.uk/terms-and-conditions for details.",
+            "name": "SMALL_BUSINESS_BASKET_FOOTER",
+            "id": 1595438822772,
+            "friendlyName": "SMALL_BUSINESS_BASKET_FOOTER",
+            "parents": []
+          },
+          "flexi_upgrade_fee": {
+            "bodyText": "This fee is based on your current phone’s value and the remaining time left on your contract. If the phone you have ordered is not yet in stock, the final fee will be calculated on the day your new phone is dispatched.",
+            "name": "flexi_upgrade_fee",
+            "id": 1523382172998,
+            "friendlyName": "flexi_upgrade_fee",
+            "parents": []
+          },
+          "basket_bingo_subtotal_footer": {
+            "bodyText": "Your monthly bill will decrease once you have made all your {param} repayments unless you upgrade to a new {param}.",
+            "name": "basket_bingo_subtotal_footer",
+            "id": 1595424634785,
+            "friendlyName": "basket_bingo_subtotal_footer",
+            "parents": []
+          },
+          "basket_label_modal_header": {
+            "bodyText": "Interest-free Financing",
+            "name": "basket_label_modal_header",
+            "id": 1523376113697,
+            "friendlyName": "basket_label_modal_header",
+            "parents": []
+          },
+          "basket_label_your_device_plan": {
+            "bodyText": "Your {param} Plan",
+            "name": "basket_label_your_device_plan",
+            "id": 1523376100574,
+            "friendlyName": "basket_label_your_device_plan",
+            "parents": []
+          },
+          "basket_label_your_airtime_plan": {
+            "bodyText": "Your {param} Plan",
+            "name": "basket_label_your_airtime_plan",
+            "id": 1523376100768,
+            "friendlyName": "basket_label_your_airtime_plan",
+            "parents": []
+          },
+          "basket_label_total_package_cost": {
+            "bodyText": "Total package cost (minus any add-ons)",
+            "name": "basket_label_total_package_cost",
+            "id": 1523376101086,
+            "friendlyName": "basket_label_total_package_cost",
+            "parents": []
+          },
+          "basket_label_total_phone_cost": {
+            "bodyText": "Total {param} cost",
+            "name": "basket_label_total_phone_cost",
+            "id": 1523376095000,
+            "friendlyName": "basket_label_total_phone_cost",
+            "parents": []
+          },
+          "basket_label_total_monthly_cost": {
+            "bodyText": "Total monthly cost",
+            "name": "basket_label_total_monthly_cost",
+            "id": 1523376098705,
+            "friendlyName": "basket_label_total_monthly_cost",
+            "parents": []
+          },
+          "basket_label_interest_rate": {
+            "bodyText": "Interest rate (fixed)",
+            "name": "basket_label_interest_rate",
+            "id": 1523376096297,
+            "friendlyName": "basket_label_interest_rate",
+            "parents": []
+          },
+          "basket_label_plan_type": {
+            "bodyText": "Plan type",
+            "name": "basket_label_plan_type",
+            "id": 1523376098251,
+            "friendlyName": "basket_label_plan_type",
+            "parents": []
+          },
+          "basket_label_monthly_cost": {
+            "bodyText": "Monthly cost",
+            "name": "basket_label_monthly_cost",
+            "id": 1523376098130,
+            "friendlyName": "basket_label_monthly_cost",
+            "parents": []
+          },
+          "basket_label_creditor": {
+            "bodyText": "Creditor",
+            "name": "basket_label_creditor",
+            "id": 1523376097875,
+            "friendlyName": "basket_label_creditor",
+            "parents": []
+          },
+          "basket_label_length_of_contract": {
+            "bodyText": "Length of contract",
+            "name": "basket_label_length_of_contract",
+            "id": 1523376097643,
+            "friendlyName": "basket_label_length_of_contract",
+            "parents": []
+          },
+          "basket_label_apr": {
+            "bodyText": "APR",
+            "name": "basket_label_apr",
+            "id": 1595423256022,
+            "friendlyName": "basket_label_apr",
+            "parents": []
+          },
+          "basket_label_total_credit_amount": {
+            "bodyText": "Total credit amount",
+            "name": "basket_label_total_credit_amount",
+            "id": 1523376097357,
+            "friendlyName": "basket_label_total_credit_amount",
+            "parents": []
+          },
+          "basket_label_upfront_cost": {
+            "bodyText": "Upfront cost",
+            "name": "basket_label_upfront_cost",
+            "id": 1523376095240,
+            "friendlyName": "basket_label_upfront_cost",
+            "parents": []
+          },
+          "basket_label_modal_footer": {
+            "bodyText": "Authorised and regulated by the Financial Conduct Authority\r\n(Authorisation number 712210).",
+            "name": "basket_label_modal_footer",
+            "id": 1523376114139,
+            "friendlyName": "basket_label_modal_footer",
+            "parents": []
+          }
+        },
+        "name": "messages",
+        "id": 1494514040736,
+        "friendlyName": "messages",
+        "parents": []
+      },
+      "basket_router_delivery_information": {
+        "subTitle": "Your equipment will be delivered 3 days before your installation date which can be selected when you proceed to checkout.",
+        "mainTitle": "Delivery Date",
+        "name": "basket_router_delivery_information",
+        "id": 1523375677866,
+        "friendlyName": "basket_router_delivery_information",
+        "parents": []
+      },
+      "basket_esim": {
+        "footNoteContent": [],
+        "content": {
+          "basket_keep_current_sim": {
+            "acceptCTA": "Keep my current SIM",
+            "name": "basket_keep_current_sim",
+            "id": 1523377492883,
+            "friendlyName": "basket_keep_current_sim",
+            "parents": []
+          },
+          "basket_esim_get_sim": {
+            "acceptCTA": "Get an eSIM",
+            "bodyText": "After the order has been dispatched, an email with next steps and how to setup your eSIM will be sent to you.",
+            "name": "basket_esim_get_sim",
+            "header": "Information about your eSIM",
+            "id": 1523377493037,
+            "friendlyName": "basket_esim_get_sim",
+            "parents": []
+          },
+          "basket_sim_card": {
+            "acceptCTA": "SIM card",
+            "bodyText": "A sim card will be sent with your order",
+            "name": "basket_sim_card",
+            "id": 1523377493922,
+            "friendlyName": "basket_sim_card",
+            "parents": []
+          },
+          "basket_esim_info": {
+            "acceptCTA": "eSIM",
+            "bodyText": "After the order has been dispatched, an email with next steps and how to set up your eSIM will be sent to you.",
+            "name": "basket_esim_info",
+            "header": "Information about your eSIM",
+            "id": 1523377494436,
+            "friendlyName": "basket_esim_info",
+            "parents": []
+          },
+          "basket_esim_info_compatible": {
+            "featureLoading": "See list of popular compatible eSIM device",
+            "acceptCTA": "eSIM",
+            "bodyText": "Please make sure that the device you are using is eSIM compatible. After the order has been placed, an email with next steps and how to connect your eSIM will be sent to you.\r\n",
+            "name": "basket_esim_info_compatible",
+            "header": "Is your device eSIM compatible",
+            "id": 1523377817471,
+            "friendlyName": "basket_esim_info_compatible",
+            "parents": []
+          },
+          "basket_esim_get_sim_compatible": {
+            "featureLoading": "See list of popular compatible eSIM device",
+            "acceptCTA": "Get an eSIM",
+            "bodyText": "Make sure your device is eSIM compatible. After the order has been placed, an email with next steps on how to swap your SIM to eSIM will be send to you.\r\n",
+            "name": "basket_esim_get_sim_compatible",
+            "header": "Is your device eSIM compatible",
+            "id": 1523377817731,
+            "friendlyName": "basket_esim_get_sim_compatible",
+            "parents": []
+          },
+          "basket_esim_device_upgrade": {
+            "type": "info",
+            "featureLoading": "SIM swap help page.",
+            "acceptCTA": "eSIM",
+            "bodyText": "If you currently have a physical SIM and would like to swap to an eSIM, when you receive your new device please follow the instructions on our ",
+            "name": "basket_esim_device_upgrade",
+            "header": "Information about swapping to an eSIM",
+            "id": 1595424588744,
+            "friendlyName": "basket_esim_device_upgrade",
+            "parents": []
+          },
+          "basket_esim_simo_upgrade": {
+            "type": "info",
+            "featureLoading": "SIM swap help page.",
+            "acceptCTA": "eSIM",
+            "bodyText": "If you currently have a physical SIM and would like to swap to an eSIM, when your upgrade is complete please follow the instructions on our ",
+            "name": "basket_esim_simo_upgrade",
+            "header": "Information about swapping to an eSIM",
+            "id": 1595424588336,
+            "friendlyName": "basket_esim_simo_upgrade",
+            "parents": []
+          }
+        },
+        "name": "basket_esim",
+        "header": "Choose your SIM",
+        "id": 1523377491748,
+        "friendlyName": "basket_esim",
+        "parents": []
+      },
+      "basket_esim_modal": {
+        "img": [],
+        "moduleSubType": "Modal",
+        "additionalComponents": [],
+        "id": 1523377726881,
+        "friendlyName": "basket_esim_modal",
+        "heading": "What is an eSIM?",
+        "name": "basket_esim_modal",
+        "mainCopy": "<div>\r\n<p style=\"margin-bottom: 8px; color: #ff0000; font-size: 20px;\"><strong>What you need to know</strong></p>\r\n\r\n<p>eSIM stands for embedded sim. This means that an eSIM device has a SIM card in it that can&#39;t be removed. Hybrid devices or dual SIM devices can have one eSIM and one physical SIM.</p>\r\n\r\n<p style=\"margin-bottom: 8px; color: #ff0000; font-size: 20px;\"><strong>How does an eSIM work?</strong></p>\r\n\r\n<p>Instead of putting a physical SIM in your device like usual, you will need to download one. After selecting an eSIM you will be sent an email with instructions on how to set it up. The process of downloading and setting up an eSIM will vary depending on the device you have, make sure to read the instructions carefully.</p>\r\n\r\n<p style=\"margin-bottom: 8px; color: #ff0000; font-size: 20px;\"><strong>Why get an eSIM?</strong></p>\r\n\r\n<p>You may want to get an eSIM if you have multiple lines with us and want to use them on one device or you may want to switch your existing physical SIM to an eSIM if you want to get a local SIM while travelling.</p>\r\n\r\n<p style=\"margin-bottom: 8px; color: #ff0000; font-size: 20px;\"><strong>Existing Vodafone customer?</strong></p>\r\n\r\n<p style=\"margin-bottom: 0;\"><strong>What if I already have a physical SIM?</strong></p>\r\n\r\n<p>You will need to perform a SIM swap from your current SIM to an eSIM.</p>\r\n\r\n<p><strong>For more information</strong>, check out our <a href=\"https://support.vodafone.co.uk/Getting-started-and-upgrading/Activate-a-new-SIM/\">SIM swap help pages</a></p>\r\n</div>\r\n",
+        "parents": []
+      },
+      "basket_pac_stac_content": {
+        "img": [],
+        "moduleSubType": "message",
+        "additionalComponents": [],
+        "id": 1523378616075,
+        "friendlyName": "basket_pac_stac_content",
+        "heading": "Joining us from another network?",
+        "name": "basket_pac_stac_content",
+        "mainCopy": "Bring your <strong>current number</strong> to Vodafone <strong>with a PAC code,</strong> or get a <strong>new number</strong> with a <strong>STAC code</strong>.\r\n<br />\r\n<span style=\"font-size:14px\">\r\n  <strong>Switching is quick, simple</strong> and can be done <strong>now </strong>or <strong>after your purchase</strong>.\r\n</span>",
+        "parents": []
+      },
+      "hbb_portfolio_refresh": {
+        "footNoteContent": [],
+        "content": {
+          "hbb_portfolio_refersh_1year_apple_tv": {
+            "bodyText": "1 year Apple TV + Subscription",
+            "name": "hbb_portfolio_refersh_1year_apple_tv",
+            "id": 1523378603648,
+            "friendlyName": "hbb_portfolio_refersh_1year_apple_tv",
+            "parents": []
+          },
+          "hbb_portfolio_refersh_intelligent_wifi": {
+            "bodyText": "Intelligent WiFi - automatically adjusts to give you the best signal",
+            "name": "hbb_portfolio_refersh_intelligent_wifi",
+            "id": 1523378602851,
+            "friendlyName": "hbb_portfolio_refersh_intelligent_wifi",
+            "parents": []
+          },
+          "hbb_portfolio_refersh_no_price_rise": {
+            "bodyText": "No price rises in contract",
+            "name": "hbb_portfolio_refersh_no_price_rise",
+            "id": 1523378602787,
+            "friendlyName": "hbb_portfolio_refersh_no_price_rise",
+            "parents": []
+          },
+          "hbb_portfolio_refersh_2pound_together_discount": {
+            "bodyText": "Your £2 Vodafone Together discount will expire at the end of your initial contract.",
+            "name": "hbb_portfolio_refersh_2pound_together_discount",
+            "id": 1523378603106,
+            "friendlyName": "hbb_portfolio_refersh_2pound_together_discount",
+            "parents": []
+          },
+          "hbb_portfolio_refresh_outofcontract_price_rise": {
+            "bodyText": "Please note, your monthly bill will increase by £3 a month after your initial contract.",
+            "name": "hbb_portfolio_refresh_outofcontract_price_rise",
+            "id": 1595425222340,
+            "friendlyName": "hbb_portfolio_refresh_outofcontract_price_rise",
+            "parents": []
+          }
+        },
+        "name": "hbb_portfolio_refresh",
+        "id": 1523378604079,
+        "friendlyName": "hbb_portfolio_refresh",
+        "parents": []
+      },
+      "lionheart_modal": {
+        "primaryImg": {
+          "Polygon-background-white": {
+            "smallImage_bloblink_": "/en/assets/images/small/Polygon-background-white.jpg",
+            "mediumImage_bloblink_": "/en/assets/images/medium/Polygon-background-white.jpg",
+            "desktopImage_bloblink_": "/en/assets/images/desktop/Polygon-background-white.jpg",
+            "name": "backgroundImage",
+            "id": 1480076165358,
+            "friendlyName": "Polygon-background-white",
+            "parents": {
+              "Image_P:1480076234475": {
+                "name": "Image Media",
+                "id": 1480076234475,
+                "parents": []
+              }
+            }
+          }
+        },
+        "headerText": "Build your Vodafone Together deal and start saving today",
+        "buttonValue": "Add Home Broadband",
+        "linkText": "Continue to Basket",
+        "content": [],
+        "name": "Lionheart Modal",
+        "id": 1523378818844,
+        "friendlyName": "lionheart_modal",
+        "parents": []
+      },
+      "lionheart_basket_banner": {
+        "primaryImg": {
+          "Polygon-background-white": {
+            "smallImage_bloblink_": "/en/assets/images/small/Polygon-background-white.jpg",
+            "mediumImage_bloblink_": "/en/assets/images/medium/Polygon-background-white.jpg",
+            "desktopImage_bloblink_": "/en/assets/images/desktop/Polygon-background-white.jpg",
+            "name": "backgroundImage",
+            "id": 1480076165358,
+            "friendlyName": "Polygon-background-white",
+            "parents": {
+              "Image_P:1480076234475": {
+                "name": "Image Media",
+                "id": 1480076234475,
+                "parents": []
+              }
+            }
+          }
+        },
+        "headerText": "Build your Vodafone Together deal",
+        "buttonValue": "Add Home Broadband",
+        "content": [],
+        "name": "Lionheart Basket Banner",
+        "id": 1523378822930,
+        "friendlyName": "lionheart_basket_banner",
+        "htmlBlock": "You will save £3 a month on Home Broadband when combined \r\nwith a 18-month SIM Only plan\r\n",
+        "parents": []
+      },
+      "popular_esim_devices": {
+        "title": "Is my device compatible?",
+        "footNoteContent": [],
+        "content": {
+          "apple_list": {
+            "subLinks": ["iPhone 12", "iPhone 12 Mini", "iPhone 12 Pro", "iPhone 12 Pro Max", "iPhone 11", "iPhone 11 Pro",
+              "iPhone 11 Pro Max", "iPhone XR", "iPhone XS", "iPhone XS Max"
+            ],
+            "mainTitle": "Apple",
+            "name": "apple_list",
+            "id": 1523382201940,
+            "friendlyName": "apple_list",
+            "parents": []
+          },
+          "samsung_list": {
+            "subLinks": ["Samsung Galaxy S20+ 4G", "Samsung Galaxy S20+ 5G", "Samsung Galaxy S20 4G", "Samsung Galaxy S20 5G",
+              "Samsung Galaxy S20 Ultra 5G", "Samsung Galaxy S21 5G", "Samsung Galaxy S21+ 5G", "Samsung Galaxy S21 Ultra 5G"
+            ],
+            "mainTitle": "Samsung",
+            "name": "samsung_list",
+            "id": 1523382502879,
+            "friendlyName": "samsung_list",
+            "parents": []
+          },
+          "google_list": {
+            "subLinks": ["Google Pixel 5", "Google Pixel 4a 5G", "Google Pixel 4a", "Google Pixel 4 4G", "Google Pixel 3a"],
+            "mainTitle": "Google",
+            "name": "google_list",
+            "id": 1523382503210,
+            "friendlyName": "google_list",
+            "parents": []
+          }
+        },
+        "name": "popular_esim_devices",
+        "header": "Popular eSIM devices",
+        "id": 1523382201579,
+        "friendlyName": "popular_esim_devices",
+        "parents": []
+      }
+    },
+    "vf_PageTitle": "Basket Summary",
+    "id": 1494519820186,
+    "friendlyName": "basket",
+    "isBreadcrumbDisplayable": "No",
+    "vf_TealiumPageName": "wcs:shop:basket",
+    "vf_Robots": ["Index", "Follow"],
+    "name": "WebShop-Basket",
+    "links_tracker": [],
+    "category": "",
+    "parents": []
+  }
+}]

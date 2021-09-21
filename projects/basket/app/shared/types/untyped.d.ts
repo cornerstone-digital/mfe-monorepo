@@ -1,0 +1,7 @@
+declare module '@web-core/*'
+declare module '@web-shop-core/*'
+declare module '@web-cms-core/*'
+declare module '@lib-web-analytics/*'
+// declare module '@server/*'
+declare module '@vfuk/web-shop-basket/*'
+declare module '@vfuk/dalmatian/*'

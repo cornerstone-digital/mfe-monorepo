@@ -1,0 +1,559 @@
+{
+  "basketId": "19a6a5be-7b09-456d-854d-5dacc5d92d0d",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2021-05-11T07:17:38.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [{
+    "packageId": "9f1db6c0-07d4-4a0c-bcd7-062bdcff0ec6",
+    "accountCategory": "Consumer",
+    "sequence": 1,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "9762946a-cdd1-4639-9b56-99324d79cca6",
+      "action": "ADD",
+      "skuId": "113362",
+      "name": "24month Band C 100GB Red Plan",
+      "description": "CTR17 Red Plan with unlimited mins unlimited texts and 100GB data",
+      "displayName": "Red 100GB",
+      "displayDescription": null,
+      "bundleClass": "HANDSET",
+      "productClass": null,
+      "serviceId": "110286",
+      "paymentType": "Postpaid",
+      "bundleType": "red51",
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "24"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": [{
+          "type": "UK DATA",
+          "value": "100",
+          "uom": "GB",
+          "displayUom": "GB",
+          "tilUom": "DATA"
+        },
+        {
+          "type": "ORIGDATA",
+          "value": "100",
+          "uom": "GB",
+          "displayUom": "GB",
+          "tilUom": "DATA"
+        },
+        {
+          "type": "UK MIN",
+          "value": "Unlimited",
+          "uom": "-",
+          "displayUom": "minutes",
+          "tilUom": "VOICE"
+        },
+        {
+          "type": "UK TEXT",
+          "value": "Unlimited",
+          "uom": "-",
+          "displayUom": "texts",
+          "tilUom": "SMS"
+        },
+        {
+          "type": "World Traveller",
+          "value": "Vodafone Global Roaming",
+          "uom": null,
+          "displayUom": null,
+          "tilUom": null
+        }
+      ],
+      "merchandisingMedia": [{
+          "id": "full_duration.merchandisingPromotions.merchandisingPromotion.description",
+          "value": "Yours for a great price",
+          "type": "TEXT",
+          "footNotes": [
+            "BAND6Q4GBPDISCOUNT"
+          ]
+        },
+        {
+          "id": "full_duration.merchandisingPromotions.merchandisingPromotion.label",
+          "value": "Yours for a great price",
+          "type": "TEXT",
+          "footNotes": [
+            "BAND6Q4GBPDISCOUNT"
+          ]
+        },
+        {
+          "id": "imageURLs.sticker",
+          "value": "/images/desktop/5g_badge_digital.png",
+          "type": "URL",
+          "footNotes": [
+            ""
+          ]
+        },
+        {
+          "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+          "value": "3-month free trial of Secure Net",
+          "type": "TEXT",
+          "footNotes": [
+            ""
+          ]
+        }
+      ],
+      "attributes": null,
+      "benefits": [],
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "59",
+          "net": "49.17",
+          "vat": "9.83"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "55",
+          "net": "45.83",
+          "vat": "9.17"
+        },
+        "totalMonthlySavingsAmount": {
+          "uom": "£",
+          "net": 3.33,
+          "vat": 0.67,
+          "gross": 4
+        },
+        "merchandisingPromotions": {
+          "tag": "Band6.Q.4GBPDISCOUNT",
+          "label": "Yours for a great price",
+          "description": "Yours for a great price - Watch Plan",
+          "discountId": "107389",
+          "mpType": "full_duration",
+          "priceEstablishedLabel": null,
+          "priority": "1394",
+          "packageType": [
+            "Acquisition",
+            "Upgrade"
+          ],
+          "footNotes": [
+            "BAND6Q4GBPDISCOUNT"
+          ],
+          "confirmRequired": false,
+          "offerGroup": null,
+          "belowTheLine": "false",
+          "qualifier": null,
+          "category": null
+        },
+        "listOfMerchandisingPromotion": [{
+          "tag": "Band6.Q.4GBPDISCOUNT",
+          "label": "Yours for a great price",
+          "description": "Yours for a great price - Watch Plan",
+          "discountId": "107389",
+          "mpType": "full_duration",
+          "priceEstablishedLabel": null,
+          "priority": "1394",
+          "packageType": [
+            "Acquisition",
+            "Upgrade"
+          ],
+          "footNotes": [
+            "BAND6Q4GBPDISCOUNT"
+          ],
+          "confirmRequired": false,
+          "offerGroup": null,
+          "belowTheLine": "false",
+          "qualifier": null,
+          "category": null
+        }],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": true,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "includedCalls": null,
+      "noPriceRise": null,
+      "wifiExpert": null,
+      "broadbandAntiVirus": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+        "packageLineId": "c9b32237-cc11-4e9a-bd17-9c1de698ffc5",
+        "action": "ADD",
+        "skuId": "086532",
+        "name": "Blank White Triple Format SIM",
+        "description": null,
+        "displayName": "3-in-1 SIM",
+        "displayDescription": null,
+        "deviceBriefDescription": [],
+        "deviceColor": null,
+        "memorySize": null,
+        "make": null,
+        "model": null,
+        "groupType": null,
+        "productClass": "SIM Card",
+        "productSubClass": "Core",
+        "displayOrder": null,
+        "showInSummary": false,
+        "merchandisingMedia": [],
+        "attributes": [],
+        "contractOptions": null,
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "merchandisingPromotions": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "financingOptions": [],
+          "deviceFinancingId": null,
+          "devicePaymentPlan": null
+        },
+        "boxPrice": {
+          "gross": "0.0",
+          "net": "0.0",
+          "vat": "0.0"
+        },
+        "freeGift": false,
+        "devicePromotion": null,
+        "simType": "PHYSICAL",
+        "isChanged": false,
+        "isCompatibleWithWatch": false
+      },
+      {
+        "packageLineId": "fdb242d9-5266-47a6-9d80-ce7d2f4ccee1",
+        "action": "ADD",
+        "skuId": "212492",
+        "name": "Apple iPhone 12 64GB purple",
+        "description": "iPhone 12 pushes everything forward with superfast 5G, an A14 Bionic chip, new dual-camera system and Super Retina XDR display.",
+        "displayName": "Apple iPhone 12 64GB Purple",
+        "displayDescription": null,
+        "deviceBriefDescription": [],
+        "deviceColor": null,
+        "memorySize": null,
+        "make": "apple",
+        "model": "iphone-12",
+        "groupType": "DEVICE_PAYM",
+        "productClass": "eHandset",
+        "productSubClass": "HANDSET",
+        "displayOrder": null,
+        "showInSummary": false,
+        "merchandisingMedia": [{
+            "id": "imageURLs.full.hero",
+            "value": "/images/desktop/Apple_iPhone_12_purple-full-product-front-600.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.thumbs.side",
+            "value": "/images/desktop/Apple_iPhone_12_purple-thumbs-side.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.full.left",
+            "value": "/images/desktop/Apple_iPhone_12_purple-full-product-left-600.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.thumbs.right",
+            "value": "/images/desktop/Apple_iPhone_12_purple-thumbs-right.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.full.front",
+            "value": "/images/desktop/Apple_iPhone_12_purple-full-product-front-600.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.full.side",
+            "value": "/images/desktop/Apple_iPhone_12_purple-full-product-side-600.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.full.right",
+            "value": "/images/desktop/Apple_iPhone_12_purple-full-product-right-600.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.sticker",
+            "value": "/images/small/5G_logo.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.thumbs.back",
+            "value": "/images/desktop/Apple_iPhone_12_purple-thumbs-back.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.thumbs.front",
+            "value": "/images/desktop/Apple_iPhone_12_purple-thumbs-front.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.thumbs.left",
+            "value": "/images/desktop/Apple_iPhone_12_purple-thumbs-left.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.grid",
+            "value": "/images/desktop/Apple_iPhone_12_purple-grid-product-front.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          },
+          {
+            "id": "imageURLs.full.back",
+            "value": "/images/desktop/Apple_iPhone_12_purple-full-product-back-600.png",
+            "type": "URL",
+            "footNotes": [
+              ""
+            ]
+          }
+        ],
+        "attributes": [],
+        "contractOptions": null,
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "29",
+            "net": "24.17",
+            "vat": "4.83"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "29",
+            "net": "24.17",
+            "vat": "4.83"
+          },
+          "merchandisingPromotions": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "financingOptions": [],
+          "deviceFinancingId": null,
+          "devicePaymentPlan": null
+        },
+        "boxPrice": {
+          "gross": "688.80",
+          "net": "574.0",
+          "vat": "114.80"
+        },
+        "freeGift": false,
+        "devicePromotion": "112686",
+        "simType": "HYBRID",
+        "isChanged": false,
+        "isCompatibleWithWatch": true
+      }
+    ],
+    "services": [],
+    "discounts": [{
+      "productLineId": "d6f7862c-554f-4d7a-bb7d-949b2a9d73da",
+      "action": "DISCOUNT",
+      "skuId": "107389",
+      "tag": "Band6.Q.4GBPDISCOUNT",
+      "label": "Yours for a great price",
+      "tenure": "FULL",
+      "duration": "27 Months",
+      "confirmedRequired": "false",
+      "merchandisingMedia": [],
+      "discountValue": {
+        "type": "GBP",
+        "value": "3.3333333"
+      }
+    }],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "29",
+        "net": "24.17",
+        "vat": "4.83"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "29",
+        "net": "24.17",
+        "vat": "4.83"
+      },
+      "monthlyPrice": {
+        "gross": "59",
+        "net": "49.17",
+        "vat": "9.83"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "55",
+        "net": "45.83",
+        "vat": "9.17"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "EHANDSET",
+    "combiPackageId": null,
+    "confirmRequired": false,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "tradeInOfferCode": null,
+    "isChanged": false
+  }],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    },
+    "monthlyPrice": {
+      "gross": "59",
+      "net": "49.17",
+      "vat": "9.83"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "55",
+      "net": "45.83",
+      "vat": "9.17"
+    },
+    "totalOneoffSaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "totalMonthlySaving": {
+      "gross": "4",
+      "net": "3.33",
+      "vat": "0.67"
+    }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "4",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "1514787749",
+  "lastModified": "2021-05-11T07:17:42.409052",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

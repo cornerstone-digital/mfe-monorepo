@@ -1,0 +1,435 @@
+{
+  "basketId": "56aa4d1a-7f23-4818-be94-1774dd0b2115",
+  "affiliateId": "11",
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T09:45:00.000+02:00",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Upgrade",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "2bcd4641-7b99-4078-b13e-f50484f3b6da",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Upgrade",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "86f9a569-8bd2-4586-a45e-cb3719a6a074",
+        "action": "ADD",
+        "skuId": "112682",
+        "name": "Bingo Test A Gold 12 month 5GB",
+        "description": "Bingo Test plan A, Gold tier 12 month 5GB data",
+        "displayName": "Bingo Test A Gold 12 month 5GB",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": null,
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "12"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "UK DATA",
+            "value": "5",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "5",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          }
+        ],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "18",
+            "net": "15",
+            "vat": "3"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "18",
+            "net": "15",
+            "vat": "3"
+          },
+          "totalSavingsAmount": null,
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "b20785fb-9ba2-4b73-bce2-47579170ee69",
+          "action": "ADD",
+          "skuId": "209112",
+          "name": "NEW BINGO 2",
+          "description": "Bigger, better, faster and 5G - open up a new world of possibilities with the Samsung Galaxy S10 5G.",
+          "displayName": "NEW BINGO 2",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": "Crown Silver",
+          "memorySize": "256 GB",
+          "make": "apple",
+          "model": "iphone-8",
+          "groupType": "DEVICE_PAYM",
+          "productClass": "Handset",
+          "productSubClass": "Handset",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Samsung_Galaxy_S10_5G_crown_silver-thumbs-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.left",
+              "value": "/images/desktop/Samsung_Galaxy_S10_5G_crown_silver-thumbs-left.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.right",
+              "value": "/images/desktop/Samsung_Galaxy_S10_5G_crown_silver-thumbs-right.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Samsung_Galaxy_S10_5G_crown_silver-thumbs-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Samsung_Galaxy_S10_5G_crown_silver-thumbs-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Samsung_Galaxy_S10_5G_crown_silver-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Samsung_Galaxy_S10_5G_crown_silver-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.left",
+              "value": "/images/desktop/Samsung_Galaxy_S10_5G_crown_silver-full-product-left-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.right",
+              "value": "/images/desktop/Samsung_Galaxy_S10_5G_crown_silver-full-product-right-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Samsung_Galaxy_S10_5G_crown_silver-full-product-side-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Samsung_Galaxy_S10_5G_crown_silver-full-product-back-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Samsung_Galaxy_S10_5G_crown_silver-grid-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.sticker",
+              "value": "/images/small/5G_logo.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": null,
+          "contractOptions": {
+            "duration": {
+              "uom": "MONTH",
+              "value": "12"
+            },
+            "upFrontPrice": 153,
+            "customerType": "Consumer"
+          },
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "600",
+              "net": "500",
+              "vat": "100"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "600",
+              "net": "500",
+              "vat": "100"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": {
+              "aprRepresentative": "0.0",
+              "duration": {
+                "uom": "MONTH",
+                "value": "12"
+              },
+              "interestRate": "0.0",
+              "description": "On a 12-month phone credit agreement",
+              "monthlyPrice": {
+                "uom": "£",
+                "gross": "37.25",
+                "net": "31.04",
+                "vat": "6.21"
+              },
+              "totalHandsetCredit": {
+                "uom": "£",
+                "gross": "447.00",
+                "net": "372.50",
+                "vat": "74.50"
+              },
+              "totalHandsetPrice": {
+                "uom": "£",
+                "gross": "600.00",
+                "net": "500.00",
+                "vat": "100.00"
+              },
+              "upFrontPrice": {
+                "uom": "£",
+                "gross": "153.00",
+                "net": "127.50",
+                "vat": "25.50"
+              }
+            }
+          },
+          "boxPrice": {
+            "gross": "1500.0",
+            "net": "1000.0",
+            "vat": "500.0"
+          },
+          "freeGift": false,
+          "devicePromotion": "112686",
+          "simType": "PHYSICAL",
+          "isCompatibleWithWatch": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "153",
+          "net": "127.50",
+          "vat": "25.50"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "153",
+          "net": "127.50",
+          "vat": "25.50"
+        },
+        "monthlyPrice": {
+          "gross": "55.25",
+          "net": "46.04",
+          "vat": "9.21"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "55.25",
+          "net": "46.04",
+          "vat": "9.21"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": null,
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "BINGO",
+      "combiPackageId": null,
+      "deviceFinancingId": null,
+      "additionalDetails": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "153",
+      "net": "127.50",
+      "vat": "25.50"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "153",
+      "net": "127.50",
+      "vat": "25.50"
+    },
+    "monthlyPrice": {
+      "gross": "55.25",
+      "net": "46.04",
+      "vat": "9.21"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "55.25",
+      "net": "46.04",
+      "vat": "9.21"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": true,
+  "hashvalue": "682418794",
+  "lastModified": null,
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [
+    {
+      "activeDiscounts": [],
+      "assetIntegrationId": "1-4ZXZYO0",
+      "bundleId": "112684",
+      "bundlePrice": {
+        "bundleId": "112684",
+        "merchandisingPromotions": {
+          "belowTheLine": null,
+          "category": null,
+          "confirmRequired": false,
+          "description": null,
+          "discountId": null,
+          "footNotes": [
+            ""
+          ],
+          "label": null,
+          "mpType": null,
+          "offerGroup": null,
+          "packageType": [
+            ""
+          ],
+          "priceEstablishedLabel": null,
+          "priority": null,
+          "qualifier": null,
+          "tag": null
+        },
+        "monthlyDiscountPrice": {
+          "gross": "18.00",
+          "net": "15.00",
+          "vat": "3.00"
+        },
+        "monthlyPrice": {
+          "gross": "18.00",
+          "net": "15.00",
+          "vat": "3.00"
+        }
+      },
+      "identifier": {
+        "key": "msisdn",
+        "value": "447000000020"
+      },
+      "packageLineId": "74819950-a1f5-4782-8860-3e70eee4c5d9"
+    }
+  ],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "affiliateFlag": false,
+  "isChanged": false
+}

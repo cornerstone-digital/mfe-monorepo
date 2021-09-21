@@ -1,0 +1,1298 @@
+{
+	"basketId": "73b26eec-52ba-4f2b-81ed-cccf2a2b1b3a",
+	"affiliateId": null,
+	"source": "WCS",
+	"customerRequestedDate": "2020-12-09T01:55:56.000Z",
+	"metadata": {
+		"returnURL": null,
+		"basketStatus": "INCOMPLETE",
+		"salesOrderId": null,
+		"reason": null
+	},
+	"journey": {
+		"journeyType": "Acquisition",
+		"offerCode": null
+	},
+	"packages": [{
+		"packageId": "4635729a-6343-4968-884b-28f396231cae",
+		"accountCategory": "Consumer",
+		"sequence": 3,
+		"packageType": "Acquisition",
+		"removable": true,
+		"dependentOn": [],
+		"voucherCode": null,
+		"bundle": {
+			"packageLineId": "e7bf5593-3361-4b81-a0a0-1c3638ba64c8",
+			"action": "ADD",
+			"skuId": "111150",
+			"name": "Superfast 1 Home Broadband & Phone - FTR6 24m",
+			"description": "This is a Consumer line of Superfast 1 Fibre Broadband and Home Phone contract term 24m",
+			"displayName": "Superfast 1",
+			"displayDescription": "Superfast 1",
+			"bundleClass": "BroadBand:FTTC",
+			"productClass": null,
+			"serviceId": "107551",
+			"paymentType": "Postpaid",
+			"bundleType": null,
+			"commitmentPeriod": {
+				"uom": "Months",
+				"value": "24"
+			},
+			"displayOrder": null,
+			"showInSummary": false,
+			"allowances": null,
+			"merchandisingMedia": [{
+				"id": "multi_package_discount.merchandisingPromotions.merchandisingPromotion.label",
+				"value": "Vodafone Together £3 discount",
+				"type": "TEXT",
+				"footNotes": ["£3 off Superfast Broadband when bought with a handset contract "]
+			}, {
+				"id": "multi_package_discount.merchandisingPromotions.merchandisingPromotion.description",
+				"value": "You'll save £3 a month on Home Broadband when combined with a handset contract",
+				"type": "TEXT",
+				"footNotes": ["£3 off Superfast Broadband when bought with a handset contract "]
+			}],
+			"attributes": null,
+			"priceDetails": {
+				"monthlyPrice": {
+					"gross": "22",
+					"net": "18.33",
+					"vat": "3.67"
+				},
+				"monthlyDiscountPrice": {
+					"gross": "19",
+					"net": "15.83",
+					"vat": "3.17"
+				},
+				"totalMonthlySavingsAmount": {
+					"uom": "£",
+					"net": 2.5,
+					"vat": 0.5,
+					"gross": 3
+				},
+				"merchandisingPromotions": {
+					"tag": "OFF100019",
+					"label": "Vodafone Together £3 discount",
+					"description": "You'll save £3 a month on Home Broadband when combined with a handset contract - Broadband Plan",
+					"discountId": "111116",
+					"mpType": "multi_package_discount",
+					"priceEstablishedLabel": null,
+					"priority": "11",
+					"packageType": ["Acquisition", "Upgrade", "SecondLine"],
+					"footNotes": ["£3 off Superfast Broadband when bought with a handset contract "],
+					"confirmRequired": false,
+					"offerGroup": "Combi Offers",
+					"belowTheLine": "false",
+					"qualifier": {
+						"bundleId": "113730",
+						"identifier": {
+							"key": "PackageId",
+							"value": "0034f83c-7c3b-456b-b233-6a2ff97fa5e1"
+						}
+					},
+					"category": "Distinct"
+				},
+				"listOfMerchandisingPromotion": [{
+					"tag": "OFF100019",
+					"label": "Vodafone Together £3 discount",
+					"description": "You'll save £3 a month on Home Broadband when combined with a handset contract - Broadband Plan",
+					"discountId": "111116",
+					"mpType": "multi_package_discount",
+					"priceEstablishedLabel": null,
+					"priority": "11",
+					"packageType": ["Acquisition", "Upgrade", "SecondLine"],
+					"footNotes": ["£3 off Superfast Broadband when bought with a handset contract "],
+					"confirmRequired": false,
+					"offerGroup": "Combi Offers",
+					"belowTheLine": "false",
+					"qualifier": {
+						"bundleId": "113730",
+						"identifier": {
+							"key": "PackageId",
+							"value": "0034f83c-7c3b-456b-b233-6a2ff97fa5e1"
+						}
+					},
+					"category": "Distinct"
+				}],
+				"removedPromotionFootNote": null
+			},
+			"isVodafoneGlobalRoaming": false,
+			"bundledServiceProducts": [{
+				"skuId": "107552",
+				"name": "Fixed Broadband Service",
+				"description": "Fixed Broadband Service",
+				"productClass": "Fixed Broadband Service",
+				"servicePointId": "107577",
+				"priceDetail": {
+					"oneOffPrice": null,
+					"oneOffDiscountPrice": null,
+					"monthlyPrice": null,
+					"monthlyDiscountPrice": null,
+					"merchandisingPromotions": null
+				},
+				"miscellaneous": [{
+					"name": "SERVICE POINT",
+					"value": "Unlimited Fibre 38"
+				}]
+			}, {
+				"skuId": "107551",
+				"name": "Fixed Line Service",
+				"description": "Fixed Line Service",
+				"productClass": "Fixed Line",
+				"servicePointId": "107554",
+				"priceDetail": {
+					"oneOffPrice": null,
+					"oneOffDiscountPrice": null,
+					"monthlyPrice": null,
+					"monthlyDiscountPrice": null,
+					"merchandisingPromotions": null
+				},
+				"miscellaneous": [{
+					"name": "SERVICE POINT",
+					"value": "Land Line"
+				}]
+			}],
+			"planCategory": "CONSUMER",
+			"portability": null,
+			"speed": null,
+			"maxCapSpeed": "40000",
+			"avgDownloadSpeed": null,
+			"includedCalls": null,
+			"noPriceRise": null,
+			"isChanged": false
+		},
+		"hardwares": [{
+			"packageLineId": "6f93c3e6-13ac-4065-805e-cba86ce0f4a6",
+			"action": "ADD",
+			"skuId": "206680",
+			"name": "Vodafone Wi-Fi Hub",
+			"description": null,
+			"displayName": "Vodafone Wi-Fi Hub",
+			"displayDescription": null,
+			"deviceBriefDescription": [{
+				"key": "latestRouter",
+				"value": "true",
+				"type": null,
+				"valueUOM": null
+			}, {
+				"key": "deliveryConsideration",
+				"value": "Alpha",
+				"type": null,
+				"valueUOM": null
+			}],
+			"deviceColor": null,
+			"memorySize": null,
+			"make": null,
+			"model": null,
+			"groupType": null,
+			"productClass": "Fixed broadband equipment 2019",
+			"productSubClass": null,
+			"displayOrder": null,
+			"showInSummary": false,
+			"merchandisingMedia": [{
+				"id": "imageURLs.thumbs.front",
+				"value": "/images/small/IMG_Router_VOX3_Broadband.jpg",
+				"type": "URL",
+				"footNotes": [""]
+			}],
+			"attributes": [],
+			"contractOptions": null,
+			"priceDetails": {
+				"oneOffPrice": {
+					"gross": "0",
+					"net": "0",
+					"vat": "0"
+				},
+				"oneOffDiscountPrice": {
+					"gross": "0",
+					"net": "0",
+					"vat": "0"
+				},
+				"merchandisingPromotions": null,
+				"monthlyPrice": null,
+				"monthlyDiscountPrice": null,
+				"financingOptions": [],
+				"deviceFinancingId": null,
+				"devicePaymentPlan": null
+			},
+			"boxPrice": {
+				"gross": "0.0",
+				"net": "0.0",
+				"vat": "0.0"
+			},
+			"freeGift": false,
+			"devicePromotion": null,
+			"simType": "PHYSICAL",
+			"isChanged": false,
+			"isCompatibleWithWatch": false
+		}],
+		"services": [],
+		"discounts": [{
+			"productLineId": "c18a8451-bbd3-4e61-9837-bca7a1444bbd",
+			"action": "DISCOUNT",
+			"skuId": "111116",
+			"tag": "OFF100019",
+			"label": "Vodafone Together £3 discount",
+			"tenure": "FULL",
+			"duration": null,
+			"confirmedRequired": "false",
+			"merchandisingMedia": [],
+			"discountValue": {
+				"type": "GBP",
+				"value": "2.5"
+			}
+		}],
+		"priceDetails": {
+			"oneOffPrice": {
+				"gross": "0",
+				"net": "0",
+				"vat": "0"
+			},
+			"oneOffDiscountPrice": {
+				"gross": "0",
+				"net": "0",
+				"vat": "0"
+			},
+			"monthlyPrice": {
+				"gross": "22",
+				"net": "18.33",
+				"vat": "3.67"
+			},
+			"monthlyDiscountPrice": {
+				"gross": "19",
+				"net": "15.83",
+				"vat": "3.17"
+			},
+			"financingOptions": null
+		},
+		"installationAddress": {
+			"identification": {
+				"id": "A00001191016",
+				"contextId": "Gold"
+			},
+			"postCode": "SL6 1DJ",
+			"houseName": "",
+			"houseNumber": "100",
+			"flatNumber": "",
+			"streetName": "Braywick Road",
+			"town": "Maidenhead",
+			"county": "Berkshire",
+			"country": "United Kingdom",
+			"locality": "",
+			"citySubDivisionName": "TH",
+			"moveTypeCode": null
+		},
+		"appointmentWindow": null,
+		"servicePoint": {
+			"lineRefernece": {
+				"lineLocator": {
+					"exchangeCode": "M",
+					"exchangeName": "MAIDENHEAD",
+					"districtCode": null,
+					"l2SID": null,
+					"cableLinkID": null,
+					"distributionPoint": null
+				},
+				"lineSettings": {
+					"serviceCode": null,
+					"installationCode": null,
+					"terminationCode": null
+				},
+				"lineStatus": {
+					"statusCode": "Working",
+					"accessLineStatus": "Working",
+					"gnpStatus": null,
+					"lineOption": null,
+					"technology": null,
+					"lineType": null,
+					"tempStructure": false,
+					"standbyPowerRequired": false,
+					"narrowBandServicesAvailable": "null"
+				},
+				"availableServices": null,
+				"lineDirectory": [{
+					"featureCode": "MAINLINE_DIRECTORY",
+					"directoryCode": "ORDINARY",
+					"locationCode": "INDIVIDUAL"
+				}]
+			},
+			"lineReference": {
+				"lineLocator": {
+					"exchangeCode": "M",
+					"exchangeName": "MAIDENHEAD",
+					"districtCode": null,
+					"l2SID": null,
+					"cableLinkID": null,
+					"distributionPoint": null
+				},
+				"lineSettings": {
+					"serviceCode": null,
+					"installationCode": null,
+					"terminationCode": null
+				},
+				"lineStatus": {
+					"statusCode": "Working",
+					"accessLineStatus": "Working",
+					"gnpStatus": null,
+					"lineOption": null,
+					"technology": null,
+					"lineType": null,
+					"tempStructure": false,
+					"standbyPowerRequired": false,
+					"narrowBandServicesAvailable": "null"
+				},
+				"availableServices": null,
+				"lineDirectory": [{
+					"featureCode": "MAINLINE_DIRECTORY",
+					"directoryCode": "ORDINARY",
+					"locationCode": "INDIVIDUAL"
+				}]
+			},
+			"serviceReference": {
+				"serviceLines": [{
+					"classificationCode": "Line and Fibre with Speed 76",
+					"networkType": "Onnet",
+					"lineTreatments": [{
+						"identification": "NEW",
+						"earliestAvailableDate": "2020-12-22T00:00:00.000Z",
+						"appointmentNeeded": true,
+						"connectionCharge": "Line",
+						"preOrder": false,
+						"registerOfInterest": false
+					}, {
+						"identification": "EXISTING",
+						"earliestAvailableDate": "2020-12-24T00:00:00.000Z",
+						"appointmentNeeded": false,
+						"connectionCharge": "No Charge",
+						"preOrder": false,
+						"registerOfInterest": false
+					}],
+					"serviceLines": [{
+						"itemReference": {
+							"identificationId": null,
+							"name": null,
+							"classificationCode": "Line"
+						},
+						"lineSpeeds": {
+							"maxDownSpeed": null,
+							"minDownSpeed": null,
+							"avgDownSpeed": null,
+							"minGuaranteedDownSpeed": null,
+							"maxUpSpeed": null,
+							"minUpSpeed": null,
+							"bandwidthMeasure": null
+						},
+						"miscRefernce": {
+							"serviceProviderName": null,
+							"lineLength": null,
+							"customerAgreedDate": null,
+							"readyForServiceDate": null,
+							"anfp": null,
+							"installationType": null
+						},
+						"serviceLineTreatments": null
+					}, {
+						"itemReference": {
+							"identificationId": "PC00041",
+							"name": "Single Play FTTC",
+							"classificationCode": "Fibre with Speed 76"
+						},
+						"lineSpeeds": {
+							"maxDownSpeed": "73600.00",
+							"minDownSpeed": "63259.20",
+							"avgDownSpeed": null,
+							"minGuaranteedDownSpeed": "56975.60",
+							"maxUpSpeed": "18400.00",
+							"minUpSpeed": "17480.00",
+							"bandwidthMeasure": "Actual"
+						},
+						"miscRefernce": {
+							"serviceProviderName": null,
+							"lineLength": null,
+							"customerAgreedDate": null,
+							"readyForServiceDate": null,
+							"anfp": "Extra Short from cabinet",
+							"installationType": null
+						},
+						"serviceLineTreatments": [{
+							"parentIdentification": "EXISTING",
+							"serviceType": "FTTC",
+							"serviceAction": "Provide",
+							"simValue": "SIM2",
+							"lineInfo": "PSTN Working Line Takeover",
+							"canNumberBeRetained": false,
+							"portInFlag": "BT",
+							"vicCode": null,
+							"pendingOrders": [{
+								"completionDate": null,
+								"typeCode": "CANCEL",
+								"thirdPartyFlag": "false"
+							}],
+							"accessLine": {
+								"id": "C000028606436",
+								"channelId": "PSTN_ACCESSLINE"
+							}
+						}, {
+							"parentIdentification": "NEW",
+							"serviceType": "FTTC",
+							"serviceAction": "Provide",
+							"simValue": "SIM2",
+							"lineInfo": "Spare Pair",
+							"canNumberBeRetained": false,
+							"portInFlag": null,
+							"vicCode": null,
+							"pendingOrders": null,
+							"accessLine": {
+								"id": null,
+								"channelId": null
+							}
+						}]
+					}]
+				}, {
+					"classificationCode": "Line and Fibre with Speed 38",
+					"networkType": "Onnet",
+					"lineTreatments": [{
+						"identification": "EXISTING",
+						"earliestAvailableDate": "2020-12-24T00:00:00.000Z",
+						"appointmentNeeded": false,
+						"connectionCharge": "No Charge",
+						"preOrder": false,
+						"registerOfInterest": false
+					}, {
+						"identification": "NEW",
+						"earliestAvailableDate": "2020-12-22T00:00:00.000Z",
+						"appointmentNeeded": true,
+						"connectionCharge": "Line",
+						"preOrder": false,
+						"registerOfInterest": false
+					}],
+					"serviceLines": [{
+						"itemReference": {
+							"identificationId": "PC00041",
+							"name": "Single Play FTTC",
+							"classificationCode": "Fibre with Speed 38"
+						},
+						"lineSpeeds": {
+							"maxDownSpeed": "38000.00",
+							"minDownSpeed": "38000.00",
+							"avgDownSpeed": null,
+							"minGuaranteedDownSpeed": "35000.00",
+							"maxUpSpeed": "10000.00",
+							"minUpSpeed": "10000.00",
+							"bandwidthMeasure": "Actual"
+						},
+						"miscRefernce": {
+							"serviceProviderName": null,
+							"lineLength": null,
+							"customerAgreedDate": null,
+							"readyForServiceDate": null,
+							"anfp": "Extra Short from cabinet",
+							"installationType": null
+						},
+						"serviceLineTreatments": [{
+							"parentIdentification": "EXISTING",
+							"serviceType": "FTTC",
+							"serviceAction": "Provide",
+							"simValue": "SIM2",
+							"lineInfo": "PSTN Working Line Takeover",
+							"canNumberBeRetained": false,
+							"portInFlag": "BT",
+							"vicCode": null,
+							"pendingOrders": [{
+								"completionDate": null,
+								"typeCode": "CANCEL",
+								"thirdPartyFlag": "false"
+							}],
+							"accessLine": {
+								"id": "C000028606436",
+								"channelId": "PSTN_ACCESSLINE"
+							}
+						}, {
+							"parentIdentification": "NEW",
+							"serviceType": "FTTC",
+							"serviceAction": "Provide",
+							"simValue": "SIM2",
+							"lineInfo": "Spare Pair",
+							"canNumberBeRetained": false,
+							"portInFlag": null,
+							"vicCode": null,
+							"pendingOrders": null,
+							"accessLine": {
+								"id": null,
+								"channelId": null
+							}
+						}]
+					}, {
+						"itemReference": {
+							"identificationId": null,
+							"name": null,
+							"classificationCode": "Line"
+						},
+						"lineSpeeds": {
+							"maxDownSpeed": null,
+							"minDownSpeed": null,
+							"avgDownSpeed": null,
+							"minGuaranteedDownSpeed": null,
+							"maxUpSpeed": null,
+							"minUpSpeed": null,
+							"bandwidthMeasure": null
+						},
+						"miscRefernce": {
+							"serviceProviderName": null,
+							"lineLength": null,
+							"customerAgreedDate": null,
+							"readyForServiceDate": null,
+							"anfp": null,
+							"installationType": null
+						},
+						"serviceLineTreatments": null
+					}]
+				}]
+			}
+		},
+		"serviceStartDate": null,
+		"phoneNumber": null,
+		"primaryDeviceIdentifier": null,
+		"packageLinkIdentifier": null,
+		"linePackageType": "Line and Fibre with Speed 38",
+		"lineTreatmentType": "EXISTING",
+		"planType": "BroadBand:FTTC",
+		"combiPackageId": "0674726e-8903-4167-8b18-5d9a5fc44f52",
+		"confirmRequired": false,
+		"deviceFinancingId": null,
+		"additionalDetails": {},
+		"isChanged": false
+	}, {
+		"packageId": "c0ed4e10-de75-4c50-a18d-fbcc25e623b0",
+		"accountCategory": "Consumer",
+		"sequence": 2,
+		"packageType": "Acquisition",
+		"removable": true,
+		"dependentOn": [],
+		"voucherCode": null,
+		"bundle": {
+			"packageLineId": "6c9e66e7-8180-4cd2-b4ea-6224b623c2f7",
+			"action": "ADD",
+			"skuId": "113514",
+			"name": "24mth OneNumber Plan B",
+			"description": "CTR 16B 24-month OneNumber Plan B to connect secondary device to a main plan",
+			"displayName": "24mth OneNumber Plan B",
+			"displayDescription": null,
+			"bundleClass": "HANDSET",
+			"productClass": null,
+			"serviceId": "110286",
+			"paymentType": "Postpaid",
+			"bundleType": null,
+			"commitmentPeriod": {
+				"uom": "Months",
+				"value": "24"
+			},
+			"displayOrder": null,
+			"showInSummary": false,
+			"allowances": null,
+			"merchandisingMedia": [],
+			"attributes": null,
+			"priceDetails": {
+				"monthlyPrice": {
+					"gross": "29",
+					"net": "24.17",
+					"vat": "4.83"
+				},
+				"monthlyDiscountPrice": {
+					"gross": "29",
+					"net": "24.17",
+					"vat": "4.83"
+				},
+				"totalMonthlySavingsAmount": null,
+				"merchandisingPromotions": null,
+				"listOfMerchandisingPromotion": [],
+				"removedPromotionFootNote": null
+			},
+			"isVodafoneGlobalRoaming": false,
+			"bundledServiceProducts": [],
+			"planCategory": "CONSUMER",
+			"portability": null,
+			"speed": null,
+			"maxCapSpeed": null,
+			"avgDownloadSpeed": null,
+			"includedCalls": null,
+			"noPriceRise": null,
+			"isChanged": false
+		},
+		"hardwares": [{
+			"packageLineId": "9180c782-7f87-47aa-97c2-4cd50cf30312",
+			"action": "ADD",
+			"skuId": "202094",
+			"name": "Apple Watch Series 6 44mm Blue Aluminium Case with Deep Navy Sport Band",
+			"description": "Apple Watch Series 6 watches over you with an app to measure blood oxygen, heart health notifications and other advanced health features.",
+			"displayName": "Apple Watch Series 6 (GPS+4G) Cellular 44mm Aluminium Blue",
+			"displayDescription": null,
+			"deviceBriefDescription": [],
+			"deviceColor": null,
+			"memorySize": null,
+			"make": "apple",
+			"model": "series6-44mm",
+			"groupType": null,
+			"productClass": "eHandset",
+			"productSubClass": "WATCH",
+			"displayOrder": null,
+			"showInSummary": false,
+			"merchandisingMedia": [{
+				"id": "imageURLs.full.side",
+				"value": "/images/desktop/Apple_Watch6_44_blue-full-product-side-600.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.full.front",
+				"value": "/images/desktop/Apple_Watch6_44_blue-full-product-front-600.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.thumbs.right",
+				"value": "/images/desktop/Apple_Watch6_44_blue-thumbs-right.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.grid",
+				"value": "/images/desktop/Apple_Watch6_44_blue-grid-product-front.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.full.left",
+				"value": "/images/desktop/Apple_Watch6_44_blue-full-product-left-600.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.thumbs.side",
+				"value": "/images/desktop/Apple_Watch6_44_blue-thumbs-side.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.full.hero",
+				"value": "/images/desktop/Apple_Watch6_44_blue-full-product-front-600.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.full.right",
+				"value": "/images/desktop/Apple_Watch6_44_blue-full-product-right-600.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.thumbs.left",
+				"value": "/images/desktop/Apple_Watch6_44_blue-thumbs-left.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.thumbs.front",
+				"value": "/images/desktop/Apple_Watch6_44_blue-thumbs-front.png",
+				"type": "URL",
+				"footNotes": [""]
+			}],
+			"attributes": [],
+			"contractOptions": null,
+			"priceDetails": {
+				"oneOffPrice": {
+					"gross": "0",
+					"net": "0",
+					"vat": "0"
+				},
+				"oneOffDiscountPrice": {
+					"gross": "0",
+					"net": "0",
+					"vat": "0"
+				},
+				"merchandisingPromotions": null,
+				"monthlyPrice": null,
+				"monthlyDiscountPrice": null,
+				"financingOptions": [],
+				"deviceFinancingId": null,
+				"devicePaymentPlan": null
+			},
+			"boxPrice": {
+				"gross": "465.60",
+				"net": "388.0",
+				"vat": "77.60"
+			},
+			"freeGift": false,
+			"devicePromotion": null,
+			"simType": "ESIMONLY",
+			"isChanged": false,
+			"isCompatibleWithWatch": false
+		}],
+		"services": [],
+		"discounts": [],
+		"priceDetails": {
+			"oneOffPrice": {
+				"gross": "0",
+				"net": "0",
+				"vat": "0"
+			},
+			"oneOffDiscountPrice": {
+				"gross": "0",
+				"net": "0",
+				"vat": "0"
+			},
+			"monthlyPrice": {
+				"gross": "29",
+				"net": "24.17",
+				"vat": "4.83"
+			},
+			"monthlyDiscountPrice": {
+				"gross": "29",
+				"net": "24.17",
+				"vat": "4.83"
+			},
+			"financingOptions": null
+		},
+		"installationAddress": null,
+		"appointmentWindow": null,
+		"servicePoint": {
+			"lineRefernece": {
+				"lineLocator": {
+					"exchangeCode": null,
+					"exchangeName": null,
+					"districtCode": null,
+					"l2SID": null,
+					"cableLinkID": null,
+					"distributionPoint": null
+				},
+				"lineSettings": {
+					"serviceCode": null,
+					"installationCode": null,
+					"terminationCode": null
+				},
+				"lineStatus": {
+					"statusCode": null,
+					"accessLineStatus": null,
+					"gnpStatus": null,
+					"lineOption": null,
+					"technology": null,
+					"lineType": null,
+					"tempStructure": false,
+					"standbyPowerRequired": false,
+					"narrowBandServicesAvailable": "null"
+				},
+				"availableServices": null,
+				"lineDirectory": null
+			},
+			"lineReference": {
+				"lineLocator": {
+					"exchangeCode": null,
+					"exchangeName": null,
+					"districtCode": null,
+					"l2SID": null,
+					"cableLinkID": null,
+					"distributionPoint": null
+				},
+				"lineSettings": {
+					"serviceCode": null,
+					"installationCode": null,
+					"terminationCode": null
+				},
+				"lineStatus": {
+					"statusCode": null,
+					"accessLineStatus": null,
+					"gnpStatus": null,
+					"lineOption": null,
+					"technology": null,
+					"lineType": null,
+					"tempStructure": false,
+					"standbyPowerRequired": false,
+					"narrowBandServicesAvailable": "null"
+				},
+				"availableServices": null,
+				"lineDirectory": null
+			},
+			"serviceReference": {
+				"serviceLines": []
+			}
+		},
+		"serviceStartDate": null,
+		"phoneNumber": null,
+		"primaryDeviceIdentifier": null,
+		"packageLinkIdentifier": "0034f83c-7c3b-456b-b233-6a2ff97fa5e1",
+		"linePackageType": null,
+		"lineTreatmentType": null,
+		"planType": "EHANDSET",
+		"combiPackageId": null,
+		"confirmRequired": false,
+		"deviceFinancingId": null,
+		"additionalDetails": {},
+		"isChanged": false
+	}, {
+		"packageId": "0034f83c-7c3b-456b-b233-6a2ff97fa5e1",
+		"accountCategory": "Consumer",
+		"sequence": 1,
+		"packageType": "Acquisition",
+		"removable": true,
+		"dependentOn": [],
+		"voucherCode": null,
+		"bundle": {
+			"packageLineId": "d8b08193-ed3f-425a-a039-66f69d0a591f",
+			"action": "ADD",
+			"skuId": "113730",
+			"name": "24mth Band D 24GB Red Plan",
+			"description": "CTR 16B Red Plan with unlimited mins unlimited texts and 24GB data",
+			"displayName": "Red 24GB",
+			"displayDescription": null,
+			"bundleClass": "HANDSET",
+			"productClass": null,
+			"serviceId": "110286",
+			"paymentType": "Postpaid",
+			"bundleType": "red51",
+			"commitmentPeriod": {
+				"uom": "Months",
+				"value": "24"
+			},
+			"displayOrder": null,
+			"showInSummary": false,
+			"allowances": [{
+				"type": "UK MIN",
+				"value": "Unlimited",
+				"uom": "-",
+				"displayUom": "minutes",
+				"tilUom": "VOICE"
+			}, {
+				"type": "UK TEXT",
+				"value": "Unlimited",
+				"uom": "-",
+				"displayUom": "texts",
+				"tilUom": "SMS"
+			}, {
+				"type": "ORIGDATA",
+				"value": "24",
+				"uom": "GB",
+				"displayUom": "GB",
+				"tilUom": "DATA"
+			}, {
+				"type": "World Traveller",
+				"value": "Vodafone Global Roaming",
+				"uom": null,
+				"displayUom": null,
+				"tilUom": null
+			}, {
+				"type": "UK DATA",
+				"value": "24",
+				"uom": "GB",
+				"displayUom": "GB",
+				"tilUom": "DATA"
+			}, {
+				"type": "MMS",
+				"value": "Unlimited",
+				"uom": "-",
+				"displayUom": "picture messages",
+				"tilUom": "MMS"
+			}],
+			"merchandisingMedia": [{
+				"id": "imageURLs.sticker",
+				"value": "/images/desktop/5g_badge_digital.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "conditional_full_discount.merchandisingPromotions.merchandisingPromotion.label",
+				"value": "Christmas Offer - Save £116",
+				"type": "TEXT",
+				"footNotes": ["IPHONE11SAVE116RED24"]
+			}, {
+				"id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+				"value": "3-month free trial of Secure Net",
+				"type": "TEXT",
+				"footNotes": [""]
+			}, {
+				"id": "conditional_full_discount.merchandisingPromotions.merchandisingPromotion.description",
+				"value": "Christmas Offer - Save £116",
+				"type": "TEXT",
+				"footNotes": ["IPHONE11SAVE116RED24"]
+			}],
+			"attributes": null,
+			"priceDetails": {
+				"monthlyPrice": {
+					"gross": "51",
+					"net": "42.50",
+					"vat": "8.50"
+				},
+				"monthlyDiscountPrice": {
+					"gross": "47",
+					"net": "39.17",
+					"vat": "7.83"
+				},
+				"totalMonthlySavingsAmount": {
+					"uom": "£",
+					"net": 3.33,
+					"vat": 0.67,
+					"gross": 4
+				},
+				"merchandisingPromotions": {
+					"tag": "ChrsOff_CndFul_PayM_Save116",
+					"label": "Christmas Offer - Save £116",
+					"description": "Christmas Offer - Save £116 - Watch Plan",
+					"discountId": "107389",
+					"mpType": "conditional_full_discount",
+					"priceEstablishedLabel": null,
+					"priority": "1999",
+					"packageType": ["Acquisition", "Upgrade"],
+					"footNotes": ["IPHONE11SAVE116RED24"],
+					"confirmRequired": false,
+					"offerGroup": null,
+					"belowTheLine": "false",
+					"qualifier": null,
+					"category": null
+				},
+				"listOfMerchandisingPromotion": [{
+					"tag": "ChrsOff_CndFul_PayM_Save116",
+					"label": "Christmas Offer - Save £116",
+					"description": "Christmas Offer - Save £116 - Watch Plan",
+					"discountId": "107389",
+					"mpType": "conditional_full_discount",
+					"priceEstablishedLabel": null,
+					"priority": "1999",
+					"packageType": ["Acquisition", "Upgrade"],
+					"footNotes": ["IPHONE11SAVE116RED24"],
+					"confirmRequired": false,
+					"offerGroup": null,
+					"belowTheLine": "false",
+					"qualifier": null,
+					"category": null
+				}],
+				"removedPromotionFootNote": null
+			},
+			"isVodafoneGlobalRoaming": true,
+			"bundledServiceProducts": [],
+			"planCategory": "CONSUMER",
+			"portability": null,
+			"speed": null,
+			"maxCapSpeed": null,
+			"avgDownloadSpeed": null,
+			"includedCalls": null,
+			"noPriceRise": null,
+			"isChanged": false
+		},
+		"hardwares": [{
+			"packageLineId": "416e9052-96f8-43b8-bf39-9266161ac663",
+			"action": "ADD",
+			"skuId": "205124",
+			"name": "Apple iPhone 11 64GB black",
+			"description": "All-new powerful dual-camera system, Night mode, stunning video quality and all-day battery life - experience iPhone at 11.",
+			"displayName": "Apple iPhone 11 64GB Black",
+			"displayDescription": null,
+			"deviceBriefDescription": [],
+			"deviceColor": null,
+			"memorySize": null,
+			"make": "apple",
+			"model": "iphone-11",
+			"groupType": "DEVICE_PAYM",
+			"productClass": "eHandset",
+			"productSubClass": "HANDSET",
+			"displayOrder": null,
+			"showInSummary": false,
+			"merchandisingMedia": [{
+				"id": "imageURLs.full.front",
+				"value": "/images/desktop/Apple_iPhone_11_black-full-product-front-600.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.full.right",
+				"value": "/images/desktop/Apple_iPhone_11_black-full-product-right-600.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.full.back",
+				"value": "/images/desktop/Apple_iPhone_11_black-full-product-back-600.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.thumbs.left",
+				"value": "/images/desktop/Apple_iPhone_11_black-thumbs-left.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.thumbs.back",
+				"value": "/images/desktop/Apple_iPhone_11_black-thumbs-back.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.thumbs.right",
+				"value": "/images/desktop/Apple_iPhone_11_black-thumbs-right.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.full.left",
+				"value": "/images/desktop/Apple_iPhone_11_black-full-product-left-600.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.full.hero",
+				"value": "/images/desktop/Apple_iPhone_11_black-full-product-front-600.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.grid",
+				"value": "/images/desktop/Apple_iPhone_11_new_black-grid-product-front.png",
+				"type": "URL",
+				"footNotes": [""]
+			}, {
+				"id": "imageURLs.thumbs.front",
+				"value": "/images/desktop/Apple_iPhone_11_black-thumbs-front.png",
+				"type": "URL",
+				"footNotes": [""]
+			}],
+			"attributes": [],
+			"contractOptions": null,
+			"priceDetails": {
+				"oneOffPrice": {
+					"gross": "9",
+					"net": "7.50",
+					"vat": "1.50"
+				},
+				"oneOffDiscountPrice": {
+					"gross": "9",
+					"net": "7.50",
+					"vat": "1.50"
+				},
+				"merchandisingPromotions": null,
+				"monthlyPrice": null,
+				"monthlyDiscountPrice": null,
+				"financingOptions": [],
+				"deviceFinancingId": null,
+				"devicePaymentPlan": null
+			},
+			"boxPrice": {
+				"gross": "568.80",
+				"net": "474.0",
+				"vat": "94.80"
+			},
+			"freeGift": false,
+			"devicePromotion": null,
+			"simType": "HYBRID",
+			"isChanged": false,
+			"isCompatibleWithWatch": true
+		}, {
+			"packageLineId": "6bc8be31-79be-4b58-ae9f-c71d7bd7c00d",
+			"action": "ADD",
+			"skuId": "086532",
+			"name": "Blank White Triple Format SIM",
+			"description": null,
+			"displayName": "3-in-1 SIM",
+			"displayDescription": null,
+			"deviceBriefDescription": [],
+			"deviceColor": null,
+			"memorySize": null,
+			"make": null,
+			"model": null,
+			"groupType": null,
+			"productClass": "SIM Card",
+			"productSubClass": "Core",
+			"displayOrder": null,
+			"showInSummary": false,
+			"merchandisingMedia": [],
+			"attributes": [],
+			"contractOptions": null,
+			"priceDetails": {
+				"oneOffPrice": {
+					"gross": "0",
+					"net": "0",
+					"vat": "0"
+				},
+				"oneOffDiscountPrice": {
+					"gross": "0",
+					"net": "0",
+					"vat": "0"
+				},
+				"merchandisingPromotions": null,
+				"monthlyPrice": null,
+				"monthlyDiscountPrice": null,
+				"financingOptions": [],
+				"deviceFinancingId": null,
+				"devicePaymentPlan": null
+			},
+			"boxPrice": {
+				"gross": "0.0",
+				"net": "0.0",
+				"vat": "0.0"
+			},
+			"freeGift": false,
+			"devicePromotion": null,
+			"simType": "PHYSICAL",
+			"isChanged": false,
+			"isCompatibleWithWatch": false
+		}],
+		"services": [],
+		"discounts": [{
+			"productLineId": "11fb59a5-3836-4aff-8a4d-c9cd3598f30e",
+			"action": "DISCOUNT",
+			"skuId": "107389",
+			"tag": "ChrsOff_CndFul_PayM_Save116",
+			"label": "Christmas Offer - Save £116",
+			"tenure": "FULL",
+			"duration": "27 Months",
+			"confirmedRequired": "false",
+			"merchandisingMedia": [],
+			"discountValue": {
+				"type": "GBP",
+				"value": "3.3333333"
+			}
+		}],
+		"priceDetails": {
+			"oneOffPrice": {
+				"gross": "9",
+				"net": "7.50",
+				"vat": "1.50"
+			},
+			"oneOffDiscountPrice": {
+				"gross": "9",
+				"net": "7.50",
+				"vat": "1.50"
+			},
+			"monthlyPrice": {
+				"gross": "51",
+				"net": "42.50",
+				"vat": "8.50"
+			},
+			"monthlyDiscountPrice": {
+				"gross": "47",
+				"net": "39.17",
+				"vat": "7.83"
+			},
+			"financingOptions": null
+		},
+		"installationAddress": null,
+		"appointmentWindow": null,
+		"servicePoint": {
+			"lineRefernece": {
+				"lineLocator": {
+					"exchangeCode": null,
+					"exchangeName": null,
+					"districtCode": null,
+					"l2SID": null,
+					"cableLinkID": null,
+					"distributionPoint": null
+				},
+				"lineSettings": {
+					"serviceCode": null,
+					"installationCode": null,
+					"terminationCode": null
+				},
+				"lineStatus": {
+					"statusCode": null,
+					"accessLineStatus": null,
+					"gnpStatus": null,
+					"lineOption": null,
+					"technology": null,
+					"lineType": null,
+					"tempStructure": false,
+					"standbyPowerRequired": false,
+					"narrowBandServicesAvailable": "null"
+				},
+				"availableServices": null,
+				"lineDirectory": null
+			},
+			"lineReference": {
+				"lineLocator": {
+					"exchangeCode": null,
+					"exchangeName": null,
+					"districtCode": null,
+					"l2SID": null,
+					"cableLinkID": null,
+					"distributionPoint": null
+				},
+				"lineSettings": {
+					"serviceCode": null,
+					"installationCode": null,
+					"terminationCode": null
+				},
+				"lineStatus": {
+					"statusCode": null,
+					"accessLineStatus": null,
+					"gnpStatus": null,
+					"lineOption": null,
+					"technology": null,
+					"lineType": null,
+					"tempStructure": false,
+					"standbyPowerRequired": false,
+					"narrowBandServicesAvailable": "null"
+				},
+				"availableServices": null,
+				"lineDirectory": null
+			},
+			"serviceReference": {
+				"serviceLines": []
+			}
+		},
+		"serviceStartDate": null,
+		"phoneNumber": null,
+		"primaryDeviceIdentifier": null,
+		"packageLinkIdentifier": null,
+		"linePackageType": null,
+		"lineTreatmentType": null,
+		"planType": "EHANDSET",
+		"combiPackageId": "0674726e-8903-4167-8b18-5d9a5fc44f52",
+		"confirmRequired": false,
+		"deviceFinancingId": null,
+		"additionalDetails": {},
+		"isChanged": false
+	}],
+	"vetOutcome": null,
+	"priceDetails": {
+		"oneOffPrice": {
+			"gross": "9",
+			"net": "7.50",
+			"vat": "1.50"
+		},
+		"oneOffDiscountPrice": {
+			"gross": "9",
+			"net": "7.50",
+			"vat": "1.50"
+		},
+		"monthlyPrice": {
+			"gross": "102",
+			"net": "85",
+			"vat": "17"
+		},
+		"monthlyDiscountPrice": {
+			"gross": "95",
+			"net": "79.17",
+			"vat": "15.83"
+		}
+	},
+	"totalOneoffPriceSaving": "0",
+	"totalMonthlyPriceSaving": "7",
+	"deliveryInfo": null,
+	"voucherCode": null,
+	"voucherDescription": null,
+	"validated": false,
+	"hashvalue": "1204489903",
+	"lastModified": "2020-12-09T13:57:39.206Z",
+	"changeCode": null,
+	"combiPackageIds": ["0674726e-8903-4167-8b18-5d9a5fc44f52"],
+	"voucherErrorMessage": null,
+	"activeBundles": [],
+	"splitDeliveryEligible": true,
+	"priceProposal": [{
+		"packageId": "4635729a-6343-4968-884b-28f396231cae",
+		"promotionType": "CROSS_SELL",
+		"productDetail": {
+			"category": "SIMO_24",
+			"lineType": "QUALIFYING_LINE"
+		},
+		"saving": {
+			"minimum": null,
+			"maximum": null,
+			"exact": {
+				"value": 2.5,
+				"uom": "£",
+				"message": "You'll save £3 a month on Home Broadband when combined with an SIM Only plan"
+			}
+		},
+		"qualifyingLine": {
+			"bundleId": "111150",
+			"displayName": "Superfast 1",
+			"identifier": {
+				"key": "PackageId",
+				"value": "4635729a-6343-4968-884b-28f396231cae"
+			}
+		}
+	}],
+	"loanEligibilityStatus": null,
+	"affiliateFlag": false,
+	"isChanged": false
+}

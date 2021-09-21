@@ -1,0 +1,379 @@
+{
+  "basketId": "64cdef57-3ef7-4801-9faf-dd730f3edeeb",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2021-03-09T01:06:52.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [{
+    "packageId": "a23acea2-50cf-4e06-a47f-660b966c6718",
+    "accountCategory": "Consumer",
+    "sequence": 2,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "cd82eddc-c5b9-42ba-a609-87ec7aeee117",
+      "action": "ADD",
+      "skuId": "113243",
+      "name": "24month SIM Only Unlimited Plan",
+      "description": "CTR17 SIM only Unlimited Plan with Speed Tier 2",
+      "displayName": "Unlimited",
+      "displayDescription": null,
+      "bundleClass": "SIMO",
+      "productClass": null,
+      "serviceId": "110286",
+      "paymentType": "Postpaid",
+      "bundleType": "unlimited51",
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "24"
+      },
+      "displayOrder": 201,
+      "showInSummary": false,
+      "allowances": [{
+        "type": "World Traveller",
+        "value": "Vodafone Global Roaming",
+        "uom": null,
+        "displayUom": null,
+        "tilUom": null
+      }, {
+        "type": "UK TEXT",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "texts",
+        "tilUom": "SMS"
+      }, {
+        "type": "ORIGDATA",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "MB",
+        "tilUom": "DATA"
+      }, {
+        "type": "UK DATA",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "MB",
+        "tilUom": "DATA"
+      }, {
+        "type": "MMS",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "picture messages",
+        "tilUom": "MMS"
+      }, {
+        "type": "UK MIN",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "minutes",
+        "tilUom": "VOICE"
+      }],
+      "merchandisingMedia": [{
+        "id": "full_duration.merchandisingPromotions.merchandisingPromotion.label",
+        "value": "Save £96",
+        "type": "TEXT",
+        "footNotes": ["SIMO24REDUNL4GBP"]
+      }, {
+        "id": "full_duration.merchandisingPromotions.merchandisingPromotion.description",
+        "value": "Save £96",
+        "type": "TEXT",
+        "footNotes": ["SIMO24REDUNL4GBP"]
+      }],
+      "attributes": null,
+      "benefits": [],
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "26",
+          "net": "21.67",
+          "vat": "4.33"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "22",
+          "net": "18.33",
+          "vat": "3.67"
+        },
+        "totalMonthlySavingsAmount": {
+          "uom": "£",
+          "net": 3.33,
+          "vat": 0.67,
+          "gross": 4
+        },
+        "merchandisingPromotions": {
+          "tag": "107389.SIMO24RedUnl.4GBP",
+          "label": "Save £96",
+          "description": "Save £96 - SIM Only Plan",
+          "discountId": "107389",
+          "mpType": "full_duration",
+          "priceEstablishedLabel": null,
+          "priority": "1279",
+          "packageType": ["Acquisition", "Upgrade", "SecondLine"],
+          "footNotes": ["SIMO24REDUNL4GBP"],
+          "confirmRequired": false,
+          "offerGroup": null,
+          "belowTheLine": "false",
+          "qualifier": null,
+          "category": null
+        },
+        "listOfMerchandisingPromotion": [{
+          "tag": "107389.SIMO24RedUnl.4GBP",
+          "label": "Save £96",
+          "description": "Save £96 - SIM Only Plan",
+          "discountId": "107389",
+          "mpType": "full_duration",
+          "priceEstablishedLabel": null,
+          "priority": "1279",
+          "packageType": ["Acquisition", "Upgrade", "SecondLine"],
+          "footNotes": ["SIMO24REDUNL4GBP"],
+          "confirmRequired": false,
+          "offerGroup": null,
+          "belowTheLine": "false",
+          "qualifier": null,
+          "category": null
+        }],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": true,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": "MAX_10_MBPS",
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "includedCalls": null,
+      "noPriceRise": null,
+      "wifiExpert": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+      "packageLineId": "300af2df-2397-4f91-89b2-3bcfae360b4b",
+      "action": null,
+      "skuId": "201893",
+      "name": "VFUK eSIM",
+      "description": null,
+      "displayName": "eSIM",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": null,
+      "model": null,
+      "groupType": null,
+      "productClass": "SIM Card",
+      "productSubClass": null,
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": null,
+        "oneOffDiscountPrice": null,
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": null,
+        "net": null,
+        "vat": null
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isCompatibleWithWatch": false,
+      "isChanged": false
+    }],
+    "services": [],
+    "discounts": [{
+      "productLineId": "2577973c-7d00-42a6-bfb1-3929c816e773",
+      "action": "DISCOUNT",
+      "skuId": "107389",
+      "tag": "107389.SIMO24RedUnl.4GBP",
+      "label": "Save £96",
+      "tenure": "FULL",
+      "duration": "27 Months",
+      "confirmedRequired": "false",
+      "merchandisingMedia": [],
+      "discountValue": {
+        "type": "GBP",
+        "value": "3.3333333"
+      }
+    }],
+    "priceDetails": {
+      "oneOffPrice": null,
+      "oneOffDiscountPrice": null,
+      "monthlyPrice": {
+        "gross": "26",
+        "net": "21.67",
+        "vat": "4.33"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "22",
+        "net": "18.33",
+        "vat": "3.67"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "SIMO",
+    "combiPackageId": null,
+    "confirmRequired": false,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "isChanged": false
+  }],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "monthlyPrice": {
+      "gross": "26",
+      "net": "21.67",
+      "vat": "4.33"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "22",
+      "net": "18.33",
+      "vat": "3.67"
+    },
+    "totalOneoffSaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "totalMonthlySaving": {
+      "gross": "4",
+      "net": "3.33",
+      "vat": "0.67"
+    }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "4",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "421470855",
+  "lastModified": "2021-03-09T22:33:05.307Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [{
+    "packageId": "a23acea2-50cf-4e06-a47f-660b966c6718",
+    "promotionType": "CROSS_SELL",
+    "productDetail": {
+      "category": "FTR6",
+      "lineType": "REWARD_LINE"
+    },
+    "saving": {
+      "minimum": null,
+      "maximum": null,
+      "exact": {
+        "value": 2.5,
+        "uom": "£",
+        "message": "You'll save £3 a month on Home Broadband when combined with an SIM Only plan"
+      }
+    },
+    "qualifyingLine": {
+      "bundleId": "113243",
+      "displayName": "Unlimited",
+      "identifier": {
+        "key": "PackageId",
+        "value": "a23acea2-50cf-4e06-a47f-660b966c6718"
+      }
+    }
+  }],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

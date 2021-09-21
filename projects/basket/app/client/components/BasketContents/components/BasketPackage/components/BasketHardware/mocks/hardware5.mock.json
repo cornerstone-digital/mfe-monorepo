@@ -1,0 +1,166 @@
+{
+  "packageLineId": "31bc9e71-0297-4a22-a8de-b297177586f9",
+  "action": "ADD",
+  "skuId": "204599",
+  "name": "Apple iPhone 11 Pro Max 64GB midnight green",
+  "description": "An all-new triple-camera, the fastest chip in a smartphone and a Super Retina XDR display. Upgrade to the best iPhone yet.",
+  "displayName": "Apple iPhone 11 Pro Max 64GB Midnight Green",
+  "displayDescription": null,
+  "deviceBriefDescription": null,
+  "deviceColor": "Midnight Green",
+  "memorySize": "64 GB",
+  "make": "apple",
+  "model": "iphone-11-pro-max",
+  "groupType": "DEVICE_PAYM",
+  "productClass": "Handset",
+  "displayOrder": null,
+  "showInSummary": false,
+  "merchandisingMedia": [{
+      "id": "imageURLs.thumbs.front",
+      "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-front.png",
+      "type": "URL",
+      "footNotes": []
+    },
+    {
+      "id": "imageURLs.thumbs.left",
+      "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-left.png",
+      "type": "URL",
+      "footNotes": []
+    },
+    {
+      "id": "imageURLs.thumbs.right",
+      "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-right.png",
+      "type": "URL",
+      "footNotes": []
+    },
+    {
+      "id": "imageURLs.thumbs.side",
+      "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-side.png",
+      "type": "URL",
+      "footNotes": []
+    },
+    {
+      "id": "imageURLs.thumbs.back",
+      "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-back.png",
+      "type": "URL",
+      "footNotes": []
+    },
+    {
+      "id": "imageURLs.full.hero",
+      "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-front-600.png",
+      "type": "URL",
+      "footNotes": []
+    },
+    {
+      "id": "imageURLs.full.front",
+      "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-front-600.png",
+      "type": "URL",
+      "footNotes": []
+    },
+    {
+      "id": "imageURLs.full.left",
+      "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-left-600.png",
+      "type": "URL",
+      "footNotes": []
+    },
+    {
+      "id": "imageURLs.full.right",
+      "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-right-600.png",
+      "type": "URL",
+      "footNotes": []
+    },
+    {
+      "id": "imageURLs.full.side",
+      "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-side-600.png",
+      "type": "URL",
+      "footNotes": []
+    },
+    {
+      "id": "imageURLs.full.back",
+      "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-back-600.png",
+      "type": "URL",
+      "footNotes": []
+    },
+    {
+      "id": "imageURLs.grid",
+      "value": "/images/desktop/Apple_iPhone_11_max_new_midnight_green-grid-product-front.png",
+      "type": "URL",
+      "footNotes": []
+    }
+  ],
+  "attributes": null,
+  "contractOptions": {
+    "duration": {
+      "uom": "MONTH",
+      "value": "7"
+    },
+    "upFrontPrice": 153.0
+  },
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "1320",
+      "net": "1100",
+      "vat": "220"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "1320",
+      "net": "1100",
+      "vat": "220"
+    },
+    "merchandisingPromotions": null,
+    "monthlyPrice": {
+      "gross": null,
+      "net": null,
+      "vat": null
+    },
+    "monthlyDiscountPrice": {
+      "gross": null,
+      "net": null,
+      "vat": null
+    },
+    "financingOptions": null,
+    "deviceFinancingId": null,
+    "devicePaymentPlan": {
+      "aprRepresentative": "0.0",
+      "duration": {
+        "uom": "MONTH",
+        "value": "7"
+      },
+      "interestRate": "0.0",
+      "description": "On a 7-month phone credit agreement",
+      "monthlyPrice": {
+        "uom": "£",
+        "gross": "166.71",
+        "net": "138.93",
+        "vat": "27.78"
+      },
+      "totalHandsetCredit": {
+        "uom": "£",
+        "gross": "1167.00",
+        "net": "972.50",
+        "vat": "194.50"
+      },
+      "totalHandsetPrice": {
+        "uom": "£",
+        "gross": "1320.00",
+        "net": "1100.00",
+        "vat": "220.00"
+      },
+      "upFrontPrice": {
+        "uom": "£",
+        "gross": "153.00",
+        "net": "127.50",
+        "vat": "25.50"
+      }
+    }
+  },
+  "boxPrice": {
+    "gross": "1094.17",
+    "net": "911.81",
+    "vat": "182.36"
+  },
+  "freeGift": false,
+  "devicePromotion": "112686",
+  "isChanged": false,
+  "isCompatibleWithWatch": true
+}

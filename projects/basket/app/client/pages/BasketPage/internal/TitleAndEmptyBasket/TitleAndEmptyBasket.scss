@@ -1,0 +1,44 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.justify-center {
+  justify-content: center;
+  padding-top: $spacing-fixed-2;
+  padding-bottom: $spacing-fixed-1;
+}
+
+.grid {
+  margin-top: $spacing-fixed-4;
+  margin-bottom: $spacing-fixed-5;
+  padding-left: 0;
+  padding-right: 0;
+
+  &-ab {
+    margin-top: $spacing-fixed-2;
+    margin-bottom: 0;
+  }
+}
+
+.empty-button-column {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: $spacing-fixed-2;
+  padding-bottom: $spacing-fixed-1;
+  align-items: flex-end;
+}
+
+.empty-basket {
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &-text {
+    display: none;
+
+    @include md {
+      display: inline-block;
+    }
+  }
+}

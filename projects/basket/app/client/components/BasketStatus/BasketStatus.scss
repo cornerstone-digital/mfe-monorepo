@@ -1,0 +1,16 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.notification {
+  align-items: center;
+  margin-top: $spacing-fixed-2;
+  margin-bottom: -$spacing-fixed-2;
+  width: 100%;
+
+  .container {
+    margin: 0 auto;
+
+    @include md {
+      width: 75%;
+    }
+  }
+}

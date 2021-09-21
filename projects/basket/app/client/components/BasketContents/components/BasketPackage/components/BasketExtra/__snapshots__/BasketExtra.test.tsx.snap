@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BasketExtra /> renders mock1 correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdfBQB Gridstyle__GridContainer-sc-11onwkc-0 juDKGU bRCyJL no-gutters"
+    data-name="container-fluid"
+  >
+    <div
+      class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt"
+      data-name="row"
+    >
+      <div
+        class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 bVSFOy cRslqE header"
+        data-name="col-12 col-md-12 col-lg-12"
+      >
+        <div
+          stylename="item-header"
+        >
+          <div
+            class="item-title"
+          >
+            <h5
+              class="heading heading-6 inherit w-bold margin-0"
+            >
+              You removed Loss, theft, damage and breakdown cover
+            </h5>
+          </div>
+          <button
+            data-selector="basket-header-action-you-removed-loss-theft-damage-and-breakdown-cover"
+            stylename="action-button"
+          >
+            <span
+              class="action-text"
+            >
+              Undo
+            </span>
+            <span
+              aria-hidden="true"
+              class="wrapper inherit size-1 1  "
+            >
+              test-file-stub
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-hidden="true"
+      class="item-body-wrap removed"
+    >
+      <div
+        class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt item-body"
+        data-name="row"
+      >
+        <div
+          class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 heDFIj cRslqE icon-column-wrapper"
+          data-name="col-4 col-md-2 col-lg-2"
+        >
+          <span
+            aria-hidden="true"
+            class="wrapper dark size-5 5  "
+          >
+            test-file-stub
+          </span>
+        </div>
+        <div
+          class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 fVIZqk cRslqE justify-left desc-column-large"
+          data-name="col-12 col-md-5 col-lg-4"
+        />
+        <div
+          class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 ebiDZn cRslqE"
+          data-name="col-8 col-md-5 col-lg-6"
+        >
+          <div
+            class="sc-bdfBQB Gridstyle__GridContainer-sc-11onwkc-0 juDKGU bRCyJL no-gutters"
+            data-name="container-fluid"
+          >
+            <div
+              class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt"
+              data-name="row"
+            >
+              <div
+                class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 dOTIbJ cRslqE column"
+                data-name="col-6"
+              >
+                <div
+                  class="basket-item-totals"
+                  data-selector="cost-upfront"
+                >
+                  <p
+                    class=""
+                  >
+                    <span
+                      class="prefix inherit"
+                    >
+                      Upfront
+                    </span>
+                    <span
+                      class="main inherit"
+                    >
+                      £0
+                    </span>
+                    <span
+                      class="suffix inherit"
+                    />
+                    <span
+                      class="suffix2 grey"
+                    />
+                  </p>
+                </div>
+              </div>
+              <div
+                class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 dOTIbJ cRslqE column"
+                data-name="col-6"
+              >
+                <div
+                  class="basket-item-totals"
+                  data-selector="cost-monthly"
+                >
+                  <p
+                    class=""
+                  >
+                    <span
+                      class="prefix inherit"
+                    >
+                      Monthly
+                    </span>
+                    <span
+                      class="main inherit"
+                    >
+                      £13.50
+                    </span>
+                    <span
+                      class="suffix inherit"
+                    />
+                    <span
+                      class="suffix2 grey"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt desc-column-small"
+        data-name="row"
+      >
+        <div
+          class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 fyWrjy cRslqE"
+          data-name="col"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<BasketExtra /> renders mock2 correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdfBQB Gridstyle__GridContainer-sc-11onwkc-0 juDKGU bRCyJL no-gutters"
+    data-name="container-fluid"
+  >
+    <div
+      class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt"
+      data-name="row"
+    >
+      <div
+        class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 bVSFOy cRslqE header"
+        data-name="col-12 col-md-12 col-lg-12"
+      >
+        <div
+          stylename="item-header"
+        >
+          <div
+            class="item-title"
+          >
+            <h5
+              class="heading heading-6 inherit w-bold margin-0"
+            >
+              Loss, theft, damage and breakdown cover
+            </h5>
+          </div>
+          <button
+            data-selector="basket-header-action-loss-theft-damage-and-breakdown-cover"
+            stylename="action-button"
+          >
+            <span
+              class="action-text"
+            >
+              Remove
+            </span>
+            <span
+              aria-hidden="true"
+              class="wrapper inherit size-1 1  "
+            >
+              test-file-stub
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-hidden="false"
+      class="item-body-wrap"
+    >
+      <div
+        class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt item-body"
+        data-name="row"
+      >
+        <div
+          class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 heDFIj cRslqE icon-column-wrapper"
+          data-name="col-4 col-md-2 col-lg-2"
+        >
+          <span
+            aria-hidden="true"
+            class="wrapper dark size-5 5  "
+          >
+            test-file-stub
+          </span>
+        </div>
+        <div
+          class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 fVIZqk cRslqE justify-left desc-column-large"
+          data-name="col-12 col-md-5 col-lg-4"
+        />
+        <div
+          class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 ebiDZn cRslqE"
+          data-name="col-8 col-md-5 col-lg-6"
+        >
+          <div
+            class="sc-bdfBQB Gridstyle__GridContainer-sc-11onwkc-0 juDKGU bRCyJL no-gutters"
+            data-name="container-fluid"
+          >
+            <div
+              class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt"
+              data-name="row"
+            >
+              <div
+                class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 dOTIbJ cRslqE column"
+                data-name="col-6"
+              >
+                <div
+                  class="basket-item-totals"
+                  data-selector="cost-upfront"
+                >
+                  <p
+                    class=""
+                  >
+                    <span
+                      class="prefix inherit"
+                    >
+                      Upfront
+                    </span>
+                    <span
+                      class="main inherit"
+                    >
+                      £0
+                    </span>
+                    <span
+                      class="suffix inherit"
+                    />
+                    <span
+                      class="suffix2 grey"
+                    />
+                  </p>
+                </div>
+              </div>
+              <div
+                class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 dOTIbJ cRslqE column"
+                data-name="col-6"
+              >
+                <div
+                  class="basket-item-totals"
+                  data-selector="cost-monthly"
+                >
+                  <p
+                    class=""
+                  >
+                    <span
+                      class="prefix inherit"
+                    >
+                      Monthly
+                    </span>
+                    <span
+                      class="main inherit"
+                    >
+                      £13.50
+                    </span>
+                    <span
+                      class="suffix inherit"
+                    />
+                    <span
+                      class="suffix2 grey"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-gsTEea GridRowstyle__GridRow-sc-1l0dhq9-0 DvuGS dhUlIt desc-column-small"
+        data-name="row"
+      >
+        <div
+          class="sc-dlfnuX GridColumnstyle__GridColumn-sc-19afl1d-0 fyWrjy cRslqE"
+          data-name="col"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

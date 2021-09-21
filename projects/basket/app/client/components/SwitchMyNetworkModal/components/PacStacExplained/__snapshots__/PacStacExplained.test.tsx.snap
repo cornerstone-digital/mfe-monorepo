@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PacStacExplained /> should render 1`] = `
+<BlockContainer
+  appearance="light1"
+  borderAppearance="none"
+  collapse={
+    Object {
+      "collapsable": true,
+      "collapsed": true,
+      "icon": Object {
+        "appearance": "dark",
+        "justify": "left",
+      },
+    }
+  }
+  guttering="md"
+  heading={
+    Object {
+      "fontWeight": "bold",
+      "size": 6,
+      "text": "What are PAC and STAC codes?",
+    }
+  }
+  marginBottom={2}
+  theme={null}
+>
+  <div
+    className="content"
+  >
+    <Icon
+      appearance="dark"
+      name="info-circle"
+      responsive={true}
+      size={2}
+      theme={null}
+    />
+    <Section
+      appearance="light1"
+      borderAppearance="none"
+      borderShadow={false}
+      contentWidth="full"
+      gutters="none"
+      paddingLeft={2}
+      roundedBorders={false}
+      spacingOffsetVertical="none"
+      theme={null}
+      type="div"
+    >
+      <Heading
+        appearance="inherit"
+        focusable={false}
+        fontWeight="bold"
+        level={3}
+        size={6}
+        theme={null}
+      >
+        Use a PAC code to:
+      </Heading>
+      <List
+        hideDecorators={false}
+        items={
+          Array [
+            Object {
+              "content": "Cancel your contract with your current network",
+              "id": "1",
+            },
+            Object {
+              "content": "Move your current mobile number over to Vodafone",
+              "id": "2",
+            },
+            Object {
+              "content": "Example code: ABC123456",
+              "id": "3",
+            },
+          ]
+        }
+        theme={null}
+        type="unordered"
+      />
+      <Heading
+        appearance="inherit"
+        focusable={false}
+        fontWeight="bold"
+        level={3}
+        size={6}
+        theme={null}
+      >
+        Use a STAC code to:
+      </Heading>
+      <List
+        hideDecorators={false}
+        items={
+          Array [
+            Object {
+              "content": "Cancel your contract with your current network",
+              "id": "4",
+            },
+            Object {
+              "content": "Disconnect your current mobile number. You'll get a new number with Vodafone",
+              "id": "5",
+            },
+            Object {
+              "content": "Example code: 123456ABC",
+              "id": "6",
+            },
+          ]
+        }
+        theme={null}
+        type="unordered"
+      />
+      <Heading
+        appearance="inherit"
+        focusable={false}
+        fontWeight="bold"
+        level={3}
+        size={6}
+        theme={null}
+      >
+        How do I get my PAC or STAC?
+      </Heading>
+      <Paragraph
+        theme={null}
+      >
+        Just send a free text to 65075 from the mobile you want to switch
+      </Paragraph>
+      <Paragraph
+        theme={null}
+      >
+        For 
+        <strong>
+          PAC
+        </strong>
+        : Text PAC to 65075
+        <br />
+        For 
+        <strong>
+          STAC
+        </strong>
+        : Text STAC to 75075
+      </Paragraph>
+      <Paragraph
+        theme={null}
+      >
+        Or visit your current network's website to get the code you need.
+      </Paragraph>
+    </Section>
+  </div>
+</BlockContainer>
+`;

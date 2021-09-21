@@ -1,0 +1,350 @@
+{
+  "basketId": "64cdef57-3ef7-4801-9faf-dd730f3edeeb",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2020-09-16T10:08:22.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "SecondLine",
+    "offerCode": null
+  },
+  "packages": [{
+    "packageId": "01f552d5-0fe7-42ad-a249-aca92cc19558",
+    "accountCategory": "Consumer",
+    "sequence": 1,
+    "packageType": "SecondLine",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "8b4291db-c5d5-4844-be89-4b848c2f54ff",
+      "action": "ADD",
+      "skuId": "111281",
+      "name": "24-month OneNumber Plan B",
+      "description": "24-month OneNumber Plan B to connect secondary device to a main plan",
+      "displayName": "OneNumber - B",
+      "displayDescription": null,
+      "bundleClass": "HANDSET",
+      "productClass": null,
+      "serviceId": "110286",
+      "paymentType": "Postpaid",
+      "bundleType": null,
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "24"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": [],
+      "merchandisingMedia": [],
+      "attributes": null,
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "totalSavingsAmount": null,
+        "merchandisingPromotions": null,
+        "listOfMerchandisingPromotion": [],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": false,
+      "bundledServiceProducts": null,
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+      "packageLineId": "76c3dcd6-5d4e-4557-a1dd-cc849ef93f06",
+      "action": "ADD",
+      "skuId": "202064",
+      "name": "Apple Watch Series 5 44mm space grey",
+      "description": "The largest display on an Apple Watch which is always on - track your workouts, check your heart rate, or navigate a compass.",
+      "displayName": "Apple Watch Series 5 44mm Space Grey",
+      "displayDescription": null,
+      "deviceBriefDescription": null,
+      "deviceColor": null,
+      "memorySize": null,
+      "make": "apple",
+      "model": "series5-44mm",
+      "groupType": null,
+      "productClass": "eHandset",
+      "productSubClass": "WATCH",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/Apple_Watch_Series_5_44mm_space_grey-thumbs-front.png",
+        "type": "URL",
+        "footNotes": []
+      }, {
+        "id": "imageURLs.thumbs.back",
+        "value": "/images/desktop/Apple_Watch_Series_5_44mm_space_grey-thumbs-back.png",
+        "type": "URL",
+        "footNotes": []
+      }, {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/Apple_Watch_Series_5_44mm_space_grey-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": []
+      }, {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/Apple_Watch_Series_5_44mm_space_grey-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": []
+      }, {
+        "id": "imageURLs.full.back",
+        "value": "/images/desktop/Apple_Watch_Series_5_44mm_space_grey-full-product-back-600.png",
+        "type": "URL",
+        "footNotes": []
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/Apple_Watch_Series_5_44mm_space_grey-grid-product-front.png",
+        "type": "URL",
+        "footNotes": []
+      }],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "19",
+          "net": "15.83",
+          "vat": "3.17"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "19",
+          "net": "15.83",
+          "vat": "3.17"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": {
+          "gross": null,
+          "net": null,
+          "vat": null
+        },
+        "monthlyDiscountPrice": {
+          "gross": null,
+          "net": null,
+          "vat": null
+        },
+        "financingOptions": null,
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "484.49",
+        "net": "403.74",
+        "vat": "80.75"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "ESIMONLY",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }],
+    "services": [],
+    "discounts": [],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "19",
+        "net": "15.83",
+        "vat": "3.17"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "19",
+        "net": "15.83",
+        "vat": "3.17"
+      },
+      "monthlyPrice": {
+        "gross": "29",
+        "net": "24.17",
+        "vat": "4.83"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "29",
+        "net": "24.17",
+        "vat": "4.83"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": "447801553115",
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "EHANDSET",
+    "combiPackageId": null,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "isChanged": false
+  }],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "19",
+      "net": "15.83",
+      "vat": "3.17"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "19",
+      "net": "15.83",
+      "vat": "3.17"
+    },
+    "monthlyPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "-1771589726",
+  "lastModified": "2020-09-16T10:13:31.606Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [{
+    "packageLineId": "d8806b2b-86b6-405e-8ace-c9ab907dd0ad",
+    "bundleId": "111832",
+    "identifier": {
+      "key": "msisdn",
+      "value": "447801553115"
+    },
+    "assetIntegrationId": "O88ZRB0SE0-",
+    "activeDiscounts": [{
+      "discountId": "109764",
+      "offerId": null,
+      "qualifier": null
+    }],
+    "bundlePrice": {
+      "bundleId": "111832",
+      "monthlyPrice": {
+        "gross": "30.74",
+        "net": "25.62",
+        "vat": "5.12"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "30.74",
+        "net": "25.62",
+        "vat": "5.12"
+      },
+      "merchandisingPromotions": null
+    },
+    "isActiveSubscription": true
+  }],
+  "splitDeliveryEligible": false,
+  "priceProposal": [{
+    "packageId": null,
+    "promotionType": "CROSS_SELL",
+    "productDetail": {
+      "category": "FTR6",
+      "lineType": "REWARD_LINE"
+    },
+    "saving": {
+      "minimum": null,
+      "maximum": null,
+      "exact": {
+        "value": 1.6666666,
+        "uom": "£",
+        "message": "You'll save £2 a month on Home Broadband when combined with a SIM Only plan"
+      }
+    },
+    "qualifyingLine": {
+      "bundleId": "111832",
+      "displayName": "Unlimited Max",
+      "identifier": {
+        "key": "msisdn",
+        "value": "447801553115"
+      }
+    }
+  }],
+  "affiliateFlag": false,
+  "isChanged": false
+}

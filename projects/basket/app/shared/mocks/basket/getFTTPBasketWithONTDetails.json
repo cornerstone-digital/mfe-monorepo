@@ -1,0 +1,511 @@
+{
+  "basketId": "4f232403-dc10-4ba7-9009-e9c497af611e",
+  "affiliateId": "11",
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T09:45:00.000+00:00",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "62fdf6af-e5dc-4615-aa88-5b7b77e6b5b4",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "0593f7b5-02a0-40fb-828a-4ab822b9d7c2",
+        "action": "ADD",
+        "skuId": "112752",
+        "name": "Test Only - Pro Ultrafast 500 - Fibre to Your Home",
+        "description": "24 month Pro Ultrafast 500 Broadband package",
+        "displayName": "Pro Ultrafast 500",
+        "displayDescription": null,
+        "bundleClass": "BroadBand:FTTP",
+        "productClass": null,
+        "serviceId": "100092",
+        "paymentType": "Postpaid",
+        "bundleType": "Red",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "24"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "benefits": [],
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "47",
+            "net": "39.17",
+            "vat": "7.83"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "47",
+            "net": "39.17",
+            "vat": "7.83"
+          },
+          "totalMonthlySavingsAmount": null,
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": false,
+        "bundledServiceProducts": [
+          {
+            "skuId": "100092",
+            "name": "Mobile broadband service",
+            "description": "Mobile broadband service",
+            "productClass": "Mobile Broadband Service",
+            "servicePointId": null,
+            "priceDetail": {
+              "oneOffPrice": null,
+              "oneOffDiscountPrice": null,
+              "monthlyPrice": {
+                "gross": "0",
+                "net": "0",
+                "vat": "0"
+              },
+              "monthlyDiscountPrice": null,
+              "merchandisingPromotions": null
+            },
+            "miscellaneous": null
+          },
+          {
+            "skuId": "107552",
+            "name": "Fixed Broadband Service",
+            "description": "Fixed Broadband Service",
+            "productClass": "Fixed Broadband Service",
+            "servicePointId": "112651",
+            "priceDetail": {
+              "oneOffPrice": null,
+              "oneOffDiscountPrice": null,
+              "monthlyPrice": {
+                "gross": "47",
+                "net": "39.17",
+                "vat": "7.83"
+              },
+              "monthlyDiscountPrice": null,
+              "merchandisingPromotions": null
+            },
+            "miscellaneous": [
+              {
+                "name": "SERVICE POINT",
+                "value": "Gigafast 500"
+              }
+            ]
+          },
+          {
+            "skuId": "107551",
+            "name": "Fixed Line Service",
+            "description": "Fixed Line Service",
+            "productClass": "Fixed Line",
+            "servicePointId": "110567",
+            "priceDetail": {
+              "oneOffPrice": null,
+              "oneOffDiscountPrice": null,
+              "monthlyPrice": {
+                "gross": "0",
+                "net": "0",
+                "vat": "0"
+              },
+              "monthlyDiscountPrice": null,
+              "merchandisingPromotions": null
+            },
+            "miscellaneous": [
+              {
+                "name": "SERVICE POINT",
+                "value": "Gigafast Home Broadband and Voice"
+              }
+            ]
+          },
+          {
+            "skuId": "106563",
+            "name": "Landline Port In",
+            "description": "Landline Port In",
+            "productClass": "Fixed Port In",
+            "servicePointId": null,
+            "priceDetail": null,
+            "miscellaneous": [
+              {
+                "name": "ROOT_PRODUCT_ID",
+                "value": "107551"
+              }
+            ]
+          }
+        ],
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": "Average download speed: 500Mbps",
+        "includedCalls": null,
+        "noPriceRise": null,
+        "wifiExpert": "Dedicated WiFi experts",
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "1d3de903-da53-46e3-8ba4-f3578f227b82",
+          "action": "ADD",
+          "skuId": "206680",
+          "name": "Vodafone Wi-Fi Hub",
+          "description": null,
+          "displayName": "Vodafone Wi-Fi Hub",
+          "displayDescription": null,
+          "deviceBriefDescription": [
+            {
+              "key": "deliveryConsideration",
+              "value": "Alpha",
+              "type": null,
+              "valueUOM": null
+            },
+            {
+              "key": "latestRouter",
+              "value": "true",
+              "type": null,
+              "valueUOM": null
+            },
+            {
+              "key": "USP3",
+              "value": "Premium Design",
+              "type": null,
+              "valueUOM": null
+            },
+            {
+              "key": "USP4",
+              "value": "Ultra Power Saving Mode",
+              "type": null,
+              "valueUOM": null
+            }
+          ],
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "Fixed broadband equipment 2019",
+          "productSubClass": null,
+          "displayOrder": 1,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/WiFi_Hub.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": null,
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "0.0",
+            "net": "0.0",
+            "vat": "0.0"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "isChanged": false,
+          "isCompatibleWithWatch": false
+        }
+      ],
+      "services": [
+        {
+          "packageLineId": "ea65015d-3d3d-45e8-8167-c58d3c9097b2",
+          "action": "ADD",
+          "skuId": "110565",
+          "name": "Standard Installation Fee",
+          "description": null,
+          "displayName": "Standard Installation Fee",
+          "displayDescription": null,
+          "specificationGroup": [],
+          "merchandisingMedia": [],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "merchandisingPromotions": null
+          },
+          "freeGift": false,
+          "productClass": "Installation Fee",
+          "dataRollover": null,
+          "rootProductId": "107552",
+          "allowances": [],
+          "rewardPoints": null,
+          "planDuration": null,
+          "isChanged": false
+        }
+      ],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyPrice": {
+          "gross": "47",
+          "net": "39.17",
+          "vat": "7.83"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "47",
+          "net": "39.17",
+          "vat": "7.83"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": {
+        "identification": {
+          "id": "234234",
+          "contextId": "HI"
+        },
+        "postCode": "RG14 2BN",
+        "houseName": "XYZ",
+        "houseNumber": "250",
+        "flatNumber": "250",
+        "streetName": "London Street",
+        "town": "Newbury",
+        "county": "Berkshire",
+        "country": "United Kingdom",
+        "locality": "Newbury 1",
+        "citySubDivisionName": "West Berkshire",
+        "moveTypeCode": "03"
+      },
+      "appointmentWindow": {
+        "identificationId": "511BLNTH",
+        "startDateTime": "2017-10-01T09:45:00.000+02:00",
+        "operationalPreferenceCode": "STANDARD",
+        "timeSlot": "8:00AM",
+        "siteNotes": [
+          {
+            "notes": "hello",
+            "typeCode": "ENGINEER"
+          }
+        ],
+        "startTime": null,
+        "endTime": null
+      },
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": {
+            "exchangeCode": "MRKT",
+            "exchangeName": "Newmarket",
+            "districtCode": "ND",
+            "l2SID": "IL2SND",
+            "cableLinkID": "OGHPO3364630",
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": "STANDARD",
+            "terminationCode": null
+          },
+          "lineStatus": null,
+          "availableServices": {
+            "service": [
+              "IPTV"
+            ]
+          },
+          "lineDirectory": [
+            {
+              "featureCode": "MAINLINE_DIRECTORY",
+              "directoryCode": "NO_DIRECTORY_ENTRY",
+              "locationCode": "INDIVIDUAL"
+            }
+          ]
+        },
+        "lineReference": null,
+        "serviceReference": {
+          "serviceLines": [
+            {
+              "classificationCode": "Line and ADSL",
+              "networkType": "Onnet",
+              "lineTreatments": [
+                {
+                  "identification": "Name",
+                  "earliestAvailableDate": "2017-10-01T09:45:00.000+02:00",
+                  "appointmentNeeded": false,
+                  "connectionCharge": "No Charge",
+                  "preOrder": false,
+                  "registerOfInterest": false
+                }
+              ],
+              "serviceLines": [
+                {
+                  "itemReference": {
+                    "identificationId": "PC00024",
+                    "name": "Single Pay Enhanced Transit",
+                    "classificationCode": "ADSL"
+                  },
+                  "lineSpeeds": {
+                    "maxDownSpeed": "1",
+                    "minDownSpeed": "1",
+                    "avgDownSpeed": "1",
+                    "minGuaranteedDownSpeed": "1",
+                    "maxUpSpeed": "1",
+                    "minUpSpeed": "1",
+                    "bandwidthMeasure": "Actual",
+                    "lastObservedDate": "2021-03-17T09:45:00.000+02:00"
+                  },
+                  "miscRefernce": {
+                    "serviceProviderName": "Vodafone",
+                    "lineLength": "1610.0",
+                    "customerAgreedDate": "2017-10-01T09:45:00.000+02:00",
+                    "readyForServiceDate": "2017-10-01T09:45:00.000+02:00",
+                    "anfp": null,
+                    "installationType": null
+                  },
+                  "serviceLineTreatments": [
+                    {
+                      "parentIdentification": "2324",
+                      "serviceType": null,
+                      "serviceAction": "Provide",
+                      "simValue": "SIM2",
+                      "lineInfo": "MPF Working Line Takeover",
+                      "canNumberBeRetained": true,
+                      "portInFlag": "1",
+                      "vicCode": null,
+                      "pendingOrders": [
+                        {
+                          "completionDate": "2017-10-01T09:45:00.000+02:00",
+                          "typeCode": "CANCEL",
+                          "thirdPartyFlag": "false"
+                        }
+                      ],
+                      "accessLine": {
+                        "id": "TBP8027759T8",
+                        "channelId": "MPF_ACCESSLINE"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "serviceStartDate": "2017-10-01T18:45:00.000+00:00",
+      "phoneNumber": "9391666621",
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": "Line and ADSL",
+      "lineTreatmentType": "Name",
+      "planType": "BroadBand:FTTP",
+      "combiPackageId": null,
+      "confirmRequired": false,
+      "deviceFinancingId": null,
+      "additionalDetails": {
+        "ONTReference": "ONTReferenceValue",
+        "ONTType": "ONTTypeValue",
+        "ONTSerialNumber": "ONTSerialNumberValue",
+        "ONTPortNumber": "ONTPortNumberValue"
+      },
+      "tradeInOfferCode": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "monthlyPrice": {
+      "gross": "47",
+      "net": "39.17",
+      "vat": "7.83"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "47",
+      "net": "39.17",
+      "vat": "7.83"
+    },
+    "totalOneoffSaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "totalMonthlySaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": true,
+  "hashvalue": "-1512571292",
+  "lastModified": null,
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": true,
+  "isChanged": false
+}

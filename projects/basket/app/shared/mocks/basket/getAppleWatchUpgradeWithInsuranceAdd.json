@@ -1,0 +1,615 @@
+{
+  "basketId": "acbea241-c9eb-436e-a055-ff63c4cbe056",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T09:45:00.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Upgrade",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "863d552d-75aa-4721-b72c-ef0708659a92",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Upgrade",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "92377619-1af0-4e60-9916-5735e06f41a6",
+        "action": "ADD",
+        "skuId": "112684",
+        "name": "Bingo Test A Gold 24 month 5GB",
+        "description": "Bingo Test plan A, Gold tier 24 month 5GB data",
+        "displayName": "Bingo Test A Gold 24 month 5GB",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": null,
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "24"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "MMS",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "picture messages",
+            "tilUom": "MMS"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK DATA",
+            "value": "5",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "5",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          }
+        ],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "benefits": [],
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "18",
+            "net": "15",
+            "vat": "3"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "18",
+            "net": "15",
+            "vat": "3"
+          },
+          "totalMonthlySavingsAmount": null,
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "includedCalls": null,
+        "noPriceRise": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "a15563a6-b36e-4850-a4f6-35f6d829efd7",
+          "action": "ADD",
+          "skuId": "204599",
+          "name": "Apple iPhone 11 Pro Max 64GB midnight green",
+          "description": "An all-new triple-camera, the fastest chip in a smartphone and a Super Retina XDR display. Upgrade to the best iPhone yet.",
+          "displayName": "Apple iPhone 11 Pro Max 64GB Midnight Green",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": "apple",
+          "model": "iphone-11-pro-max",
+          "groupType": null,
+          "productClass": "eHandset",
+          "productSubClass": "HANDSET",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.left",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-left.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.right",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-right.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-thumbs-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.left",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-left-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.right",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-right-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-side-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Apple_iPhone_11_max_midnight_green-full-product-back-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Apple_iPhone_11_max_new_midnight_green-grid-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": [],
+          "contractOptions": {
+            "duration": {
+              "uom": "MONTH",
+              "value": "24"
+            },
+            "upFrontPrice": 150,
+            "customerType": "Consumer"
+          },
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "1320",
+              "net": "1100",
+              "vat": "220"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "1320",
+              "net": "1100",
+              "vat": "220"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": {
+              "aprRepresentative": "0.0",
+              "duration": {
+                "uom": "MONTH",
+                "value": "24"
+              },
+              "interestRate": "0.0",
+              "description": "On a 24-month phone credit agreement",
+              "monthlyPrice": {
+                "uom": "£",
+                "gross": "48.75",
+                "net": "40.63",
+                "vat": "8.12"
+              },
+              "totalHandsetCredit": {
+                "uom": "£",
+                "gross": "1170.00",
+                "net": "975.00",
+                "vat": "195.00"
+              },
+              "totalHandsetPrice": {
+                "uom": "£",
+                "gross": "1320.00",
+                "net": "1100.00",
+                "vat": "220.00"
+              },
+              "upFrontPrice": {
+                "uom": "£",
+                "gross": "150.00",
+                "net": "125.00",
+                "vat": "25.00"
+              }
+            }
+          },
+          "boxPrice": {
+            "gross": "974.17",
+            "net": "811.81",
+            "vat": "162.36"
+          },
+          "freeGift": false,
+          "devicePromotion": "112686",
+          "simType": "HYBRID",
+          "isChanged": false,
+          "isCompatibleWithWatch": true
+        }
+      ],
+      "services": [
+        {
+          "packageLineId": "139361c7-2be3-4709-9b61-28f72bf35d79",
+          "action": "ADD",
+          "skuId": "110463",
+          "name": "Vodafone Insurance: Tier 1 Damage",
+          "description": null,
+          "displayName": "Damage and breakdown cover",
+          "displayDescription": null,
+          "specificationGroup": [
+            {
+              "name": "Worldwide cover (30 days)",
+              "value": "Yes",
+              "specPriority": "1",
+              "comparable": null,
+              "iskey": "false",
+              "valueType": "Boolean",
+              "valueUOM": null,
+              "footNote": null,
+              "description": null
+            },
+            {
+              "name": "Theft",
+              "value": "Yes",
+              "specPriority": "1",
+              "comparable": null,
+              "iskey": "false",
+              "valueType": "Boolean",
+              "valueUOM": null,
+              "footNote": null,
+              "description": null
+            },
+            {
+              "name": "Loss",
+              "value": "Yes",
+              "specPriority": "1",
+              "comparable": null,
+              "iskey": "false",
+              "valueType": "Boolean",
+              "valueUOM": null,
+              "footNote": null,
+              "description": null
+            },
+            {
+              "name": "Damage",
+              "value": "Yes",
+              "specPriority": "1",
+              "comparable": null,
+              "iskey": "false",
+              "valueType": "Boolean",
+              "valueUOM": null,
+              "footNote": null,
+              "description": null
+            },
+            {
+              "name": "Breakdown",
+              "value": "Yes",
+              "specPriority": "1",
+              "comparable": null,
+              "iskey": "false",
+              "valueType": "Boolean",
+              "valueUOM": null,
+              "footNote": null,
+              "description": null
+            },
+            {
+              "name": "Accessories cover (up to &pound;200)",
+              "value": "Yes",
+              "specPriority": "1",
+              "comparable": null,
+              "iskey": "false",
+              "valueType": "Boolean",
+              "valueUOM": null,
+              "footNote": null,
+              "description": null
+            },
+            {
+              "name": "3-month minimum term applies",
+              "value": "Yes",
+              "specPriority": "1",
+              "comparable": null,
+              "iskey": "false",
+              "valueType": "Boolean",
+              "valueUOM": null,
+              "footNote": null,
+              "description": null
+            }
+          ],
+          "merchandisingMedia": [],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": null,
+            "oneOffDiscountPrice": null,
+            "monthlyPrice": {
+              "gross": "8.50",
+              "net": "8.50",
+              "vat": "0"
+            },
+            "monthlyDiscountPrice": {
+              "gross": "8.50",
+              "net": "8.50",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null
+          },
+          "freeGift": false,
+          "productClass": "Insurance",
+          "dataRollover": null,
+          "rootProductId": null,
+          "allowances": [],
+          "rewardPoints": null,
+          "planDuration": null,
+          "isChanged": false
+        }
+      ],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "150",
+          "net": "125",
+          "vat": "25"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "150",
+          "net": "125",
+          "vat": "25"
+        },
+        "monthlyPrice": {
+          "gross": "75.25",
+          "net": "64.13",
+          "vat": "11.12"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "75.25",
+          "net": "64.13",
+          "vat": "11.12"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": null
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "lineReference": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": {
+            "serviceCode": null,
+            "installationCode": null,
+            "terminationCode": null
+          },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": null
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "serviceReference": {
+          "serviceLines": []
+        }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "BINGO",
+      "combiPackageId": null,
+      "confirmRequired": false,
+      "deviceFinancingId": null,
+      "additionalDetails": {},
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "150",
+      "net": "125",
+      "vat": "25"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "150",
+      "net": "125",
+      "vat": "25"
+    },
+    "monthlyPrice": {
+      "gross": "75.25",
+      "net": "64.13",
+      "vat": "11.12"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "75.25",
+      "net": "64.13",
+      "vat": "11.12"
+    },
+    "totalOneoffSaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "totalMonthlySaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": true,
+  "hashvalue": "1632430522",
+  "lastModified": "2020-12-14T12:50:03.383Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [
+    {
+      "packageLineId": "6e32e272-2a8c-4409-8b37-739ea9617035",
+      "bundleId": "110082",
+      "identifier": {
+        "key": "msisdn",
+        "value": "447000000013"
+      },
+      "assetIntegrationId": "1-73ASQ30",
+      "activeDiscounts": [
+        {
+          "discountId": "111116",
+          "offerId": null,
+          "qualifier": null
+        },
+        {
+          "discountId": "107427",
+          "offerId": null,
+          "qualifier": null
+        }
+      ],
+      "bundlePrice": {
+        "bundleId": "110082",
+        "monthlyPrice": {
+          "gross": "51.79",
+          "net": "43.16",
+          "vat": "8.63"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "51.79",
+          "net": "43.16",
+          "vat": "8.63"
+        },
+        "merchandisingPromotions": null
+      },
+      "planStartDate": null,
+      "isActiveSubscription": true
+    }
+  ],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": "ELIGIBLE",
+  "affiliateFlag": false,
+  "isChanged": false
+}

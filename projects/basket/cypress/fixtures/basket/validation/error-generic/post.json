@@ -1,0 +1,10 @@
+{
+  "errorCode": "BSKT_INVALID_INPUT_051",
+  "errorMessage": "Issue With Price Calculations.",
+  "referenceId": "cc691090-7cf5-49c8-b425-f22264d4edc1",
+  "validationDetails": null,
+  "__cacheMeta": {
+    "date": "06/01/2020 11:12:42",
+    "status": 400
+  }
+}

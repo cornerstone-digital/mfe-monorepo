@@ -1,0 +1,406 @@
+{
+  "basketId": "6f295b94-d9a8-4b27-bf70-fbf9bbc58ccc",
+  "affiliateId": "11",
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T09:45:00.000+02:00",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Upgrade",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "a2dba9c6-5513-4a33-8d22-51f32b6ac356",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Upgrade",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "76d27995-16e7-41f7-a44c-b64e6f220361",
+        "action": "ADD",
+        "skuId": "111193",
+        "name": "24mth Band O Unlmins 16GB Red Extra Plan",
+        "description": "CTR14b Red Extra Plan comes with unlimited mins, unlimited texts and 16GB of UK data",
+        "displayName": "16GB Red Extra plan",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "Red Extra",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "24"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK DATA",
+            "value": "16",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "16",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          }
+        ],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "benefits": [],
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "70",
+            "net": "58.33",
+            "vat": "11.67"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "70",
+            "net": "58.33",
+            "vat": "11.67"
+          },
+          "totalMonthlySavingsAmount": null,
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "includedCalls": null,
+        "noPriceRise": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "340e702a-05a5-4346-8e71-5b81536c0073",
+          "action": "ADD",
+          "skuId": "095494",
+          "name": "Apple iPhone XS 256GB gold",
+          "description": "5.8-inch Super Retina display. Advanced Face ID. The smartest, most powerful chip\nin a smartphone. And a dual-camera system.",
+          "displayName": "Apple iPhone XS 256GB Gold",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": "Gold",
+          "memorySize": "256 GB",
+          "make": "apple",
+          "model": "iphone-xs",
+          "groupType": "DEVICE_PAYM",
+          "productClass": "Handset",
+          "productSubClass": null,
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Apple_Iphone_xs_gold-thumbs-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.left",
+              "value": "/images/desktop/Apple_Iphone_xs_gold-thumbs-left.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Apple_Iphone_xs_gold-thumbs-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Apple_Iphone_xs_gold-thumbs-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Apple_Iphone_xs_gold-full-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Apple_Iphone_xs_gold-full-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.left",
+              "value": "/images/desktop/Apple_Iphone_xs_gold-full-product-left.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Apple_Iphone_xs_gold-full-product-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Apple_Iphone_xs_gold-full-product-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Apple_Iphone_xs_gold-grid-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": null,
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "99",
+              "net": "82.50",
+              "vat": "16.50"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "99",
+              "net": "82.50",
+              "vat": "16.50"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "1092.96",
+            "net": "910.80",
+            "vat": "182.16"
+          },
+          "freeGift": false,
+          "devicePromotion": null,
+          "simType": "PHYSICAL",
+          "isChanged": false,
+          "isCompatibleWithWatch": false
+        }
+      ],
+      "services": [
+        {
+          "packageLineId": "48069aca-8dfa-4d38-94e1-ffc023123934",
+          "action": "ADD",
+          "skuId": "110469",
+          "name": "Vodafone Insurance + AppleCare Services: Tier 1 Loss Theft and Damage",
+          "description": null,
+          "displayName": "Loss, theft, damage and breakdown cover plus AppleCare Services",
+          "displayDescription": null,
+          "specificationGroup": [
+            {
+              "name": "Worldwide cover (30 days)",
+              "value": "Yes",
+              "specPriority": "1",
+              "comparable": null,
+              "iskey": "false",
+              "valueType": "Boolean",
+              "valueUOM": null,
+              "footNote": null,
+              "description": null
+            },
+            {
+              "name": "Damage",
+              "value": "Yes",
+              "specPriority": "1",
+              "comparable": null,
+              "iskey": "false",
+              "valueType": "Boolean",
+              "valueUOM": null,
+              "footNote": null,
+              "description": null
+            },
+            {
+              "name": "Breakdown",
+              "value": "Yes",
+              "specPriority": "1",
+              "comparable": null,
+              "iskey": "false",
+              "valueType": "Boolean",
+              "valueUOM": null,
+              "footNote": null,
+              "description": null
+            },
+            {
+              "name": "Accessories cover (up to &pound;200)",
+              "value": "Yes",
+              "specPriority": "1",
+              "comparable": null,
+              "iskey": "false",
+              "valueType": "Boolean",
+              "valueUOM": null,
+              "footNote": null,
+              "description": null
+            },
+            {
+              "name": "3-month minimum term applies",
+              "value": "Yes",
+              "specPriority": "1",
+              "comparable": null,
+              "iskey": "false",
+              "valueType": "Boolean",
+              "valueUOM": null,
+              "footNote": null,
+              "description": null
+            }
+          ],
+          "merchandisingMedia": [],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": null,
+            "oneOffDiscountPrice": null,
+            "monthlyPrice": {
+              "gross": "15",
+              "net": "15",
+              "vat": "0"
+            },
+            "monthlyDiscountPrice": {
+              "gross": "15",
+              "net": "15",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null
+          },
+          "freeGift": false,
+          "productClass": "Insurance",
+          "dataRollover": null,
+          "rootProductId": "110469",
+          "allowances": [],
+          "rewardPoints": null,
+          "planDuration": null,
+          "isChanged": false
+        }
+      ],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "99",
+          "net": "82.50",
+          "vat": "16.50"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "99",
+          "net": "82.50",
+          "vat": "16.50"
+        },
+        "monthlyPrice": {
+          "gross": "85",
+          "net": "73.33",
+          "vat": "11.67"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "85",
+          "net": "73.33",
+          "vat": "11.67"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": null,
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "HANDSET",
+      "combiPackageId": null,
+      "confirmRequired": false,
+      "deviceFinancingId": null,
+      "additionalDetails": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "99",
+      "net": "82.50",
+      "vat": "16.50"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "99",
+      "net": "82.50",
+      "vat": "16.50"
+    },
+    "monthlyPrice": {
+      "gross": "85",
+      "net": "73.33",
+      "vat": "11.67"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "85",
+      "net": "73.33",
+      "vat": "11.67"
+    }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": true,
+  "hashvalue": "2027702184",
+  "lastModified": null,
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

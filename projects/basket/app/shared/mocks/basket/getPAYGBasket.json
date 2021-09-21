@@ -1,0 +1,347 @@
+{
+  "basketId": "78909d7a-28b6-40a6-86ec-8be31b6e271e",
+  "affiliateId": "11",
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T09:45:00.000+02:00",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "0a953299-a9c3-45fe-8b50-76fd02e094d1",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "ff0815a1-a1db-4159-b2d6-4adb9c4c1a02",
+        "action": "ADD",
+        "skuId": "111313",
+        "name": "PAYG Phone and SIM Package",
+        "description": "PAYG Phone and SIM Package",
+        "displayName": "PAYG Phone and SIM Package",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "100000",
+        "paymentType": "Prepaid",
+        "bundleType": null,
+        "commitmentPeriod": {
+          "uom": "Years",
+          "value": "1"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": false,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "d8f1c3fc-40ee-47b5-ba38-461d2b2ea32b",
+          "action": "ADD",
+          "skuId": "095444",
+          "name": "Apple iPhone XS 64GB silver PAYG",
+          "description": "5.8-inch Super Retina display. Advanced Face ID. The smartest, most powerful chip\nin a smartphone. And a dual-camera system.",
+          "displayName": "Apple iPhone XS 64GB Silver",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": "Silver",
+          "memorySize": "64 GB",
+          "make": "apple",
+          "model": "iphone-xs",
+          "groupType": null,
+          "productClass": "Handset",
+          "productSubClass": "Handset",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Apple_Iphone_xs_silver-thumbs-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.left",
+              "value": "/images/desktop/Apple_Iphone_xs_silver-thumbs-left.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Apple_Iphone_xs_silver-thumbs-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Apple_Iphone_xs_silver-thumbs-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Apple_Iphone_xs_silver-full-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Apple_Iphone_xs_silver-full-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.left",
+              "value": "/images/desktop/Apple_Iphone_xs_silver-full-product-left.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Apple_Iphone_xs_silver-full-product-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Apple_Iphone_xs_silver-full-product-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Apple_Iphone_xs_silver-grid-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": null,
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "999",
+              "net": "832.50",
+              "vat": "166.50"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "999",
+              "net": "832.50",
+              "vat": "166.50"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": [
+              {
+                "apr": "0.0",
+                "selected": false,
+                "deviceFinancingId": "SNLADSADLJ",
+                "financeProvider": "PayPal",
+                "financeTerm": "30",
+                "monthlyPrice": {
+                  "gross": "33.30",
+                  "net": "27.75",
+                  "vat": "5.55"
+                },
+                "totalPriceWithInterest": {
+                  "gross": "999",
+                  "net": "832.50",
+                  "vat": "166.50"
+                }
+              }
+            ],
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "942.0",
+            "net": "785.0",
+            "vat": "157.0"
+          },
+          "freeGift": false,
+          "isChanged": false
+        },
+        {
+          "packageLineId": "16b21268-1fd9-47a8-b3de-9b68265f893f",
+          "action": "ADD",
+          "skuId": "086532",
+          "name": "Blank White Triple Format SIM",
+          "description": null,
+          "displayName": "3-in-1 SIM",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "SIM Card",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "0.0",
+            "net": "0.0",
+            "vat": "0.0"
+          },
+          "freeGift": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "999",
+          "net": "832.50",
+          "vat": "166.50"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "999",
+          "net": "832.50",
+          "vat": "166.50"
+        },
+        "monthlyPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "financingOptions": [
+          {
+            "apr": "0.0",
+            "selected": false,
+            "deviceFinancingId": "SNLADSADLJ",
+            "financeProvider": "PayPal",
+            "financeTerm": "30",
+            "monthlyPrice": {
+              "gross": "33.30",
+              "net": "27.75",
+              "vat": "5.55"
+            },
+            "totalPriceWithInterest": {
+              "gross": "999",
+              "net": "832.50",
+              "vat": "166.50"
+            }
+          }
+        ]
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": null,
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "HANDSET",
+      "combiPackageId": null,
+      "deviceFinancingId": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "999",
+      "net": "832.50",
+      "vat": "166.50"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "999",
+      "net": "832.50",
+      "vat": "166.50"
+    },
+    "monthlyPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": true,
+  "hashvalue": "1853503627",
+  "lastModified": null,
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "affiliateFlag": false,
+  "isChanged": false
+}

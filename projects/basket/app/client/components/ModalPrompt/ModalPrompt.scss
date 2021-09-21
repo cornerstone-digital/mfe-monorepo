@@ -1,0 +1,14 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: $color-mine-shaft;
+}
+
+.icon-label {
+  text-decoration: underline;
+  margin-left: $spacing-fixed-1;
+  font-size: 18px;
+}

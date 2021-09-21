@@ -1,0 +1,6 @@
+{
+  "errorCode": "BSKT_INVALID_INPUT_042",
+  "errorMessage": "You can't buy more than 5 Business pay monthly packages.",
+  "referenceId": "4f77bf13-ee82-4fac-a6fc-9cb0f4443eea",
+  "validationDetails": null
+}

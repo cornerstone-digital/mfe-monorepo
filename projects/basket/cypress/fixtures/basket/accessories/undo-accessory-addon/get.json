@@ -1,0 +1,622 @@
+{
+  "basketId": "64cdef57-3ef7-4801-9faf-dd730f3edeeb",
+  "affiliateId": null,
+  "source": "ESHOP",
+  "customerRequestedDate": "2020-09-30T11:08:21.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [{
+    "packageId": "3ed26db8-4685-4dec-b4c7-2d192123029f",
+    "accountCategory": "consumer",
+    "sequence": 1,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "c3e174e2-371b-4da6-bcff-20a4380db5eb",
+      "action": "ADD",
+      "skuId": "111313",
+      "name": "PAYG Phone and SIM Package",
+      "description": "PAYG Phone and SIM Package",
+      "displayName": "PAYG Phone and SIM Package",
+      "displayDescription": null,
+      "bundleClass": "HANDSET",
+      "productClass": null,
+      "serviceId": "100000",
+      "paymentType": "Prepaid",
+      "bundleType": null,
+      "commitmentPeriod": {
+        "uom": "Years",
+        "value": "1"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": null,
+      "merchandisingMedia": [],
+      "attributes": null,
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "totalSavingsAmount": null,
+        "merchandisingPromotions": null,
+        "listOfMerchandisingPromotion": [],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": false,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+        "packageLineId": "3f771693-6bbb-41e3-abc5-94484c5d8694",
+        "action": "ADD",
+        "skuId": "088417",
+        "name": "Apple iPhone 7 32GB black PAYG",
+        "description": "A bright, colourful display, advanced camera systems and splash and water resistance - this is iPhone 7.",
+        "displayName": "Apple iPhone 7 32GB Black",
+        "displayDescription": null,
+        "deviceBriefDescription": [{
+            "key": "USP3",
+            "value": "Premium Design",
+            "type": null,
+            "valueUOM": null
+          },
+          {
+            "key": "USP1",
+            "value": "4G Ready",
+            "type": null,
+            "valueUOM": null
+          },
+          {
+            "key": "USP4",
+            "value": "Ultra Power Saving Mode",
+            "type": null,
+            "valueUOM": null
+          },
+          {
+            "key": "USP2",
+            "value": "Seamless Performance",
+            "type": null,
+            "valueUOM": null
+          }
+        ],
+        "deviceColor": "Black",
+        "memorySize": "32 GB",
+        "make": "apple",
+        "model": "iphone-7",
+        "groupType": null,
+        "productClass": "Handset",
+        "productSubClass": "HANDSET",
+        "displayOrder": null,
+        "showInSummary": false,
+        "merchandisingMedia": [{
+            "id": "imageURLs.full.side",
+            "value": "/images/desktop/Apple_iPhone_7_Matte_Black_WS2-full-product-side.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.thumbs.front",
+            "value": "/images/desktop/Apple_iPhone_7_Matt_Black-thumbs-front.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.full.front",
+            "value": "/images/desktop/Apple_iPhone_7_Matte_Black_WS2-full-product-front.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.full.hero",
+            "value": "/images/desktop/Apple_iPhone_7_Matte_Black_WS2-full-product-front.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.thumbs.side",
+            "value": "/images/desktop/Apple_iPhone_7_Matt_Black-thumbs-side.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.full.back",
+            "value": "/images/desktop/Apple_iPhone_7_Matte_Black_WS2-full-product-back.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.grid",
+            "value": "/images/desktop/Apple_iPhone_7_Matte_Black_WS2-grid-product-front.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.thumbs.back",
+            "value": "/images/desktop/Apple_iPhone_7_Matt_Black-thumbs-back.png",
+            "type": "URL",
+            "footNotes": [""]
+          }
+        ],
+        "attributes": [],
+        "contractOptions": null,
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "299",
+            "net": "249.17",
+            "vat": "49.83"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "299",
+            "net": "249.17",
+            "vat": "49.83"
+          },
+          "merchandisingPromotions": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "financingOptions": [{
+            "apr": "0.0",
+            "selected": false,
+            "deviceFinancingId": "SNLADSADLJ",
+            "financeProvider": "PayPal",
+            "financeTerm": "30",
+            "monthlyPrice": {
+              "gross": "9.97",
+              "net": "8.31",
+              "vat": "1.66"
+            },
+            "totalPriceWithInterest": {
+              "gross": "299.00",
+              "net": "249.17",
+              "vat": "49.83"
+            }
+          }],
+          "deviceFinancingId": null,
+          "devicePaymentPlan": null
+        },
+        "boxPrice": {
+          "gross": "284.17",
+          "net": "236.81",
+          "vat": "47.36"
+        },
+        "freeGift": false,
+        "devicePromotion": null,
+        "simType": "PHYSICAL",
+        "isChanged": false,
+        "isCompatibleWithWatch": true
+      },
+      {
+        "packageLineId": "86e0ca3f-6c23-427a-b6a3-4b645fa62412",
+        "action": "ADD",
+        "skuId": "202401",
+        "name": "Otterbox Symmetery Case for Apple iPhone 6 6S 7 8 SE 2020 clear",
+        "description": "Featuring an ultra-slim profile and a protective screen bumper, the OtterBox Symmetry Series case for iPhone 8 and 7 proves that thin can also be tough.",
+        "displayName": "OtterBox Symmetry Case for Apple iPhone 6/6S/7/8/SE Clear",
+        "displayDescription": null,
+        "deviceBriefDescription": [],
+        "deviceColor": null,
+        "memorySize": null,
+        "make": "otterbox",
+        "model": "symmetry-case-apple-iPhone",
+        "groupType": null,
+        "productClass": "Accessories",
+        "productSubClass": null,
+        "displayOrder": null,
+        "showInSummary": false,
+        "merchandisingMedia": [{
+            "id": "imageURLs.full.front",
+            "value": "/images/desktop/accessory_sku202401_clear-full-product-front-600.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.grid",
+            "value": "/images/desktop/accessory_sku202401_clear-grid-product-front.png",
+            "type": "URL",
+            "footNotes": [""]
+          },
+          {
+            "id": "imageURLs.thumbs.front",
+            "value": "/images/desktop/accessory_sku202401_clear-thumbs-front.png",
+            "type": "URL",
+            "footNotes": [""]
+          }
+        ],
+        "attributes": [],
+        "contractOptions": null,
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "30",
+            "net": "25",
+            "vat": "5"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "30",
+            "net": "25",
+            "vat": "5"
+          },
+          "merchandisingPromotions": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "financingOptions": [{
+            "apr": "0.0",
+            "selected": false,
+            "deviceFinancingId": "SNLADSADLJ",
+            "financeProvider": "PayPal",
+            "financeTerm": "30",
+            "monthlyPrice": {
+              "gross": "1.00",
+              "net": "0.83",
+              "vat": "0.17"
+            },
+            "totalPriceWithInterest": {
+              "gross": "30.00",
+              "net": "25.00",
+              "vat": "5.00"
+            }
+          }],
+          "deviceFinancingId": null,
+          "devicePaymentPlan": null
+        },
+        "boxPrice": {
+          "gross": "13.19",
+          "net": "10.99",
+          "vat": "2.20"
+        },
+        "freeGift": false,
+        "devicePromotion": null,
+        "simType": "PHYSICAL",
+        "isChanged": false,
+        "isCompatibleWithWatch": false
+      },
+      {
+        "packageLineId": "a49a7788-0292-4992-9e57-99f0bf262e26",
+        "action": "ADD",
+        "skuId": "091960",
+        "name": "Apple Lightning to 3.5 mm Headphone Jack Adapter white",
+        "description": null,
+        "displayName": "Apple Lightning to 3.5 mm Jack",
+        "displayDescription": null,
+        "deviceBriefDescription": [],
+        "deviceColor": null,
+        "memorySize": null,
+        "make": null,
+        "model": null,
+        "groupType": null,
+        "productClass": "Accessories",
+        "productSubClass": null,
+        "displayOrder": null,
+        "showInSummary": false,
+        "merchandisingMedia": [],
+        "attributes": [],
+        "contractOptions": null,
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "10",
+            "net": "8.33",
+            "vat": "1.67"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "10",
+            "net": "8.33",
+            "vat": "1.67"
+          },
+          "merchandisingPromotions": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "financingOptions": [{
+            "apr": "0.0",
+            "selected": false,
+            "deviceFinancingId": "SNLADSADLJ",
+            "financeProvider": "PayPal",
+            "financeTerm": "30",
+            "monthlyPrice": {
+              "gross": "0.33",
+              "net": "0.28",
+              "vat": "0.05"
+            },
+            "totalPriceWithInterest": {
+              "gross": "10.00",
+              "net": "8.33",
+              "vat": "1.67"
+            }
+          }],
+          "deviceFinancingId": null,
+          "devicePaymentPlan": null
+        },
+        "boxPrice": {
+          "gross": "6.80",
+          "net": "5.67",
+          "vat": "1.13"
+        },
+        "freeGift": false,
+        "devicePromotion": null,
+        "simType": "PHYSICAL",
+        "isChanged": false,
+        "isCompatibleWithWatch": false
+      },
+      {
+        "packageLineId": "8484019a-e592-4771-a639-24a31270a52e",
+        "action": "ADD",
+        "skuId": "086532",
+        "name": "Blank White Triple Format SIM",
+        "description": null,
+        "displayName": "3-in-1 SIM",
+        "displayDescription": null,
+        "deviceBriefDescription": [],
+        "deviceColor": null,
+        "memorySize": null,
+        "make": null,
+        "model": null,
+        "groupType": null,
+        "productClass": "SIM Card",
+        "productSubClass": "Core",
+        "displayOrder": null,
+        "showInSummary": false,
+        "merchandisingMedia": [],
+        "attributes": [],
+        "contractOptions": null,
+        "priceDetails": {
+          "oneOffPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "oneOffDiscountPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+          },
+          "merchandisingPromotions": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "financingOptions": [],
+          "deviceFinancingId": null,
+          "devicePaymentPlan": null
+        },
+        "boxPrice": {
+          "gross": "0.0",
+          "net": "0.0",
+          "vat": "0.0"
+        },
+        "freeGift": false,
+        "devicePromotion": null,
+        "simType": "PHYSICAL",
+        "isChanged": false,
+        "isCompatibleWithWatch": false
+      }
+    ],
+    "services": [{
+      "packageLineId": "a3a3c22b-40e6-4d04-baba-dc1618493b01",
+      "action": "ADD",
+      "skuId": "106528",
+      "name": "Big Value Bundle 20GBP",
+      "description": null,
+      "displayName": "£20 Big Value Bundle",
+      "displayDescription": null,
+      "specificationGroup": [],
+      "merchandisingMedia": [],
+      "attributes": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "20",
+          "net": "16.67",
+          "vat": "3.33"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "20",
+          "net": "16.67",
+          "vat": "3.33"
+        },
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "merchandisingPromotions": null
+      },
+      "freeGift": false,
+      "productClass": "Recurring Freedom Freebees",
+      "dataRollover": "true",
+      "rootProductId": "100000",
+      "allowances": [{
+          "type": "UK TEXT",
+          "value": "Unlimited",
+          "uom": "-",
+          "displayUom": null,
+          "tilUom": null
+        },
+        {
+          "type": "UK MIN",
+          "value": "1000",
+          "uom": "-",
+          "displayUom": null,
+          "tilUom": null
+        },
+        {
+          "type": "UK DATA",
+          "value": "10",
+          "uom": "GB",
+          "displayUom": null,
+          "tilUom": null
+        }
+      ],
+      "rewardPoints": null,
+      "planDuration": null,
+      "isChanged": false
+    }],
+    "discounts": [],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "359",
+        "net": "299.17",
+        "vat": "59.83"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "359",
+        "net": "299.17",
+        "vat": "59.83"
+      },
+      "monthlyPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "financingOptions": [{
+        "apr": "0.0",
+        "selected": false,
+        "deviceFinancingId": "SNLADSADLJ",
+        "financeProvider": "PayPal",
+        "financeTerm": "30",
+        "monthlyPrice": {
+          "gross": "11.30",
+          "net": "9.42",
+          "vat": "1.88"
+        },
+        "totalPriceWithInterest": {
+          "gross": "339.00",
+          "net": "282.50",
+          "vat": "56.50"
+        }
+      }]
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "HANDSET",
+    "combiPackageId": null,
+    "confirmRequired": false,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "isChanged": false
+  }],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "359",
+      "net": "299.17",
+      "vat": "59.83"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "359",
+      "net": "299.17",
+      "vat": "59.83"
+    },
+    "monthlyPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "-558677416",
+  "lastModified": "2020-09-30T11:08:47.193Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

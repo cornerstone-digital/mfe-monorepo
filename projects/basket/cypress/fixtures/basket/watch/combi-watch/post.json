@@ -1,0 +1,147 @@
+{
+    "packageLineId": "61f70867-090d-4c72-94a9-73b3d313b08d",
+    "action": "ADD",
+    "skuId": "202142",
+    "name": "Apple Watch SE 44mm Space Grey Aluminium Case with Charcoal Sport Loop",
+    "description": "Apple Watch SE combines the largest Apple Watch display and most essential features, for a lot less than you expected.",
+    "displayName": "Apple Watch SE (GPS+4G) Cellular 44mm Aluminium Space Grey",
+    "displayDescription": null,
+    "deviceBriefDescription": [],
+    "deviceColor": null,
+    "memorySize": null,
+    "make": "apple",
+    "model": "watch-se-44mm",
+    "groupType": null,
+    "productClass": "eHandset",
+    "productSubClass": "WATCH",
+    "displayOrder": null,
+    "showInSummary": false,
+    "merchandisingMedia": [
+        {
+            "id": "imageURLs.thumbs.back",
+            "value": "/images/desktop/Apple_WatchSE_44_v1_space_grey-thumbs-back.png",
+            "type": "URL",
+            "footNotes": [
+                ""
+            ]
+        },
+        {
+            "id": "imageURLs.full.right",
+            "value": "/images/desktop/Apple_WatchSE_44_space_grey-full-product-right-600.png",
+            "type": "URL",
+            "footNotes": [
+                ""
+            ]
+        },
+        {
+            "id": "imageURLs.full.front",
+            "value": "/images/desktop/Apple_WatchSE_44_space_grey-full-product-front-600.png",
+            "type": "URL",
+            "footNotes": [
+                ""
+            ]
+        },
+        {
+            "id": "imageURLs.full.left",
+            "value": "/images/desktop/Apple_WatchSE_44_space_grey-full-product-left-600.png",
+            "type": "URL",
+            "footNotes": [
+                ""
+            ]
+        },
+        {
+            "id": "imageURLs.full.back",
+            "value": "/images/desktop/Apple_WatchSE_44_v1_space_grey-full-product-back-600.png",
+            "type": "URL",
+            "footNotes": [
+                ""
+            ]
+        },
+        {
+            "id": "imageURLs.grid",
+            "value": "/images/desktop/Apple_WatchSE_44_space_grey-grid-product-front.png",
+            "type": "URL",
+            "footNotes": [
+                ""
+            ]
+        },
+        {
+            "id": "imageURLs.thumbs.side",
+            "value": "/images/desktop/Apple_WatchSE_44_space_grey-thumbs-side.png",
+            "type": "URL",
+            "footNotes": [
+                ""
+            ]
+        },
+        {
+            "id": "imageURLs.thumbs.front",
+            "value": "/images/desktop/Apple_WatchSE_44_space_grey-thumbs-front.png",
+            "type": "URL",
+            "footNotes": [
+                ""
+            ]
+        },
+        {
+            "id": "imageURLs.thumbs.right",
+            "value": "/images/desktop/Apple_WatchSE_44_space_grey-thumbs-right.png",
+            "type": "URL",
+            "footNotes": [
+                ""
+            ]
+        },
+        {
+            "id": "imageURLs.full.side",
+            "value": "/images/desktop/Apple_WatchSE_44_space_grey-full-product-side-600.png",
+            "type": "URL",
+            "footNotes": [
+                ""
+            ]
+        },
+        {
+            "id": "imageURLs.thumbs.left",
+            "value": "/images/desktop/Apple_WatchSE_44_space_grey-thumbs-left.png",
+            "type": "URL",
+            "footNotes": [
+                ""
+            ]
+        },
+        {
+            "id": "imageURLs.full.hero",
+            "value": "/images/desktop/Apple_WatchSE_44_space_grey-full-product-front-600.png",
+            "type": "URL",
+            "footNotes": [
+                ""
+            ]
+        }
+    ],
+    "attributes": [],
+    "contractOptions": null,
+    "priceDetails": {
+        "oneOffPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+            "gross": "0",
+            "net": "0",
+            "vat": "0"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+    },
+    "boxPrice": {
+        "gross": "319.20",
+        "net": "266.0",
+        "vat": "53.20"
+    },
+    "freeGift": false,
+    "devicePromotion": "112863",
+    "simType": "ESIMONLY",
+    "isChanged": false,
+    "isCompatibleWithWatch": false
+}

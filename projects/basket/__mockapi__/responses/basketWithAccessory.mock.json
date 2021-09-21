@@ -1,0 +1,1229 @@
+{
+  "basketId": "b6b70962-36f2-4725-ba81-da6bd9ca59ba",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2021-03-18T04:33:07.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [{
+    "packageId": "b7e0620b-7179-4505-822e-b87f6fa431ba",
+    "accountCategory": "consumer",
+    "sequence": 7,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "12c557a6-5394-48a7-96b4-65a447f24ffe",
+      "action": "ADD",
+      "skuId": "113330",
+      "name": "24month Band A 100GB Red Plan",
+      "description": "CTR17 Red Plan with unlimited mins unlimited texts and 100GB data",
+      "displayName": "Red 100GB",
+      "displayDescription": null,
+      "bundleClass": "HANDSET",
+      "productClass": null,
+      "serviceId": "110286",
+      "paymentType": "Postpaid",
+      "bundleType": "red51",
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "24"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": [{
+        "type": "UK TEXT",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "texts",
+        "tilUom": "SMS"
+      }, {
+        "type": "UK DATA",
+        "value": "100",
+        "uom": "GB",
+        "displayUom": "GB",
+        "tilUom": "DATA"
+      }, {
+        "type": "UK MIN",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "minutes",
+        "tilUom": "VOICE"
+      }, {
+        "type": "World Traveller",
+        "value": "Vodafone Global Roaming",
+        "uom": null,
+        "displayUom": null,
+        "tilUom": null
+      }, {
+        "type": "ORIGDATA",
+        "value": "100",
+        "uom": "GB",
+        "displayUom": "GB",
+        "tilUom": "DATA"
+      }],
+      "merchandisingMedia": [{
+        "id": "conditional_full_discount.merchandisingPromotions.merchandisingPromotion.description",
+        "value": "Save £561: £360 (£15pm) Trade-in Guarantee + extra £201 saving",
+        "type": "TEXT",
+        "footNotes": ["SAMSUNGS21ULTRATRADEIN561"]
+      }, {
+        "id": "conditional_full_discount.merchandisingPromotions.merchandisingPromotion.label",
+        "value": "Save £561: £360 (£15pm) Trade-in Guarantee + extra £201 saving",
+        "type": "TEXT",
+        "footNotes": ["SAMSUNGS21ULTRATRADEIN561"]
+      }, {
+        "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+        "value": "3-month free trial of Secure Net",
+        "type": "TEXT",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.sticker",
+        "value": "/images/desktop/5g_badge_digital.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": null,
+      "benefits": [],
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "67",
+          "net": "55.83",
+          "vat": "11.17"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "52",
+          "net": "43.33",
+          "vat": "8.67"
+        },
+        "totalMonthlySavingsAmount": {
+          "uom": "£",
+          "net": 12.5,
+          "vat": 2.5,
+          "gross": 15
+        },
+        "merchandisingPromotions": {
+          "tag": "SamsungS21Ultra.BuyNow.TradeIn.Save561",
+          "label": "Save £561: £360 (£15pm) Trade-in Guarantee + extra £201 saving",
+          "description": "Save £561: £360 (£15pm) Trade-in Guarantee + extra £201 saving - Watch Plan",
+          "discountId": "112026",
+          "mpType": "conditional_full_discount",
+          "priceEstablishedLabel": null,
+          "priority": "1288",
+          "packageType": ["Acquisition", "Upgrade"],
+          "footNotes": ["SAMSUNGS21ULTRATRADEIN561"],
+          "confirmRequired": true,
+          "offerGroup": "trade-in",
+          "belowTheLine": "false",
+          "qualifier": null,
+          "category": null
+        },
+        "listOfMerchandisingPromotion": [{
+          "tag": "SamsungS21Ultra.BuyNow.TradeIn.Save561",
+          "label": "Save £561: £360 (£15pm) Trade-in Guarantee + extra £201 saving",
+          "description": "Save £561: £360 (£15pm) Trade-in Guarantee + extra £201 saving - Watch Plan",
+          "discountId": "112026",
+          "mpType": "conditional_full_discount",
+          "priceEstablishedLabel": null,
+          "priority": "1288",
+          "packageType": ["Acquisition", "Upgrade"],
+          "footNotes": ["SAMSUNGS21ULTRATRADEIN561"],
+          "confirmRequired": true,
+          "offerGroup": "trade-in",
+          "belowTheLine": "false",
+          "qualifier": null,
+          "category": null
+        }],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": true,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "includedCalls": null,
+      "noPriceRise": null,
+      "wifiExpert": null,
+      "broadbandAntiVirus": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+      "packageLineId": "25a1f50b-43c1-4a8e-8966-bcd7c08d713d",
+      "action": "ADD",
+      "skuId": "213320",
+      "name": "Samsung S21 Ultra 5G black 128GB",
+      "description": "Samsung Galaxy S21 Ultra 5G captures life's moments perfectly with next generation cameras and cutting edge innovations.",
+      "displayName": "Samsung Galaxy S21 Ultra 5G 128GB Phantom Black",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": "samsung",
+      "model": "galaxy-s21-ultra-5g",
+      "groupType": "DEVICE_PAYM",
+      "productClass": "eHandset",
+      "productSubClass": "HANDSET",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.sticker",
+        "value": "/images/small/5G_logo.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.right",
+        "value": "/images/desktop/Samsung_Galaxy_S21_Ultra_5G_phantom_black-thumbs-right.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.left",
+        "value": "/images/desktop/Samsung_Galaxy_S21_Ultra_5G_phantom_black-thumbs-left.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.side",
+        "value": "/images/desktop/Samsung_Galaxy_S21_Ultra_5G_phantom_black-full-product-side-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.left",
+        "value": "/images/desktop/Samsung_Galaxy_S21_Ultra_5G_phantom_black-full-product-left-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.back",
+        "value": "/images/desktop/Samsung_Galaxy_S21_Ultra_5G_phantom_black-full-product-back-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/Samsung_Galaxy_S21_Ultra_5G_phantom_black-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/Samsung_Galaxy_S21_Ultra_5G_phantom_black-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.right",
+        "value": "/images/desktop/Samsung_Galaxy_S21_Ultra_5G_phantom_black-full-product-right-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/Samsung_Galaxy_S21_Ultra_5G_phantom_black-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.side",
+        "value": "/images/desktop/Samsung_Galaxy_S21_Ultra_5G_phantom_black-thumbs-side.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.back",
+        "value": "/images/desktop/Samsung_Galaxy_S21_Ultra_5G_phantom_black-thumbs-back.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/Samsung_Galaxy_S21_Ultra_5G_phantom_black-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "19",
+          "net": "15.83",
+          "vat": "3.17"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "19",
+          "net": "15.83",
+          "vat": "3.17"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "918.0",
+        "net": "765.0",
+        "vat": "153.0"
+      },
+      "freeGift": false,
+      "devicePromotion": "112686",
+      "simType": "HYBRID",
+      "isChanged": false,
+      "isCompatibleWithWatch": true
+    }, {
+      "packageLineId": "d90a7375-7c23-4199-9600-d58dd2418fce",
+      "action": "ADD",
+      "skuId": "086532",
+      "name": "Blank White Triple Format SIM",
+      "description": null,
+      "displayName": "3-in-1 SIM",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": null,
+      "model": null,
+      "groupType": null,
+      "productClass": "SIM Card",
+      "productSubClass": "Core",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "0.0",
+        "net": "0.0",
+        "vat": "0.0"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }],
+    "services": [{
+      "packageLineId": "05e9c790-4bc7-4b91-9c4b-b4ad5bac25bc",
+      "action": "ADD",
+      "skuId": "104006",
+      "name": "Extra - 100 international texts abroad from the UK",
+      "description": "We'll add the cost to your bill every month, and you can opt out at any time.",
+      "displayName": "100 International Texts",
+      "displayDescription": null,
+      "specificationGroup": [],
+      "merchandisingMedia": [{
+        "id": "imageURLs.full.hero",
+        "value": "https://www.vodafone.co.uk/broadband/120x120-mobile300-icon.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "priceDetails": {
+        "oneOffPrice": null,
+        "oneOffDiscountPrice": null,
+        "monthlyPrice": {
+          "gross": "5",
+          "net": "4.17",
+          "vat": "0.83"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "5",
+          "net": "4.17",
+          "vat": "0.83"
+        },
+        "merchandisingPromotions": null
+      },
+      "freeGift": false,
+      "productClass": "International Messaging Add On",
+      "dataRollover": null,
+      "rootProductId": "110286",
+      "allowances": [{
+        "type": "UK TEXT",
+        "value": "100",
+        "uom": "-",
+        "displayUom": null,
+        "tilUom": null
+      }],
+      "rewardPoints": null,
+      "planDuration": null,
+      "isChanged": false
+    }, {
+      "packageLineId": "3e2b76f7-5dc4-48fe-90c1-b8448f09b683",
+      "action": "ADD",
+      "skuId": "110463",
+      "name": "Vodafone Insurance: Tier 1 Damage",
+      "description": null,
+      "displayName": "Damage and breakdown cover",
+      "displayDescription": null,
+      "specificationGroup": [],
+      "merchandisingMedia": [],
+      "attributes": [],
+      "priceDetails": {
+        "oneOffPrice": null,
+        "oneOffDiscountPrice": null,
+        "monthlyPrice": {
+          "gross": "8.50",
+          "net": "8.50",
+          "vat": "0"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "8.50",
+          "net": "8.50",
+          "vat": "0"
+        },
+        "merchandisingPromotions": null
+      },
+      "freeGift": false,
+      "productClass": "Insurance",
+      "dataRollover": null,
+      "rootProductId": "110463",
+      "allowances": null,
+      "rewardPoints": null,
+      "planDuration": null,
+      "isChanged": false
+    }],
+    "discounts": [{
+      "productLineId": "ba77354e-1178-4766-b4ca-184bf9d6b4c5",
+      "action": "DISCOUNT",
+      "skuId": "112026",
+      "tag": "SamsungS21Ultra.BuyNow.TradeIn.Save561",
+      "label": "Save £561: £360 (£15pm) Trade-in Guarantee + extra £201 saving",
+      "tenure": "FULL",
+      "duration": "27 Months",
+      "confirmedRequired": "true",
+      "merchandisingMedia": [],
+      "discountValue": {
+        "type": "GBP",
+        "value": "12.5"
+      }
+    }],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "19",
+        "net": "15.83",
+        "vat": "3.17"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "19",
+        "net": "15.83",
+        "vat": "3.17"
+      },
+      "monthlyPrice": {
+        "gross": "80.50",
+        "net": "68.50",
+        "vat": "12"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "65.50",
+        "net": "56",
+        "vat": "9.50"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "EHANDSET",
+    "combiPackageId": null,
+    "confirmRequired": true,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "tradeInOfferCode": null,
+    "isChanged": false
+  }, {
+    "packageId": "4c18de9b-b41c-4420-8f6f-1655f4e3e9bb",
+    "accountCategory": "consumer",
+    "sequence": 6,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "2ddbf310-a3ac-4e57-a0ec-cd92d96fd308",
+      "action": "ADD",
+      "skuId": "111313",
+      "name": "PAYG Phone and SIM Package",
+      "description": "PAYG Phone and SIM Package",
+      "displayName": "PAYG Phone and SIM Package",
+      "displayDescription": null,
+      "bundleClass": "HANDSET",
+      "productClass": null,
+      "serviceId": "100000",
+      "paymentType": "Prepaid",
+      "bundleType": null,
+      "commitmentPeriod": {
+        "uom": "Years",
+        "value": "1"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": null,
+      "merchandisingMedia": [],
+      "attributes": null,
+      "benefits": [],
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "totalMonthlySavingsAmount": null,
+        "merchandisingPromotions": null,
+        "listOfMerchandisingPromotion": [],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": false,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "includedCalls": null,
+      "noPriceRise": null,
+      "wifiExpert": null,
+      "broadbandAntiVirus": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+      "packageLineId": "381d9fc6-d5bd-40d6-aeb2-b58ee1fb4158",
+      "action": "ADD",
+      "skuId": "206299",
+      "name": "Apple AirPods with Charging Case",
+      "description": "The new AirPods deliver the wireless headphone experience, reimagined. Just pull them out of the charging case and they're ready to use with your iPhone, Apple Watch, iPad or Mac.",
+      "displayName": "Apple AirPods + Charging Case White",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": "apple",
+      "model": "airpods-plus-charging-case",
+      "groupType": null,
+      "productClass": "Accessories",
+      "productSubClass": null,
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.full.back",
+        "value": "/images/desktop/accessory_sku206299_white-full-product-back-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/accessory_sku206299_white-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/accessory_sku206299_white-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/accessory_sku206299_white-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.back",
+        "value": "/images/desktop/accessory_sku206299_white-thumbs-back.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/accessory_sku206299_white-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "139",
+          "net": "115.83",
+          "vat": "23.17"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "139",
+          "net": "115.83",
+          "vat": "23.17"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [{
+          "apr": "0.0",
+          "selected": false,
+          "deviceFinancingId": "SNLADSADLJ",
+          "financeProvider": "PayPal",
+          "financeTerm": "30",
+          "monthlyPrice": {
+            "gross": "4.63",
+            "net": "3.86",
+            "vat": "0.77"
+          },
+          "totalPriceWithInterest": {
+            "gross": "139.00",
+            "net": "115.83",
+            "vat": "23.17"
+          }
+        }],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "121.61",
+        "net": "101.34",
+        "vat": "20.27"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }, {
+      "packageLineId": "5766fd98-ed1e-4984-b0b8-009f947d0f02",
+      "action": "ADD",
+      "skuId": "095458",
+      "name": "Apple iPhone XS 64GB space grey PAYG (Nearly New)",
+      "description": "5.8-inch Super Retina display. Advanced Face ID. The smartest, most powerful chip in a smartphone. And a dual-camera system.",
+      "displayName": "Apple iPhone XS 64GB (Like New) Space Grey",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": "Space Grey",
+      "memorySize": "64 GB",
+      "make": "apple",
+      "model": "iphone-xs-like-new",
+      "groupType": null,
+      "productClass": "Handset",
+      "productSubClass": "HANDSET",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.thumbs.left",
+        "value": "/images/desktop/Apple_Iphone_xs_space_grey-thumbs-left.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/Apple_Iphone_xs_space_grey-full-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.back",
+        "value": "/images/desktop/Apple_Iphone_xs_space_grey-thumbs-back.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/Apple_Iphone_xs_space_grey-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/Apple_Iphone_xs_space_grey-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.side",
+        "value": "/images/desktop/Apple_Iphone_xs_space_grey-thumbs-side.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.left",
+        "value": "/images/desktop/Apple_Iphone_xs_space_grey-full-product-left.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.back",
+        "value": "/images/desktop/Apple_Iphone_xs_space_grey-full-product-back.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.side",
+        "value": "/images/desktop/Apple_Iphone_xs_space_grey-full-product-side.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/Apple_Iphone_xs_space_grey-full-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "690",
+          "net": "575",
+          "vat": "115"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "690",
+          "net": "575",
+          "vat": "115"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [{
+          "apr": "0.0",
+          "selected": false,
+          "deviceFinancingId": "SNLADSADLJ",
+          "financeProvider": "PayPal",
+          "financeTerm": "30",
+          "monthlyPrice": {
+            "gross": "23.00",
+            "net": "19.17",
+            "vat": "3.83"
+          },
+          "totalPriceWithInterest": {
+            "gross": "690.00",
+            "net": "575.00",
+            "vat": "115.00"
+          }
+        }],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "677.64",
+        "net": "564.70",
+        "vat": "112.94"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }, {
+      "packageLineId": "064a500a-32d5-48ba-92df-813fe4d62334",
+      "action": "ADD",
+      "skuId": "093337",
+      "name": "Apple EarPods Lightning Connect",
+      "description": "Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear. Which makes them more comfortable for more people than any other earbud-style headphones.",
+      "displayName": "Apple EarPods Lightning White",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": "apple",
+      "model": "earpods-lightning",
+      "groupType": null,
+      "productClass": "Accessories",
+      "productSubClass": null,
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/accessory_sku093337_white-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/accessory_sku093337_white-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/accessory_sku093337_white-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/accessory_sku093337_white-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "19",
+          "net": "15.83",
+          "vat": "3.17"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "19",
+          "net": "15.83",
+          "vat": "3.17"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [{
+          "apr": "0.0",
+          "selected": false,
+          "deviceFinancingId": "SNLADSADLJ",
+          "financeProvider": "PayPal",
+          "financeTerm": "30",
+          "monthlyPrice": {
+            "gross": "0.63",
+            "net": "0.53",
+            "vat": "0.10"
+          },
+          "totalPriceWithInterest": {
+            "gross": "19.00",
+            "net": "15.83",
+            "vat": "3.17"
+          }
+        }],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "14.52",
+        "net": "12.10",
+        "vat": "2.42"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }, {
+      "packageLineId": "81472d0b-fde3-46bb-be31-8c122130e0b9",
+      "action": "ADD",
+      "skuId": "086532",
+      "name": "Blank White Triple Format SIM",
+      "description": null,
+      "displayName": "3-in-1 SIM",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": null,
+      "model": null,
+      "groupType": null,
+      "productClass": "SIM Card",
+      "productSubClass": "Core",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "0.0",
+        "net": "0.0",
+        "vat": "0.0"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }, {
+      "packageLineId": "fb5a4c41-7973-45bf-847f-ddbb45a37fd5",
+      "action": "ADD",
+      "skuId": "202453",
+      "name": "Apple AirPods Pro",
+      "description": "Active Noise Cancellation for immersive sound. Transparency mode for hearing what's happening around you. A customisable fit for all-day comfort. Magic like you've never heard.",
+      "displayName": "Apple Airpods Pro White",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": "apple",
+      "model": "airpods-pro",
+      "groupType": null,
+      "productClass": "Accessories",
+      "productSubClass": null,
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/accessory_sku202453_white-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/accessory_sku202453_white-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/accessory_sku202453_white-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/accessory_sku202453_white-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "217",
+          "net": "180.83",
+          "vat": "36.17"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "217",
+          "net": "180.83",
+          "vat": "36.17"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [{
+          "apr": "0.0",
+          "selected": false,
+          "deviceFinancingId": "SNLADSADLJ",
+          "financeProvider": "PayPal",
+          "financeTerm": "30",
+          "monthlyPrice": {
+            "gross": "7.23",
+            "net": "6.03",
+            "vat": "1.20"
+          },
+          "totalPriceWithInterest": {
+            "gross": "217.00",
+            "net": "180.83",
+            "vat": "36.17"
+          }
+        }],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "190.45",
+        "net": "158.71",
+        "vat": "31.74"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }],
+    "services": [{
+      "packageLineId": "dad062d8-8213-4da5-9a41-5d57f35fa480",
+      "action": "ADD",
+      "skuId": "112027",
+      "name": "Big Value Bundle 40GBP",
+      "description": null,
+      "displayName": "£40 Big Value Bundle",
+      "displayDescription": null,
+      "specificationGroup": [],
+      "merchandisingMedia": [],
+      "attributes": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "40",
+          "net": "33.33",
+          "vat": "6.67"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "40",
+          "net": "33.33",
+          "vat": "6.67"
+        },
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "merchandisingPromotions": null
+      },
+      "freeGift": false,
+      "productClass": "Recurring Freedom Freebees",
+      "dataRollover": "true",
+      "rootProductId": "100000",
+      "allowances": [{
+        "type": "UK MIN",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": null,
+        "tilUom": null
+      }, {
+        "type": "UK DATA",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": null,
+        "tilUom": null
+      }, {
+        "type": "UK TEXT",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": null,
+        "tilUom": null
+      }],
+      "rewardPoints": null,
+      "planDuration": null,
+      "isChanged": false
+    }],
+    "discounts": [],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "1105",
+        "net": "920.82",
+        "vat": "184.18"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "1105",
+        "net": "920.82",
+        "vat": "184.18"
+      },
+      "monthlyPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "financingOptions": [{
+        "apr": "0.0",
+        "selected": false,
+        "deviceFinancingId": "SNLADSADLJ",
+        "financeProvider": "PayPal",
+        "financeTerm": "30",
+        "monthlyPrice": {
+          "gross": "35.50",
+          "net": "29.58",
+          "vat": "5.92"
+        },
+        "totalPriceWithInterest": {
+          "gross": "1065.00",
+          "net": "887.50",
+          "vat": "177.50"
+        }
+      }]
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "HANDSET",
+    "combiPackageId": null,
+    "confirmRequired": false,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "tradeInOfferCode": null,
+    "isChanged": false
+  }],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "1124",
+      "net": "936.65",
+      "vat": "187.35"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "1124",
+      "net": "936.65",
+      "vat": "187.35"
+    },
+    "monthlyPrice": {
+      "gross": "80.50",
+      "net": "68.50",
+      "vat": "12"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "65.50",
+      "net": "56",
+      "vat": "9.50"
+    },
+    "totalOneoffSaving": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "totalMonthlySaving": {
+      "gross": "15",
+      "net": "12.50",
+      "vat": "2.50"
+    }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "15",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "-2108583599",
+  "lastModified": "2021-03-31T07:40:41.315Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

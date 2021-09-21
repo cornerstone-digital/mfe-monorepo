@@ -1,0 +1,407 @@
+{
+	"basketId": "3ed09c70-06c1-492c-9df2-94675761e784",
+	"affiliateId": "11",
+	"source": "WCS",
+	"customerRequestedDate": "2017-10-01T07:45:00.000Z",
+	"metadata": {
+		"returnURL": null,
+		"basketStatus": "INCOMPLETE",
+		"salesOrderId": null,
+		"reason": null
+	},
+	"journey": {
+		"journeyType": "Acquisition",
+		"offerCode": null
+	},
+	"packages": [{
+		"packageId": "eb924097-937c-4887-9ca5-22a1339ad786",
+		"accountCategory": "Consumer",
+		"sequence": 1,
+		"packageType": "Acquisition",
+		"removable": true,
+		"dependentOn": [],
+		"voucherCode": null,
+		"bundle": {
+			"packageLineId": "3fca9ca3-8dda-473d-a373-e6b53ef7b35c",
+			"action": "ADD",
+			"skuId": "111227",
+			"name": "12mth SIMO Unlmins 45GB Red Entertainment Plan",
+			"description": "CTR14b SIM only Red Entertainment Plan with unlimited mins, unlimited texts and 45GB of data",
+			"displayName": "45GB Red Entertainment plan - 12 months",
+			"displayDescription": null,
+			"bundleClass": "SIMO",
+			"productClass": null,
+			"serviceId": "110286",
+			"paymentType": "Postpaid",
+			"bundleType": "Red Entertainment",
+			"commitmentPeriod": {
+				"uom": "Months",
+				"value": "12"
+			},
+			"displayOrder": 8,
+			"showInSummary": false,
+			"allowances": [{
+					"type": "UK TEXT",
+					"value": "Unlimited",
+					"uom": "-",
+					"displayUom": "texts",
+					"tilUom": "SMS"
+				},
+				{
+					"type": "Inclusive EU minutes",
+					"value": "500 international minutes to EU",
+					"uom": null,
+					"displayUom": null,
+					"tilUom": null
+				},
+				{
+					"type": "World Traveller",
+					"value": "Vodafone Global Roaming Plus",
+					"uom": null,
+					"displayUom": null,
+					"tilUom": null
+				},
+				{
+					"type": "UK DATA",
+					"value": "45",
+					"uom": "GB",
+					"displayUom": "GB",
+					"tilUom": "DATA"
+				},
+				{
+					"type": "UK MIN",
+					"value": "Unlimited",
+					"uom": "-",
+					"displayUom": "minutes",
+					"tilUom": "VOICE"
+				},
+				{
+					"type": "ORIGDATA",
+					"value": "45",
+					"uom": "GB",
+					"displayUom": "GB",
+					"tilUom": "DATA"
+				},
+				{
+					"type": "UK MIN",
+					"value": "500",
+					"uom": "-",
+					"displayUom": "minutes",
+					"tilUom": "INTLVOICE"
+				}
+			],
+			"merchandisingMedia": [],
+			"attributes": null,
+			"benefits": [],
+			"priceDetails": {
+				"monthlyPrice": {
+					"gross": "42",
+					"net": "35",
+					"vat": "7"
+				},
+				"monthlyDiscountPrice": {
+					"gross": "42",
+					"net": "35",
+					"vat": "7"
+				},
+				"totalMonthlySavingsAmount": null,
+				"merchandisingPromotions": null,
+				"listOfMerchandisingPromotion": [],
+				"removedPromotionFootNote": null
+			},
+			"isVodafoneGlobalRoaming": true,
+			"bundledServiceProducts": [],
+			"planCategory": "CONSUMER",
+			"portability": null,
+			"speed": null,
+			"maxCapSpeed": null,
+			"avgDownloadSpeed": null,
+			"includedCalls": null,
+			"noPriceRise": null,
+			"wifiExpert": null,
+			"isChanged": false
+		},
+		"hardwares": [{
+				"packageLineId": "19a7533e-593f-4414-8f65-2c944f8de435",
+				"action": "ADD",
+				"skuId": "086532",
+				"name": "Blank White Triple Format SIM",
+				"description": null,
+				"displayName": "3-in-1 SIM",
+				"displayDescription": null,
+				"deviceBriefDescription": [],
+				"deviceColor": null,
+				"memorySize": null,
+				"make": null,
+				"model": null,
+				"groupType": null,
+				"productClass": "SIM Card",
+				"productSubClass": "Core",
+				"displayOrder": null,
+				"showInSummary": false,
+				"merchandisingMedia": [],
+				"attributes": [],
+				"contractOptions": null,
+				"priceDetails": {
+					"oneOffPrice": {
+						"gross": "0",
+						"net": "0",
+						"vat": "0"
+					},
+					"oneOffDiscountPrice": {
+						"gross": "0",
+						"net": "0",
+						"vat": "0"
+					},
+					"merchandisingPromotions": null,
+					"monthlyPrice": null,
+					"monthlyDiscountPrice": null,
+					"financingOptions": [],
+					"deviceFinancingId": null,
+					"devicePaymentPlan": null
+				},
+				"boxPrice": {
+					"gross": "0.0",
+					"net": "0.0",
+					"vat": "0.0"
+				},
+				"freeGift": false,
+				"devicePromotion": null,
+				"simType": null,
+				"isCompatibleWithWatch": false,
+				"isChanged": false
+			},
+			{
+				"packageLineId": "04b0ad22-d4c1-488d-93be-259a82bad628",
+				"action": "ADD",
+				"skuId": "091956",
+				"name": "Leef 16GB iBridge Memory",
+				"description": "Boost your iPhone or iPad's memory in a heartbeat with the Leef iBridge &#8211; the iOS mobile storage solution that gives you even more space for the memories that matter. Small size, big storage ,Easily transfer files,Worry-free backup.",
+				"displayName": "Leef iBridge external memory 16GB",
+				"displayDescription": null,
+				"deviceBriefDescription": [],
+				"deviceColor": null,
+				"memorySize": null,
+				"make": null,
+				"model": null,
+				"groupType": null,
+				"productClass": "Accessories",
+				"productSubClass": null,
+				"displayOrder": null,
+				"showInSummary": false,
+				"merchandisingMedia": [{
+					"id": "imageURLs.full.hero",
+					"value": "www.vodafone.co.uk/cs/groups/public/documents/webcontent/leef_mobile_memory_200x340.png",
+					"type": "URL",
+					"footNotes": [
+						""
+					]
+				}],
+				"attributes": [],
+				"contractOptions": null,
+				"priceDetails": {
+					"oneOffPrice": {
+						"gross": "40",
+						"net": "33.33",
+						"vat": "6.67"
+					},
+					"oneOffDiscountPrice": {
+						"gross": "40",
+						"net": "33.33",
+						"vat": "6.67"
+					},
+					"merchandisingPromotions": null,
+					"monthlyPrice": null,
+					"monthlyDiscountPrice": null,
+					"financingOptions": [],
+					"deviceFinancingId": null,
+					"devicePaymentPlan": null
+				},
+				"boxPrice": {
+					"gross": "26.0",
+					"net": "21.67",
+					"vat": "4.33"
+				},
+				"freeGift": false,
+				"devicePromotion": null,
+				"simType": null,
+				"isCompatibleWithWatch": false,
+				"isChanged": false
+			}
+		],
+		"services": [],
+		"discounts": [],
+		"priceDetails": {
+			"oneOffPrice": {
+				"gross": "40",
+				"net": "33.33",
+				"vat": "6.67"
+			},
+			"oneOffDiscountPrice": {
+				"gross": "40",
+				"net": "33.33",
+				"vat": "6.67"
+			},
+			"monthlyPrice": {
+				"gross": "42",
+				"net": "35",
+				"vat": "7"
+			},
+			"monthlyDiscountPrice": {
+				"gross": "42",
+				"net": "35",
+				"vat": "7"
+			},
+			"financingOptions": null
+		},
+		"installationAddress": null,
+		"appointmentWindow": null,
+		"servicePoint": {
+			"lineRefernece": {
+				"lineLocator": {
+					"exchangeCode": null,
+					"exchangeName": null,
+					"districtCode": null,
+					"l2SID": null,
+					"cableLinkID": null,
+					"distributionPoint": null
+				},
+				"lineSettings": {
+					"serviceCode": null,
+					"installationCode": null,
+					"terminationCode": null
+				},
+				"lineStatus": {
+					"statusCode": null,
+					"accessLineStatus": null,
+					"gnpStatus": null,
+					"lineOption": null,
+					"technology": null,
+					"lineType": null,
+					"tempStructure": false,
+					"standbyPowerRequired": false,
+					"narrowBandServicesAvailable": "null"
+				},
+				"availableServices": null,
+				"lineDirectory": null
+			},
+			"lineReference": {
+				"lineLocator": {
+					"exchangeCode": null,
+					"exchangeName": null,
+					"districtCode": null,
+					"l2SID": null,
+					"cableLinkID": null,
+					"distributionPoint": null
+				},
+				"lineSettings": {
+					"serviceCode": null,
+					"installationCode": null,
+					"terminationCode": null
+				},
+				"lineStatus": {
+					"statusCode": null,
+					"accessLineStatus": null,
+					"gnpStatus": null,
+					"lineOption": null,
+					"technology": null,
+					"lineType": null,
+					"tempStructure": false,
+					"standbyPowerRequired": false,
+					"narrowBandServicesAvailable": "null"
+				},
+				"availableServices": null,
+				"lineDirectory": null
+			},
+			"serviceReference": {
+				"serviceLines": []
+			}
+		},
+		"serviceStartDate": null,
+		"phoneNumber": null,
+		"primaryDeviceIdentifier": null,
+		"packageLinkIdentifier": null,
+		"linePackageType": null,
+		"lineTreatmentType": null,
+		"planType": "SIMO",
+		"combiPackageId": null,
+		"confirmRequired": false,
+		"deviceFinancingId": null,
+		"additionalDetails": {},
+		"isChanged": false
+	}],
+	"vetOutcome": null,
+	"priceDetails": {
+		"oneOffPrice": {
+			"gross": "40",
+			"net": "33.33",
+			"vat": "6.67"
+		},
+		"oneOffDiscountPrice": {
+			"gross": "40",
+			"net": "33.33",
+			"vat": "6.67"
+		},
+		"monthlyPrice": {
+			"gross": "42",
+			"net": "35",
+			"vat": "7"
+		},
+		"monthlyDiscountPrice": {
+			"gross": "42",
+			"net": "35",
+			"vat": "7"
+		},
+		"totalOneoffSaving": {
+			"gross": "0",
+			"net": "0",
+			"vat": "0"
+		},
+		"totalMonthlySaving": {
+			"gross": "0",
+			"net": "0",
+			"vat": "0"
+		}
+	},
+	"totalOneoffPriceSaving": "0",
+	"totalMonthlyPriceSaving": "0",
+	"deliveryInfo": null,
+	"voucherCode": null,
+	"voucherDescription": null,
+	"validated": false,
+	"hashvalue": "963772758",
+	"lastModified": "2021-01-25T12:08:28.897Z",
+	"changeCode": null,
+	"combiPackageIds": [],
+	"voucherErrorMessage": null,
+	"activeBundles": [],
+	"splitDeliveryEligible": false,
+	"priceProposal": [{
+		"packageId": "eb924097-937c-4887-9ca5-22a1339ad786",
+		"promotionType": "CROSS_SELL",
+		"productDetail": {
+			"category": "FTR6",
+			"lineType": "REWARD_LINE"
+		},
+		"saving": {
+			"minimum": null,
+			"maximum": null,
+			"exact": {
+				"value": 1.6666666,
+				"uom": "£",
+				"message": "&pound;2 off any Superfast Broadband where the customer already has a 12m+ PAYM"
+			}
+		},
+		"qualifyingLine": {
+			"bundleId": "111227",
+			"displayName": "45GB Red Entertainment plan - 12 months",
+			"identifier": {
+				"key": "PackageId",
+				"value": "eb924097-937c-4887-9ca5-22a1339ad786"
+			}
+		}
+	}],
+	"loanEligibilityStatus": null,
+	"affiliateFlag": false,
+	"isChanged": false
+}

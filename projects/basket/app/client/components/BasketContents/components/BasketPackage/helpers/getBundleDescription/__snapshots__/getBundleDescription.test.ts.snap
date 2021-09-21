@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getBundleDescription returns with entertainment image 1`] = `
+<Image
+  alt=""
+  height="40px"
+  loading={null}
+  src="http://mock-localhost/image"
+  srcLg="http://mock-localhost/image"
+  theme={null}
+  width="auto"
+/>
+`;

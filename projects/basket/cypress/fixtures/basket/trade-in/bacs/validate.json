@@ -1,0 +1,10 @@
+{
+  "errorCode": "TRADEIN_QUOTE_EXP",
+  "errorMessage": "Some error",
+  "referenceId": "31e4af58-2d58-4f20-ba54-72b81dfe6370",
+  "validationDetails": null,
+  "__cacheMeta": {
+    "date": "06/01/2020 11:12:42",
+    "status": 400
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "basketId": "763ced54-a82d-4615-b3b9-76d93b5e2505",
+  "affiliateId": "11",
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T07:45:00.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Upgrade",
+    "offerCode": null
+  },
+  "packages": [{
+    "packageId": "51413897-3172-418c-947b-01f67c39aeea",
+    "accountCategory": "Consumer",
+    "sequence": 1,
+    "packageType": "Upgrade",
+    "removable": true,
+    "dependentOn": [
+
+    ],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "e9c3b782-c747-4b96-bed9-10baef5f3f42",
+      "action": "ADD",
+      "skuId": "111990",
+      "name": "OneNumber 30-day rolling",
+      "description": "OneNumber 30-day rolling",
+      "displayName": "OneNumber 30-day rolling",
+      "displayDescription": null,
+      "bundleClass": "SIMO",
+      "productClass": null,
+      "serviceId": "110286",
+      "paymentType": "Postpaid",
+      "bundleType": null,
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "1"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": [
+
+      ],
+      "merchandisingMedia": [
+
+      ],
+      "attributes": null,
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "7",
+          "net": "5.83",
+          "vat": "1.17"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "7",
+          "net": "5.83",
+          "vat": "1.17"
+        },
+        "totalSavingsAmount": null,
+        "merchandisingPromotions": null,
+        "listOfMerchandisingPromotion": [
+
+        ],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": false,
+      "bundledServiceProducts": null,
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "isChanged": false
+    },
+    "hardwares": [
+
+    ],
+    "services": [
+
+    ],
+    "discounts": [
+
+    ],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": null,
+        "net": null,
+        "vat": null
+      },
+      "oneOffDiscountPrice": {
+        "gross": null,
+        "net": null,
+        "vat": null
+      },
+      "monthlyPrice": {
+        "gross": "7",
+        "net": "5.83",
+        "vat": "1.17"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "7",
+        "net": "5.83",
+        "vat": "1.17"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": null,
+        "lineSettings": null,
+        "lineStatus": null,
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": null,
+        "lineSettings": null,
+        "lineStatus": null,
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": [
+
+        ]
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": "071111111",
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "WATCH_SIMO",
+    "combiPackageId": null,
+    "deviceFinancingId": null,
+    "additionalDetails": {
+
+    },
+    "isChanged": false
+  }],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "monthlyPrice": {
+      "gross": "7",
+      "net": "5.83",
+      "vat": "1.17"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "7",
+      "net": "5.83",
+      "vat": "1.17"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "-590413203",
+  "lastModified": "2020-08-11T09:17:01.090Z",
+  "changeCode": null,
+  "combiPackageIds": [
+
+  ],
+  "voucherErrorMessage": null,
+  "activeBundles": [{
+    "packageLineId": "b1e0986e-ad8e-4f29-8fd5-075e24cf9d77",
+    "bundleId": "111280",
+    "identifier": {
+      "key": "msisdn",
+      "value": "447000000026"
+    },
+    "assetIntegrationId": "1-45SHC2I",
+    "activeDiscounts": [
+
+    ],
+    "bundlePrice": {
+      "bundleId": "111280",
+      "monthlyPrice": {
+        "gross": "25",
+        "net": "20.83",
+        "vat": "4.17"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "25",
+        "net": "20.83",
+        "vat": "4.17"
+      },
+      "merchandisingPromotions": null
+    },
+    "isActiveSubscription": true
+  }],
+  "splitDeliveryEligible": false,
+  "priceProposal": [
+
+  ],
+  "affiliateFlag": false,
+  "isChanged": false
+}

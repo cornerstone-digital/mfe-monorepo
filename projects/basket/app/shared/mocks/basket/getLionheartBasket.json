@@ -1,0 +1,539 @@
+{
+  "basketId": "7dc4f7a4-a2ac-432e-a1f5-d5e2f3132f29",
+  "affiliateId": "11",
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T09:45:00.000+02:00",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "a53fbea5-be73-4908-b9a5-7b8142268910",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "70e70626-df95-452f-ac01-fdbd5b288bb2",
+        "action": "ADD",
+        "skuId": "111214",
+        "name": "12mth SIMO 500Mins 500MB Essentials Plan",
+        "description": "CTR14b SIM only Essentials Plan with 500 mins, unlimited texts and 500MB of data",
+        "displayName": "500MB Essentials plan - 12 months",
+        "displayDescription": null,
+        "bundleClass": "SIMO",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "Essentials Plan",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "12"
+        },
+        "displayOrder": 1,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK MIN",
+            "value": "500",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK DATA",
+            "value": "500",
+            "uom": "MB",
+            "displayUom": "MB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "500",
+            "uom": "MB",
+            "displayUom": "MB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          }
+        ],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "11",
+            "net": "9.17",
+            "vat": "1.83"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "11",
+            "net": "9.17",
+            "vat": "1.83"
+          },
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "3fc92cf4-8b9a-4f2b-a36e-f40683a1ce65",
+          "action": "ADD",
+          "skuId": "086532",
+          "name": "Blank White Triple Format SIM",
+          "description": null,
+          "displayName": "3-in-1 SIM",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "SIM Card",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "0.0",
+            "net": "0.0",
+            "vat": "0.0"
+          },
+          "freeGift": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": null,
+          "net": null,
+          "vat": null
+        },
+        "oneOffDiscountPrice": {
+          "gross": null,
+          "net": null,
+          "vat": null
+        },
+        "monthlyPrice": {
+          "gross": "11",
+          "net": "9.17",
+          "vat": "1.83"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "11",
+          "net": "9.17",
+          "vat": "1.83"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": null,
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "SIMO",
+      "combiPackageId": "32ce81f3-c51c-4c76-9c94-6d83714cb880",
+      "deviceFinancingId": null,
+      "isChanged": false
+    },
+    {
+      "packageId": "7fffd62a-a298-4e2b-8b09-26b8dc30a76c",
+      "accountCategory": "Consumer",
+      "sequence": 2,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "23087318-eaa5-4009-9f06-b4c400599a72",
+        "action": "ADD",
+        "skuId": "111148",
+        "name": "TEST USE ONLY Superfast 1 Home Broadband & Phone - FTR6 18m",
+        "description": "This is a Consumer line of Superfast 1 Fibre Broadband and Home Phone, contract term 18m",
+        "displayName": "TEST USE ONLY Superfast 1 Home Broadband & Phone - FTR6 18m",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "107551",
+        "paymentType": "Postpaid",
+        "bundleType": null,
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "18"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [],
+        "merchandisingMedia": [
+          {
+            "id": "multi_package_discount.merchandisingPromotions.merchandisingPromotion.label",
+            "value": "Preferential Pricing Discount £2",
+            "type": "TEXT",
+            "footNotes": [
+              "Get a &pound;2 discount on Superfast Broadband when bought with any PAYM or SIMO plan"
+            ]
+          },
+          {
+            "id": "multi_package_discount.merchandisingPromotions.merchandisingPromotion.description",
+            "value": "&pound;2 off any Superfast Broadband where the customer already has a 12m+ PAYM",
+            "type": "TEXT",
+            "footNotes": [
+              "Get a &pound;2 discount on Superfast Broadband when bought with any PAYM or SIMO plan"
+            ]
+          }
+        ],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "22",
+            "net": "18.33",
+            "vat": "3.67"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "20",
+            "net": "16.67",
+            "vat": "3.33"
+          },
+          "merchandisingPromotions": {
+            "tag": "OFF100009",
+            "label": "Preferential Pricing Discount £2",
+            "description": "&pound;2 off any Superfast Broadband where the customer already has a 12m+ PAYM",
+            "discountId": "111110",
+            "mpType": "multi_package_discount",
+            "priceEstablishedLabel": null,
+            "priority": "10",
+            "packageType": [
+              "Acquisition",
+              "Upgrade",
+              "SecondLine"
+            ],
+            "footNotes": [
+              "Get a &pound;2 discount on Superfast Broadband when bought with any PAYM or SIMO plan"
+            ],
+            "confirmRequired": false,
+            "offerGroup": "Preferential Pricing",
+            "belowTheLine": "false",
+            "qualifier": {
+              "bundleId": "111214",
+              "identifier": {
+                "key": "PackageId",
+                "value": "a53fbea5-be73-4908-b9a5-7b8142268910"
+              }
+            },
+            "category": "Incremental"
+          },
+          "listOfMerchandisingPromotion": [
+            {
+              "tag": "OFF100009",
+              "label": "Preferential Pricing Discount £2",
+              "description": "&pound;2 off any Superfast Broadband where the customer already has a 12m+ PAYM",
+              "discountId": "111110",
+              "mpType": "multi_package_discount",
+              "priceEstablishedLabel": null,
+              "priority": "10",
+              "packageType": [
+                "Acquisition",
+                "Upgrade",
+                "SecondLine"
+              ],
+              "footNotes": [
+                "Get a &pound;2 discount on Superfast Broadband when bought with any PAYM or SIMO plan"
+              ],
+              "confirmRequired": false,
+              "offerGroup": "Preferential Pricing",
+              "belowTheLine": "false",
+              "qualifier": {
+                "bundleId": "111214",
+                "identifier": {
+                  "key": "PackageId",
+                  "value": "a53fbea5-be73-4908-b9a5-7b8142268910"
+                }
+              },
+              "category": "Incremental"
+            }
+          ],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": false,
+        "bundledServiceProducts": [
+          {
+            "skuId": "107552",
+            "name": "Fixed Broadband Service",
+            "description": "Fixed Broadband Service",
+            "productClass": "Fixed Broadband Service",
+            "servicePointId": "107577",
+            "priceDetail": null,
+            "miscellaneous": [
+              {
+                "name": "SERVICE POINT",
+                "value": "Unlimited Fibre 38"
+              }
+            ]
+          },
+          {
+            "skuId": "107551",
+            "name": "Fixed Line Service",
+            "description": "Fixed Line Service",
+            "productClass": "Fixed Line",
+            "servicePointId": "110567",
+            "priceDetail": null,
+            "miscellaneous": [
+              {
+                "name": "SERVICE POINT",
+                "value": "Gigafast Home Broadband and Voice"
+              }
+            ]
+          },
+          {
+            "skuId": "106563",
+            "name": "Landline Port In",
+            "description": "Landline Port In",
+            "productClass": "Fixed Port In",
+            "servicePointId": null,
+            "priceDetail": null,
+            "miscellaneous": [
+              {
+                "name": "ROOT_PRODUCT_ID",
+                "value": "107551"
+              }
+            ]
+          }
+        ],
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "064c65c0-8cbd-4ca7-999e-f903a4f53ae2",
+          "action": "ADD",
+          "skuId": "085897",
+          "name": "Vodafone Broadband router",
+          "description": null,
+          "displayName": "Vodafone Broadband router",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": null,
+          "memorySize": null,
+          "make": null,
+          "model": null,
+          "groupType": null,
+          "productClass": "Fixed Broadband Equipment",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "http://www.vodafone.co.uk/cs/groups/public/documents/webcontent/img_170x170_vox_25_huawei_uk_f.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": null,
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": {
+              "tag": "Router.Discount",
+              "label": "25% of on router cost",
+              "description": null,
+              "discountId": null,
+              "mpType": "upfront_discount",
+              "priceEstablishedLabel": "Was",
+              "priority": "17",
+              "packageType": [
+                "Acquisition",
+                "Upgrade",
+                "SecondLine"
+              ],
+              "footNotes": [
+                "Get 25% of on Router Price"
+              ],
+              "confirmRequired": false,
+              "offerGroup": null,
+              "belowTheLine": "false",
+              "qualifier": null,
+              "category": null
+            },
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "48.81",
+            "net": "40.67",
+            "vat": "8.13"
+          },
+          "freeGift": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [
+        {
+          "productLineId": "d61a0e64-a42e-456a-ad3c-8c6c70f0b846",
+          "action": "DISCOUNT",
+          "skuId": "111110",
+          "tag": "OFF100009",
+          "label": "Preferential Pricing Discount £2",
+          "tenure": "FULL",
+          "duration": null,
+          "confirmedRequired": "false",
+          "merchandisingMedia": [],
+          "discountValue": {
+            "type": "GBP",
+            "value": "1.6666666"
+          }
+        }
+      ],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyPrice": {
+          "gross": "22",
+          "net": "18.33",
+          "vat": "3.67"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "20",
+          "net": "16.67",
+          "vat": "3.33"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": null,
+      "serviceStartDate": "2017-10-01T18:45:00.000+00:00",
+      "phoneNumber": "9391666621",
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "BroadBand:FTTC",
+      "combiPackageId": "32ce81f3-c51c-4c76-9c94-6d83714cb880",
+      "deviceFinancingId": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "monthlyPrice": {
+      "gross": "33",
+      "net": "27.50",
+      "vat": "5.50"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "31",
+      "net": "25.84",
+      "vat": "5.16"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "24",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": true,
+  "hashvalue": "-1998851318",
+  "lastModified": null,
+  "changeCode": null,
+  "combiPackageIds": [
+    "32ce81f3-c51c-4c76-9c94-6d83714cb880"
+  ],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": true,
+  "priceProposal": [],
+  "affiliateFlag": false,
+  "isChanged": false
+}

@@ -1,0 +1,362 @@
+{
+  "basketId": "a3986c78-388d-4fab-9b6f-cb9f3ca70b59",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T09:45:00.000+02:00",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Upgrade",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "08894b1e-4048-48b6-8334-a581064399e2",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Upgrade",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "fc0103fe-6c3d-4b35-b248-8feaeafad3c4",
+        "action": "ADD",
+        "skuId": "111212",
+        "name": "24mth Band X Unlmins 16GB Red Extra Plan",
+        "description": "CTR14b Red Extra Plan comes with unlimited mins, unlimited texts and 16GB of UK data",
+        "displayName": "16GB Red Extra plan",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "Red Extra",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "24"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "UK DATA",
+            "value": "16",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "16",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          }
+        ],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "76",
+            "net": "63.33",
+            "vat": "12.67"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "76",
+            "net": "63.33",
+            "vat": "12.67"
+          },
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "ea44cf2d-e7c8-4485-9810-5de252da56b4",
+          "action": "ADD",
+          "skuId": "095516",
+          "name": "Apple iPhone XS 512GB space grey",
+          "description": "5.8-inch Super Retina display. Advanced Face ID. The smartest, most powerful chip\nin a smartphone. And a dual-camera system.",
+          "displayName": "Apple iPhone XS 512GB Space Grey",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": "Space Grey",
+          "memorySize": "512 GB",
+          "make": "apple",
+          "model": "iphone-xs",
+          "groupType": "DEVICE_PAYM",
+          "productClass": "Handset",
+          "productSubClass": "Handset",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Apple_Iphone_xs_space_grey-thumbs-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.left",
+              "value": "/images/desktop/Apple_Iphone_xs_space_grey-thumbs-left.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Apple_Iphone_xs_space_grey-thumbs-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Apple_Iphone_xs_space_grey-thumbs-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Apple_Iphone_xs_space_grey-full-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Apple_Iphone_xs_space_grey-full-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.left",
+              "value": "/images/desktop/Apple_Iphone_xs_space_grey-full-product-left.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Apple_Iphone_xs_space_grey-full-product-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Apple_Iphone_xs_space_grey-full-product-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Apple_Iphone_xs_space_grey-grid-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": null,
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "299",
+              "net": "249.17",
+              "vat": "49.83"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "299",
+              "net": "249.17",
+              "vat": "49.83"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "1281.19",
+            "net": "1067.66",
+            "vat": "213.53"
+          },
+          "freeGift": false,
+          "isChanged": false
+        }
+      ],
+      "services": [
+        {
+          "packageLineId": "df9f2b64-0a38-483e-a7c5-7a6a82855a58",
+          "action": "ADD",
+          "skuId": "110177",
+          "name": "Fee for Flexi-Upgrade",
+          "description": null,
+          "displayName": "Fee for Flexi-Upgrade",
+          "displayDescription": null,
+          "specificationGroup": [],
+          "merchandisingMedia": [],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "100.00",
+              "net": "83.33",
+              "vat": "16.67"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "100.00",
+              "net": "83.33",
+              "vat": "16.67"
+            },
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "merchandisingPromotions": null
+          },
+          "freeGift": false,
+          "productClass": "Fee",
+          "dataRollover": null,
+          "rootProductId": "110286",
+          "allowances": [],
+          "rewardPoints": null,
+          "planDuration": null,
+          "isChanged": false
+        }
+      ],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "299",
+          "net": "249.17",
+          "vat": "49.83"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "299",
+          "net": "249.17",
+          "vat": "49.83"
+        },
+        "monthlyPrice": {
+          "gross": "76",
+          "net": "63.33",
+          "vat": "12.67"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "76",
+          "net": "63.33",
+          "vat": "12.67"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": null,
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "HANDSET",
+      "combiPackageId": null,
+      "deviceFinancingId": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "399",
+      "net": "332.50",
+      "vat": "66.50"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "399",
+      "net": "332.50",
+      "vat": "66.50"
+    },
+    "monthlyPrice": {
+      "gross": "76",
+      "net": "63.33",
+      "vat": "12.67"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "76",
+      "net": "63.33",
+      "vat": "12.67"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": true,
+  "hashvalue": "-1473666130",
+  "lastModified": null,
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [
+    {
+      "packageLineId": "6ec13b77-cd08-484c-b209-d22c95792492",
+      "bundleId": "110082",
+      "identifier": {
+        "key": "msisdn",
+        "value": "447000000003"
+      },
+      "assetIntegrationId": "1-6TJLLN81",
+      "activeDiscounts": [],
+      "bundlePrice": {
+        "bundleId": "110082",
+        "monthlyPrice": {
+          "gross": "51.79",
+          "net": "43.16",
+          "vat": "8.63"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "51.79",
+          "net": "43.16",
+          "vat": "8.63"
+        },
+        "merchandisingPromotions": null
+      }
+    }
+  ],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "affiliateFlag": false,
+  "isChanged": false
+}

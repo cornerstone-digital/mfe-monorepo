@@ -1,0 +1,45 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.cost-row {
+  border-bottom: 1px solid $color-pale-grey;
+  padding: 0;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.basket-item-totals {
+  p span:nth-child(2) {
+    @media (max-width: 600px) {
+      font-size: 25px;
+    }
+  }
+}
+
+.upfront-cost-cell-column {
+  width: 100%;
+  background-color: $color-almost-white;
+  padding: $spacing-fixed-2 !important;
+  justify-content: flex-end;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: $spacing-fixed-2 $spacing-fixed-1 $spacing-fixed-2 0;
+
+  @include md {
+    justify-content: flex-end;
+  }
+}
+
+.price-row {
+  height: 100%;
+}
+
+.monthly-column {
+  padding: $spacing-fixed-2 !important;
+  justify-content: flex-end;
+}

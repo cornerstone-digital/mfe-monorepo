@@ -1,0 +1,388 @@
+{
+  "basketId": "38ee7b18-1bb3-40e6-8bf9-1e0c6543effa",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2017-10-01T09:45:00.000+02:00",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Upgrade",
+    "offerCode": null
+  },
+  "packages": [
+    {
+      "packageId": "c55009e5-8929-478c-a72a-32f4904c4f4d",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Upgrade",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "a4faa19a-46f7-46fa-923c-1ef0dfaab365",
+        "action": "ADD",
+        "skuId": "111080",
+        "name": "24mth Band E Unlmin 32GB Red Entertainment Plan with 500m to EU and VGRPlus",
+        "description": "Red Entertainment Plan comes with unlimited mins, unlimited texts, 32GB data, 500m to EU & VGRPlus",
+        "displayName": "32GB Red Entertainment plan",
+        "displayDescription": null,
+        "bundleClass": "HANDSET",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "Red Entertainment",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "24"
+        },
+        "displayOrder": null,
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK MIN",
+            "value": "500",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "INTLVOICE"
+          },
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "UK DATA",
+            "value": "32",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "32",
+            "uom": "GB",
+            "displayUom": "GB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "Inclusive EU minutes",
+            "value": "500 international minutes to EU",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming Plus",
+            "uom": null,
+            "displayUom": null,
+            "tilUom": null
+          }
+        ],
+        "merchandisingMedia": [],
+        "attributes": null,
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "57",
+            "net": "47.50",
+            "vat": "9.50"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "57",
+            "net": "47.50",
+            "vat": "9.50"
+          },
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "069f2ba7-e50e-426c-991d-ca6709dffb31",
+          "action": "ADD",
+          "skuId": "097951",
+          "name": "Huawei Mate 20 Pro black",
+          "description": "Raise the bar with the Mate 20 Pro's ultra wide-angle Leica triple camera and glorious 6.39-inch QHD+ OLED screen.",
+          "displayName": "Huawei Mate 20 Pro Black",
+          "displayDescription": null,
+          "deviceBriefDescription": null,
+          "deviceColor": "Black",
+          "memorySize": "128 GB",
+          "make": "huawei",
+          "model": "mate-20-pro",
+          "groupType": "DEVICE_PAYM",
+          "productClass": "Handset",
+          "productSubClass": "Handset",
+          "displayOrder": null,
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "/images/desktop/Huawei_Mate_20_Pro_black-thumbs-front.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.left",
+              "value": "/images/desktop/Huawei_Mate_20_Pro_black-thumbs-left.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.right",
+              "value": "/images/desktop/Huawei_Mate_20_Pro_black-thumbs-right.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.side",
+              "value": "/images/desktop/Huawei_Mate_20_Pro_black-thumbs-side.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.thumbs.back",
+              "value": "/images/desktop/Huawei_Mate_20_Pro_black-thumbs-back.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.hero",
+              "value": "/images/desktop/Huawei_Mate_20_Pro_black-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.front",
+              "value": "/images/desktop/Huawei_Mate_20_Pro_black-full-product-front-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.left",
+              "value": "/images/desktop/Huawei_Mate_20_Pro_black-full-product-left-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.right",
+              "value": "/images/desktop/Huawei_Mate_20_Pro_black-full-product-right-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.side",
+              "value": "/images/desktop/Huawei_Mate_20_Pro_black-full-product-side-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.full.back",
+              "value": "/images/desktop/Huawei_Mate_20_Pro_black-full-product-back-600.png",
+              "type": "URL",
+              "footNotes": []
+            },
+            {
+              "id": "imageURLs.grid",
+              "value": "/images/desktop/Huawei_Mate_20_Pro_black-grid-product-front.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": null,
+          "contractOptions": null,
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "29",
+              "net": "24.17",
+              "vat": "4.83"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "29",
+              "net": "24.17",
+              "vat": "4.83"
+            },
+            "merchandisingPromotions": null,
+            "monthlyPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "monthlyDiscountPrice": {
+              "gross": null,
+              "net": null,
+              "vat": null
+            },
+            "financingOptions": null,
+            "deviceFinancingId": null,
+            "devicePaymentPlan": null
+          },
+          "boxPrice": {
+            "gross": "648.0",
+            "net": "540.0",
+            "vat": "108.0"
+          },
+          "freeGift": false,
+          "isChanged": false
+        }
+      ],
+      "services": [
+        {
+          "packageLineId": "a7b69f77-57cd-49be-a347-0472b54f5d2d",
+          "action": "ADD",
+          "skuId": "110177",
+          "name": "Fee for Flexi-Upgrade",
+          "description": null,
+          "displayName": "Fee for Flexi-Upgrade",
+          "displayDescription": null,
+          "specificationGroup": [],
+          "merchandisingMedia": [],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "100.00",
+              "net": "83.33",
+              "vat": "16.67"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "100.00",
+              "net": "83.33",
+              "vat": "16.67"
+            },
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "merchandisingPromotions": null
+          },
+          "freeGift": false,
+          "productClass": "Fee",
+          "dataRollover": null,
+          "rootProductId": "110286",
+          "allowances": [],
+          "rewardPoints": null,
+          "planDuration": null,
+          "isChanged": false
+        }
+      ],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "monthlyPrice": {
+          "gross": "57",
+          "net": "47.50",
+          "vat": "9.50"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "57",
+          "net": "47.50",
+          "vat": "9.50"
+        },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": null,
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "HANDSET",
+      "combiPackageId": null,
+      "deviceFinancingId": null,
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "129",
+      "net": "107.50",
+      "vat": "21.50"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "129",
+      "net": "107.50",
+      "vat": "21.50"
+    },
+    "monthlyPrice": {
+      "gross": "57",
+      "net": "47.50",
+      "vat": "9.50"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "57",
+      "net": "47.50",
+      "vat": "9.50"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": true,
+  "hashvalue": "-1472718359",
+  "lastModified": null,
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [
+    {
+      "packageLineId": "567d74aa-1bac-4749-8bb5-b3a54d0aba20",
+      "bundleId": "110082",
+      "identifier": {
+        "key": "msisdn",
+        "value": "447000000003"
+      },
+      "assetIntegrationId": "1-6TJLLN81",
+      "activeDiscounts": [],
+      "bundlePrice": {
+        "bundleId": "110082",
+        "monthlyPrice": {
+          "gross": "51.79",
+          "net": "43.16",
+          "vat": "8.63"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "51.79",
+          "net": "43.16",
+          "vat": "8.63"
+        },
+        "merchandisingPromotions": null
+      }
+    }
+  ],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "affiliateFlag": false,
+  "isChanged": false
+}

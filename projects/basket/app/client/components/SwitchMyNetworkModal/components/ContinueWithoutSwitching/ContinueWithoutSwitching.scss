@@ -1,0 +1,47 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.mobile-number {
+  padding-right: $spacing-fixed-3;
+  margin-bottom: $spacing-fixed-2;
+
+  @include md {
+    margin-bottom: 0;
+  }
+}
+
+.info {
+  @include md {
+    width: calc(100% - 139px);
+  }
+}
+
+.info-wrapper {
+  margin-bottom: $spacing-fixed-2;
+
+  @include md {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.actions-wrapper {
+  div {
+    margin-top: $spacing-fixed-1;
+  }
+
+  a {
+    font-size: $base-font-size-deskop;
+  }
+
+  @include md {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.mobile-number,
+.info {
+  @include md {
+    display: inline-block;
+  }
+}

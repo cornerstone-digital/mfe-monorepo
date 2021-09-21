@@ -1,0 +1,30 @@
+.hardware-image {
+  padding-left: $spacing-fixed-2;
+  padding-right: $spacing-fixed-2;
+  justify-content: start;
+}
+
+.visible-only-md {
+  display: none;
+  padding: 0;
+
+  @include md {
+    display: flex;
+  }
+}
+
+.no-gutters {
+  padding: 0;
+}
+
+.visible-only-mobile {
+  display: flex;
+
+  @include md {
+    display: none;
+  }
+}
+
+.hardware-desc {
+  justify-content: flex-start;
+}

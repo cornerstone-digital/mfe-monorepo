@@ -1,0 +1,530 @@
+[
+  {
+    "business_footer": {
+      "rightFooter": {
+        "forms": {
+          "footerURL": "https://forum.vodafone.co.uk/",
+          "footerTitle": "Ask our community",
+          "name": "Ask_our_community",
+          "id": 1480076139519,
+          "content": [],
+          "friendlyName": "forms",
+          "parents": []
+        }
+      },
+      "moduleSubType": "footer",
+      "leftFooter": {
+        "Facebook": {
+          "footerIcon": {
+            "IMG_Facebook": {
+              "medium2XImage_bloblink_": "/en/assets/images/medium2X/IMG_Facebook.png",
+              "largeImage_bloblink_": "/en/assets/images/large/IMG_Facebook.png",
+              "extralargeImage_bloblink_": "/en/assets/images/extralarge/IMG_Facebook.png",
+              "smallImage_bloblink_": "/en/assets/images/small/IMG_Facebook.png",
+              "mediumImage_bloblink_": "/en/assets/images/medium/IMG_Facebook.png",
+              "desktopImage_bloblink_": "/en/assets/images/desktop/facebook-lrg[1].png",
+              "name": "Facebook",
+              "id": 1480076138848,
+              "friendlyName": "IMG_Facebook",
+              "parents": {
+                "Image_P:1480076234475": {
+                  "name": "Image Media",
+                  "id": 1480076234475,
+                  "parents": []
+                }
+              },
+              "large2XImage_bloblink_": "/en/assets/images/large2X/IMG_Facebook.png"
+            }
+          },
+          "footerURL": "https://www.facebook.com/vodafoneUK",
+          "footerTitle": "Facebook",
+          "name": "Facebook",
+          "id": 1480076138787,
+          "content": [],
+          "friendlyName": "Facebook",
+          "parents": []
+        },
+        "twitter": {
+          "footerIcon": {
+            "IMG_Twitter": {
+              "medium2XImage_bloblink_": "/en/assets/images/medium2X/IMG_Twitter.png",
+              "largeImage_bloblink_": "/en/assets/images/large/IMG_Twitter.png",
+              "extralargeImage_bloblink_": "/en/assets/images/extralarge/IMG_Twitter.png",
+              "smallImage_bloblink_": "/en/assets/images/small/IMG_Twitter.png",
+              "mediumImage_bloblink_": "/en/assets/images/medium/IMG_Twitter.png",
+              "desktopImage_bloblink_": "/en/assets/images/desktop/twitter-lrg[1].png",
+              "name": "Twitter",
+              "id": 1480076138929,
+              "friendlyName": "IMG_Twitter",
+              "parents": {
+                "Image_P:1480076234475": {
+                  "name": "Image Media",
+                  "id": 1480076234475,
+                  "parents": []
+                }
+              },
+              "large2XImage_bloblink_": "/en/assets/images/large2X/IMG_Twitter.png"
+            }
+          },
+          "footerURL": "https://twitter.com/vodafoneuk",
+          "footerTitle": "Twitter",
+          "name": "Twitter",
+          "id": 1480076139409,
+          "content": [],
+          "friendlyName": "twitter",
+          "parents": []
+        }
+      },
+      "content": {
+        "business_footer_buying_online": {
+          "footerURL": "#",
+          "footerTitle": "Buying online",
+          "name": "business_footer_buying_online",
+          "id": 1523354976828,
+          "content": {
+            "business_footer_buying_online_business_sim_only_plans": {
+              "footerURL": "https://www.vodafone.co.uk/business/business-sim-only",
+              "footerTitle": "Business SIM only plans",
+              "name": "business_footer_buying_online_business_sim_only_plans",
+              "id": 1523356881207,
+              "content": [],
+              "friendlyName": "business_footer_buying_online_business_sim_only_plans",
+              "parents": []
+            },
+            "business_footer_buying_online_business_pay_monthly_plans": {
+              "footerURL": "https://www.vodafone.co.uk/business/business-mobile-phones/pay-monthly-contracts",
+              "footerTitle": "Business Pay monthly plans",
+              "name": "business_footer_buying_online_business_pay_monthly_plans",
+              "id": 1523356888235,
+              "content": [],
+              "friendlyName": "business_footer_buying_online_business_pay_monthly_plans",
+              "parents": []
+            },
+            "business_footer_buying_online_business_mobile_plan_features": {
+              "footerURL": "https://www.vodafone.co.uk/business/business-mobile-plans/mobile-plan-features",
+              "footerTitle": "Business mobile plan features",
+              "name": "business_footer_buying_online_business_mobile_plan_features",
+              "id": 1523356889898,
+              "content": [],
+              "friendlyName": "business_footer_buying_online_business_mobile_plan_features",
+              "parents": []
+            },
+            "business_footer_buying_online_business_mobile_phones": {
+              "footerURL": "https://www.vodafone.co.uk/business/business-mobile-phones",
+              "footerTitle": "Business mobile phones",
+              "name": "business_footer_buying_online_business_mobile_phones",
+              "id": 1523370328716,
+              "content": [],
+              "friendlyName": "business_footer_buying_online_business_mobile_phones",
+              "parents": []
+            },
+            "business_footer_buying_online_iphone": {
+              "footerURL": "https://www.vodafone.co.uk/business/business-mobile-phones/apple",
+              "footerTitle": "iPhone",
+              "name": "business_footer_buying_online_iphone",
+              "id": 1523356890369,
+              "content": [],
+              "friendlyName": "business_footer_buying_online_iphone",
+              "parents": []
+            },
+            "business_footer_buying_online_samsung_phones": {
+              "footerURL": "https://www.vodafone.co.uk/business/business-mobile-phones/samsung",
+              "footerTitle": "Samsung phones",
+              "name": "business_footer_buying_online_samsung_phones",
+              "id": 1523356891240,
+              "content": [],
+              "friendlyName": "business_footer_buying_online_samsung_phones",
+              "parents": []
+            },
+            "business_footer_buying_online_huawei_phones": {
+              "footerURL": "https://www.vodafone.co.uk/business/business-mobile-phones/huawei",
+              "footerTitle": "Huawei phones",
+              "name": "business_footer_buying_online_huawei_phones",
+              "id": 1523356891635,
+              "content": [],
+              "friendlyName": "business_footer_buying_online_huawei_phones",
+              "parents": []
+            },
+            "business_footer_buying_online_google_pixel": {
+              "footerURL": "https://www.vodafone.co.uk/business/business-mobile-phones/google",
+              "footerTitle": "Google Pixel",
+              "name": "business_footer_buying_online_google_pixel",
+              "id": 1523356891902,
+              "content": [],
+              "friendlyName": "business_footer_buying_online_google_pixel",
+              "parents": []
+            },
+            "business_footer_buying_online_business_broadband": {
+              "footerURL": "https://www.vodafone.co.uk/business/business-connectivity/broadband-and-phone",
+              "footerTitle": "Business Broadband",
+              "name": "business_footer_buying_online_business_broadband",
+              "id": 1523356892135,
+              "content": [],
+              "friendlyName": "business_footer_buying_online_business_broadband",
+              "parents": []
+            },
+            "business_footer_buying_online_business_tablets_and_dongles": {
+              "footerURL": "https://www.vodafone.co.uk/business/mobile-broadband/tablets",
+              "footerTitle": "Business tablets and dongles",
+              "name": "business_footer_buying_online_business_tablets_and_dongles",
+              "id": 1523356892470,
+              "content": [],
+              "friendlyName": "business_footer_buying_online_business_tablets_and_dongles",
+              "parents": []
+            },
+            "business_footer_buying_online_one_net_anywhere": {
+              "footerURL": "https://www.vodafone.co.uk/business/unified-communications/vodafone-one-net-anywhere",
+              "footerTitle": "One Net Anywhere",
+              "name": "business_footer_buying_online_one_net_anywhere",
+              "id": 1523356892607,
+              "content": [],
+              "friendlyName": "business_footer_buying_online_one_net_anywhere",
+              "parents": []
+            }
+          },
+          "friendlyName": "business_footer_buying_online",
+          "parents": []
+        },
+        "business_footer_business_solutions": {
+          "footerURL": "#",
+          "footerTitle": "Business Solutions",
+          "name": "business_footer_business_solutions",
+          "id": 1523354976934,
+          "content": {
+            "business_footer_business_solutions_unified_communicaction": {
+              "footerURL": "https://www.vodafone.co.uk/business/unified-communications",
+              "footerTitle": "Unified Communications ",
+              "name": "business_footer_business_solutions_unified_communicaction",
+              "id": 1523357005245,
+              "content": [],
+              "friendlyName": "business_footer_business_solutions_unified_communicaction",
+              "parents": []
+            },
+            "business_footer_business_solutions_voice_connectivity": {
+              "footerURL": "https://www.vodafone.co.uk/business/business-connectivity/voice-connectivity",
+              "footerTitle": "Voice connectivity",
+              "name": "business_footer_business_solutions_voice_connectivity",
+              "id": 1523357005174,
+              "content": [],
+              "friendlyName": "business_footer_business_solutions_voice_connectivity",
+              "parents": []
+            },
+            "business_footer_business_solutions_landline_for_business": {
+              "footerURL": "https://www.vodafone.co.uk/business/business-connectivity/voice-connectivity/phone-landlines",
+              "footerTitle": "Landline for business",
+              "name": "business_footer_business_solutions_landline_for_business",
+              "id": 1523357005319,
+              "content": [],
+              "friendlyName": "business_footer_business_solutions_landline_for_business",
+              "parents": []
+            },
+            "business_footer_business_solutions_mobile_device_management": {
+              "footerURL": "https://www.vodafone.co.uk/business/business-mobile-phones/mobile-device-management",
+              "footerTitle": "Mobile Device Management",
+              "name": "business_footer_business_solutions_mobile_device_management",
+              "id": 1523357005105,
+              "content": [],
+              "friendlyName": "business_footer_business_solutions_mobile_device_management",
+              "parents": []
+            },
+            "business_footer_business_solutions_iot": {
+              "footerURL": "https://www.vodafone.co.uk/business/iot",
+              "footerTitle": "IoT",
+              "name": "business_footer_business_solutions_iot",
+              "id": 1523357006206,
+              "content": [],
+              "friendlyName": "business_footer_business_solutions_iot",
+              "parents": []
+            },
+            "business_footer_business_solutions_cloud": {
+              "footerURL": "https://www.vodafone.co.uk/business/cloud-and-hosting",
+              "footerTitle": "Cloud",
+              "name": "business_footer_business_solutions_cloud",
+              "id": 1523357005443,
+              "content": [],
+              "friendlyName": "business_footer_business_solutions_cloud",
+              "parents": []
+            },
+            "business_footer_business_solutions_office_365": {
+              "footerURL": "https://www.vodafone.co.uk/business/cloud-and-hosting/microsoft-office-365",
+              "footerTitle": "Office 365",
+              "name": "business_footer_business_solutions_office_365",
+              "id": 1523357005995,
+              "content": [],
+              "friendlyName": "business_footer_business_solutions_office_365",
+              "parents": []
+            },
+            "business_footer_business_solutions_5G_for_business": {
+              "footerURL": "https://www.vodafone.co.uk/business/why-vodafone/5g-for-business",
+              "footerTitle": "5G for business",
+              "name": "business_footer_business_solutions_5G_for_business",
+              "id": 1595425692776,
+              "content": [],
+              "friendlyName": "business_footer_business_solutions_5G_for_business",
+              "parents": []
+            },
+            "business_footer_business_solutions_trusted_partners": {
+              "footerURL": "https://www.vodafone.co.uk/business/why-vodafone/trusted-partners",
+              "footerTitle": "Trusted partners",
+              "name": "business_footer_business_solutions_trusted_partners",
+              "id": 1523357006783,
+              "content": [],
+              "friendlyName": "business_footer_business_solutions_trusted_partners",
+              "parents": []
+            },
+            "business_footer_business_solutions_dedicated_internet_access": {
+              "footerURL": "https://www.vodafone.co.uk/business/business-connectivity/data-connectivity/dedicated-internet-access",
+              "footerTitle": "Dedicated Internet Access",
+              "name": "business_footer_business_solutions_dedicated_internet_access",
+              "id": 1595427418867,
+              "content": [],
+              "friendlyName": "business_footer_business_solutions_dedicated_internet_access",
+              "parents": []
+            }
+          },
+          "friendlyName": "business_footer_business_solutions",
+          "parents": []
+        },
+        "business_footer_help_and_information": {
+          "footerURL": "/",
+          "footerTitle": "Help & Information",
+          "name": "business_footer_help_and_information",
+          "id": 1523354977374,
+          "content": {
+            "business_footer_help_and_information_Why_Vodafone": {
+              "footerURL": "https://www.vodafone.co.uk/business/why-vodafone",
+              "footerTitle": "Why Vodafone",
+              "name": "business_footer_help_and_information_Why_Vodafone",
+              "id": 1523358047743,
+              "content": [],
+              "friendlyName": "business_footer_help_and_information_Why_Vodafone",
+              "parents": []
+            },
+            "business_footer_help_and_information_contactus": {
+              "footerURL": "https://www.vodafone.co.uk/business/contact-us",
+              "footerTitle": "Contact us",
+              "name": "business_footer_help_and_information_contactus",
+              "id": 1595434175080,
+              "content": [],
+              "friendlyName": "business_footer_help_and_information_contactus",
+              "parents": []
+            },
+            "business_footer_help_and_information_find_a_store": {
+              "footerURL": "https://www.vodafone.co.uk/help-and-information/store-locator",
+              "footerTitle": "Find a store",
+              "name": "business_footer_help_and_information_find_a_store",
+              "id": 1523358046920,
+              "content": [],
+              "friendlyName": "business_footer_help_and_information_find_a_store",
+              "parents": []
+            },
+            "business_footer_help_and_information_FAQ": {
+              "footerURL": "https://support.vodafone.co.uk/",
+              "footerTitle": "FAQ",
+              "name": "business_footer_help_and_information_FAQ",
+              "id": 1523358048142,
+              "content": [],
+              "friendlyName": "business_footer_help_and_information_FAQ",
+              "parents": []
+            },
+            "business_footer_help_and_information_Forums": {
+              "footerURL": "https://forum.vodafone.co.uk",
+              "footerTitle": "Forums",
+              "name": "business_footer_help_and_information_Forums",
+              "id": 1523358048409,
+              "content": [],
+              "friendlyName": "business_footer_help_and_information_Forums",
+              "parents": []
+            },
+            "business_footer_help_and_information_Track_your_order": {
+              "footerURL": "https://www.vodafone.co.uk/shop/existing-customers/track-my-order/index.htm",
+              "footerTitle": "Track your order",
+              "name": "business_footer_help_and_information_Track_your_order",
+              "id": 1523358048818,
+              "content": [],
+              "friendlyName": "business_footer_help_and_information_Track_your_order",
+              "parents": []
+            },
+            "business_footer_help_and_information_Delivery_and_returns": {
+              "footerURL": "https://www.vodafone.co.uk/terms-and-conditions/Business/buying-with-vodafone/buying-online/returns-policies/index.htm",
+              "footerTitle": "Delivery & returns",
+              "name": "business_footer_help_and_information_Delivery_and_returns",
+              "id": 1523358049233,
+              "content": [],
+              "friendlyName": "business_footer_help_and_information_Delivery_and_returns",
+              "parents": []
+            },
+            "business_footer_help_and_information_Roaming": {
+              "footerURL": "https://www.vodafone.co.uk/business/business-mobile-plans/business-roaming",
+              "footerTitle": "Roaming",
+              "name": "business_footer_help_and_information_Roaming",
+              "id": 1523358049652,
+              "content": [],
+              "friendlyName": "business_footer_help_and_information_Roaming",
+              "parents": []
+            },
+            "footer_accessibility": {
+              "footerURL": "https://www.vodafone.co.uk/help-and-information/accessibility",
+              "footerTitle": "Accessibility",
+              "name": "footer_accessibility",
+              "id": 1494512431585,
+              "content": [],
+              "friendlyName": "footer_accessibility",
+              "parents": []
+            },
+            "business_footer_help_and_information_How_to_complain": {
+              "footerURL": "https://www.vodafone.co.uk/help-and-information/complaints",
+              "footerTitle": "How to complain",
+              "name": "business_footer_help_and_information_How_to_complain",
+              "id": 1523358049930,
+              "content": [],
+              "friendlyName": "business_footer_help_and_information_How_to_complain",
+              "parents": []
+            }
+          },
+          "friendlyName": "business_footer_help_and_information",
+          "parents": []
+        },
+        "business_footer_vodafoneuk": {
+          "footerURL": "#",
+          "footerTitle": "Vodafone UK",
+          "name": "business_footer_vodafoneuk",
+          "id": 1523354982446,
+          "content": {
+            "footer_AboutUs": {
+              "footerURL": "https://www.vodafone.co.uk/help-and-information/about-us",
+              "footerTitle": "About us",
+              "name": "footer_AboutUs",
+              "id": 1480076512132,
+              "content": [],
+              "friendlyName": "footer_AboutUs",
+              "parents": []
+            },
+            "business_footer_vodafoneuk_iinvestors": {
+              "footerURL": "https://investors.vodafone.com/investor-relations",
+              "footerTitle": "For investors",
+              "name": "business_footer_vodafoneuk_iinvestors",
+              "id": 1523363525382,
+              "content": [],
+              "friendlyName": "business_footer_vodafoneuk_iinvestors",
+              "parents": []
+            },
+            "for_the_media": {
+              "footerURL": "https://mediacentre.vodafone.co.uk/",
+              "footerTitle": "For the media",
+              "name": "for_media",
+              "id": 1480076512236,
+              "content": [],
+              "friendlyName": "for_the_media",
+              "parents": []
+            },
+            "footer_Sustainable_business": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/sustainable-business",
+              "footerTitle": "Sustainable business",
+              "name": "footer_Sustainable_business",
+              "id": 1523345165515,
+              "content": [],
+              "friendlyName": "footer_Sustainable_business",
+              "parents": []
+            },
+            "why_choose_us": {
+              "footerURL": "https://www.vodafone.co.uk/explore/benefits/",
+              "footerTitle": "Why choose us?",
+              "name": "why_choose_us",
+              "id": 1480076512375,
+              "content": [],
+              "friendlyName": "why_choose_us",
+              "parents": []
+            },
+            "Digital_Parenting": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/digital-parenting",
+              "footerTitle": "Digital Parenting",
+              "name": "Digital_Parenting",
+              "id": 1523348094440,
+              "content": [],
+              "friendlyName": "Digital_Parenting",
+              "parents": []
+            },
+            "anti-slavery_statement": {
+              "footerURL": "https://www.vodafone.com/sites/default/files/2021-05/modern-slavery-statement-2020-21.pdf",
+              "footerTitle": "Modern Slavery Statement",
+              "name": "anti-slavery_Statement",
+              "id": 1494513146654,
+              "content": [],
+              "friendlyName": "anti-slavery_statement",
+              "parents": []
+            },
+            "Careers": {
+              "footerURL": "https://careers.vodafone.co.uk/",
+              "footerTitle": "Careers",
+              "name": "Careers",
+              "id": 1480076512498,
+              "content": [],
+              "friendlyName": "Careers",
+              "parents": []
+            }
+          },
+          "friendlyName": "business_footer_vodafoneuk",
+          "parents": []
+        }
+      },
+      "Textarea": "<p><small>Monthly price shown: will increase by the Consumer Price Index rate published in January of that year + an additional 3.9%. If you have a Device Plan, this will not affect your monthly Device Plan payments: vodafone.co.uk/pricechanges.</small></p> <p>Vodafone Limited is authorised and regulated by the Financial Conduct Authority for consumer credit lending and insurance distribution activity (Financial Services Register No. 712210) Registered in England and Wales. Company No 01471587. Registered Office: Vodafone House, The Connection, Newbury, Berkshire, RG14 2FN.</p>",
+      "name": "business_footer",
+      "bottomfooter": {
+        "terms_conditions": {
+          "footerURL": "https://www.vodafone.co.uk/terms-and-conditions/",
+          "footerTitle": "Terms & conditions",
+          "name": "Terms_Conditions",
+          "id": 1494512438044,
+          "content": [],
+          "friendlyName": "terms_conditions",
+          "parents": []
+        },
+        "siteMap_Business": {
+          "footerURL": "https://www.vodafone.co.uk/business/sitemap",
+          "footerTitle": "Site map",
+          "name": "siteMap_Business",
+          "id": 1523358042748,
+          "content": [],
+          "friendlyName": "siteMap_Business",
+          "parents": []
+        },
+        "privacy_policy": {
+          "footerURL": "https://www.vodafone.co.uk/privacy",
+          "footerTitle": "Privacy policy",
+          "name": "privacy_policy",
+          "id": 1494512438148,
+          "content": [],
+          "friendlyName": "privacy_policy",
+          "parents": []
+        },
+        "cookie_policy": {
+          "footerURL": "https://www.vodafone.co.uk/privacy#cookie-policy",
+          "footerTitle": "Cookie policy",
+          "name": "cookie_policy",
+          "id": 1494512438202,
+          "content": [],
+          "friendlyName": "cookie_policy",
+          "parents": []
+        },
+        "CPI_text": {
+          "heading": "Consumer Price Index (CPI) changes",
+          "name": "CPI_text",
+          "id": 1595442080571,
+          "text": "Monthly price shown plus all out of bundle charges will increase by the Consumer Price Index rate published in January of that year + an additional 3.9%. If you have a Device Plan, this will not affect your monthly Device Plan: vodafone.co.uk/pricechanges",
+          "friendlyName": "CPI_text",
+          "parents": []
+        }
+      },
+      "id": 1523354635636,
+      "friendlyName": "business_footer",
+      "parents": {
+        "Module_P:1480076231017": {
+          "name": "Organism-Footer",
+          "id": 1480076231017,
+          "parents": []
+        }
+      }
+    }
+  }
+]

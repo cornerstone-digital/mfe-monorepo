@@ -1,0 +1,317 @@
+{
+  "basketId": "f1ec98d6-8cf9-4be0-a8a0-4d23627e0d42",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2021-02-04T02:58:35.000Z",
+  "metadata": { "returnURL": null, "basketStatus": "INCOMPLETE", "salesOrderId": null, "reason": null },
+  "journey": { "journeyType": "Upgrade", "offerCode": null },
+  "packages": [
+    {
+      "packageId": "74024bbc-4a21-45fb-aab8-d71bd05729f2",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Upgrade",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": null,
+      "bundle": {
+        "packageLineId": "945125b1-74f3-4ce9-8d56-a7868f612b48",
+        "action": "ADD",
+        "skuId": "111990",
+        "name": "24m 2GB Xtra A Airtime Plan",
+        "description": "Xtra A Airtime Plan with unlimited mins unlimited texts and 2GB data",
+        "displayName": "24m 2GB Gold Airtime Plan",
+        "displayDescription": null,
+        "bundleClass": "SIMO",
+        "productClass": null,
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "red51",
+        "commitmentPeriod": { "uom": "Months", "value": "24" },
+        "displayOrder": 8,
+        "showInSummary": false,
+        "allowances": [
+          { "type": "UK DATA", "value": "2", "uom": "GB", "displayUom": "GB", "tilUom": "DATA" },
+          { "type": "UK MIN", "value": "Unlimited", "uom": "-", "displayUom": "minutes", "tilUom": "VOICE" },
+          { "type": "UK TEXT", "value": "Unlimited", "uom": "-", "displayUom": "texts", "tilUom": "SMS" },
+          { "type": "MMS", "value": "Unlimited", "uom": "-", "displayUom": "picture messages", "tilUom": "MMS" },
+          { "type": "UK MIN", "value": "Unlimited", "uom": "-", "displayUom": "minutes", "tilUom": "VOICE" },
+          { "type": "UK TEXT", "value": "Unlimited", "uom": "-", "displayUom": "texts", "tilUom": "SMS" },
+          { "type": "MMS", "value": "Unlimited", "uom": "-", "displayUom": "picture messages", "tilUom": "MMS" },
+          { "type": "MMS", "value": "Unlimited", "uom": "-", "displayUom": "picture messages", "tilUom": "MMS" },
+          { "type": "ORIGDATA", "value": "2", "uom": "GB", "displayUom": "GB", "tilUom": "DATA" },
+          { "type": "World Traveller", "value": "Vodafone Global Roaming", "uom": null, "displayUom": null, "tilUom": null }
+        ],
+        "merchandisingMedia": [
+          {
+            "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+            "value": "3-month free trial of Secure Net",
+            "type": "TEXT",
+            "footNotes": []
+          }
+        ],
+        "attributes": null,
+        "benefits": [{ "skuId": "030010" }, { "skuId": "030060" }, { "skuId": "030030" }, { "skuId": "030050" }],
+        "priceDetails": {
+          "monthlyPrice": { "gross": "18", "net": "15", "vat": "3" },
+          "monthlyDiscountPrice": { "gross": "18", "net": "15", "vat": "3" },
+          "totalMonthlySavingsAmount": null,
+          "merchandisingPromotions": null,
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": null
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": null,
+        "planCategory": "CONSUMER",
+        "portability": null,
+        "speed": null,
+        "maxCapSpeed": null,
+        "avgDownloadSpeed": null,
+        "includedCalls": null,
+        "noPriceRise": null,
+        "wifiExpert": null,
+        "isChanged": false
+      },
+      "hardwares": [],
+      "services": [
+        {
+          "packageLineId": "3a13f8cd-5deb-46c5-9bb2-2292a050f991",
+          "action": "RETAIN",
+          "skuId": "105694",
+          "name": "Extra 1GB data (monthly)",
+          "description": "This is a monthly product which will give you 1GB extra data. It'll renew automatically each month until you remove it. You can opt out at any time.",
+          "displayName": "Extra 1GB data (monthly)",
+          "displayDescription": null,
+          "specificationGroup": [],
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.full.hero",
+              "value": "https://www.vodafone.co.uk/broadband/120x120-mobile300-icon.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": null,
+            "oneOffDiscountPrice": null,
+            "monthlyPrice": { "gross": "6", "net": "5", "vat": "1" },
+            "monthlyDiscountPrice": { "gross": "6", "net": "5", "vat": "1" },
+            "merchandisingPromotions": null
+          },
+          "freeGift": false,
+          "productClass": "Data Add On",
+          "dataRollover": null,
+          "rootProductId": "110286",
+          "allowances": [{ "type": "UK DATA", "value": "1", "uom": "GB", "displayUom": null, "tilUom": null }],
+          "rewardPoints": null,
+          "planDuration": null,
+          "isChanged": false
+        },
+        {
+          "packageLineId": "855975a0-6a5d-42b9-8ea5-0e2a068b2f33",
+          "action": "RETAIN",
+          "skuId": "105672",
+          "name": "50 Euro EU RoW data spend cap",
+          "description": "You've chosen not to limit the amount of data you can use when travelling outside the UK. If you want to limit your spend on data to £39.33 a month just toggle to 'on'",
+          "displayName": "50 Euro EU RoW data spend cap",
+          "displayDescription": null,
+          "specificationGroup": [],
+          "merchandisingMedia": [],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": { "gross": "0", "net": "0", "vat": "0" },
+            "oneOffDiscountPrice": { "gross": "0", "net": "0", "vat": "0" },
+            "monthlyPrice": null,
+            "monthlyDiscountPrice": null,
+            "merchandisingPromotions": null
+          },
+          "freeGift": false,
+          "productClass": "Data Notification",
+          "dataRollover": null,
+          "rootProductId": "110286",
+          "allowances": [],
+          "rewardPoints": null,
+          "planDuration": null,
+          "isChanged": false
+        },
+        {
+          "packageLineId": "e2871328-31f8-44f7-9f9d-8dd55ab0bb17",
+          "action": "RETAIN",
+          "skuId": "104006",
+          "name": "Extra - 100 international texts abroad from the UK",
+          "description": "We'll add the cost to your bill every month, and you can opt out at any time.",
+          "displayName": "100 International Texts",
+          "displayDescription": null,
+          "specificationGroup": [],
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.full.hero",
+              "value": "https://www.vodafone.co.uk/broadband/120x120-mobile300-icon.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": null,
+            "oneOffDiscountPrice": null,
+            "monthlyPrice": { "gross": "5", "net": "4.17", "vat": "0.83" },
+            "monthlyDiscountPrice": { "gross": "5", "net": "4.17", "vat": "0.83" },
+            "merchandisingPromotions": null
+          },
+          "freeGift": false,
+          "productClass": "International Messaging Add On",
+          "dataRollover": null,
+          "rootProductId": "110286",
+          "allowances": [{ "type": "UK TEXT", "value": "100", "uom": "-", "displayUom": null, "tilUom": null }],
+          "rewardPoints": null,
+          "planDuration": null,
+          "isChanged": false
+        },
+        {
+          "packageLineId": "ac899787-23fa-46cf-8f8a-fc2b48163c5a",
+          "action": "RETAIN",
+          "skuId": "109908",
+          "name": "Vodafone Secure Net",
+          "description": null,
+          "displayName": "Vodafone Secure Net",
+          "displayDescription": null,
+          "specificationGroup": [],
+          "merchandisingMedia": [],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": null,
+            "oneOffDiscountPrice": null,
+            "monthlyPrice": { "gross": "1", "net": "0.83", "vat": "0.17" },
+            "monthlyDiscountPrice": { "gross": "1", "net": "0.83", "vat": "0.17" },
+            "merchandisingPromotions": null
+          },
+          "freeGift": false,
+          "productClass": "Secure Network",
+          "dataRollover": null,
+          "rootProductId": "110286",
+          "allowances": [],
+          "rewardPoints": null,
+          "planDuration": null,
+          "isChanged": false
+        }
+      ],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": { "gross": "0", "net": "0", "vat": "0" },
+        "oneOffDiscountPrice": { "gross": "0", "net": "0", "vat": "0" },
+        "monthlyPrice": { "gross": "30", "net": "25", "vat": "5" },
+        "monthlyDiscountPrice": { "gross": "30", "net": "25", "vat": "5" },
+        "financingOptions": null
+      },
+      "installationAddress": null,
+      "appointmentWindow": null,
+      "servicePoint": {
+        "lineRefernece": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": { "serviceCode": null, "installationCode": null, "terminationCode": null },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "lineReference": {
+          "lineLocator": {
+            "exchangeCode": null,
+            "exchangeName": null,
+            "districtCode": null,
+            "l2SID": null,
+            "cableLinkID": null,
+            "distributionPoint": null
+          },
+          "lineSettings": { "serviceCode": null, "installationCode": null, "terminationCode": null },
+          "lineStatus": {
+            "statusCode": null,
+            "accessLineStatus": null,
+            "gnpStatus": null,
+            "lineOption": null,
+            "technology": null,
+            "lineType": null,
+            "tempStructure": false,
+            "standbyPowerRequired": false,
+            "narrowBandServicesAvailable": "null"
+          },
+          "availableServices": null,
+          "lineDirectory": null
+        },
+        "serviceReference": { "serviceLines": [] }
+      },
+      "serviceStartDate": null,
+      "phoneNumber": null,
+      "primaryDeviceIdentifier": null,
+      "packageLinkIdentifier": null,
+      "linePackageType": null,
+      "lineTreatmentType": null,
+      "planType": "BINGO",
+      "combiPackageId": null,
+      "confirmRequired": false,
+      "deviceFinancingId": null,
+      "additionalDetails": {},
+      "isChanged": false
+    }
+  ],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": { "gross": "0", "net": "0", "vat": "0" },
+    "oneOffDiscountPrice": { "gross": "0", "net": "0", "vat": "0" },
+    "monthlyPrice": { "gross": "30", "net": "25", "vat": "5" },
+    "monthlyDiscountPrice": { "gross": "30", "net": "25", "vat": "5" },
+    "totalOneoffSaving": { "gross": "0", "net": "0", "vat": "0" },
+    "totalMonthlySaving": { "gross": "0", "net": "0", "vat": "0" }
+  },
+  "totalOneoffPriceSaving": "0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "1837984150",
+  "lastModified": "2021-02-04T14:58:39.979Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [
+    {
+      "packageLineId": "4c16d035-89d6-4df7-82df-a4c1220df176",
+      "bundleId": "110082",
+      "identifier": { "key": "msisdn", "value": "447000000000" },
+      "assetIntegrationId": "1-470I9UF",
+      "activeDiscounts": [],
+      "bundlePrice": {
+        "bundleId": "110082",
+        "monthlyPrice": { "gross": "54.40", "net": "45.33", "vat": "9.07" },
+        "monthlyDiscountPrice": { "gross": "54.40", "net": "45.33", "vat": "9.07" },
+        "merchandisingPromotions": null
+      },
+      "planStartDate": null,
+      "isActiveSubscription": true
+    }
+  ],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

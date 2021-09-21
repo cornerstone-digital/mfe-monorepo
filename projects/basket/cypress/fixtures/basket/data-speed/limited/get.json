@@ -1,0 +1,517 @@
+{
+  "basketId": "64cdef57-3ef7-4801-9faf-dd730f3edeeb",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2020-10-16T09:21:22.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [{
+    "packageId": "67719193-dcb3-484b-b098-d6d4e355888b",
+    "accountCategory": "Consumer",
+    "sequence": 1,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "9550d418-1248-434c-b2fe-d61b6fd483a6",
+      "action": "ADD",
+      "skuId": "112367",
+      "name": "24m Band A Limited Lite Plan",
+      "description": "CTR16 Limited Lite Plan with Speed Tier 1",
+      "displayName": "Limited plan example",
+      "displayDescription": "Good for browsing, catching up on social media and streaming music.",
+      "bundleClass": "HANDSET",
+      "productClass": null,
+      "serviceId": "110286",
+      "paymentType": "Postpaid",
+      "bundleType": "unlimited51",
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "24"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": [{
+        "type": "ORIGDATA",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "MB",
+        "tilUom": "DATA"
+      }, {
+        "type": "MMS",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "picture messages",
+        "tilUom": "MMS"
+      }, {
+        "type": "UK TEXT",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "texts",
+        "tilUom": "SMS"
+      }, {
+        "type": "UK MIN",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "minutes",
+        "tilUom": "VOICE"
+      }, {
+        "type": "World Traveller",
+        "value": "Vodafone Global Roaming",
+        "uom": null,
+        "displayUom": null,
+        "tilUom": null
+      }, {
+        "type": "UK DATA",
+        "value": "Unlimited",
+        "uom": "-",
+        "displayUom": "MB",
+        "tilUom": "DATA"
+      }],
+      "merchandisingMedia": [{
+        "id": "conditional_full_discount.merchandisingPromotions.merchandisingPromotion.description",
+        "value": "£8 Trade In Promotional discount ",
+        "type": "TEXT",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/small/great_for_icons_lite.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "full_duration.merchandisingPromotions.merchandisingPromotion.description",
+        "value": "Min ATL £1",
+        "type": "TEXT",
+        "footNotes": [""]
+      }, {
+        "id": "full_duration.merchandisingPromotions.merchandisingPromotion.label",
+        "value": "Min ATL £1",
+        "type": "TEXT",
+        "footNotes": [""]
+      }, {
+        "id": "conditional_full_discount.merchandisingPromotions.merchandisingPromotion.label",
+        "value": "£8 Trade In Promotional discount ",
+        "type": "TEXT",
+        "footNotes": [""]
+      }, {
+        "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+        "value": "3-month free trial of Secure Net",
+        "type": "TEXT",
+        "footNotes": [""]
+      }],
+      "attributes": null,
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "66",
+          "net": "55",
+          "vat": "11"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "57",
+          "net": "47.50",
+          "vat": "9.50"
+        },
+        "totalMonthlySavingsAmount": {
+          "uom": "£",
+          "net": 7.5,
+          "vat": 1.5,
+          "gross": 9
+        },
+        "merchandisingPromotions": {
+          "tag": "ATL1_Min_full_duration_MD_OFF",
+          "label": "Min ATL £1",
+          "description": "Min ATL £1 - Phone Plan",
+          "discountId": "107384",
+          "mpType": "full_duration",
+          "priceEstablishedLabel": "Usually",
+          "priority": "6001",
+          "packageType": ["Acquisition", "Upgrade", "SecondLine"],
+          "footNotes": [""],
+          "confirmRequired": true,
+          "offerGroup": null,
+          "belowTheLine": "false",
+          "qualifier": null,
+          "category": null
+        },
+        "listOfMerchandisingPromotion": [{
+          "tag": "ATL1_Min_full_duration_MD_OFF",
+          "label": "Min ATL £1",
+          "description": "Min ATL £1 - Phone Plan",
+          "discountId": "107384",
+          "mpType": "full_duration",
+          "priceEstablishedLabel": "Usually",
+          "priority": "6001",
+          "packageType": ["Acquisition", "Upgrade", "SecondLine"],
+          "footNotes": [""],
+          "confirmRequired": true,
+          "offerGroup": null,
+          "belowTheLine": "false",
+          "qualifier": null,
+          "category": null
+        }, {
+          "tag": "Trade_In_PayM_8",
+          "label": "£8 Trade In Promotional discount ",
+          "description": "£8 Trade In Promotional discount - Phone Plan",
+          "discountId": "112020",
+          "mpType": "conditional_full_discount",
+          "priceEstablishedLabel": "Was",
+          "priority": "397",
+          "packageType": ["Acquisition", "SecondLine", "Upgrade"],
+          "footNotes": [""],
+          "confirmRequired": true,
+          "offerGroup": "trade-in",
+          "belowTheLine": "false",
+          "qualifier": null,
+          "category": null
+        }],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": true,
+      "bundledServiceProducts": [],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": null,
+      "avgDownloadSpeed": null,
+      "includedCalls": null,
+      "noPriceRise": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+      "packageLineId": "0b1b1d59-cbd4-4660-9ccb-5682f937a818",
+      "action": "ADD",
+      "skuId": "204512",
+      "name": "Apple iPhone 11 Pro 64GB midnight green",
+      "description": "An all-new triple-camera, the fastest chip in a smartphone and a Super Retina XDR display. iPhone just went Pro.",
+      "displayName": "Apple iPhone 11 Pro 64GB Midnight Green",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": "apple",
+      "model": "iphone-11-pro",
+      "groupType": "DEVICE_PAYM",
+      "productClass": "eHandset",
+      "productSubClass": "HANDSET",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.full.hero",
+        "value": "/images/desktop/Apple_iPhone_11_Pro_midnight_green-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.right",
+        "value": "/images/desktop/Apple_iPhone_11_Pro_midnight_green-thumbs-right.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.side",
+        "value": "/images/desktop/Apple_iPhone_11_Pro_midnight_green-thumbs-side.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.back",
+        "value": "/images/desktop/Apple_iPhone_11_Pro_midnight_green-thumbs-back.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.right",
+        "value": "/images/desktop/Apple_iPhone_11_Pro_midnight_green-full-product-right-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.back",
+        "value": "/images/desktop/Apple_iPhone_11_Pro_midnight_green-full-product-back-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.left",
+        "value": "/images/desktop/Apple_iPhone_11_Pro_midnight_green-full-product-left-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.left",
+        "value": "/images/desktop/Apple_iPhone_11_Pro_midnight_green-thumbs-left.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.front",
+        "value": "/images/desktop/Apple_iPhone_11_Pro_midnight_green-full-product-front-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/desktop/Apple_iPhone_11_Pro_midnight_green-thumbs-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.full.side",
+        "value": "/images/desktop/Apple_iPhone_11_Pro_midnight_green-full-product-side-600.png",
+        "type": "URL",
+        "footNotes": [""]
+      }, {
+        "id": "imageURLs.grid",
+        "value": "/images/desktop/Apple_iPhone_11_Pro_new_midnight_green-grid-product-front.png",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "29",
+          "net": "24.17",
+          "vat": "4.83"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "878.23",
+        "net": "731.86",
+        "vat": "146.37"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "HYBRID",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }, {
+      "packageLineId": "81205bbf-d852-46ac-982c-81d82fbed648",
+      "action": "ADD",
+      "skuId": "086532",
+      "name": "Blank White Triple Format SIM",
+      "description": null,
+      "displayName": "3-in-1 SIM",
+      "displayDescription": null,
+      "deviceBriefDescription": [],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": null,
+      "model": null,
+      "groupType": null,
+      "productClass": "SIM Card",
+      "productSubClass": "Core",
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "0.0",
+        "net": "0.0",
+        "vat": "0.0"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }],
+    "services": [],
+    "discounts": [{
+      "productLineId": "aa2359d1-09a0-442f-8033-e2659f950cdf",
+      "action": "DISCOUNT",
+      "skuId": "107384",
+      "tag": "Trade_In_PayM_8",
+      "label": "£8 Trade In Promotional discount ",
+      "tenure": "FULL",
+      "duration": "27 Months",
+      "confirmedRequired": "true",
+      "merchandisingMedia": [],
+      "discountValue": {
+        "type": "GBP",
+        "value": "0.8333333"
+      }
+    }, {
+      "productLineId": "b8d1c72b-58fe-4b81-b6cc-5f6c4364ea99",
+      "action": "DISCOUNT",
+      "skuId": "112020",
+      "tag": "Trade_In_PayM_8",
+      "label": "£8 Trade In Promotional discount ",
+      "tenure": "FULL",
+      "duration": "27 Months",
+      "confirmedRequired": "true",
+      "merchandisingMedia": [],
+      "discountValue": {
+        "type": "GBP",
+        "value": "6.6667"
+      }
+    }],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "29",
+        "net": "24.17",
+        "vat": "4.83"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "29",
+        "net": "24.17",
+        "vat": "4.83"
+      },
+      "monthlyPrice": {
+        "gross": "66",
+        "net": "55",
+        "vat": "11"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "57",
+        "net": "47.50",
+        "vat": "9.50"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": null,
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": null,
+          "exchangeName": null,
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": null,
+          "accessLineStatus": null,
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": null
+      },
+      "serviceReference": {
+        "serviceLines": []
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": null,
+    "lineTreatmentType": null,
+    "planType": "HANDSET",
+    "combiPackageId": null,
+    "confirmRequired": true,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "isChanged": false
+  }],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "29",
+      "net": "24.17",
+      "vat": "4.83"
+    },
+    "monthlyPrice": {
+      "gross": "66",
+      "net": "55",
+      "vat": "11"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "57",
+      "net": "47.50",
+      "vat": "9.50"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "9",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "817280708",
+  "lastModified": "2020-10-16T09:30:35.060Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [],
+  "loanEligibilityStatus": null,
+  "affiliateFlag": false,
+  "isChanged": false
+}

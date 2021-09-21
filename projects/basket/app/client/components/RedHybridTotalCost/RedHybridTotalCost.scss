@@ -1,0 +1,26 @@
+@import 'node_modules/@vfuk/web-core/resources/resources.scss';
+
+.row {
+  padding: $spacing-fixed-4 0 $spacing-fixed-2;
+}
+
+.label-container {
+  margin: 0;
+
+  span {
+    display: block;
+    font-size: 12px;
+    margin-left: $spacing-fixed-1;
+
+    @include md {
+      margin-left: $spacing-fixed-2;
+      font-size: $base-font-size;
+    }
+  }
+}
+
+.discount-container {
+  padding: $spacing-fixed-4 0 $spacing-fixed-2;
+  color: $color-dark-red;
+  border-bottom: 1px solid $color-pale-grey;
+}

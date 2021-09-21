@@ -1,0 +1,581 @@
+[
+  {
+    "consumer_footer": {
+      "rightFooter": {
+        "forms": {
+          "footerURL": "https://forum.vodafone.co.uk/",
+          "footerTitle": "Ask our community",
+          "name": "Ask_our_community",
+          "id": 1480076139519,
+          "content": [],
+          "friendlyName": "forms",
+          "parents": []
+        }
+      },
+      "moduleSubType": "footer",
+      "leftFooter": {
+        "Facebook": {
+          "footerIcon": {
+            "IMG_Facebook": {
+              "medium2XImage_bloblink_": "/en/assets/images/medium2X/IMG_Facebook.png",
+              "largeImage_bloblink_": "/en/assets/images/large/IMG_Facebook.png",
+              "extralargeImage_bloblink_": "/en/assets/images/extralarge/IMG_Facebook.png",
+              "smallImage_bloblink_": "/en/assets/images/small/IMG_Facebook.png",
+              "mediumImage_bloblink_": "/en/assets/images/medium/IMG_Facebook.png",
+              "desktopImage_bloblink_": "/en/assets/images/desktop/facebook-lrg[1].png",
+              "name": "Facebook",
+              "id": 1480076138848,
+              "friendlyName": "IMG_Facebook",
+              "parents": {
+                "Image_P:1480076234475": {
+                  "name": "Image Media",
+                  "id": 1480076234475,
+                  "parents": []
+                }
+              },
+              "large2XImage_bloblink_": "/en/assets/images/large2X/IMG_Facebook.png"
+            }
+          },
+          "footerURL": "https://www.facebook.com/vodafoneUK",
+          "footerTitle": "Facebook",
+          "name": "Facebook",
+          "id": 1480076138787,
+          "content": [],
+          "friendlyName": "Facebook",
+          "parents": []
+        },
+        "twitter": {
+          "footerIcon": {
+            "IMG_Twitter": {
+              "medium2XImage_bloblink_": "/en/assets/images/medium2X/IMG_Twitter.png",
+              "largeImage_bloblink_": "/en/assets/images/large/IMG_Twitter.png",
+              "extralargeImage_bloblink_": "/en/assets/images/extralarge/IMG_Twitter.png",
+              "smallImage_bloblink_": "/en/assets/images/small/IMG_Twitter.png",
+              "mediumImage_bloblink_": "/en/assets/images/medium/IMG_Twitter.png",
+              "desktopImage_bloblink_": "/en/assets/images/desktop/twitter-lrg[1].png",
+              "name": "Twitter",
+              "id": 1480076138929,
+              "friendlyName": "IMG_Twitter",
+              "parents": {
+                "Image_P:1480076234475": {
+                  "name": "Image Media",
+                  "id": 1480076234475,
+                  "parents": []
+                }
+              },
+              "large2XImage_bloblink_": "/en/assets/images/large2X/IMG_Twitter.png"
+            }
+          },
+          "footerURL": "https://twitter.com/vodafoneuk",
+          "footerTitle": "Twitter",
+          "name": "Twitter",
+          "id": 1480076139409,
+          "content": [],
+          "friendlyName": "twitter",
+          "parents": []
+        }
+      },
+      "content": {
+        "footer_Buying": {
+          "footerURL": "#",
+          "footerTitle": "Buying online",
+          "name": "footer_Buying_online",
+          "id": 1480076139661,
+          "content": {
+            "paymonthly": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts",
+              "footerTitle": "Pay monthly deals",
+              "name": "footer_Pay_monthly_deals",
+              "id": 1480076139737,
+              "content": [],
+              "friendlyName": "paymonthly",
+              "parents": []
+            },
+            "pm": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/phones/pay-as-you-go",
+              "footerTitle": "Pay as you go deals",
+              "name": "footer_Pay_as_you_go_deals",
+              "id": 1480076139903,
+              "content": [],
+              "friendlyName": "pm",
+              "parents": []
+            },
+            "simonly": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/best-sim-only-deals",
+              "footerTitle": "SIM only deals",
+              "name": "footer_SIM_only_deals",
+              "id": 1480076140105,
+              "content": [],
+              "friendlyName": "simonly",
+              "parents": {
+                "Molecules_P:1480076229147": {
+                  "name": "Footer",
+                  "id": 1480076229147,
+                  "parents": []
+                }
+              }
+            },
+            "ipad": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/ipads-and-tablets",
+              "footerTitle": "iPad and tablets",
+              "name": "footer_iPad_and_tablets",
+              "id": 1480076140258,
+              "content": [],
+              "friendlyName": "ipad",
+              "parents": []
+            },
+            "mobile_broadband": {
+              "footerURL": "https://www.vodafone.co.uk/mobile-broadband-deals",
+              "footerTitle": "Mobile Broadband",
+              "name": "footer_mobileBroadBand",
+              "id": 1494512430270,
+              "content": [],
+              "friendlyName": "mobile_broadband",
+              "parents": []
+            },
+            "home_broadband": {
+              "footerURL": "https://www.vodafone.co.uk/broadband",
+              "footerTitle": "Home Broadband",
+              "name": "footer_homeBroadband",
+              "id": 1494512430337,
+              "content": [],
+              "friendlyName": "home_broadband",
+              "parents": []
+            },
+            "footer_VOXI": {
+              "footerURL": "https://www.voxi.co.uk",
+              "footerTitle": "VOXI",
+              "name": "footer_VOXI",
+              "id": 1494515000933,
+              "content": [],
+              "friendlyName": "footer_VOXI",
+              "parents": []
+            },
+            "VodafoneSmartTech": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/smart-tech",
+              "footerTitle": "Vodafone Smart Tech",
+              "name": "footer_Vodafone_Smart_Tech",
+              "id": 1494512431018,
+              "content": [],
+              "friendlyName": "VodafoneSmartTech",
+              "parents": []
+            },
+            "footer_VodafoneRecommends": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/best-for",
+              "footerTitle": "Vodafone recommends",
+              "name": "footer_VodafoneRecommends",
+              "id": 1522087606394,
+              "content": [],
+              "friendlyName": "footer_VodafoneRecommends",
+              "parents": {
+                "Molecules_P:1480076229147": {
+                  "name": "Footer",
+                  "id": 1480076229147,
+                  "parents": []
+                }
+              }
+            },
+            "footer_Deals_and_offers": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/deals-and-offers",
+              "footerTitle": "Deals and offers",
+              "name": "footer_Deals_and_offers",
+              "id": 1523381650806,
+              "content": [],
+              "friendlyName": "footer_Deals_and_offers",
+              "parents": []
+            },
+            "footer_Annual_Upgrade_Promise": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/upgrade-promise",
+              "footerTitle": "Annual Upgrade Promise",
+              "name": "footer_Annual_Upgrade_Promise",
+              "id": 1595430281660,
+              "content": [],
+              "friendlyName": "footer_Annual_Upgrade_Promise",
+              "parents": []
+            },
+            "footer_Unbeatable_Broadband": {
+              "footerURL": "https://www.vodafone.co.uk/broadband/pro",
+              "footerTitle": "Unbeatable Broadband",
+              "name": "footer_Unbeatable_Broadband",
+              "id": 1595435364145,
+              "content": [],
+              "friendlyName": "footer_Unbeatable_Broadband",
+              "parents": []
+            }
+          },
+          "friendlyName": "footer_Buying",
+          "parents": []
+        },
+        "footer_Latest_phones": {
+          "footerURL": "#",
+          "footerTitle": "Latest phones",
+          "name": "footer_Latest_phones",
+          "id": 1523367285410,
+          "content": {
+            "footer_iPhone_12_Pro_Max": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/apple/iphone-12-pro-max",
+              "footerTitle": "iPhone 12 Pro Max",
+              "name": "footer_iPhone_12_Pro_Max",
+              "id": 1595425054258,
+              "content": [],
+              "friendlyName": "footer_iPhone_12_Pro_Max",
+              "parents": []
+            },
+            "footer_iPhone_12_mini": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/apple/iphone-12-mini",
+              "footerTitle": "iPhone 12 mini",
+              "name": "footer_iPhone_12_mini",
+              "id": 1595425054351,
+              "content": [],
+              "friendlyName": "footer_iPhone_12_mini",
+              "parents": []
+            },
+            "footer_iPhone_12": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/apple/iphone-12",
+              "footerTitle": "iPhone 12",
+              "name": "footer_iPhone_12",
+              "id": 1595424518999,
+              "content": [],
+              "friendlyName": "footer_iPhone_12",
+              "parents": []
+            },
+            "footer_iPhone_12_Pro": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/apple/iphone-12-pro",
+              "footerTitle": "iPhone 12 Pro",
+              "name": "footer_iPhone_12_Pro",
+              "id": 1595424519137,
+              "content": [],
+              "friendlyName": "footer_iPhone_12_Pro",
+              "parents": []
+            },
+            "footer_iPhone_SE": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/apple/iphone-se-2020",
+              "footerTitle": "iPhone SE",
+              "name": "footer_iPhone_SE",
+              "id": 1523345163700,
+              "content": [],
+              "friendlyName": "footer_iPhone_SE",
+              "parents": []
+            },
+            "footer_Galaxy_S21_Ultra_5G": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/samsung/galaxy-s21-ultra-5g",
+              "footerTitle": "Galaxy S21 Ultra 5G",
+              "name": "footer_Galaxy_S21_Ultra_5G",
+              "id": 1595429784329,
+              "content": [],
+              "friendlyName": "footer_Galaxy_S21_Ultra_5G",
+              "parents": []
+            },
+            "footer_Galaxy_S21_5G": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/samsung/galaxy-s21-5g",
+              "footerTitle": "Galaxy S21 5G",
+              "name": "footer_Galaxy_S21_5G",
+              "id": 1595429785026,
+              "content": [],
+              "friendlyName": "footer_Galaxy_S21_5G",
+              "parents": []
+            },
+            "footer_Galaxy_S21_Plus_5G": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/samsung/galaxy-s21-plus-5g",
+              "footerTitle": "Galaxy S21+ 5G",
+              "name": "footer_Galaxy_S21_Plus_5G",
+              "id": 1595429785186,
+              "content": [],
+              "friendlyName": "footer_Galaxy_S21_Plus_5G",
+              "parents": []
+            },
+            "footer_Google_Pixel_5_5G": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/phones/pay-monthly-contracts/google/pixel-5-5g",
+              "footerTitle": "Google Pixel 5 5G",
+              "name": "footer_Google_Pixel_5_5G",
+              "id": 1595424519667,
+              "content": [],
+              "friendlyName": "footer_Google_Pixel_5_5G",
+              "parents": []
+            },
+            "footer_New_phones": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/coming-soon/recently-released",
+              "footerTitle": "New phones",
+              "name": "footer_New_phones",
+              "id": 1523381649927,
+              "content": [],
+              "friendlyName": "footer_New_phones",
+              "parents": []
+            },
+            "footer_5G_phones": {
+              "footerURL": "https://www.vodafone.co.uk/mobile/5g-phones",
+              "footerTitle": "5G phones",
+              "name": "footer_5G_phones",
+              "id": 1523381649581,
+              "content": [],
+              "friendlyName": "footer_5G_phones",
+              "parents": []
+            }
+          },
+          "friendlyName": "footer_Latest_phones",
+          "parents": []
+        },
+        "HelpNSupport": {
+          "footerURL": "/",
+          "footerTitle": "Help & Support",
+          "name": "Help_and_Support",
+          "id": 1494512369919,
+          "content": {
+            "Allhelptopics": {
+              "footerURL": "https://support.vodafone.co.uk/",
+              "footerTitle": "All help topics",
+              "name": "All_help_topics",
+              "id": 1494512370051,
+              "content": [],
+              "friendlyName": "Allhelptopics",
+              "parents": []
+            },
+            "Helpwithyourdevice": {
+              "footerURL": "https://deviceguides.vodafone.co.uk/",
+              "footerTitle": "Help with your device",
+              "name": "Help_with_your_device",
+              "id": 1494512370253,
+              "content": [],
+              "friendlyName": "Helpwithyourdevice",
+              "parents": []
+            },
+            "Lost_orstolendevices": {
+              "footerURL": "https://www.vodafone.co.uk/myvodafone/faces/lostandstolen",
+              "footerTitle": "Lost or stolen devices",
+              "name": "Lost_or_stolen_devices",
+              "id": 1494512370375,
+              "content": [],
+              "friendlyName": "Lost_orstolendevices",
+              "parents": {
+                "Molecules_P:1480076229147": {
+                  "name": "Footer",
+                  "id": 1480076229147,
+                  "parents": []
+                }
+              }
+            },
+            "Helpwithmyaccount": {
+              "footerURL": "https://www.vodafone.co.uk/help-and-information/accessibility/i-need-help-managing-my-account",
+              "footerTitle": "Help with my account",
+              "name": "Help_with_my_account",
+              "id": 1494512377371,
+              "content": [],
+              "friendlyName": "Helpwithmyaccount",
+              "parents": []
+            },
+            "footer_Find_a_Store": {
+              "footerURL": "https://www.vodafone.co.uk/help-and-information/store-locator",
+              "footerTitle": "Find a store",
+              "name": "footer_Find_a_Store",
+              "id": 1494512431674,
+              "content": [],
+              "friendlyName": "footer_Find_a_Store",
+              "parents": []
+            },
+            "footer_contactus": {
+              "footerURL": "https://www.vodafone.co.uk/contact-us",
+              "footerTitle": "Contact us",
+              "name": "footer_contactus",
+              "id": 1494512431764,
+              "content": [],
+              "friendlyName": "footer_contactus",
+              "parents": []
+            },
+            "footer_complaints_code": {
+              "footerURL": "https://www.vodafone.co.uk/help-and-information/complaints/code-of-practice",
+              "footerTitle": "Complaints code",
+              "name": "footer_complaints_code",
+              "id": 1523382501085,
+              "content": [],
+              "friendlyName": "footer_complaints_code",
+              "parents": []
+            },
+            "returnProduct": {
+              "footerURL": "https://www.vodafone.co.uk/my-vodafone-account/orders/returns",
+              "footerTitle": "Return a product",
+              "name": "footer_returnProduct",
+              "id": 1494512432475,
+              "content": [],
+              "friendlyName": "returnProduct",
+              "parents": {
+                "Molecules_P:1480076229147": {
+                  "name": "Footer",
+                  "id": 1480076229147,
+                  "parents": []
+                }
+              }
+            },
+            "footer_tobi": {
+              "footerURL": "https://www.vodafone.co.uk/help-and-information/introducing-tobi",
+              "footerTitle": "TOBi",
+              "name": "footer_tobi",
+              "id": 1595422207710,
+              "content": [],
+              "friendlyName": "footer_tobi",
+              "parents": []
+            },
+            "footer_charge_checker_uk": {
+              "footerURL": "https://www.vodafone.co.uk/help-and-information/costs-and-charges/charge-checker-uk",
+              "footerTitle": "Charge Checker – UK",
+              "name": "footer_charge_checker_uk",
+              "id": 1595440448387,
+              "content": [],
+              "friendlyName": "footer_charge_checker_uk",
+              "parents": []
+            }
+          },
+          "friendlyName": "HelpNSupport",
+          "parents": []
+        },
+        "footer_vodafoneuk": {
+          "footerURL": "#",
+          "footerTitle": "Vodafone UK",
+          "name": "footer_VodafoneUK",
+          "id": 1480076511906,
+          "content": {
+            "footer_AboutUs": {
+              "footerURL": "/about-us",
+              "footerTitle": "About us",
+              "name": "footer_AboutUs",
+              "id": 1480076512132,
+              "content": [],
+              "friendlyName": "footer_AboutUs",
+              "parents": []
+            },
+            "for_investors": {
+              "footerURL": "https://investors.vodafone.com/",
+              "footerTitle": "For investors",
+              "name": "for_investors",
+              "id": 1480076512185,
+              "content": [],
+              "friendlyName": "for_investors",
+              "parents": []
+            },
+            "footer_News_centre": {
+              "footerURL": "https://newscentre.vodafone.co.uk",
+              "footerTitle": "News Centre",
+              "name": "footer_News_centre",
+              "id": 1523369257478,
+              "content": [],
+              "friendlyName": "footer_News_centre",
+              "parents": []
+            },
+            "why_choose_us": {
+              "footerURL": "https://www.vodafone.co.uk/explore/benefits/",
+              "footerTitle": "Why choose us?",
+              "name": "why_choose_us",
+              "id": 1480076512375,
+              "content": [],
+              "friendlyName": "why_choose_us",
+              "parents": []
+            },
+            "anti-slavery_statement": {
+              "footerURL": "https://www.vodafone.com/sites/default/files/2021-05/modern-slavery-statement-2020-21.pdf",
+              "footerTitle": "Modern Slavery Statement",
+              "name": "anti-slavery_Statement",
+              "id": 1494513146654,
+              "content": [],
+              "friendlyName": "anti-slavery_statement",
+              "parents": []
+            },
+            "footer_accessibility": {
+              "footerURL": "https://www.vodafone.co.uk/help-and-information/accessibility",
+              "footerTitle": "Accessibility",
+              "name": "footer_accessibility",
+              "id": 1494512431585,
+              "content": [],
+              "friendlyName": "footer_accessibility",
+              "parents": []
+            },
+            "Careers": {
+              "footerURL": "https://careers.vodafone.co.uk/",
+              "footerTitle": "Careers",
+              "name": "Careers",
+              "id": 1480076512498,
+              "content": [],
+              "friendlyName": "Careers",
+              "parents": []
+            },
+            "User research": {
+              "footerURL": "https://www.vodafone.co.uk/user-research",
+              "footerTitle": "User research",
+              "name": "User research",
+              "id": 1595422103690,
+              "content": [],
+              "friendlyName": "User research",
+              "parents": []
+            }
+          },
+          "friendlyName": "footer_vodafoneuk",
+          "parents": []
+        }
+      },
+      "Textarea": "<p><small><strong>Consumer Price Index (CPI) changes</strong><br>Monthly price shown plus all out of bundle charges will increase by the Consumer Price Index rate published in January of that year + an additional 3.9%. If you have a Device Plan, this will not affect your monthly Device Plan: vodafone.co.uk/pricechanges.</small></p>\r\n<p>Vodafone Limited is authorised and regulated by the Financial Conduct Authority for consumer credit lending and insurance distribution activity (Financial Services Register No. 712210) Registered in England and Wales. Company No 01471587. Registered Office: Vodafone House, The Connection, Newbury, Berkshire, RG14 2FN.</p>",
+      "name": "consumer_footer",
+      "bottomfooter": {
+        "terms_conditions": {
+          "footerURL": "https://www.vodafone.co.uk/terms-and-conditions/",
+          "footerTitle": "Terms & conditions",
+          "name": "Terms_Conditions",
+          "id": 1494512438044,
+          "content": [],
+          "friendlyName": "terms_conditions",
+          "parents": []
+        },
+        "site_map": {
+          "footerURL": "https://www.vodafone.co.uk/about-this-site/sitemap/",
+          "footerTitle": "Site map",
+          "name": "siteMap",
+          "id": 1494512438096,
+          "content": [],
+          "friendlyName": "site_map",
+          "parents": []
+        },
+        "privacy_policy": {
+          "footerURL": "https://www.vodafone.co.uk/privacy",
+          "footerTitle": "Privacy policy",
+          "name": "privacy_policy",
+          "id": 1494512438148,
+          "content": [],
+          "friendlyName": "privacy_policy",
+          "parents": []
+        },
+        "cookie_policy": {
+          "footerURL": "https://www.vodafone.co.uk/privacy#cookie-policy",
+          "footerTitle": "Cookie policy",
+          "name": "cookie_policy",
+          "id": 1494512438202,
+          "content": [],
+          "friendlyName": "cookie_policy",
+          "parents": []
+        },
+        "CPI_text": {
+          "heading": "Consumer Price Index (CPI) changes",
+          "name": "CPI_text",
+          "id": 1595442080571,
+          "text": "Monthly price shown plus all out of bundle charges will increase by the Consumer Price Index rate published in January of that year + an additional 3.9%. If you have a Device Plan, this will not affect your monthly Device Plan: vodafone.co.uk/pricechanges",
+          "friendlyName": "CPI_text",
+          "parents": []
+        },
+        "copyright": {
+          "heading": "Copyright",
+          "additionalText": "Registered in England and Wales. Company No 01471587. Registered office: Vodafone House, The Connection, Newbury, Berkshire RG14 2FN.",
+          "name": "copyright",
+          "id": 1595442080668,
+          "text": "Vodafone Limited is authorised and regulated by the Financial Conduct Authority for consumer credit lending and insurance distribution activity (Financial Services Register No. 712210)",
+          "friendlyName": "copyright",
+          "parents": []
+        }
+      },
+      "id": 1523357303667,
+      "friendlyName": "consumer_footer",
+      "parents": {
+        "Module_P:1480076231017": {
+          "name": "Organism-Footer",
+          "id": 1480076231017,
+          "parents": []
+        }
+      }
+    }
+  }
+]

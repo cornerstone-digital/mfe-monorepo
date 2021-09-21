@@ -1,0 +1,6 @@
+{
+  "errorCode": "BSKT_INVALID_INPUT_037",
+  "errorMessage": "You cannot have both PAYM and PAYG packages in the Basket.",
+  "referenceId": "50bd5fd2-0797-40f5-9736-932a6c808dbc",
+  "validationDetails": null
+}

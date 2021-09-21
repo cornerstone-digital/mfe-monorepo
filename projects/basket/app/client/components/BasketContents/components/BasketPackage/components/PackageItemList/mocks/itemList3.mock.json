@@ -1,0 +1,505 @@
+{
+  "modelPackage": [
+    {
+      "packageId": "c94e970b-5a7b-4de8-aac1-624e168f4480",
+      "accountCategory": "Consumer",
+      "sequence": 1,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": "",
+      "bundle": {
+        "packageLineId": "bcfd6c94-2eb0-458a-8374-72cde5291b97",
+        "action": "ADD",
+        "skuId": "111148",
+        "name": "TEST USE ONLY Superfast 1 Home Broadband & Phone - FTR6 18m",
+        "description": "This is a Consumer line of Superfast 1 Fibre Broadband and Home Phone, contract term 18m",
+        "displayName": "TEST USE ONLY Superfast 1 Home Broadband & Phone - FTR6 18m",
+        "displayDescription": "",
+        "bundleClass": "HANDSET",
+        "productClass": "",
+        "serviceId": "107552",
+        "paymentType": "Postpaid",
+        "bundleType": "",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "18"
+        },
+        "displayOrder": "",
+        "showInSummary": false,
+        "allowances": [],
+        "merchandisingMedia": [
+          {
+            "id": "multi_package_discount.merchandisingPromotions.merchandisingPromotion.label",
+            "value": "Combined Combi Discount £18",
+            "type": "TEXT",
+            "footNotes": [
+              "Great! You are eligible for &pound;18 discount on your Superfast Broadband on buying with SIMO 18m unlimited plan"
+            ]
+          },
+          {
+            "id": "multi_package_discount.merchandisingPromotions.merchandisingPromotion.description",
+            "value": "&pound;18 discount on any Superfast Broadband when bought with any Unlimited 18 month SIMO",
+            "type": "TEXT",
+            "footNotes": [
+              "Great! You are eligible for &pound;18 discount on your Superfast Broadband on buying with SIMO 18m unlimited plan"
+            ]
+          }
+        ],
+        "attributes": "",
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "22",
+            "net": "18.33",
+            "vat": "3.67"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "4",
+            "net": "3.33",
+            "vat": "0.67"
+          },
+          "merchandisingPromotions": {
+            "tag": "OFF100002",
+            "label": "Combined Combi Discount £18",
+            "description": "&pound;18 discount on any Superfast Broadband when bought with any Unlimited 18 month SIMO",
+            "discountId": "111129,111110",
+            "mpType": "multi_package_discount",
+            "priceEstablishedLabel": "",
+            "priority": "3",
+            "packageType": [
+              "Acquisition",
+              "Upgrade",
+              "SecondLine"
+            ],
+            "footNotes": [
+              "Great! You are eligible for &pound;18 discount on your Superfast Broadband on buying with SIMO 18m unlimited plan"
+            ],
+            "confirmRequired": false,
+            "offerGroup": "Combined Combi",
+            "belowTheLine": "false",
+            "qualifier": {
+              "bundleId": "111145",
+              "identifier": {
+                "key": "PackageId",
+                "value": "7a66d8f4-3097-42ef-9587-e86bfa057adb"
+              }
+            },
+            "category": "Distinct"
+          },
+          "listOfMerchandisingPromotion": [
+            {
+              "tag": "OFF100002",
+              "label": "Combined Combi Discount £18",
+              "description": "&pound;18 discount on any Superfast Broadband when bought with any Unlimited 18 month SIMO",
+              "discountId": "111129,111110",
+              "mpType": "multi_package_discount",
+              "priceEstablishedLabel": "",
+              "priority": "3",
+              "packageType": [
+                "Acquisition",
+                "Upgrade",
+                "SecondLine"
+              ],
+              "footNotes": [
+                "Great! You are eligible for &pound;18 discount on your Superfast Broadband on buying with SIMO 18m unlimited plan"
+              ],
+              "confirmRequired": false,
+              "offerGroup": "Combined Combi",
+              "belowTheLine": "false",
+              "qualifier": {
+                "bundleId": "111145",
+                "identifier": {
+                  "key": "PackageId",
+                  "value": "7a66d8f4-3097-42ef-9587-e86bfa057adb"
+                }
+              },
+              "category": "Distinct"
+            }
+          ],
+          "removedPromotionFootNote": ""
+        },
+        "isVodafoneGlobalRoaming": false,
+        "bundledServiceProducts": [
+          {
+            "skuId": "107552",
+            "name": "Fixed Broadband Service",
+            "description": "Fixed Broadband Service",
+            "productClass": "Fixed Broadband Service",
+            "servicePointId": "107577",
+            "priceDetail": {
+              "oneOffPrice": "",
+              "oneOffDiscountPrice": "",
+              "monthlyPrice": {
+                "gross": "22",
+                "net": "18.33",
+                "vat": "3.67"
+              },
+              "monthlyDiscountPrice": "",
+              "merchandisingPromotions": ""
+            },
+            "miscellaneous": [
+              {
+                "name": "SERVICE POINT",
+                "value": "Unlimited Fibre 38"
+              }
+            ]
+          },
+          {
+            "skuId": "107551",
+            "name": "Fixed Line Service",
+            "description": "Fixed Line Service",
+            "productClass": "Fixed Line",
+            "servicePointId": "107554",
+            "priceDetail": {
+              "oneOffPrice": "",
+              "oneOffDiscountPrice": "",
+              "monthlyPrice": {
+                "gross": "0",
+                "net": "0",
+                "vat": "0"
+              },
+              "monthlyDiscountPrice": "",
+              "merchandisingPromotions": ""
+            },
+            "miscellaneous": [
+              {
+                "name": "SERVICE POINT",
+                "value": "Land Line"
+              }
+            ]
+          }
+        ],
+        "planCategory": "CONSUMER",
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "caa23910-94e9-40e2-834e-45bacd46b3e2",
+          "action": "ADD",
+          "skuId": "085897",
+          "name": "Vodafone Broadband router",
+          "description": "",
+          "displayName": "Vodafone Broadband router",
+          "displayDescription": "",
+          "deviceBriefDescription": "",
+          "deviceColor": "",
+          "memorySize": "",
+          "make": "",
+          "model": "",
+          "groupType": "",
+          "productClass": "Fixed Broadband Equipment",
+          "displayOrder": "",
+          "showInSummary": false,
+          "merchandisingMedia": [
+            {
+              "id": "imageURLs.thumbs.front",
+              "value": "http://www.vodafone.co.uk/cs/groups/public/documents/webcontent/img_170x170_vox_25_huawei_uk_f.png",
+              "type": "URL",
+              "footNotes": []
+            }
+          ],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": {
+              "tag": "Router.Discount",
+              "label": "25% of on router cost",
+              "description": "",
+              "discountId": "",
+              "mpType": "upfront_discount",
+              "priceEstablishedLabel": "Was",
+              "priority": "17",
+              "packageType": [
+                "Acquisition",
+                "Upgrade",
+                "SecondLine"
+              ],
+              "footNotes": [
+                "Get 25% of on Router Price"
+              ],
+              "confirmRequired": false,
+              "offerGroup": "",
+              "belowTheLine": "false",
+              "qualifier": "",
+              "category": ""
+            },
+            "monthlyPrice": {
+              "gross": "",
+              "net": "",
+              "vat": ""
+            },
+            "monthlyDiscountPrice": {
+              "gross": "",
+              "net": "",
+              "vat": ""
+            },
+            "financingOptions": "",
+            "deviceFinancingId": ""
+          },
+          "boxPrice": {
+            "gross": "48.81",
+            "net": "40.67",
+            "vat": "8.13"
+          },
+          "freeGift": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [
+        {
+          "productLineId": "e89417d7-c45c-4888-9b3e-1aadde68da4a",
+          "action": "DISCOUNT",
+          "skuId": "111110",
+          "tag": "OFF100002",
+          "label": "Combined Combi Discount £18",
+          "tenure": "",
+          "duration": "",
+          "confirmedRequired": "false",
+          "merchandisingMedia": [],
+          "discountValue": {
+            "type": "GBP",
+            "value": "1.6666666"
+          }
+        },
+        {
+          "productLineId": "1e3b68b4-a395-4836-895e-0363d0eb763e",
+          "action": "DISCOUNT",
+          "skuId": "111129",
+          "tag": "OFF100002",
+          "label": "Combined Combi Discount £18",
+          "tenure": "",
+          "duration": "",
+          "confirmedRequired": "false",
+          "merchandisingMedia": [],
+          "discountValue": {
+            "type": "GBP",
+            "value": "13.333333"
+          }
+        }
+      ],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "monthlyPrice": {
+          "gross": "22",
+          "net": "18.33",
+          "vat": "3.67"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "4",
+          "net": "3.33",
+          "vat": "0.67"
+        },
+        "financingOptions": ""
+      },
+      "installationAddress": "",
+      "appointmentWindow": "",
+      "servicePoint": {
+        "lineRefernece": "",
+        "serviceReference": {
+          "serviceLines": ""
+        }
+      },
+      "serviceStartDate": "",
+      "phoneNumber": "",
+      "linePackageType": "",
+      "lineTreatmentType": "",
+      "planType": "BroadBand:FTTC",
+      "combiPackageId": "7b53a5a0-ce46-4855-85a0-88834dd73255",
+      "deviceFinancingId": "",
+      "isChanged": false
+    },
+    {
+      "packageId": "7a66d8f4-3097-42ef-9587-e86bfa057adb",
+      "accountCategory": "Consumer",
+      "sequence": 2,
+      "packageType": "Acquisition",
+      "removable": true,
+      "dependentOn": [],
+      "voucherCode": "",
+      "bundle": {
+        "packageLineId": "97ff9e76-0d44-4bc4-bacd-b63be5bd48e7",
+        "action": "ADD",
+        "skuId": "111145",
+        "name": "18mth SIMO Unlimited Plan",
+        "description": "CTR15 18m SIMO Plan comes with unlimited minutes unlimited texts and unlimited data",
+        "displayName": "18mth SIMO Unlimited Plan",
+        "displayDescription": "",
+        "bundleClass": "SIMO",
+        "productClass": "",
+        "serviceId": "110286",
+        "paymentType": "Postpaid",
+        "bundleType": "Red Extra",
+        "commitmentPeriod": {
+          "uom": "Months",
+          "value": "18"
+        },
+        "displayOrder": "",
+        "showInSummary": false,
+        "allowances": [
+          {
+            "type": "UK TEXT",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "texts",
+            "tilUom": "SMS"
+          },
+          {
+            "type": "UK DATA",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "MB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "UK MIN",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "minutes",
+            "tilUom": "VOICE"
+          },
+          {
+            "type": "ORIGDATA",
+            "value": "Unlimited",
+            "uom": "-",
+            "displayUom": "MB",
+            "tilUom": "DATA"
+          },
+          {
+            "type": "World Traveller",
+            "value": "Vodafone Global Roaming",
+            "uom": "",
+            "displayUom": "",
+            "tilUom": ""
+          }
+        ],
+        "merchandisingMedia": [],
+        "attributes": "",
+        "priceDetails": {
+          "monthlyPrice": {
+            "gross": "60",
+            "net": "50",
+            "vat": "10"
+          },
+          "monthlyDiscountPrice": {
+            "gross": "60",
+            "net": "50",
+            "vat": "10"
+          },
+          "merchandisingPromotions": "",
+          "listOfMerchandisingPromotion": [],
+          "removedPromotionFootNote": ""
+        },
+        "isVodafoneGlobalRoaming": true,
+        "bundledServiceProducts": "",
+        "planCategory": "",
+        "isChanged": false
+      },
+      "hardwares": [
+        {
+          "packageLineId": "bfab58a6-e7f8-4636-95b4-63b92f0215fa",
+          "action": "ADD",
+          "skuId": "086532",
+          "name": "Blank White Triple Format SIM",
+          "description": "",
+          "displayName": "3-in-1 SIM",
+          "displayDescription": "",
+          "deviceBriefDescription": "",
+          "deviceColor": "",
+          "memorySize": "",
+          "make": "",
+          "model": "",
+          "groupType": "",
+          "productClass": "SIM Card",
+          "displayOrder": "",
+          "showInSummary": false,
+          "merchandisingMedia": [],
+          "attributes": [],
+          "priceDetails": {
+            "oneOffPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "oneOffDiscountPrice": {
+              "gross": "0",
+              "net": "0",
+              "vat": "0"
+            },
+            "merchandisingPromotions": "",
+            "monthlyPrice": "",
+            "monthlyDiscountPrice": "",
+            "financingOptions": "",
+            "deviceFinancingId": ""
+          },
+          "boxPrice": {
+            "gross": "0.0",
+            "net": "0.0",
+            "vat": "0.0"
+          },
+          "freeGift": false,
+          "isChanged": false
+        }
+      ],
+      "services": [],
+      "discounts": [],
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "",
+          "net": "",
+          "vat": ""
+        },
+        "oneOffDiscountPrice": {
+          "gross": "",
+          "net": "",
+          "vat": ""
+        },
+        "monthlyPrice": {
+          "gross": "60",
+          "net": "50",
+          "vat": "10"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "60",
+          "net": "50",
+          "vat": "10"
+        },
+        "financingOptions": ""
+      },
+      "installationAddress": "",
+      "appointmentWindow": "",
+      "servicePoint": {
+        "lineRefernece": "",
+        "serviceReference": {
+          "serviceLines": ""
+        }
+      },
+      "serviceStartDate": "",
+      "phoneNumber": "",
+      "linePackageType": "",
+      "lineTreatmentType": "",
+      "planType": "SIMO",
+      "combiPackageId": "7b53a5a0-ce46-4855-85a0-88834dd73255",
+      "deviceFinancingId": "",
+      "isChanged": false
+    }
+  ]
+}

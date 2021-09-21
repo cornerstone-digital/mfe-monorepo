@@ -1,0 +1,22 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    // For ESLint
+    "source.fixAll.eslint": true,
+    // For TSLint
+    "source.fixAll.tslint": true,
+    // For Stylelint
+    "source.fixAll.stylelint": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "eslint.alwaysShowStatus": true,
+  "eslint.lintTask.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.validate": ["typescript"],
+  "files.associations": {
+    "**/cicd/*.yaml": "azure-pipelines"
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.referencesCodeLens.enabled": true
+}

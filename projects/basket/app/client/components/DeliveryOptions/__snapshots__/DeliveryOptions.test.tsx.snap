@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeliveryOptions /> renders without exploding 1`] = `
+<BlockContainer
+  appearance="light1"
+  borderAppearance="shadow"
+  collapse={
+    Object {
+      "collapsable": true,
+      "label": "Hide",
+    }
+  }
+  guttering="none"
+  heading={
+    Object {
+      "fontWeight": "extra-bold",
+      "level": 5,
+      "marginVertical": 1,
+      "size": 5,
+      "text": "Delivery options",
+    }
+  }
+  marginTop={2}
+  theme={null}
+>
+  <Container
+    fullHeight={false}
+    gutters="horizontal"
+  >
+    <Heading
+      appearance="inherit"
+      focusable={false}
+      fontWeight="bold"
+      level={5}
+      marginVertical={1}
+      size={5}
+      theme={null}
+    >
+      Free standard delivery or collection
+    </Heading>
+    <Paragraph
+      theme={null}
+    >
+      You can have your order sent to any address in the UK or collect it from a Vodafone store near you.
+    </Paragraph>
+  </Container>
+  <Grid
+    center={true}
+    maxWidth="full"
+  >
+    <Grid
+      disableFlex={false}
+      marginTop={4}
+      noGutters={false}
+    >
+      <Grid
+        className="column"
+      >
+        <div>
+          <div
+            className="header"
+          >
+            <Icon
+              appearance="inherit"
+              marginRight={2}
+              name="store"
+              responsive={true}
+              size={3}
+              theme={null}
+            />
+            <Heading
+              appearance="inherit"
+              focusable={false}
+              fontWeight="bold"
+              level={5}
+              size={5}
+              theme={null}
+            >
+              Click and collect
+            </Heading>
+          </div>
+          <Paragraph
+            theme={null}
+          >
+            Collect from your local Vodafone store.
+          </Paragraph>
+        </div>
+      </Grid>
+      <Grid
+        className="column"
+      >
+        <div>
+          <div
+            className="header"
+          >
+            <Icon
+              appearance="inherit"
+              marginRight={2}
+              name="delivery"
+              responsive={true}
+              size={3}
+              theme={null}
+            />
+            <Heading
+              appearance="inherit"
+              focusable={false}
+              fontWeight="bold"
+              level={5}
+              size={5}
+              theme={null}
+            >
+              Standard delivery
+            </Heading>
+          </div>
+          <Paragraph
+            theme={null}
+          >
+            Order 
+            <strong>
+              before 10pm 
+            </strong>
+             for free next day delivery.
+          </Paragraph>
+        </div>
+      </Grid>
+      <Grid
+        className="column"
+      >
+        <div>
+          <div
+            className="header"
+          >
+            <Icon
+              appearance="inherit"
+              marginRight={2}
+              name="express-delivery"
+              responsive={true}
+              size={3}
+              theme={null}
+            />
+            <Heading
+              appearance="inherit"
+              focusable={false}
+              fontWeight="bold"
+              level={5}
+              size={5}
+              theme={null}
+            >
+              Premium delivery
+            </Heading>
+          </div>
+          <Paragraph
+            theme={null}
+          >
+            Get next working day delivery and choose a time slot that suits.
+          </Paragraph>
+        </div>
+      </Grid>
+    </Grid>
+  </Grid>
+  <Container
+    fullHeight={false}
+    gutters="all"
+  >
+    <Paragraph
+      theme={null}
+    >
+      Please choose your delivery option when you reach the checkout.
+    </Paragraph>
+  </Container>
+</BlockContainer>
+`;

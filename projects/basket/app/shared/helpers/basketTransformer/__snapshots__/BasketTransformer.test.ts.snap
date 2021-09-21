@@ -1,0 +1,741 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BasketTransformer should transform the basket 1`] = `
+Object {
+  "affiliateFlag": false,
+  "basketId": "3a1ea657-3ee8-4375-84c8-929f5f14588c",
+  "customerRequestedDate": "2018-10-03T10:48:13.000Z",
+  "hashvalue": "965400216",
+  "isBannerHidden": false,
+  "isBusiness": false,
+  "isChanged": false,
+  "isReviewMode": true,
+  "isSmallBusiness": false,
+  "isUpgradeOrder": false,
+  "metadata": Object {
+    "basketStatus": "INCOMPLETE",
+    "reason": "",
+    "returnURL": "",
+    "salesOrderId": "",
+  },
+  "packages": Array [
+    Object {
+      "accountCategory": "Consumer",
+      "bundle": Object {
+        "action": "ADD",
+        "allowances": Array [
+          Object {
+            "displayUom": "GB",
+            "tilUom": "DATA",
+            "type": "UK DATA",
+            "uom": "GB",
+            "value": "8",
+          },
+          Object {
+            "displayUom": "minutes",
+            "tilUom": "VOICE",
+            "type": "UK MIN",
+            "uom": "-",
+            "value": "Unlimited",
+          },
+          Object {
+            "displayUom": "GB",
+            "tilUom": "DATA",
+            "type": "ORIGDATA",
+            "uom": "GB",
+            "value": "8",
+          },
+          Object {
+            "displayUom": "minutes",
+            "tilUom": "INTLVOICE",
+            "type": "UK MIN",
+            "uom": "-",
+            "value": "500",
+          },
+          Object {
+            "displayUom": "texts",
+            "tilUom": "SMS",
+            "type": "UK TEXT",
+            "uom": "-",
+            "value": "Unlimited",
+          },
+        ],
+        "bundleClass": "HANDSET",
+        "bundleType": "Red Entertainment",
+        "bundledServiceProducts": Array [],
+        "commitmentPeriod": Object {
+          "uom": "Months",
+          "value": "18",
+        },
+        "description": "Red Entertainment Plan comes with unlimited mins, unlimited texts, 8GB data, 500m to EU & VGRPlus",
+        "displayDescription": "",
+        "displayName": "8GB Red Entertainment plan",
+        "isChanged": false,
+        "isVodafoneGlobalRoaming": true,
+        "merchandisingMedia": Array [
+          Object {
+            "footNotes": Array [
+              "",
+            ],
+            "id": "entertainment.merchandisingPromotions.merchandisingPromotion.PromotionMedia",
+            "type": "URL",
+            "value": "/images/desktop/img_mef_ent_packs.png",
+          },
+          Object {
+            "footNotes": Array [
+              "",
+            ],
+            "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+            "type": "TEXT",
+            "value": "3-month free trial of Secure Net",
+          },
+          Object {
+            "footNotes": Array [
+              "",
+            ],
+            "id": "entertainment.merchandisingPromotions.merchandisingPromotion.label",
+            "type": "TEXT",
+            "value": "Your choice of entertainment for 24 months",
+          },
+        ],
+        "name": "24mth Band E Unlmin 8GB Red Entertainment Plan with 500m to EU and VGRPlus",
+        "packageLineId": "ecc44220-186a-4aab-a6bc-f236d273b131",
+        "paymentType": "Postpaid",
+        "planCategory": "",
+        "priceDetails": Object {
+          "merchandisingPromotions": Object {},
+          "monthlyDiscountPrice": Object {
+            "gross": "51",
+            "net": "42.50",
+            "vat": "8.50",
+          },
+          "monthlyPrice": Object {
+            "gross": "51",
+            "net": "42.50",
+            "vat": "8.50",
+          },
+        },
+        "productClass": "",
+        "serviceId": "110286",
+        "showInSummary": false,
+        "skuId": "111079",
+      },
+      "dependentOn": Array [
+        "",
+      ],
+      "hardwares": Array [
+        Object {
+          "action": "ADD",
+          "boxPrice": Object {
+            "gross": "0.0",
+            "net": "0.0",
+            "vat": "0.0",
+          },
+          "description": "",
+          "deviceBriefDescription": Array [],
+          "deviceColor": "",
+          "displayDescription": "",
+          "displayName": "3-in-1 SIM",
+          "freeGift": false,
+          "groupType": "",
+          "isChanged": false,
+          "make": "",
+          "memorySize": "",
+          "merchandisingMedia": Array [],
+          "model": "",
+          "name": "Blank White Triple Format SIM",
+          "packageLineId": "b8158d37-5e98-4550-833b-094d1b9a3d18",
+          "priceDetails": Object {
+            "oneOffDiscountPrice": Object {
+              "gross": "0",
+              "net": "0",
+              "vat": "0",
+            },
+            "oneOffPrice": Object {
+              "gross": "0",
+              "net": "0",
+              "vat": "0",
+            },
+          },
+          "productClass": "SIM Card",
+          "showInSummary": false,
+          "skuId": "086532",
+        },
+        Object {
+          "action": "ADD",
+          "boxPrice": Object {
+            "gross": "432.0",
+            "net": "360.0",
+            "vat": "72.0",
+          },
+          "description": "Boundary-breaking design, check. Infinity Display, check. Personal assistant in your pocket? Check. Samsung S8 has it all.",
+          "deviceBriefDescription": Array [],
+          "deviceColor": "Orchid Grey",
+          "displayDescription": "",
+          "displayName": "Samsung Galaxy S8 64GB Orchid Grey",
+          "freeGift": false,
+          "groupType": "DEVICE_PAYM",
+          "isChanged": false,
+          "make": "samsung",
+          "memorySize": "64 GB",
+          "merchandisingMedia": Array [
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.thumbs.back",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-back.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.grid",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-grid-product-front.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.thumbs.left",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-left.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.full.right",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-right.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.full.hero",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-front.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.thumbs.front",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-front.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.thumbs.side",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-side.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.full.left",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-left.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.full.back",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-back.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.full.front",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-front.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.full.side",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-side.png",
+            },
+            Object {
+              "id": "imageURLs.thumbs.right",
+              "planCategory": Array [
+                "",
+              ],
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-right.png",
+            },
+          ],
+          "model": "galaxy-s8",
+          "name": "Samsung Galaxy S8 orchid grey",
+          "packageLineId": "7bfe074b-bab4-4e90-9145-782afbb3fc41",
+          "priceDetails": Object {
+            "oneOffDiscountPrice": Object {
+              "gross": "9",
+              "net": "7.50",
+              "vat": "1.50",
+            },
+            "oneOffPrice": Object {
+              "gross": "9",
+              "net": "7.50",
+              "vat": "1.50",
+            },
+          },
+          "productClass": "Handset",
+          "showInSummary": false,
+          "skuId": "090357",
+        },
+      ],
+      "isChanged": false,
+      "packageId": "fee83b9d-d084-4ae3-a198-9ff630665159",
+      "packageType": "Acquisition",
+      "planType": "SIMO",
+      "priceDetails": Object {
+        "monthlyDiscountPrice": Object {
+          "gross": "51",
+          "net": "42.50",
+          "vat": "8.50",
+        },
+        "monthlyPrice": Object {
+          "gross": "51",
+          "net": "42.50",
+          "vat": "8.50",
+        },
+        "oneOffDiscountPrice": Object {
+          "gross": "9",
+          "net": "7.50",
+          "vat": "1.50",
+        },
+        "oneOffPrice": Object {
+          "gross": "9",
+          "net": "7.50",
+          "vat": "1.50",
+        },
+      },
+      "removable": true,
+      "sequence": 1,
+      "services": Array [
+        Object {
+          "action": "ADD",
+          "dataRollover": "",
+          "description": "",
+          "displayDescription": "",
+          "displayName": "Loss, theft, damage and breakdown cover",
+          "freeGift": false,
+          "isChanged": false,
+          "merchandisingMedia": Array [],
+          "name": "Vodafone Insurance: Tier 1 Loss Theft and Damage",
+          "packageLineId": "17e76d94-44b7-4e00-935a-e2e0b283cdfa",
+          "priceDetails": Object {
+            "monthlyDiscountPrice": Object {
+              "gross": "13.50",
+              "net": "13.50",
+              "vat": "0",
+            },
+            "monthlyPrice": Object {
+              "gross": "13.50",
+              "net": "13.50",
+              "vat": "0",
+            },
+          },
+          "productClass": "Insurance",
+          "rewardPoints": "",
+          "rootProductId": "110461",
+          "skuId": "110461",
+          "specificationGroup": Array [],
+        },
+      ],
+      "tradeInCredit": Object {
+        "credit": Object {
+          "creditProductId": 94568,
+          "guaranteedPrice": 380,
+          "type": "BACS",
+        },
+        "deviceId": "16096626-c46d-4caa-8dxx-2ce5b2516455",
+        "deviceName": "Apple iPhone11pro 256Gb black",
+        "diagnostic": true,
+        "expiryDateTime": "2022-05-20T09:09:48",
+        "grade": Object {
+          "condition": "working",
+        },
+        "quoteId": "15670678-b46d-4cef-8d3a-2ce5b2516c63",
+      },
+      "tradeInOfferCode": "Tier2",
+      "voucherCode": "",
+    },
+    Object {
+      "accountCategory": "Consumer",
+      "bundle": Object {
+        "action": "ADD",
+        "allowances": Array [
+          Object {
+            "displayUom": "GB",
+            "tilUom": "DATA",
+            "type": "UK DATA",
+            "uom": "GB",
+            "value": "8",
+          },
+          Object {
+            "displayUom": "minutes",
+            "tilUom": "VOICE",
+            "type": "UK MIN",
+            "uom": "-",
+            "value": "Unlimited",
+          },
+          Object {
+            "displayUom": "GB",
+            "tilUom": "DATA",
+            "type": "ORIGDATA",
+            "uom": "GB",
+            "value": "8",
+          },
+          Object {
+            "displayUom": "minutes",
+            "tilUom": "INTLVOICE",
+            "type": "UK MIN",
+            "uom": "-",
+            "value": "500",
+          },
+          Object {
+            "displayUom": "texts",
+            "tilUom": "SMS",
+            "type": "UK TEXT",
+            "uom": "-",
+            "value": "Unlimited",
+          },
+        ],
+        "bundleClass": "HANDSET",
+        "bundleType": "Red Entertainment",
+        "bundledServiceProducts": Array [],
+        "commitmentPeriod": Object {
+          "uom": "Months",
+          "value": "18",
+        },
+        "description": "Red Entertainment Plan comes with unlimited mins, unlimited texts, 8GB data, 500m to EU & VGRPlus",
+        "displayDescription": "",
+        "displayName": "8GB Red Entertainment plan",
+        "isChanged": false,
+        "isVodafoneGlobalRoaming": true,
+        "merchandisingMedia": Array [
+          Object {
+            "footNotes": Array [
+              "",
+            ],
+            "id": "entertainment.merchandisingPromotions.merchandisingPromotion.PromotionMedia",
+            "type": "URL",
+            "value": "/images/desktop/img_mef_ent_packs.png",
+          },
+          Object {
+            "footNotes": Array [
+              "",
+            ],
+            "id": "securenet.merchandisingPromotions.merchandisingPromotion.label",
+            "type": "TEXT",
+            "value": "3-month free trial of Secure Net",
+          },
+          Object {
+            "footNotes": Array [
+              "",
+            ],
+            "id": "entertainment.merchandisingPromotions.merchandisingPromotion.label",
+            "type": "TEXT",
+            "value": "Your choice of entertainment for 24 months",
+          },
+        ],
+        "name": "24mth Band E Unlmin 8GB Red Entertainment Plan with 500m to EU and VGRPlus",
+        "packageLineId": "ecc44220-186a-4aab-a6bc-f236d273b131",
+        "paymentType": "Postpaid",
+        "planCategory": "",
+        "priceDetails": Object {
+          "monthlyDiscountPrice": Object {
+            "gross": "51",
+            "net": "42.50",
+            "vat": "8.50",
+          },
+          "monthlyPrice": Object {
+            "gross": "51",
+            "net": "42.50",
+            "vat": "8.50",
+          },
+        },
+        "productClass": "",
+        "serviceId": "110286",
+        "showInSummary": false,
+        "skuId": "111079",
+      },
+      "dependentOn": Array [
+        "",
+      ],
+      "hardwares": Array [
+        Object {
+          "action": "ADD",
+          "boxPrice": Object {
+            "gross": "0.0",
+            "net": "0.0",
+            "vat": "0.0",
+          },
+          "description": "",
+          "deviceBriefDescription": Array [],
+          "deviceColor": "",
+          "displayDescription": "",
+          "displayName": "3-in-1 SIM",
+          "freeGift": false,
+          "groupType": "",
+          "isChanged": false,
+          "make": "",
+          "memorySize": "",
+          "merchandisingMedia": Array [],
+          "model": "",
+          "name": "Blank White Triple Format SIM",
+          "packageLineId": "b8158d37-5e98-4550-833b-094d1b9a3d18",
+          "priceDetails": Object {
+            "oneOffDiscountPrice": Object {
+              "gross": "0",
+              "net": "0",
+              "vat": "0",
+            },
+            "oneOffPrice": Object {
+              "gross": "0",
+              "net": "0",
+              "vat": "0",
+            },
+          },
+          "productClass": "SIM Card",
+          "showInSummary": false,
+          "skuId": "086532",
+        },
+        Object {
+          "action": "ADD",
+          "boxPrice": Object {
+            "gross": "432.0",
+            "net": "360.0",
+            "vat": "72.0",
+          },
+          "description": "Boundary-breaking design, check. Infinity Display, check. Personal assistant in your pocket? Check. Samsung S8 has it all.",
+          "deviceBriefDescription": Array [],
+          "deviceColor": "Orchid Grey",
+          "displayDescription": "",
+          "displayName": "Samsung Galaxy S8 64GB Orchid Grey",
+          "freeGift": false,
+          "groupType": "DEVICE_PAYM",
+          "isChanged": false,
+          "make": "samsung",
+          "memorySize": "64 GB",
+          "merchandisingMedia": Array [
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.thumbs.back",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-back.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.grid",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-grid-product-front.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.thumbs.left",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-left.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.full.right",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-right.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.full.hero",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-front.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.thumbs.front",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-front.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.thumbs.side",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-side.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.full.left",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-left.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.full.back",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-back.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.full.front",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-front.png",
+            },
+            Object {
+              "footNotes": Array [
+                "",
+              ],
+              "id": "imageURLs.full.side",
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-full-product-side.png",
+            },
+            Object {
+              "id": "imageURLs.thumbs.right",
+              "planCategory": Array [
+                "",
+              ],
+              "type": "URL",
+              "value": "/images/desktop/Samsung_Galaxy_s8_orchid_grey-thumbs-right.png",
+            },
+          ],
+          "model": "galaxy-s8",
+          "name": "Samsung Galaxy S8 orchid grey",
+          "packageLineId": "7bfe074b-bab4-4e90-9145-782afbb3fc41",
+          "priceDetails": Object {
+            "oneOffDiscountPrice": Object {
+              "gross": "9",
+              "net": "7.50",
+              "vat": "1.50",
+            },
+            "oneOffPrice": Object {
+              "gross": "9",
+              "net": "7.50",
+              "vat": "1.50",
+            },
+          },
+          "productClass": "Handset",
+          "showInSummary": false,
+          "skuId": "090357",
+        },
+      ],
+      "isChanged": false,
+      "packageId": "20434cf7-be99-4e9d-878d-b9bac8f83072",
+      "packageType": "Acquisition",
+      "planType": "BroadBand:FTTC",
+      "priceDetails": Object {
+        "monthlyDiscountPrice": Object {
+          "gross": "51",
+          "net": "42.50",
+          "vat": "8.50",
+        },
+        "monthlyPrice": Object {
+          "gross": "51",
+          "net": "42.50",
+          "vat": "8.50",
+        },
+        "oneOffDiscountPrice": Object {
+          "gross": "9",
+          "net": "7.50",
+          "vat": "1.50",
+        },
+        "oneOffPrice": Object {
+          "gross": "9",
+          "net": "7.50",
+          "vat": "1.50",
+        },
+      },
+      "removable": true,
+      "sequence": 1,
+      "services": Array [
+        Object {
+          "action": "ADD",
+          "dataRollover": "",
+          "description": "",
+          "displayDescription": "",
+          "displayName": "Loss, theft, damage and breakdown cover",
+          "freeGift": false,
+          "isChanged": false,
+          "merchandisingMedia": Array [],
+          "name": "Vodafone Insurance: Tier 1 Loss Theft and Damage",
+          "packageLineId": "17e76d94-44b7-4e00-935a-e2e0b283cdfa",
+          "priceDetails": Object {
+            "monthlyDiscountPrice": Object {
+              "gross": "13.50",
+              "net": "13.50",
+              "vat": "0",
+            },
+            "monthlyPrice": Object {
+              "gross": "13.50",
+              "net": "13.50",
+              "vat": "0",
+            },
+          },
+          "productClass": "Insurance",
+          "rewardPoints": "",
+          "rootProductId": "110461",
+          "skuId": "110461",
+          "specificationGroup": Array [],
+        },
+      ],
+      "voucherCode": "",
+    },
+  ],
+  "priceDetails": Object {
+    "monthlyDiscountPrice": Object {
+      "gross": "51",
+      "net": "42.50",
+      "vat": "8.50",
+    },
+    "monthlyPrice": Object {
+      "gross": "51",
+      "net": "42.50",
+      "vat": "8.50",
+    },
+    "oneOffDiscountPrice": Object {
+      "gross": "9",
+      "net": "7.50",
+      "vat": "1.50",
+    },
+    "oneOffPrice": Object {
+      "gross": "9",
+      "net": "7.50",
+      "vat": "1.50",
+    },
+  },
+  "source": "WCS",
+  "totalMonthlyPriceSaving": "0",
+  "totalOneoffPriceSaving": "0.0",
+  "validated": false,
+}
+`;

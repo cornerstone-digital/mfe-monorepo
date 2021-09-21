@@ -1,0 +1,2685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="43" failures="40" errors="0" time="10.737">
+  <testsuite name="BasketModal" errors="0" failures="40" skipped="0" timestamp="2021-09-22T09:46:33" time="9.912" tests="43">
+    <testcase classname="BasketModal should have &quot;Delete package&quot; heading text when removePackage modal" name="BasketModal should have &quot;Delete package&quot; heading text when removePackage modal" time="0.391">
+      <failure>Error: expect(received).toHaveTextContent()
+
+received value must be a Node.
+Received has value: null
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div
+      id=&quot;GlobalStylesProvider&quot;
+    /&gt;
+    &lt;div
+      class=&quot;ModalRendererstyle__ModalRenderer-sc-160y6ux-0 eOzXim&quot;
+    &gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 uURhy&quot;
+      &gt;
+        &lt;div
+          class=&quot;ModalRendererstyle__ModalWrapper-sc-160y6ux-1 kBTebV animation-container-enter-done&quot;
+        &gt;
+          &lt;div
+            class=&quot;ModalRendererstyle__ContainerWrapper-sc-160y6ux-2 WUlTb&quot;
+            size=&quot;2&quot;
+          &gt;
+            &lt;div
+              class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Containerstyle__Container-sc-pdbblx-0 djGYkj&quot;
+            &gt;
+              &lt;div
+                class=&quot;Containerstyle__ContainerContent-sc-pdbblx-1 nGSfi&quot;
+              &gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;1&quot;
+                /&gt;
+                &lt;div
+                  data-focus-lock-disabled=&quot;false&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__IconButtonWrapper-sc-160y6ux-4 gZxdob&quot;
+                  &gt;
+                    &lt;button
+                      aria-disabled=&quot;false&quot;
+                      aria-label=&quot;Close removePackage&quot;
+                      class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp InteractiveIconstyle__InteractiveIcon-sc-gx42ad-0 eJeguM&quot;
+                      type=&quot;button&quot;
+                    &gt;
+                      &lt;span
+                        aria-hidden=&quot;true&quot;
+                        class=&quot;Iconstyle__Icon-sc-1kjx3w9-0 hBfMdL&quot;
+                        size=&quot;3&quot;
+                      &gt;
+                        &lt;span&gt;
+                          &lt;span&gt;
+                            &lt;span
+                              data-src=&quot;/icons/close.svg&quot;
+                              src=&quot;&quot;
+                            /&gt;
+                          &lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__ModalContent-sc-160y6ux-3 flUZEE&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;modal-content&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;TwoButtonModalTemplatestyle__TwoButtonModalTemplate-sc-3avtpm-0 xLpco&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__TextWrapper-sc-3avtpm-1 jljZCi&quot;
+                        &gt;
+                          &lt;h1
+                            class=&quot;Headingstyle__Heading-sc-12vluu2-0 ffMYep&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Delete package
+                          &lt;/h1&gt;
+                          &lt;p
+                            class=&quot;Paragraphstyle__Paragraph-sc-1kdgtrh-0 egajGA&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Are you sure you&apos;d like to delete this package from your basket? This will empty your basket, and can&apos;t be undone.
+                          &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__ButtonsContainer-sc-3avtpm-2 ddrOmd&quot;
+                        &gt;
+                          &lt;div
+                            class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Buttonstyle__Button-sc-twej8-0 gzbhVI&quot;
+                          &gt;
+                            Cancel
+                          &lt;/div&gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Delete package&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 bitzkh&quot;
+                            data-selector=&quot;delete-package-button&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Delete package
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/span&gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 jloKQI&quot;
+      &gt;
+        &lt;div
+          class=&quot;Overlaystyle__Overlay-sc-16yetap-0 fiKYiH animation-container-enter-done&quot;
+        /&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;...
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveTextContent (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:43:45
+    at runWithExpensiveErrorDiagnosticsDisabled (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/config.js:50:12)
+    at checkCallback (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:136:77)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:76:9
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal should have &quot;Are you sure?&quot; heading text when emptyBasket modal" name="BasketModal should have &quot;Are you sure?&quot; heading text when emptyBasket modal" time="0.145">
+      <failure>Error: expect(received).toHaveTextContent()
+
+received value must be a Node.
+Received has value: null
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div
+      id=&quot;GlobalStylesProvider&quot;
+    /&gt;
+    &lt;div
+      class=&quot;ModalRendererstyle__ModalRenderer-sc-160y6ux-0 eOzXim&quot;
+    &gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 uURhy&quot;
+      &gt;
+        &lt;div
+          class=&quot;ModalRendererstyle__ModalWrapper-sc-160y6ux-1 kBTebV animation-container-enter-done&quot;
+        &gt;
+          &lt;div
+            class=&quot;ModalRendererstyle__ContainerWrapper-sc-160y6ux-2 WUlTb&quot;
+            size=&quot;2&quot;
+          &gt;
+            &lt;div
+              class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Containerstyle__Container-sc-pdbblx-0 djGYkj&quot;
+            &gt;
+              &lt;div
+                class=&quot;Containerstyle__ContainerContent-sc-pdbblx-1 nGSfi&quot;
+              &gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;1&quot;
+                /&gt;
+                &lt;div
+                  data-focus-lock-disabled=&quot;false&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__IconButtonWrapper-sc-160y6ux-4 gZxdob&quot;
+                  &gt;
+                    &lt;button
+                      aria-disabled=&quot;false&quot;
+                      aria-label=&quot;Close emptyBasket&quot;
+                      class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp InteractiveIconstyle__InteractiveIcon-sc-gx42ad-0 eJeguM&quot;
+                      type=&quot;button&quot;
+                    &gt;
+                      &lt;span
+                        aria-hidden=&quot;true&quot;
+                        class=&quot;Iconstyle__Icon-sc-1kjx3w9-0 hBfMdL&quot;
+                        size=&quot;3&quot;
+                      &gt;
+                        &lt;span&gt;
+                          &lt;span&gt;
+                            &lt;span
+                              data-src=&quot;/icons/close.svg&quot;
+                              src=&quot;&quot;
+                            /&gt;
+                          &lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__ModalContent-sc-160y6ux-3 flUZEE&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;modal-content&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;TwoButtonModalTemplatestyle__TwoButtonModalTemplate-sc-3avtpm-0 xLpco&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__TextWrapper-sc-3avtpm-1 jljZCi&quot;
+                        &gt;
+                          &lt;h1
+                            class=&quot;Headingstyle__Heading-sc-12vluu2-0 ffMYep&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Are you sure?
+                          &lt;/h1&gt;
+                          &lt;p
+                            class=&quot;Paragraphstyle__Paragraph-sc-1kdgtrh-0 egajGA&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            You&apos;re about to remove everything in your basket. You&apos;ll have to shop again if you wish to get these items back.
+                          &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__ButtonsContainer-sc-3avtpm-2 ddrOmd&quot;
+                        &gt;
+                          &lt;div
+                            class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Buttonstyle__Button-sc-twej8-0 gzbhVI&quot;
+                          &gt;
+                            Cancel
+                          &lt;/div&gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Empty basket&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 bitzkh&quot;
+                            data-selector=&quot;confirm-empty-basket-button&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Empty basket
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/span&gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 jloKQI&quot;
+      &gt;
+        &lt;div
+          class=&quot;Overlaystyle__Overlay-sc-16yetap-0 fiKYiH animation-container-enter-done&quot;
+        /&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;...
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveTextContent (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:43:45
+    at runWithExpensiveErrorDiagnosticsDisabled (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/config.js:50:12)
+    at checkCallback (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:136:77)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:76:9
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal should have &quot;Add voucher&quot; heading text when switchVoucher modal" name="BasketModal should have &quot;Add voucher&quot; heading text when switchVoucher modal" time="0.145">
+      <failure>Error: expect(received).toHaveTextContent()
+
+received value must be a Node.
+Received has value: null
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div
+      id=&quot;GlobalStylesProvider&quot;
+    /&gt;
+    &lt;div
+      class=&quot;ModalRendererstyle__ModalRenderer-sc-160y6ux-0 eOzXim&quot;
+    &gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 uURhy&quot;
+      &gt;
+        &lt;div
+          class=&quot;ModalRendererstyle__ModalWrapper-sc-160y6ux-1 kBTebV animation-container-enter-done&quot;
+        &gt;
+          &lt;div
+            class=&quot;ModalRendererstyle__ContainerWrapper-sc-160y6ux-2 WUlTb&quot;
+            size=&quot;2&quot;
+          &gt;
+            &lt;div
+              class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Containerstyle__Container-sc-pdbblx-0 djGYkj&quot;
+            &gt;
+              &lt;div
+                class=&quot;Containerstyle__ContainerContent-sc-pdbblx-1 nGSfi&quot;
+              &gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;1&quot;
+                /&gt;
+                &lt;div
+                  data-focus-lock-disabled=&quot;false&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__IconButtonWrapper-sc-160y6ux-4 gZxdob&quot;
+                  &gt;
+                    &lt;button
+                      aria-disabled=&quot;false&quot;
+                      aria-label=&quot;Close switchVoucher&quot;
+                      class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp InteractiveIconstyle__InteractiveIcon-sc-gx42ad-0 eJeguM&quot;
+                      type=&quot;button&quot;
+                    &gt;
+                      &lt;span
+                        aria-hidden=&quot;true&quot;
+                        class=&quot;Iconstyle__Icon-sc-1kjx3w9-0 hBfMdL&quot;
+                        size=&quot;3&quot;
+                      &gt;
+                        &lt;span&gt;
+                          &lt;span&gt;
+                            &lt;span
+                              data-src=&quot;/icons/close.svg&quot;
+                              src=&quot;&quot;
+                            /&gt;
+                          &lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__ModalContent-sc-160y6ux-3 flUZEE&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;modal-content&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;TwoButtonModalTemplatestyle__TwoButtonModalTemplate-sc-3avtpm-0 xLpco&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__TextWrapper-sc-3avtpm-1 jljZCi&quot;
+                        &gt;
+                          &lt;h1
+                            class=&quot;Headingstyle__Heading-sc-12vluu2-0 ffMYep&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Add voucher
+                          &lt;/h1&gt;
+                          &lt;p
+                            class=&quot;Paragraphstyle__Paragraph-sc-1kdgtrh-0 egajGA&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Are you sure you want to replace the promotional voucher?
+                          &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__ButtonsContainer-sc-3avtpm-2 ddrOmd&quot;
+                        &gt;
+                          &lt;div
+                            class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Buttonstyle__Button-sc-twej8-0 gzbhVI&quot;
+                          &gt;
+                            Cancel
+                          &lt;/div&gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Replace voucher&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 bitzkh&quot;
+                            data-selector=&quot;replace-voucher-button&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Replace voucher
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/span&gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 jloKQI&quot;
+      &gt;
+        &lt;div
+          class=&quot;Overlaystyle__Overlay-sc-16yetap-0 fiKYiH animation-container-enter-done&quot;
+        /&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;...
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveTextContent (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:43:45
+    at runWithExpensiveErrorDiagnosticsDisabled (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/config.js:50:12)
+    at checkCallback (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:136:77)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:76:9
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal should have &quot;What are you shopping for?&quot; heading text when continueShopping modal" name="BasketModal should have &quot;What are you shopping for?&quot; heading text when continueShopping modal" time="0.25">
+      <failure>Error: expect(received).toHaveTextContent()
+
+received value must be a Node.
+Received has value: null
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div
+      id=&quot;GlobalStylesProvider&quot;
+    /&gt;
+    &lt;div
+      class=&quot;ModalRendererstyle__ModalRenderer-sc-160y6ux-0 eOzXim&quot;
+    &gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 uURhy&quot;
+      &gt;
+        &lt;div
+          class=&quot;ModalRendererstyle__ModalWrapper-sc-160y6ux-1 kBTebV animation-container-enter-done&quot;
+        &gt;
+          &lt;div
+            class=&quot;ModalRendererstyle__ContainerWrapper-sc-160y6ux-2 iqjPGf&quot;
+            size=&quot;3&quot;
+          &gt;
+            &lt;div
+              class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Containerstyle__Container-sc-pdbblx-0 djGYkj&quot;
+            &gt;
+              &lt;div
+                class=&quot;Containerstyle__ContainerContent-sc-pdbblx-1 nGSfi&quot;
+              &gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;1&quot;
+                /&gt;
+                &lt;div
+                  data-focus-lock-disabled=&quot;false&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__IconButtonWrapper-sc-160y6ux-4 gZxdob&quot;
+                  &gt;
+                    &lt;button
+                      aria-disabled=&quot;false&quot;
+                      aria-label=&quot;Close continueShopping&quot;
+                      class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp InteractiveIconstyle__InteractiveIcon-sc-gx42ad-0 eJeguM&quot;
+                      type=&quot;button&quot;
+                    &gt;
+                      &lt;span
+                        aria-hidden=&quot;true&quot;
+                        class=&quot;Iconstyle__Icon-sc-1kjx3w9-0 hBfMdL&quot;
+                        size=&quot;3&quot;
+                      &gt;
+                        &lt;span&gt;
+                          &lt;span&gt;
+                            &lt;span
+                              data-src=&quot;/icons/close.svg&quot;
+                              src=&quot;&quot;
+                            /&gt;
+                          &lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__ModalContent-sc-160y6ux-3 flUZEE&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;modal-content&quot;
+                    &gt;
+                      &lt;h1
+                        class=&quot;Headingstyle__Heading-sc-12vluu2-0 kAImKW&quot;
+                        size=&quot;3&quot;
+                      &gt;
+                        What are you shopping for?
+                      &lt;/h1&gt;
+                      &lt;div
+                        class=&quot;vfuk-ContentWithIconList__wrapper&quot;
+                      &gt;
+                         
+                        &lt;a
+                          class=&quot;vfuk-ContentWithIcon__wrapper-a vfuk-ContentWithIcon__wrapper-center vfuk-ContentWithIcon__gap-spacing-sm vfuk-ContentWithIcon__icon-position-center &quot;
+                          href=&quot;/mobile/best-sim-only-deals?continueShopping=true&quot;
+                          tabindex=&quot;0&quot;
+                        &gt;
+                          &lt;div
+                            class=&quot;vfuk-ContentWithIcon__icon-center&quot;
+                          &gt;
+                            &lt;span
+                              aria-hidden=&quot;true&quot;
+                              class=&quot;wrapper inherit size-4 4  &quot;
+                            &gt;
+                              test-file-stub
+                            &lt;/span&gt;
+                          &lt;/div&gt;
+                          &lt;div
+                            class=&quot;vfuk-ContentWithIcon__content&quot;
+                          &gt;
+                            SIM only
+                          &lt;/div&gt;
+                        &lt;/a&gt;
+                        &lt;a
+                          class=&quot;vfuk-ContentWithIcon__wrapper-a vfuk-ContentWithIcon__wrapper-center vfuk-ContentWithIcon__gap-spacing-sm vfuk-ContentWithIcon__icon-position-center &quot;
+                          href=&quot;/mobile/phones/pay-as-you-go?continueShopping=true&quot;
+                          tabindex=&quot;0&quot;
+                        &gt;
+                          &lt;div
+                            class=&quot;vfuk-ContentWithIcon__icon-center&quot;
+                          &gt;
+                            &lt;span
+                              aria-hidden=&quot;true&quot;
+                              class=&quot;wrapper inherit size-4 4  &quot;
+                            &gt;
+                              test-file-stub
+                            &lt;/span&gt;
+                          &lt;/div&gt;
+                          &lt;div
+                            class=&quot;vfuk-ContentWithIcon__content&quot;
+                          &gt;
+                            Phones
+                          &lt;/div&gt;
+                        &lt;/a&gt;
+                        &lt;a
+                          class=&quot;vfuk-ContentWithIcon__wrapper-a vfuk-ContentWithIcon__wrapper-center vfuk-ContentWithIcon__gap-spacing-sm vfuk-ContentWithIcon__icon-position-center &quot;
+                          href=&quot;/broadband?continueShopping=true&quot;
+                          tabindex=&quot;0&quot;
+                        &gt;
+                     ...
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveTextContent (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:43:45
+    at runWithExpensiveErrorDiagnosticsDisabled (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/config.js:50:12)
+    at checkCallback (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:136:77)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:76:9
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal should have &quot;Removing this bundle&quot; heading text when removeCombi modal" name="BasketModal should have &quot;Removing this bundle&quot; heading text when removeCombi modal" time="0.149">
+      <failure>Error: expect(received).toHaveTextContent()
+
+received value must be a Node.
+Received has value: null
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div
+      id=&quot;GlobalStylesProvider&quot;
+    /&gt;
+    &lt;div
+      class=&quot;ModalRendererstyle__ModalRenderer-sc-160y6ux-0 eOzXim&quot;
+    &gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 uURhy&quot;
+      &gt;
+        &lt;div
+          class=&quot;ModalRendererstyle__ModalWrapper-sc-160y6ux-1 kBTebV animation-container-enter-done&quot;
+        &gt;
+          &lt;div
+            class=&quot;ModalRendererstyle__ContainerWrapper-sc-160y6ux-2 WUlTb&quot;
+            size=&quot;2&quot;
+          &gt;
+            &lt;div
+              class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Containerstyle__Container-sc-pdbblx-0 djGYkj&quot;
+            &gt;
+              &lt;div
+                class=&quot;Containerstyle__ContainerContent-sc-pdbblx-1 nGSfi&quot;
+              &gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;1&quot;
+                /&gt;
+                &lt;div
+                  data-focus-lock-disabled=&quot;false&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__IconButtonWrapper-sc-160y6ux-4 gZxdob&quot;
+                  &gt;
+                    &lt;button
+                      aria-disabled=&quot;false&quot;
+                      aria-label=&quot;Close removeCombi&quot;
+                      class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp InteractiveIconstyle__InteractiveIcon-sc-gx42ad-0 eJeguM&quot;
+                      type=&quot;button&quot;
+                    &gt;
+                      &lt;span
+                        aria-hidden=&quot;true&quot;
+                        class=&quot;Iconstyle__Icon-sc-1kjx3w9-0 hBfMdL&quot;
+                        size=&quot;3&quot;
+                      &gt;
+                        &lt;span&gt;
+                          &lt;span&gt;
+                            &lt;span
+                              data-src=&quot;/icons/close.svg&quot;
+                              src=&quot;&quot;
+                            /&gt;
+                          &lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__ModalContent-sc-160y6ux-3 flUZEE&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;modal-content&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;TwoButtonModalTemplatestyle__TwoButtonModalTemplate-sc-3avtpm-0 xLpco&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__TextWrapper-sc-3avtpm-1 jljZCi&quot;
+                        &gt;
+                          &lt;h1
+                            class=&quot;Headingstyle__Heading-sc-12vluu2-0 ffMYep&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Removing this bundle
+                          &lt;/h1&gt;
+                          &lt;p
+                            class=&quot;Paragraphstyle__Paragraph-sc-1kdgtrh-0 egajGA&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Are you sure you&apos;d like to remove this bundle from your basket?
+You won&apos;t be able to undo this action.
+
+You&apos;ll miss out on your great discount currently applied to your basket for having Broadband and Pay Monthly together. If there is another package in your basket to keep the discount, we&apos;ll automatically apply it for you though.
+                          &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__ButtonsContainer-sc-3avtpm-2 ddrOmd&quot;
+                        &gt;
+                          &lt;div
+                            class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Buttonstyle__Button-sc-twej8-0 gzbhVI&quot;
+                          &gt;
+                            Cancel
+                          &lt;/div&gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Remove bundle&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 bitzkh&quot;
+                            data-selector=&quot;remove-combi-confirm-button&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Remove bundle
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/span&gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 jloKQI&quot;
+      &gt;
+        &lt;div
+          class=&quot;Overlaystyle__Overlay-sc-16yetap-0 fiKYiH animation-container-enter-done&quot;
+        /&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;...
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveTextContent (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:43:45
+    at runWithExpensiveErrorDiagnosticsDisabled (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/config.js:50:12)
+    at checkCallback (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:136:77)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:76:9
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal should have correct message when removePackage modal" name="BasketModal should have correct message when removePackage modal" time="0.094">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: Are you sure you&apos;d like to delete this package from your basket? This will empty your basket, and can&apos;t be undone.. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;div
+  id=&quot;GlobalStylesProvider&quot;
+/&gt;
+    at Object.getElementError (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/config.js:38:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+    at getByText (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:70:12
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal should have correct message when emptyBasket modal" name="BasketModal should have correct message when emptyBasket modal" time="0.102">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: You&apos;re about to remove everything in your basket. You&apos;ll have to shop again if you wish to get these items back.. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;div
+  id=&quot;GlobalStylesProvider&quot;
+/&gt;
+    at Object.getElementError (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/config.js:38:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+    at getByText (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:70:12
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal should have correct message when switchVoucher modal" name="BasketModal should have correct message when switchVoucher modal" time="0.084">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: Are you sure you want to replace the promotional voucher?. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;div
+  id=&quot;GlobalStylesProvider&quot;
+/&gt;
+    at Object.getElementError (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/config.js:38:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+    at getByText (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:70:12
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal should have correct message when removeCombi modal" name="BasketModal should have correct message when removeCombi modal" time="0.093">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: Are you sure you&apos;d like to remove this bundle from your basket? You won&apos;t be able to undo this action. You&apos;ll miss out on your great discount currently applied to your basket for having Broadband and Pay Monthly together. If there is another package in your basket to keep the discount, we&apos;ll automatically apply it for you though.. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;div
+  id=&quot;GlobalStylesProvider&quot;
+/&gt;
+    at Object.getElementError (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/config.js:38:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+    at getByText (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:70:12
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal cancel button should call hide modal handler when button is visible and clicked" name="BasketModal cancel button should call hide modal handler when button is visible and clicked" time="0.216">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: Cancel. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;div
+  id=&quot;GlobalStylesProvider&quot;
+/&gt;
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div
+      id=&quot;GlobalStylesProvider&quot;
+    /&gt;
+    &lt;div
+      class=&quot;ModalRendererstyle__ModalRenderer-sc-160y6ux-0 eOzXim&quot;
+    &gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 uURhy&quot;
+      &gt;
+        &lt;div
+          class=&quot;ModalRendererstyle__ModalWrapper-sc-160y6ux-1 kBTebV animation-container-enter-done&quot;
+        &gt;
+          &lt;div
+            class=&quot;ModalRendererstyle__ContainerWrapper-sc-160y6ux-2 WUlTb&quot;
+            size=&quot;2&quot;
+          &gt;
+            &lt;div
+              class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Containerstyle__Container-sc-pdbblx-0 djGYkj&quot;
+            &gt;
+              &lt;div
+                class=&quot;Containerstyle__ContainerContent-sc-pdbblx-1 nGSfi&quot;
+              &gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;1&quot;
+                /&gt;
+                &lt;div
+                  data-focus-lock-disabled=&quot;false&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__IconButtonWrapper-sc-160y6ux-4 gZxdob&quot;
+                  &gt;
+                    &lt;button
+                      aria-disabled=&quot;false&quot;
+                      aria-label=&quot;Close removePackage&quot;
+                      class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp InteractiveIconstyle__InteractiveIcon-sc-gx42ad-0 eJeguM&quot;
+                      type=&quot;button&quot;
+                    &gt;
+                      &lt;span
+                        aria-hidden=&quot;true&quot;
+                        class=&quot;Iconstyle__Icon-sc-1kjx3w9-0 hBfMdL&quot;
+                        size=&quot;3&quot;
+                      &gt;
+                        &lt;span&gt;
+                          &lt;span&gt;
+                            &lt;span
+                              data-src=&quot;/icons/close.svg&quot;
+                              src=&quot;&quot;
+                            /&gt;
+                          &lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__ModalContent-sc-160y6ux-3 flUZEE&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;modal-content&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;TwoButtonModalTemplatestyle__TwoButtonModalTemplate-sc-3avtpm-0 xLpco&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__TextWrapper-sc-3avtpm-1 jljZCi&quot;
+                        &gt;
+                          &lt;h1
+                            class=&quot;Headingstyle__Heading-sc-12vluu2-0 ffMYep&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Delete package
+                          &lt;/h1&gt;
+                          &lt;p
+                            class=&quot;Paragraphstyle__Paragraph-sc-1kdgtrh-0 egajGA&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Are you sure you&apos;d like to delete this package from your basket? This will empty your basket, and can&apos;t be undone.
+                          &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__ButtonsContainer-sc-3avtpm-2 ddrOmd&quot;
+                        &gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Cancel&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 gzbhVI&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Cancel
+                          &lt;/button&gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Delete package&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 bitzkh&quot;
+                            data-selector=&quot;delete-package-button&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Delete package
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/span&gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 jloKQI&quot;
+      &gt;
+        &lt;div
+          class=&quot;Overlaystyle__Overlay-sc-16yetap-0 fiKYiH animation-container-enter-done&quot;
+        /&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;...Error: Unable to find an element with the text: Cancel. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;div
+  id=&quot;GlobalStylesProvider&quot;
+/&gt;
+    at waitForWrapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:182:27)
+    at _callee2$ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:82:13)
+    at tryCatch (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:39:103)
+    at _next (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:41:194)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:41:364
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:41:97)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal cancel button should be true when removePackage modal" name="BasketModal cancel button should be true when removePackage modal" time="0.109">
+      <failure>Error: expect(received).toBeInTheDocument()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: null
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toBeInTheDocument (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:102:39
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal cancel button should be true when emptyBasket modal" name="BasketModal cancel button should be true when emptyBasket modal" time="0.099">
+      <failure>Error: expect(received).toBeInTheDocument()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: null
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toBeInTheDocument (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:102:39
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal cancel button should be true when switchVoucher modal" name="BasketModal cancel button should be true when switchVoucher modal" time="0.091">
+      <failure>Error: expect(received).toBeInTheDocument()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: null
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toBeInTheDocument (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:102:39
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal cancel button should be true when removeCombi modal" name="BasketModal cancel button should be true when removeCombi modal" time="0.103">
+      <failure>Error: expect(received).toBeInTheDocument()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: null
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toBeInTheDocument (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:102:39
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal cancel button should be false when continueShopping modal" name="BasketModal cancel button should be false when continueShopping modal" time="0.137">
+    </testcase>
+    <testcase classname="BasketModal cancel button should call hide modal handler when clicked and it&apos;s removePackage modal" name="BasketModal cancel button should call hide modal handler when clicked and it&apos;s removePackage modal" time="0.21">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: Cancel. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;div
+  id=&quot;GlobalStylesProvider&quot;
+/&gt;
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div
+      id=&quot;GlobalStylesProvider&quot;
+    /&gt;
+    &lt;div
+      class=&quot;ModalRendererstyle__ModalRenderer-sc-160y6ux-0 eOzXim&quot;
+    &gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 uURhy&quot;
+      &gt;
+        &lt;div
+          class=&quot;ModalRendererstyle__ModalWrapper-sc-160y6ux-1 kBTebV animation-container-enter-done&quot;
+        &gt;
+          &lt;div
+            class=&quot;ModalRendererstyle__ContainerWrapper-sc-160y6ux-2 WUlTb&quot;
+            size=&quot;2&quot;
+          &gt;
+            &lt;div
+              class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Containerstyle__Container-sc-pdbblx-0 djGYkj&quot;
+            &gt;
+              &lt;div
+                class=&quot;Containerstyle__ContainerContent-sc-pdbblx-1 nGSfi&quot;
+              &gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;1&quot;
+                /&gt;
+                &lt;div
+                  data-focus-lock-disabled=&quot;false&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__IconButtonWrapper-sc-160y6ux-4 gZxdob&quot;
+                  &gt;
+                    &lt;button
+                      aria-disabled=&quot;false&quot;
+                      aria-label=&quot;Close removePackage&quot;
+                      class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp InteractiveIconstyle__InteractiveIcon-sc-gx42ad-0 eJeguM&quot;
+                      type=&quot;button&quot;
+                    &gt;
+                      &lt;span
+                        aria-hidden=&quot;true&quot;
+                        class=&quot;Iconstyle__Icon-sc-1kjx3w9-0 hBfMdL&quot;
+                        size=&quot;3&quot;
+                      &gt;
+                        &lt;span&gt;
+                          &lt;span&gt;
+                            &lt;span
+                              data-src=&quot;/icons/close.svg&quot;
+                              src=&quot;&quot;
+                            /&gt;
+                          &lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__ModalContent-sc-160y6ux-3 flUZEE&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;modal-content&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;TwoButtonModalTemplatestyle__TwoButtonModalTemplate-sc-3avtpm-0 xLpco&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__TextWrapper-sc-3avtpm-1 jljZCi&quot;
+                        &gt;
+                          &lt;h1
+                            class=&quot;Headingstyle__Heading-sc-12vluu2-0 ffMYep&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Delete package
+                          &lt;/h1&gt;
+                          &lt;p
+                            class=&quot;Paragraphstyle__Paragraph-sc-1kdgtrh-0 egajGA&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Are you sure you&apos;d like to delete this package from your basket? This will empty your basket, and can&apos;t be undone.
+                          &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__ButtonsContainer-sc-3avtpm-2 ddrOmd&quot;
+                        &gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Cancel&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 gzbhVI&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Cancel
+                          &lt;/button&gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Delete package&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 bitzkh&quot;
+                            data-selector=&quot;delete-package-button&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Delete package
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/span&gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 jloKQI&quot;
+      &gt;
+        &lt;div
+          class=&quot;Overlaystyle__Overlay-sc-16yetap-0 fiKYiH animation-container-enter-done&quot;
+        /&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;...Error: Unable to find an element with the text: Cancel. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;div
+  id=&quot;GlobalStylesProvider&quot;
+/&gt;
+    at waitForWrapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:182:27)
+    at _callee3$ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:115:15)
+    at tryCatch (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:39:103)
+    at _next (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:41:194)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:41:364
+    at new Promise (&lt;anonymous&gt;)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:41:97
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:108:5
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal cancel button should call hide modal handler when clicked and it&apos;s emptyBasket modal" name="BasketModal cancel button should call hide modal handler when clicked and it&apos;s emptyBasket modal" time="0.146">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: Cancel. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;div
+  id=&quot;GlobalStylesProvider&quot;
+/&gt;
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div
+      id=&quot;GlobalStylesProvider&quot;
+    /&gt;
+    &lt;div
+      class=&quot;ModalRendererstyle__ModalRenderer-sc-160y6ux-0 eOzXim&quot;
+    &gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 uURhy&quot;
+      &gt;
+        &lt;div
+          class=&quot;ModalRendererstyle__ModalWrapper-sc-160y6ux-1 kBTebV animation-container-enter-done&quot;
+        &gt;
+          &lt;div
+            class=&quot;ModalRendererstyle__ContainerWrapper-sc-160y6ux-2 WUlTb&quot;
+            size=&quot;2&quot;
+          &gt;
+            &lt;div
+              class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Containerstyle__Container-sc-pdbblx-0 djGYkj&quot;
+            &gt;
+              &lt;div
+                class=&quot;Containerstyle__ContainerContent-sc-pdbblx-1 nGSfi&quot;
+              &gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;1&quot;
+                /&gt;
+                &lt;div
+                  data-focus-lock-disabled=&quot;false&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__IconButtonWrapper-sc-160y6ux-4 gZxdob&quot;
+                  &gt;
+                    &lt;button
+                      aria-disabled=&quot;false&quot;
+                      aria-label=&quot;Close emptyBasket&quot;
+                      class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp InteractiveIconstyle__InteractiveIcon-sc-gx42ad-0 eJeguM&quot;
+                      type=&quot;button&quot;
+                    &gt;
+                      &lt;span
+                        aria-hidden=&quot;true&quot;
+                        class=&quot;Iconstyle__Icon-sc-1kjx3w9-0 hBfMdL&quot;
+                        size=&quot;3&quot;
+                      &gt;
+                        &lt;span&gt;
+                          &lt;span&gt;
+                            &lt;span
+                              data-src=&quot;/icons/close.svg&quot;
+                              src=&quot;&quot;
+                            /&gt;
+                          &lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__ModalContent-sc-160y6ux-3 flUZEE&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;modal-content&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;TwoButtonModalTemplatestyle__TwoButtonModalTemplate-sc-3avtpm-0 xLpco&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__TextWrapper-sc-3avtpm-1 jljZCi&quot;
+                        &gt;
+                          &lt;h1
+                            class=&quot;Headingstyle__Heading-sc-12vluu2-0 ffMYep&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Are you sure?
+                          &lt;/h1&gt;
+                          &lt;p
+                            class=&quot;Paragraphstyle__Paragraph-sc-1kdgtrh-0 egajGA&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            You&apos;re about to remove everything in your basket. You&apos;ll have to shop again if you wish to get these items back.
+                          &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__ButtonsContainer-sc-3avtpm-2 ddrOmd&quot;
+                        &gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Cancel&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 gzbhVI&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Cancel
+                          &lt;/button&gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Empty basket&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 bitzkh&quot;
+                            data-selector=&quot;confirm-empty-basket-button&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Empty basket
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/span&gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 jloKQI&quot;
+      &gt;
+        &lt;div
+          class=&quot;Overlaystyle__Overlay-sc-16yetap-0 fiKYiH animation-container-enter-done&quot;
+        /&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;...Error: Unable to find an element with the text: Cancel. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;div
+  id=&quot;GlobalStylesProvider&quot;
+/&gt;
+    at waitForWrapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:182:27)
+    at _callee3$ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:115:15)
+    at tryCatch (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:39:103)
+    at _next (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:41:194)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:41:364
+    at new Promise (&lt;anonymous&gt;)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:41:97
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:108:5
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal cancel button should call hide modal handler when clicked and it&apos;s switchVoucher modal" name="BasketModal cancel button should call hide modal handler when clicked and it&apos;s switchVoucher modal" time="0.217">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: Cancel. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;div
+  id=&quot;GlobalStylesProvider&quot;
+/&gt;
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div
+      id=&quot;GlobalStylesProvider&quot;
+    /&gt;
+    &lt;div
+      class=&quot;ModalRendererstyle__ModalRenderer-sc-160y6ux-0 eOzXim&quot;
+    &gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 uURhy&quot;
+      &gt;
+        &lt;div
+          class=&quot;ModalRendererstyle__ModalWrapper-sc-160y6ux-1 kBTebV animation-container-enter-done&quot;
+        &gt;
+          &lt;div
+            class=&quot;ModalRendererstyle__ContainerWrapper-sc-160y6ux-2 WUlTb&quot;
+            size=&quot;2&quot;
+          &gt;
+            &lt;div
+              class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Containerstyle__Container-sc-pdbblx-0 djGYkj&quot;
+            &gt;
+              &lt;div
+                class=&quot;Containerstyle__ContainerContent-sc-pdbblx-1 nGSfi&quot;
+              &gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;1&quot;
+                /&gt;
+                &lt;div
+                  data-focus-lock-disabled=&quot;false&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__IconButtonWrapper-sc-160y6ux-4 gZxdob&quot;
+                  &gt;
+                    &lt;button
+                      aria-disabled=&quot;false&quot;
+                      aria-label=&quot;Close switchVoucher&quot;
+                      class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp InteractiveIconstyle__InteractiveIcon-sc-gx42ad-0 eJeguM&quot;
+                      type=&quot;button&quot;
+                    &gt;
+                      &lt;span
+                        aria-hidden=&quot;true&quot;
+                        class=&quot;Iconstyle__Icon-sc-1kjx3w9-0 hBfMdL&quot;
+                        size=&quot;3&quot;
+                      &gt;
+                        &lt;span&gt;
+                          &lt;span&gt;
+                            &lt;span
+                              data-src=&quot;/icons/close.svg&quot;
+                              src=&quot;&quot;
+                            /&gt;
+                          &lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__ModalContent-sc-160y6ux-3 flUZEE&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;modal-content&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;TwoButtonModalTemplatestyle__TwoButtonModalTemplate-sc-3avtpm-0 xLpco&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__TextWrapper-sc-3avtpm-1 jljZCi&quot;
+                        &gt;
+                          &lt;h1
+                            class=&quot;Headingstyle__Heading-sc-12vluu2-0 ffMYep&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Add voucher
+                          &lt;/h1&gt;
+                          &lt;p
+                            class=&quot;Paragraphstyle__Paragraph-sc-1kdgtrh-0 egajGA&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Are you sure you want to replace the promotional voucher?
+                          &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__ButtonsContainer-sc-3avtpm-2 ddrOmd&quot;
+                        &gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Cancel&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 gzbhVI&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Cancel
+                          &lt;/button&gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Replace voucher&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 bitzkh&quot;
+                            data-selector=&quot;replace-voucher-button&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Replace voucher
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/span&gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 jloKQI&quot;
+      &gt;
+        &lt;div
+          class=&quot;Overlaystyle__Overlay-sc-16yetap-0 fiKYiH animation-container-enter-done&quot;
+        /&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;...Error: Unable to find an element with the text: Cancel. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;div
+  id=&quot;GlobalStylesProvider&quot;
+/&gt;
+    at waitForWrapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:182:27)
+    at _callee3$ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:115:15)
+    at tryCatch (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:39:103)
+    at _next (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:41:194)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:41:364
+    at new Promise (&lt;anonymous&gt;)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:41:97
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:108:5
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal cancel button should call hide modal handler when clicked and it&apos;s removeCombi modal" name="BasketModal cancel button should call hide modal handler when clicked and it&apos;s removeCombi modal" time="0.152">
+      <failure>TestingLibraryElementError: Unable to find an element with the text: Cancel. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;div
+  id=&quot;GlobalStylesProvider&quot;
+/&gt;
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div
+      id=&quot;GlobalStylesProvider&quot;
+    /&gt;
+    &lt;div
+      class=&quot;ModalRendererstyle__ModalRenderer-sc-160y6ux-0 eOzXim&quot;
+    &gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 uURhy&quot;
+      &gt;
+        &lt;div
+          class=&quot;ModalRendererstyle__ModalWrapper-sc-160y6ux-1 kBTebV animation-container-enter-done&quot;
+        &gt;
+          &lt;div
+            class=&quot;ModalRendererstyle__ContainerWrapper-sc-160y6ux-2 WUlTb&quot;
+            size=&quot;2&quot;
+          &gt;
+            &lt;div
+              class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Containerstyle__Container-sc-pdbblx-0 djGYkj&quot;
+            &gt;
+              &lt;div
+                class=&quot;Containerstyle__ContainerContent-sc-pdbblx-1 nGSfi&quot;
+              &gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;1&quot;
+                /&gt;
+                &lt;div
+                  data-focus-lock-disabled=&quot;false&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__IconButtonWrapper-sc-160y6ux-4 gZxdob&quot;
+                  &gt;
+                    &lt;button
+                      aria-disabled=&quot;false&quot;
+                      aria-label=&quot;Close removeCombi&quot;
+                      class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp InteractiveIconstyle__InteractiveIcon-sc-gx42ad-0 eJeguM&quot;
+                      type=&quot;button&quot;
+                    &gt;
+                      &lt;span
+                        aria-hidden=&quot;true&quot;
+                        class=&quot;Iconstyle__Icon-sc-1kjx3w9-0 hBfMdL&quot;
+                        size=&quot;3&quot;
+                      &gt;
+                        &lt;span&gt;
+                          &lt;span&gt;
+                            &lt;span
+                              data-src=&quot;/icons/close.svg&quot;
+                              src=&quot;&quot;
+                            /&gt;
+                          &lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__ModalContent-sc-160y6ux-3 flUZEE&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;modal-content&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;TwoButtonModalTemplatestyle__TwoButtonModalTemplate-sc-3avtpm-0 xLpco&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__TextWrapper-sc-3avtpm-1 jljZCi&quot;
+                        &gt;
+                          &lt;h1
+                            class=&quot;Headingstyle__Heading-sc-12vluu2-0 ffMYep&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Removing this bundle
+                          &lt;/h1&gt;
+                          &lt;p
+                            class=&quot;Paragraphstyle__Paragraph-sc-1kdgtrh-0 egajGA&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Are you sure you&apos;d like to remove this bundle from your basket?
+You won&apos;t be able to undo this action.
+
+You&apos;ll miss out on your great discount currently applied to your basket for having Broadband and Pay Monthly together. If there is another package in your basket to keep the discount, we&apos;ll automatically apply it for you though.
+                          &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__ButtonsContainer-sc-3avtpm-2 ddrOmd&quot;
+                        &gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Cancel&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 gzbhVI&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Cancel
+                          &lt;/button&gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Remove bundle&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 bitzkh&quot;
+                            data-selector=&quot;remove-combi-confirm-button&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Remove bundle
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/span&gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 jloKQI&quot;
+      &gt;
+        &lt;div
+          class...Error: Unable to find an element with the text: Cancel. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;div
+  id=&quot;GlobalStylesProvider&quot;
+/&gt;
+    at waitForWrapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:182:27)
+    at _callee3$ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:115:15)
+    at tryCatch (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:39:103)
+    at _next (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:41:194)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:41:364
+    at new Promise (&lt;anonymous&gt;)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:41:97
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:108:5
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal should call assigned handler when provided button is clicked" name="BasketModal should call assigned handler when provided button is clicked" time="0.086">
+      <failure>Error: expect(received).toBeInTheDocument()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: null
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toBeInTheDocument (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:134:20)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal should have &quot;Delete package&quot; button when it&apos;s removePackage modal, and call &quot;handleEmptyBasket&quot; handler when the button is clicked" name="BasketModal should have &quot;Delete package&quot; button when it&apos;s removePackage modal, and call &quot;handleEmptyBasket&quot; handler when the button is clicked" time="0.177">
+      <failure>Error: Unable to fire a &quot;click&quot; event - please provide a DOM element.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div
+      id=&quot;GlobalStylesProvider&quot;
+    /&gt;
+    &lt;div
+      class=&quot;ModalRendererstyle__ModalRenderer-sc-160y6ux-0 eOzXim&quot;
+    &gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 uURhy&quot;
+      &gt;
+        &lt;div
+          class=&quot;ModalRendererstyle__ModalWrapper-sc-160y6ux-1 kBTebV animation-container-enter-done&quot;
+        &gt;
+          &lt;div
+            class=&quot;ModalRendererstyle__ContainerWrapper-sc-160y6ux-2 WUlTb&quot;
+            size=&quot;2&quot;
+          &gt;
+            &lt;div
+              class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Containerstyle__Container-sc-pdbblx-0 djGYkj&quot;
+            &gt;
+              &lt;div
+                class=&quot;Containerstyle__ContainerContent-sc-pdbblx-1 nGSfi&quot;
+              &gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;1&quot;
+                /&gt;
+                &lt;div
+                  data-focus-lock-disabled=&quot;false&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__IconButtonWrapper-sc-160y6ux-4 gZxdob&quot;
+                  &gt;
+                    &lt;button
+                      aria-disabled=&quot;false&quot;
+                      aria-label=&quot;Close removePackage&quot;
+                      class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp InteractiveIconstyle__InteractiveIcon-sc-gx42ad-0 eJeguM&quot;
+                      type=&quot;button&quot;
+                    &gt;
+                      &lt;span
+                        aria-hidden=&quot;true&quot;
+                        class=&quot;Iconstyle__Icon-sc-1kjx3w9-0 hBfMdL&quot;
+                        size=&quot;3&quot;
+                      &gt;
+                        &lt;span&gt;
+                          &lt;span&gt;
+                            &lt;span
+                              data-src=&quot;/icons/close.svg&quot;
+                              src=&quot;&quot;
+                            /&gt;
+                          &lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__ModalContent-sc-160y6ux-3 flUZEE&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;modal-content&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;TwoButtonModalTemplatestyle__TwoButtonModalTemplate-sc-3avtpm-0 xLpco&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__TextWrapper-sc-3avtpm-1 jljZCi&quot;
+                        &gt;
+                          &lt;h1
+                            class=&quot;Headingstyle__Heading-sc-12vluu2-0 ffMYep&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Delete package
+                          &lt;/h1&gt;
+                          &lt;p
+                            class=&quot;Paragraphstyle__Paragraph-sc-1kdgtrh-0 egajGA&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Are you sure you&apos;d like to delete this package from your basket? This will empty your basket, and can&apos;t be undone.
+                          &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__ButtonsContainer-sc-3avtpm-2 ddrOmd&quot;
+                        &gt;
+                          &lt;div
+                            class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Buttonstyle__Button-sc-twej8-0 gzbhVI&quot;
+                          &gt;
+                            Cancel
+                          &lt;/div&gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Delete package&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 bitzkh&quot;
+                            data-selector=&quot;delete-package-button&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Delete package
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/span&gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 jloKQI&quot;
+      &gt;
+        &lt;div
+          class=&quot;Overlaystyle__Overlay-sc-16yetap-0 fiKYiH animation-container-enter-done&quot;
+        /&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;...
+    at createEvent (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/events.js:34:11)
+    at Function.createEvent.&lt;computed&gt; [as click] (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/events.js:120:38)
+    at Function.fireEvent.&lt;computed&gt; [as click] (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/events.js:125:68)
+    at Function.click (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/react/dist/fire-event.js:18:52)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:157:19
+    at runWithExpensiveErrorDiagnosticsDisabled (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/config.js:50:12)
+    at checkCallback (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:136:77)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:76:9
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal should have &quot;Empty basket&quot; button when it&apos;s emptyBasket modal, and call &quot;handleEmptyBasket&quot; handler when the button is clicked" name="BasketModal should have &quot;Empty basket&quot; button when it&apos;s emptyBasket modal, and call &quot;handleEmptyBasket&quot; handler when the button is clicked" time="0.13">
+      <failure>Error: Unable to fire a &quot;click&quot; event - please provide a DOM element.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div
+      id=&quot;GlobalStylesProvider&quot;
+    /&gt;
+    &lt;div
+      class=&quot;ModalRendererstyle__ModalRenderer-sc-160y6ux-0 eOzXim&quot;
+    &gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 uURhy&quot;
+      &gt;
+        &lt;div
+          class=&quot;ModalRendererstyle__ModalWrapper-sc-160y6ux-1 kBTebV animation-container-enter-done&quot;
+        &gt;
+          &lt;div
+            class=&quot;ModalRendererstyle__ContainerWrapper-sc-160y6ux-2 WUlTb&quot;
+            size=&quot;2&quot;
+          &gt;
+            &lt;div
+              class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Containerstyle__Container-sc-pdbblx-0 djGYkj&quot;
+            &gt;
+              &lt;div
+                class=&quot;Containerstyle__ContainerContent-sc-pdbblx-1 nGSfi&quot;
+              &gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;1&quot;
+                /&gt;
+                &lt;div
+                  data-focus-lock-disabled=&quot;false&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__IconButtonWrapper-sc-160y6ux-4 gZxdob&quot;
+                  &gt;
+                    &lt;button
+                      aria-disabled=&quot;false&quot;
+                      aria-label=&quot;Close emptyBasket&quot;
+                      class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp InteractiveIconstyle__InteractiveIcon-sc-gx42ad-0 eJeguM&quot;
+                      type=&quot;button&quot;
+                    &gt;
+                      &lt;span
+                        aria-hidden=&quot;true&quot;
+                        class=&quot;Iconstyle__Icon-sc-1kjx3w9-0 hBfMdL&quot;
+                        size=&quot;3&quot;
+                      &gt;
+                        &lt;span&gt;
+                          &lt;span&gt;
+                            &lt;span
+                              data-src=&quot;/icons/close.svg&quot;
+                              src=&quot;&quot;
+                            /&gt;
+                          &lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__ModalContent-sc-160y6ux-3 flUZEE&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;modal-content&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;TwoButtonModalTemplatestyle__TwoButtonModalTemplate-sc-3avtpm-0 xLpco&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__TextWrapper-sc-3avtpm-1 jljZCi&quot;
+                        &gt;
+                          &lt;h1
+                            class=&quot;Headingstyle__Heading-sc-12vluu2-0 ffMYep&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Are you sure?
+                          &lt;/h1&gt;
+                          &lt;p
+                            class=&quot;Paragraphstyle__Paragraph-sc-1kdgtrh-0 egajGA&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            You&apos;re about to remove everything in your basket. You&apos;ll have to shop again if you wish to get these items back.
+                          &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__ButtonsContainer-sc-3avtpm-2 ddrOmd&quot;
+                        &gt;
+                          &lt;div
+                            class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Buttonstyle__Button-sc-twej8-0 gzbhVI&quot;
+                          &gt;
+                            Cancel
+                          &lt;/div&gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Empty basket&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 bitzkh&quot;
+                            data-selector=&quot;confirm-empty-basket-button&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Empty basket
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/span&gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 jloKQI&quot;
+      &gt;
+        &lt;div
+          class=&quot;Overlaystyle__Overlay-sc-16yetap-0 fiKYiH animation-container-enter-done&quot;
+        /&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;...
+    at createEvent (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/events.js:34:11)
+    at Function.createEvent.&lt;computed&gt; [as click] (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/events.js:120:38)
+    at Function.fireEvent.&lt;computed&gt; [as click] (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/events.js:125:68)
+    at Function.click (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/react/dist/fire-event.js:18:52)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:157:19
+    at runWithExpensiveErrorDiagnosticsDisabled (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/config.js:50:12)
+    at checkCallback (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:136:77)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:76:9
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal should have &quot;Replace voucher&quot; button when it&apos;s switchVoucher modal, and call &quot;onVoucherConfirm&quot; handler when the button is clicked" name="BasketModal should have &quot;Replace voucher&quot; button when it&apos;s switchVoucher modal, and call &quot;onVoucherConfirm&quot; handler when the button is clicked" time="0.131">
+      <failure>Error: Unable to fire a &quot;click&quot; event - please provide a DOM element.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div
+      id=&quot;GlobalStylesProvider&quot;
+    /&gt;
+    &lt;div
+      class=&quot;ModalRendererstyle__ModalRenderer-sc-160y6ux-0 eOzXim&quot;
+    &gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 uURhy&quot;
+      &gt;
+        &lt;div
+          class=&quot;ModalRendererstyle__ModalWrapper-sc-160y6ux-1 kBTebV animation-container-enter-done&quot;
+        &gt;
+          &lt;div
+            class=&quot;ModalRendererstyle__ContainerWrapper-sc-160y6ux-2 WUlTb&quot;
+            size=&quot;2&quot;
+          &gt;
+            &lt;div
+              class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Containerstyle__Container-sc-pdbblx-0 djGYkj&quot;
+            &gt;
+              &lt;div
+                class=&quot;Containerstyle__ContainerContent-sc-pdbblx-1 nGSfi&quot;
+              &gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;1&quot;
+                /&gt;
+                &lt;div
+                  data-focus-lock-disabled=&quot;false&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__IconButtonWrapper-sc-160y6ux-4 gZxdob&quot;
+                  &gt;
+                    &lt;button
+                      aria-disabled=&quot;false&quot;
+                      aria-label=&quot;Close switchVoucher&quot;
+                      class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp InteractiveIconstyle__InteractiveIcon-sc-gx42ad-0 eJeguM&quot;
+                      type=&quot;button&quot;
+                    &gt;
+                      &lt;span
+                        aria-hidden=&quot;true&quot;
+                        class=&quot;Iconstyle__Icon-sc-1kjx3w9-0 hBfMdL&quot;
+                        size=&quot;3&quot;
+                      &gt;
+                        &lt;span&gt;
+                          &lt;span&gt;
+                            &lt;span
+                              data-src=&quot;/icons/close.svg&quot;
+                              src=&quot;&quot;
+                            /&gt;
+                          &lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__ModalContent-sc-160y6ux-3 flUZEE&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;modal-content&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;TwoButtonModalTemplatestyle__TwoButtonModalTemplate-sc-3avtpm-0 xLpco&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__TextWrapper-sc-3avtpm-1 jljZCi&quot;
+                        &gt;
+                          &lt;h1
+                            class=&quot;Headingstyle__Heading-sc-12vluu2-0 ffMYep&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Add voucher
+                          &lt;/h1&gt;
+                          &lt;p
+                            class=&quot;Paragraphstyle__Paragraph-sc-1kdgtrh-0 egajGA&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Are you sure you want to replace the promotional voucher?
+                          &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__ButtonsContainer-sc-3avtpm-2 ddrOmd&quot;
+                        &gt;
+                          &lt;div
+                            class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Buttonstyle__Button-sc-twej8-0 gzbhVI&quot;
+                          &gt;
+                            Cancel
+                          &lt;/div&gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Replace voucher&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 bitzkh&quot;
+                            data-selector=&quot;replace-voucher-button&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Replace voucher
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/span&gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 jloKQI&quot;
+      &gt;
+        &lt;div
+          class=&quot;Overlaystyle__Overlay-sc-16yetap-0 fiKYiH animation-container-enter-done&quot;
+        /&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;...
+    at createEvent (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/events.js:34:11)
+    at Function.createEvent.&lt;computed&gt; [as click] (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/events.js:120:38)
+    at Function.fireEvent.&lt;computed&gt; [as click] (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/events.js:125:68)
+    at Function.click (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/react/dist/fire-event.js:18:52)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:157:19
+    at runWithExpensiveErrorDiagnosticsDisabled (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/config.js:50:12)
+    at checkCallback (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:136:77)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:76:9
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal should have &quot;Remove bundle&quot; button when it&apos;s removeCombi modal, and call &quot;confirmRemovePackage&quot; handler when the button is clicked" name="BasketModal should have &quot;Remove bundle&quot; button when it&apos;s removeCombi modal, and call &quot;confirmRemovePackage&quot; handler when the button is clicked" time="0.134">
+      <failure>Error: Unable to fire a &quot;click&quot; event - please provide a DOM element.
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div
+      id=&quot;GlobalStylesProvider&quot;
+    /&gt;
+    &lt;div
+      class=&quot;ModalRendererstyle__ModalRenderer-sc-160y6ux-0 eOzXim&quot;
+    &gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 uURhy&quot;
+      &gt;
+        &lt;div
+          class=&quot;ModalRendererstyle__ModalWrapper-sc-160y6ux-1 kBTebV animation-container-enter-done&quot;
+        &gt;
+          &lt;div
+            class=&quot;ModalRendererstyle__ContainerWrapper-sc-160y6ux-2 WUlTb&quot;
+            size=&quot;2&quot;
+          &gt;
+            &lt;div
+              class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Containerstyle__Container-sc-pdbblx-0 djGYkj&quot;
+            &gt;
+              &lt;div
+                class=&quot;Containerstyle__ContainerContent-sc-pdbblx-1 nGSfi&quot;
+              &gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;1&quot;
+                /&gt;
+                &lt;div
+                  data-focus-lock-disabled=&quot;false&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__IconButtonWrapper-sc-160y6ux-4 gZxdob&quot;
+                  &gt;
+                    &lt;button
+                      aria-disabled=&quot;false&quot;
+                      aria-label=&quot;Close removeCombi&quot;
+                      class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp InteractiveIconstyle__InteractiveIcon-sc-gx42ad-0 eJeguM&quot;
+                      type=&quot;button&quot;
+                    &gt;
+                      &lt;span
+                        aria-hidden=&quot;true&quot;
+                        class=&quot;Iconstyle__Icon-sc-1kjx3w9-0 hBfMdL&quot;
+                        size=&quot;3&quot;
+                      &gt;
+                        &lt;span&gt;
+                          &lt;span&gt;
+                            &lt;span
+                              data-src=&quot;/icons/close.svg&quot;
+                              src=&quot;&quot;
+                            /&gt;
+                          &lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__ModalContent-sc-160y6ux-3 flUZEE&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;modal-content&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;TwoButtonModalTemplatestyle__TwoButtonModalTemplate-sc-3avtpm-0 xLpco&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__TextWrapper-sc-3avtpm-1 jljZCi&quot;
+                        &gt;
+                          &lt;h1
+                            class=&quot;Headingstyle__Heading-sc-12vluu2-0 ffMYep&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Removing this bundle
+                          &lt;/h1&gt;
+                          &lt;p
+                            class=&quot;Paragraphstyle__Paragraph-sc-1kdgtrh-0 egajGA&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Are you sure you&apos;d like to remove this bundle from your basket?
+You won&apos;t be able to undo this action.
+
+You&apos;ll miss out on your great discount currently applied to your basket for having Broadband and Pay Monthly together. If there is another package in your basket to keep the discount, we&apos;ll automatically apply it for you though.
+                          &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__ButtonsContainer-sc-3avtpm-2 ddrOmd&quot;
+                        &gt;
+                          &lt;div
+                            class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Buttonstyle__Button-sc-twej8-0 gzbhVI&quot;
+                          &gt;
+                            Cancel
+                          &lt;/div&gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Remove bundle&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 bitzkh&quot;
+                            data-selector=&quot;remove-combi-confirm-button&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Remove bundle
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/span&gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 jloKQI&quot;
+      &gt;
+        &lt;div
+          class=&quot;Overlaystyle__Overlay-sc-16yetap-0 fiKYiH animation-container-enter-done&quot;
+        /&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;...
+    at createEvent (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/events.js:34:11)
+    at Function.createEvent.&lt;computed&gt; [as click] (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/events.js:120:38)
+    at Function.fireEvent.&lt;computed&gt; [as click] (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/events.js:125:68)
+    at Function.click (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/react/dist/fire-event.js:18:52)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:157:19
+    at runWithExpensiveErrorDiagnosticsDisabled (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/config.js:50:12)
+    at checkCallback (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:136:77)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:76:9
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal should be visible when isModalVisible is true" name="BasketModal should be visible when isModalVisible is true" time="0.134">
+      <failure>Error: expect(received).toBeInTheDocument()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: null
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div
+      id=&quot;GlobalStylesProvider&quot;
+    /&gt;
+    &lt;div
+      class=&quot;ModalRendererstyle__ModalRenderer-sc-160y6ux-0 eOzXim&quot;
+    &gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 uURhy&quot;
+      &gt;
+        &lt;div
+          class=&quot;ModalRendererstyle__ModalWrapper-sc-160y6ux-1 kBTebV animation-container-enter-done&quot;
+        &gt;
+          &lt;div
+            class=&quot;ModalRendererstyle__ContainerWrapper-sc-160y6ux-2 WUlTb&quot;
+            size=&quot;2&quot;
+          &gt;
+            &lt;div
+              class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Containerstyle__Container-sc-pdbblx-0 djGYkj&quot;
+            &gt;
+              &lt;div
+                class=&quot;Containerstyle__ContainerContent-sc-pdbblx-1 nGSfi&quot;
+              &gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;1&quot;
+                /&gt;
+                &lt;div
+                  data-focus-lock-disabled=&quot;false&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__IconButtonWrapper-sc-160y6ux-4 gZxdob&quot;
+                  &gt;
+                    &lt;button
+                      aria-disabled=&quot;false&quot;
+                      aria-label=&quot;Close removePackage&quot;
+                      class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp InteractiveIconstyle__InteractiveIcon-sc-gx42ad-0 eJeguM&quot;
+                      type=&quot;button&quot;
+                    &gt;
+                      &lt;span
+                        aria-hidden=&quot;true&quot;
+                        class=&quot;Iconstyle__Icon-sc-1kjx3w9-0 hBfMdL&quot;
+                        size=&quot;3&quot;
+                      &gt;
+                        &lt;span&gt;
+                          &lt;span&gt;
+                            &lt;span
+                              data-src=&quot;/icons/close.svg&quot;
+                              src=&quot;&quot;
+                            /&gt;
+                          &lt;/span&gt;
+                        &lt;/span&gt;
+                      &lt;/span&gt;
+                    &lt;/button&gt;
+                  &lt;/div&gt;
+                  &lt;div
+                    class=&quot;ModalRendererstyle__ModalContent-sc-160y6ux-3 flUZEE&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;modal-content&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;TwoButtonModalTemplatestyle__TwoButtonModalTemplate-sc-3avtpm-0 xLpco&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__TextWrapper-sc-3avtpm-1 jljZCi&quot;
+                        &gt;
+                          &lt;h1
+                            class=&quot;Headingstyle__Heading-sc-12vluu2-0 ffMYep&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Delete package
+                          &lt;/h1&gt;
+                          &lt;p
+                            class=&quot;Paragraphstyle__Paragraph-sc-1kdgtrh-0 egajGA&quot;
+                            size=&quot;3&quot;
+                          &gt;
+                            Are you sure you&apos;d like to delete this package from your basket? This will empty your basket, and can&apos;t be undone.
+                          &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;TwoButtonModalTemplatestyle__ButtonsContainer-sc-3avtpm-2 ddrOmd&quot;
+                        &gt;
+                          &lt;div
+                            class=&quot;Interactionstyle__BlankInteraction-e1xkgc-2 icCgnk Buttonstyle__Button-sc-twej8-0 gzbhVI&quot;
+                          &gt;
+                            Cancel
+                          &lt;/div&gt;
+                          &lt;button
+                            aria-disabled=&quot;false&quot;
+                            aria-label=&quot;Delete package&quot;
+                            class=&quot;Interactionstyle__Button-e1xkgc-0 ljOtwp Buttonstyle__Button-sc-twej8-0 bitzkh&quot;
+                            data-selector=&quot;delete-package-button&quot;
+                            type=&quot;button&quot;
+                          &gt;
+                            Delete package
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div
+                  data-focus-guard=&quot;true&quot;
+                  style=&quot;width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;&quot;
+                  tabindex=&quot;0&quot;
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/span&gt;
+      &lt;span
+        class=&quot;Animatestyle__Animate-sc-17pgmc7-0 jloKQI&quot;
+      &gt;
+        &lt;div
+          class=&quot;Overlaystyle__Overlay-sc-16yetap-0 fiKYiH animation-container-enter-done&quot;
+        /&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;...
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toBeInTheDocument (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:171:49
+    at runWithExpensiveErrorDiagnosticsDisabled (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/config.js:50:12)
+    at checkCallback (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:136:77)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/@testing-library/dom/dist/wait-for.js:76:9
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname="BasketModal should not be visible when isModalVisible is false" name="BasketModal should not be visible when isModalVisible is false" time="0.005">
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should render correct modal title" name="BasketModal continue shopping modal should render correct modal title" time="0.144">
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should have &quot;SIM only&quot; link with &quot;/business/business-sim-only?continueShopping=true&quot; url when business client" name="BasketModal continue shopping modal should have &quot;SIM only&quot; link with &quot;/business/business-sim-only?continueShopping=true&quot; url when business client" time="0.132">
+      <failure>Error: expect(received).toHaveAttribute()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: undefined
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveAttribute (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:235:20
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should have &quot;SIM only&quot; link with &quot;/mobile/best-sim-only-deals?continueShopping=true&quot; url when private client" name="BasketModal continue shopping modal should have &quot;SIM only&quot; link with &quot;/mobile/best-sim-only-deals?continueShopping=true&quot; url when private client" time="0.127">
+      <failure>Error: expect(received).toHaveAttribute()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: undefined
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveAttribute (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:235:20
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should have &quot;Phones&quot; link with &quot;/business/business-mobile-phones/pay-monthly-contracts?continueShopping=true&quot; url when business client" name="BasketModal continue shopping modal should have &quot;Phones&quot; link with &quot;/business/business-mobile-phones/pay-monthly-contracts?continueShopping=true&quot; url when business client" time="0.128">
+      <failure>Error: expect(received).toHaveAttribute()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: undefined
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveAttribute (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:235:20
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should have &quot;Phones&quot; link with &quot;/mobile/phones/pay-monthly-contracts?continueShopping=true&quot; url when private client" name="BasketModal continue shopping modal should have &quot;Phones&quot; link with &quot;/mobile/phones/pay-monthly-contracts?continueShopping=true&quot; url when private client" time="0.124">
+      <failure>Error: expect(received).toHaveAttribute()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: undefined
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveAttribute (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:235:20
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should have &quot;Phones&quot; link with &quot;/business/mobile/phones/pay-as-you-go?continueShopping=true&quot; url when business client" name="BasketModal continue shopping modal should have &quot;Phones&quot; link with &quot;/business/mobile/phones/pay-as-you-go?continueShopping=true&quot; url when business client" time="0.123">
+      <failure>Error: expect(received).toHaveAttribute()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: undefined
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveAttribute (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:235:20
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should have &quot;Phones&quot; link with &quot;/mobile/phones/pay-as-you-go?continueShopping=true&quot; url when private client" name="BasketModal continue shopping modal should have &quot;Phones&quot; link with &quot;/mobile/phones/pay-as-you-go?continueShopping=true&quot; url when private client" time="0.123">
+      <failure>Error: expect(received).toHaveAttribute()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: undefined
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveAttribute (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:235:20
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should have &quot;Broadband&quot; link with &quot;/business/business-connectivity/broadband-and-phone?continueShopping=true&quot; url when business client" name="BasketModal continue shopping modal should have &quot;Broadband&quot; link with &quot;/business/business-connectivity/broadband-and-phone?continueShopping=true&quot; url when business client" time="0.124">
+      <failure>Error: expect(received).toHaveAttribute()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: undefined
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveAttribute (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:235:20
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should have &quot;Broadband&quot; link with &quot;/broadband?continueShopping=true&quot; url when private client" name="BasketModal continue shopping modal should have &quot;Broadband&quot; link with &quot;/broadband?continueShopping=true&quot; url when private client" time="0.125">
+      <failure>Error: expect(received).toHaveAttribute()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: undefined
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveAttribute (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:235:20
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should have &quot;Data only SIM&quot; link with &quot;/business/data-only-sim?continueShopping=true&quot; url when business client" name="BasketModal continue shopping modal should have &quot;Data only SIM&quot; link with &quot;/business/data-only-sim?continueShopping=true&quot; url when business client" time="0.124">
+      <failure>Error: expect(received).toHaveAttribute()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: undefined
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveAttribute (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:235:20
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should have &quot;Data only SIM&quot; link with &quot;/data-only-sim?continueShopping=true&quot; url when private client" name="BasketModal continue shopping modal should have &quot;Data only SIM&quot; link with &quot;/data-only-sim?continueShopping=true&quot; url when private client" time="0.123">
+      <failure>Error: expect(received).toHaveAttribute()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: undefined
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveAttribute (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:235:20
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should have &quot;Tablets&quot; link with &quot;/business/mobile-broadband/tablets?continueShopping=true&quot; url when business client" name="BasketModal continue shopping modal should have &quot;Tablets&quot; link with &quot;/business/mobile-broadband/tablets?continueShopping=true&quot; url when business client" time="0.125">
+      <failure>Error: expect(received).toHaveAttribute()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: undefined
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveAttribute (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:235:20
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should have &quot;Tablets&quot; link with &quot;/mobile-broadband/tablets?continueShopping=true&quot; url when private client" name="BasketModal continue shopping modal should have &quot;Tablets&quot; link with &quot;/mobile-broadband/tablets?continueShopping=true&quot; url when private client" time="0.12">
+      <failure>Error: expect(received).toHaveAttribute()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: undefined
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveAttribute (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:235:20
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should have &quot;Mobile Wi-Fi&quot; link with &quot;/business/mobile-broadband/dongles-and-mobile-wifi?continueShopping=true&quot; url when business client" name="BasketModal continue shopping modal should have &quot;Mobile Wi-Fi&quot; link with &quot;/business/mobile-broadband/dongles-and-mobile-wifi?continueShopping=true&quot; url when business client" time="0.126">
+      <failure>Error: expect(received).toHaveAttribute()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: undefined
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveAttribute (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:235:20
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should have &quot;Mobile Wi-Fi&quot; link with &quot;/mobile-broadband/dongles-and-mobile-wifi?continueShopping=true&quot; url when private client" name="BasketModal continue shopping modal should have &quot;Mobile Wi-Fi&quot; link with &quot;/mobile-broadband/dongles-and-mobile-wifi?continueShopping=true&quot; url when private client" time="0.123">
+      <failure>Error: expect(received).toHaveAttribute()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: undefined
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveAttribute (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:235:20
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should have &quot;Smartwatches&quot; link with &quot;/business/smart-watches-and-wearables?continueShopping=true&quot; url when business client" name="BasketModal continue shopping modal should have &quot;Smartwatches&quot; link with &quot;/business/smart-watches-and-wearables?continueShopping=true&quot; url when business client" time="0.123">
+      <failure>Error: expect(received).toHaveAttribute()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: undefined
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveAttribute (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:235:20
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+    <testcase classname="BasketModal continue shopping modal should have &quot;Smartwatches&quot; link with &quot;/smart-watches-and-wearables?continueShopping=true&quot; url when private client" name="BasketModal continue shopping modal should have &quot;Smartwatches&quot; link with &quot;/smart-watches-and-wearables?continueShopping=true&quot; url when private client" time="0.122">
+      <failure>Error: expect(received).toHaveAttribute()
+
+received value must be an HTMLElement or an SVGElement.
+Received has value: undefined
+    at __EXTERNAL_MATCHER_TRAP__ (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:342:30)
+    at Object.toHaveAttribute (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/expect/build/index.js:343:15)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/projects/basket/app/client/components/BasketModal/BasketModal.test.tsx:235:20
+    at Object.&lt;anonymous&gt; (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-each/build/bind.js:76:13)
+    at Object.asyncJestTest (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/martinegan/development/external/vodafone/__poc/mfe-monorepo/node_modules/jest-jasmine2/build/queueRunner.js:75:41</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+{
+  "errorCode": "MAXIMUM_LENDING_LIMIT",
+  "errorMessage": "The customer has reached the max lending limit.",
+  "referenceId": "24aeb38f-59ea-46b3-af2c-36224d16e3ec",
+  "validationDetails": null,
+  "__cacheMeta": {
+    "date": "06/01/2020 11:12:42",
+    "status": 400
+  }
+}

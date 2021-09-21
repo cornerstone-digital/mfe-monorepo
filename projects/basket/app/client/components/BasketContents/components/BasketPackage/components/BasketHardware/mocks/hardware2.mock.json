@@ -1,0 +1,49 @@
+{
+  "packageLineId": "06b180fe-cc4c-4d2b-b4a5-e283ddcbced7",
+  "action": "ADD",
+  "skuId": "200692",
+  "name": "Vodafone VOX 3.0 Uk",
+  "description": null,
+  "displayName": "Vodafone Broadband Router",
+  "displayDescription": null,
+  "deviceBriefDescription": [],
+  "deviceColor": null,
+  "memorySize": null,
+  "make": null,
+  "model": null,
+  "groupType": null,
+  "productClass": "Fixed Broadband Equipment",
+  "displayOrder": null,
+  "showInSummary": false,
+  "merchandisingMedia": [{
+    "id": "imageURLs.thumbs.front",
+    "value": "/assets/images/desktop/IMG_170x170_VOIX_30_Router.png",
+    "type": "URL",
+    "footNotes": [""]
+  }],
+  "attributes": [],
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "merchandisingPromotions": null,
+    "monthlyPrice": null,
+    "monthlyDiscountPrice": null,
+    "financingOptions": [],
+    "deviceFinancingId": null
+  },
+  "boxPrice": {
+    "gross": "69.72",
+    "net": "58.10",
+    "vat": "11.62"
+  },
+  "freeGift": false,
+  "isChanged": false
+}

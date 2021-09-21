@@ -1,0 +1,555 @@
+{
+  "basketId": "64cdef57-3ef7-4801-9faf-dd730f3edeeb",
+  "affiliateId": null,
+  "source": "WCS",
+  "customerRequestedDate": "2020-09-15T10:41:29.000Z",
+  "metadata": {
+    "returnURL": null,
+    "basketStatus": "INCOMPLETE",
+    "salesOrderId": null,
+    "reason": null
+  },
+  "journey": {
+    "journeyType": "Acquisition",
+    "offerCode": null
+  },
+  "packages": [{
+    "packageId": "ccc1d216-a80e-4387-b947-de1577e416be",
+    "accountCategory": "Consumer",
+    "sequence": 1,
+    "packageType": "Acquisition",
+    "removable": true,
+    "dependentOn": [],
+    "voucherCode": null,
+    "bundle": {
+      "packageLineId": "c19c49c6-7aff-44a3-9efe-f6aafe414926",
+      "action": "ADD",
+      "skuId": "111150",
+      "name": "Superfast 1 Home Broadband & Phone - FTR6 24m",
+      "description": "This is a Consumer line of Superfast 1 Fibre Broadband and Home Phone contract term 24m",
+      "displayName": "Superfast 1",
+      "displayDescription": "Superfast 1",
+      "bundleClass": "HANDSET",
+      "productClass": null,
+      "serviceId": "107551",
+      "paymentType": "Postpaid",
+      "bundleType": null,
+      "commitmentPeriod": {
+        "uom": "Months",
+        "value": "24"
+      },
+      "displayOrder": null,
+      "showInSummary": false,
+      "allowances": null,
+      "merchandisingMedia": [],
+      "attributes": null,
+      "priceDetails": {
+        "monthlyPrice": {
+          "gross": "23",
+          "net": "19.17",
+          "vat": "3.83"
+        },
+        "monthlyDiscountPrice": {
+          "gross": "23",
+          "net": "19.17",
+          "vat": "3.83"
+        },
+        "totalSavingsAmount": null,
+        "merchandisingPromotions": null,
+        "listOfMerchandisingPromotion": [],
+        "removedPromotionFootNote": null
+      },
+      "isVodafoneGlobalRoaming": false,
+      "bundledServiceProducts": [{
+        "skuId": "107551",
+        "name": "Fixed Line Service",
+        "description": "Fixed Line Service",
+        "productClass": "Fixed Line",
+        "servicePointId": "107554",
+        "priceDetail": {
+          "oneOffPrice": null,
+          "oneOffDiscountPrice": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "merchandisingPromotions": null
+        },
+        "miscellaneous": [{
+          "name": "SERVICE POINT",
+          "value": "Land Line"
+        }]
+      }, {
+        "skuId": "107552",
+        "name": "Fixed Broadband Service",
+        "description": "Fixed Broadband Service",
+        "productClass": "Fixed Broadband Service",
+        "servicePointId": "107577",
+        "priceDetail": {
+          "oneOffPrice": null,
+          "oneOffDiscountPrice": null,
+          "monthlyPrice": null,
+          "monthlyDiscountPrice": null,
+          "merchandisingPromotions": null
+        },
+        "miscellaneous": [{
+          "name": "SERVICE POINT",
+          "value": "Unlimited Fibre 38"
+        }]
+      }],
+      "planCategory": "CONSUMER",
+      "portability": null,
+      "speed": null,
+      "maxCapSpeed": "40000",
+      "avgDownloadSpeed": null,
+      "isChanged": false
+    },
+    "hardwares": [{
+      "packageLineId": "c4fa7563-da13-473f-b41f-4753a2e695d0",
+      "action": "ADD",
+      "skuId": "206680",
+      "name": "Vodafone Wi-Fi Hub",
+      "description": null,
+      "displayName": "Vodafone Wi-Fi Hub",
+      "displayDescription": null,
+      "deviceBriefDescription": [{
+        "key": "latestRouter",
+        "value": "true",
+        "type": null,
+        "valueUOM": null
+      }, {
+        "key": "deliveryConsideration",
+        "value": "Alpha",
+        "type": null,
+        "valueUOM": null
+      }],
+      "deviceColor": null,
+      "memorySize": null,
+      "make": null,
+      "model": null,
+      "groupType": null,
+      "productClass": "Fixed broadband equipment 2019",
+      "productSubClass": null,
+      "displayOrder": null,
+      "showInSummary": false,
+      "merchandisingMedia": [{
+        "id": "imageURLs.thumbs.front",
+        "value": "/images/small/IMG_Router_VOX3_Broadband.jpg",
+        "type": "URL",
+        "footNotes": [""]
+      }],
+      "attributes": [],
+      "contractOptions": null,
+      "priceDetails": {
+        "oneOffPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "oneOffDiscountPrice": {
+          "gross": "0",
+          "net": "0",
+          "vat": "0"
+        },
+        "merchandisingPromotions": null,
+        "monthlyPrice": null,
+        "monthlyDiscountPrice": null,
+        "financingOptions": [],
+        "deviceFinancingId": null,
+        "devicePaymentPlan": null
+      },
+      "boxPrice": {
+        "gross": "0.0",
+        "net": "0.0",
+        "vat": "0.0"
+      },
+      "freeGift": false,
+      "devicePromotion": null,
+      "simType": "PHYSICAL",
+      "isChanged": false,
+      "isCompatibleWithWatch": false
+    }],
+    "services": [],
+    "discounts": [],
+    "priceDetails": {
+      "oneOffPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "oneOffDiscountPrice": {
+        "gross": "0",
+        "net": "0",
+        "vat": "0"
+      },
+      "monthlyPrice": {
+        "gross": "23",
+        "net": "19.17",
+        "vat": "3.83"
+      },
+      "monthlyDiscountPrice": {
+        "gross": "23",
+        "net": "19.17",
+        "vat": "3.83"
+      },
+      "financingOptions": null
+    },
+    "installationAddress": {
+      "identification": {
+        "id": "A00018703253",
+        "contextId": "Gold"
+      },
+      "postCode": "SM3 8EL",
+      "houseName": "",
+      "houseNumber": "213",
+      "flatNumber": "",
+      "streetName": "Malden Road",
+      "town": "Sutton",
+      "county": "Surrey",
+      "country": "United Kingdom",
+      "locality": "",
+      "citySubDivisionName": "LS",
+      "moveTypeCode": null
+    },
+    "appointmentWindow": null,
+    "servicePoint": {
+      "lineRefernece": {
+        "lineLocator": {
+          "exchangeCode": "NCHM",
+          "exchangeName": "NORTH CHEAM",
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": "Working",
+          "accessLineStatus": "Working",
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": [{
+          "featureCode": "MAINLINE_DIRECTORY",
+          "directoryCode": "ORDINARY",
+          "locationCode": "INDIVIDUAL"
+        }]
+      },
+      "lineReference": {
+        "lineLocator": {
+          "exchangeCode": "NCHM",
+          "exchangeName": "NORTH CHEAM",
+          "districtCode": null,
+          "l2SID": null,
+          "cableLinkID": null,
+          "distributionPoint": null
+        },
+        "lineSettings": {
+          "serviceCode": null,
+          "installationCode": null,
+          "terminationCode": null
+        },
+        "lineStatus": {
+          "statusCode": "Working",
+          "accessLineStatus": "Working",
+          "gnpStatus": null,
+          "lineOption": null,
+          "technology": null,
+          "lineType": null,
+          "tempStructure": false,
+          "standbyPowerRequired": false,
+          "narrowBandServicesAvailable": "null"
+        },
+        "availableServices": null,
+        "lineDirectory": [{
+          "featureCode": "MAINLINE_DIRECTORY",
+          "directoryCode": "ORDINARY",
+          "locationCode": "INDIVIDUAL"
+        }]
+      },
+      "serviceReference": {
+        "serviceLines": [{
+          "classificationCode": "Line and Fibre with Speed 38",
+          "networkType": "Onnet",
+          "lineTreatments": [{
+            "identification": "EXISTING",
+            "earliestAvailableDate": "2020-10-01T00:00:00.000Z",
+            "appointmentNeeded": false,
+            "connectionCharge": "No Charge",
+            "preOrder": false,
+            "registerOfInterest": false
+          }, {
+            "identification": "NEW",
+            "earliestAvailableDate": "2020-09-29T00:00:00.000Z",
+            "appointmentNeeded": true,
+            "connectionCharge": "Line",
+            "preOrder": false,
+            "registerOfInterest": false
+          }],
+          "serviceLines": [{
+            "itemReference": {
+              "identificationId": null,
+              "name": null,
+              "classificationCode": "Line"
+            },
+            "lineSpeeds": {
+              "maxDownSpeed": null,
+              "minDownSpeed": null,
+              "avgDownSpeed": null,
+              "minGuaranteedDownSpeed": null,
+              "maxUpSpeed": null,
+              "minUpSpeed": null,
+              "bandwidthMeasure": null
+            },
+            "miscRefernce": {
+              "serviceProviderName": null,
+              "lineLength": null,
+              "customerAgreedDate": null,
+              "readyForServiceDate": null,
+              "anfp": null,
+              "installationType": null
+            },
+            "serviceLineTreatments": null
+          }, {
+            "itemReference": {
+              "identificationId": "PC00041",
+              "name": "Single Play FTTC",
+              "classificationCode": "Fibre with Speed 38"
+            },
+            "lineSpeeds": {
+              "maxDownSpeed": "38000.00",
+              "minDownSpeed": "38000.00",
+              "avgDownSpeed": null,
+              "minGuaranteedDownSpeed": "35000.00",
+              "maxUpSpeed": "10000.00",
+              "minUpSpeed": "10000.00",
+              "bandwidthMeasure": "Predicted"
+            },
+            "miscRefernce": {
+              "serviceProviderName": null,
+              "lineLength": null,
+              "customerAgreedDate": null,
+              "readyForServiceDate": null,
+              "anfp": "Extra Short from cabinet",
+              "installationType": null
+            },
+            "serviceLineTreatments": [{
+              "parentIdentification": "NEW",
+              "serviceType": "FTTC",
+              "serviceAction": "Provide",
+              "simValue": "SIM2",
+              "lineInfo": "Spare Pair",
+              "canNumberBeRetained": false,
+              "portInFlag": null,
+              "vicCode": null,
+              "pendingOrders": null,
+              "accessLine": {
+                "id": null,
+                "channelId": null
+              }
+            }, {
+              "parentIdentification": "EXISTING",
+              "serviceType": "FTTC",
+              "serviceAction": "Provide",
+              "simValue": "SIM2",
+              "lineInfo": "MPF Working Line Takeover",
+              "canNumberBeRetained": false,
+              "portInFlag": null,
+              "vicCode": null,
+              "pendingOrders": [{
+                "completionDate": null,
+                "typeCode": "CANCEL",
+                "thirdPartyFlag": "false"
+              }],
+              "accessLine": {
+                "id": "UUB1988396U9",
+                "channelId": "MPF_ACCESSLINE"
+              }
+            }]
+          }]
+        }, {
+          "classificationCode": "Line and Fibre with Speed 76",
+          "networkType": "Onnet",
+          "lineTreatments": [{
+            "identification": "EXISTING",
+            "earliestAvailableDate": "2020-10-01T00:00:00.000Z",
+            "appointmentNeeded": false,
+            "connectionCharge": "No Charge",
+            "preOrder": false,
+            "registerOfInterest": false
+          }, {
+            "identification": "NEW",
+            "earliestAvailableDate": "2020-09-29T00:00:00.000Z",
+            "appointmentNeeded": true,
+            "connectionCharge": "Line",
+            "preOrder": false,
+            "registerOfInterest": false
+          }],
+          "serviceLines": [{
+            "itemReference": {
+              "identificationId": null,
+              "name": null,
+              "classificationCode": "Line"
+            },
+            "lineSpeeds": {
+              "maxDownSpeed": null,
+              "minDownSpeed": null,
+              "avgDownSpeed": null,
+              "minGuaranteedDownSpeed": null,
+              "maxUpSpeed": null,
+              "minUpSpeed": null,
+              "bandwidthMeasure": null
+            },
+            "miscRefernce": {
+              "serviceProviderName": null,
+              "lineLength": null,
+              "customerAgreedDate": null,
+              "readyForServiceDate": null,
+              "anfp": null,
+              "installationType": null
+            },
+            "serviceLineTreatments": null
+          }, {
+            "itemReference": {
+              "identificationId": "PC00041",
+              "name": "Single Play FTTC",
+              "classificationCode": "Fibre with Speed 76"
+            },
+            "lineSpeeds": {
+              "maxDownSpeed": "76000.00",
+              "minDownSpeed": "76000.00",
+              "avgDownSpeed": null,
+              "minGuaranteedDownSpeed": "73000.00",
+              "maxUpSpeed": "20000.00",
+              "minUpSpeed": "19000.00",
+              "bandwidthMeasure": "Predicted"
+            },
+            "miscRefernce": {
+              "serviceProviderName": null,
+              "lineLength": null,
+              "customerAgreedDate": null,
+              "readyForServiceDate": null,
+              "anfp": "Extra Short from cabinet",
+              "installationType": null
+            },
+            "serviceLineTreatments": [{
+              "parentIdentification": "NEW",
+              "serviceType": "FTTC",
+              "serviceAction": "Provide",
+              "simValue": "SIM2",
+              "lineInfo": "Spare Pair",
+              "canNumberBeRetained": false,
+              "portInFlag": null,
+              "vicCode": null,
+              "pendingOrders": null,
+              "accessLine": {
+                "id": null,
+                "channelId": null
+              }
+            }, {
+              "parentIdentification": "EXISTING",
+              "serviceType": "FTTC",
+              "serviceAction": "Provide",
+              "simValue": "SIM2",
+              "lineInfo": "MPF Working Line Takeover",
+              "canNumberBeRetained": false,
+              "portInFlag": null,
+              "vicCode": null,
+              "pendingOrders": [{
+                "completionDate": null,
+                "typeCode": "CANCEL",
+                "thirdPartyFlag": "false"
+              }],
+              "accessLine": {
+                "id": "UUB1988396U9",
+                "channelId": "MPF_ACCESSLINE"
+              }
+            }]
+          }]
+        }]
+      }
+    },
+    "serviceStartDate": null,
+    "phoneNumber": null,
+    "primaryDeviceIdentifier": null,
+    "packageLinkIdentifier": null,
+    "linePackageType": "Line and Fibre with Speed 38",
+    "lineTreatmentType": "EXISTING",
+    "planType": "BroadBand:FTTC",
+    "combiPackageId": null,
+    "deviceFinancingId": null,
+    "additionalDetails": {},
+    "isChanged": false
+  }],
+  "vetOutcome": null,
+  "priceDetails": {
+    "oneOffPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "oneOffDiscountPrice": {
+      "gross": "0",
+      "net": "0",
+      "vat": "0"
+    },
+    "monthlyPrice": {
+      "gross": "23",
+      "net": "19.17",
+      "vat": "3.83"
+    },
+    "monthlyDiscountPrice": {
+      "gross": "23",
+      "net": "19.17",
+      "vat": "3.83"
+    }
+  },
+  "totalOneoffPriceSaving": "0.0",
+  "totalMonthlyPriceSaving": "0",
+  "deliveryInfo": null,
+  "voucherCode": null,
+  "voucherDescription": null,
+  "validated": false,
+  "hashvalue": "-1749678580",
+  "lastModified": "2020-09-16T16:18:43.397Z",
+  "changeCode": null,
+  "combiPackageIds": [],
+  "voucherErrorMessage": null,
+  "activeBundles": [],
+  "splitDeliveryEligible": false,
+  "priceProposal": [{
+    "packageId": "ccc1d216-a80e-4387-b947-de1577e416be",
+    "promotionType": "CROSS_SELL",
+    "productDetail": {
+      "category": "SIMO_24",
+      "lineType": "QUALIFYING_LINE"
+    },
+    "saving": {
+      "minimum": null,
+      "maximum": null,
+      "exact": {
+        "value": 2.5,
+        "uom": "£",
+        "message": "You'll save £3 a month on Home Broadband when combined with an SIM Only plan"
+      }
+    },
+    "qualifyingLine": {
+      "bundleId": "111150",
+      "displayName": "Superfast 1",
+      "identifier": {
+        "key": "PackageId",
+        "value": "ccc1d216-a80e-4387-b947-de1577e416be"
+      }
+    }
+  }],
+  "affiliateFlag": false,
+  "isChanged": false
+}
